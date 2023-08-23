@@ -1,0 +1,38 @@
+{
+  "name": "asset-packs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "download": "ts-node ./scripts/download.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decentraland/asset-packs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/decentraland/asset-packs/issues"
+  },
+  "homepage": "https://github.com/decentraland/asset-packs#readme",
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.4",
+    "prettier": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.395.0",
+    "dotenv": "^16.3.1",
+    "fp-future": "^1.0.1",
+    "node-fetch": "^2.6.13",
+    "rimraf": "^5.0.1"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "printWidth": 80
+  }
+}
