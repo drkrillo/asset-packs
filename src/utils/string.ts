@@ -4,4 +4,5 @@ export function slug(title: string) {
     .replace(/\s+\-\s+/gi, ' ')
     .trim()
     .replace(/\s/gi, '_')
+    .replace(/[^a-zA-Z0-9\_\-\&]/gi, '')
 }
