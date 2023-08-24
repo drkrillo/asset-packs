@@ -1,0 +1,10 @@
+{
+  "id": "f8ff05e0-60c2-4c8a-aee3-14796ef97509",
+  "name": "Doubloon",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Coin_01/Coin_01.glb"
+    }
+  }
+}

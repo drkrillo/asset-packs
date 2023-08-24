@@ -1,0 +1,10 @@
+{
+  "id": "184b8f4a-e69c-4645-be3b-c21f3b75ab7c",
+  "name": "Dracaena",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Vegetation_02/Vegetation_02.glb"
+    }
+  }
+}

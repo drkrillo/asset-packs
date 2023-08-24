@@ -1,0 +1,10 @@
+{
+  "id": "5dc7fd31-fe40-4548-aafe-8ccaa124a218",
+  "name": "Red Melon Gauze Lantern",
+  "category": "year of the pig",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/ChineseLantern_01/ChineseLantern_01.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "d4578594-5b72-45bc-9505-93732eb65120",
+  "name": "Medium Straight Old Dock Module",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/DocksModuleMedium_02/DocksModuleMedium_02.glb"
+    }
+  }
+}

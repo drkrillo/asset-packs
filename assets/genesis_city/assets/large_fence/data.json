@@ -1,0 +1,10 @@
+{
+  "id": "6018e89d-e995-476a-ae26-deab3628cf29",
+  "name": "Large Fence",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FencePicketLarge_01/FencePicketLarge_01.glb"
+    }
+  }
+}

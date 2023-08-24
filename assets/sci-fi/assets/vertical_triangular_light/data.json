@@ -1,0 +1,10 @@
+{
+  "id": "cd99e2dd-9b36-4b83-bbeb-d5eef190d81a",
+  "name": "Vertical Triangular Light",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Light_01/Light_01.glb"
+    }
+  }
+}

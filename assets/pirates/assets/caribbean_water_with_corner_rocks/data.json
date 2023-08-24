@@ -1,0 +1,10 @@
+{
+  "id": "fc559a0b-41b9-4d53-b24c-1713ad9c161c",
+  "name": "Caribbean Water with Corner Rocks",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/WaterPatchCornerInside_01/WaterPatchCornerInside_01.glb"
+    }
+  }
+}

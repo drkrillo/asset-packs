@@ -1,0 +1,10 @@
+{
+  "id": "f5ba6e7b-5842-483e-a450-8bb438f22a62",
+  "name": "Blue Neon Tube",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/NeonLightTube_04/NeonLightTube_04.glb"
+    }
+  }
+}

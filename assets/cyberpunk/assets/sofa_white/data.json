@@ -1,0 +1,10 @@
+{
+  "id": "c467923e-d933-43e3-ba90-1acaf8339977",
+  "name": "Sofa - White",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Sofa_White.glb"
+    }
+  }
+}

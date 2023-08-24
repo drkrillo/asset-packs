@@ -1,0 +1,10 @@
+{
+  "id": "a1efa701-cd29-4296-9a92-9aeb8ebdaaf7",
+  "name": "Smal Stone Path",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/StonePath_03/StonePath_03.glb"
+    }
+  }
+}

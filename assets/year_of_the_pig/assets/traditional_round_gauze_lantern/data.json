@@ -1,0 +1,10 @@
+{
+  "id": "33a6078d-b432-439b-82fd-8e4a1c405186",
+  "name": "Traditional Round Gauze Lantern",
+  "category": "year of the pig",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/ChineseLantern_04/ChineseLantern_04.glb"
+    }
+  }
+}

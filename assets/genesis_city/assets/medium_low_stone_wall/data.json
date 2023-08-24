@@ -1,0 +1,10 @@
+{
+  "id": "6dc1e158-4ebe-4b70-b079-df21548aaec2",
+  "name": "Medium Low Stone Wall",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FenceStoneMedium_02/FenceStoneMedium_02.glb"
+    }
+  }
+}

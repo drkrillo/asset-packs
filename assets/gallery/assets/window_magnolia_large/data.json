@@ -1,0 +1,10 @@
+{
+  "id": "d0aba886-62a2-4e6c-9681-a2dd1557ca61",
+  "name": "Window - Magnolia Large",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/MagnoliaWindowLarge.glb"
+    }
+  }
+}

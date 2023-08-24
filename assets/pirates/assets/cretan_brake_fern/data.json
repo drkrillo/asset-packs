@@ -1,0 +1,10 @@
+{
+  "id": "1c695510-caea-4768-a3ac-f4d82a33ef2d",
+  "name": "Cretan Brake Fern",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Grass_03/Grass_03.glb"
+    }
+  }
+}

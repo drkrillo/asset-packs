@@ -1,0 +1,10 @@
+{
+  "id": "6663c8b1-ab4b-45fa-a80f-58f3b08d8b60",
+  "name": "Window 2x4 Broken",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Window 2x4 Broken.glb"
+    }
+  }
+}

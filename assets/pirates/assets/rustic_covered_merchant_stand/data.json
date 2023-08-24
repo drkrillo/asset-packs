@@ -1,0 +1,10 @@
+{
+  "id": "fd4f0586-a75e-403a-90e6-83634d72be1d",
+  "name": "Rustic Covered Merchant Stand",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/SellingGoods_03/SellingGoods_03.glb"
+    }
+  }
+}

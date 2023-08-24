@@ -1,0 +1,10 @@
+{
+  "id": "7a4916ca-b75b-4148-ac61-dd8d192a3737",
+  "name": "Curved Cart Track Module",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/TrainTrack_Curve_01/TrainTrack_Curve_01.glb"
+    }
+  }
+}

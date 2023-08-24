@@ -1,0 +1,10 @@
+{
+  "id": "af5f5902-1579-4ad8-9a3c-1db2aa39fac5",
+  "name": "Roof - Lime 3Edges",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/LimeRoof_3Edges.glb"
+    }
+  }
+}

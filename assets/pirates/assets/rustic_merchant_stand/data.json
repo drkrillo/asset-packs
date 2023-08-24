@@ -1,0 +1,10 @@
+{
+  "id": "c6041ea8-7c19-4658-81b8-37f19ecd0922",
+  "name": "Rustic Merchant stand",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/SellingGoods_01/SellingGoods_01.glb"
+    }
+  }
+}

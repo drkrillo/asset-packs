@@ -1,0 +1,10 @@
+{
+  "id": "43ab9bc6-bc2a-4ee1-815a-e12f60a709ae",
+  "name": "Grass Sprout",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Grass_03/Grass_03.glb"
+    }
+  }
+}

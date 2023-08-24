@@ -1,0 +1,10 @@
+{
+  "id": "8a3ece84-395c-47fa-a920-dd554378f49b",
+  "name": "Window 2x4 Frame",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Window 2x4 Frame.glb"
+    }
+  }
+}

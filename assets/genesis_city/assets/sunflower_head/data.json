@@ -1,0 +1,10 @@
+{
+  "id": "29198994-d436-4b4b-8314-cfa2c4306dd9",
+  "name": "Sunflower Head",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Flower_01/Flower_01.glb"
+    }
+  }
+}

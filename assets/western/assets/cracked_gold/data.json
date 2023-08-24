@@ -1,0 +1,10 @@
+{
+  "id": "c8f92d79-338f-4125-b12f-e2b3df2a1063",
+  "name": "Cracked Gold",
+  "category": "ground",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Cracked Gold.glb"
+    }
+  }
+}

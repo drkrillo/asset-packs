@@ -1,0 +1,10 @@
+{
+  "id": "ecc2ed46-09d4-4aca-bd07-9e540255b386",
+  "name": "Small Iron & Stone Fence Module",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Fence_Iron_1M/Fence_Iron_1M.glb"
+    }
+  }
+}

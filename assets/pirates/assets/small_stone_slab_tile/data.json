@@ -1,0 +1,10 @@
+{
+  "id": "5a8b0922-0eee-4e0e-bbb3-4134616fef76",
+  "name": "Small Stone Slab Tile",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/StoneSlabSmall_01/StoneSlabSmall_01.glb"
+    }
+  }
+}

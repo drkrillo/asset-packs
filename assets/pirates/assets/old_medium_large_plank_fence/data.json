@@ -1,0 +1,10 @@
+{
+  "id": "54a11fed-412b-4c72-ab34-29d028538a93",
+  "name": "Old Medium Large Plank Fence",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FenceWoodMedium_02/FenceWoodMedium_02.glb"
+    }
+  }
+}

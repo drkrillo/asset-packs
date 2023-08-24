@@ -1,0 +1,10 @@
+{
+  "id": "6122dafc-61e6-47c5-b238-3765fe485044",
+  "name": "Pink Purple Mystical Mushroom Tree",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Tree_01/Tree_01.glb"
+    }
+  }
+}

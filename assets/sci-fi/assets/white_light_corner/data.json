@@ -1,0 +1,10 @@
+{
+  "id": "94ce7a8c-0f62-4046-8c24-d427e8215ba0",
+  "name": "White Light Corner",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/LightCorner_03/LightCorner_03.glb"
+    }
+  }
+}

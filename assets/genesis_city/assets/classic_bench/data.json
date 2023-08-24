@@ -1,0 +1,10 @@
+{
+  "id": "2cd78a5d-d01d-4d31-8940-c7fb8948e14e",
+  "name": "Classic Bench",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Bench_01/Bench_01.glb"
+    }
+  }
+}

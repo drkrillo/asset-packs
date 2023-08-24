@@ -1,0 +1,10 @@
+{
+  "id": "669b910d-c45c-4712-baa8-7e7e9fde3db2",
+  "name": "Vertical Purple Pad",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/Vertical_Purple_Pad.glb"
+    }
+  }
+}

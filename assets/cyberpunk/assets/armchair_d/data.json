@@ -1,0 +1,10 @@
+{
+  "id": "1bff6908-e888-4cc6-b2be-0b8656113fdd",
+  "name": "Armchair D",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Armchair_D.glb"
+    }
+  }
+}

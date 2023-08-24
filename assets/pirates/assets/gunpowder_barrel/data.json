@@ -1,0 +1,10 @@
+{
+  "id": "5506263d-49a3-4bbf-9df5-c144cfffcd5f",
+  "name": "Gunpowder Barrel",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Barrel_01/Barrel_01.glb"
+    }
+  }
+}

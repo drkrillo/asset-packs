@@ -1,0 +1,10 @@
+{
+  "id": "804b3b43-cf0b-43fc-817d-b1b9aa9e3653",
+  "name": "Ringed Planet",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Planet_04/Planet_04.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "4563ad1f-84d1-47d5-a7ac-f159ba59b3e7",
+  "name": "Monstera Deliciosa",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/JunglePlant_03/JunglePlant_03.glb"
+    }
+  }
+}

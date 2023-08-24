@@ -1,0 +1,10 @@
+{
+  "id": "3bd7d322-f897-444e-99f1-e4e82fb2c035",
+  "name": "Concrete",
+  "category": "ground",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FloorBaseConcrete_01/FloorBaseConcrete_01.glb"
+    }
+  }
+}

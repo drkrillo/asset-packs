@@ -1,0 +1,10 @@
+{
+  "id": "734c6696-dc46-4f79-a817-41319bcc7395",
+  "name": "Java Fern",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Grass_01/Grass_01.glb"
+    }
+  }
+}

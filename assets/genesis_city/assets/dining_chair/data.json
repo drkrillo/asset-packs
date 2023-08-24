@@ -1,0 +1,10 @@
+{
+  "id": "5e074edf-f83b-48ff-a7f0-f7f3302a20d8",
+  "name": "Dining Chair",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Chair_04/Chair_04.glb"
+    }
+  }
+}

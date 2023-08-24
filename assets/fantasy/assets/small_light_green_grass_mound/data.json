@@ -1,0 +1,10 @@
+{
+  "id": "9b8937e4-2568-446c-9fc4-9d3fb275d366",
+  "name": "Small Light Green Grass Mound",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/GrassPatchSmall_05/GrassPatchSmall_05.glb"
+    }
+  }
+}

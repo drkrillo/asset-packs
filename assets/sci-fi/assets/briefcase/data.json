@@ -1,0 +1,10 @@
+{
+  "id": "cfcaaf5d-7023-4852-8a56-43e4537c9fef",
+  "name": "Briefcase",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/CaseSciFi_01/CaseSciFi_01.glb"
+    }
+  }
+}

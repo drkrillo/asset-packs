@@ -1,0 +1,10 @@
+{
+  "id": "c1da72b5-fbda-4ba5-ad96-a921a3ef0d3b",
+  "name": "Square Signpost",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/signpost/SignPost_Square.glb"
+    }
+  }
+}

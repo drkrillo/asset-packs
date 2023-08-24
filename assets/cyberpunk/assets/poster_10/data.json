@@ -1,0 +1,10 @@
+{
+  "id": "cddff817-7d8c-499b-b5d9-e31da3783778",
+  "name": "Poster 10",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Poster10.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "001f544b-38c6-4a3b-a364-8e74b9662850",
+  "name": "Tomato",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FoodTomato_01/FoodTomato_01.glb"
+    }
+  }
+}

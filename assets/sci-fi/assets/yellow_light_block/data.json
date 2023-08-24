@@ -1,0 +1,10 @@
+{
+  "id": "2a9fe2f4-255d-490f-8e4f-d7ed758fc32e",
+  "name": "Yellow Light Block",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/LightBlock_01/LightBlock_01.glb"
+    }
+  }
+}

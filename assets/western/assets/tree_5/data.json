@@ -1,0 +1,10 @@
+{
+  "id": "7db3ac91-67b4-46e4-b34a-35dbaa393fbd",
+  "name": "Tree 5",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Tree 5.glb"
+    }
+  }
+}

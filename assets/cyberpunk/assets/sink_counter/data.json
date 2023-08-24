@@ -1,0 +1,10 @@
+{
+  "id": "2fbeed4a-ea1e-48e5-b715-a432110f418a",
+  "name": "Sink Counter",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Sink_Counter.glb"
+    }
+  }
+}

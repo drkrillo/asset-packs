@@ -1,0 +1,10 @@
+{
+  "id": "b57ff96e-0024-40e6-9303-fc4191b628d7",
+  "name": "Rock Arch",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/RockArc_02/RockArc_02.glb"
+    }
+  }
+}

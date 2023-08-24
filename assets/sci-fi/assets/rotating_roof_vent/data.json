@@ -1,0 +1,10 @@
+{
+  "id": "01a37ae8-0092-4630-9425-46f7aa50b8bf",
+  "name": "Rotating Roof Vent",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/RoofVent_01/RoofVent_01.glb"
+    }
+  }
+}

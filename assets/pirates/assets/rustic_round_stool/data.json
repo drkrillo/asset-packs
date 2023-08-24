@@ -1,0 +1,10 @@
+{
+  "id": "d2e06987-41cf-4eb7-ac66-81c5fcee96d5",
+  "name": "Rustic Round Stool",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Chairwood_01/Chairwood_01.glb"
+    }
+  }
+}

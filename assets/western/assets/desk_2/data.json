@@ -1,0 +1,10 @@
+{
+  "id": "9a25f7ad-ec44-4ed7-bda6-c357c6691389",
+  "name": "Desk",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Furnit 4 Desk.glb"
+    }
+  }
+}

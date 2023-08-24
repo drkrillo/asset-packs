@@ -1,0 +1,10 @@
+{
+  "id": "333b531c-8189-494c-9816-53b51c51973f",
+  "name": "Roof - Red 1Edge Small",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/RedRoof_1Edge_Small.glb"
+    }
+  }
+}

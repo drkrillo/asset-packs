@@ -1,0 +1,10 @@
+{
+  "id": "ef047fbb-071f-4609-b4f0-128db30c0bd5",
+  "name": "Small Stone Tile",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/StoneRandomSmall_01/StoneRandomSmall_01.glb"
+    }
+  }
+}

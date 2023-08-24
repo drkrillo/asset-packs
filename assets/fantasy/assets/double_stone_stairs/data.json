@@ -1,0 +1,10 @@
+{
+  "id": "40cd7240-58ec-4e04-bcec-bc93f75f0e0e",
+  "name": "Double Stone Stairs",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Stairs_L_01/Stairs_L_01.glb"
+    }
+  }
+}

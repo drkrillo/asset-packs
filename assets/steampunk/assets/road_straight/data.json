@@ -1,0 +1,10 @@
+{
+  "id": "1a60f177-c822-4d6a-b65a-983c90e05ad6",
+  "name": "Road Straight",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Road Straight.glb"
+    }
+  }
+}

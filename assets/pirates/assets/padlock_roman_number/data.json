@@ -1,0 +1,10 @@
+{
+  "id": "acbd6376-6c33-46b8-abb2-22c083540e9e",
+  "name": "Padlock Roman Number",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/padlock/Padlock_Roman_Numbers.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "0520e968-0399-47ac-919c-612b20a96930",
+  "name": "Modern Bridge",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Bridge_06/Bridge_06.glb"
+    }
+  }
+}

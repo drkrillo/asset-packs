@@ -1,0 +1,10 @@
+{
+  "id": "bbd43881-fc8f-4c59-99d8-dcd42f192c6e",
+  "name": "Amethyst",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Gem_04/Gem_04.glb"
+    }
+  }
+}

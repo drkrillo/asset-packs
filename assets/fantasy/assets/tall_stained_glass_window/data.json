@@ -1,0 +1,10 @@
+{
+  "id": "1872fcfa-c2e4-4c03-95bb-5cc170819b2a",
+  "name": "Tall Stained Glass Window",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Window_01/Window_01.glb"
+    }
+  }
+}

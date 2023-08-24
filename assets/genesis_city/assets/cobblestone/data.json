@@ -1,0 +1,10 @@
+{
+  "id": "2c66317c-4923-4094-ad90-8ad72db010b1",
+  "name": "Cobblestone",
+  "category": "ground",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FloorBaseTiles_01/FloorBaseTiles_01.glb"
+    }
+  }
+}

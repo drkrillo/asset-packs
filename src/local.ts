@@ -1,7 +1,7 @@
 import { createDirectory, exists, readJson, writeFile } from './utils/fs'
 import { slug } from './utils/string'
 import { BuilderApiAsset, BuilderApiAssetPack } from './builder/types'
-import { AssetData, AssetPackData, isAssetPack } from './types'
+import { AssetData, AssetPackData, isAsset, isAssetPack } from './types'
 
 export class LocalFileSystem {
   constructor(public cwd: string) {}
@@ -40,15 +40,45 @@ export class LocalFileSystem {
     return `${this.getAssetsPath(assetPack)}/${slug(asset.name)}`
   }
 
-  async writeAsset(assetPack: BuilderApiAssetPack, asset: BuilderApiAsset) {
-    const assetsPath = this.getAssetsPath(assetPack)
-    await createDirectory(assetsPath)
+  async getAsset(path: string) {
+    const dataPath = `${path}/data.json`
+    const data = await readJson(dataPath)
+    if (!isAsset(data)) {
+      throw new Error(`Invalid data in "${dataPath}"`)
+    }
+    return data
+  }
+
+  async isTaken(path: string, asset: BuilderApiAsset) {
+    const alreadyExists = await exists(path)
+    if (!alreadyExists) {
+      return false
+    }
+    try {
+      const data = await this.getAsset(path)
+      return data.id !== asset.id
+    } catch (error) {
+      return true
+    }
+  }
+
+  async getAvailableAssetPath(
+    assetPack: BuilderApiAssetPack,
+    asset: BuilderApiAsset,
+  ) {
     const baseAssetPath = this.getAssetPath(assetPack, asset)
     let assetPath = baseAssetPath
     let attempts = 1
-    while (await exists(assetPath)) {
+    while (await this.isTaken(assetPath, asset)) {
       assetPath = `${baseAssetPath}_${++attempts}`
     }
+    return assetPath
+  }
+
+  async writeAsset(assetPack: BuilderApiAssetPack, asset: BuilderApiAsset) {
+    const assetsPath = this.getAssetsPath(assetPack)
+    await createDirectory(assetsPath)
+    const assetPath = await this.getAvailableAssetPath(assetPack, asset)
     const { id, name, category, model } = asset
     const data: AssetData = {
       id,

@@ -1,0 +1,10 @@
+{
+  "id": "867048a8-477d-4a8a-b301-3c16a810b4ee",
+  "name": "Straight Tube",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Tube_01/Tube_01.glb"
+    }
+  }
+}

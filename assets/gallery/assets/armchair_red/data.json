@@ -1,0 +1,10 @@
+{
+  "id": "dc2d6a5f-0dc7-4300-8015-46993a3c425d",
+  "name": "Armchair - Red",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/RedArmchair.glb"
+    }
+  }
+}

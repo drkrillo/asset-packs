@@ -1,0 +1,10 @@
+{
+  "id": "c3d41d5a-e8ec-44a7-8996-e713aec72eea",
+  "name": "Road Cobble Short",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Road Cobble Short.glb"
+    }
+  }
+}

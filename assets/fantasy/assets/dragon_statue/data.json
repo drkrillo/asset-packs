@@ -1,0 +1,10 @@
+{
+  "id": "24eadc32-7522-424b-a7cc-155fe3c1147a",
+  "name": "Dragon Statue",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Statue_02/Statue_02.glb"
+    }
+  }
+}

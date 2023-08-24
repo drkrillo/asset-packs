@@ -1,0 +1,10 @@
+{
+  "id": "631c412d-6fd9-414e-809c-67d1e5b2afd5",
+  "name": "Dusty Sand",
+  "category": "ground",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FloorBaseDirt_01/FloorBaseDirt_01.glb"
+    }
+  }
+}

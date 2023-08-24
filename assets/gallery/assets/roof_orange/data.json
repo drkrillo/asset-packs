@@ -1,0 +1,10 @@
+{
+  "id": "fa54c616-61eb-4ac5-b5a9-7c3a5155702e",
+  "name": "Roof - Orange",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/OrangeRoof.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "cedb85f7-6daf-432c-bad7-bf4250b71daa",
+  "name": "Floor - Navy",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/NavyFloor.glb"
+    }
+  }
+}

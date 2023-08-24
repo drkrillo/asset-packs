@@ -1,0 +1,10 @@
+{
+  "id": "3635d8c6-7f30-4484-bf54-8745c93f9305",
+  "name": "Telephone Pole 1",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Telephone_Pole_1.glb"
+    }
+  }
+}

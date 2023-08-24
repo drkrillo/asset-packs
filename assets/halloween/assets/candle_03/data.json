@@ -1,0 +1,10 @@
+{
+  "id": "ffb135cd-e194-4592-9fb6-62da40d05a71",
+  "name": "Candle 03",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/HWN20_Candle_03.glb"
+    }
+  }
+}

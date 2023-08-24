@@ -1,0 +1,10 @@
+{
+  "id": "f6fd4fc2-ea96-4a90-a267-1de12cf54061",
+  "name": "Rocky Balboa",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Rock_06/Rock_06.glb"
+    }
+  }
+}

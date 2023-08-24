@@ -1,0 +1,10 @@
+{
+  "id": "a8750c36-cc8d-4735-b85f-201ed131e66d",
+  "name": "Floating Decor",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Floating_Decor.glb"
+    }
+  }
+}

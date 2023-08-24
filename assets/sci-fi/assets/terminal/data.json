@@ -1,0 +1,10 @@
+{
+  "id": "f18835f5-da0e-4817-9762-9998696e25fe",
+  "name": "Terminal",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Terminal_01/Terminal_01.glb"
+    }
+  }
+}

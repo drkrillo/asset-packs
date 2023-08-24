@@ -1,0 +1,10 @@
+{
+  "id": "bb403953-d1d5-4090-b1a5-4df27c0f1ee9",
+  "name": "Large Rope",
+  "category": "year of the pig",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/ChineseLampRopeLarge_01/ChineseLampRopeLarge_01.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "181c41dd-2fea-449d-9750-6a5246ef1a05",
+  "name": "Roof - Metal Small",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/MetalRoof_Small.glb"
+    }
+  }
+}

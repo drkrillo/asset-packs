@@ -1,0 +1,10 @@
+{
+  "id": "5ddd810b-9cc1-4451-bb65-2626e182d8b1",
+  "name": "Big Stone Slab Tile",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/StoneSlabSmall_02/StoneSlabSmall_02.glb"
+    }
+  }
+}

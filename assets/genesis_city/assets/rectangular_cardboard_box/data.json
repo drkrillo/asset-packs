@@ -1,0 +1,10 @@
+{
+  "id": "fbe621ac-b07d-40f3-94c6-3a3e0cbddefb",
+  "name": "Rectangular Cardboard Box",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/CardboardBox_01/CardboardBox_01.glb"
+    }
+  }
+}

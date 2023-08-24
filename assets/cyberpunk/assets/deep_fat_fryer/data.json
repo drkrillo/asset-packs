@@ -1,0 +1,10 @@
+{
+  "id": "227d046c-cbd9-4656-bdb1-7386dc742a78",
+  "name": "Deep Fat Fryer",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/Deep_Fat_Fryer.glb"
+    }
+  }
+}

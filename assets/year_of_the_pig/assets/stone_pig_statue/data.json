@@ -1,0 +1,10 @@
+{
+  "id": "ab1eb62a-c1d3-4797-84f0-ec6568fbed29",
+  "name": "Stone Pig Statue",
+  "category": "year of the pig",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/ChineseStatuePig_01/ChineseStatuePig_01.glb"
+    }
+  }
+}

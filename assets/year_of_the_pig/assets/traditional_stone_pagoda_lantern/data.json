@@ -1,0 +1,10 @@
+{
+  "id": "2fab56bd-6a6e-4418-84e4-72d0528c7646",
+  "name": "Traditional Stone Pagoda Lantern",
+  "category": "year of the pig",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/ChineseFountain_02/ChineseFountain_02.glb"
+    }
+  }
+}

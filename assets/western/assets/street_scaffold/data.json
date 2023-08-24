@@ -1,0 +1,10 @@
+{
+  "id": "694c8825-e665-47ef-b979-e7720e4c046b",
+  "name": "Street Scaffold",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Street Scaffold.glb"
+    }
+  }
+}

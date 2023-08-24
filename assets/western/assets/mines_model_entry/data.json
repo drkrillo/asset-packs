@@ -1,0 +1,10 @@
+{
+  "id": "7e9a8b29-1f91-4b38-9ebf-3d973de4f502",
+  "name": "Mines Model Entry",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Mines Model Entry.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "fd81137c-96b2-4197-a284-524c5a54196d",
+  "name": "Low Hanging Vines",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Vines_02/Vines_02.glb"
+    }
+  }
+}

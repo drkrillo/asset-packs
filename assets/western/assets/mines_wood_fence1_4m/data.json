@@ -1,0 +1,10 @@
+{
+  "id": "550c9f01-0da9-4e31-aa96-012fd0497874",
+  "name": "Mines Wood Fence1 4M",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Mines Wood Fence1 4M.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "bed47450-c2ba-41ec-ad5b-ef42cc6fa1dc",
+  "name": "Small Blue Banner",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Banner_Blue_02/Banner_Blue_02.glb"
+    }
+  }
+}

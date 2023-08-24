@@ -1,0 +1,10 @@
+{
+  "id": "6631a0b6-3eb3-4cca-b777-95c5083ead08",
+  "name": "Iron Sword",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Sword_01/Sword_01.glb"
+    }
+  }
+}

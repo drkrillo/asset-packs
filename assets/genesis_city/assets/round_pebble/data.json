@@ -1,0 +1,10 @@
+{
+  "id": "851dddb9-9cd9-4dbb-849b-adfe1c3f5890",
+  "name": "Round Pebble",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Pebble_02/Pebble_02.glb"
+    }
+  }
+}

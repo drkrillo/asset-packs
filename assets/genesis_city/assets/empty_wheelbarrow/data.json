@@ -1,0 +1,10 @@
+{
+  "id": "2a7c8f46-ac3c-4bc2-bda0-fd0d4641a55e",
+  "name": "Empty Wheelbarrow",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Wheelbarrow_02/Wheelbarrow_02.glb"
+    }
+  }
+}

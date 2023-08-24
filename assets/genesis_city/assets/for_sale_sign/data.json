@@ -1,0 +1,10 @@
+{
+  "id": "f81db7b6-f330-4bc6-bc22-f7c0ba9b6b25",
+  "name": "For Sale Sign",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/ForSaleSign_01/ForSaleSign_01.glb"
+    }
+  }
+}

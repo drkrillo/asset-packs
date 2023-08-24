@@ -1,5 +1,6 @@
 import fs from 'fs'
 import future from 'fp-future'
+import path from 'path'
 
 export function exists(path: string) {
   const promise = future<boolean>()
@@ -15,37 +16,39 @@ export function exists(path: string) {
   return promise
 }
 
-export async function createDirectory(path: string) {
-  if (await exists(path)) {
+export async function createDirectory(_path: string) {
+  if (await exists(_path)) {
     return
   }
   const promise = future<void>()
-  fs.mkdir(path, { recursive: true }, (err) =>
+  fs.mkdir(_path, { recursive: true }, (err) =>
     err ? promise.reject(err) : promise.resolve(),
   )
   return promise
 }
 
-export function writeFile(path: string, data: string | Buffer) {
+export async function writeFile(_path: string, data: string | Buffer) {
   const promise = future<void>()
-  fs.writeFile(path, data, 'utf8', (err) =>
+  const dir = path.dirname(_path)
+  await createDirectory(dir)
+  fs.writeFile(_path, data, 'utf8', (err) =>
     err ? promise.reject(err) : promise.resolve(),
   )
   return promise
 }
 
-export async function readJson(path: string) {
+export async function readJson(_path: string) {
   const promise = future<string>()
-  fs.readFile(path, 'utf8', (err, data) =>
+  fs.readFile(_path, 'utf8', (err, data) =>
     err ? promise.reject(err) : promise.resolve(data),
   )
   const data = await promise
   return JSON.parse(data)
 }
 
-export function readBuffer(path: string) {
+export function readBuffer(_path: string) {
   const promise = future<Buffer>()
-  fs.readFile(path, (err, data) =>
+  fs.readFile(_path, (err, data) =>
     err ? promise.reject(err) : promise.resolve(data),
   )
   return promise

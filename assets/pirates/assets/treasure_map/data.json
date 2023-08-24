@@ -1,0 +1,10 @@
+{
+  "id": "2d3018ef-77a0-4f72-86c7-2a7bba82bee0",
+  "name": "Treasure Map",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Map_04/Map_04.glb"
+    }
+  }
+}

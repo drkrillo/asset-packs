@@ -1,0 +1,10 @@
+{
+  "id": "925b31e8-96a2-49d7-b0cd-914be048ee37",
+  "name": "Ladder 2M",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Ladder 2M.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "dbcd2aa8-9215-4897-a92c-f348b788ea20",
+  "name": "Rising Pillar",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/Rising_Pillar_SciFi.glb"
+    }
+  }
+}

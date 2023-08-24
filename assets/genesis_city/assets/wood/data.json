@@ -1,0 +1,10 @@
+{
+  "id": "78300a73-f19a-4e91-bb8a-08a641e29706",
+  "name": "Wood",
+  "category": "ground",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FloorBaseWood_01/FloorBaseWood_01.glb"
+    }
+  }
+}

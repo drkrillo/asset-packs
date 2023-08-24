@@ -1,0 +1,10 @@
+{
+  "id": "c273380f-251d-4214-865c-0e179ce1d67f",
+  "name": "Grave 03",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/HWN20_Grave_03.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "25edad54-80e9-461c-bfb6-9350eb37c100",
+  "name": "Cross Panel",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PanelSciFi_02/PanelSciFi_02.glb"
+    }
+  }
+}

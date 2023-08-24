@@ -1,0 +1,10 @@
+{
+  "id": "8a94bf83-9ea8-492c-8197-016d2bbd83c0",
+  "name": "Dual Turret",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Turret_02/Turret_02.glb"
+    }
+  }
+}

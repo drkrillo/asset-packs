@@ -1,0 +1,10 @@
+{
+  "id": "da78da26-f395-41f7-b8ec-e2d9995cdfa1",
+  "name": "Golden Wall Ornament",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Ornament_01/Ornament_01.glb"
+    }
+  }
+}

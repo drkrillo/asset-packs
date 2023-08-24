@@ -1,0 +1,10 @@
+{
+  "id": "2dd72eee-1285-43e0-9787-8a60bf4cd46a",
+  "name": "Blooming Green Acacia Tree",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Tree_Forest_Green_02/Tree_Forest_Green_02.glb"
+    }
+  }
+}

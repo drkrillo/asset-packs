@@ -1,0 +1,10 @@
+{
+  "id": "e3ac0729-bd49-496c-a4b7-af8ff667789f",
+  "name": "Swing",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PlaygroundHammock_01/PlaygroundHammock_01.glb"
+    }
+  }
+}

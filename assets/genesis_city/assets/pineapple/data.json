@@ -1,0 +1,10 @@
+{
+  "id": "5f23a6a6-a87c-4813-b52b-d35a07d41612",
+  "name": "Pineapple",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FoodPineapple_01/FoodPineapple_01.glb"
+    }
+  }
+}

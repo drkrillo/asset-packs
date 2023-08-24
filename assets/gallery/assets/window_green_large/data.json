@@ -1,0 +1,10 @@
+{
+  "id": "fdf88146-418e-481a-aee0-b63b6eaef0cd",
+  "name": "Window - Green Large",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/GreenWindowLarge.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "f6a4c7ff-0ca5-41d9-ac21-e0646c13dec8",
+  "name": "Roof - Beige 4Edges Small",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/BeigeRoof_4Edges_Small.glb"
+    }
+  }
+}

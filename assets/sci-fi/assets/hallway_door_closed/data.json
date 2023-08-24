@@ -1,0 +1,10 @@
+{
+  "id": "43c7d0fb-a8fb-41a5-a9fd-9de37b1fedfe",
+  "name": "Hallway Door Closed",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Hallway_Module_Door_01/Hallway_Module_Door_01.glb"
+    }
+  }
+}

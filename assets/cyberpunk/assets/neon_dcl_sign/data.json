@@ -1,0 +1,10 @@
+{
+  "id": "f33536e6-f4b8-463d-87b8-ce5829b763e5",
+  "name": "Neon DCL Sign",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Neon_DCL_Sign.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "46b54f75-ad9d-4b63-98ac-a733c4088998",
+  "name": "Bed King",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Bed King.glb"
+    }
+  }
+}

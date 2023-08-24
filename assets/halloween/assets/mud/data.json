@@ -1,0 +1,10 @@
+{
+  "id": "baade16e-e423-436b-8c7c-142069afd0e6",
+  "name": "Mud",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/HWN20_Mud.glb"
+    }
+  }
+}

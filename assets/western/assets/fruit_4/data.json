@@ -1,0 +1,10 @@
+{
+  "id": "abf88b39-d0f1-433d-9dbe-beb619639a8b",
+  "name": "Fruit 4",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Fruit 4.glb"
+    }
+  }
+}

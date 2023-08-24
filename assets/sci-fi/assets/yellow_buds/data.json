@@ -1,0 +1,10 @@
+{
+  "id": "f18f23b1-dce3-426b-8039-3fd7a5100862",
+  "name": "Yellow Buds",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PlantSF_02/PlantSF_02.glb"
+    }
+  }
+}

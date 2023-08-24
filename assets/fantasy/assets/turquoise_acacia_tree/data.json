@@ -1,0 +1,10 @@
+{
+  "id": "f8608443-f44d-4505-957c-3d1bfddb6a5a",
+  "name": "Turquoise Acacia Tree",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Tree_Forest_Turquoise_01/Tree_Forest_Turquoise_01.glb"
+    }
+  }
+}

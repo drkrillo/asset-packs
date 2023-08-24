@@ -1,0 +1,10 @@
+{
+  "id": "e676f739-18aa-4322-af9b-c1c2ca24c096",
+  "name": "Gear 5 Angled Teeth",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Gear 5 Angled Teeth.glb"
+    }
+  }
+}

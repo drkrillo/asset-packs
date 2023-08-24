@@ -1,0 +1,10 @@
+{
+  "id": "d703e859-a06d-4f39-a574-85518ff75282",
+  "name": "Nutsedge",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Grass_01/Grass_01.glb"
+    }
+  }
+}

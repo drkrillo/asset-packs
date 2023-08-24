@@ -1,0 +1,10 @@
+{
+  "id": "3f060296-9db3-4d95-9151-da9402fa8867",
+  "name": "Beam Interior 2",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Beam Interior 2.glb"
+    }
+  }
+}

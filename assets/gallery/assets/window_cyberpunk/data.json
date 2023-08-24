@@ -1,0 +1,10 @@
+{
+  "id": "bb21ad6d-f958-42a0-a4e4-08aacc4a2eaa",
+  "name": "Window - CyberPunk ",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/CyberPunkWindow.glb"
+    }
+  }
+}

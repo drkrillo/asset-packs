@@ -1,0 +1,10 @@
+{
+  "id": "15ebf945-a8c6-4f2e-993d-660b0e93441d",
+  "name": "Medium Stone Slab Tile",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/StoneSlabMedium_01/StoneSlabMedium_01.glb"
+    }
+  }
+}

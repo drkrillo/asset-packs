@@ -1,0 +1,10 @@
+{
+  "id": "105b342a-820e-43bd-99bb-d4eea6ad39ba",
+  "name": "Mountain Ragweed",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Bush_Fantasy_01/Bush_Fantasy_01.glb"
+    }
+  }
+}

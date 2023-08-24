@@ -1,0 +1,10 @@
+{
+  "id": "cea722ae-b0e4-4bb4-bb97-d24084a8570b",
+  "name": "Window - Plant ",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PlantWindow.glb"
+    }
+  }
+}

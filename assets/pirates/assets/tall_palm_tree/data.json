@@ -1,0 +1,10 @@
+{
+  "id": "a29c8a0e-1f2c-4d85-a099-36301da3fe36",
+  "name": "Tall Palm Tree",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PalmTree_02/PalmTree_02.glb"
+    }
+  }
+}

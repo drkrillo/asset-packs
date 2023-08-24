@@ -1,0 +1,10 @@
+{
+  "id": "6922eea0-67a6-4559-917c-df33aa1d9954",
+  "name": "Bamboo",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Bamboo_01/Bamboo_01.glb"
+    }
+  }
+}

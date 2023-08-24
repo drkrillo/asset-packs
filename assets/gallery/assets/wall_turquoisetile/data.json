@@ -1,0 +1,10 @@
+{
+  "id": "a50e0ada-4a73-4044-8d84-b9833e1d0896",
+  "name": "Wall - TurquoiseTile",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/TurquoiseTileWall.glb"
+    }
+  }
+}

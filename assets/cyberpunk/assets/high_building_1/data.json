@@ -1,0 +1,10 @@
+{
+  "id": "5757f78c-c939-4163-a260-fc9bff715553",
+  "name": "High Building 1",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/High_Building_1.glb"
+    }
+  }
+}

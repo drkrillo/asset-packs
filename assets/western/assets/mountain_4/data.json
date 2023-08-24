@@ -1,0 +1,10 @@
+{
+  "id": "618b6bd8-8dd1-4297-abe4-399317858a48",
+  "name": "Mountain 4",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Mountain 4.glb"
+    }
+  }
+}

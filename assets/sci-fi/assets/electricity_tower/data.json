@@ -1,0 +1,10 @@
+{
+  "id": "d6b70b29-e305-447e-aa23-98020bd083e8",
+  "name": "Electricity Tower",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/ElectricTower_01/ElectricTower_01.glb"
+    }
+  }
+}

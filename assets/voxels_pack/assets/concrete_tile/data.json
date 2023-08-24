@@ -1,0 +1,10 @@
+{
+  "id": "ee9c53fa-e27a-4c34-adfc-3fd07c109506",
+  "name": "Concrete Tile",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/concre_tile_02.glb"
+    }
+  }
+}

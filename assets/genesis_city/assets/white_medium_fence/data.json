@@ -1,0 +1,10 @@
+{
+  "id": "46351f8d-3498-40e7-87c8-70627ba59e81",
+  "name": "White Medium Fence",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FencePicketWhiteMedium_01/FencePicketWhiteMedium_01.glb"
+    }
+  }
+}

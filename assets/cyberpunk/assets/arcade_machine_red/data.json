@@ -1,0 +1,10 @@
+{
+  "id": "e8c83ae1-6b04-4c19-aa52-113561a90d78",
+  "name": "Arcade Machine Red",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Arcade_Machine_Red.glb"
+    }
+  }
+}

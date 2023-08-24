@@ -1,0 +1,10 @@
+{
+  "id": "cac0e963-62e0-471a-b4bc-dc6738939820",
+  "name": "Small Straight Old Dock Module",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/DocksModuleSmall_02/DocksModuleSmall_02.glb"
+    }
+  }
+}

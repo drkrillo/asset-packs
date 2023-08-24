@@ -1,0 +1,10 @@
+{
+  "id": "90829295-2a2c-4f2b-8d88-40f2d4ad72b0",
+  "name": "Large Light Green Grass Mound",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/GrassPatchLarge_05/GrassPatchLarge_05.glb"
+    }
+  }
+}

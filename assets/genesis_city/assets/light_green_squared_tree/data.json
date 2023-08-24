@@ -1,0 +1,10 @@
+{
+  "id": "34581808-7505-4805-a12a-0d0571d0b1dd",
+  "name": "Light Green Squared Tree",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/TreeTall_01/TreeTall_01.glb"
+    }
+  }
+}

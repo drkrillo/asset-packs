@@ -1,0 +1,10 @@
+{
+  "id": "49e34ab8-1f15-4f6d-b58a-dd95340c941e",
+  "name": "Blender",
+  "category": "appliances",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/Blender.glb"
+    }
+  }
+}

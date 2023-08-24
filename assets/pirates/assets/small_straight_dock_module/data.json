@@ -1,0 +1,10 @@
+{
+  "id": "c6075674-d365-4bf1-bb5e-4f40038d8a14",
+  "name": "Small Straight Dock Module",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/DocksModuleSmall_01/DocksModuleSmall_01.glb"
+    }
+  }
+}

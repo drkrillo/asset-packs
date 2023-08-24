@@ -1,0 +1,10 @@
+{
+  "id": "842012dd-b271-4c13-b5d0-24778197e8ab",
+  "name": "Terrain 1",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Terrain 1.glb"
+    }
+  }
+}

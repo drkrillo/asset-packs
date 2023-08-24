@@ -1,0 +1,10 @@
+{
+  "id": "8cb72f7b-0216-4bef-a9e9-dbef377eca14",
+  "name": "Beam Exterior 3",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Beam Exterior 3.glb"
+    }
+  }
+}

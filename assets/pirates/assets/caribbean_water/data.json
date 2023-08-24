@@ -1,0 +1,10 @@
+{
+  "id": "390b876e-4b3a-4e78-bd03-5be21b1ecc67",
+  "name": "Caribbean Water",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/WaterPatchFull_01/WaterPatchFull_01.glb"
+    }
+  }
+}

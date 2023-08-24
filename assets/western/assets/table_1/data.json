@@ -1,0 +1,10 @@
+{
+  "id": "66b972a1-9e20-4748-b8a5-b4637dc9a2a4",
+  "name": "Table 1",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Table 1.glb"
+    }
+  }
+}

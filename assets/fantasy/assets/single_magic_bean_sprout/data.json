@@ -1,0 +1,10 @@
+{
+  "id": "427fd940-0667-4e34-be6a-c9b816108183",
+  "name": "Single Magic Bean Sprout",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Vegetation_04/Vegetation_04.glb"
+    }
+  }
+}

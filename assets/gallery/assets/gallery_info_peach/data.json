@@ -1,0 +1,10 @@
+{
+  "id": "a867ec81-3de5-4b2d-913b-203c0ce19b8d",
+  "name": "Gallery Info - Peach",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/PeachGalleryInfo.glb"
+    }
+  }
+}

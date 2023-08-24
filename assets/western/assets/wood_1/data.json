@@ -1,0 +1,10 @@
+{
+  "id": "45841fab-b0ca-44c3-9015-a7707383dbae",
+  "name": "Wood 1",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Wood 1.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "7fdd78fe-d81e-495e-8a57-2b92f37d77a9",
+  "name": "Cactus 9",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Cactus 9.glb"
+    }
+  }
+}

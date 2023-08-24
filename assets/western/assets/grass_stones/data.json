@@ -1,0 +1,10 @@
+{
+  "id": "4902949a-b64a-4225-9cb6-1d8c7e4cf08f",
+  "name": "Grass Stones",
+  "category": "ground",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Grass Stones.glb"
+    }
+  }
+}

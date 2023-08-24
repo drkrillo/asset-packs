@@ -1,0 +1,10 @@
+{
+  "id": "b44c0769-6ad9-48fc-885a-6b1fefcfc482",
+  "name": "WallCorner - Plants",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PlantCorner.glb"
+    }
+  }
+}

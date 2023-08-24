@@ -1,0 +1,10 @@
+{
+  "id": "e9d4e87b-8d5f-4f03-a2e5-044effa9147f",
+  "name": "Planted Fern",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PlantPot_03/PlantPot_03.glb"
+    }
+  }
+}

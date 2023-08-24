@@ -1,0 +1,10 @@
+{
+  "id": "eca11096-8d70-4510-869b-2dba3683ddbb",
+  "name": "Train Car",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Train Car.glb"
+    }
+  }
+}

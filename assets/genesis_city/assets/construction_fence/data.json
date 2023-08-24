@@ -1,0 +1,10 @@
+{
+  "id": "03635caa-b836-446a-9797-4850f1f668df",
+  "name": "Construction Fence",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/ConstructionFence_01/ConstructionFence_01.glb"
+    }
+  }
+}

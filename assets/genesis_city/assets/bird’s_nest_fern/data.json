@@ -1,0 +1,10 @@
+{
+  "id": "f17f4ed8-f0a2-48f0-a461-95d426b58d54",
+  "name": "Bird’s Nest Fern",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Plant_01/Plant_01.glb"
+    }
+  }
+}

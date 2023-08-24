@@ -1,0 +1,10 @@
+{
+  "id": "b5f5ae80-fdc9-474e-a39f-af85657664fc",
+  "name": "Deck 6M v02",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Deck 6M v02.glb"
+    }
+  }
+}

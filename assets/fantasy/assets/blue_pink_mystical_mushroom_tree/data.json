@@ -1,0 +1,10 @@
+{
+  "id": "01b875ea-95ea-4873-a0a7-a0884ca764e3",
+  "name": "Blue Pink Mystical Mushroom Tree",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Tree_02/Tree_02.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "f4930a14-975e-40cd-9afa-cf71a2ebe8d1",
+  "name": "Train Track 6 M Jiggle V02",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Train Track 6 M Jiggle V02.glb"
+    }
+  }
+}

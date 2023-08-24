@@ -1,0 +1,10 @@
+{
+  "id": "d4d4f87a-1ee5-46ad-b998-13ce007e6ecf",
+  "name": "Maidenhair Fern",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Plant_07/Plant_07.glb"
+    }
+  }
+}

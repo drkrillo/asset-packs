@@ -1,0 +1,10 @@
+{
+  "id": "a5c32dfc-27c5-416b-bfbb-f66f871c8ea7",
+  "name": "Signpost Tree",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/signpost/Sign_Square_Vertical.glb"
+    }
+  }
+}

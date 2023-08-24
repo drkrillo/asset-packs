@@ -1,0 +1,10 @@
+{
+  "id": "c64148e7-d84f-497c-8d67-b2955a158f77",
+  "name": "Pennants",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/HWN20_Pennants.glb"
+    }
+  }
+}

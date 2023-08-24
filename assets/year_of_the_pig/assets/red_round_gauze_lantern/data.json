@@ -1,0 +1,10 @@
+{
+  "id": "34a37553-aada-40f2-b1bc-0d433782cb82",
+  "name": "Red Round Gauze Lantern",
+  "category": "year of the pig",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/ChineseLantern_03/ChineseLantern_03.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "a650b19e-69f6-4498-8bcd-1251af26ff2b",
+  "name": "Stone - Snow",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/stone_snow.glb"
+    }
+  }
+}

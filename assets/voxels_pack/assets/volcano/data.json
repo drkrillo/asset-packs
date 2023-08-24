@@ -1,0 +1,10 @@
+{
+  "id": "a051b312-3935-428a-b5e0-2a2f253de26b",
+  "name": "Volcano",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/volcan.glb"
+    }
+  }
+}

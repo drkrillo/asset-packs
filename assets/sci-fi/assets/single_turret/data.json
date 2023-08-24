@@ -1,0 +1,10 @@
+{
+  "id": "8b199ef1-758c-4ee3-8cad-9c6a31d8e563",
+  "name": "Single Turret",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Turret_01/Turret_01.glb"
+    }
+  }
+}

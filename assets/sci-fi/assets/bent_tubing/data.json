@@ -1,0 +1,10 @@
+{
+  "id": "a0328983-456e-4229-a116-16391c69a35f",
+  "name": "Bent Tubing",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/TubePiece_02/TubePiece_02.glb"
+    }
+  }
+}

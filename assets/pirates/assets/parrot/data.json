@@ -1,0 +1,10 @@
+{
+  "id": "d6dea640-b953-48b9-bfb0-d750c5f43ba1",
+  "name": "Parrot",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/Parrot.glb"
+    }
+  }
+}

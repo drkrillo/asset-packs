@@ -1,0 +1,10 @@
+{
+  "id": "aa6c1107-c3d8-4493-8719-bb46dbeea914",
+  "name": "Stumble Stone Tile",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Stone_Tile_03/Stone_Tile_03.glb"
+    }
+  }
+}

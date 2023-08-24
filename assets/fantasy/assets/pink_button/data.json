@@ -1,0 +1,10 @@
+{
+  "id": "accdfb9c-30e5-483b-8754-1809e1f1e743",
+  "name": "Pink Button",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/Pink_Fantasy_Button.glb"
+    }
+  }
+}

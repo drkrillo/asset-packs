@@ -1,0 +1,10 @@
+{
+  "id": "b79a150e-5914-4fdf-a6b4-c7ff0c6833dd",
+  "name": "Block Floor Light",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/FuturisticLight_On.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "fda6e469-f820-448d-849a-1e0c556ea87d",
+  "name": "Grey Drawers",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Drawer_01/Drawer_01.glb"
+    }
+  }
+}

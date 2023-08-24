@@ -1,0 +1,10 @@
+{
+  "id": "597981eb-2375-41cb-8db5-7e3e0f4347f4",
+  "name": "Coconut",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Coco_01/Coco_01.glb"
+    }
+  }
+}

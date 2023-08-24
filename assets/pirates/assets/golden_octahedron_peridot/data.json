@@ -1,0 +1,10 @@
+{
+  "id": "b0638a2e-46c4-4ef8-a4e0-f1519ae0b52d",
+  "name": "Golden Octahedron Peridot",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Gem_07/Gem_07.glb"
+    }
+  }
+}

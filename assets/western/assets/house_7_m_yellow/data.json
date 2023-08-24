@@ -1,0 +1,10 @@
+{
+  "id": "91b41130-61a6-4aa1-b476-02adcc7f5956",
+  "name": "House 7 M Yellow",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/House 7 M Yellow.glb"
+    }
+  }
+}

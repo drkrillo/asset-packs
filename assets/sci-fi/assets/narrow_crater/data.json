@@ -1,0 +1,10 @@
+{
+  "id": "f4343c4d-b924-45bd-a1b0-b85e604c4fad",
+  "name": "Narrow Crater",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Crater_02/Crater_02.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "c8da1372-9fe8-49a1-bcb4-0ae4525ff384",
+  "name": "Furnace 1",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Furnace 1.glb"
+    }
+  }
+}

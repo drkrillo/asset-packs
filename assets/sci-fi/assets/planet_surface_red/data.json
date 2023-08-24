@@ -1,0 +1,10 @@
+{
+  "id": "a37243bc-09ce-47f6-a7ea-97cfb0a1ad16",
+  "name": "Planet Surface Red",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PlanetFloorRed_01/PlanetFloorRed_01.glb"
+    }
+  }
+}

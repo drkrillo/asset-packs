@@ -1,0 +1,10 @@
+{
+  "id": "6dd971fe-6284-4c74-8327-c87f0d692b32",
+  "name": "Light Yellow Sycamore Tree",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/TreeSycamore_02/TreeSycamore_02.glb"
+    }
+  }
+}

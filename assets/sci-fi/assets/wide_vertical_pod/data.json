@@ -1,0 +1,10 @@
+{
+  "id": "ed25dfc9-50eb-4e3f-a9d4-a6f65184b6fc",
+  "name": "Wide Vertical Pod",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Pod_02/Pod_02.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "0d66b548-6238-4df3-9dc8-d305aa60c729",
+  "name": "Rock Hudson",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Rock_05/Rock_05.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "dc465c5e-cf7a-45ff-9415-f4ebe41ceab0",
+  "name": "Sack",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Sack_01/Sack_01.glb"
+    }
+  }
+}

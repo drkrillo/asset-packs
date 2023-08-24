@@ -1,0 +1,10 @@
+{
+  "id": "b50c3dcf-589e-49fa-b88f-eeb9246f6b92",
+  "name": "Small Blue Crate",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/CrateBlue_01/CrateBlue_01.glb"
+    }
+  }
+}

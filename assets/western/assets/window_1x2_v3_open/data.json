@@ -1,0 +1,10 @@
+{
+  "id": "57a33816-d666-4fc9-81d3-e21bd7789217",
+  "name": "Window 1x2 V3 Open",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Window 1x2 V3 Open.glb"
+    }
+  }
+}

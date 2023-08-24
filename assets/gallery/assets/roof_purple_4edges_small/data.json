@@ -1,0 +1,10 @@
+{
+  "id": "d4c8b24b-cf34-446f-acc7-fcce5bc3b82c",
+  "name": "Roof - Purple 4Edges Small",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PurpleRoof_4Edges_Small.glb"
+    }
+  }
+}

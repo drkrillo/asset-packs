@@ -1,0 +1,10 @@
+{
+  "id": "e72746f0-8bf7-4be2-a5e5-dc387798e8ef",
+  "name": "Mushroom - red",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/mushroom_red.glb"
+    }
+  }
+}

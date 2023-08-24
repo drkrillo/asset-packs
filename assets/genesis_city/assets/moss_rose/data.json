@@ -1,0 +1,10 @@
+{
+  "id": "d62f9915-4940-4fb0-83f5-7b92dbd93fa7",
+  "name": "Moss Rose",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Plant_06/Plant_06.glb"
+    }
+  }
+}

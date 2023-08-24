@@ -1,0 +1,10 @@
+{
+  "id": "aff6ff37-d8c9-46f5-a9ac-14e524486ffe",
+  "name": "Round Gallery Light",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/GalleryLightB_On.glb"
+    }
+  }
+}

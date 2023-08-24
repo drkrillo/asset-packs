@@ -1,0 +1,10 @@
+{
+  "id": "d736f0aa-9a22-4d7a-8180-ace7e5494acd",
+  "name": "Tourmaline Jewellery",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Gem_08/Gem_08.glb"
+    }
+  }
+}

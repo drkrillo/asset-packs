@@ -1,0 +1,10 @@
+{
+  "id": "98f35970-9633-410d-883b-493350654bc9",
+  "name": "Green Tall Squared Tree",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/TreeTall_02/TreeTall_02.glb"
+    }
+  }
+}

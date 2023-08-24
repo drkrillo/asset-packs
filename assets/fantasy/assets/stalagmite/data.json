@@ -1,0 +1,10 @@
+{
+  "id": "ef0db1fb-f0cb-4f36-8c14-87f7fd8fbf2c",
+  "name": "Stalagmite",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Stalagmite_01/Stalagmite_01.glb"
+    }
+  }
+}

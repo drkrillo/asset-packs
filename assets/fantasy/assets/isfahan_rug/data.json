@@ -1,0 +1,10 @@
+{
+  "id": "ad246a68-7e29-4cb1-a71f-e0b1d4f0c57d",
+  "name": "Isfahan Rug",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Carpet_03/Carpet_03.glb"
+    }
+  }
+}

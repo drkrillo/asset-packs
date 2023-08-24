@@ -1,0 +1,10 @@
+{
+  "id": "8cfbe9ef-1b3e-4f3a-ad5e-f6bd8d421f42",
+  "name": "QR Scifi frame",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/QR_SciFi_Frame.glb"
+    }
+  }
+}

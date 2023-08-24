@@ -1,0 +1,10 @@
+{
+  "id": "9d5229f7-0ca7-4165-bd68-481911c86fcd",
+  "name": "Softwood Rounded Bridge",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Bridge_04/Bridge_04.glb"
+    }
+  }
+}

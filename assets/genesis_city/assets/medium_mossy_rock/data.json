@@ -1,0 +1,10 @@
+{
+  "id": "21cee882-17e9-40c6-b919-ce3b497ada04",
+  "name": "Medium Mossy Rock",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/RockMediumMoss_01/RockMediumMoss_01.glb"
+    }
+  }
+}

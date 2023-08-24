@@ -1,0 +1,10 @@
+{
+  "id": "ec8b2557-4819-4a6c-a443-2fe15e7e980a",
+  "name": "Plant 2",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Plant 2.glb"
+    }
+  }
+}

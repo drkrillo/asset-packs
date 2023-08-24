@@ -1,0 +1,10 @@
+{
+  "id": "e7da93bd-29f5-49e6-a92a-316060301d56",
+  "name": "Sign C",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/SignC.glb"
+    }
+  }
+}

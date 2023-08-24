@@ -1,0 +1,10 @@
+{
+  "id": "d2c0ade1-3b00-4045-97f4-00a7ea6a8937",
+  "name": "Floor Lamp",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/FloorLampA_On.glb"
+    }
+  }
+}

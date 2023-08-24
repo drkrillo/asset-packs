@@ -1,0 +1,10 @@
+{
+  "id": "322a1b5c-9cfc-44fd-82f5-a7019151c094",
+  "name": "WallCorner - Beige ",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/BeigeCorner.glb"
+    }
+  }
+}

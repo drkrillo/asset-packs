@@ -1,0 +1,10 @@
+{
+  "id": "d49a7cc6-15e4-47c8-94f9-f81b178314d1",
+  "name": "Planet Surface Violet",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PlanetFloorViolet_01/PlanetFloorViolet_01.glb"
+    }
+  }
+}

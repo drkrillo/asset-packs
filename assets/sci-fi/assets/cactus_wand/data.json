@@ -1,0 +1,10 @@
+{
+  "id": "5f25759e-dd1b-4294-9bc7-d8e66c198e9f",
+  "name": "Cactus Wand",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PlantSF_07/PlantSF_07.glb"
+    }
+  }
+}

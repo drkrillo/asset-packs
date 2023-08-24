@@ -1,0 +1,10 @@
+{
+  "id": "c94a39e6-cd04-49c0-8687-a547f4d673ba",
+  "name": "Smooth Cactus",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PlantSF_03/PlantSF_03.glb"
+    }
+  }
+}

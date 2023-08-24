@@ -1,0 +1,10 @@
+{
+  "id": "c1e81f37-ad0b-43ca-9206-f73785e68767",
+  "name": "Green Plasma",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PlasmaGreen_01/PlasmaGreen_01.glb"
+    }
+  }
+}

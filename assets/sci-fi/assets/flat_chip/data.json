@@ -1,0 +1,10 @@
+{
+  "id": "8e738f7d-eda0-402a-8c7c-e7dff88cfbef",
+  "name": "Flat Chip",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Chip_02/Chip_02.glb"
+    }
+  }
+}

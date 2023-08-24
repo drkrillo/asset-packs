@@ -1,0 +1,10 @@
+{
+  "id": "e02c3c7b-264c-427b-a34a-ae971dc441c2",
+  "name": "Yellow Magic Stone",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Glowing_Stone_02/Glowing_Stone_02.glb"
+    }
+  }
+}

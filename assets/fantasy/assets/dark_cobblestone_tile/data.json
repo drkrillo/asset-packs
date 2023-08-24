@@ -1,0 +1,10 @@
+{
+  "id": "4d4fce54-9738-4fbe-bde0-fb52d10204a5",
+  "name": "Dark Cobblestone Tile",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FloorSquare_02/FloorSquare_02.glb"
+    }
+  }
+}

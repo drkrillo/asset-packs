@@ -1,0 +1,10 @@
+{
+  "id": "fc80d33c-5d80-4ff7-a635-f7fee6763b4b",
+  "name": "Stone - Iron",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/stone_iron.glb"
+    }
+  }
+}

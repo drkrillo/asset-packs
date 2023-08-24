@@ -1,0 +1,10 @@
+{
+  "id": "38b1b9b3-22c6-4a41-8c96-73c19aa2cc5b",
+  "name": "Tree 4",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Tree 4.glb"
+    }
+  }
+}

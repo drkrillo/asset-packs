@@ -1,0 +1,10 @@
+{
+  "id": "a8fe46c8-8e62-4acb-9660-fd2db7596e37",
+  "name": "Mossy Keystone",
+  "category": "ground",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FloorFantasyRocks_04/FloorFantasyRocks_04.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "aed30b4e-ce4c-4e13-9b06-2a74e02d864f",
+  "name": "Log",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/log.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "f01cf0d6-e860-4eb8-8c82-6fbc2a98a110",
+  "name": "Watermelon",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FoodWatermelon_01/FoodWatermelon_01.glb"
+    }
+  }
+}

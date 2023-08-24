@@ -1,0 +1,10 @@
+{
+  "id": "7ea57b9c-29ee-47a5-9ad2-c109101b72ac",
+  "name": "Beachgrass Fern",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/JunglePlant_06/JunglePlant_06.glb"
+    }
+  }
+}

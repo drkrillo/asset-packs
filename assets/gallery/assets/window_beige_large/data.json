@@ -1,0 +1,10 @@
+{
+  "id": "c18c1dfc-c4fd-48a8-bb6d-eeb22b90489c",
+  "name": "Window - Beige Large",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/BeigeWindowLarge.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "d7e55c98-e10b-4671-8845-1a8dfa9af715",
+  "name": "2M Long Curved Cable",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Cable_2M_Curve_03/Cable_2M_Curve_03.glb"
+    }
+  }
+}

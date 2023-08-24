@@ -1,0 +1,10 @@
+{
+  "id": "64cd0981-48a6-4cd1-9c45-6ec8e8d7e4c7",
+  "name": "Cross Floor Panel",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Floor_Module_03/Floor_Module_03.glb"
+    }
+  }
+}

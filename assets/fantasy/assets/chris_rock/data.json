@@ -1,0 +1,10 @@
+{
+  "id": "6b8899a7-ec92-4b9d-b739-1a21d0ab9219",
+  "name": "Chris Rock",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Rock_01/Rock_01.glb"
+    }
+  }
+}

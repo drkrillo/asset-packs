@@ -1,0 +1,10 @@
+{
+  "id": "75b810f3-29eb-44f2-986b-104a597ac6b6",
+  "name": "Scary Dead Tree",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Tree_Dead_02/Tree_Dead_02.glb"
+    }
+  }
+}

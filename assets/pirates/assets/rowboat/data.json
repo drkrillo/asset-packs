@@ -1,0 +1,10 @@
+{
+  "id": "513ca317-77eb-4b76-b1a5-f9ba1c61959e",
+  "name": "Rowboat",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Boat_01/Boat_01.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "f5878d84-951e-4deb-9eeb-5feaf716136c",
+  "name": "Manhole - Purple",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Manhole_Purple.glb"
+    }
+  }
+}

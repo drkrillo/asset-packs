@@ -1,0 +1,10 @@
+{
+  "id": "5df296c5-f070-44dc-9ba2-8cafe7852037",
+  "name": "Rock Tile",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FloorBlock_04/FloorBlock_04.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "f5844d08-2967-4d9a-99c9-57ad5c5c26c3",
+  "name": "Stool Modern Low",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/ModernStoolLow.glb"
+    }
+  }
+}

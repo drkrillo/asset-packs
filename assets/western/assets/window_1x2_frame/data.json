@@ -1,0 +1,10 @@
+{
+  "id": "015d6a45-0367-4834-92b1-c0f407ca642a",
+  "name": "Window 1x2 Frame",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Window 1x2 Frame.glb"
+    }
+  }
+}

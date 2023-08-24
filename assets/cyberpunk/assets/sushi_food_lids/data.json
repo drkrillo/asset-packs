@@ -1,0 +1,10 @@
+{
+  "id": "df59e2f3-68a4-4a00-808b-3390304b8362",
+  "name": "Sushi - Food Lids",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Food_Lids_Sushi.glb"
+    }
+  }
+}

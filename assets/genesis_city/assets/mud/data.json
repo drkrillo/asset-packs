@@ -1,0 +1,10 @@
+{
+  "id": "d93e1fad-b131-4fe2-9843-14eae6f2b08e",
+  "name": "Mud",
+  "category": "ground",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FloorBaseDirt_01/FloorBaseDirt_01.glb"
+    }
+  }
+}

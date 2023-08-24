@@ -1,0 +1,10 @@
+{
+  "id": "da7680db-96dd-4728-ae31-2ad300b5edb8",
+  "name": "Straw",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Straw.glb"
+    }
+  }
+}

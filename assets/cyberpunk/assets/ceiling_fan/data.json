@@ -1,0 +1,10 @@
+{
+  "id": "eced91a9-934c-4bcb-94cc-2be8264ad942",
+  "name": "Ceiling Fan",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/Ceiling_Fan.glb"
+    }
+  }
+}

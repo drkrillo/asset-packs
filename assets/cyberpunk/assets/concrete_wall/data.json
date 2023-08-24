@@ -1,0 +1,10 @@
+{
+  "id": "53aa3052-ccd7-4a05-be3f-f840acbff99e",
+  "name": "Concrete Wall",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Concrete_Wall.glb"
+    }
+  }
+}

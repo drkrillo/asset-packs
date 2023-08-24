@@ -1,0 +1,10 @@
+{
+  "id": "c10059e9-f4b2-4528-8b0c-a343a906b6a9",
+  "name": "Compass",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Compass_01/Compass_01.glb"
+    }
+  }
+}

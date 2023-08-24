@@ -1,0 +1,10 @@
+{
+  "id": "af8136bb-c528-4c8c-a986-c352b48241bf",
+  "name": "Blue Table",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Table_02/Table_02.glb"
+    }
+  }
+}

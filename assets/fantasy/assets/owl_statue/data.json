@@ -1,0 +1,10 @@
+{
+  "id": "d236405d-0fe7-4126-b9a5-6867f481b672",
+  "name": "Owl Statue",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/StatueOwl_01/StatueOwl_01.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "ac1c4726-8ad6-4936-8fd3-db04470d6b06",
+  "name": "Warning Sign",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Warning_Sign.glb"
+    }
+  }
+}

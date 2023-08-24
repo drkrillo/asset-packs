@@ -1,0 +1,10 @@
+{
+  "id": "b6f18059-00be-4460-bcd4-06473ad61420",
+  "name": "Magenta Mushroom",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Mushroom_01/Mushroom_01.glb"
+    }
+  }
+}

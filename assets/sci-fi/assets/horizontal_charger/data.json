@@ -1,0 +1,10 @@
+{
+  "id": "af378f93-5a3c-438a-a5f3-defe827f1342",
+  "name": "Horizontal Charger",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Charger_02/Charger_02.glb"
+    }
+  }
+}

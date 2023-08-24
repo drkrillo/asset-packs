@@ -1,0 +1,10 @@
+{
+  "id": "bc789145-d689-4559-a1ff-71c2da79b7de",
+  "name": "Square Canopy",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Canopy_01/Canopy_01.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "d26a2837-b47a-4814-9603-9b7411341aae",
+  "name": "Floor - Magnolia",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/MagnoliaFloor.glb"
+    }
+  }
+}

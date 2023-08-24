@@ -1,0 +1,10 @@
+{
+  "id": "b42a4b34-39fb-48d9-850a-cf16a7cb78cb",
+  "name": "Wechat Button Link",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/wechat.glb"
+    }
+  }
+}

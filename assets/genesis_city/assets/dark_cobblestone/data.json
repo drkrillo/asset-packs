@@ -1,0 +1,10 @@
+{
+  "id": "62b9b3e0-f0d9-4693-b8ee-fee3c20ca29c",
+  "name": "Dark Cobblestone",
+  "category": "ground",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FloorBasePebbles_01/FloorBasePebbles_01.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "b3e238f7-8af9-4db0-939a-253263cd9af8",
+  "name": "Chalice of Victory",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Chalice_02/Chalice_02.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "d2cf9681-8615-4b8e-aa2e-15b430c3b9cf",
+  "name": "Square Golden Ceiling lamp",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Ceiling_Lamp_02/Ceiling_Lamp_02.glb"
+    }
+  }
+}

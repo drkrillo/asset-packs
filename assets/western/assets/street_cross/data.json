@@ -1,0 +1,10 @@
+{
+  "id": "73e8a8ae-3d85-4543-bfc0-18c0b7aa2cda",
+  "name": "Street Cross",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Street Cross.glb"
+    }
+  }
+}

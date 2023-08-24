@@ -1,0 +1,10 @@
+{
+  "id": "255c2a6d-792f-41f1-afb2-12dc6cb4711a",
+  "name": "Straight Tubing",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/TubePiece_01/TubePiece_01.glb"
+    }
+  }
+}

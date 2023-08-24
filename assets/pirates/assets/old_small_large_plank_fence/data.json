@@ -1,0 +1,10 @@
+{
+  "id": "4ee11538-e6ab-44b6-8b79-8fcf3701a84e",
+  "name": "Old Small Large Plank Fence",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FenceWoodSmall_02/FenceWoodSmall_02.glb"
+    }
+  }
+}

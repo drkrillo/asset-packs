@@ -1,0 +1,10 @@
+{
+  "id": "4380b73c-6e1c-44cd-8811-46f8e48767d6",
+  "name": "Solid multicolor",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/solid_multicolor.glb"
+    }
+  }
+}

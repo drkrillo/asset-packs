@@ -1,0 +1,10 @@
+{
+  "id": "32a90a74-dec8-49ae-8a5c-ecedaa0cd744",
+  "name": "Construction Ladder",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/ConstructionLadder_01/ConstructionLadder_01.glb"
+    }
+  }
+}

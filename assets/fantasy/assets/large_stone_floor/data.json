@@ -1,0 +1,10 @@
+{
+  "id": "717323f7-72ff-48f4-b4ca-9afffb81aaa8",
+  "name": "Large Stone Floor",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Stone_Module_4M/Stone_Module_4M.glb"
+    }
+  }
+}

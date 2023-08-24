@@ -1,0 +1,10 @@
+{
+  "id": "2637006a-20cb-410d-8314-329d78820dfc",
+  "name": "Cobblestone Corner Tile",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FloorCorner_01/FloorCorner_01.glb"
+    }
+  }
+}

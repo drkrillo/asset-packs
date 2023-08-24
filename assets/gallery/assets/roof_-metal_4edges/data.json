@@ -1,0 +1,10 @@
+{
+  "id": "d11d3ab8-0281-4bab-bfb8-186aec8f93c4",
+  "name": "Roof -Metal 4Edges",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/MetalRoof_4Edges.glb"
+    }
+  }
+}

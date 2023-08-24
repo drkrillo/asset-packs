@@ -1,0 +1,10 @@
+{
+  "id": "0466f8d3-be42-4647-a2e9-0d63e0337d7b",
+  "name": "Heart Comet",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Comet_02/Comet_02.glb"
+    }
+  }
+}

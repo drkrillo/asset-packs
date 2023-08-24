@@ -1,0 +1,10 @@
+{
+  "id": "f9f8de37-8131-4e8a-b593-38cbac147001",
+  "name": "Hardwood Rounded Bridge",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Bridge_03/Bridge_03.glb"
+    }
+  }
+}

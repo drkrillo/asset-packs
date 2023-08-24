@@ -1,0 +1,10 @@
+{
+  "id": "cbb89550-f805-4749-b806-1e39b11f6cc5",
+  "name": "Ice",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/ice.glb"
+    }
+  }
+}

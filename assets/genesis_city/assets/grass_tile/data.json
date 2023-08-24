@@ -1,0 +1,10 @@
+{
+  "id": "7f2dbcb5-40f5-4e2f-9409-1886d26ce068",
+  "name": "Grass Tile",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FloorBlock_05/FloorBlock_05.glb"
+    }
+  }
+}

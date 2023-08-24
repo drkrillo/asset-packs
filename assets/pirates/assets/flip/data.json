@@ -1,0 +1,10 @@
+{
+  "id": "d71a50d0-96c7-46b6-8e2b-5b01a9116fff",
+  "name": "Flip",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Bottle_05/Bottle_05.glb"
+    }
+  }
+}

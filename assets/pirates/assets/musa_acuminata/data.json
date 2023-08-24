@@ -1,0 +1,10 @@
+{
+  "id": "f36ca1ea-2529-4514-a8db-489bf44b6e78",
+  "name": "Musa Acuminata",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/JunglePlant_04/JunglePlant_04.glb"
+    }
+  }
+}

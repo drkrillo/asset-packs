@@ -1,0 +1,10 @@
+{
+  "id": "0845fe62-9876-4e6a-a9c2-e001667c455b",
+  "name": "Floor Light Disc",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Light_04/Light_04.glb"
+    }
+  }
+}

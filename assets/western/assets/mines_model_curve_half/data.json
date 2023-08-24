@@ -1,0 +1,10 @@
+{
+  "id": "fe26becf-4ba8-4b1a-8d05-48763bec1930",
+  "name": "Mines Model Curve Half",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Mines Model Curve Half.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "c9a51621-9fdb-44fd-ae7b-2cb0f773072c",
+  "name": "Turret Array",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Turret_03/Turret_03.glb"
+    }
+  }
+}

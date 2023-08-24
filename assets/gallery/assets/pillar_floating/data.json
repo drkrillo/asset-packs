@@ -1,0 +1,10 @@
+{
+  "id": "0830c878-ad0e-4a1e-a7bb-5afa8edb6039",
+  "name": "Pillar - Floating",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FloatingPillar.glb"
+    }
+  }
+}

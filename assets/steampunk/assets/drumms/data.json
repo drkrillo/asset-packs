@@ -1,0 +1,10 @@
+{
+  "id": "b6dd0d14-e5bb-444b-9a2e-2c25d3dce874",
+  "name": "Drumms",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Drumms.glb"
+    }
+  }
+}

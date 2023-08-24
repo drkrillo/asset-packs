@@ -1,0 +1,10 @@
+{
+  "id": "dc028b6e-19b1-40b3-802d-6bb42d89913f",
+  "name": "Terror of the Wicked",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Book_01/Book_01.glb"
+    }
+  }
+}

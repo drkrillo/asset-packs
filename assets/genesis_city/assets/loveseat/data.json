@@ -1,0 +1,10 @@
+{
+  "id": "c162b72f-3a64-4593-aaa1-a42f614cf9e5",
+  "name": "Loveseat",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Couch_01/Couch_01.glb"
+    }
+  }
+}

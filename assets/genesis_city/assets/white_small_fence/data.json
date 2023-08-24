@@ -1,0 +1,10 @@
+{
+  "id": "965dcf91-178e-4632-ade0-84f9ac97e93a",
+  "name": "White Small Fence",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FencePicketWhiteSmall_01/FencePicketWhiteSmall_01.glb"
+    }
+  }
+}

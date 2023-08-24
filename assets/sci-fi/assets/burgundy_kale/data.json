@@ -1,0 +1,10 @@
+{
+  "id": "77bb5e25-550d-467f-a162-90ff2751407c",
+  "name": "Burgundy Kale",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PlantSF_10/PlantSF_10.glb"
+    }
+  }
+}

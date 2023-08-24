@@ -1,0 +1,10 @@
+{
+  "id": "9d9c165d-3aaa-44ae-89f6-20d977122fce",
+  "name": "Concrete Rounded Table",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Table_04/Table_04.glb"
+    }
+  }
+}

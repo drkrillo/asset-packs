@@ -1,0 +1,10 @@
+{
+  "id": "fd255cd6-3edb-40b2-9880-a261b028d8be",
+  "name": "Roof - Metal 2Edges Small",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/MetalRoof_2Edges_Small.glb"
+    }
+  }
+}

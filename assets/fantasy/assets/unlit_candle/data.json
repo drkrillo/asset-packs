@@ -1,0 +1,10 @@
+{
+  "id": "fa688186-2723-48e3-b73c-2231e85d5b47",
+  "name": "Unlit Candle",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Candle_01/Candle_01.glb"
+    }
+  }
+}

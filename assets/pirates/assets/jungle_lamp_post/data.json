@@ -1,0 +1,10 @@
+{
+  "id": "9768ade7-24b6-4260-9ceb-e3f57e00a311",
+  "name": "Jungle Lamp Post",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/JungleLampPost_01/JungleLampPost_01.glb"
+    }
+  }
+}

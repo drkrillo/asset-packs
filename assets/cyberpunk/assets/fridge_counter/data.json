@@ -1,0 +1,10 @@
+{
+  "id": "cd54d23e-eef5-48f6-bfb2-ff7878b37d0b",
+  "name": "Fridge Counter",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Fridge_Counter.glb"
+    }
+  }
+}

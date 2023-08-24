@@ -1,0 +1,10 @@
+{
+  "id": "d1335dc0-98a6-430b-87db-0591e03455a5",
+  "name": "Ring Purple Light",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Ring_Purple_Light.glb"
+    }
+  }
+}

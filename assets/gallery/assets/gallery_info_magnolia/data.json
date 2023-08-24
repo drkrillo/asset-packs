@@ -1,0 +1,10 @@
+{
+  "id": "aea3e8cc-3657-46f3-9452-f673e14e342b",
+  "name": "Gallery Info - Magnolia",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/MagnoliaGalleryInfo.glb"
+    }
+  }
+}

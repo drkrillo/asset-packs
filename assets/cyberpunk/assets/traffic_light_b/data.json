@@ -1,0 +1,10 @@
+{
+  "id": "a0da39f1-4cd1-477d-938e-b33211844fc5",
+  "name": "Traffic Light B",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Traffic_Light_B.glb"
+    }
+  }
+}

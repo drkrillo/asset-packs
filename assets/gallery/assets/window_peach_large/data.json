@@ -1,0 +1,10 @@
+{
+  "id": "fbb90efb-dbec-4dc2-bc0e-24290fe007c0",
+  "name": "Window - Peach Large",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PeachWindowLarge.glb"
+    }
+  }
+}

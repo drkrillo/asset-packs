@@ -1,0 +1,10 @@
+{
+  "id": "a65f9c2e-9ad2-4339-8ade-4ddc1dd296ca",
+  "name": "Scimitar",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Sword_02/Sword_02.glb"
+    }
+  }
+}

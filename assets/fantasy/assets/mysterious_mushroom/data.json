@@ -1,0 +1,10 @@
+{
+  "id": "78049609-3097-4f79-b6af-a0273a5d50b3",
+  "name": "Mysterious Mushroom",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Mushrooms_05/Mushrooms_05.glb"
+    }
+  }
+}

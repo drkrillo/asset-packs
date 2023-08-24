@@ -1,0 +1,10 @@
+{
+  "id": "54d93298-8dc5-4cfc-8974-08e7ce262fa4",
+  "name": "Scriptorium",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PapyrusDesk_01/PapyrusDesk_01.glb"
+    }
+  }
+}

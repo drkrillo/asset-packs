@@ -1,0 +1,10 @@
+{
+  "id": "b44ad9a1-d018-4152-ba5b-2fad3a66a872",
+  "name": "Wall Bookshelf",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Wall Bookshelf.glb"
+    }
+  }
+}

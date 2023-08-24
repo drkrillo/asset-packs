@@ -1,0 +1,10 @@
+{
+  "id": "afe42dec-fa8b-4eb1-bff9-3a4e14fd0335",
+  "name": "BumBoo",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Bottle_03/Bottle_03.glb"
+    }
+  }
+}

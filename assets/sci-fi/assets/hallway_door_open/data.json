@@ -1,0 +1,10 @@
+{
+  "id": "1c2952f6-41d1-49e9-a6a0-78f7868b4332",
+  "name": "Hallway Door Open",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Hallway_Module_Door_02/Hallway_Module_Door_02.glb"
+    }
+  }
+}

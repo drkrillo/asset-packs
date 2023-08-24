@@ -1,0 +1,10 @@
+{
+  "id": "d491889d-7721-4a5e-89be-180f1f96feaa",
+  "name": "Green Fish",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Fish_03/Fish_03.glb"
+    }
+  }
+}

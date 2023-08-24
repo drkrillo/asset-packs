@@ -1,0 +1,10 @@
+{
+  "id": "a15722e1-9d04-470a-857f-192388828cce",
+  "name": "Wooden Wheel",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Wheel_01/Wheel_01.glb"
+    }
+  }
+}

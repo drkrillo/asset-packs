@@ -1,0 +1,10 @@
+{
+  "id": "4f34176b-66b1-4634-997a-64a522168aa6",
+  "name": "Golden Pig Statue",
+  "category": "year of the pig",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/ChineseStatuePig_02/ChineseStatuePig_02.glb"
+    }
+  }
+}

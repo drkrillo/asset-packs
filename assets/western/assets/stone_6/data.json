@@ -1,0 +1,10 @@
+{
+  "id": "e20955a1-286a-4d28-aecb-17715fa2009b",
+  "name": "Stone 6",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Stone 6.glb"
+    }
+  }
+}

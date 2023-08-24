@@ -1,0 +1,10 @@
+{
+  "id": "f84b7b33-7fd9-446b-ae49-759e87706557",
+  "name": "Small Rustic Fence",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FenceWoodSmall_01/FenceWoodSmall_01.glb"
+    }
+  }
+}

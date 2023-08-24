@@ -1,0 +1,10 @@
+{
+  "id": "cbc5c08a-bb94-4a8a-99a7-eaa3f85554ed",
+  "name": "Yard Sign",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Sign_03/Sign_03.glb"
+    }
+  }
+}

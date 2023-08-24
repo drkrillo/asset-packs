@@ -1,0 +1,10 @@
+{
+  "id": "7085a964-162b-4365-8e2e-017579cec292",
+  "name": "Rose Head",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Flower_02/Flower_02.glb"
+    }
+  }
+}

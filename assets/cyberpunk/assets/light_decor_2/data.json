@@ -1,0 +1,10 @@
+{
+  "id": "cc93be70-5b8a-4598-83a9-3822ba15539b",
+  "name": "Light Decor 2",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Light_Decor2.glb"
+    }
+  }
+}

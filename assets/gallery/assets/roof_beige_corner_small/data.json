@@ -1,0 +1,10 @@
+{
+  "id": "a83f44c6-cb5d-4895-be94-42c4f666933a",
+  "name": "Roof - Beige Corner Small",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/BeigeRoof_Corner_Small.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "a3401af9-8e2b-4b2b-915e-ccb8ed611c88",
+  "name": "Spotlight Strip Light",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/SpotlightStrip_On.glb"
+    }
+  }
+}

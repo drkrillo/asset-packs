@@ -1,0 +1,10 @@
+{
+  "id": "a4f87732-978b-480e-adf2-6da70ea5c45b",
+  "name": "Wooden Axe",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Axe_01/Axe_01.glb"
+    }
+  }
+}

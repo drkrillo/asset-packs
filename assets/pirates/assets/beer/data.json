@@ -1,0 +1,10 @@
+{
+  "id": "f8a6c57f-8b30-471e-8983-9ba1d390aa7b",
+  "name": "Beer",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Bottle_06/Bottle_06.glb"
+    }
+  }
+}

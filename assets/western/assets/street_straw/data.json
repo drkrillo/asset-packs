@@ -1,0 +1,10 @@
+{
+  "id": "0d0b9fb9-0055-42e5-b39c-ed21e0782b2b",
+  "name": "Street Straw",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Street Straw.glb"
+    }
+  }
+}

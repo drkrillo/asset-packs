@@ -1,0 +1,10 @@
+{
+  "id": "c1024fb1-34a6-4d5d-8129-e171358b1203",
+  "name": "Crew Candle Lamp",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Lantern_01/Lantern_01.glb"
+    }
+  }
+}

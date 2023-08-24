@@ -1,0 +1,10 @@
+{
+  "id": "e7f7a10a-995d-48a7-bc32-68a357f7dfe9",
+  "name": "Large Ornamented Stone Rail",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FenceStoneLarge_01/FenceStoneLarge_01.glb"
+    }
+  }
+}

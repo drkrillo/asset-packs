@@ -1,0 +1,10 @@
+{
+  "id": "c37b52bf-204c-4c8f-aee5-3249129b8141",
+  "name": "Bronze Key",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/Bronze_Key_Genesis.glb"
+    }
+  }
+}

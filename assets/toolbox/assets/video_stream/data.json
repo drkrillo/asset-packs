@@ -1,0 +1,10 @@
+{
+  "id": "a747f104-5434-42a8-a543-8739c24cf253",
+  "name": "Video stream",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/stream_preview.glb"
+    }
+  }
+}

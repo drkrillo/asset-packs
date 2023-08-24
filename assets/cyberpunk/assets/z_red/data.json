@@ -1,0 +1,10 @@
+{
+  "id": "a8d9f657-d00b-4297-baf7-7d8ea24f5962",
+  "name": "Z Red",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Z_Red.glb"
+    }
+  }
+}

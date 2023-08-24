@@ -1,0 +1,10 @@
+{
+  "id": "209fac77-3ea9-41fa-8a3c-dec67280db1f",
+  "name": "Wizard Gemstone Pillar",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Pillar_Magic_01/Pillar_Magic_01.glb"
+    }
+  }
+}

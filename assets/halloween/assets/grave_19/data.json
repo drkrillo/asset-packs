@@ -1,0 +1,10 @@
+{
+  "id": "f0f8f9a5-d286-4a90-a167-7fe270a8be76",
+  "name": "Grave 19",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/HWN20_Grave_19.glb"
+    }
+  }
+}

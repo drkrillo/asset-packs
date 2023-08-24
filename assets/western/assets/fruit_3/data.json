@@ -1,0 +1,10 @@
+{
+  "id": "cce63be5-5cff-4843-bc9d-f3c910bebea3",
+  "name": "Fruit 3",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Fruit 3.glb"
+    }
+  }
+}

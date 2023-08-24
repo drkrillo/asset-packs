@@ -1,0 +1,10 @@
+{
+  "id": "c67cf4bb-2be5-4db0-9d49-c1847a7c3f0e",
+  "name": "1M Kinked Cable",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Cable_1M_Curve_03/Cable_1M_Curve_03.glb"
+    }
+  }
+}

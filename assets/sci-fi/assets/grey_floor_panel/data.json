@@ -1,0 +1,10 @@
+{
+  "id": "13b9f9e1-7b20-40fc-a21b-ca2103026096",
+  "name": "Grey Floor Panel",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FloorSciFiPanel_01/FloorSciFiPanel_01.glb"
+    }
+  }
+}

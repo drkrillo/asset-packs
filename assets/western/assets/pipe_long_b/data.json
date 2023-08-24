@@ -1,0 +1,10 @@
+{
+  "id": "c337d9f8-902d-41e5-9bba-e98244d63d38",
+  "name": "Pipe Long B",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Pipe Long B.glb"
+    }
+  }
+}

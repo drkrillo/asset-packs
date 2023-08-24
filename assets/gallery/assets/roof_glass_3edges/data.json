@@ -1,0 +1,10 @@
+{
+  "id": "c7210be1-8b61-4c77-8225-9ea61b4b3eba",
+  "name": "Roof - Glass 3Edges",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/GlassRoof_3Edges.glb"
+    }
+  }
+}

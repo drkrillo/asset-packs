@@ -1,0 +1,10 @@
+{
+  "id": "c65c05cf-1e93-4fec-9cca-754c9becdf5e",
+  "name": "Speed Bump",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Speed_Bump.glb"
+    }
+  }
+}

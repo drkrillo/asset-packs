@@ -1,0 +1,10 @@
+{
+  "id": "f5659860-ff42-47f5-988e-4b503453d821",
+  "name": "Spyglass",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Binoculars_01/Binoculars_01.glb"
+    }
+  }
+}

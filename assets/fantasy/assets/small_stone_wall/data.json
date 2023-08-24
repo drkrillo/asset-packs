@@ -1,0 +1,10 @@
+{
+  "id": "22215c3d-7298-4fe5-b9cf-8043ad3b552b",
+  "name": "Small Stone Wall",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Wall_Stone_Small/Wall_Stone_Small.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "c8836077-7170-47b1-bc1f-e590d89d117c",
+  "name": "Component Floor Panel",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FloorSciFiPanel_04/FloorSciFiPanel_04.glb"
+    }
+  }
+}

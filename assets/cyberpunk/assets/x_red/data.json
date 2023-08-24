@@ -1,0 +1,10 @@
+{
+  "id": "714b32a7-6dfe-472b-918e-85cdebf61b35",
+  "name": "X Red",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/X_Red.glb"
+    }
+  }
+}

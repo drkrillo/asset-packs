@@ -1,0 +1,10 @@
+{
+  "id": "b38acfd2-aded-4564-8254-47013f671495",
+  "name": "WallCorner - AncientEgyptian ",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/AncientEgyptianCorner.glb"
+    }
+  }
+}

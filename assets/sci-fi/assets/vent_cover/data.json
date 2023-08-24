@@ -1,0 +1,10 @@
+{
+  "id": "426de1e2-bfd9-4c8f-b262-54127e603ef7",
+  "name": "Vent Cover",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/AirVent_Cap_01/AirVent_Cap_01.glb"
+    }
+  }
+}

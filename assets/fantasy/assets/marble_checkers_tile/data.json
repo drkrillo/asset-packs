@@ -1,0 +1,10 @@
+{
+  "id": "81eb0547-ef35-4f8d-8cfe-16350b2a278b",
+  "name": "Marble Checkers Tile",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Tile_Floor_01/Tile_Floor_01.glb"
+    }
+  }
+}

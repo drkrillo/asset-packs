@@ -1,0 +1,10 @@
+{
+  "id": "da0725a5-bb05-46c5-974c-1dc49207485b",
+  "name": "Roof - Grey 3Edges Small",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/GreyRoof_3Edges_Small.glb"
+    }
+  }
+}

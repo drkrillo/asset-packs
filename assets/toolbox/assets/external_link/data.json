@@ -1,0 +1,10 @@
+{
+  "id": "b88efbbf-2a9a-47b4-86e1-e38ecc2b433b",
+  "name": "External Link",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/hiper.glb"
+    }
+  }
+}

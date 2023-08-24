@@ -1,0 +1,10 @@
+{
+  "id": "e43e82be-20dd-4a69-af96-0420f825be0e",
+  "name": "Archway of Nightmares",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/ArchWay_01/ArchWay_01.glb"
+    }
+  }
+}

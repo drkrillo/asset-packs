@@ -1,0 +1,10 @@
+{
+  "id": "cc53236c-87c2-4e63-b27d-39cc061c17df",
+  "name": "Beam Exterior 2",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Beam Exterior 2.glb"
+    }
+  }
+}

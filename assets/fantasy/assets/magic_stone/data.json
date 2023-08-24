@@ -1,0 +1,10 @@
+{
+  "id": "dd4a594e-0ab3-4c85-9dee-7f57f93775f7",
+  "name": "Magic Stone",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Stone_Magic_01/Stone_Magic_01.glb"
+    }
+  }
+}

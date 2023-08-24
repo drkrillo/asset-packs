@@ -1,0 +1,10 @@
+{
+  "id": "3fde7be8-91a4-44bc-bca2-6f4e93db40e2",
+  "name": "Sofa - Modern",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/ModernSofa.glb"
+    }
+  }
+}

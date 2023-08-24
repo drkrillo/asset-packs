@@ -1,0 +1,10 @@
+{
+  "id": "09f6a01c-2ddc-4e13-a147-da50f5ca08ef",
+  "name": "Medium Stone Wall",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Wall_Stone_Medium/Wall_Stone_Medium.glb"
+    }
+  }
+}

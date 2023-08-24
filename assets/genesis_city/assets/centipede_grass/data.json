@@ -1,0 +1,10 @@
+{
+  "id": "ea013d0a-8f70-44ca-be3d-706d46cb7ed2",
+  "name": "Centipede Grass",
+  "category": "ground",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FloorBaseGrass_02/FloorBaseGrass_02.glb"
+    }
+  }
+}

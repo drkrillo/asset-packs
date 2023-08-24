@@ -1,0 +1,10 @@
+{
+  "id": "26d204c5-52df-475c-a6b2-999ce1b716bd",
+  "name": "Smooth Log",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Log_01/Log_01.glb"
+    }
+  }
+}

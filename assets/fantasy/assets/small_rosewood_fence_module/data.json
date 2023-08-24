@@ -1,0 +1,10 @@
+{
+  "id": "5fbdc8fc-789e-43dc-9cb3-f5f144b253df",
+  "name": "Small Rosewood Fence Module",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FenceWoodSmall_01/FenceWoodSmall_01.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "b8118ff9-8441-4cb7-97b4-84fc69871a36",
+  "name": "Round Floor Lamp",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/FloorLampC_On.glb"
+    }
+  }
+}

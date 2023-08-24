@@ -1,0 +1,10 @@
+{
+  "id": "9480d510-be18-4447-b932-2c91f80cace6",
+  "name": "Window 1x2 V4 Closed",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Window 1x2 V4 Closed.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "d8586e63-20ac-426d-8602-3c28603e8294",
+  "name": "Large Stone Wall",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FenceStoneTallLarge_01/FenceStoneTallLarge_01.glb"
+    }
+  }
+}

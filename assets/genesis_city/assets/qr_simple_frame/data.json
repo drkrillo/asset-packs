@@ -1,0 +1,10 @@
+{
+  "id": "e87d18cc-25b4-42fb-b3db-4f48c98f6d4b",
+  "name": "QR simple frame",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/QR_SimpleFrame.glb"
+    }
+  }
+}

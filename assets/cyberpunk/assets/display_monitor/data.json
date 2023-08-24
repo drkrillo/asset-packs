@@ -1,0 +1,10 @@
+{
+  "id": "d7c52da1-a693-42d3-b546-c608cb5e0fe6",
+  "name": "Display Monitor",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Display_Monitor.glb"
+    }
+  }
+}

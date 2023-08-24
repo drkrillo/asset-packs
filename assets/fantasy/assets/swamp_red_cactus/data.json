@@ -1,0 +1,10 @@
+{
+  "id": "e7aa810b-3c07-42af-804d-1b451bf1818e",
+  "name": "Swamp Red Cactus",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Vegetation_06/Vegetation_06.glb"
+    }
+  }
+}

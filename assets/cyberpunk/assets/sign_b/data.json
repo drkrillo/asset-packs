@@ -1,0 +1,10 @@
+{
+  "id": "ac0ebcb8-0a14-4a36-b21d-e3bb526c2247",
+  "name": "Sign B",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/SignB.glb"
+    }
+  }
+}

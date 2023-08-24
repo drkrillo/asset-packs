@@ -1,0 +1,10 @@
+{
+  "id": "6708e15a-4dcf-40d6-9414-cc6c61241c39",
+  "name": "Train Track Switcher",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Train Track Switcher.glb"
+    }
+  }
+}

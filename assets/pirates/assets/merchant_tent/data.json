@@ -1,0 +1,10 @@
+{
+  "id": "810d239a-da72-4c27-85ab-7e0931ef43de",
+  "name": "Merchant Tent",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Tent_01/Tent_01.glb"
+    }
+  }
+}

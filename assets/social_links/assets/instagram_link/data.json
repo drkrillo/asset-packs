@@ -1,0 +1,10 @@
+{
+  "id": "d367d3f2-9696-4d61-985a-7988fbf5f50d",
+  "name": "Instagram link",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/instagram.glb"
+    }
+  }
+}

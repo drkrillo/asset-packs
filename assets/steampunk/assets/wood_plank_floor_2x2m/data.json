@@ -1,0 +1,10 @@
+{
+  "id": "5d078157-e090-4025-81d4-2eddd116b69d",
+  "name": "Wood Plank Floor 2x2M",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Wood Plank Floor 2x2M.glb"
+    }
+  }
+}

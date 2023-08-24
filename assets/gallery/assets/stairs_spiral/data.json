@@ -1,0 +1,10 @@
+{
+  "id": "e2db1a16-fedd-48e5-97b6-56bf90997f00",
+  "name": "Stairs Spiral",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/SpiralStairs.glb"
+    }
+  }
+}

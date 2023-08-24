@@ -1,0 +1,10 @@
+{
+  "id": "84e900e0-3031-4570-9ae5-106455553dff",
+  "name": "Pumpkin Basket",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/HWN20_PumpkinBasket.glb"
+    }
+  }
+}

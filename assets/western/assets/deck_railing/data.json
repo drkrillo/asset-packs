@@ -1,0 +1,10 @@
+{
+  "id": "83554f07-9f86-431a-ab32-a545a0d4ab21",
+  "name": "Deck Railing",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Deck Railing.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "caa1008c-05cd-4faf-ac9d-b3484a46aebb",
+  "name": "Gear 5 Teeth",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Gear 5 Teeth.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "8a6787dc-873d-4ff7-a3cb-c28209f20a50",
+  "name": "Box Small",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Box Small.glb"
+    }
+  }
+}

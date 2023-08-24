@@ -1,0 +1,10 @@
+{
+  "id": "b4a17329-14d3-4d3e-a4de-4fb58f621d73",
+  "name": "Window - Beige ",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/BeigeWindow.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "f8d1c4ef-6997-4ac2-8381-2cd36c294e66",
+  "name": "Wall - AncientEgiptian",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/AncientEgiptianWall.glb"
+    }
+  }
+}

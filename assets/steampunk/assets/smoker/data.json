@@ -1,0 +1,10 @@
+{
+  "id": "467c2e76-6a62-4a79-868e-9aab52002585",
+  "name": "Smoker",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Smoker.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "aee37af6-906c-4b11-9a7a-5f2773e85194",
+  "name": "Pixel Critter E",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Pixel_Critter_E.glb"
+    }
+  }
+}

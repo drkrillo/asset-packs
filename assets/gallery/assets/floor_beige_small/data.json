@@ -1,0 +1,10 @@
+{
+  "id": "f8fb03a6-1023-4e60-9745-5a72148f1722",
+  "name": "Floor - Beige Small",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/BeigeFloor_Small.glb"
+    }
+  }
+}

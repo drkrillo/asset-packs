@@ -1,0 +1,10 @@
+{
+  "id": "1bea49b5-528b-48cf-8d97-8aef8c86bbd0",
+  "name": "Large Iron Fence",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FenceIronLarge_01/FenceIronLarge_01.glb"
+    }
+  }
+}

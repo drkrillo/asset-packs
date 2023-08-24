@@ -1,0 +1,10 @@
+{
+  "id": "c9c99768-c9ed-42b5-b6e1-44560481173e",
+  "name": "Floor - Stone small",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/StoneFloor_small.glb"
+    }
+  }
+}

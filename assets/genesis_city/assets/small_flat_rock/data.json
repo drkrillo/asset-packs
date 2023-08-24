@@ -1,0 +1,10 @@
+{
+  "id": "1f8058de-0a22-47c9-8732-a1f2d9721838",
+  "name": "Small Flat Rock",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/RockSmall_01/RockSmall_01.glb"
+    }
+  }
+}

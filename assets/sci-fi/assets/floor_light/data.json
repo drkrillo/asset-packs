@@ -1,0 +1,10 @@
+{
+  "id": "74561954-1dc0-4dcc-a2c8-9f542eca3288",
+  "name": "Floor Light",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Light_03/Light_03.glb"
+    }
+  }
+}

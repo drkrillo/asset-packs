@@ -1,0 +1,10 @@
+{
+  "id": "08e139ae-3a20-4ceb-a551-99fdbd56216d",
+  "name": "Big Stone Tile",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/StoneRandomBig_01/StoneRandomBig_01.glb"
+    }
+  }
+}

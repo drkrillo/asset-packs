@@ -1,0 +1,10 @@
+{
+  "id": "d723a3b8-cfab-4c5e-9dba-c30231bb9d19",
+  "name": "Pipe Short",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Pipe Short.glb"
+    }
+  }
+}

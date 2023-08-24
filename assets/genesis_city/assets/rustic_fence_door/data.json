@@ -1,0 +1,10 @@
+{
+  "id": "4ffd9747-77f2-4a8e-8064-e7c14f128704",
+  "name": "Rustic Fence Door",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FenceWoodDoor_01/FenceWoodDoor_01.glb"
+    }
+  }
+}

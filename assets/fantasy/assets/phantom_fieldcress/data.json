@@ -1,0 +1,10 @@
+{
+  "id": "e6e79b63-5b5e-4612-af8e-0ba1058c60c5",
+  "name": "Phantom Fieldcress",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Bush_Fantasy_03/Bush_Fantasy_03.glb"
+    }
+  }
+}

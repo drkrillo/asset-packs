@@ -1,0 +1,10 @@
+{
+  "id": "72dadfbe-5b8c-4bea-bfb9-a80927d1da5c",
+  "name": "Mound Pansy",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PlantSF_04/PlantSF_04.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "38a12f38-e389-49b8-bdfb-1d6823ab894b",
+  "name": "The Rock",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Rock_04/Rock_04.glb"
+    }
+  }
+}

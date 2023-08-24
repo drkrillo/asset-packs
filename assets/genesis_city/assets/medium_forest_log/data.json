@@ -1,0 +1,10 @@
+{
+  "id": "00f75e38-8746-492a-8e1a-f2433c3c99ba",
+  "name": "Medium Forest Log",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Log_02/Log_02.glb"
+    }
+  }
+}

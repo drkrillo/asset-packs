@@ -1,0 +1,10 @@
+{
+  "id": "a9187791-ab8e-4334-ae9d-3718cc5432b5",
+  "name": "Roof - Pink",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PinkRoof.glb"
+    }
+  }
+}

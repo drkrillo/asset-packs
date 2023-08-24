@@ -1,0 +1,10 @@
+{
+  "id": "6464f5ed-d97d-49fc-9c99-4f9e2069dc71",
+  "name": "Wooden Trapdoor",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/Wooden_Trap_Door.glb"
+    }
+  }
+}

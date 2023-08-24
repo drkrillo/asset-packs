@@ -1,0 +1,10 @@
+{
+  "id": "a18a56d8-5e22-4407-b069-9b5dce4e6700",
+  "name": "Exhaust Flat",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/AirVent_Exhaust_02/AirVent_Exhaust_02.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "d88d1f70-f021-4182-aadd-3ec503b4b3a2",
+  "name": "Signpost Tree",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/signpost/SignPost_Neon_Circle.glb"
+    }
+  }
+}

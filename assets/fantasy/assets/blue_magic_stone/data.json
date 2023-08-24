@@ -1,0 +1,10 @@
+{
+  "id": "c32d017c-9fff-451a-9787-9ae7804db307",
+  "name": "Blue Magic Stone",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Crystal_04/Crystal_04.glb"
+    }
+  }
+}

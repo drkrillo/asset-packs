@@ -1,0 +1,10 @@
+{
+  "id": "f124f8a1-929b-4ec0-996a-d41db4c6dee9",
+  "name": "Glass Opaque Orange",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/glass_opaque_orange.glb"
+    }
+  }
+}

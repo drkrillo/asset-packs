@@ -1,0 +1,10 @@
+{
+  "id": "d5a491a2-8920-4f9e-be5a-47c49568aa42",
+  "name": "Pile of Round Shots",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Cannonball_02/Cannonball_02.glb"
+    }
+  }
+}

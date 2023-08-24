@@ -1,0 +1,10 @@
+{
+  "id": "e60a5e96-dee0-4d07-93c3-6684f54679f8",
+  "name": "Straight Platform",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Dock_Straight_01/Dock_Straight_01.glb"
+    }
+  }
+}

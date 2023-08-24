@@ -1,0 +1,10 @@
+{
+  "id": "90f25c53-b5e7-4947-b9ac-c00a61dd907f",
+  "name": "Wood Planks Broken 4x4M",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Wood Planks Broken_4x4M.glb"
+    }
+  }
+}

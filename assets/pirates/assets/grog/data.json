@@ -1,0 +1,10 @@
+{
+  "id": "adac2954-73d4-4faa-adb8-bb978c58101c",
+  "name": "Grog",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Bottle_07/Bottle_07.glb"
+    }
+  }
+}

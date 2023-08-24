@@ -1,0 +1,10 @@
+{
+  "id": "bdd5671b-9c8f-43c7-8385-f0dd70257863",
+  "name": "Wall - LEDGrid",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/LEDGridWall.glb"
+    }
+  }
+}

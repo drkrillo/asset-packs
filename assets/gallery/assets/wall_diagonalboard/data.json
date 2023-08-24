@@ -1,0 +1,10 @@
+{
+  "id": "aa028663-0f32-4467-b501-2ad4d6783dee",
+  "name": "Wall - DiagonalBoard",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/DiagonalBoardWall.glb"
+    }
+  }
+}

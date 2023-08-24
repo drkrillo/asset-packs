@@ -1,0 +1,10 @@
+{
+  "id": "4d9d81aa-b44d-4af1-98df-9ba5008c1c76",
+  "name": "Shark-Tooth Stalagmite",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Stalagmite_02/Stalagmite_02.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "083c103f-8b52-493a-b1f0-a2ec0544948a",
+  "name": "Train Track 10 M",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Train Track 10 M.glb"
+    }
+  }
+}

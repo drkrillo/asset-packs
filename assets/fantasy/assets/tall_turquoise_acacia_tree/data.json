@@ -1,0 +1,10 @@
+{
+  "id": "b0787719-7d9a-47f0-951f-23963a8fd274",
+  "name": "Tall Turquoise Acacia Tree",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Tree_Forest_Turquoise_04/Tree_Forest_Turquoise_04.glb"
+    }
+  }
+}

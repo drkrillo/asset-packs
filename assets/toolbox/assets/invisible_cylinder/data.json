@@ -1,0 +1,10 @@
+{
+  "id": "b853061a-bf5a-4d76-b7f1-92ed9ea4a8bf",
+  "name": "Invisible Cylinder",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/Cylinder_EditMode.glb"
+    }
+  }
+}

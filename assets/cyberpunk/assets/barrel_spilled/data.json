@@ -1,0 +1,10 @@
+{
+  "id": "be6d4ae2-d88b-4c7e-aaf1-42323e044ed6",
+  "name": "Barrel Spilled",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Barrel_Spilled.glb"
+    }
+  }
+}

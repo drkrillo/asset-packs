@@ -1,0 +1,10 @@
+{
+  "id": "a7c13819-d5eb-4134-acf5-4ec2958fa7f7",
+  "name": "Coin Gecko Statue",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/GeckoStone_01/GeckoStone_01.glb"
+    }
+  }
+}

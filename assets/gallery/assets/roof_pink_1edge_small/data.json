@@ -1,0 +1,10 @@
+{
+  "id": "ec91c5ab-20b4-4ac7-bb60-263bc7bdeecd",
+  "name": "Roof - Pink 1Edge Small",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PinkRoof_1Edge_Small.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "f2316746-f85b-4fbe-bcd5-632350965948",
+  "name": "Long Opened Wooden Crate",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/CrateLong_02/CrateLong_02.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "29f358ec-1a23-4cfa-b90e-1907a0fd9406",
+  "name": "Small Street Theater",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Theatre_01/Theatre_01.glb"
+    }
+  }
+}

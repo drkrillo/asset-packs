@@ -1,0 +1,10 @@
+{
+  "id": "c91a4f6e-9fcf-4d6a-b268-f30a7095f149",
+  "name": "Window - DarkGrey Large",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/DarkGreyWindowLarge.glb"
+    }
+  }
+}

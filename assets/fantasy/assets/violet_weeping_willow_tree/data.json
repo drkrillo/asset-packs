@@ -1,0 +1,10 @@
+{
+  "id": "cc9abbc6-4472-4ea9-8818-e91d8da767a9",
+  "name": "Violet Weeping Willow Tree",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Tree_Leafs_03/Tree_Leafs_03.glb"
+    }
+  }
+}

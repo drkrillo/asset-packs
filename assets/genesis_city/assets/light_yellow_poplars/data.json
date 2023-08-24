@@ -1,0 +1,10 @@
+{
+  "id": "b16a7368-e46d-4fa6-8d05-6fa9a508dabf",
+  "name": "Light Yellow Poplars",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/TreeFir_03/TreeFir_03.glb"
+    }
+  }
+}

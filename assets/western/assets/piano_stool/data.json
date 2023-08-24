@@ -1,0 +1,10 @@
+{
+  "id": "122cdf10-4c2f-437d-933a-0322ff126b5d",
+  "name": "Piano stool",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Piano chair.glb"
+    }
+  }
+}

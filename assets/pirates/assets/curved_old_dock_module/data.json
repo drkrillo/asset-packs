@@ -1,0 +1,10 @@
+{
+  "id": "1e935856-0211-44dc-a37b-7cc01c9f49bb",
+  "name": "Curved Old Dock Module",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/DocksModuleCurve_02/DocksModuleCurve_02.glb"
+    }
+  }
+}

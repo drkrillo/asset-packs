@@ -1,0 +1,10 @@
+{
+  "id": "ae9037fd-cfa0-4012-b3a5-d006d8f5cc9e",
+  "name": "Stone - Diamond",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/stone_diamond.glb"
+    }
+  }
+}

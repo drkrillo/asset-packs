@@ -1,0 +1,10 @@
+{
+  "id": "27cfd632-905a-4659-81cb-62a9e3c0d0ba",
+  "name": "Folding Chair",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Chair_05/Chair_05.glb"
+    }
+  }
+}

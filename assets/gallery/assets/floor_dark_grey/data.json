@@ -1,0 +1,10 @@
+{
+  "id": "f479bffc-70b7-41e3-bce6-55ac8ea9a472",
+  "name": "Floor - Dark Grey",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/DarkGreyFloor.glb"
+    }
+  }
+}

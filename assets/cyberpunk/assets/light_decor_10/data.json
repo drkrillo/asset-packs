@@ -1,0 +1,10 @@
+{
+  "id": "f2ca952d-3ea2-4841-ae89-d9aa64f40058",
+  "name": "Light Decor 10",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Light_Decor10.glb"
+    }
+  }
+}

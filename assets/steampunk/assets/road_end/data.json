@@ -1,0 +1,10 @@
+{
+  "id": "70ff87e0-e483-4fc5-b169-ff46d1dc710b",
+  "name": "Road End",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Road End.glb"
+    }
+  }
+}

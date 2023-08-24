@@ -1,0 +1,10 @@
+{
+  "id": "90801038-0e67-4a5b-9971-c179b220a096",
+  "name": "Large Curved Rustic Parquet Tile",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Floor_Wood_Curve_01_4M/Floor_Wood_Curve_01_4M.glb"
+    }
+  }
+}

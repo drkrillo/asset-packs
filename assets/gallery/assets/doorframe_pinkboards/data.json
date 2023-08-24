@@ -1,0 +1,10 @@
+{
+  "id": "a3d3e0e1-799f-4758-aea5-33ad8c547cbe",
+  "name": "Doorframe - PinkBoards",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PinkBoardsDoorframe.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "c472d9bf-3376-47b2-a311-b1feda37b135",
+  "name": "Leaves",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/leaves.glb"
+    }
+  }
+}

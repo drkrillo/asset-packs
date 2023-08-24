@@ -1,0 +1,10 @@
+{
+  "id": "c3956de2-656a-4938-8d00-59e1911a11dc",
+  "name": "Spider 01",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/HWN20_Spider_01.glb"
+    }
+  }
+}

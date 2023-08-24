@@ -1,0 +1,10 @@
+{
+  "id": "fb7e1284-521b-477f-b255-4b986c8b131e",
+  "name": "Shrub Row",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/BushPatch_02/BushPatch_02.glb"
+    }
+  }
+}

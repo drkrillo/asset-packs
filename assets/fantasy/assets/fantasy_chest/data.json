@@ -1,0 +1,10 @@
+{
+  "id": "ff9257ec-9d62-404f-97c7-cf19c4035761",
+  "name": "Fantasy Chest",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/Chest_Fantasy.glb"
+    }
+  }
+}

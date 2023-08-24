@@ -1,0 +1,10 @@
+{
+  "id": "2c56ee4a-0385-4824-8b80-bcad3e876eba",
+  "name": "Door 4",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Door 4.glb"
+    }
+  }
+}

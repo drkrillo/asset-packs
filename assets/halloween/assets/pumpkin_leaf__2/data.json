@@ -1,0 +1,10 @@
+{
+  "id": "a9400203-3cb5-459f-98c2-eb93d2e31ad0",
+  "name": " Pumpkin Leaf  2",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/HWN21_PumpkinLeaf_02.glb"
+    }
+  }
+}

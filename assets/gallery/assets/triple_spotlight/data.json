@@ -1,0 +1,10 @@
+{
+  "id": "cc309926-283a-4e0f-b0a4-97659437f3bc",
+  "name": "Triple Spotlight",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/TripleSpotlight_On.glb"
+    }
+  }
+}

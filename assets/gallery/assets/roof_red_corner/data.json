@@ -1,0 +1,10 @@
+{
+  "id": "eeada5b5-574a-4738-bbd9-eff9de01d677",
+  "name": "Roof - Red Corner",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/RedRoof_Corner.glb"
+    }
+  }
+}

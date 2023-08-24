@@ -1,0 +1,10 @@
+{
+  "id": "28b67dc8-a133-452b-b03e-2c837e8132f6",
+  "name": "New Year Firecrackers",
+  "category": "year of the pig",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/ChineseFireworks_02/ChineseFireworks_02.glb"
+    }
+  }
+}

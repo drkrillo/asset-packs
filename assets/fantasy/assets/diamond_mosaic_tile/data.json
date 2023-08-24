@@ -1,0 +1,10 @@
+{
+  "id": "f20d043c-381b-4b18-941f-10803a56752d",
+  "name": "Diamond Mosaic Tile",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Floor_Tiles_2M_04/Floor_Tiles_2M_04.glb"
+    }
+  }
+}

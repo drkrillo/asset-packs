@@ -1,0 +1,10 @@
+{
+  "id": "634ff56f-a0c3-4765-ab36-88f6abd4e817",
+  "name": "Deck 10M",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Deck 10M.glb"
+    }
+  }
+}

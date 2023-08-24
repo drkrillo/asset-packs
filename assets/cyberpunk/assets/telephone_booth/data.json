@@ -1,0 +1,10 @@
+{
+  "id": "a116b006-c177-4e39-ab7c-a8c64761a621",
+  "name": "Telephone Booth",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/Phone_Booth.glb"
+    }
+  }
+}

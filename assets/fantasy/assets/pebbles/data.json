@@ -1,0 +1,10 @@
+{
+  "id": "3daa437a-52b0-4c75-9cbd-7fe3ce1494cc",
+  "name": "Pebbles",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Rock_Patch_01/Rock_Patch_01.glb"
+    }
+  }
+}

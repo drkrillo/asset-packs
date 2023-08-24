@@ -1,0 +1,10 @@
+{
+  "id": "591af8a8-b871-429e-9c90-0c744c9cb7be",
+  "name": "Bed Gamer",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Bed_Gamer.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "8f5eddf1-803e-4116-a07d-ec47c900b33e",
+  "name": "Skeleton",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/HWN20_Skeleton.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "4ee780b8-623e-4848-ae35-c934e2e63d5c",
+  "name": "Beach Rock",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/RockBig_06/RockBig_06.glb"
+    }
+  }
+}

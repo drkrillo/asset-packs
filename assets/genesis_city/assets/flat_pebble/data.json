@@ -1,0 +1,10 @@
+{
+  "id": "84d95b24-0f10-42e8-8210-9bb9665b72de",
+  "name": "Flat Pebble",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Pebble_03/Pebble_03.glb"
+    }
+  }
+}

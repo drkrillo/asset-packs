@@ -1,0 +1,10 @@
+{
+  "id": "017c0c8b-724a-4aa2-b298-afb9a450906c",
+  "name": "Ad Rock",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Rock_03/Rock_03.glb"
+    }
+  }
+}

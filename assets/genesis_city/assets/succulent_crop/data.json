@@ -1,0 +1,10 @@
+{
+  "id": "d8bf7ea7-a7a3-4d42-af28-10b3e9d6e603",
+  "name": "Succulent crop",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FarmVegetation_04/FarmVegetation_04.glb"
+    }
+  }
+}

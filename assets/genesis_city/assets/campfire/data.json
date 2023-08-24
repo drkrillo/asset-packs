@@ -1,0 +1,10 @@
+{
+  "id": "432cb123-d351-4468-a5eb-ace14f65e6f4",
+  "name": "Campfire",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Fireplace_01/Fireplace_01.glb"
+    }
+  }
+}

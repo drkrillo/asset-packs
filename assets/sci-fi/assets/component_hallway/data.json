@@ -1,0 +1,10 @@
+{
+  "id": "265dfd94-d105-4c50-8a3b-13f9da43d13f",
+  "name": "Component Hallway",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Hallway_Module_Straight_01/Hallway_Module_Straight_01.glb"
+    }
+  }
+}

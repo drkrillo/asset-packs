@@ -1,0 +1,10 @@
+{
+  "id": "6401422b-bebb-41a8-9d2e-f6fd32669c03",
+  "name": "White Fence Door",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FencePicketWhiteDoor_01/FencePicketWhiteDoor_01.glb"
+    }
+  }
+}

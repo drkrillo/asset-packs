@@ -1,0 +1,10 @@
+{
+  "id": "910a6354-da46-4175-b735-a4d182e0e7d2",
+  "name": "Straight Cart Track Module",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/TrainTrack_Straight_01/TrainTrack_Straight_01.glb"
+    }
+  }
+}

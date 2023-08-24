@@ -1,0 +1,10 @@
+{
+  "id": "f9f2d34a-09f9-4511-889a-f6981abb5265",
+  "name": "Rum Barrel",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Barrel_02/Barrel_02.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "51ca3bc7-a58e-4d98-a876-67a1c825c06c",
+  "name": "Hexagonal Gauze Lantern",
+  "category": "year of the pig",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/ChineseLantern_06/ChineseLantern_06.glb"
+    }
+  }
+}

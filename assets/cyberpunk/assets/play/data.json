@@ -1,0 +1,10 @@
+{
+  "id": "b91ab02d-be73-4e5a-8ae4-f00c379446b4",
+  "name": "Play",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Play.glb"
+    }
+  }
+}

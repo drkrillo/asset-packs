@@ -1,0 +1,10 @@
+{
+  "id": "d7138903-2199-4f34-8e15-e5d103cb2ef7",
+  "name": "Roof - Glass 1Edge small",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/GlassRoof_1Edge_small.glb"
+    }
+  }
+}

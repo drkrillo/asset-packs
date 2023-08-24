@@ -1,0 +1,10 @@
+{
+  "id": "7db063b0-ba2b-4211-8fd5-8f44b38d9a19",
+  "name": "Big Mossy Rock",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/RockLargeMoss_01/RockLargeMoss_01.glb"
+    }
+  }
+}

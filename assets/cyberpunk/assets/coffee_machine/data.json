@@ -1,0 +1,10 @@
+{
+  "id": "bf7da256-1314-40dc-a5b4-19c8dc5196e4",
+  "name": "Coffee Machine",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Coffee_Machine.glb"
+    }
+  }
+}

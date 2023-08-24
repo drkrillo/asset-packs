@@ -1,0 +1,10 @@
+{
+  "id": "d4460dae-c504-4ea0-bdbc-fe7852d7d16a",
+  "name": "Blue Plasma",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PlasmaBlue_01/PlasmaBlue_01.glb"
+    }
+  }
+}

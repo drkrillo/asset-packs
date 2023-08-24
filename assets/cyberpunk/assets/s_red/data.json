@@ -1,0 +1,10 @@
+{
+  "id": "be8e4e6f-2e44-4376-a45a-a56972ed85e1",
+  "name": "S Red",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/S_Red.glb"
+    }
+  }
+}

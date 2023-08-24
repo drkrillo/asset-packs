@@ -1,0 +1,10 @@
+{
+  "id": "f6c7e48c-956f-463f-bfa7-9b2f36f04461",
+  "name": "Potion Cauldron",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Cauldron_01/Cauldron_01.glb"
+    }
+  }
+}

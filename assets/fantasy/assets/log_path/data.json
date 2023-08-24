@@ -1,0 +1,10 @@
+{
+  "id": "a63d844d-e432-471d-bb1c-357be3cb2253",
+  "name": "Log Path",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Log_Path_01/Log_Path_01.glb"
+    }
+  }
+}

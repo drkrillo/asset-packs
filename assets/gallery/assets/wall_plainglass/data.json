@@ -1,0 +1,10 @@
+{
+  "id": "e28ea76e-fe21-4544-a001-a65867b11be0",
+  "name": "Wall - PlainGlass",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PlainGlassWall.glb"
+    }
+  }
+}

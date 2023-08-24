@@ -1,0 +1,10 @@
+{
+  "id": "a0159567-eeea-4bad-b9a9-cbdeb33c5fa8",
+  "name": "Fantasy Diamond Key",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/Diamond_Key_Fantasy.glb"
+    }
+  }
+}

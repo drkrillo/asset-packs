@@ -1,0 +1,10 @@
+{
+  "id": "fc7e14bd-c453-4014-ac91-62e7195e83f7",
+  "name": "Window - GreenBoards ",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/GreenBoardsWindow.glb"
+    }
+  }
+}

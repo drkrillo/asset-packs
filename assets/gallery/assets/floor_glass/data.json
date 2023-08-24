@@ -1,0 +1,10 @@
+{
+  "id": "f4a4956e-f60a-4108-82c7-41b5ebda6549",
+  "name": "Floor - Glass",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/GlassFloor.glb"
+    }
+  }
+}

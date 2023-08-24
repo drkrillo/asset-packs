@@ -1,0 +1,10 @@
+{
+  "id": "36c28c69-e943-416a-9f73-c1ab82944c23",
+  "name": "Road Cobble Straight",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Road Cobble Straight.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "c9ba8326-7f95-40dc-b17c-f201eea811b9",
+  "name": "Ominous Dead Tree",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Tree_Dead_01/Tree_Dead_01.glb"
+    }
+  }
+}

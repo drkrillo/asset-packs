@@ -1,0 +1,10 @@
+{
+  "id": "aca2a574-4495-4752-a414-4550ce7becc5",
+  "name": "Cat Statue",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PillarCat_01/PillarCat_01.glb"
+    }
+  }
+}

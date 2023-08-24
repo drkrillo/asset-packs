@@ -1,0 +1,10 @@
+{
+  "id": "42019125-4ff3-42aa-ae67-802975037db7",
+  "name": "Mines Car Track Ramp 3M",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Mines Car Track Ramp 3M.glb"
+    }
+  }
+}

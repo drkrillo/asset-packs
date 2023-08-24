@@ -1,0 +1,10 @@
+{
+  "id": "131f9861-d49c-4880-8a77-e36eade7187a",
+  "name": "Shelf Stone",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Stone_01/Stone_01.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "dbc69116-fa47-4370-8ca7-7821c7cea528",
+  "name": "Roof - Glass Corner",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/GlassRoof_Corner.glb"
+    }
+  }
+}

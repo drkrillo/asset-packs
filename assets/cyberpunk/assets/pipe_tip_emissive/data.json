@@ -1,0 +1,10 @@
+{
+  "id": "df696d6a-4364-4af5-8718-2c4fda8d08ea",
+  "name": "Pipe - Tip Emissive",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Pipe_Tip_Emissive.glb"
+    }
+  }
+}

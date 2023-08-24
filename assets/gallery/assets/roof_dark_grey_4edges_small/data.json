@@ -1,0 +1,10 @@
+{
+  "id": "d4d1ebc5-cbfd-40fc-9349-bfb0b2435b29",
+  "name": "Roof - Dark Grey 4Edges Small",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/DarkGreyRoof_4Edges_Small.glb"
+    }
+  }
+}

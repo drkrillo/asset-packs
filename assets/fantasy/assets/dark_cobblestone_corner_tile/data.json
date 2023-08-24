@@ -1,0 +1,10 @@
+{
+  "id": "4e2584ae-94af-4a20-a2fc-12dd4a384e3f",
+  "name": "Dark Cobblestone Corner Tile",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FloorCorner_02/FloorCorner_02.glb"
+    }
+  }
+}

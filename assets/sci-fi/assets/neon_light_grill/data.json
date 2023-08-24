@@ -1,0 +1,10 @@
+{
+  "id": "fa9416e2-be88-476d-8793-536d8f8d5690",
+  "name": "Neon Light Grill",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/NeonLight_01/NeonLight_01.glb"
+    }
+  }
+}

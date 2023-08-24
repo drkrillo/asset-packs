@@ -1,0 +1,10 @@
+{
+  "id": "6560eb7a-bd9e-45cd-9124-5d2fe0187575",
+  "name": "Rustic Lamp Post",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/LampPost_04/LampPost_04.glb"
+    }
+  }
+}

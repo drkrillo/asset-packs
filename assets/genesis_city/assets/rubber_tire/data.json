@@ -1,0 +1,10 @@
+{
+  "id": "bab1e4a8-3911-4e42-a981-33d99a1228cf",
+  "name": "Rubber Tire",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/RubberTire_01/RubberTire_01.glb"
+    }
+  }
+}

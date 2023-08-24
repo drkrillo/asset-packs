@@ -1,0 +1,10 @@
+{
+  "id": "2ca513de-36df-40ec-bc19-15ca1487dafa",
+  "name": "Safe",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Safe.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "fd4b6821-3fb6-4dca-b0a5-4ec3455471ab",
+  "name": "Bat Trio Upside",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/HWN20_BatTrio_UpsideDown.glb"
+    }
+  }
+}

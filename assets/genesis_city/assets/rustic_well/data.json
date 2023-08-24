@@ -1,0 +1,10 @@
+{
+  "id": "5cb2dd69-4d9e-4794-982c-14703bd0a206",
+  "name": "Rustic Well",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Well_01/Well_01.glb"
+    }
+  }
+}

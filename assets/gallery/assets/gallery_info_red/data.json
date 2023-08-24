@@ -1,0 +1,10 @@
+{
+  "id": "a0e68c67-eecc-48bc-8827-d3e6bee27d40",
+  "name": "Gallery Info - Red",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/RedGalleryInfo.glb"
+    }
+  }
+}

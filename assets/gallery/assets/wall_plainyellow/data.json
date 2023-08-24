@@ -1,0 +1,10 @@
+{
+  "id": "b8ce327d-0003-43ac-bbb1-7cb5aef1500a",
+  "name": "Wall - PlainYellow",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PlainYellowWall.glb"
+    }
+  }
+}

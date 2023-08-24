@@ -1,0 +1,10 @@
+{
+  "id": "7b0c713b-b1e9-4514-ac6d-152d3ef23dc4",
+  "name": "Bench 3",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Bench 3.glb"
+    }
+  }
+}

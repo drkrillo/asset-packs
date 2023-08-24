@@ -1,0 +1,10 @@
+{
+  "id": "9d1d6640-6307-46c3-96ea-b2ae0d8abb12",
+  "name": "Small Ceiling Joist",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Column_Wood_1M/Column_Wood_1M.glb"
+    }
+  }
+}

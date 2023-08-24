@@ -1,0 +1,10 @@
+{
+  "id": "2559c4e9-1db4-43b1-9180-fc56cd7be718",
+  "name": "Arrow Sign",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Arrow_Sign.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "f14abb74-fd5a-460f-984c-100c7386fa21",
+  "name": "Rope 1",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Rope 1.glb"
+    }
+  }
+}

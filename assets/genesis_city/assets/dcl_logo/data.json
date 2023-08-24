@@ -1,0 +1,10 @@
+{
+  "id": "a1b295ff-ce79-4615-9891-e76aa50b12a8",
+  "name": "DCL Logo",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/DecentralandLogo_01/DecentralandLogo_01.glb"
+    }
+  }
+}

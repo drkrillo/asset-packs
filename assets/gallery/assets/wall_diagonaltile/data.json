@@ -1,0 +1,10 @@
+{
+  "id": "e3640340-98f0-4ba2-a03f-d993f031ff65",
+  "name": "Wall - DiagonalTile",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/DiagonalTileWall.glb"
+    }
+  }
+}

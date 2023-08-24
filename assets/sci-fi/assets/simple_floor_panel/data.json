@@ -1,0 +1,10 @@
+{
+  "id": "21400db2-431b-40d6-b325-6be8100f8a0c",
+  "name": "Simple Floor Panel",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Floor_Module_01/Floor_Module_01.glb"
+    }
+  }
+}

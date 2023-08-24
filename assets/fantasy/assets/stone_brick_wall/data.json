@@ -1,0 +1,10 @@
+{
+  "id": "5ed9c4c0-8a9c-4c0d-814c-d40354987f2b",
+  "name": "Stone Brick Wall",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Module_Stone_Straight_01/Module_Stone_Straight_01.glb"
+    }
+  }
+}

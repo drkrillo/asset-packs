@@ -1,0 +1,10 @@
+{
+  "id": "d8b2cdd4-043a-4982-91c2-202d85677533",
+  "name": "Jungle Shrub",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/JunglePlant_02/JunglePlant_02.glb"
+    }
+  }
+}

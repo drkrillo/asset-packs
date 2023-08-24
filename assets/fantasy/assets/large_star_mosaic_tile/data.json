@@ -1,0 +1,10 @@
+{
+  "id": "a4b6f5e5-e074-4870-bff5-edcb26d1bde2",
+  "name": "Large Star Mosaic Tile",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Floor_Tiles_2M_05/Floor_Tiles_2M_05.glb"
+    }
+  }
+}

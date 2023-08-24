@@ -1,0 +1,10 @@
+{
+  "id": "9a72b6e6-93cd-464c-938e-6fce61b2cda0",
+  "name": "Spiky Planet",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Planet_03/Planet_03.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "e81afbde-c9f5-44e0-be77-9e7da6e62c7a",
+  "name": "Fence Stick 1",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/HWN20_FenceStick_01.glb"
+    }
+  }
+}

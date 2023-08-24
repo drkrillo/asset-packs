@@ -1,0 +1,10 @@
+{
+  "id": "f72843d0-9270-4b40-8ca5-dc3edcd1e49b",
+  "name": "Stone Archway",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/ArchWay_02/ArchWay_02.glb"
+    }
+  }
+}

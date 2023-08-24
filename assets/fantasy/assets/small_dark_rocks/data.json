@@ -1,0 +1,10 @@
+{
+  "id": "cf6694f1-1361-4825-b78e-da911a4a0e5c",
+  "name": "Small Dark Rocks",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Rock_Patch_03/Rock_Patch_03.glb"
+    }
+  }
+}

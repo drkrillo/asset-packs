@@ -1,0 +1,10 @@
+{
+  "id": "d26772f7-6b24-4abf-b612-5b640428fe69",
+  "name": "Lamp 02",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/HWN20_Lamp_02.glb"
+    }
+  }
+}

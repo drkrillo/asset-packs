@@ -1,0 +1,10 @@
+{
+  "id": "9829bbd4-d357-4412-8c36-060acca4bc28",
+  "name": "DCL Map",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/DCL_Map.glb"
+    }
+  }
+}

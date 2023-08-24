@@ -1,0 +1,10 @@
+{
+  "id": "b13fa13b-0255-4dba-8ff5-6f900e4d800f",
+  "name": "V Blue",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/V_Blue.glb"
+    }
+  }
+}

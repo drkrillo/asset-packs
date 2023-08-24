@@ -1,0 +1,10 @@
+{
+  "id": "c2363039-767c-4348-997b-01397c9f476a",
+  "name": "Curved Broken Stone Path",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/StonePathCurveBroken_01/StonePathCurveBroken_01.glb"
+    }
+  }
+}

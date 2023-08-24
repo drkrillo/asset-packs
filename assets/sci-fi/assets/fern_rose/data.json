@@ -1,0 +1,10 @@
+{
+  "id": "9e363828-8951-48a6-a953-027ee544615b",
+  "name": "Fern Rose",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PlantSF_05/PlantSF_05.glb"
+    }
+  }
+}

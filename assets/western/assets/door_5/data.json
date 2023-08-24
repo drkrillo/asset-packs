@@ -1,0 +1,10 @@
+{
+  "id": "8df3c1ed-b76b-4053-a4cf-18327c13c3cb",
+  "name": "Door 5",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Door 5.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "f24f9321-03c8-4226-83da-ffe906e7aefa",
+  "name": "Rune Scroll",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PapyrusOpen_01/PapyrusOpen_01.glb"
+    }
+  }
+}

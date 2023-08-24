@@ -1,0 +1,10 @@
+{
+  "id": "ef24abec-4133-49e6-96da-4261cb9b8e66",
+  "name": "Roof - Red 4Edges Small",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/RedRoof_4Edges_Small.glb"
+    }
+  }
+}

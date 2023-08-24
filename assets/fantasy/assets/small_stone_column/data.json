@@ -1,0 +1,10 @@
+{
+  "id": "dc33fcb8-1405-4226-a5c4-a38513ac6605",
+  "name": "Small Stone Column",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Fence_Stone_Block_02/Fence_Stone_Block_02.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "c9b17021-765c-4d9a-9966-ce93a9c323d1",
+  "name": "Bermuda Grass",
+  "category": "ground",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FloorBaseGrass_01/FloorBaseGrass_01.glb"
+    }
+  }
+}

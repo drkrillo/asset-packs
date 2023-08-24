@@ -1,0 +1,10 @@
+{
+  "id": "d6ba84b2-3474-43dc-879d-2d3d70fb4f82",
+  "name": "Medium Street Curbs ",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/StreetCordMedium_01/StreetCordMedium_01.glb"
+    }
+  }
+}

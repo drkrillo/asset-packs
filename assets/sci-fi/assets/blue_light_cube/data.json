@@ -1,0 +1,10 @@
+{
+  "id": "3b5a99ec-0ae0-4f61-ae20-2fc511acdd12",
+  "name": "Blue Light Cube",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/LightCube_02/LightCube_02.glb"
+    }
+  }
+}

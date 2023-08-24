@@ -1,0 +1,10 @@
+{
+  "id": "f5f00590-8519-45b7-9bde-2a83cccf2048",
+  "name": "Purple Neon Tube",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/NeonLightTube_03/NeonLightTube_03.glb"
+    }
+  }
+}

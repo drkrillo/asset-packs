@@ -1,0 +1,10 @@
+{
+  "id": "97cf4ef7-f97a-46bc-86ce-79e5f97d70aa",
+  "name": "Flower Pot 06",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/HWN20_FlowerPot_06.glb"
+    }
+  }
+}

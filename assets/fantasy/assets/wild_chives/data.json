@@ -1,0 +1,10 @@
+{
+  "id": "e8d4b480-b14c-4500-886e-748920aa09fb",
+  "name": "Wild Chives",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Vegetation_07/Vegetation_07.glb"
+    }
+  }
+}

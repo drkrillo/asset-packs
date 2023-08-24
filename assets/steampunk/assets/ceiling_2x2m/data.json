@@ -1,0 +1,10 @@
+{
+  "id": "0efcf632-80ae-4c0b-94a9-7ebf7fd569b0",
+  "name": "Ceiling 2x2M",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Ceiling 2x2M.glb"
+    }
+  }
+}

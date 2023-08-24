@@ -1,0 +1,10 @@
+{
+  "id": "8bff0afc-a55e-459f-9fc3-61f9d4261b20",
+  "name": "Small Rope",
+  "category": "year of the pig",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/ChineseLampRopeSmall_01/ChineseLampRopeSmall_01.glb"
+    }
+  }
+}

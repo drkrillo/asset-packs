@@ -1,0 +1,10 @@
+{
+  "id": "bb136e02-6af2-4332-9f14-4757bc26b183",
+  "name": "Gazebo",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Gazebo.glb"
+    }
+  }
+}

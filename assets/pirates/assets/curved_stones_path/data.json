@@ -1,0 +1,10 @@
+{
+  "id": "18bd45be-e0b6-492e-a0a2-2ec5f8811971",
+  "name": "Curved Stones Path",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/StonePathCurve_01/StonePathCurve_01.glb"
+    }
+  }
+}

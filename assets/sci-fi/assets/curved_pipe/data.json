@@ -1,0 +1,10 @@
+{
+  "id": "b78fda19-f434-44a2-bba1-26c4e19661e6",
+  "name": "Curved Pipe",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Pipe_Curve_05M_01/Pipe_Curve_05M_01.glb"
+    }
+  }
+}

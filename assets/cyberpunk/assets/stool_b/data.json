@@ -1,0 +1,10 @@
+{
+  "id": "d82901d7-6176-4624-a31a-7b7637cfaf42",
+  "name": "Stool B",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Stool_B.glb"
+    }
+  }
+}

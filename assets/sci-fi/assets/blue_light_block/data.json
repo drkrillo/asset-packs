@@ -1,0 +1,10 @@
+{
+  "id": "dba7c6c8-4b41-409e-88b3-84178ec417ce",
+  "name": "Blue Light Block",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/LightBlock_02/LightBlock_02.glb"
+    }
+  }
+}

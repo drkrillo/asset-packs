@@ -1,0 +1,10 @@
+{
+  "id": "6aa3eba3-016c-437e-826f-c2be08052551",
+  "name": "Rounded Medium Rock",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/RockMedium_02/RockMedium_02.glb"
+    }
+  }
+}

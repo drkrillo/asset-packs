@@ -1,0 +1,10 @@
+{
+  "id": "565d5b2c-5981-49ce-a39c-ecd4e0d40612",
+  "name": "Moody Dead Tree",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Tree_Dead_03/Tree_Dead_03.glb"
+    }
+  }
+}

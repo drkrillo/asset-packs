@@ -1,0 +1,10 @@
+{
+  "id": "9770c479-ea9c-40ad-9375-1b54e1427c2c",
+  "name": "Medium Stone Column",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Fence_Stone_Block_03/Fence_Stone_Block_03.glb"
+    }
+  }
+}

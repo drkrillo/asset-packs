@@ -1,0 +1,10 @@
+{
+  "id": "622c9a64-8acc-4c24-bcf3-d9cd740a9c20",
+  "name": "Large Pond",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Pond_02/Pond_02.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "1e48fa9b-9723-4879-9c27-78cb079c879f",
+  "name": "Medium Rustic Fence",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FenceWoodMedium_01/FenceWoodMedium_01.glb"
+    }
+  }
+}

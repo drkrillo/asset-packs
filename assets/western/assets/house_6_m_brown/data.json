@@ -1,0 +1,10 @@
+{
+  "id": "21388ead-414e-4d33-8db0-6f795bdd41dc",
+  "name": "House 6 M Brown",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/House 6 M Brown.glb"
+    }
+  }
+}

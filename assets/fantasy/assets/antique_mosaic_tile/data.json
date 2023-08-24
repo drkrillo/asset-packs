@@ -1,0 +1,10 @@
+{
+  "id": "eb9ffc7f-203c-408b-8d0c-71a580b26c85",
+  "name": "Antique Mosaic Tile",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Floor_Tiles_2M_06/Floor_Tiles_2M_06.glb"
+    }
+  }
+}

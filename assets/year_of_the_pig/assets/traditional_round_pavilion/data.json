@@ -1,0 +1,10 @@
+{
+  "id": "d9adde10-9349-49c8-ad6f-3083060fb93f",
+  "name": "Traditional Round Pavilion",
+  "category": "year of the pig",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/ChinesePergola_01/ChinesePergola_01.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "4c0ec8ec-63be-4018-8065-2f1569cd8504",
+  "name": "Red Leaf Shrub",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Vegetation_08/Vegetation_08.glb"
+    }
+  }
+}

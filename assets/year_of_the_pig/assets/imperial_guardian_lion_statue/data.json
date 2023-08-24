@@ -1,0 +1,10 @@
+{
+  "id": "aaf9ba7e-b8e3-4f5f-bc47-67a20d516526",
+  "name": "Imperial Guardian Lion Statue",
+  "category": "year of the pig",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/ChineseStatueLion_01/ChineseStatueLion_01.glb"
+    }
+  }
+}

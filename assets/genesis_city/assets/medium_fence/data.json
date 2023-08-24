@@ -1,0 +1,10 @@
+{
+  "id": "6d0465a4-549e-4126-b5b8-906c4132f6d8",
+  "name": "Medium Fence",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FencePicketMedium_01/FencePicketMedium_01.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "c3fe212d-f3c1-47e2-aa8b-707492866281",
+  "name": "Road Cobble Angled",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Road Cobble Angled.glb"
+    }
+  }
+}

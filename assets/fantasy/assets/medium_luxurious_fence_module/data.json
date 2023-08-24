@@ -1,0 +1,10 @@
+{
+  "id": "f4837711-38fa-460e-8ea7-de04f4de8f16",
+  "name": "Medium Luxurious Fence Module",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Fence_Stone_3M/Fence_Stone_3M.glb"
+    }
+  }
+}

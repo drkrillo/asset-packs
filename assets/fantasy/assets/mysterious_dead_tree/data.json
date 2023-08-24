@@ -1,0 +1,10 @@
+{
+  "id": "007444fd-b04e-4e04-ae0e-51f5c15cf988",
+  "name": "Mysterious Dead Tree",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Tree_Dead_04/Tree_Dead_04.glb"
+    }
+  }
+}

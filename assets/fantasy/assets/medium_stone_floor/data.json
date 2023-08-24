@@ -1,0 +1,10 @@
+{
+  "id": "fd71f814-f4b5-47f6-9ea4-ae6e768ee5a7",
+  "name": "Medium Stone Floor",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Stone_Module_2M/Stone_Module_2M.glb"
+    }
+  }
+}

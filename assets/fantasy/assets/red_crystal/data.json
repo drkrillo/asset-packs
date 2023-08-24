@@ -1,0 +1,10 @@
+{
+  "id": "a00d9588-6ef9-418f-9312-0edf87946635",
+  "name": "Red Crystal",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Crystal_02/Crystal_02.glb"
+    }
+  }
+}

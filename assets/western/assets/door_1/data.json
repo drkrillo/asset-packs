@@ -1,0 +1,10 @@
+{
+  "id": "08587d17-f17f-4cb9-9e3e-9a48c26a0c67",
+  "name": "Door 1",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Door 1.glb"
+    }
+  }
+}

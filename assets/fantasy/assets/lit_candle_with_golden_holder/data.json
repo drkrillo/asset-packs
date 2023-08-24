@@ -1,0 +1,10 @@
+{
+  "id": "575116b2-a09f-4979-8d93-7abdd0c9b4ff",
+  "name": "Lit Candle with Golden Holder",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Candle_04/Candle_04.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "c72c3d45-0309-4834-84df-7b5f517694fa",
+  "name": "Vertical Blue Pad",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/Vertical_Blue_Pad.glb"
+    }
+  }
+}

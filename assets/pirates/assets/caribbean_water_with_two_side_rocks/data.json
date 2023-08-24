@@ -1,0 +1,10 @@
+{
+  "id": "01d15783-7d05-42d6-a010-3db4b60c63dd",
+  "name": "Caribbean Water with Two Side Rocks",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/WaterPatchCornerOutside_01/WaterPatchCornerOutside_01.glb"
+    }
+  }
+}

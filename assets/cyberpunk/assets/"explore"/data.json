@@ -1,0 +1,10 @@
+{
+  "id": "dd7267a4-d217-498a-9c59-f54dd3ff5e32",
+  "name": "\"Explore\"",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Explore.glb"
+    }
+  }
+}

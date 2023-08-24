@@ -1,0 +1,10 @@
+{
+  "id": "ba723bb6-d9cd-4c45-9778-8937e0fb62f0",
+  "name": "Grafitti Wall I",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Grafitti_Wall_I.glb"
+    }
+  }
+}

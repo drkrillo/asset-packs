@@ -1,0 +1,10 @@
+{
+  "id": "b645a8f2-b7b7-4bbf-86e2-29d73765ea41",
+  "name": "Wall - PlainPeach",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PlainPeachWall.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "9c30af5c-aeda-488c-bb26-63f0ac367103",
+  "name": "Window 2x2 V4 Open v2",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Window 2x2 V4 Open v2.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "af0b3efa-4d0c-47ec-86f1-b49868130567",
+  "name": "\"Hello\"",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Hello.glb"
+    }
+  }
+}

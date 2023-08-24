@@ -1,0 +1,10 @@
+{
+  "id": "bff1eb3e-eacd-4ac3-b2d2-c13966444c08",
+  "name": "Bricks - Dark",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/brick_dark.glb"
+    }
+  }
+}

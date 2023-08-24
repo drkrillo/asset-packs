@@ -1,0 +1,10 @@
+{
+  "id": "08e17605-7e50-40ee-a7ac-eb0033506381",
+  "name": "Stones2",
+  "category": "ground",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Stones2.glb"
+    }
+  }
+}

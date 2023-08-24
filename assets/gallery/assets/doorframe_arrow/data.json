@@ -1,0 +1,10 @@
+{
+  "id": "b1dfbfa6-1c3f-4dd1-8f1d-34c72042512c",
+  "name": "Doorframe - Arrow",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/ArrowDoorframe.glb"
+    }
+  }
+}

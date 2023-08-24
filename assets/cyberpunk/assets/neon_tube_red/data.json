@@ -1,0 +1,10 @@
+{
+  "id": "baee1f29-4bc0-4733-8a65-60d9e09c4927",
+  "name": "Neon Tube - Red",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Neon_Tube_Red.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "442e490f-3708-415b-a0a5-a47af1088555",
+  "name": "Ancient Large Stone Path",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/RockFloor_Module_4M/RockFloor_Module_4M.glb"
+    }
+  }
+}

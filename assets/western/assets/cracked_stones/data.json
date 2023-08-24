@@ -1,0 +1,10 @@
+{
+  "id": "568e0e3c-e431-4554-83f4-9eac727bb2d6",
+  "name": "Cracked Stones",
+  "category": "ground",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Cracked Stones.glb"
+    }
+  }
+}

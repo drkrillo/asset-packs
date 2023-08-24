@@ -1,0 +1,10 @@
+{
+  "id": "d727a55b-158d-4506-b102-e1c963953f9c",
+  "name": "Sand",
+  "category": "ground",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FloorBaseSand_01/FloorBaseSand_01.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "c44a714c-762f-44a2-87cc-26d9462d9f17",
+  "name": "Small Round Brick Grass Bed",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/GrassPatchSmall_01/GrassPatchSmall_01.glb"
+    }
+  }
+}

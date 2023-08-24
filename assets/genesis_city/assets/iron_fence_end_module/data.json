@@ -1,0 +1,10 @@
+{
+  "id": "0c6019a7-a521-4804-9535-4d432f756a7f",
+  "name": "Iron Fence End Module",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FenceIronEnd_01/FenceIronEnd_01.glb"
+    }
+  }
+}

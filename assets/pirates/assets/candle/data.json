@@ -1,0 +1,10 @@
+{
+  "id": "c5db111a-233a-4d51-a332-75b42a241365",
+  "name": "Candle",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Candle_02/Candle_02.glb"
+    }
+  }
+}

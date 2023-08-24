@@ -1,0 +1,10 @@
+{
+  "id": "dc30e878-f72c-41f2-af27-87b21d674aa3",
+  "name": "Checkers Mosaic Tile",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Floor_Tiles_2M_02/Floor_Tiles_2M_02.glb"
+    }
+  }
+}

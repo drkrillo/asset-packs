@@ -1,0 +1,10 @@
+{
+  "id": "0647e344-28de-4590-b5da-a476fe7dcf99",
+  "name": "Large Low Stone Wall",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FenceStoneLarge_02/FenceStoneLarge_02.glb"
+    }
+  }
+}

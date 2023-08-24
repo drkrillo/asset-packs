@@ -1,0 +1,10 @@
+{
+  "id": "feffadec-a65f-4f5a-b623-566fe3383928",
+  "name": "Pipe A",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Pipe_A.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "c644d014-350d-479d-90b2-6c2ded6c445d",
+  "name": "HAL9000 Unit",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/HAL9000_02/HAL9000_02.glb"
+    }
+  }
+}

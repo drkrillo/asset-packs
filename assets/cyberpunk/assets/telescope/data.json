@@ -1,0 +1,10 @@
+{
+  "id": "de098a3a-3929-4351-b0e3-690cf31fd85b",
+  "name": "Telescope",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Telescope.glb"
+    }
+  }
+}

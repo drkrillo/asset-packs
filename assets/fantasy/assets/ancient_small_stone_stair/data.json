@@ -1,0 +1,10 @@
+{
+  "id": "ec904f7c-6277-4001-ae8e-ab39ffb14a35",
+  "name": "Ancient Small Stone Stair",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Module_Stair_Stones_1M/Module_Stair_Stones_1M.glb"
+    }
+  }
+}

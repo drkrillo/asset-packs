@@ -1,0 +1,10 @@
+{
+  "id": "89314fe1-0f36-43ec-90e2-5944bca1ab51",
+  "name": "Mountain 6",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Mountain 6.glb"
+    }
+  }
+}

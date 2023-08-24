@@ -1,0 +1,10 @@
+{
+  "id": "af9213a3-3310-4564-9633-dd56815c85fa",
+  "name": "Ostrich Ferns",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Grass_02/Grass_02.glb"
+    }
+  }
+}

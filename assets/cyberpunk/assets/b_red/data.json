@@ -1,0 +1,10 @@
+{
+  "id": "dcfee753-7478-405e-8407-168e0562da10",
+  "name": "B Red",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/B_Red.glb"
+    }
+  }
+}

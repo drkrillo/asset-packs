@@ -1,0 +1,10 @@
+{
+  "id": "640e97c5-b511-4d0f-a73b-68549d97b73e",
+  "name": "Wooden Door",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Door_Wood_01/Door_Wood_01.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "fd9eb4ee-2caa-4fc5-8bd3-bc34288b515e",
+  "name": "Caribbean Shore with Rocks Patch",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/WaterPatchCurve_01/WaterPatchCurve_01.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "52af4f61-5895-41b5-a679-99bf841df1c0",
+  "name": "Claw Stalagmite",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Stalagmite_03/Stalagmite_03.glb"
+    }
+  }
+}

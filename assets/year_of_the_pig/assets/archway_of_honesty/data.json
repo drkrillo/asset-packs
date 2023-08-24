@@ -1,0 +1,10 @@
+{
+  "id": "8f63046f-c2c5-4750-800a-921d57d82163",
+  "name": "Archway of Honesty",
+  "category": "year of the pig",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/ChineseGate_02/ChineseGate_02.glb"
+    }
+  }
+}

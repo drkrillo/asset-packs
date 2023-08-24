@@ -1,0 +1,10 @@
+{
+  "id": "f81f2a0b-ff94-485c-900a-1993f125497c",
+  "name": "Stone Brick Wall with Window Frame",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Module_Stone_Straight_Window_01/Module_Stone_Straight_Window_01.glb"
+    }
+  }
+}

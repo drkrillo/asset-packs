@@ -1,0 +1,10 @@
+{
+  "id": "cfe2eeb9-d69c-46f4-8cf5-a3c83ea0b3cc",
+  "name": "White Magic Stone",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Glowing_Stone_03/Glowing_Stone_03.glb"
+    }
+  }
+}

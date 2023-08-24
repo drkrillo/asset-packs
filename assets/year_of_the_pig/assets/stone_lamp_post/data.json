@@ -1,0 +1,10 @@
+{
+  "id": "660a5512-d571-439e-b343-48872461d9d8",
+  "name": "Stone Lamp Post",
+  "category": "year of the pig",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/ChineseLampPost_01/ChineseFountain_03.glb"
+    }
+  }
+}

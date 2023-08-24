@@ -1,0 +1,10 @@
+{
+  "id": "83d84b32-7917-4aab-a552-19032ad226dc",
+  "name": "Stone Block",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Fence_Stone_Block_01/Fence_Stone_Block_01.glb"
+    }
+  }
+}

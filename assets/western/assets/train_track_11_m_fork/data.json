@@ -1,0 +1,10 @@
+{
+  "id": "129924d6-b58b-4766-a3a2-6cb9be5db29a",
+  "name": "Train Track 11 M Fork",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Train Track 11 M Fork.glb"
+    }
+  }
+}

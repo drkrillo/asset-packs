@@ -1,0 +1,10 @@
+{
+  "id": "a5f362ae-0db9-45ca-9f2f-155c891f3094",
+  "name": "Stairs Metal corner",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/metalStairs_corner.glb"
+    }
+  }
+}

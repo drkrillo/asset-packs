@@ -1,0 +1,10 @@
+{
+  "id": "9d34a60d-615d-4b6c-929a-2debfeab0487",
+  "name": "Fence Wood V3 1",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Fence Wood V3 1.glb"
+    }
+  }
+}

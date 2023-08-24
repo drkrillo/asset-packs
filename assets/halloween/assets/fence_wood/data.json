@@ -1,0 +1,10 @@
+{
+  "id": "f40fe29a-ea84-4fa9-a168-60215cf7f92e",
+  "name": "Fence - Wood",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/HWN20_FenceWood.glb"
+    }
+  }
+}

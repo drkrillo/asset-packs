@@ -1,0 +1,10 @@
+{
+  "id": "f8bfef2e-3c5b-471c-b46b-af50e7529eea",
+  "name": "Street Signal",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Street Signal.glb"
+    }
+  }
+}

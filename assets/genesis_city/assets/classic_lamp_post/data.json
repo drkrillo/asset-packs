@@ -1,0 +1,10 @@
+{
+  "id": "5fabab5a-62b8-4c39-8938-00d22395d057",
+  "name": "Classic Lamp post",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/LampPost_03/LampPost_03.glb"
+    }
+  }
+}

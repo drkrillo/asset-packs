@@ -1,0 +1,10 @@
+{
+  "id": "a7de3c4a-4629-46cc-bea8-7e967a10c7ab",
+  "name": "Barrel 4",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Barrel 4.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "f6fb3031-dc9e-4a10-92a5-ffaac7339e50",
+  "name": "Wall - PinkBoards",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PinkBoardsWall.glb"
+    }
+  }
+}

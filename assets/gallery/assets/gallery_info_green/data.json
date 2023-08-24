@@ -1,0 +1,10 @@
+{
+  "id": "feea5fb9-6ee8-479e-8755-0eed817a2931",
+  "name": "Gallery Info - Green",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/GreenGalleryInfo.glb"
+    }
+  }
+}

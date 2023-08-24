@@ -1,0 +1,10 @@
+{
+  "id": "0149cae5-9e33-48aa-a346-94f02091ec75",
+  "name": "Bazaar Tent",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Tent_02/Tent_02.glb"
+    }
+  }
+}

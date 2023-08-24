@@ -1,0 +1,10 @@
+{
+  "id": "59830682-55bd-47ce-9d69-582478feb933",
+  "name": "Golden Plate",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Plate_01/Plate_01.glb"
+    }
+  }
+}

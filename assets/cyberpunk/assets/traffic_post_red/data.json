@@ -1,0 +1,10 @@
+{
+  "id": "c3f0ac44-6b4f-4ba1-9fa4-37d5fe4b3905",
+  "name": "Traffic Post - Red",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Traffic_Post_Red.glb"
+    }
+  }
+}

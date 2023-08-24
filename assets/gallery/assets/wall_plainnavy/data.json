@@ -1,0 +1,10 @@
+{
+  "id": "d6efa3e9-8b73-4ca4-ab7c-c04c8d335cf0",
+  "name": "Wall - PlainNavy",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PlainNavyWall.glb"
+    }
+  }
+}

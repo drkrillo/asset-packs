@@ -1,0 +1,10 @@
+{
+  "id": "f25b55b3-3260-4d81-b8e5-a2654ac9a3f5",
+  "name": "Demi-cannon",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Cannon_01/Cannon_01.glb"
+    }
+  }
+}

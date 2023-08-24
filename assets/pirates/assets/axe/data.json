@@ -1,0 +1,10 @@
+{
+  "id": "f877cc59-f1f4-4e73-9f38-188109781007",
+  "name": "Axe",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Axe_01/Axe_01.glb"
+    }
+  }
+}

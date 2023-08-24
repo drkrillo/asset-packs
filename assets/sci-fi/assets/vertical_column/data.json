@@ -1,0 +1,10 @@
+{
+  "id": "7110e044-2ca5-4416-8206-b604d6e19c30",
+  "name": "Vertical Column",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Column_01/Column_01.glb"
+    }
+  }
+}

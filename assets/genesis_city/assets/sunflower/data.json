@@ -1,0 +1,10 @@
+{
+  "id": "c5124c22-c518-45a6-8b9a-2f749e8de161",
+  "name": "Sunflower",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Flower_04/Flower_04.glb"
+    }
+  }
+}

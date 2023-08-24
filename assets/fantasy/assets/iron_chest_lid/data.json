@@ -1,0 +1,10 @@
+{
+  "id": "ffec02e3-dd97-4319-9302-d93f084a116e",
+  "name": "Iron Chest Lid",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Chest_Top_Iron_01/Chest_Top_Iron_01.glb"
+    }
+  }
+}

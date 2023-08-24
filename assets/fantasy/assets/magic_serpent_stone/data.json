@@ -1,0 +1,10 @@
+{
+  "id": "b4247d54-3ee6-4a9d-bd3b-7ead311798ba",
+  "name": "Magic Serpent Stone",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Stone_Magic_02/Stone_Magic_02.glb"
+    }
+  }
+}

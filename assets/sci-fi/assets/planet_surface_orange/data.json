@@ -1,0 +1,10 @@
+{
+  "id": "aecfbf01-8295-4cf7-814a-75306b56db83",
+  "name": "Planet Surface Orange",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PlanetFloorOrange_01/PlanetFloorOrange_01.glb"
+    }
+  }
+}

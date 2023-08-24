@@ -1,0 +1,10 @@
+{
+  "id": "70cf980b-7bbb-48b5-8dba-96131df1deb7",
+  "name": "Chest Gear",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Chest Gear.glb"
+    }
+  }
+}

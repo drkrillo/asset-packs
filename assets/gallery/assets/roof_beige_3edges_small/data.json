@@ -1,0 +1,10 @@
+{
+  "id": "e26d88c1-1ee3-4503-a2fa-42150b0dedeb",
+  "name": "Roof - Beige 3Edges Small",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/BeigeRoof_3Edges_Small.glb"
+    }
+  }
+}

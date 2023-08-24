@@ -1,0 +1,10 @@
+{
+  "id": "b58c029b-afbc-42d1-a64f-c38e873492b7",
+  "name": "Emergency Panel",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PanelSciFi_01/PanelSciFi_01.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "f06af1bc-6cb7-4f0e-ab36-77bf90f9d8b7",
+  "name": "Sealed Pirate Scroll",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Map_01/Map_01.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "6728ebdf-bb88-40d5-9a32-b3ebfa450d68",
+  "name": "Dome Frame",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Dome_01/Dome_01.glb"
+    }
+  }
+}

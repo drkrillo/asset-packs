@@ -1,0 +1,10 @@
+{
+  "id": "d0137d23-18bc-4100-97b4-c650f00296f3",
+  "name": "Spring",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Spring.glb"
+    }
+  }
+}

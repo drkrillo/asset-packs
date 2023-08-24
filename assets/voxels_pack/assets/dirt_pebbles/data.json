@@ -1,0 +1,10 @@
+{
+  "id": "5ae27bfa-faac-41f5-a90d-95689408db33",
+  "name": "Dirt - Pebbles",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/dirt_pebbles.glb"
+    }
+  }
+}

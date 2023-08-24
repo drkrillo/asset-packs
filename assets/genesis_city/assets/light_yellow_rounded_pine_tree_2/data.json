@@ -1,0 +1,10 @@
+{
+  "id": "c70f7e47-88b6-46d9-8668-0194dcfad2f0",
+  "name": "Light Yellow Rounded Pine Tree",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/TreeRoundPine_01/TreeRoundPine_01.glb"
+    }
+  }
+}

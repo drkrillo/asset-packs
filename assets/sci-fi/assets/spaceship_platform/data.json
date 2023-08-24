@@ -1,0 +1,10 @@
+{
+  "id": "1ebcf4b9-c78c-4211-8229-069fc0c405b5",
+  "name": "Spaceship Platform",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/SpaceShipBase_01/SpaceShipBase_01.glb"
+    }
+  }
+}

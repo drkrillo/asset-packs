@@ -1,0 +1,10 @@
+{
+  "id": "fcfd90df-6302-4632-a89b-2a1c999062e9",
+  "name": "Rustic Old Rope Bridge",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/DocksBridge_02/DocksBridge_02.glb"
+    }
+  }
+}

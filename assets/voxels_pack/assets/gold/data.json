@@ -1,0 +1,10 @@
+{
+  "id": "c95f24c6-8ccc-4cb1-91d2-a94e718f8869",
+  "name": "Gold",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/gold.glb"
+    }
+  }
+}

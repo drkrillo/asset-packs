@@ -1,0 +1,10 @@
+{
+  "id": "dec49614-de81-4de3-8fc9-07f36dd432f5",
+  "name": "Buttons Table",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/ButtonsTable.glb"
+    }
+  }
+}

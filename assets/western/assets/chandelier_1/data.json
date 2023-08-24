@@ -1,0 +1,10 @@
+{
+  "id": "cee49261-3fe8-4ad0-9a85-5e010e6a9da5",
+  "name": "Chandelier 1",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Chandelier 1.glb"
+    }
+  }
+}

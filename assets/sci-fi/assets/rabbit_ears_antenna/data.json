@@ -1,0 +1,10 @@
+{
+  "id": "02e1c4d5-f71e-4001-b64e-3b0b59d2e4c7",
+  "name": "Rabbit Ears Antenna",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Antenna_03/Antenna_03.glb"
+    }
+  }
+}

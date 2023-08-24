@@ -1,0 +1,10 @@
+{
+  "id": "009be9a4-294f-4ff4-88b6-04d13a51af0d",
+  "name": "Dandelion",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Grass_04/Grass_04.glb"
+    }
+  }
+}

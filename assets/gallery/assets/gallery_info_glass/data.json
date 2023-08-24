@@ -1,0 +1,10 @@
+{
+  "id": "bcdcfbe4-bd95-4100-9174-b38785b45e2c",
+  "name": "Gallery Info - Glass",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/GlassGalleryInfo.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "57773f54-a786-4e56-a14e-8dcbf0d1c639",
+  "name": "Long Curved Vent",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/AirVent_Curve_01/AirVent_Curve_01.glb"
+    }
+  }
+}

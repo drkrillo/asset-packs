@@ -1,0 +1,10 @@
+{
+  "id": "d3cf58bc-16df-4c4c-9c3a-74f659164363",
+  "name": "Tree Stump",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/TreeStump_01/TreeStump_01.glb"
+    }
+  }
+}

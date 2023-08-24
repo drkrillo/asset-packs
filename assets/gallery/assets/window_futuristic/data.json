@@ -1,0 +1,10 @@
+{
+  "id": "207a531c-df6f-4405-bc72-b730161586f4",
+  "name": "Window - Futuristic ",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FuturisticWindow.glb"
+    }
+  }
+}

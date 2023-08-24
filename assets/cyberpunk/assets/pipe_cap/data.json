@@ -1,0 +1,10 @@
+{
+  "id": "d878ae26-79d9-45f5-aa11-578ab1fdb11b",
+  "name": "Pipe Cap",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Pipe_Cap.glb"
+    }
+  }
+}

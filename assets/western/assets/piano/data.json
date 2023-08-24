@@ -1,0 +1,10 @@
+{
+  "id": "9a6494a7-1e73-4cb0-95b1-077ed1736c9f",
+  "name": "Piano",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Piano.glb"
+    }
+  }
+}

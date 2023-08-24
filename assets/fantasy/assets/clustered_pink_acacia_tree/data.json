@@ -1,0 +1,10 @@
+{
+  "id": "62913528-493e-41d5-9656-9d369b6e521b",
+  "name": "Clustered Pink Acacia Tree",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Tree_Forest_Pink_03/Tree_Forest_Pink_03.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "ddcbe37f-19f6-4823-8ecb-c44642aa30b6",
+  "name": "Small Iron Fence",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/HWN20_SmallIronfFence_01.glb"
+    }
+  }
+}

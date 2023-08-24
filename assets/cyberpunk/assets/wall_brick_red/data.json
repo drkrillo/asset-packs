@@ -1,0 +1,10 @@
+{
+  "id": "1835cb52-d719-41e0-bf70-5b72b5c85885",
+  "name": "Wall - Brick Red",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Wall_Brick_Red.glb"
+    }
+  }
+}

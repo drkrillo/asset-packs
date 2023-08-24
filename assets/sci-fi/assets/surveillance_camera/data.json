@@ -1,0 +1,10 @@
+{
+  "id": "d04d20db-dbfc-41da-9053-3c30589b4261",
+  "name": "Surveillance Camera",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Camera_01/Camera_01.glb"
+    }
+  }
+}

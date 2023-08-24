@@ -1,0 +1,10 @@
+{
+  "id": "f249df45-9451-4f9d-adb4-10a6a8c9e986",
+  "name": "Roof -Navy",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/NavyRoof.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "e0320530-0990-4941-996b-7ca039c7db3d",
+  "name": "Clustered Turquoise Acacia Tree",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Tree_Forest_Turquoise_03/Tree_Forest_Turquoise_03.glb"
+    }
+  }
+}

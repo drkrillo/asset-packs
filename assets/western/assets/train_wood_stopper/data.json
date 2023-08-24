@@ -1,0 +1,10 @@
+{
+  "id": "808ac3c0-ad3b-4c78-9a7e-898d3d5b5a82",
+  "name": "Train Wood Stopper",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Train Wood Stopper.glb"
+    }
+  }
+}

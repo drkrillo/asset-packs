@@ -1,0 +1,10 @@
+{
+  "id": "42d6b0a2-baa4-4b23-a4c7-aee44adc6f54",
+  "name": "Roof - Beige 3Edges",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/BeigeRoof_3Edges.glb"
+    }
+  }
+}

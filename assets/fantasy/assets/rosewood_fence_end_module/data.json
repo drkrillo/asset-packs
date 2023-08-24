@@ -1,0 +1,10 @@
+{
+  "id": "381d101e-8a21-4ccc-abaa-22d22fa70060",
+  "name": "Rosewood Fence End Module",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FenceWood_End_01/FenceWood_End_01.glb"
+    }
+  }
+}

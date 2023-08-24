@@ -1,0 +1,10 @@
+{
+  "id": "272274f1-0840-4c59-964e-0d56e3dae5f7",
+  "name": "Helipad",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Helipad.glb"
+    }
+  }
+}

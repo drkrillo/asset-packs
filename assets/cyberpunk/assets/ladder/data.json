@@ -1,0 +1,10 @@
+{
+  "id": "904d4ee0-8267-4255-b5a8-3ab138d6019c",
+  "name": "Ladder",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Ladder.glb"
+    }
+  }
+}

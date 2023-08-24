@@ -1,0 +1,10 @@
+{
+  "id": "cf398135-fa34-4ef9-9696-cd62b8d23fb1",
+  "name": "Wall - PlainOrange",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PlainOrangeWall.glb"
+    }
+  }
+}

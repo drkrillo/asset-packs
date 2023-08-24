@@ -1,0 +1,10 @@
+{
+  "id": "c892f776-59cf-4abe-8662-65a172368b31",
+  "name": "Venus Orange",
+  "category": "ground",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/GroundFloorSciFi_01/GroundFloorSciFi_01.glb"
+    }
+  }
+}

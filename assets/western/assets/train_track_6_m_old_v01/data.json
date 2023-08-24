@@ -1,0 +1,10 @@
+{
+  "id": "2879cf19-077f-41d9-9144-15067b49f12a",
+  "name": "Train Track 6 M Old V01",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Train Track 6 M Old V01.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "c29cf110-2f79-4ada-b09b-aadb4e3ac50b",
+  "name": "Doorframe - Orange",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/OrangeDoorframe.glb"
+    }
+  }
+}

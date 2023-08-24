@@ -1,0 +1,10 @@
+{
+  "id": "7585ead7-6503-43eb-8cde-9e87b90a486c",
+  "name": "Hovering Crystal Candelabra",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/CrystalTotem_01/CrystalTotem_01.glb"
+    }
+  }
+}

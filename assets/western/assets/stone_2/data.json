@@ -1,0 +1,10 @@
+{
+  "id": "9ab4ca92-8bea-4a52-a8de-42d09a149c39",
+  "name": "Stone 2",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Stone 2.glb"
+    }
+  }
+}

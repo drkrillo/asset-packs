@@ -1,0 +1,10 @@
+{
+  "id": "d64291e9-d4a0-4375-9fc3-7f220734b8f1",
+  "name": "Spaceship Horizontal Platform",
+  "category": "vehicles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/Horizontal_Spaceship_Orange.glb"
+    }
+  }
+}

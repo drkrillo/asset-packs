@@ -1,0 +1,10 @@
+{
+  "id": "3f001c84-b186-499d-bcaf-490629e85d99",
+  "name": "Blooming Blue Acacia Tree",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Tree_Forest_Blue_02/Tree_Forest_Blue_02.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "afc17b8d-ed3b-4719-b1ab-8663380772f7",
+  "name": "Small Plank Fence",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FenceWoodSmall_01/FenceWoodSmall_01.glb"
+    }
+  }
+}

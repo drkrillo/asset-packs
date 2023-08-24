@@ -1,0 +1,10 @@
+{
+  "id": "8e9fc52d-f3df-41be-aedd-287907fa9b90",
+  "name": "Forest Maiden Statue",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/GirlForestStatue_01/GirlForestStatue_01.glb"
+    }
+  }
+}

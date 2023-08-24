@@ -1,0 +1,10 @@
+{
+  "id": "df6bc5c0-5989-4251-8d1f-38edcf9c9beb",
+  "name": "Wood Tile",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FloorBlock_03/FloorBlock_03.glb"
+    }
+  }
+}

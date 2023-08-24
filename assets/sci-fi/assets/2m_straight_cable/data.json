@@ -1,0 +1,10 @@
+{
+  "id": "d679b41c-76f3-4efd-8c76-282ed27e9f46",
+  "name": "2M Straight Cable",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Cable_2M_03/Cable_2M_03.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "a2c0868d-bfc5-4e50-adba-bddddb199484",
+  "name": "Moon Stone",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Stone_01/Stone_01.glb"
+    }
+  }
+}

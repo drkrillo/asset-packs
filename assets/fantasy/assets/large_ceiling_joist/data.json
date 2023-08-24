@@ -1,0 +1,10 @@
+{
+  "id": "0e61dad1-11e3-4b81-bdf5-96849d99ebf9",
+  "name": "Large Ceiling Joist",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Column_Wood_5M/Column_Wood_5M.glb"
+    }
+  }
+}

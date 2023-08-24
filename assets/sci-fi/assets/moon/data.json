@@ -1,0 +1,10 @@
+{
+  "id": "1e0c5d8d-91f8-41a1-91bf-e212bd226a91",
+  "name": "Moon",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Planet_05/Planet_05.glb"
+    }
+  }
+}

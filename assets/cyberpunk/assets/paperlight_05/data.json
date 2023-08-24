@@ -1,0 +1,10 @@
+{
+  "id": "c072d245-5245-45ca-9e0c-8f12af485ddf",
+  "name": "Paperlight 05",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Paperlight_05.glb"
+    }
+  }
+}

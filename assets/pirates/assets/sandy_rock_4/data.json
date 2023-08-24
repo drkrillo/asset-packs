@@ -1,0 +1,10 @@
+{
+  "id": "1135ceaa-0453-4eee-8540-9a380729c079",
+  "name": "Sandy Rock",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/RockSand_05/RockSand_05.glb"
+    }
+  }
+}

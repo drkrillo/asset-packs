@@ -1,0 +1,10 @@
+{
+  "id": "e95dd605-0f13-40a3-a647-20d3da402725",
+  "name": "Yellow Light Corner",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/LightCorner_01/LightCorner_01.glb"
+    }
+  }
+}

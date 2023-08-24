@@ -1,0 +1,10 @@
+{
+  "id": "d14b0ff2-0c2e-47c3-841c-05649e680822",
+  "name": "Round Wall Light",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/RoundWallLight_On.glb"
+    }
+  }
+}

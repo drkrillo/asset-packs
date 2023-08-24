@@ -1,0 +1,10 @@
+{
+  "id": "50ad9941-e062-423c-aa50-400e2ef435d3",
+  "name": "Stool F",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Stool_F.glb"
+    }
+  }
+}

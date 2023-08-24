@@ -1,0 +1,10 @@
+{
+  "id": "e380eca1-bc03-493a-832b-03a49e43066b",
+  "name": "Construction Light",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/ConstructionLight_01/ConstructionLight_01.glb"
+    }
+  }
+}

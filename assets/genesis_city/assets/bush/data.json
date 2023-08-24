@@ -1,0 +1,10 @@
+{
+  "id": "3168d3fe-8f93-4a1a-81f4-689780f2a373",
+  "name": "Bush",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Bush_02/Bush_02.glb"
+    }
+  }
+}

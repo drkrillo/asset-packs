@@ -1,0 +1,10 @@
+{
+  "id": "312a5775-b7b0-4455-903b-5e569f63d3fa",
+  "name": "Solid Orange",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/solid_orange.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "4608ec00-9775-4602-88a7-52c4d5e2357f",
+  "name": "Water",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/water.glb"
+    }
+  }
+}

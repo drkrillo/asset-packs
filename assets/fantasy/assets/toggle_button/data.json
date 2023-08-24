@@ -1,0 +1,10 @@
+{
+  "id": "a186416e-81f1-4d0a-b0cd-a4b0077d264d",
+  "name": "Toggle Button",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/Toggle_Fantasy_Button.glb"
+    }
+  }
+}

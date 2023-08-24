@@ -1,0 +1,10 @@
+{
+  "id": "aeaa7334-cc20-49af-b80a-cf386e869ea2",
+  "name": "WallCorner - Arrows",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/ArrowCorner.glb"
+    }
+  }
+}

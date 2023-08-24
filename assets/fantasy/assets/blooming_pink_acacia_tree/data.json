@@ -1,0 +1,10 @@
+{
+  "id": "84d1a6c5-7928-4a77-b8c4-b22952ee8b15",
+  "name": "Blooming Pink Acacia Tree",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Tree_Forest_Pink_02/Tree_Forest_Pink_02.glb"
+    }
+  }
+}

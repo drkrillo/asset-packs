@@ -1,0 +1,10 @@
+{
+  "id": "a917defc-3e47-4e55-90a6-dd6c4f03c9f5",
+  "name": "Blue Weeping Willow Tree",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Tree_Leafs_02/Tree_Leafs_02.glb"
+    }
+  }
+}

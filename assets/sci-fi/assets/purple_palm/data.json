@@ -1,0 +1,10 @@
+{
+  "id": "c49b66db-8764-4d37-b0d3-746c8b6eba7f",
+  "name": "Purple Palm",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PlantSF_01/PlantSF_01.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "74900411-6b15-4fbd-8655-631e73ebe057",
+  "name": "Stone 7",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Stone 7.glb"
+    }
+  }
+}

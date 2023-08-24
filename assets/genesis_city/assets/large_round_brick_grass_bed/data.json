@@ -1,0 +1,10 @@
+{
+  "id": "8e71706b-3a3d-4255-b888-d86eb6318278",
+  "name": "Large Round Brick Grass Bed",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/GrassPatchLarge_01/GrassPatchLarge_01.glb"
+    }
+  }
+}

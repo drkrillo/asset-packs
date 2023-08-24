@@ -1,0 +1,10 @@
+{
+  "id": "55843b02-cbbf-4348-823e-f24c6a347d42",
+  "name": "Alchemist Contraption",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Pillar_Fire_01/Pillar_Fire_01.glb"
+    }
+  }
+}

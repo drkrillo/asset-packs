@@ -1,0 +1,10 @@
+{
+  "id": "ea9146e1-5666-40da-80c9-8a3ce23fb979",
+  "name": "Outdoor Table",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Table_01/Table_01.glb"
+    }
+  }
+}

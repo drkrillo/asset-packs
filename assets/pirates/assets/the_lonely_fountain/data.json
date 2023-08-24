@@ -1,0 +1,10 @@
+{
+  "id": "af0445bd-5654-4d3d-936c-e2b57a740d1a",
+  "name": "The Lonely Fountain",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Fountain_03/Fountain_03.glb"
+    }
+  }
+}

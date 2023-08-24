@@ -1,0 +1,10 @@
+{
+  "id": "e71a9b70-42a6-43b5-8585-cbb45701d84b",
+  "name": "Small Iron Fence",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FenceIronSmall_01/FenceIronSmall_01.glb"
+    }
+  }
+}

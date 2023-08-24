@@ -1,0 +1,10 @@
+{
+  "id": "71b6a344-0d44-409b-b36c-b57068547745",
+  "name": "Rock Pillars",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/RockPillars_01/RockPillars_01.glb"
+    }
+  }
+}

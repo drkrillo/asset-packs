@@ -1,0 +1,10 @@
+{
+  "id": "29e5a3c4-a880-4deb-ace7-288520613890",
+  "name": "Bird Of Paradise",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/JunglePlant_05/JunglePlant_05.glb"
+    }
+  }
+}

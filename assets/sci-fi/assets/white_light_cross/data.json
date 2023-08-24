@@ -1,0 +1,10 @@
+{
+  "id": "2ac042c7-1d76-4a93-8586-50295410907c",
+  "name": "White Light Cross",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/LightCross_03/LightCross_03.glb"
+    }
+  }
+}

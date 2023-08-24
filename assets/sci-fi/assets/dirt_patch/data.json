@@ -1,0 +1,10 @@
+{
+  "id": "8c5540f1-c30c-4a57-91e9-c4855248042d",
+  "name": "Dirt Patch",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Dirt_04/Dirt_04.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "c134f571-596d-4541-9d9b-96a8d0bb1b68",
+  "name": "Paprika Spicebag",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Spicesbag_02/Spicesbag_02.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "dee32299-2f09-4d42-b682-3dfd1d4e1e4d",
+  "name": "Stones1",
+  "category": "ground",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Stones1.glb"
+    }
+  }
+}

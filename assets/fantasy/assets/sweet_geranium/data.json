@@ -1,0 +1,10 @@
+{
+  "id": "402d227e-727e-4288-a29c-ed1ac77dc98a",
+  "name": "Sweet Geranium",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Bush_Fantasy_04/Bush_Fantasy_04.glb"
+    }
+  }
+}

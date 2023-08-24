@@ -1,0 +1,10 @@
+{
+  "id": "feb2e4fd-c6f2-41ae-9968-0f3d87e8b55f",
+  "name": "Vertical Charger",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Charger_01/Charger_01.glb"
+    }
+  }
+}

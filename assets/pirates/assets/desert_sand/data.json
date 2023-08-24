@@ -1,0 +1,10 @@
+{
+  "id": "6e351a83-22fe-4712-b23b-0aeb2a4367e8",
+  "name": "Desert sand",
+  "category": "ground",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FloorBaseDesert_01/FloorBaseDesert_01.glb"
+    }
+  }
+}

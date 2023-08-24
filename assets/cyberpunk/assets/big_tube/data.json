@@ -1,0 +1,10 @@
+{
+  "id": "e63ef4d7-6fe8-4b63-8728-78298b7fcbfa",
+  "name": "Big Tube",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Big_Tube.glb"
+    }
+  }
+}

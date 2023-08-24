@@ -1,0 +1,10 @@
+{
+  "id": "e1c6354a-9e5f-46f0-9f39-e2e796eb5c7c",
+  "name": "Circular Wooden Stool",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Bench_Circular_01/Bench_Circular_01.glb"
+    }
+  }
+}

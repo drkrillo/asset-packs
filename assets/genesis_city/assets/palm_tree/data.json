@@ -1,0 +1,10 @@
+{
+  "id": "647f405c-cb12-436e-8116-321404a898b0",
+  "name": "Palm Tree",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/PalmTree_01/PalmTree_01.glb"
+    }
+  }
+}

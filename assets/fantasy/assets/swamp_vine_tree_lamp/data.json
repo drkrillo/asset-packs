@@ -1,0 +1,10 @@
+{
+  "id": "ded6354e-70df-405b-9ccd-3a865e78d350",
+  "name": "Swamp Vine Tree Lamp",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Tree_Lamp_01/Tree_Lamp_01.glb"
+    }
+  }
+}

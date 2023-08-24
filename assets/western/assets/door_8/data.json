@@ -1,0 +1,10 @@
+{
+  "id": "6e6a73cd-0918-4b47-aa1a-3db319b939a6",
+  "name": "Door 8",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Door 8.glb"
+    }
+  }
+}

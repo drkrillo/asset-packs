@@ -1,0 +1,10 @@
+{
+  "id": "c61fb8e3-3d7d-4e92-8aa9-5aaba7e3fd7a",
+  "name": "Gear Angled 10 Teeth",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Gear Angled 10 Teeth.glb"
+    }
+  }
+}

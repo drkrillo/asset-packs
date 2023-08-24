@@ -1,0 +1,10 @@
+{
+  "id": "3d7bd1d2-2aee-470f-b19b-01997fc26da5",
+  "name": "Archway of Kindness",
+  "category": "year of the pig",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/ChineseGate_03/ChineseGate_03.glb"
+    }
+  }
+}

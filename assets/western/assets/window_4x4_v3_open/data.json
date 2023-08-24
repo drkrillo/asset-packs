@@ -1,0 +1,10 @@
+{
+  "id": "97d25dee-b91b-4b05-9cea-d9ffb2e94a57",
+  "name": "Window 4x4 V3 Open",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Window 4x4 V3 Open.glb"
+    }
+  }
+}

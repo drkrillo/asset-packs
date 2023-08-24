@@ -1,0 +1,10 @@
+{
+  "id": "e8013294-8574-44a5-9207-9275ea235a63",
+  "name": "Purple Weeping Willow Tree",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Tree_Leafs_01/Tree_Leafs_01.glb"
+    }
+  }
+}

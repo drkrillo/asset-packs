@@ -1,0 +1,10 @@
+{
+  "id": "bd059bc2-6aef-4f4d-af16-67688a07c890",
+  "name": "Small Log",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Log_Small_01/Log_Small_01.glb"
+    }
+  }
+}

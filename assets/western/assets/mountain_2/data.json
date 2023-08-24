@@ -1,0 +1,10 @@
+{
+  "id": "833c5a5b-c565-4ac9-a908-cfa4372356fb",
+  "name": "Mountain 2",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Mountain 2.glb"
+    }
+  }
+}

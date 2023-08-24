@@ -1,0 +1,10 @@
+{
+  "id": "2749a65e-6f27-4f07-b4b0-e3965712dfd1",
+  "name": "Hardwood Bridge",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Bridge_01/Bridge_01.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "ec088596-4f05-4a4e-ba56-45b49310de45",
+  "name": "Roof - Black 4Edges",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/BlackRoof_4Edges.glb"
+    }
+  }
+}

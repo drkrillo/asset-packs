@@ -1,0 +1,10 @@
+{
+  "id": "ccb8a627-139a-4691-af47-cc4a1966e328",
+  "name": "Soup Bowl",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Soup_Bowl.glb"
+    }
+  }
+}

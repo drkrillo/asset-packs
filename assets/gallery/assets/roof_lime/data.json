@@ -1,0 +1,10 @@
+{
+  "id": "20b289bc-c8bf-4d81-86d4-f8bf21dd8e92",
+  "name": "Roof - Lime",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/LimeRoof.glb"
+    }
+  }
+}

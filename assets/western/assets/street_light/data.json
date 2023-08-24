@@ -1,0 +1,10 @@
+{
+  "id": "6a40d38d-05c7-4749-9b72-fcb1dc627ca1",
+  "name": "Street Light",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Street Light.glb"
+    }
+  }
+}

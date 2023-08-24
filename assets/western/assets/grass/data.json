@@ -1,0 +1,10 @@
+{
+  "id": "5a51cce6-b537-4f8a-af12-e17d2ab46ba6",
+  "name": "Grass",
+  "category": "ground",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Grass.glb"
+    }
+  }
+}

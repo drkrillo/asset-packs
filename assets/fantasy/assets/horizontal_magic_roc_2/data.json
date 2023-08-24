@@ -1,0 +1,10 @@
+{
+  "id": "980f1bd9-0738-4620-9930-ad56fed98751",
+  "name": "Horizontal Magic Roc",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/Horizontal_Platform_Fantasy.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "36180844-9b8c-49dd-866f-d5c48e9fdf6f",
+  "name": "Medium Log",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Log_Medium_01/Log_Medium_01.glb"
+    }
+  }
+}

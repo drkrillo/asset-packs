@@ -1,0 +1,10 @@
+{
+  "id": "3c5ade5a-b0d0-4d03-99ea-ae9423afd09c",
+  "name": "Green Neon Tube",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/NeonLightTube_05/NeonLightTube_05.glb"
+    }
+  }
+}

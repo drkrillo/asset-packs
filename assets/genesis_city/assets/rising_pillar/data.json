@@ -1,0 +1,10 @@
+{
+  "id": "f5cee346-5a00-4292-8431-10f956e53481",
+  "name": "Rising Pillar",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/Rising_Pillar_Column.glb"
+    }
+  }
+}

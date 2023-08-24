@@ -1,0 +1,10 @@
+{
+  "id": "e6f54515-1149-4c8d-af15-d59ffd7d27a5",
+  "name": "Blue Light Cross",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/LightCross_02/LightCross_02.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "1874152b-dd3d-4890-960a-4e7719346326",
+  "name": "Sand Tile",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FloorBlock_02/FloorBlock_02.glb"
+    }
+  }
+}

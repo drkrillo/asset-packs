@@ -1,0 +1,10 @@
+{
+  "id": "451e0090-76a4-41e9-924b-cf30c148f3fc",
+  "name": "Log Round",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Log_04/Log_04.glb"
+    }
+  }
+}

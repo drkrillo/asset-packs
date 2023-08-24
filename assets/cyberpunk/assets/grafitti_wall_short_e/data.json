@@ -1,0 +1,10 @@
+{
+  "id": "8319c983-5ec6-4c89-98ad-c191952f69b6",
+  "name": "Grafitti Wall Short E",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Grafitti_Wall_Short_E.glb"
+    }
+  }
+}

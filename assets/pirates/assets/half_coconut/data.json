@@ -1,0 +1,10 @@
+{
+  "id": "0b710cd3-be50-4ac0-a340-d38fe2b6efe0",
+  "name": "Half Coconut",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Coco_02/Coco_02.glb"
+    }
+  }
+}

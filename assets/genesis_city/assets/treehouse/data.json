@@ -1,0 +1,10 @@
+{
+  "id": "a8c4a868-27d4-487a-ae5d-a9dc184f12ba",
+  "name": "Treehouse",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/TreeHouse_01/TreeHouse_01.glb"
+    }
+  }
+}

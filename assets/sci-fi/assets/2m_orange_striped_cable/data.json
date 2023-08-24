@@ -1,0 +1,10 @@
+{
+  "id": "f911e6b0-f8a5-4ca4-863e-02f63a49ba17",
+  "name": "2M Orange Striped Cable",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Cable_2M_02/Cable_2M_02.glb"
+    }
+  }
+}

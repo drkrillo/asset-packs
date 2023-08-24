@@ -1,0 +1,10 @@
+{
+  "id": "e5c5e5cf-3c4f-4457-9f3c-0a356f47832e",
+  "name": "Thin Vertical Pod",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Pod_01/Pod_01.glb"
+    }
+  }
+}

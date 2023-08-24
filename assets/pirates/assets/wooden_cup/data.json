@@ -1,0 +1,10 @@
+{
+  "id": "ed7b950c-2a5f-4c68-bcc0-fe87fada833f",
+  "name": "Wooden Cup",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Cup_01/Cup_01.glb"
+    }
+  }
+}

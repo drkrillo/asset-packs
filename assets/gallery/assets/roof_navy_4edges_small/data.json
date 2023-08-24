@@ -1,0 +1,10 @@
+{
+  "id": "e425a8a8-b521-4b56-b569-69db4b15cce6",
+  "name": "Roof - Navy 4Edges Small",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/NavyRoof_4Edges_Small.glb"
+    }
+  }
+}

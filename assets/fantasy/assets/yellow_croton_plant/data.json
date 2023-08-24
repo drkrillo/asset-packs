@@ -1,0 +1,10 @@
+{
+  "id": "11321d1d-9909-4123-aead-f704c85e238c",
+  "name": "Yellow Croton Plant",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Plant_01/Plant_01.glb"
+    }
+  }
+}

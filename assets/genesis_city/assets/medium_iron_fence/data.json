@@ -1,0 +1,10 @@
+{
+  "id": "fee59c38-29ec-471e-ae6d-48bc9b799991",
+  "name": "Medium Iron Fence",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/FenceIronMedium_01/FenceIronMedium_01.glb"
+    }
+  }
+}

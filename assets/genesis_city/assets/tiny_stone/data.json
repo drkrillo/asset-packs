@@ -1,0 +1,10 @@
+{
+  "id": "1621acc1-f146-424b-b5ee-b266c5bda37b",
+  "name": "Tiny Stone",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/RockSmall_03/RockSmall_03.glb"
+    }
+  }
+}

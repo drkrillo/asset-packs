@@ -1,0 +1,10 @@
+{
+  "id": "1a66d011-0a1e-430e-bc04-0f389c241d06",
+  "name": "Bicycle Parking Rack",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/BicycleParking_01/BicycleParking_01.glb"
+    }
+  }
+}

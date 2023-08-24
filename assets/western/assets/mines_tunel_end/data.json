@@ -1,0 +1,10 @@
+{
+  "id": "aaea3c23-7535-44fe-84cd-136c3e2390ea",
+  "name": "Mines Tunel End",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Mines Tunel End.glb"
+    }
+  }
+}

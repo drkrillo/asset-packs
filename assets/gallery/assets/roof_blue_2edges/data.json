@@ -1,0 +1,10 @@
+{
+  "id": "d3094490-dfa7-45fc-a2c0-e2878ec04413",
+  "name": "Roof - Blue 2Edges",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/BlueRoof_2Edges.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "a2e93352-fdc9-47d5-bcf3-6aaf9abcfd3e",
+  "name": "Window - MetalBolts ",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/MetalBoltsWindow.glb"
+    }
+  }
+}

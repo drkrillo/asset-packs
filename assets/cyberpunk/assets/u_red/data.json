@@ -1,0 +1,10 @@
+{
+  "id": "d636da3b-6edc-47b7-92d0-801d5c01657f",
+  "name": "U Red",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/U_Red.glb"
+    }
+  }
+}

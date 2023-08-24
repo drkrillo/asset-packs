@@ -1,0 +1,10 @@
+{
+  "id": "b274ac9f-811e-4035-9222-56c430a9b188",
+  "name": "Wild Long Mushrooms",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Mushrooms_04/Mushrooms_04.glb"
+    }
+  }
+}

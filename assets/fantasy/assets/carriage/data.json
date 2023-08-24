@@ -1,0 +1,10 @@
+{
+  "id": "303ba20c-7a96-404a-ab5e-d343583de515",
+  "name": "Carriage",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Carriage_01/Carriage_01.glb"
+    }
+  }
+}

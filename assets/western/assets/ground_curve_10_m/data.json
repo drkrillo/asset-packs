@@ -1,0 +1,10 @@
+{
+  "id": "8b54d7a2-0b95-41ce-8dee-c29129064c82",
+  "name": "Ground Curve 10 M",
+  "category": "tiles",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Ground Curve 10 M.glb"
+    }
+  }
+}

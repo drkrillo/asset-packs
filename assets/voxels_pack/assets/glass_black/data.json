@@ -1,0 +1,10 @@
+{
+  "id": "c39c2bfa-efd9-40a6-b0be-fc0da138e1f7",
+  "name": "Glass Black",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/glass_black.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "db2a973b-ba62-4f45-88d9-a4ef136f93e4",
+  "name": "Golden Chest Base",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Chest_Base_Gold_01/Chest_Base_Gold_01.glb"
+    }
+  }
+}

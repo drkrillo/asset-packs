@@ -1,0 +1,10 @@
+{
+  "id": "bac8dba0-d241-4515-a42d-e7d819802857",
+  "name": "Ancient Medium Stone Stair",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Module_Stair_Stones_3M/Module_Stair_Stones_3M.glb"
+    }
+  }
+}

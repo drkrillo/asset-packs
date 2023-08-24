@@ -1,0 +1,10 @@
+{
+  "id": "120b7c14-9ae9-4b8a-9a65-eb8d1ec7d787",
+  "name": "Roof - Blue 1Edge Small",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/BlueRoof_1Edge_Small.glb"
+    }
+  }
+}

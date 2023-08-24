@@ -1,0 +1,10 @@
+{
+  "id": "2465d748-93bf-41ac-b161-24c0d8aed625",
+  "name": "Green Rounded Pine Tree",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/TreePine_01/TreePine_01.glb"
+    }
+  }
+}

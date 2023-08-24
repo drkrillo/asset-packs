@@ -1,0 +1,10 @@
+{
+  "id": "04b34bc4-8a1c-4bbf-8ac3-c59b3ffa0ccc",
+  "name": "Stained Glass Window",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Window_02/Window_02.glb"
+    }
+  }
+}

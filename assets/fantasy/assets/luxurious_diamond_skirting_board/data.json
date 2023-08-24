@@ -1,0 +1,10 @@
+{
+  "id": "397e53e3-47ff-44bf-9e7b-1298e54de9fa",
+  "name": "Luxurious Diamond Skirting Board",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/SkirtingBoard_04/SkirtingBoard_04.glb"
+    }
+  }
+}

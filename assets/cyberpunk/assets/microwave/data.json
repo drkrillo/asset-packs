@@ -1,0 +1,10 @@
+{
+  "id": "69695443-7b21-4caa-9bf9-4147bab4ab6c",
+  "name": "Microwave",
+  "category": "appliances",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/Microwave_Closed.glb"
+    }
+  }
+}

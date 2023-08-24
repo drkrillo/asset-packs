@@ -1,0 +1,10 @@
+{
+  "id": "9c2e732a-a7dd-4165-8a99-058c1daaeadd",
+  "name": "Wide Crater",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Crater_01/Crater_01.glb"
+    }
+  }
+}

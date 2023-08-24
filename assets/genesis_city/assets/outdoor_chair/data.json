@@ -1,0 +1,10 @@
+{
+  "id": "8707b21f-e3a0-4d8b-8da0-60d8927de229",
+  "name": "Outdoor Chair",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Chair_07/Chair_07.glb"
+    }
+  }
+}

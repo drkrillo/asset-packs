@@ -1,0 +1,10 @@
+{
+  "id": "f89ab04f-46ef-42ea-912b-b194eb8d2f02",
+  "name": "Twitter Button link",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/twitter.glb"
+    }
+  }
+}

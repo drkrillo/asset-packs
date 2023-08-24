@@ -1,0 +1,10 @@
+{
+  "id": "cb420c25-a6d6-4afd-a9f5-538802ac15f6",
+  "name": "WallCorner - MetalBolts ",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/MetalBoltsCorner.glb"
+    }
+  }
+}

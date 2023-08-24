@@ -1,0 +1,10 @@
+{
+  "id": "b09d52cb-fc5d-4ff2-a58c-20371266a031",
+  "name": "Diamond - Green",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/diamond_pattern_green.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "c4a799c1-9ef8-4787-914e-4f8c15357881",
+  "name": "Image Billboard Black",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/models/Billboard_Black.glb"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "a483fe6d-be3d-4810-b00c-7998b3dd949b",
+  "name": "Ornamental Stone Pillar",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Pillar_Cylinder_03/Pillar_Cylinder_03.glb"
+    }
+  }
+}

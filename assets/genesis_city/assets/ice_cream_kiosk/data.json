@@ -1,0 +1,10 @@
+{
+  "id": "3a0dddfe-be84-4100-b36e-0fb1c6c15cb2",
+  "name": "Ice Cream Kiosk",
+  "category": "structures",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/IceCreamTruck_01/IceCreamTruck_01.glb"
+    }
+  }
+}

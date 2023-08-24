@@ -1,0 +1,10 @@
+{
+  "id": "aad703ad-bf4a-4d95-94c3-f610d56b4d9b",
+  "name": "Window - Cracked ",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/CrackedWindow.glb"
+    }
+  }
+}

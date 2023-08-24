@@ -1,0 +1,10 @@
+{
+  "id": "c72e0a49-875a-442b-8b05-ae3c9d1ed119",
+  "name": "Green Acacia Tree",
+  "category": "nature",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Tree_Forest_Green_01/Tree_Forest_Green_01.glb"
+    }
+  }
+}

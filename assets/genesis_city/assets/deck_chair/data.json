@@ -1,0 +1,10 @@
+{
+  "id": "d04df6aa-16e6-4282-98e0-21e97ac8450a",
+  "name": "Deck Chair",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Couch_03/Couch_03.glb"
+    }
+  }
+}

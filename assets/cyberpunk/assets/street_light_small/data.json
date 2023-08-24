@@ -1,0 +1,10 @@
+{
+  "id": "fa1eaf40-a1f4-4fca-86fa-298dad7c09cd",
+  "name": "Street Light Small",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Street_Light_Small.glb"
+    }
+  }
+}

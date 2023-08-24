@@ -1,0 +1,10 @@
+{
+  "id": "4f7f8fd9-5e9f-4e98-bdff-b93a45e75274",
+  "name": "Furnace 6 Pipe",
+  "category": "furniture",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Furnace 6 Pipe.glb"
+    }
+  }
+}

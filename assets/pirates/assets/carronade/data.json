@@ -1,0 +1,10 @@
+{
+  "id": "d02c92f1-616f-444e-af82-dbb64a740955",
+  "name": "Carronade",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Cannon_02/Cannon_02.glb"
+    }
+  }
+}
