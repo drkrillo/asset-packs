@@ -109,6 +109,12 @@ export class LocalFileSystem {
 
   async getAssets(_path: string) {
     const folders = await getSubfolders(_path)
-    return Promise.all(folders.map(this.getAsset))
+    return Promise.all(
+      folders.map((folder) =>
+        this.getAsset(folder).catch(() => {
+          throw new Error(`Invalid asset at ${folder}`)
+        }),
+      ),
+    )
   }
 }

@@ -8,11 +8,9 @@ async function main() {
     const assetPackPath = local.getAssetsPath(assetPack.name)
     const assets = await local.getAssets(assetPackPath)
     for (const asset of assets) {
-      if (asset.isSmart) {
-        const path = local.getAssetPath(assetPack.name, asset.name)
-        await rimraf(path)
-      }
+      console.log(asset.name, '✅')
     }
+    console.log(assetPack.name, '✅')
   }
 }
 
