@@ -1,0 +1,10 @@
+{
+  "id": "d59c8515-ab0e-42b6-87b4-a17aa1923a4d",
+  "name": "Chest",
+  "category": "decorations",
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/Trunk_01/Trunk_01.glb"
+    }
+  }
+}
