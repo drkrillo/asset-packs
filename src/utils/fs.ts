@@ -53,3 +53,35 @@ export function readBuffer(_path: string) {
   )
   return promise
 }
+
+export function isDirectory(_path: string) {
+  const promise = future<boolean>()
+  fs.lstat(_path, (err, stats) =>
+    err ? promise.reject(err) : promise.resolve(stats.isDirectory()),
+  )
+  return promise
+}
+
+export function getSubfolders(_path: string) {
+  const promise = future<string[]>()
+  fs.readdir(_path, async (err, files) => {
+    if (err) {
+      promise.reject(err)
+    } else {
+      const results = await Promise.all(
+        files.map(async (file) => {
+          return {
+            file,
+            isDirectory: await isDirectory(path.resolve(_path, file)),
+          }
+        }),
+      )
+      promise.resolve(
+        results
+          .filter((result) => result.isDirectory)
+          .map((result) => path.resolve(_path, result.file)),
+      )
+    }
+  })
+  return promise
+}

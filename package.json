@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "download": "ts-node ./scripts/download.ts"
+    "download": "ts-node ./scripts/download.ts",
+    "remove-smart": "ts-node ./scripts/remove-smart.ts"
   },
   "repository": {
     "type": "git",

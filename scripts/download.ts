@@ -1,5 +1,5 @@
-import { Api } from '../src/builder/api'
 import path from 'path'
+import { Api } from '../src/builder/api'
 import { createDirectory, exists, writeFile } from '../src/utils/fs'
 import { LocalFileSystem } from '../src/local'
 
@@ -18,7 +18,7 @@ async function main() {
     await local.writeAssetPack(assetPack)
 
     console.log(`Downloading thumbnail...`)
-    const assetPackPath = local.getAssetPackPath(assetPack)
+    const assetPackPath = local.getAssetPackPath(assetPack.title)
     const thumbnailPath = `${assetPackPath}/thumbnail.png`
     if (!(await exists(thumbnailPath))) {
       const thumbnail = await builder.getThumbnail(assetPack.id)

@@ -1,4 +1,10 @@
-import { createDirectory, exists, readJson, writeFile } from './utils/fs'
+import {
+  createDirectory,
+  exists,
+  getSubfolders,
+  readJson,
+  writeFile,
+} from './utils/fs'
 import { slug } from './utils/string'
 import { BuilderApiAsset, BuilderApiAssetPack } from './builder/types'
 import { AssetData, AssetPackData, isAsset, isAssetPack } from './types'
@@ -6,8 +12,8 @@ import { AssetData, AssetPackData, isAsset, isAssetPack } from './types'
 export class LocalFileSystem {
   constructor(public cwd: string) {}
 
-  getAssetPackPath(assetPack: BuilderApiAssetPack) {
-    return `${this.cwd}/${slug(assetPack.title)}`
+  getAssetPackPath(assetPackName: string) {
+    return `${this.cwd}/${slug(assetPackName)}`
   }
 
   async writeAssetPack(assetPack: BuilderApiAssetPack) {
@@ -32,12 +38,12 @@ export class LocalFileSystem {
     return data
   }
 
-  getAssetsPath(assetPack: BuilderApiAssetPack) {
-    return `${this.getAssetPackPath(assetPack)}/assets`
+  getAssetsPath(assetPackName: string) {
+    return `${this.getAssetPackPath(assetPackName)}/assets`
   }
 
-  getAssetPath(assetPack: BuilderApiAssetPack, asset: BuilderApiAsset) {
-    return `${this.getAssetsPath(assetPack)}/${slug(asset.name)}`
+  getAssetPath(assetPackName: string, assetName: string) {
+    return `${this.getAssetsPath(assetPackName)}/${slug(assetName)}`
   }
 
   async getAsset(path: string) {
@@ -46,7 +52,8 @@ export class LocalFileSystem {
     if (!isAsset(data)) {
       throw new Error(`Invalid data in "${dataPath}"`)
     }
-    return data
+    const isSmart = await exists(`${path}/bin/game.js`)
+    return { ...data, isSmart }
   }
 
   async isTaken(path: string, asset: BuilderApiAsset) {
@@ -66,7 +73,7 @@ export class LocalFileSystem {
     assetPack: BuilderApiAssetPack,
     asset: BuilderApiAsset,
   ) {
-    const baseAssetPath = this.getAssetPath(assetPack, asset)
+    const baseAssetPath = this.getAssetPath(assetPack.title, asset.name)
     let assetPath = baseAssetPath
     let attempts = 1
     while (await this.isTaken(assetPath, asset)) {
@@ -76,7 +83,7 @@ export class LocalFileSystem {
   }
 
   async writeAsset(assetPack: BuilderApiAssetPack, asset: BuilderApiAsset) {
-    const assetsPath = this.getAssetsPath(assetPack)
+    const assetsPath = this.getAssetsPath(assetPack.title)
     await createDirectory(assetsPath)
     const assetPath = await this.getAvailableAssetPath(assetPack, asset)
     const { id, name, category, model } = asset
@@ -93,5 +100,15 @@ export class LocalFileSystem {
     await createDirectory(assetPath)
     await writeFile(`${assetPath}/data.json`, JSON.stringify(data, null, 2))
     return assetPath
+  }
+
+  async getAssetPacks() {
+    const folders = await getSubfolders(this.cwd)
+    return Promise.all(folders.map(this.getAssetPack))
+  }
+
+  async getAssets(_path: string) {
+    const folders = await getSubfolders(_path)
+    return Promise.all(folders.map(this.getAsset))
   }
 }
