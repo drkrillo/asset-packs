@@ -2,6 +2,7 @@ import path from 'path'
 import { Api } from '../src/builder/api'
 import { createDirectory, exists, writeFile } from '../src/utils/fs'
 import { LocalFileSystem } from '../src/local'
+import { rimraf } from 'rimraf'
 
 async function main() {
   console.log('Creating dist directory...')
@@ -47,6 +48,12 @@ async function main() {
           }
         }
       }
+    }
+
+    const isValid = await exists(local.getAssetsPath(assetPack.title))
+    if (!isValid) {
+      console.log(`Removing empty asset pack "${assetPack.title}"`)
+      await rimraf(assetPackPath)
     }
   }
 }
