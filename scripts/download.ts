@@ -26,22 +26,25 @@ async function main() {
       await writeFile(`${assetPackPath}/thumbnail.png`, thumbnail)
     }
     for (const asset of assetPack.assets) {
-      console.log(`Writing asset "${asset.name}"...`)
-      const assetPath = await local.writeAsset(assetPack, asset)
-      for (const path in asset.contents) {
-        const contentPath = `${assetPath}/${path}`
-        if (!(await exists(contentPath))) {
-          const hash = asset.contents[path]
-          const content = await builder.getContent(hash)
-          console.log(`Writing file "${path}"...`)
-          await writeFile(contentPath, content)
-        }
+      // only download non-smart items
+      if (asset.script === null) {
+        console.log(`Writing asset "${asset.name}"...`)
+        const assetPath = await local.writeAsset(assetPack, asset)
+        for (const path in asset.contents) {
+          const contentPath = `${assetPath}/${path}`
+          if (!(await exists(contentPath))) {
+            const hash = asset.contents[path]
+            const content = await builder.getContent(hash)
+            console.log(`Writing file "${path}"...`)
+            await writeFile(contentPath, content)
+          }
 
-        const thumbnailPath = `${assetPath}/thumbnail.png`
-        if (!(await exists(thumbnailPath))) {
-          const thumbnail = await builder.getContent(asset.thumbnail)
-          console.log(`Writing thumbnail for "${asset.name}"...`)
-          await writeFile(thumbnailPath, thumbnail)
+          const thumbnailPath = `${assetPath}/thumbnail.png`
+          if (!(await exists(thumbnailPath))) {
+            const thumbnail = await builder.getContent(asset.thumbnail)
+            console.log(`Writing thumbnail for "${asset.name}"...`)
+            await writeFile(thumbnailPath, thumbnail)
+          }
         }
       }
     }
