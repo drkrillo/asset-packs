@@ -2,6 +2,17 @@
   "id": "38832f4a-2a1b-4139-8d73-3146f1261e95",
   "name": "Street Mailbox",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decoration",
+    "mail",
+    "box",
+    "street",
+    "city",
+    "postman"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/MailPost_01/MailPost_01.glb"

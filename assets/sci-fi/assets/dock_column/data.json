@@ -2,6 +2,12 @@
   "id": "2c4e03b5-8658-4e59-940e-29a99a96ae42",
   "name": "Dock Column",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "dock",
+    "port",
+    "metal"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Dock_Column_01/Dock_Column_01.glb"

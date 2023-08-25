@@ -2,6 +2,7 @@
   "id": "f9922104-f7ff-4cdd-9bb1-5da7f51a73d1",
   "name": "Grass - medium",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/grass_medium.glb"

@@ -2,6 +2,16 @@
   "id": "1c9d6c7e-aeda-4c34-be6f-1ada660422e6",
   "name": "Round Rug",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decoration",
+    "rug",
+    "carpet",
+    "beach",
+    "sun"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Carpet_01/Carpet_01.glb"

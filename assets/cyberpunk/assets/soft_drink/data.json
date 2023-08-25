@@ -2,6 +2,7 @@
   "id": "c3f08032-6538-46dd-b930-69940f2a5cd7",
   "name": "Soft Drink",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Soft_Drink.glb"

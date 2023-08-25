@@ -2,6 +2,10 @@
   "id": "526270d4-b8b9-432a-9a86-1c2c94f860fd",
   "name": "Martian Reddish",
   "category": "ground",
+  "tags": [
+    "scifi",
+    "ground"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/GroundFloorSciFi_02/GroundFloorSciFi_02.glb"

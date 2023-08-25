@@ -2,6 +2,7 @@
   "id": "c905282b-97eb-4c5e-b02d-7d624d434bac",
   "name": "Stairs Fire Escape",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/fireEscapeStairs.glb"

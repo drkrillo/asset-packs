@@ -2,6 +2,7 @@
   "id": "76c6300e-d786-4922-a54f-93b4c54021a3",
   "name": "Drawer 2",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Drawer 2.glb"

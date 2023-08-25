@@ -2,6 +2,12 @@
   "id": "f5b8141f-67d3-4392-a8c7-20caaef2a3d7",
   "name": "Dirt",
   "category": "ground",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "ground"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FloorBaseDirt_02/FloorBaseDirt_02.glb"

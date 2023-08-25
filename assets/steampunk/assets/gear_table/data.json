@@ -2,6 +2,7 @@
   "id": "2d982d17-e637-48bf-85ac-5a97133d7b8d",
   "name": "Gear Table",
   "category": "furniture",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Gear Table.glb"

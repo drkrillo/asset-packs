@@ -2,6 +2,7 @@
   "id": "bbb40eb8-79ba-4442-a95e-b5454015a4b9",
   "name": "Fruit 5",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Fruit 5.glb"

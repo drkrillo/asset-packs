@@ -2,6 +2,19 @@
   "id": "e4586159-443d-44f0-a26d-f5b90a148cb2",
   "name": "Medium Ornamented Stone Rail",
   "category": "structures",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "structures",
+    "stone",
+    "rail",
+    "railing",
+    "fence",
+    "fences",
+    "garden",
+    "park"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FenceStoneMedium_01/FenceStoneMedium_01.glb"

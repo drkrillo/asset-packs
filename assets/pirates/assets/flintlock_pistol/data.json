@@ -2,6 +2,22 @@
   "id": "b76fc2df-bdbd-4816-a58b-2b9a7bc4d09c",
   "name": "Flintlock Pistol",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "iron",
+    "wood",
+    "brass",
+    "trigger",
+    "bullet",
+    "gun",
+    "weapon",
+    "powder",
+    "boom",
+    "bang"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Gun_01/Gun_01.glb"

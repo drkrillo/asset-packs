@@ -2,6 +2,16 @@
   "id": "13a91419-6e4b-42f2-a833-76b65b4efcc0",
   "name": "Sangaree",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "bottle",
+    "drink",
+    "beverage",
+    "alcohol"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Bottle_10/Bottle_10.glb"

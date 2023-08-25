@@ -2,6 +2,19 @@
   "id": "d66e204f-9afc-415f-bebd-22c40312459f",
   "name": "Pet House",
   "category": "structures",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "structures",
+    "pet",
+    "dog",
+    "animal",
+    "animals",
+    "yard",
+    "backyard",
+    "house"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/PetHouse_01/PetHouse_01.glb"

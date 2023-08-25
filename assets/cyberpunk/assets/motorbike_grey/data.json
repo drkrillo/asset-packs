@@ -2,6 +2,7 @@
   "id": "a957b1fa-a0a5-4b6a-91f4-782bd529c226",
   "name": "Motorbike - Grey",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Motorbike_Grey.glb"

@@ -2,6 +2,7 @@
   "id": "d5899f47-5576-433c-92d5-30a98e874bd1",
   "name": "Roof - Red 1Edge",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/RedRoof_1Edge.glb"

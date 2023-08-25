@@ -2,6 +2,14 @@
   "id": "3bad09fe-7004-4433-aae0-da6dab6a482f",
   "name": "Wired Battery Pack",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "energy",
+    "power",
+    "supply",
+    "electricity",
+    "plasma"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Battery_03/Battery_03.glb"

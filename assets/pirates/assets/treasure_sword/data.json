@@ -2,6 +2,19 @@
   "id": "06a07e47-6dff-4d97-881a-9c91688a945b",
   "name": "Treasure Sword",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "gold",
+    "golden",
+    "iron",
+    "leather",
+    "sword",
+    "excalibur",
+    "weapon"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Sword_01/Sword_01.glb"

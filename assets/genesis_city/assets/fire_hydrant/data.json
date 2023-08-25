@@ -2,6 +2,17 @@
   "id": "339d17f7-6ba1-4ece-92ca-6bf57e1e2778",
   "name": "Fire Hydrant",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decoration",
+    "water",
+    "fire",
+    "firefighter",
+    "firefighters",
+    "city"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FireHydrant_01/FireHydrant_01.glb"

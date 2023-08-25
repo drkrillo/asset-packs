@@ -2,6 +2,7 @@
   "id": "49f3ab80-9023-419e-aa87-87f6a49ce517",
   "name": "Light Decor 5",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Light_Decor5.glb"

@@ -2,6 +2,15 @@
   "id": "76cf13e2-3df0-4eae-af1c-f10ba9acfa33",
   "name": "Big Sand Dune",
   "category": "nature",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "nature",
+    "sand",
+    "dune",
+    "beach"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/SandPatchBig_01/SandPatchBig_01.glb"

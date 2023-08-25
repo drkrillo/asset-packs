@@ -2,6 +2,11 @@
   "id": "f8bd6e48-a0d2-430e-a8af-7642b4ad36f9",
   "name": "Yellow Crate",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "box",
+    "storage"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/CrateYellowBig_01/CrateYellowBig_01.glb"

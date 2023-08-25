@@ -2,6 +2,13 @@
   "id": "9d858c49-1110-47cf-b259-3ecc535dc488",
   "name": "Octagonal Table",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "lab",
+    "table",
+    "work",
+    "tools"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/DigitalTable_01/DigitalTable_01.glb"

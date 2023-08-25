@@ -2,6 +2,13 @@
   "id": "6dd069a3-22fe-4f83-ad3f-4d058c729461",
   "name": "Short Curved Vent",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "vent",
+    "arc",
+    "wide",
+    "air"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/AirVent_Curve_02/AirVent_Curve_02.glb"

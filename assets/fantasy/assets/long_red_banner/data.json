@@ -2,6 +2,12 @@
   "id": "29c65ac4-f229-491a-b148-f9fe6dd8a917",
   "name": "Long Red Banner",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "red",
+    "banner",
+    "court"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Banner_Red_01/Banner_Red_01.glb"

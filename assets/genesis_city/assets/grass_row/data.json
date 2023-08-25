@@ -2,6 +2,16 @@
   "id": "52256125-cdc9-493d-9bda-cb7bf4ac7609",
   "name": "Grass Row",
   "category": "nature",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "nature",
+    "container",
+    "garden",
+    "park",
+    "backyard"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/BushPatch_01/BushPatch_01.glb"

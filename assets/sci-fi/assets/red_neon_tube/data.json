@@ -2,6 +2,13 @@
   "id": "6fd50cb1-fe66-4c14-a92d-22baec98639f",
   "name": "Red Neon Tube",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "power",
+    "spark",
+    "base",
+    "spaceship"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/NeonLightTube_06/NeonLightTube_06.glb"

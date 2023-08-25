@@ -2,6 +2,17 @@
   "id": "ba63bfc0-f373-4c76-8363-48899aca87bf",
   "name": "Sweet Pea Crop",
   "category": "nature",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "nature",
+    "farm",
+    "crop",
+    "vegetation",
+    "sweet",
+    "pea"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FarmVegetation_01/FarmVegetation_01.glb"

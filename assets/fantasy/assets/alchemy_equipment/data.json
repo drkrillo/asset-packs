@@ -2,6 +2,13 @@
   "id": "35ab51b8-d68b-41b7-ab49-1c5f616bb3cb",
   "name": "Alchemy Equipment",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "alchemy",
+    "lab",
+    "equipment",
+    "potion"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Lab_Sphere_01/Lab_Sphere_01.glb"

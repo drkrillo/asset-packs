@@ -2,6 +2,22 @@
   "id": "d7fa26cb-8cfe-41bf-83b0-71e627a94897",
   "name": "Fence Door",
   "category": "structures",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "structures",
+    "wood",
+    "fence",
+    "fences",
+    "door",
+    "entrance",
+    "park",
+    "garden",
+    "backyard",
+    "yard",
+    "farm"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FencePicketDoor_01/FencePicketDoor_01.glb"

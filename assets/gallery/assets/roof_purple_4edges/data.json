@@ -2,6 +2,7 @@
   "id": "8e1898b9-a9f3-4c0a-bd51-db93e130fe88",
   "name": "Roof - Purple 4Edges",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/PurpleRoof_4Edges.glb"

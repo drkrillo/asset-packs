@@ -2,6 +2,10 @@
   "id": "5213245c-db38-4195-8296-b15485230fa0",
   "name": "Red Giant",
   "category": "ground",
+  "tags": [
+    "scifi",
+    "ground"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/GroundFloorSciFi_03/GroundFloorSciFi_03.glb"

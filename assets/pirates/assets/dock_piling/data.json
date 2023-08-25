@@ -2,6 +2,17 @@
   "id": "e7b7b5d3-2e0b-4f2f-a877-f5814e67b5c4",
   "name": "Dock Piling",
   "category": "structures",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "structures",
+    "wood",
+    "wooden",
+    "dock",
+    "pillar",
+    "pillars"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/DocksPillar_01/DocksPillar_01.glb"

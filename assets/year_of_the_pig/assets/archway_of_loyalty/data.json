@@ -2,6 +2,12 @@
   "id": "27943c14-c660-4a0c-b9f5-af162022cf65",
   "name": "Archway of Loyalty",
   "category": "year of the pig",
+  "tags": [
+    "structures",
+    "archway",
+    "wood",
+    "gate"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/ChineseGate_01/ChineseGate_01.glb"

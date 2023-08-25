@@ -2,6 +2,14 @@
   "id": "75785ed1-de94-4b90-8d95-7c293c9188f1",
   "name": "Court Stool",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "upholstered",
+    "stool",
+    "chair",
+    "court",
+    "stone"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Chair_02/Chair_02.glb"

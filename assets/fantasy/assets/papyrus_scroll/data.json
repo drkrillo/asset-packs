@@ -2,6 +2,12 @@
   "id": "ea603385-f81b-4112-abda-4266a7ee2056",
   "name": "Papyrus Scroll",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "paper",
+    "papyrus",
+    "scroll"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Papyrus_01/Papyrus_01.glb"

@@ -2,6 +2,7 @@
   "id": "00d501ed-6c0a-483b-866b-7ca5b3366e0e",
   "name": "Mines Model Ramp",
   "category": "structures",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Mines Model Ramp.glb"

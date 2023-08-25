@@ -2,6 +2,12 @@
   "id": "53e9ace9-41c4-4479-a565-c320cc4cbf5b",
   "name": "Wooden Chest Base",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "chest",
+    "wood",
+    "wooden"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Chest_Base_01/Chest_Base_01.glb"

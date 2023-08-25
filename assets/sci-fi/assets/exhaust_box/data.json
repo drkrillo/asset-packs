@@ -2,6 +2,13 @@
   "id": "f8d89e73-d8bb-4a32-bd70-2faeb7b665fe",
   "name": "Exhaust Box",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "vent",
+    "exhaust",
+    "air",
+    "square"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/AirVent_Exhaust_01/AirVent_Exhaust_01.glb"

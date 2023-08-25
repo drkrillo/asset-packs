@@ -2,6 +2,7 @@
   "id": "7055ded6-be17-4a87-ad9d-3db0f1271b3b",
   "name": "Terrain 4",
   "category": "nature",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Terrain 4.glb"

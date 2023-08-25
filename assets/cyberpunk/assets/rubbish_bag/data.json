@@ -2,6 +2,7 @@
   "id": "3a6a34c6-050b-4488-a042-fe3a7a36b523",
   "name": "Rubbish Bag",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Rubbish_Bag.glb"

@@ -2,6 +2,16 @@
   "id": "72ab1ffd-8a84-459a-b54d-97186d6d08fd",
   "name": "3-Candle Candelabra",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "golden",
+    "candle",
+    "light",
+    "holder"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Chandelier_01/Chandelier_01.glb"

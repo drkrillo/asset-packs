@@ -2,6 +2,11 @@
   "id": "68ab0a01-3427-4039-9af2-2626ea7ed4a2",
   "name": "Stone Top Blocks",
   "category": "structures",
+  "tags": [
+    "fantasy",
+    "stones",
+    "stone"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Pillar_Top_Stones_Big_01/Pillar_Top_Stones_Big_01.glb"

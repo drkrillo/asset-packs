@@ -2,6 +2,13 @@
   "id": "0b129a3e-a9aa-422c-903e-5ad8f82156ef",
   "name": "Dreamwhisper Codex",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "book",
+    "codex",
+    "knowledge",
+    "shelf"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Book_05/Book_05.glb"

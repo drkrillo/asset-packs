@@ -2,6 +2,13 @@
   "id": "c821fcea-5c56-43f1-9098-bd018a02df7b",
   "name": "Stone Pond",
   "category": "nature",
+  "tags": [
+    "fantasy",
+    "pond",
+    "water",
+    "stone",
+    "circular"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Pond_Stone_01/Pond_Stone_01.glb"

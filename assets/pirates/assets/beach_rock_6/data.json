@@ -2,6 +2,17 @@
   "id": "60e6cab6-ad1b-460e-875a-8c55bc8f3892",
   "name": "Beach Rock",
   "category": "nature",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "nature",
+    "stone",
+    "stones",
+    "rock",
+    "rocks",
+    "beach"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/RockBig_03/RockBig_03.glb"

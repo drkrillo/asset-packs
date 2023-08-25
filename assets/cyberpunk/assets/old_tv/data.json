@@ -2,6 +2,7 @@
   "id": "b6f4fa73-c4a1-48fd-be8f-de0d7764c848",
   "name": "Old TV",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Old_TV.glb"

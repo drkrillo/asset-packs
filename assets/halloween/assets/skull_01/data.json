@@ -2,6 +2,7 @@
   "id": "4966ab71-d52b-4103-8032-a708b85dcb8d",
   "name": "Skull 01",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/HWN20_Skull_01.glb"

@@ -2,6 +2,12 @@
   "id": "1f8e735e-664d-401f-841a-4705b2e84d4d",
   "name": "Salamander Stove",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "stove",
+    "salamander",
+    "fire"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Stove_01/Stove_01.glb"

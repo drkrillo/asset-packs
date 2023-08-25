@@ -2,6 +2,7 @@
   "id": "188a9566-3321-4140-ad25-b037aad09cf0",
   "name": "Graffiti 01",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Graffiti_01.glb"

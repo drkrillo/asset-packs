@@ -2,6 +2,15 @@
   "id": "6b56e8b0-e060-40e1-8884-9ebd39dac1e9",
   "name": "Rock Of Ages",
   "category": "nature",
+  "tags": [
+    "fantasy",
+    "nature",
+    "stone",
+    "stones",
+    "rock",
+    "rocks",
+    "forest"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Rock_08/Rock_08.glb"

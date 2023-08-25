@@ -2,6 +2,11 @@
   "id": "d418db0e-e813-43fe-ae7c-f6f9a5f30e88",
   "name": "Open Hall Junction",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "alien",
+    "base"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Hallway_Module_Cross_01/Hallway_Module_Cross_01.glb"

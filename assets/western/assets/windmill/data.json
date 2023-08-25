@@ -2,6 +2,7 @@
   "id": "562f7b91-5539-49da-b4fc-1b9f03413a3e",
   "name": "Windmill",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Windmill.glb"

@@ -2,6 +2,7 @@
   "id": "3692233b-6494-4f39-8e51-18029085dd15",
   "name": "Armchair A",
   "category": "furniture",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Armchair_A.glb"

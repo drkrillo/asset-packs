@@ -2,6 +2,17 @@
   "id": "5feb658c-ff4c-48f2-9bd3-f8552a6343e7",
   "name": "Sand Reed",
   "category": "nature",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "nature",
+    "fern",
+    "beach",
+    "foliage",
+    "plant",
+    "plants"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Grass_04/Grass_04.glb"

@@ -2,6 +2,13 @@
   "id": "ed8aa130-1fbe-435a-9d79-4c4316639fc6",
   "name": "Fairy Dust Barrel",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "wood",
+    "iron",
+    "barrel",
+    "fairy"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Barrel_01/Barrel_01.glb"

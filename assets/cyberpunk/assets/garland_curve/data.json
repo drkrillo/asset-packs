@@ -2,6 +2,7 @@
   "id": "c80fb38b-9b5c-4e7a-a8ff-93d80a5764fb",
   "name": "Garland Curve",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Garland_Curve.glb"

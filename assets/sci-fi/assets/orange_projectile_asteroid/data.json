@@ -2,6 +2,11 @@
   "id": "6ab5b971-944c-4d5d-8d89-15949a914137",
   "name": "Orange Projectile Asteroid",
   "category": "nature",
+  "tags": [
+    "scifi",
+    "rock",
+    "planet"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Stone_05/Stone_05.glb"

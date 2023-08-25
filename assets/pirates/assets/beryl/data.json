@@ -2,6 +2,15 @@
   "id": "ea12b684-03d9-401b-92ab-2613703b7de5",
   "name": "Beryl",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "jewel",
+    "jewels",
+    "gemstone"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Gem_03/Gem_03.glb"

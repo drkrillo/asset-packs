@@ -2,6 +2,12 @@
   "id": "811fb9e4-8188-478a-ab40-01b886ccf303",
   "name": "Vent Floor Panel",
   "category": "tiles",
+  "tags": [
+    "scifi",
+    "tile",
+    "ground",
+    "vent"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Floor_Module_05/Floor_Module_05.glb"

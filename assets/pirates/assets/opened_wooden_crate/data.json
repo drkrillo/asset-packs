@@ -2,6 +2,17 @@
   "id": "c717bf3c-4432-45cf-89f5-82b371942fed",
   "name": "Opened Wooden Crate",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "wood",
+    "wooden",
+    "crate",
+    "box",
+    "open"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Crate_02/Crate_02.glb"

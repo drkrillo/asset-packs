@@ -2,6 +2,14 @@
   "id": "97678fed-0705-4f1b-9a68-9e9cb2b7817a",
   "name": "Yellow Tube Battery",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "energy",
+    "power",
+    "supply",
+    "electricity",
+    "plasma"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Battery_01/Battery_01.glb"

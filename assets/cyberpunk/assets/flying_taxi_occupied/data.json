@@ -2,6 +2,7 @@
   "id": "ea432bc4-1854-4784-9b6b-95129acac392",
   "name": "Flying Taxi - Occupied",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Flying_Taxi_Occupied.glb"

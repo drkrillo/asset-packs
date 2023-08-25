@@ -2,6 +2,12 @@
   "id": "b9f82b6e-4ef1-469b-9f5e-69931a9a93ad",
   "name": "Swamp Lily Pad",
   "category": "nature",
+  "tags": [
+    "fantasy",
+    "swamp",
+    "forest",
+    "water"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Vegetation_01/Vegetation_01.glb"

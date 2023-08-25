@@ -2,6 +2,17 @@
   "id": "f0acefea-8834-4d0a-b65d-23449bf9533f",
   "name": "Sticks Small Fence",
   "category": "structures",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "structures",
+    "wood",
+    "wooden",
+    "dock",
+    "stick",
+    "sticks"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FenceSticksSmall_01/FenceSticksSmall_01.glb"

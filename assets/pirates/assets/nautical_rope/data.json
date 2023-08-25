@@ -2,6 +2,16 @@
   "id": "2951ebf9-7fba-4a5f-8a63-bfe6a6671068",
   "name": "Nautical Rope",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "rope",
+    "ship",
+    "flagship",
+    "dock"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Rope_01/Rope_01.glb"

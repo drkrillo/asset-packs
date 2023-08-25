@@ -2,6 +2,13 @@
   "id": "2dc61775-6d62-4745-ab21-5858f7cf7bdb",
   "name": "Yellow Light Pagoda",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "power",
+    "spark",
+    "base",
+    "spaceship"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/LightCylinder_01/LightCylinder_01.glb"

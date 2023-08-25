@@ -2,6 +2,7 @@
   "id": "e6894404-f9c6-49f9-83a1-b30f5f30a054",
   "name": "Doorframe - Futuristic",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FuturisticDoorframe.glb"

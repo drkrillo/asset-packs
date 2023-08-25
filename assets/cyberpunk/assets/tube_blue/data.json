@@ -2,6 +2,7 @@
   "id": "362290a7-17a1-4774-a496-b2d68856f1d4",
   "name": "Tube - Blue",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Tube_Blue.glb"

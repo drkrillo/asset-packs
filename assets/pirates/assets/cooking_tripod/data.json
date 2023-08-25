@@ -2,6 +2,16 @@
   "id": "025f0c98-8b1a-470d-a817-473f07eb5219",
   "name": "Cooking Tripod",
   "category": "furniture",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "furniture",
+    "stick",
+    "sticks",
+    "rope",
+    "hook"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/HangingStructure_01/HangingStructure_01.glb"

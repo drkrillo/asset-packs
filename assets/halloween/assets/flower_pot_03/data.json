@@ -2,6 +2,7 @@
   "id": "efadbe68-cc20-4333-9bbb-87bdc655b278",
   "name": "Flower Pot 03",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/HWN20_FlowerPot_03.glb"

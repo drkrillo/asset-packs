@@ -2,6 +2,7 @@
   "id": "ae0164b4-c713-47a9-9eaa-55dbf5191f8d",
   "name": "SteamPunk Number 04",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/SteamPunk_Number_04.glb"

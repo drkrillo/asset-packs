@@ -2,6 +2,7 @@
   "id": "c1c8ab1a-41ec-474d-a9f5-821325625cbf",
   "name": "Traffic Cone - Blue",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Traffic_Cone_Blue.glb"

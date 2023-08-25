@@ -2,6 +2,20 @@
   "id": "1091923b-56aa-415b-96a2-ca82ecee7782",
   "name": "Planted Balsam",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "nature",
+    "fern",
+    "garden",
+    "container",
+    "pot",
+    "park",
+    "yard",
+    "backyard",
+    "soil"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/PlantPot_04/PlantPot_04.glb"

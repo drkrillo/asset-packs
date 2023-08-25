@@ -2,6 +2,7 @@
   "id": "882d247a-5a6b-4767-862b-0a3cf49def34",
   "name": "Mushroom - Brown",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/mushroom_brown.glb"

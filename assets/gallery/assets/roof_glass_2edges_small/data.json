@@ -2,6 +2,7 @@
   "id": "cf45e1a9-f0de-45f7-a9ac-ddb62d788c09",
   "name": "Roof - Glass 2Edges Small",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/GlassRoof_2Edges_Small.glb"

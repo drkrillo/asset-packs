@@ -2,6 +2,7 @@
   "id": "2da9347a-052e-4d05-8fb8-23ca4f2008a5",
   "name": "Lamp - Purple",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Lamp_Purple.glb"

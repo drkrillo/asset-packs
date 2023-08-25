@@ -2,6 +2,16 @@
   "id": "247cbca8-9409-48a6-8f05-b798fd5637c4",
   "name": "Wizard Apprentice Staff",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "wizard",
+    "staff",
+    "magic",
+    "tool",
+    "wood",
+    "wooden",
+    "fabric"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/WizardStaff_02/WizardStaff_02.glb"

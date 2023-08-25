@@ -2,6 +2,11 @@
   "id": "d433495e-cb00-4231-b46f-ceb077dbe435",
   "name": "Street Barrier",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "city",
+    "wall"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/StreetFence_01/StreetFence_01.glb"

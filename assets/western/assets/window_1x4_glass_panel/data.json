@@ -2,6 +2,7 @@
   "id": "dfb00611-e4c2-41a3-b7e0-211cc0c7fc4a",
   "name": "Window 1x4 glass panel",
   "category": "structures",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Window 1x4 glass panel.glb"

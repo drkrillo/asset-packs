@@ -2,6 +2,13 @@
   "id": "382afbea-28ae-42ad-a046-9376b21541f8",
   "name": "4M Long Looped Cable",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "energy",
+    "power",
+    "electricity",
+    "connectors"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Cable_4M_02/Cable_4M_02.glb"

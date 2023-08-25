@@ -2,6 +2,11 @@
   "id": "87e7c967-30e1-4d5e-97b5-15c8e9e0eb79",
   "name": "Lit Candle",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "wax",
+    "light"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Candle_02/Candle_02.glb"

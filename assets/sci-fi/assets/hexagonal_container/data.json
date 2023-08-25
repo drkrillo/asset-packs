@@ -2,6 +2,12 @@
   "id": "aa9ca035-5eb8-4836-9712-6f532a774227",
   "name": "Hexagonal Container",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "storage",
+    "spaceship",
+    "lab"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/ScienceContainer_02/ScienceContainer_02.glb"

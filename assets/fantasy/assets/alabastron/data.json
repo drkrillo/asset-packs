@@ -2,6 +2,12 @@
   "id": "52e9d902-fd6b-4d84-83cd-c08a6bf5aacb",
   "name": "Alabastron",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "vase",
+    "liquid",
+    "ceramic"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Vase_03/Vase_03.glb"

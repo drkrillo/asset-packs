@@ -2,6 +2,7 @@
   "id": "b58ba47f-b003-40f0-ab19-2db845c598cf",
   "name": "Helicopter Red",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Helicopter_Red.glb"

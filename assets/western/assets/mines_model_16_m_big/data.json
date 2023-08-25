@@ -2,6 +2,7 @@
   "id": "81935b64-e55c-4052-9f0a-c47f830b2eea",
   "name": "Mines Model 16 M Big",
   "category": "structures",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Mines Model 16 M Big.glb"

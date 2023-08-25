@@ -2,6 +2,15 @@
   "id": "72da6933-6e7a-4181-b846-715ac8599b52",
   "name": "Small Sand Dune",
   "category": "nature",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "nature",
+    "sand",
+    "dune",
+    "beach"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/SandPatchSmall_01/SandPatchSmall_01.glb"

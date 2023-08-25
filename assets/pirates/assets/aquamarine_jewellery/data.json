@@ -2,6 +2,19 @@
   "id": "f8309235-61e9-48c2-8d8d-601199f7e66c",
   "name": "Aquamarine Jewellery",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "jewel",
+    "jewels",
+    "gemstone",
+    "jewellery",
+    "gold",
+    "golden",
+    "framed"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Gem_06/Gem_06.glb"

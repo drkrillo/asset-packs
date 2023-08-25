@@ -2,6 +2,7 @@
   "id": "1bee45e5-df63-4254-802e-5f8a76ab6a8d",
   "name": "Grave 27",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/HWN20_Grave_27.glb"

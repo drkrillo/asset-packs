@@ -2,6 +2,11 @@
   "id": "428db18d-258b-476d-bde2-638ad3ab244b",
   "name": "Checkerboard Floor Panel",
   "category": "tiles",
+  "tags": [
+    "scifi",
+    "tile",
+    "ground"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FloorSciFiPanel_03/FloorSciFiPanel_03.glb"

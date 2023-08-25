@@ -2,6 +2,19 @@
   "id": "71806ca6-1a2b-4d8b-b919-ae96241f8c08",
   "name": "Balsam Flower",
   "category": "nature",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "nature",
+    "flower",
+    "flowers",
+    "garden",
+    "forest",
+    "park",
+    "yard",
+    "backyard"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Plant_02/Plant_02.glb"

@@ -2,6 +2,7 @@
   "id": "8941e0cc-cbc2-4675-a795-fdcebec00538",
   "name": "Mines Tunel Curve Half",
   "category": "structures",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Mines Tunel Curve Half.glb"

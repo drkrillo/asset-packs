@@ -2,6 +2,12 @@
   "id": "60526c27-88bb-478d-9e7a-bc7529251d25",
   "name": "Section Platform",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "dock",
+    "port",
+    "metal"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Dock_DoorAdapter_01/Dock_DoorAdapter_01.glb"

@@ -2,6 +2,7 @@
   "id": "49c79ced-6f80-4beb-a869-83c5a47a8ded",
   "name": "TNT Box Open",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/TNT Box Open.glb"

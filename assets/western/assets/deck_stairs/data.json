@@ -2,6 +2,7 @@
   "id": "a2c0b460-57ce-4097-8613-255c6aba21a4",
   "name": "Deck Stairs",
   "category": "structures",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Deck Stairs.glb"

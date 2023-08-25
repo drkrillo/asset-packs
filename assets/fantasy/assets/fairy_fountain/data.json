@@ -2,6 +2,12 @@
   "id": "52e8d663-9235-401d-88e3-764a4ff22202",
   "name": "Fairy Fountain",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "fountain",
+    "water",
+    "park"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Fountain_01/Fountain_01.glb"

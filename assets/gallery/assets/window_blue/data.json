@@ -2,6 +2,7 @@
   "id": "68a4e593-d05f-40bd-ab7d-04b236cde252",
   "name": "Window - Blue ",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/BlueWindow.glb"

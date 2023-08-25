@@ -2,6 +2,15 @@
   "id": "2d739873-906d-440a-9944-e25d3af8a6d7",
   "name": "El Cap Stone",
   "category": "nature",
+  "tags": [
+    "fantasy",
+    "nature",
+    "stone",
+    "stones",
+    "rock",
+    "rocks",
+    "forest"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Stone_02/Stone_02.glb"

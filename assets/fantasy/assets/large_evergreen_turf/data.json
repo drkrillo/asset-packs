@@ -2,6 +2,14 @@
   "id": "c621c6ca-e045-45be-b81b-7b5ae69f2ea0",
   "name": "Large Evergreen Turf",
   "category": "tiles",
+  "tags": [
+    "fantasy",
+    "tile",
+    "forest",
+    "grass",
+    "evergreen",
+    "turf"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Grass_Module_4M/Grass_Module_4M.glb"

@@ -2,6 +2,18 @@
   "id": "6ca825e8-3955-480f-867f-7a64af316e64",
   "name": "Red Bicycle",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decoration",
+    "bicycle",
+    "bike",
+    "vehicle",
+    "wheel",
+    "wheels",
+    "red"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Bicycle_01/Bicycle_01.glb"

@@ -2,6 +2,16 @@
   "id": "71ccbcba-7d68-4089-8002-44f5bca5a874",
   "name": "Boombox",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decoration",
+    "music",
+    "noise",
+    "radio",
+    "sound"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Boombox_01/Boombox_01.glb"

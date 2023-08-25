@@ -2,6 +2,7 @@
   "id": "0dc9abed-5bcb-45ff-9466-121880c7481e",
   "name": "Roof - Blue 4Edges",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/BlueRoof_4Edges.glb"

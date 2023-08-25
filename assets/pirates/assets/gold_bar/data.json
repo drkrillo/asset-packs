@@ -2,6 +2,15 @@
   "id": "93939b73-17ad-45a0-9b82-536268754a70",
   "name": "Gold Bar",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "gold",
+    "golden",
+    "bar"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/GoldBar_01/GoldBar_01.glb"

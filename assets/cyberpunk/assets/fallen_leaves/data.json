@@ -2,6 +2,7 @@
   "id": "498bf0e1-78e7-442f-b35f-d4c3378e0926",
   "name": "Fallen Leaves",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Fallen_Leaves.glb"

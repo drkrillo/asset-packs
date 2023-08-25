@@ -2,6 +2,7 @@
   "id": "18033081-3eca-42d9-8576-eeaad333da59",
   "name": "Roof - Blue Corner Small",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/BlueRoof_Corner_Small.glb"

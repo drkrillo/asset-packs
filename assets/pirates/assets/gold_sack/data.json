@@ -2,6 +2,17 @@
   "id": "d22f92b6-2c91-4f33-94a8-22f5a94c82f4",
   "name": "Gold Sack",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "fabric",
+    "sack",
+    "coin",
+    "coins",
+    "gold"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Sack_02/Sack_02.glb"

@@ -2,6 +2,10 @@
   "id": "9e3ce4b4-837b-46b7-a8cb-ddd2641d06bb",
   "name": "Electric Blue Palm",
   "category": "nature",
+  "tags": [
+    "scifi",
+    "tree"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/PlantSF_08/PlantSF_08.glb"

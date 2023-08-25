@@ -2,6 +2,12 @@
   "id": "575e09a1-56e7-4c52-baaf-ce45b1cf5944",
   "name": "Large Comet",
   "category": "nature",
+  "tags": [
+    "scifi",
+    "rock",
+    "space",
+    "cosmic"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Comet_04/Comet_04.glb"

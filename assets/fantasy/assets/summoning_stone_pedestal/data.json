@@ -2,6 +2,14 @@
   "id": "3abf2000-7b36-4be4-a2a0-444fe1d67115",
   "name": "Summoning Stone Pedestal",
   "category": "structures",
+  "tags": [
+    "fantasy",
+    "stone",
+    "circular",
+    "summon",
+    "forest",
+    "pedestal"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Stone_Pedestal_01/Stone_Pedestal_01.glb"

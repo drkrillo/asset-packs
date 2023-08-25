@@ -2,6 +2,12 @@
   "id": "6ec993d8-32bc-46d4-9108-6bd385b739dd",
   "name": "Tube Container",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "storage",
+    "spaceship",
+    "lab"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/ScienceContainer_01/ScienceContainer_01.glb"

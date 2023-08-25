@@ -2,6 +2,11 @@
   "id": "a01e78a5-9d9c-4dab-9571-6de059ca25a3",
   "name": "Vines",
   "category": "nature",
+  "tags": [
+    "fantasy",
+    "swamp",
+    "forest"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Vines_01/Vines_01.glb"

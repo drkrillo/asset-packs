@@ -2,6 +2,18 @@
   "id": "67e3a85d-0c70-46ef-ab89-4a3a0447f922",
   "name": "Skull",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "skull",
+    "bone",
+    "bones",
+    "shakespeare",
+    "hamlet",
+    "yorick"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/BonesSkull_01/BonesSkull_01.glb"

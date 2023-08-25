@@ -2,6 +2,12 @@
   "id": "ac62c7f6-6ffd-485d-a189-b1236ca94e98",
   "name": "Medium Stone Stair",
   "category": "structures",
+  "tags": [
+    "fantasy",
+    "stair",
+    "stone",
+    "step"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Module_Stair_Straight_3M/Module_Stair_Straight_3M.glb"

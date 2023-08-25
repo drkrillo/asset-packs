@@ -2,6 +2,11 @@
   "id": "a14f1390-1c37-4fe1-affc-7c4616bfb9c4",
   "name": "Half Hex Floor Panel",
   "category": "tiles",
+  "tags": [
+    "scifi",
+    "tile",
+    "ground"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FloorHexa_02/FloorHexa_02.glb"

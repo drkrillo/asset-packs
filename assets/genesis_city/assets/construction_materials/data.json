@@ -2,6 +2,17 @@
   "id": "6ccfdb53-b17e-4035-8dea-d0b0dca49041",
   "name": "Construction Materials",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decoration",
+    "construction",
+    "debris",
+    "materials",
+    "material",
+    "wood"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/ConstructionDebris_01/ConstructionDebris_01.glb"

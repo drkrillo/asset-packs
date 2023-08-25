@@ -2,6 +2,7 @@
   "id": "e3c732c8-a29f-4653-8bef-cbc000edb771",
   "name": "Wall - Plants",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/PlantWall.glb"

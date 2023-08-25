@@ -2,6 +2,13 @@
   "id": "2140e6f7-9df8-4d4b-b9b0-977d16ee7814",
   "name": "Yellow Light Cube",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "power",
+    "spark",
+    "base",
+    "spaceship"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/LightCube_01/LightCube_01.glb"

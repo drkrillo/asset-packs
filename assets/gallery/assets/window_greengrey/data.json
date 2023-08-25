@@ -2,6 +2,7 @@
   "id": "c101aecc-d24a-40c0-9a71-d834cae2180e",
   "name": "Window - GreenGrey ",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/GreenGreyWindow.glb"

@@ -2,6 +2,16 @@
   "id": "4b08d2ad-7927-4cb6-9475-4e55456f988c",
   "name": "Cardamon Spicebag",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decoration",
+    "spices",
+    "sack",
+    "fabric",
+    "leather"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Spicesbag_01/Spicesbag_01.glb"

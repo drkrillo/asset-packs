@@ -2,6 +2,7 @@
   "id": "844a0611-37a4-405b-bbeb-618bfe1c5b77",
   "name": "Fortune Cat Statue",
   "category": "structures",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Fortune_Cat_Statue.glb"

@@ -14,7 +14,7 @@ export type BuilderApiAsset = {
   name: string
   model: string
   thumbnail: string // hash
-  tags: []
+  tags: string[]
   category: string
   contents: Record<string, string> // path -> hash;
   created_at: string // UTC date;

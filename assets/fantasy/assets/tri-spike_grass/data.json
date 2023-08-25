@@ -2,6 +2,12 @@
   "id": "40b603bd-9582-4100-8a5d-d09d0d82ba50",
   "name": "Tri-Spike Grass",
   "category": "nature",
+  "tags": [
+    "fantasy",
+    "forest",
+    "grass",
+    "weeds"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Grass_05/Grass05.glb"

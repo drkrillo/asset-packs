@@ -2,6 +2,15 @@
   "id": "091b5308-cf34-417c-8c49-939e438794dd",
   "name": "Medium Plank Fence",
   "category": "structures",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "structures",
+    "wood",
+    "wooden",
+    "plank"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FenceWoodMedium_01/FenceWoodMedium_01.glb"

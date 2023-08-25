@@ -2,6 +2,19 @@
   "id": "420eb62e-5337-48e3-81d4-55e7c0381249",
   "name": "Sandy Rock",
   "category": "nature",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "nature",
+    "stone",
+    "stones",
+    "rock",
+    "rocks",
+    "sand",
+    "sandy",
+    "beach"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/RockSand_01/RockSand_01.glb"

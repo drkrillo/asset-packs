@@ -2,6 +2,14 @@
   "id": "d997709b-a637-43af-aca5-8b5b282b56c6",
   "name": "Moon Temple Pond",
   "category": "structures",
+  "tags": [
+    "fantasy",
+    "pond",
+    "temple",
+    "moon",
+    "runes",
+    "stone"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/TempleMoon_01/TempleMoon_01.glb"

@@ -2,6 +2,10 @@
   "id": "2583c63e-d065-4d55-a654-a128b2039203",
   "name": "Orange Planet",
   "category": "nature",
+  "tags": [
+    "scifi",
+    "cosmic"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Planet_01/Planet_01.glb"

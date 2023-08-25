@@ -2,6 +2,7 @@
   "id": "01e72b8e-2c5a-46e3-831d-cb230d43f03c",
   "name": "Tube - Grey",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Tube_Grey.glb"

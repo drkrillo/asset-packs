@@ -2,6 +2,13 @@
   "id": "2807c5c8-b44a-46fc-b79d-2c3c7ee0c9d4",
   "name": "Tianlong Dragon Statue",
   "category": "year of the pig",
+  "tags": [
+    "structures",
+    "statue",
+    "dragon",
+    "stone",
+    "tianlong"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/ChineseStatueDragon_01/ChineseStatueDragon_01.glb"

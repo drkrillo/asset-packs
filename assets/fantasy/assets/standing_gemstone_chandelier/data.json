@@ -2,6 +2,14 @@
   "id": "972dbc0d-35bc-4e4e-92ad-32a87485d27f",
   "name": "Standing Gemstone Chandelier",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "gem",
+    "gemstone",
+    "chandelier",
+    "gold",
+    "golden"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Chandelier_01/Chandelier_01.glb"

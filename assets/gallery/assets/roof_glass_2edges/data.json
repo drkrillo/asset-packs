@@ -2,6 +2,7 @@
   "id": "804c94f9-20d8-4fd3-aca0-d096cad08ff7",
   "name": "Roof - Glass 2Edges",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/GlassRoof_2Edges.glb"

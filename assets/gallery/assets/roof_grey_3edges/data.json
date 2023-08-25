@@ -2,6 +2,7 @@
   "id": "c2243f1f-c7b1-42c9-8328-2373d2856c7d",
   "name": "Roof - Grey 3Edges",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/GreyRoof_3Edges.glb"

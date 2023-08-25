@@ -2,6 +2,7 @@
   "id": "9d00a781-62b8-42f5-a77b-ba510865e4cb",
   "name": "Steampunk Desk",
   "category": "furniture",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Steampunk Desk.glb"

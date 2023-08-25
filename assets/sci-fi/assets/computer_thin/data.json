@@ -2,6 +2,12 @@
   "id": "8c1def81-f26c-4514-9423-4e621026a627",
   "name": "Computer Thin",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "spaceship",
+    "parts",
+    "computer"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Computer_01/Computer_01.glb"

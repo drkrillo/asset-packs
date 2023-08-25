@@ -2,6 +2,11 @@
   "id": "9218ffcc-dc52-4207-85bd-ff122153644d",
   "name": "Blue Space Pod",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "spaceship",
+    "drone"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/SpaceShip_02/SpaceShip_02.glb"

@@ -2,6 +2,7 @@
   "id": "ad95deea-5e49-4ff5-8348-f05335d62bc5",
   "name": "Tree Base 01",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/HWN20_TreeBase_01.glb"

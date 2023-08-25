@@ -2,6 +2,7 @@
   "id": "6969bfe2-4225-4cf6-988a-010d2435bba9",
   "name": "Awning 8M",
   "category": "structures",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Awning 8M.glb"

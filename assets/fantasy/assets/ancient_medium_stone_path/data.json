@@ -2,6 +2,17 @@
   "id": "332acea2-75cf-4dfd-88b4-40eede3ae849",
   "name": "Ancient Medium Stone Path",
   "category": "tiles",
+  "tags": [
+    "fantasy",
+    "nature",
+    "tile",
+    "stone",
+    "stones",
+    "rock",
+    "rocks",
+    "forest",
+    "path"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/RockFloor_Module_2M/RockFloor_Module_2M.glb"

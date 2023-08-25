@@ -2,6 +2,12 @@
   "id": "72cbdc03-bdd0-40b2-84f2-b898fc72c63f",
   "name": "Red Hanging Banners",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "wall",
+    "banner",
+    "fabric"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/WallCloths_Red_01/WallCloths_Red_01.glb"

@@ -2,6 +2,7 @@
   "id": "318e2cec-26d2-4d6d-9e3b-7f36b0f7a4b6",
   "name": "Grafitti Wall Short B",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Grafitti_Wall_Short_B.glb"

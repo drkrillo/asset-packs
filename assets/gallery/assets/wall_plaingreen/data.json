@@ -2,6 +2,7 @@
   "id": "a51b2b23-e6cf-4ccf-8243-70f745583d2e",
   "name": "Wall - PlainGreen",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/PlainGreenWall.glb"

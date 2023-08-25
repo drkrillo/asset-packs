@@ -2,6 +2,7 @@
   "id": "06f897f5-e270-429b-bed1-0adc2644ed15",
   "name": "Stairs Metal Rail",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/metalRailStairs.glb"

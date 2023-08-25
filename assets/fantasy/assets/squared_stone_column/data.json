@@ -2,6 +2,11 @@
   "id": "50ccb445-b4d0-4f6e-80c1-7a77d5b13a32",
   "name": "Squared Stone Column",
   "category": "structures",
+  "tags": [
+    "fantasy",
+    "column",
+    "stone"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Pillar_Quad_Full_01/Pillar_Quad_Full_01.glb"

@@ -2,6 +2,7 @@
   "id": "b5366a75-b461-4935-8567-da893caa47b1",
   "name": "O Red",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/O_Red.glb"

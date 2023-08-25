@@ -2,6 +2,7 @@
   "id": "850f9acd-bb06-4ede-a634-3ecd73ef6bf1",
   "name": "Bench 4",
   "category": "furniture",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Bench 4.glb"

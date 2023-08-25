@@ -2,6 +2,7 @@
   "id": "9652074b-84de-4895-85c3-1dded1554d10",
   "name": "Roof - Yellow 2Edges small",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/YellowRoof_2Edges_small.glb"

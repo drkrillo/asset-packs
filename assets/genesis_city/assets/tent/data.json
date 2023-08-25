@@ -2,6 +2,15 @@
   "id": "34e02e86-d859-439e-a3d2-81ec9e2f8ace",
   "name": "Tent",
   "category": "structures",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "structures",
+    "tent",
+    "camping",
+    "forest"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Tent_01/Tent_01.glb"

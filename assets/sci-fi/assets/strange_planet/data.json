@@ -2,6 +2,10 @@
   "id": "dc909072-619f-41b1-92ce-2a02f28d93dc",
   "name": "Strange Planet",
   "category": "nature",
+  "tags": [
+    "scifi",
+    "cosmic"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Planet_02/Planet_02.glb"

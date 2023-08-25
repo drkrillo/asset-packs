@@ -2,6 +2,7 @@
   "id": "39766b1d-1167-4a31-82e2-adb4d7480a5b",
   "name": "WallCorner - Pink ",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/PinkCorner.glb"

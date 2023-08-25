@@ -2,6 +2,13 @@
   "id": "1fd10cba-817b-4775-bdc7-c5859cad90d8",
   "name": "Vertical Floor Light",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "power",
+    "spark",
+    "base",
+    "spaceship"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/LightFloor_01/LightFloor_01.glb"

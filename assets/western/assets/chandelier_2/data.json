@@ -2,6 +2,7 @@
   "id": "5fb461e5-ff73-42aa-af0e-5198a2d2d3a5",
   "name": "Chandelier 2",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Chandelier 2.glb"

@@ -2,6 +2,12 @@
   "id": "133e952e-ac23-4660-8ccb-a6043d06931f",
   "name": "Cobblestone Mountain",
   "category": "nature",
+  "tags": [
+    "fantasy",
+    "mountain",
+    "rock",
+    "rocks"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Mountain_01/Mountain_01.glb"

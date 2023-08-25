@@ -2,6 +2,7 @@
   "id": "d24cc779-03c9-40b1-ba2f-b64ca9032e20",
   "name": "Roof - Simple",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/SimpleRoof.glb"

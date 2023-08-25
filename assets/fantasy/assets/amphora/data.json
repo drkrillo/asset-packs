@@ -2,6 +2,12 @@
   "id": "3feac9e9-62e0-4acd-8568-553ec3ed25da",
   "name": "Amphora",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "vase",
+    "liquid",
+    "ceramic"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Vase_02/Vase_02.glb"

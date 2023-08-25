@@ -2,6 +2,7 @@
   "id": "5051dd5c-85ab-4b61-bd5d-44416fa33f63",
   "name": "Window 1x2 V2 Frame",
   "category": "structures",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Window 1x2 V2 Frame.glb"

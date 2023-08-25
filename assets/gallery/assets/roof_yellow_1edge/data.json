@@ -2,6 +2,7 @@
   "id": "ded817c0-d3b9-458f-beab-9ca828000606",
   "name": "Roof - Yellow 1Edge",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/YellowRoof_1Edge.glb"

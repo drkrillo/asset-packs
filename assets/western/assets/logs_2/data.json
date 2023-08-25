@@ -2,6 +2,7 @@
   "id": "73cffa90-6007-48ad-bec1-d89c2c693d56",
   "name": "Logs 2",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Logs 2.glb"

@@ -2,6 +2,7 @@
   "id": "e31ccb50-0122-4a15-84f7-5691a2dcc1a5",
   "name": "Leather",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Leather.glb"

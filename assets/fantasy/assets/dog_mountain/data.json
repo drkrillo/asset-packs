@@ -2,6 +2,12 @@
   "id": "a7f2375a-5b97-414c-a5ec-2b890e39457d",
   "name": "Dog Mountain",
   "category": "nature",
+  "tags": [
+    "fantasy",
+    "mountain",
+    "rock",
+    "rocks"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Mountain_03/Mountain_03.glb"

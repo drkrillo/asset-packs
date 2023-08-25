@@ -2,6 +2,7 @@
   "id": "c9ac4c2c-2e7d-4841-a2be-f4bff4d1f166",
   "name": "Cracked",
   "category": "ground",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Cracked.glb"

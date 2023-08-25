@@ -2,6 +2,7 @@
   "id": "405bf432-79f6-45b5-9d54-32e9a2f3ca67",
   "name": "Cobber Vase",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Cobber Vase.glb"

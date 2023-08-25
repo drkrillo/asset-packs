@@ -2,6 +2,7 @@
   "id": "e29de71e-3984-46b8-ba7c-9a5761b3faf3",
   "name": "Manhole - Green",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Manhole_Green.glb"

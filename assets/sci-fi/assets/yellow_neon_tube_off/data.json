@@ -2,6 +2,13 @@
   "id": "9891bedd-bd7b-4c10-9fb3-074e93b84888",
   "name": "Yellow Neon Tube Off",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "power",
+    "spark",
+    "base",
+    "spaceship"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/NeonLightTube_01/NeonLightTube_01.glb"

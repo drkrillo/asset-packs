@@ -2,6 +2,7 @@
   "id": "3175f432-bcb8-4ce9-a75a-837848c41bf4",
   "name": "Well",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Well.glb"

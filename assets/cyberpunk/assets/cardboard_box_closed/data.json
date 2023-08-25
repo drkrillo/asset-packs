@@ -2,6 +2,7 @@
   "id": "9e9255a8-a291-4661-a982-0a671178d92c",
   "name": "Cardboard Box Closed",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Cardboard_Box_Closed.glb"

@@ -2,6 +2,12 @@
   "id": "46aefcbd-4086-4ad9-8fd8-752787245984",
   "name": "Golden Chest Lid",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "chest",
+    "gold",
+    "golden"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Chest_Top_Gold_01/Chest_Top_Gold_01.glb"

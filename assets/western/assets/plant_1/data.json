@@ -2,6 +2,7 @@
   "id": "e28de28a-8cc3-49c6-9bd2-ea09ed28d57d",
   "name": "Plant 1",
   "category": "nature",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Plant 1.glb"

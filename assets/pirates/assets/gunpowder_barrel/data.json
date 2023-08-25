@@ -2,6 +2,19 @@
   "id": "5506263d-49a3-4bbf-9df5-c144cfffcd5f",
   "name": "Gunpowder Barrel",
   "category": "furniture",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "furniture",
+    "wood",
+    "wooden",
+    "iron",
+    "barrel",
+    "powder",
+    "boom",
+    "danger"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Barrel_01/Barrel_01.glb"

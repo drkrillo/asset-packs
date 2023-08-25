@@ -2,6 +2,7 @@
   "id": "1c077d68-d337-4e5b-ae1b-ddf53160f2f7",
   "name": "Fire Hydrant - Yellow",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Fire_Hydrant_Yellow.glb"

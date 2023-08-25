@@ -2,6 +2,7 @@
   "id": "f78f7f9a-fd93-48bc-a011-9ffb1144f9cc",
   "name": "Cactus 1",
   "category": "nature",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Cactus 1.glb"

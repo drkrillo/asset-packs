@@ -2,6 +2,16 @@
   "id": "46b6859c-c44e-4aff-9d65-2d590cdb7864",
   "name": "Anchor",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "iron",
+    "ship",
+    "flagship",
+    "water"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Anchor_01/Anchor_01.glb"

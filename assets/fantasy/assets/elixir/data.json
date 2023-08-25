@@ -2,6 +2,13 @@
   "id": "6f409c32-fa49-4123-8322-29915860d36f",
   "name": "Elixir",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "elixir",
+    "potion",
+    "magic",
+    "health"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Bottle_01/Bottle_01.glb"

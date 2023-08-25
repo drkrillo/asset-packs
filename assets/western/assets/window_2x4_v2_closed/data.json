@@ -2,6 +2,7 @@
   "id": "6bf5960e-1fda-45a3-bd3c-0c1c141419ae",
   "name": "Window 2x4 V2 Closed",
   "category": "structures",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Window 2x4 V2 Closed.glb"

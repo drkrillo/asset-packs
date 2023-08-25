@@ -2,6 +2,11 @@
   "id": "0046ae53-1ef6-43de-b0ad-e29f98c89d75",
   "name": "White Floor Panel",
   "category": "tiles",
+  "tags": [
+    "scifi",
+    "tile",
+    "ground"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FloorModuleSciFi_01/FloorModuleSciFi_01.glb"

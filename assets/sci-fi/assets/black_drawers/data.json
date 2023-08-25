@@ -2,6 +2,11 @@
   "id": "2f53685f-df73-4ba3-955d-1ea0fc1843bf",
   "name": "Black Drawers",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "storage",
+    "spaceship"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Drawer_02/Drawer_02.glb"

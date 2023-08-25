@@ -2,6 +2,18 @@
   "id": "0d4f1e28-c9bd-4f3e-9605-c76c84702742",
   "name": "Evergreen Shrub",
   "category": "nature",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "nature",
+    "bush",
+    "park",
+    "garden",
+    "forest",
+    "mountain",
+    "shrub"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Bush_03/Bush_03.glb"

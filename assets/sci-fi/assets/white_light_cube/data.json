@@ -2,6 +2,13 @@
   "id": "5cea267b-12e6-4fb0-870d-7c48368d9081",
   "name": "White Light Cube",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "power",
+    "spark",
+    "base",
+    "spaceship"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/LightCube_03/LightCube_03.glb"

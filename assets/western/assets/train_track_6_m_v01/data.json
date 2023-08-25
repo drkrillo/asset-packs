@@ -2,6 +2,7 @@
   "id": "f13f3631-58ca-46c7-a050-3bc7fcb44bfc",
   "name": "Train Track 6 M V01",
   "category": "tiles",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Train Track 6 M V01.glb"

@@ -2,6 +2,11 @@
   "id": "ad29e06b-61cb-46c6-9fc2-41f02e205e43",
   "name": "Horizontal Pod",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "storage",
+    "spaceship"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Pod_03/Pod_03.glb"

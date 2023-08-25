@@ -2,6 +2,7 @@
   "id": "91a6bb0d-b8cc-4a92-a1cf-954c7a399474",
   "name": "M Red",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/M_Red.glb"

@@ -2,6 +2,17 @@
   "id": "aff25a79-1607-4fce-abeb-7d432b5fda38",
   "name": "Pointy Medium Rock",
   "category": "nature",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "nature",
+    "rock",
+    "rocks",
+    "stone",
+    "stones",
+    "forest"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/RockMedium_01/RockMedium_01.glb"

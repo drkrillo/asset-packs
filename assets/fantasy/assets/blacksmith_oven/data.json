@@ -2,6 +2,13 @@
   "id": "28fd15b6-edc4-41a4-854e-f296203eaa22",
   "name": "Blacksmith Oven",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "oven",
+    "blacksmith",
+    "bellows",
+    "fire"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/OvenSmith_01/OvenSmith_01.glb"

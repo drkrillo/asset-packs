@@ -2,6 +2,19 @@
   "id": "18bbb621-1c3e-4ee1-ba0a-a7c77dd01cbb",
   "name": "Rose",
   "category": "nature",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "nature",
+    "flower",
+    "flowers",
+    "garden",
+    "park",
+    "backyard",
+    "yard",
+    "vegetation"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Flower_03/Flower_03.glb"

@@ -2,6 +2,12 @@
   "id": "360360b3-f0ff-4bd8-9185-700715932a7d",
   "name": "HAL9000 Eye",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "computer",
+    "parts",
+    "spaceship"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/HAL9000_01/HAL9000_01.glb"

@@ -2,6 +2,14 @@
   "id": "026035f3-5d12-495c-a422-d9405d5b414d",
   "name": "Medium Evergreen Turf",
   "category": "tiles",
+  "tags": [
+    "fantasy",
+    "tile",
+    "forest",
+    "grass",
+    "evergreen",
+    "turf"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Grass_Module_2M/Grass_Module_2M.glb"

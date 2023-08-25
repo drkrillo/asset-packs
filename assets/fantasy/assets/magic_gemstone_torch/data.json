@@ -2,6 +2,13 @@
   "id": "e53ae6eb-9c7e-447d-a7fe-a95329a05233",
   "name": "Magic Gemstone Torch",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "torch",
+    "gem",
+    "gemstone",
+    "light"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Torch_01/Torch_01.glb"

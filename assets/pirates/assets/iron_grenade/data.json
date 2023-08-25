@@ -2,6 +2,16 @@
   "id": "3a14df50-9256-4121-926b-177ddfeaffe6",
   "name": "Iron Grenade",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "iron",
+    "weapon",
+    "wick",
+    "boom"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Bomb_01/Bomb_01.glb"

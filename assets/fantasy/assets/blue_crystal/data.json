@@ -2,6 +2,9 @@
   "id": "add59455-719d-4fb6-adbc-72e020ff6a0a",
   "name": "Blue Crystal",
   "category": "decorations",
+  "tags": [
+    "fantasy"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Crystal_01/Crystal_01.glb"

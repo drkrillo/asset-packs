@@ -2,6 +2,7 @@
   "id": "932f0435-9974-4451-b63a-6967c7faf606",
   "name": "Wall - Zigzag",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/ZigzagWall.glb"

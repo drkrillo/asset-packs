@@ -2,6 +2,11 @@
   "id": "53a5cc56-9817-4556-a172-bc1a4256610d",
   "name": "Ball Droid",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "robot",
+    "tech"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Droid_01/Droid_01.glb"

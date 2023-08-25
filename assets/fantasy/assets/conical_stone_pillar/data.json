@@ -2,6 +2,11 @@
   "id": "12db208d-b6a0-4256-9bc7-25c2e19006e0",
   "name": "Conical Stone Pillar",
   "category": "structures",
+  "tags": [
+    "fantasy",
+    "pillar",
+    "stone"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Pillar_Cylinder_04/Pillar_Cylinder_04.glb"

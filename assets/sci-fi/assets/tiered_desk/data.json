@@ -2,6 +2,13 @@
   "id": "337f9d3d-cd76-4172-9f54-16c64a348734",
   "name": "Tiered Desk",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "lab",
+    "table",
+    "work",
+    "tools"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Desk_01/Desk_01.glb"

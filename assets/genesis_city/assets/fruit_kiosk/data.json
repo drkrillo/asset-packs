@@ -2,6 +2,18 @@
   "id": "3bb3f823-e27a-4f4b-9a0f-fe046cb8a57d",
   "name": "Fruit Kiosk",
   "category": "structures",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "structures",
+    "fair",
+    "kiosk",
+    "market",
+    "fruit",
+    "fruits",
+    "edible"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Store_02/Store_02.glb"

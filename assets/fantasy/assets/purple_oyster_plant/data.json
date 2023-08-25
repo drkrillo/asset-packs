@@ -2,6 +2,12 @@
   "id": "190db6d0-c330-49c2-a950-9ed0ba7d7e5c",
   "name": "Purple Oyster Plant",
   "category": "nature",
+  "tags": [
+    "fantasy",
+    "purple",
+    "forest",
+    "plant"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Plant_02/Plant_02.glb"

@@ -2,6 +2,15 @@
   "id": "8bbdfe3a-8a61-4e93-9809-1d5e8d92f17a",
   "name": "Umbrella Table",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decoration",
+    "table",
+    "umbrella",
+    "beach"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/TableBar_01/TableBar_01.glb"

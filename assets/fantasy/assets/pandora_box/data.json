@@ -2,6 +2,15 @@
   "id": "7592aa52-2574-4d08-9dbe-a8b96f5a80cc",
   "name": "Pandora Box",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "chest",
+    "wood",
+    "wooden",
+    "leather",
+    "iron",
+    "eye"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Chest_Box_02/Chest_Box_02.glb"

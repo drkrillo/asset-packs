@@ -2,6 +2,13 @@
   "id": "1f68abf3-dcdc-47f5-9488-68fe355b3818",
   "name": "Luxurious Lamp Post",
   "category": "structures",
+  "tags": [
+    "fantasy",
+    "court",
+    "lamp",
+    "gold",
+    "golden"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/LampPost_01/LampPost_01.glb"

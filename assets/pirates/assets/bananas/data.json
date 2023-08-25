@@ -2,6 +2,16 @@
   "id": "adabf424-1469-4087-bb7d-5614c924ea12",
   "name": "Bananas",
   "category": "nature",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "nature",
+    "fruit",
+    "fruits",
+    "monkey",
+    "monkeys"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Bananas_01/Bananas_01.glb"

@@ -2,6 +2,7 @@
   "id": "ca51a885-6c35-44f0-8263-a45ad73839f3",
   "name": "Roof - Cream Corner Small",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/CreamRoof_Corner_Small.glb"

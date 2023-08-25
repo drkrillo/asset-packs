@@ -2,6 +2,17 @@
   "id": "d7776dc9-5746-44ea-9f3b-5c2ecead4e1c",
   "name": "Segmented Chair",
   "category": "furniture",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "furniture",
+    "seat",
+    "chair",
+    "garden",
+    "backyard",
+    "comfy"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Chair_01/Chair_01.glb"

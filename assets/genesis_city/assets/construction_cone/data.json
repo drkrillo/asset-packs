@@ -2,6 +2,17 @@
   "id": "250aff0f-bfc5-4a40-a163-72dca28606cb",
   "name": "Construction Cone",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decoration",
+    "construction",
+    "cone",
+    "city",
+    "building",
+    "buildings"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/ConstructionCone_01/ConstructionCone_01.glb"

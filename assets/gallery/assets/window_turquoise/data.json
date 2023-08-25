@@ -2,6 +2,7 @@
   "id": "ee54706f-dfd9-4e4f-8eb0-40589d891879",
   "name": "Window - Turquoise",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/TurquoiseWindow.glb"

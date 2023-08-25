@@ -2,6 +2,11 @@
   "id": "084deb1c-1539-4a75-8f1a-31cd687bc574",
   "name": "Utility Hallway",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "alien",
+    "base"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Hallway_Module_StraightHalf_01/Hallway_Module_StraightHalf_01.glb"

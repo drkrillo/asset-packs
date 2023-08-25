@@ -2,6 +2,20 @@
   "id": "338c2b2a-65b4-4012-8a19-06eab5c861d6",
   "name": "Green Rounded Pine Tree",
   "category": "nature",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "nature",
+    "tree",
+    "trees",
+    "green",
+    "forest",
+    "park",
+    "garden",
+    "backyard",
+    "yard"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/TreeRoundPine_02/TreeRoundPine_02.glb"

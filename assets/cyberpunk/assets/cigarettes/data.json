@@ -2,6 +2,7 @@
   "id": "a7bc8d1b-06d5-4989-89cc-8de7f38a8ad2",
   "name": "Cigarettes",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Cigarettes.glb"

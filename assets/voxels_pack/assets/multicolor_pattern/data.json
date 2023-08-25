@@ -2,6 +2,7 @@
   "id": "50920e97-3afd-4dfa-b0c4-eddaeb8bfdfb",
   "name": "Multicolor Pattern",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/multicolor_pattern.glb"

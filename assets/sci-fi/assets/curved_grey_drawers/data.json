@@ -2,6 +2,11 @@
   "id": "19fc7609-5ce9-44de-a8e9-9823dd223f74",
   "name": "Curved Grey Drawers",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "storage",
+    "spaceship"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Drawer_03/Drawer_03.glb"

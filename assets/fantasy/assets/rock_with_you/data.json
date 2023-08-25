@@ -2,6 +2,15 @@
   "id": "4cda6778-7961-44d1-bd2c-2be51e1a8beb",
   "name": "Rock With You",
   "category": "nature",
+  "tags": [
+    "fantasy",
+    "nature",
+    "stone",
+    "stones",
+    "rock",
+    "rocks",
+    "forest"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Rock_07/Rock_07.glb"

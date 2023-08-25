@@ -2,6 +2,13 @@
   "id": "b02a9d71-47d3-4772-bb8c-971cd2523313",
   "name": "Small Luxurious Fence Module",
   "category": "structures",
+  "tags": [
+    "fantasy",
+    "fence",
+    "stone",
+    "gold",
+    "module"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Fence_Stone_1M/Fence_Stone_1M.glb"

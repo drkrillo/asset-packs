@@ -2,6 +2,11 @@
   "id": "9c1edfb1-40ca-4d04-8fcb-dbd8dcf2c2a4",
   "name": "Ball Stone",
   "category": "nature",
+  "tags": [
+    "scifi",
+    "rock",
+    "planet"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Stone_03/Stone_03.glb"

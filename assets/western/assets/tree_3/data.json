@@ -2,6 +2,7 @@
   "id": "1ca4d832-7b86-4e7f-9d31-0e3b5b6c6cbb",
   "name": "Tree 3",
   "category": "nature",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Tree 3.glb"

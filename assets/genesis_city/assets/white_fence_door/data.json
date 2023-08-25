@@ -2,6 +2,23 @@
   "id": "6401422b-bebb-41a8-9d2e-f6fd32669c03",
   "name": "White Fence Door",
   "category": "structures",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "structures",
+    "white",
+    "wood",
+    "fence",
+    "fences",
+    "door",
+    "entrance",
+    "park",
+    "garden",
+    "backyard",
+    "yard",
+    "farm"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FencePicketWhiteDoor_01/FencePicketWhiteDoor_01.glb"

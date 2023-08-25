@@ -2,6 +2,7 @@
   "id": "ba666778-cdd9-4409-8c6a-6e4b061b1769",
   "name": "Dirt - Snow",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/dirt_snow.glb"

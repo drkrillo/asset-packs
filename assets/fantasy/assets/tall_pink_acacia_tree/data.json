@@ -2,6 +2,12 @@
   "id": "bf5422b0-30ea-440e-b1d5-6f8a8939f335",
   "name": "Tall Pink Acacia Tree",
   "category": "nature",
+  "tags": [
+    "fantasy",
+    "pink",
+    "tree",
+    "forest"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Tree_Forest_Pink_04/Tree_Forest_Pink_04.glb"

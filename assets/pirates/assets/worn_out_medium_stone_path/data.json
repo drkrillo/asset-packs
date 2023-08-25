@@ -2,6 +2,16 @@
   "id": "17e36ff4-ae5a-4b08-b573-929a2e1fb30a",
   "name": "Worn Out Medium Stone Path",
   "category": "tiles",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "tiles",
+    "cobblestones",
+    "stone",
+    "stones",
+    "path"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/StonePathBroken_01/StonePathBroken_01.glb"

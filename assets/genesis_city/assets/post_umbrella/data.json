@@ -2,6 +2,16 @@
   "id": "79167aad-c2f9-4aed-ad97-4263de11ef4d",
   "name": "Post Umbrella",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decorations",
+    "post",
+    "umbrella",
+    "cafe",
+    "city"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Umbrella_02/Umbrella_02.glb"

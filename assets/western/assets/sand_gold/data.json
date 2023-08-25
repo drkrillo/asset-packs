@@ -2,6 +2,7 @@
   "id": "6cfbdc0c-9f3e-411f-b16d-aa489371da83",
   "name": "Sand Gold",
   "category": "ground",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Sand Gold.glb"

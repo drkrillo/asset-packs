@@ -2,6 +2,22 @@
   "id": "402e552d-4969-4664-8fcb-4e986091a189",
   "name": "Treasure Loot Trunk",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "wood",
+    "wooden",
+    "gold",
+    "golden",
+    "treasure",
+    "chest",
+    "lootbox",
+    "loot",
+    "skull",
+    "gemstone"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Trunk_02/Trunk_02.glb"

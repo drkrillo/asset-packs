@@ -2,6 +2,17 @@
   "id": "f36ca1ea-2529-4514-a8db-489bf44b6e78",
   "name": "Musa Acuminata",
   "category": "nature",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "nature",
+    "fern",
+    "beach",
+    "foliage",
+    "plant",
+    "plants"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/JunglePlant_04/JunglePlant_04.glb"

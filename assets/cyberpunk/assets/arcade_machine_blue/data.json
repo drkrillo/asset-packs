@@ -2,6 +2,7 @@
   "id": "5ff589ff-58c7-44df-a896-5807aad1c9be",
   "name": "Arcade Machine - Blue",
   "category": "furniture",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Arcade_Machine_Blue.glb"

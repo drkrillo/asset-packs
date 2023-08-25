@@ -2,6 +2,7 @@
   "id": "b7aed7e7-b6a7-4da2-a6e9-7d57feddd015",
   "name": "Doorframe - Beach",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/BeachDoorframe.glb"

@@ -2,6 +2,18 @@
   "id": "a15c48c1-0c12-4d5c-9be5-15c584991a99",
   "name": "Hammer",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "stone",
+    "wood",
+    "wooden",
+    "leather",
+    "strips",
+    "tool"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Hammer_01/Hammer_01.glb"

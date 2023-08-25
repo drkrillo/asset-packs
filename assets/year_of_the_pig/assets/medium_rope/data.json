@@ -2,6 +2,13 @@
   "id": "79e5cac6-da39-43d5-b65a-ff39f1ee6377",
   "name": "Medium Rope",
   "category": "year of the pig",
+  "tags": [
+    "decoration",
+    "rope",
+    "line",
+    "cord",
+    "string"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/ChineseLampRopeMedium_01/ChineseLampRopeMedium_01.glb"

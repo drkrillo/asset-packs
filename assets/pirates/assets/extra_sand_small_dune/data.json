@@ -2,6 +2,15 @@
   "id": "032e581e-03ed-44ce-b07b-f23beb004101",
   "name": "Extra Sand Small Dune",
   "category": "nature",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "nature",
+    "sand",
+    "dune",
+    "beach"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/SandPatchExtraSmall_01/SandPatchExtraSmall_01.glb"

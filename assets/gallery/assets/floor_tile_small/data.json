@@ -2,6 +2,7 @@
   "id": "3118af38-e574-418d-bb38-58ee9886d0c1",
   "name": "Floor - Tile Small",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/TileFloor_Small.glb"

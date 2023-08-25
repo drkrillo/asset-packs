@@ -2,6 +2,7 @@
   "id": "b772664d-7d57-42b2-a10f-6bf6f7a3c5a3",
   "name": "Roof - Purple Small",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/PurpleRoof_Small.glb"

@@ -2,6 +2,12 @@
   "id": "368746f0-d50f-4228-88f8-bd199240b71a",
   "name": "Full Curved Barrier",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "guard",
+    "wall",
+    "split"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Fence_Straight_02/Fence_Straight_02.glb"

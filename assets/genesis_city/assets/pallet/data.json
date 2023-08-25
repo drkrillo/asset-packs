@@ -2,6 +2,15 @@
   "id": "13955b74-3cb4-4fb5-a02d-1b7bf53097e8",
   "name": "Pallet",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decoration",
+    "construction",
+    "wood",
+    "pallet"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/ConstructionPallet_01/ConstructionPallet_01.glb"

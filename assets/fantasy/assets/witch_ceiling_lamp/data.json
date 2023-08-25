@@ -2,6 +2,14 @@
   "id": "a7ebbf8e-6419-4457-8338-4dc4811cb71e",
   "name": "Witch Ceiling Lamp",
   "category": "structures",
+  "tags": [
+    "fantasy",
+    "lamp",
+    "ceiling",
+    "witch",
+    "gem",
+    "gemstone"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/LampForest_01/LampForest_01.glb"

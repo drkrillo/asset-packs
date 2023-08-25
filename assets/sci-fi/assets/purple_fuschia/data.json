@@ -2,6 +2,10 @@
   "id": "041975a3-5bca-4119-aad5-100d97e3d5b1",
   "name": "Purple Fuschia",
   "category": "nature",
+  "tags": [
+    "scifi",
+    "tree"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/PlantSF_12/PlantSF_12.glb"

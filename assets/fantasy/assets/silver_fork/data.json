@@ -2,6 +2,12 @@
   "id": "70b075be-0041-4fff-a0b2-3d62b8491cc0",
   "name": "Silver Fork",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "silver",
+    "fork",
+    "tableware"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Fork_01/Fork_01.glb"

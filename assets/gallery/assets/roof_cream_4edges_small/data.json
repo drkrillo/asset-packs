@@ -2,6 +2,7 @@
   "id": "fd1c5c47-eb6d-45c8-b9b5-98a8fa13200a",
   "name": "Roof - Cream 4Edges Small",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/CreamRoof_4Edges_Small.glb"

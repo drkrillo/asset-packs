@@ -2,6 +2,12 @@
   "id": "f3fa0d5a-5ed6-4a5c-a855-ef093f34ca32",
   "name": "Medium Crater",
   "category": "nature",
+  "tags": [
+    "scifi",
+    "cosmic",
+    "hole",
+    "planet"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Crater_03/Crater_03.glb"

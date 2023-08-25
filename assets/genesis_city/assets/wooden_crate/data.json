@@ -2,6 +2,15 @@
   "id": "afba36c6-9d83-4197-b600-1272eb016f2b",
   "name": "Wooden Crate",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decoration",
+    "wood",
+    "crate",
+    "box"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/VegetablesBox_01/VegetablesBox_01.glb"

@@ -2,6 +2,7 @@
   "id": "37bbad1a-e483-4ce1-aea6-3f2c4be5fcda",
   "name": "Stairs Full Height U-Shape",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/fullHeightUShapeStairs.glb"

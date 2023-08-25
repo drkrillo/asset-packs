@@ -2,6 +2,13 @@
   "id": "025272bc-f428-4a93-8af4-fd6e83945121",
   "name": "Sliced Loaf of Bread",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "meal",
+    "bread",
+    "table",
+    "banquet"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Bread_02/Bread_02.glb"

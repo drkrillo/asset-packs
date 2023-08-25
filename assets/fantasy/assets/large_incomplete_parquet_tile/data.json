@@ -2,6 +2,13 @@
   "id": "e69cb8f7-36ce-4b72-be66-6a6f3c78d375",
   "name": "Large Incomplete Parquet Tile",
   "category": "tiles",
+  "tags": [
+    "fantasy",
+    "tile",
+    "wood",
+    "wooden",
+    "parquet"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Floor_Wood_Curve_02_4M/Floor_Wood_Curve_02_4M.glb"

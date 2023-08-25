@@ -2,6 +2,7 @@
   "id": "12c936a6-d859-4751-8404-8c368517551a",
   "name": "Trash Can",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Trash_Can.glb"

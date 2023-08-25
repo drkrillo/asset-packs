@@ -2,6 +2,17 @@
   "id": "c61cf34f-7023-465e-8dd0-c32313177a78",
   "name": "Lilypad",
   "category": "nature",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "nature",
+    "beach",
+    "foliage",
+    "plant",
+    "plants",
+    "water"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/LilyPad_01/LilyPad_01.glb"

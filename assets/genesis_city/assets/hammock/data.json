@@ -2,6 +2,14 @@
   "id": "17d09db8-4379-4d48-a253-21aaf70b8c3c",
   "name": "Hammock",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decoration",
+    "comfy",
+    "beach"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Hammock_01/Hammock_01.glb"

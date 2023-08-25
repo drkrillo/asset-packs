@@ -2,6 +2,21 @@
   "id": "20649bd1-2b3a-4e97-909c-36065c693a21",
   "name": "White Fence End Module",
   "category": "structures",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "structures",
+    "white",
+    "wood",
+    "fence",
+    "fences",
+    "park",
+    "garden",
+    "backyard",
+    "yard",
+    "farm"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FencePicketWhiteEnd_01/FencePicketWhiteEnd_01.glb"

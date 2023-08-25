@@ -2,6 +2,14 @@
   "id": "4dc80d5d-f45d-413b-826b-a55629a70001",
   "name": "Wooden & Iron Lamp Post",
   "category": "structures",
+  "tags": [
+    "fantasy",
+    "wood",
+    "wooden",
+    "lamp",
+    "post",
+    "iron"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Lamp_Street_01/Lamp_Street_01.glb"

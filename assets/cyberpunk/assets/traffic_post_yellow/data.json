@@ -2,6 +2,7 @@
   "id": "d8459fdd-a6eb-4dd7-aa51-b76c9c1e176a",
   "name": "Traffic Post  - Yellow",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Traffic_Post_Yellow.glb"

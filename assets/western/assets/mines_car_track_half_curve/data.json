@@ -2,6 +2,7 @@
   "id": "b3a33ae6-899f-4226-91fa-857d1e2550d5",
   "name": "Mines Car Track Half Curve",
   "category": "structures",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Mines Car Track Half Curve.glb"

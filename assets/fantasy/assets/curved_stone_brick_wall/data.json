@@ -2,6 +2,13 @@
   "id": "0c52bf55-7b0f-4eca-9b3c-b1fbb81c7219",
   "name": "Curved Stone Brick Wall",
   "category": "structures",
+  "tags": [
+    "fantasy",
+    "stone",
+    "brick",
+    "wall",
+    "corner"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Module_Stone_Curve_02/Module_Stone_Curve_02.glb"

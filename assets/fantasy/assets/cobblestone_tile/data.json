@@ -2,6 +2,12 @@
   "id": "357df3ed-af64-4721-ac6f-2701bcb0294e",
   "name": "Cobblestone Tile",
   "category": "tiles",
+  "tags": [
+    "fantasy",
+    "tile",
+    "cobblestone",
+    "stone"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FloorSquare_01/FloorSquare_01.glb"

@@ -2,6 +2,7 @@
   "id": "01e2c839-a7fb-4108-9a69-d50342906e72",
   "name": "Roof - Red 2Edges",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/RedRoof_2Edges.glb"

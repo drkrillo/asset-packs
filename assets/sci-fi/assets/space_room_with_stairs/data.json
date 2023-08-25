@@ -2,6 +2,11 @@
   "id": "21c23d1a-5c26-48e1-a09b-f7d7454ebc77",
   "name": "Space Room with Stairs",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "parts",
+    "base"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/SpaceRoom_01/SpaceRoom_01.glb"

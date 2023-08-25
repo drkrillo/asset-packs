@@ -2,6 +2,11 @@
   "id": "1863f3b9-de31-4082-a969-0923a8ca5451",
   "name": "Canister",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "box",
+    "storage"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Containers_01/Containers_01.glb"

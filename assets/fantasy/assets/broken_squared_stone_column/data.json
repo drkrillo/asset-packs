@@ -2,6 +2,12 @@
   "id": "78c10d3c-ebc1-4a71-8c60-1283ba36c140",
   "name": "Broken Squared Stone Column",
   "category": "structures",
+  "tags": [
+    "fantasy",
+    "column",
+    "stone",
+    "broken"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Pillar_Quad_Half_01/Pillar_Quad_Half_01.glb"

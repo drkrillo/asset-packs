@@ -2,6 +2,12 @@
   "id": "3704c5c4-04eb-4ba6-b2b1-2cc93c424567",
   "name": "Kylix",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "vase",
+    "liquid",
+    "ceramic"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Vase_07/Vase_07.glb"

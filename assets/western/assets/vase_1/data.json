@@ -2,6 +2,7 @@
   "id": "931493de-9be2-4470-a3e6-299c96b5ea6a",
   "name": "Vase 1",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Vase 1.glb"

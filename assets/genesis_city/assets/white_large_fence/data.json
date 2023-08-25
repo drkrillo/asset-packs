@@ -2,6 +2,21 @@
   "id": "d5f636b7-538f-446d-8429-56f62a4f9540",
   "name": "White Large Fence",
   "category": "structures",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "structures",
+    "white",
+    "wood",
+    "fence",
+    "fences",
+    "park",
+    "garden",
+    "backyard",
+    "yard",
+    "farm"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FencePicketWhiteLarge_01/FencePicketWhiteLarge_01.glb"

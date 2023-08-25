@@ -2,6 +2,16 @@
   "id": "5fb9fec8-a14f-4377-aaae-7fcef3ccda43",
   "name": "Wine Bottle",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decoration",
+    "wine",
+    "bottle",
+    "romantic",
+    "dinner"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/WineBottle_01/WineBottle_01.glb"

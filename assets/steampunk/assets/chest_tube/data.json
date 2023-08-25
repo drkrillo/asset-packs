@@ -2,6 +2,7 @@
   "id": "d32d17ca-12da-40e2-bd63-f3cb28aded8e",
   "name": "Chest Tube",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Chest Tube.glb"

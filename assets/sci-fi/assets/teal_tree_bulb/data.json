@@ -2,6 +2,10 @@
   "id": "a0338fcf-e109-45f1-8cfd-cea058c07c94",
   "name": "Teal Tree Bulb",
   "category": "nature",
+  "tags": [
+    "scifi",
+    "tree"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/PlantSF_13/PlantSF_13.glb"

@@ -2,6 +2,12 @@
   "id": "9270ed6e-3464-49b8-8520-82e9223ba310",
   "name": "Rabbit-Ear Grass",
   "category": "nature",
+  "tags": [
+    "fantasy",
+    "forest",
+    "grass",
+    "weeds"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Grass_04/Grass04.glb"

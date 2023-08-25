@@ -2,6 +2,7 @@
   "id": "19da66f7-f1c6-4d8f-a365-789486345169",
   "name": "Gear 8 Teeth",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Gear 8 Teeth.glb"

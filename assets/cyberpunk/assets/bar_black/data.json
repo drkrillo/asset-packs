@@ -2,6 +2,7 @@
   "id": "17b9739f-a1d4-494c-8766-8429067d6b19",
   "name": "Bar Black",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Bar_Black.glb"

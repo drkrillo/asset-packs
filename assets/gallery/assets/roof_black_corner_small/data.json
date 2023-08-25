@@ -2,6 +2,7 @@
   "id": "58f74f49-ba9e-49fc-a9af-a969cb472b6e",
   "name": "Roof - Black Corner Small",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/BlackRoof_Corner_Small.glb"

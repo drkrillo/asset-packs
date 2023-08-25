@@ -2,6 +2,7 @@
   "id": "fa1373af-33c8-4832-94b3-899f7c0e9dbd",
   "name": "Axe 1",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Axe 1.glb"

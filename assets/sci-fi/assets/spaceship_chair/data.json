@@ -2,6 +2,11 @@
   "id": "3624d83f-5084-4ed0-9568-0ae7d9e82441",
   "name": "Spaceship Chair",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "spaceship",
+    "parts"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/ChairShip_01/ChairShip_01.glb"

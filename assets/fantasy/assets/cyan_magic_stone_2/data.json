@@ -2,6 +2,14 @@
   "id": "a711030a-29bf-4c24-831b-6c17a8aa44f2",
   "name": "Cyan Magic Stone",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "cyan",
+    "crystal",
+    "gem",
+    "gemstone",
+    "stone"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Glowing_Stone_01/Glowing_Stone_01.glb"

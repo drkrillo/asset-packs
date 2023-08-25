@@ -2,6 +2,7 @@
   "id": "073da183-c8c8-45ac-8c60-1d377939f10c",
   "name": "WallCorner - Blue",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/BlueCorner.glb"

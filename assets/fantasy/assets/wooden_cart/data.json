@@ -2,6 +2,12 @@
   "id": "57ce3bdc-3591-4938-9710-278902f3a756",
   "name": "Wooden Cart",
   "category": "structures",
+  "tags": [
+    "fantasy",
+    "wheels",
+    "wood",
+    "cart"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Cart_01/Cart_01.glb"

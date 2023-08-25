@@ -2,6 +2,16 @@
   "id": "30d789e8-783a-4e78-9dd3-400add3b6716",
   "name": "Lettuce crop",
   "category": "nature",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "nature",
+    "farm",
+    "crop",
+    "vegetation",
+    "lettuce"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FarmVegetation_02/FarmVegetation_02.glb"

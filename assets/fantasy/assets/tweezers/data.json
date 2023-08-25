@@ -2,6 +2,12 @@
   "id": "0caf50e4-d566-4f74-8413-fec6d46f6151",
   "name": "Tweezers",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "iron",
+    "tweezers",
+    "tool"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Tweezers_01/Tweezers_01.glb"

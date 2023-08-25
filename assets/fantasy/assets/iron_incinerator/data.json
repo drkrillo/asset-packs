@@ -2,6 +2,12 @@
   "id": "ca786c25-8dbc-49a5-b627-9fa42167c418",
   "name": "Iron Incinerator",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "iron",
+    "incinerator",
+    "fire"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FireStructure_01/FireStructure_01.glb"

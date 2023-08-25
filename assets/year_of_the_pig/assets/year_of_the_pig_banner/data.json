@@ -2,6 +2,12 @@
   "id": "57d2eb7f-2671-47b3-9af9-fdfa84ceca1f",
   "name": "Year Of The Pig Banner",
   "category": "year of the pig",
+  "tags": [
+    "decoration",
+    "pig",
+    "banner",
+    "flag"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/ChineseFlag_01/ChineseFlag_01.glb"

@@ -2,6 +2,13 @@
   "id": "7b9b9922-2a93-4bc3-942c-d3aafb5ae8ec",
   "name": "Luxurious Marble Tile",
   "category": "tiles",
+  "tags": [
+    "fantasy",
+    "tile",
+    "marble",
+    "pattern",
+    "luxurious"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Tile_Floor_02/Tile_Floor_02.glb"

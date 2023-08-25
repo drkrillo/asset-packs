@@ -2,6 +2,7 @@
   "id": "1ddf5384-5989-4dc3-88b1-825f3084cae0",
   "name": "Window - Black ",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/BlackWindow.glb"

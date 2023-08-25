@@ -2,6 +2,7 @@
   "id": "b726fb2a-49dd-4cb0-9305-94a8ba66c706",
   "name": "Floor - Black Small",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/BlackFloor_Small.glb"

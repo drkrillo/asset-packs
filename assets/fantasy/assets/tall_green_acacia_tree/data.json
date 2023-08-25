@@ -2,6 +2,12 @@
   "id": "f5ecbc48-dc45-47ef-a0e6-3e414c89eb41",
   "name": "Tall Green Acacia Tree",
   "category": "nature",
+  "tags": [
+    "fantasy",
+    "green",
+    "tree",
+    "forest"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Tree_Forest_Green_04/Tree_Forest_Green_04.glb"

@@ -2,6 +2,7 @@
   "id": "1196654f-834d-48f4-94d3-10f16e0de99e",
   "name": "Cat",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/HWN20_Cat.glb"

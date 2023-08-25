@@ -2,6 +2,15 @@
   "id": "19a3037d-5921-4852-9e71-3a4a0e94179e",
   "name": "Tortoise Stone",
   "category": "nature",
+  "tags": [
+    "fantasy",
+    "nature",
+    "stone",
+    "stones",
+    "rock",
+    "rocks",
+    "forest"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Stone_03/Stone_03.glb"

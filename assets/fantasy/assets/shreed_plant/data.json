@@ -2,6 +2,12 @@
   "id": "46096457-1b16-44b2-ba1d-695772bb3ddc",
   "name": "Shreed Plant",
   "category": "nature",
+  "tags": [
+    "fantasy",
+    "forest",
+    "plant",
+    "green"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Plant_03/Plant_03.glb"

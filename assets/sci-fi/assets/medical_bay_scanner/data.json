@@ -2,6 +2,12 @@
   "id": "9b25d859-ff8c-4bf7-be3d-e0759ba11120",
   "name": "Medical Bay Scanner",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "health",
+    "recovery",
+    "base"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/HealthBed_01/HealthBed_01.glb"

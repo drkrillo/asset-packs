@@ -2,6 +2,7 @@
   "id": "53d63d66-9a69-461c-8b6a-5b7c0608f07a",
   "name": "Window - DiagonalBoard ",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/DiagonalBoardWindow.glb"

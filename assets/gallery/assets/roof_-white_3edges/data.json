@@ -2,6 +2,7 @@
   "id": "6361af7d-a14e-4b33-90f7-4922b86b1cb8",
   "name": "Roof -White 3Edges",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/WhiteRoof_3Edges.glb"

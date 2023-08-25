@@ -2,6 +2,7 @@
   "id": "e1ea9d57-b7b2-40ea-bf53-be3f39b1b82a",
   "name": "Street Cleaner",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Street_Cleaner.glb"

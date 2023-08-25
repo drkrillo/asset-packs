@@ -2,6 +2,14 @@
   "id": "d46670bf-a528-4680-84a6-39ca83a3caca",
   "name": "Constellation Rug",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "carpet",
+    "rug",
+    "star",
+    "wizard",
+    "rectangular"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Carpet_01/Carpet_01.glb"

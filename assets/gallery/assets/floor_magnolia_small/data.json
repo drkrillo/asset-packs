@@ -2,6 +2,7 @@
   "id": "91ed1616-3083-42a3-81e0-21dc7947d54f",
   "name": "Floor - Magnolia Small",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/MagnoliaFloor_Small.glb"

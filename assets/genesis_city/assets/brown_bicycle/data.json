@@ -2,6 +2,18 @@
   "id": "d7aa5ac8-ead7-4efb-8fe7-a3ec00322cc1",
   "name": "Brown Bicycle",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decoration",
+    "bicycle",
+    "bike",
+    "vehicle",
+    "wheel",
+    "wheels",
+    "brown"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Bicycle_03/Bicycle_03.glb"

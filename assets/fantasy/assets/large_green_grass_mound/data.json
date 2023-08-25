@@ -2,6 +2,13 @@
   "id": "eb8d5984-9626-44ee-af50-1c55cd582707",
   "name": "Large Green Grass Mound",
   "category": "nature",
+  "tags": [
+    "fantasy",
+    "mound",
+    "forest",
+    "grass",
+    "evergreen"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/GrassPatchLarge_04/GrassPatchLarge_04.glb"

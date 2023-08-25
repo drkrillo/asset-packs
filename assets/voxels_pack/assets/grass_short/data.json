@@ -2,6 +2,7 @@
   "id": "30b9f698-3911-4e1a-bb85-7b5090937c60",
   "name": "Grass - Short",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/grass_short.glb"

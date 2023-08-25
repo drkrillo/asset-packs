@@ -2,6 +2,19 @@
   "id": "92f8c58c-146c-462e-a131-62666784b879",
   "name": "Sapphire Jewellery",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "jewel",
+    "jewels",
+    "gemstone",
+    "jewellery",
+    "gold",
+    "golden",
+    "framed"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Gem_09/Gem_09.glb"

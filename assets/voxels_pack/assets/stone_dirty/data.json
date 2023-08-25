@@ -2,6 +2,7 @@
   "id": "87c2d210-d600-4d0d-9e33-6ee74440ab7f",
   "name": "Stone - dirty",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/stone_dirt.glb"

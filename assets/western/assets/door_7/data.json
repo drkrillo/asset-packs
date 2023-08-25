@@ -2,6 +2,7 @@
   "id": "44083cd0-e386-4bf3-8f8b-c823cacf9cd0",
   "name": "Door 7",
   "category": "structures",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Door 7.glb"

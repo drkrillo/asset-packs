@@ -2,6 +2,12 @@
   "id": "53e7096f-f88c-4af3-b9e5-15ece7ace8c0",
   "name": "Rune Magic Stone",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "rune",
+    "stone",
+    "magic"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/WritenStone_01/WritenStone_01.glb"

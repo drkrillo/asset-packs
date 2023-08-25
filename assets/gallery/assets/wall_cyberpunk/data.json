@@ -2,6 +2,7 @@
   "id": "aa0ff682-fbde-4c69-ad4f-6e29100c500d",
   "name": "Wall - CyberPunk",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/CyberPunkWall.glb"

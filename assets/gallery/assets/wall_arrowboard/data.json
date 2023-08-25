@@ -2,6 +2,7 @@
   "id": "ec5280d7-f106-48d8-b593-623ce6805afe",
   "name": "Wall - ArrowBoard",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/ArrowBoardWall.glb"

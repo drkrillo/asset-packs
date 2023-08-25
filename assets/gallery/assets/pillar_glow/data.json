@@ -2,6 +2,7 @@
   "id": "52481f8f-e316-4c1f-8c96-9b059e5d0909",
   "name": "Pillar - Glow",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/GlowPillar.glb"

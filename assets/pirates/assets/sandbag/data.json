@@ -2,6 +2,14 @@
   "id": "3d2d724c-9150-4034-97c3-e761491115e8",
   "name": "Sandbag",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "bag",
+    "sand"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Sandbag_01/Sandbag_01.glb"

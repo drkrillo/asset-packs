@@ -2,6 +2,16 @@
   "id": "39577482-9056-4a72-9f7c-a3c544df41fe",
   "name": "Clay Pot",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decoration",
+    "pot",
+    "clay",
+    "flower",
+    "flowers"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Pot_01/Pot_01.glb"

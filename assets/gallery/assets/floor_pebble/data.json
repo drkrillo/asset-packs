@@ -2,6 +2,7 @@
   "id": "d88c0589-ae81-4a6a-b377-70503e170856",
   "name": "Floor - Pebble",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/PebbleFloor.glb"

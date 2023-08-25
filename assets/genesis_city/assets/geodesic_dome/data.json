@@ -2,6 +2,18 @@
   "id": "54262c65-01c6-4509-8c35-a5e713e3a0c4",
   "name": "Geodesic Dome",
   "category": "structures",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "structures",
+    "playground",
+    "park",
+    "yard",
+    "backyard",
+    "slide",
+    "dome"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/PlaygroundStructure_01/PlaygroundStructure_01.glb"

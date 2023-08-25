@@ -2,6 +2,7 @@
   "id": "08bb8431-95b8-41bb-8586-908f4f445b72",
   "name": "Tree  4",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/HWN20_Tree_04.glb"

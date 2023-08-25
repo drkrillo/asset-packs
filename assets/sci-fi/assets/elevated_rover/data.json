@@ -2,6 +2,12 @@
   "id": "09ed7a95-4483-4c36-8f15-123fc36f26d5",
   "name": "Elevated Rover",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "robot",
+    "tech",
+    "machine"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Rover_02/Rover_02.glb"

@@ -2,6 +2,7 @@
   "id": "19d641ec-2064-4787-921c-fcb8d51dae8b",
   "name": "Ground 10 M Square",
   "category": "tiles",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Ground 10 M Square.glb"

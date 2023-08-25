@@ -2,6 +2,16 @@
   "id": "8e0acaa2-1100-4541-8480-91a1bfdc2b7b",
   "name": "Cumin Spicebag",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decoration",
+    "spices",
+    "sack",
+    "fabric",
+    "leather"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Spicesbag_03/Spicesbag_03.glb"

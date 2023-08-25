@@ -2,6 +2,7 @@
   "id": "61265486-0bbb-462e-80c0-30754daf97ed",
   "name": "Coffee Table",
   "category": "furniture",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Coffee_Table.glb"

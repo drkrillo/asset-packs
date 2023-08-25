@@ -2,6 +2,7 @@
   "id": "339f46e5-cafd-4cd0-a4ae-7cfe7b8b74f5",
   "name": "Stairs Full Height",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/fullHeightStairs.glb"

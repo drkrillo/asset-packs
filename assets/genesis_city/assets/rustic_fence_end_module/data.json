@@ -2,6 +2,21 @@
   "id": "6d56fcf8-d9e5-4fbb-a13f-8444a36ef7a3",
   "name": "Rustic Fence End Module",
   "category": "structures",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "structures",
+    "rustic",
+    "wood",
+    "fence",
+    "fences",
+    "park",
+    "garden",
+    "backyard",
+    "yard",
+    "farm"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FenceWoodEnd_01/FenceWoodEnd_01.glb"

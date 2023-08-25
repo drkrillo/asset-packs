@@ -2,6 +2,7 @@
   "id": "146b082c-48ed-4ff8-bfbf-da9e1c31d414",
   "name": "Bonfire 1",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Bonfire 1.glb"

@@ -2,6 +2,15 @@
   "id": "36a9ea1e-61b9-4221-a580-74011955a191",
   "name": "Square Wood Table",
   "category": "furniture",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "furniture",
+    "wodd",
+    "table",
+    "cafe"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Table_03/Table_03.glb"

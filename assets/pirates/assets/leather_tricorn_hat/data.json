@@ -2,6 +2,17 @@
   "id": "93b71bcd-cdd3-4d00-860c-09dc8dfcd8a8",
   "name": "Leather Tricorn Hat",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "leather",
+    "hat",
+    "red",
+    "golden",
+    "strips"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/PirateHat_01/PirateHat_01.glb"

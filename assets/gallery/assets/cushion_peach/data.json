@@ -2,6 +2,7 @@
   "id": "707c58c8-3243-42f8-a403-7be4f740b074",
   "name": "Cushion - Peach",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/PeachCushion.glb"

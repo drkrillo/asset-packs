@@ -2,6 +2,17 @@
   "id": "95b32f76-c292-49d2-89a5-093eed4f09b1",
   "name": "Small Rock",
   "category": "nature",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "nature",
+    "rock",
+    "rocks",
+    "stone",
+    "stones",
+    "forest"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/RockSmall_02/RockSmall_02.glb"

@@ -2,6 +2,7 @@
   "id": "5e498687-e17d-4baa-ac28-ef8be4903c90",
   "name": "Pixel Critter D",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Pixel_Critter_D.glb"

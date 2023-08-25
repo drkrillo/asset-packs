@@ -2,6 +2,7 @@
   "id": "0b6f92f1-d1c4-4924-a1e3-e9031c414151",
   "name": "Lamp - Blue",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Lamp_Blue.glb"

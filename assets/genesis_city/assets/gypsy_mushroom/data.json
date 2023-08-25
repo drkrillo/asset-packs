@@ -2,6 +2,17 @@
   "id": "cf22fe9b-69b1-40d8-92d7-7a8caa71ade8",
   "name": "Gypsy mushroom",
   "category": "nature",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "nature",
+    "forest",
+    "park",
+    "mushroom",
+    "park",
+    "garden"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Mushroom_02/Mushroom_02.glb"

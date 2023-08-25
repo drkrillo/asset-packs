@@ -2,6 +2,7 @@
   "id": "451e7f17-ec8d-4beb-a383-0ec634eb341e",
   "name": "Overhead Road Sign",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Overhead_Road_Sign.glb"

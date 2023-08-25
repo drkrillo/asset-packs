@@ -2,6 +2,15 @@
   "id": "3826959a-85b8-41aa-9c95-a68a4830dbbc",
   "name": "Camping table",
   "category": "furniture",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "furniture",
+    "table",
+    "camping",
+    "outdoor"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Table_05/Table_05.glb"

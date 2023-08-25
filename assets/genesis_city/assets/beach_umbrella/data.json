@@ -2,6 +2,15 @@
   "id": "0be9abea-83ae-4a9c-b24d-8a5ce1b9580f",
   "name": "Beach Umbrella",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decoration",
+    "beach",
+    "sun",
+    "umbrella"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Umbrella_01/Umbrella_01.glb"

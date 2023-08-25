@@ -2,6 +2,20 @@
   "id": "02606ec8-602e-4a5f-9485-06a1594be6e9",
   "name": "Light Yellow Pine Tree",
   "category": "nature",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "nature",
+    "tree",
+    "trees",
+    "yellow",
+    "forest",
+    "park",
+    "garden",
+    "backyard",
+    "yard"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/TreePine_02/TreePine_02.glb"

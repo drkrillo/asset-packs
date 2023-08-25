@@ -2,6 +2,19 @@
   "id": "75f2ea4e-e061-4627-ae43-9460aa106066",
   "name": "Caribbean Shore with Rocks Patch",
   "category": "tiles",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "nature",
+    "water",
+    "rock",
+    "rocks",
+    "stone",
+    "stones",
+    "beach",
+    "ocean"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/WaterPatchCurve_02/WaterPatchCurve_02.glb"

@@ -2,6 +2,15 @@
   "id": "b419d0b6-cee7-4266-990c-25e3e52ce689",
   "name": "Citrine",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "jewel",
+    "jewels",
+    "gemstone"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Gem_05/Gem_05.glb"

@@ -2,6 +2,12 @@
   "id": "0518b1b2-38ab-4fdb-bba6-35a771d7da61",
   "name": "Brown Mountain",
   "category": "nature",
+  "tags": [
+    "fantasy",
+    "mountain",
+    "rock",
+    "rocks"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Mountain_02/Mountain_02.glb"

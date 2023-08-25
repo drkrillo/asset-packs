@@ -2,6 +2,7 @@
   "id": "79babd7b-e483-40e8-88fe-3ada52406cc8",
   "name": "Mines Tunel 8M",
   "category": "structures",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Mines Tunel 8M.glb"

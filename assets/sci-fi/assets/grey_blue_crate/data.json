@@ -2,6 +2,11 @@
   "id": "7729c96a-57c3-454e-80be-5eb993f757ba",
   "name": "Grey Blue Crate",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "box",
+    "storage"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/CrateBlueBig_01/CrateBlueBig_01.glb"

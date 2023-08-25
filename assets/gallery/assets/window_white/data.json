@@ -2,6 +2,7 @@
   "id": "680d7753-be91-4e9b-962e-acd1b345e64a",
   "name": "Window - White ",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/WhiteWindow.glb"

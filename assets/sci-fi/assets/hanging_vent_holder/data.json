@@ -2,6 +2,12 @@
   "id": "35d5bbde-67af-49ea-aa40-85bc73c80130",
   "name": "Hanging Vent Holder",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "air",
+    "vent",
+    "hang"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/AirVent_Hang_01/AirVent_Hang_01.glb"
