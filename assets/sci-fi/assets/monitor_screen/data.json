@@ -2,6 +2,11 @@
   "id": "2f77ba2c-b377-49d7-a00d-76d7def4d52e",
   "name": "Monitor Screen",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "spaceship",
+    "computer"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Monitor_01/Monitor_01.glb"

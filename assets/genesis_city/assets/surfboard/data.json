@@ -2,6 +2,17 @@
   "id": "87449055-9033-4ac4-8125-c78831f751d4",
   "name": "Surfboard",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decoration",
+    "water",
+    "beach",
+    "sun",
+    "sports",
+    "sport"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/SurfBoard_01/SurfBoard_01.glb"

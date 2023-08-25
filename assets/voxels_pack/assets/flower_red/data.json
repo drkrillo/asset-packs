@@ -2,6 +2,7 @@
   "id": "76e22865-d706-4912-aa71-7cbac597be70",
   "name": "Flower - Red",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/flower_red.glb"

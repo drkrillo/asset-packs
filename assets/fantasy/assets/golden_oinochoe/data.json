@@ -2,6 +2,13 @@
   "id": "f4a8e154-ac7b-43ac-b1c9-d0fc1e21406d",
   "name": "Golden Oinochoe",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "vase",
+    "liquid",
+    "gold",
+    "golden"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Vase_04/Vase_04.glb"

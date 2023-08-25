@@ -2,6 +2,7 @@
   "id": "5c167a9c-2aa3-4d07-afd9-26378a122fdd",
   "name": "Scary Tree 3",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/HWN20_ScaryTree_03.glb"

@@ -2,6 +2,7 @@
   "id": "8119c6d2-ac40-47b0-a5b5-bafe8c2754d3",
   "name": "Roof - Orange Small",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/OrangeRoof_Small.glb"

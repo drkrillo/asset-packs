@@ -2,6 +2,7 @@
   "id": "fb237b89-9ccc-41e9-91e2-1d08426417c1",
   "name": "Floor - Grey Small",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/GreyFloor_Small.glb"

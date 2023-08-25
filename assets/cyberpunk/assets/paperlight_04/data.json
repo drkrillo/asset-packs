@@ -2,6 +2,7 @@
   "id": "0012c3a4-a451-4dcf-94a5-5067167de33d",
   "name": "Paperlight 04",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Paperlight_04.glb"

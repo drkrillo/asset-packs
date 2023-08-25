@@ -2,6 +2,16 @@
   "id": "241f27d2-b082-4c32-a118-98876b2bedf1",
   "name": "Cauldron",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "iron",
+    "soup",
+    "meal",
+    "stew"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Cauldron_01/Cauldron_01.glb"

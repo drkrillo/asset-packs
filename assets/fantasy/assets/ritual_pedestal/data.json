@@ -2,6 +2,14 @@
   "id": "f43f78f7-cd7f-48ab-82cf-21796bf7822d",
   "name": "Ritual Pedestal",
   "category": "structures",
+  "tags": [
+    "fantasy",
+    "stone",
+    "rune",
+    "runes",
+    "ritual",
+    "pedestal"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Pedestal_01/Pedestal_01.glb"

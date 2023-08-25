@@ -2,6 +2,15 @@
   "id": "0ceecdfd-122f-4669-ab30-7eb1f198babb",
   "name": "Rock Cluster",
   "category": "nature",
+  "tags": [
+    "fantasy",
+    "nature",
+    "stone",
+    "stones",
+    "rock",
+    "rocks",
+    "forest"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Rock_Patch_02/Rock_Patch_02.glb"

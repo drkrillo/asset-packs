@@ -2,6 +2,7 @@
   "id": "b5431be3-50ea-45ef-bc2e-aecb9c201d5a",
   "name": "Neon Oval Sign",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Neon_Oval_Sign.glb"

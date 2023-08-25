@@ -2,6 +2,15 @@
   "id": "001e0a87-555a-42b7-8b39-dda3500f5394",
   "name": "Big Bone",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "bone",
+    "bones",
+    "calcium"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/BonesBig_01/BonesBig_01.glb"

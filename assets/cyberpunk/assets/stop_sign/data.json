@@ -2,6 +2,7 @@
   "id": "bb90c525-5165-46c8-a9dd-c26243c26b49",
   "name": "Stop Sign",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Stop_Sign.glb"

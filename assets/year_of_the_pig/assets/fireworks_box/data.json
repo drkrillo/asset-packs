@@ -2,6 +2,12 @@
   "id": "8838315c-b7e6-4066-9388-b6aa08f29df8",
   "name": "Fireworks Box",
   "category": "year of the pig",
+  "tags": [
+    "decoration",
+    "fireworks",
+    "box",
+    "celebration"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/ChineseFireworks_01/ChineseFireworks_01.glb"

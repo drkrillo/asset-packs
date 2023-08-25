@@ -2,6 +2,15 @@
   "id": "a4dddfe5-698d-41c4-bbb2-fcceabe88d7d",
   "name": "Wooden Tabernacle Round Table",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "table",
+    "tabern",
+    "round",
+    "wood",
+    "wooden",
+    "iron"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Table_01/Table_01.glb"

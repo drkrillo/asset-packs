@@ -2,6 +2,15 @@
   "id": "81d5caca-fa97-40db-b185-597d6616187f",
   "name": "Golden Coat Rack",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "gem",
+    "gemstone",
+    "gold",
+    "golden",
+    "coat",
+    "rack"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Chandelier_02/Chandelier_02.glb"

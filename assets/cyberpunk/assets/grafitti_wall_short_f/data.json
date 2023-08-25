@@ -2,6 +2,7 @@
   "id": "5ec928dc-1cc2-40d9-b132-5b71296e87af",
   "name": "Grafitti Wall Short F",
   "category": "structures",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Grafitti_Wall_Short_F.glb"

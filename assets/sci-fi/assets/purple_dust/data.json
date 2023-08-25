@@ -2,6 +2,10 @@
   "id": "e8c04948-0255-4036-86ec-caae122f370f",
   "name": "Purple Dust",
   "category": "ground",
+  "tags": [
+    "scifi",
+    "ground"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/GroundFloorSciFi_04/GroundFloorSciFi_04.glb"

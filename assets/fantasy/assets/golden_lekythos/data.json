@@ -2,6 +2,13 @@
   "id": "c84c36dd-9d8d-4894-b9a9-fafdca839025",
   "name": "Golden Lekythos",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "vase",
+    "liquid",
+    "gold",
+    "golden"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Vase_05/Vase_05.glb"

@@ -2,6 +2,15 @@
   "id": "16ec64b3-8be5-4e25-a8b4-24d99f56adf7",
   "name": "Ground Curved Stone Blocks",
   "category": "structures",
+  "tags": [
+    "fantasy",
+    "nature",
+    "stone",
+    "stones",
+    "rock",
+    "rocks",
+    "forest"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Stone_Blocks_Curve_01/Stone_Blocks_Curve_01.glb"

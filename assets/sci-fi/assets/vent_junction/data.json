@@ -2,6 +2,12 @@
   "id": "adcbe9ed-ed64-4e45-b2d1-6825d3391800",
   "name": "Vent Junction",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "air",
+    "vent",
+    "union"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/AirVent_Union_01/AirVent_Union_01.glb"

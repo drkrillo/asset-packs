@@ -2,6 +2,7 @@
   "id": "0281518d-87c5-48a3-88bc-ba6aaf2c947b",
   "name": "Grass - long 2",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/grass_long.glb"

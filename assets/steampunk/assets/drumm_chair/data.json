@@ -2,6 +2,7 @@
   "id": "bc394619-b279-4333-bc91-4eb1488001b5",
   "name": "Drumm Chair",
   "category": "furniture",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Drumm Chair.glb"

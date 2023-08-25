@@ -2,6 +2,7 @@
   "id": "7ca3fbac-d29a-4127-8e34-8992a16bc99e",
   "name": "Shotgun 2",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Shotgun 2.glb"

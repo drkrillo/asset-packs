@@ -2,6 +2,7 @@
   "id": "c8c736f3-0ade-40d2-8e72-4fcc0bbc04d6",
   "name": "Dirt - volcano",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/dirt_volcan.glb"

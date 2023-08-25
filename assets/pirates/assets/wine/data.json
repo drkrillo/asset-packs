@@ -2,6 +2,16 @@
   "id": "f6b0a279-3f7b-43d1-9382-08ad207ad706",
   "name": "Wine",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "bottle",
+    "drink",
+    "beverage",
+    "alcohol"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Bottle_02/Bottle_02.glb"

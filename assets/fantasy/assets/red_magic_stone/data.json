@@ -2,6 +2,14 @@
   "id": "3a5babf0-0c3b-4dd5-842f-39b6521bfd37",
   "name": "Red Magic Stone",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "red",
+    "crystal",
+    "gem",
+    "gemstone",
+    "stone"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Glowing_Stone_04/Glowing_Stone_04.glb"

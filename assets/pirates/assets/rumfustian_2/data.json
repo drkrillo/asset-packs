@@ -2,6 +2,16 @@
   "id": "935a6e9b-dc31-4abd-98ff-a9a74fc7ba2d",
   "name": "Rumfustian",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "bottle",
+    "drink",
+    "beverage",
+    "alcohol"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Bottle_09/Bottle_09.glb"

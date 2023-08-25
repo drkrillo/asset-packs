@@ -2,6 +2,15 @@
   "id": "7a9a3578-1799-49bb-8d3d-f721430e6db2",
   "name": "Small Bone",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "bone",
+    "bones",
+    "calcium"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/BonesSmall_01/BonesSmall_01.glb"

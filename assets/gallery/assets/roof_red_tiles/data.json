@@ -2,6 +2,7 @@
   "id": "b7fd9240-1e13-446c-87cd-271c2751dc16",
   "name": "Roof - Red Tiles",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/RedTileRoof.glb"

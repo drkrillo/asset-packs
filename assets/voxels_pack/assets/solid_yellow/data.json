@@ -2,6 +2,7 @@
   "id": "2e82c6b3-acc4-4f71-8c46-1fb99c9df3d9",
   "name": "Solid Yellow",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/solid_yellow.glb"

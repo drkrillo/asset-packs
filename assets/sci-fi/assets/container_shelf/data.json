@@ -2,6 +2,11 @@
   "id": "a49f2519-65fd-4655-9739-6a5bf5daf04e",
   "name": "Container Shelf",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "box",
+    "storage"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/ContainerSmall_01/ContainerSmall_01.glb"

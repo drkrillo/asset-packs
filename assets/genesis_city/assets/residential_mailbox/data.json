@@ -2,6 +2,18 @@
   "id": "41cc0b2c-e74b-4830-9fc1-7ce3c6b9eb07",
   "name": "Residential Mailbox",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decoration",
+    "mail",
+    "box",
+    "residential",
+    "yard",
+    "house",
+    "postman"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/MailPost_02/MailPost_02.glb"

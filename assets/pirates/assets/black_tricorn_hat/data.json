@@ -2,6 +2,18 @@
   "id": "a7961dd3-f05e-4d8d-8308-e748917e199d",
   "name": "Black Tricorn Hat",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "leather",
+    "hat",
+    "red",
+    "golden",
+    "strips",
+    "feather"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/PirateHat_02/PirateHat_02.glb"

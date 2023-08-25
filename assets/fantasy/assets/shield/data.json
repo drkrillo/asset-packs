@@ -2,6 +2,12 @@
   "id": "0eedd401-f9fd-494b-b205-f65530a6f32a",
   "name": "Shield",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "iron",
+    "blue",
+    "shield"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Shield_01/Shield_01.glb"

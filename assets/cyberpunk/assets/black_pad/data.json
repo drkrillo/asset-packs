@@ -2,6 +2,7 @@
   "id": "3596e503-639e-469e-9354-9184c8e2141d",
   "name": "Black Pad",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Black_Pad.glb"

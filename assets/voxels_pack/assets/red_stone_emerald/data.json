@@ -2,6 +2,7 @@
   "id": "d7e1e39a-c4c8-4ab1-aa56-cf808e2128a8",
   "name": "Red Stone - Emerald",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/red_stone_emerald.glb"

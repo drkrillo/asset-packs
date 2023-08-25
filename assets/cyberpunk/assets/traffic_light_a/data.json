@@ -2,6 +2,7 @@
   "id": "f5340f26-3d46-4b69-95e0-8e046f92a21e",
   "name": "Traffic Light A",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Traffic_Light_A.glb"

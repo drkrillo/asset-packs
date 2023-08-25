@@ -2,6 +2,7 @@
   "id": "16edcde1-3b63-41d0-8846-b749084f0da8",
   "name": "Roof - Orange 1Edge small",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/OrangeRoof_1Edge_small.glb"

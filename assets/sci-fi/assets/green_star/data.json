@@ -2,6 +2,12 @@
   "id": "bbd5f5b4-818e-4ab8-b5a2-edea150a320b",
   "name": "Green Star",
   "category": "nature",
+  "tags": [
+    "scifi",
+    "planet",
+    "round",
+    "spike"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Star_01/Star_01.glb"

@@ -2,6 +2,19 @@
   "id": "625568d5-cec4-4d89-af23-8cb24018b198",
   "name": "Traditional Lamp Post",
   "category": "structures",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "structures",
+    "lamp",
+    "post",
+    "light",
+    "lighting",
+    "street",
+    "city",
+    "park"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/LampPost_02/LampPost_02.glb"

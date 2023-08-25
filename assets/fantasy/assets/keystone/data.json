@@ -2,6 +2,10 @@
   "id": "9be6610f-cf2b-47fc-a5bd-c9aa62ea6f8e",
   "name": "Keystone",
   "category": "ground",
+  "tags": [
+    "fantasy",
+    "ground"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FloorFantasyRocks_01/FloorFantasyRocks_01.glb"

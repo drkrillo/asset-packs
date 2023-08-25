@@ -2,6 +2,7 @@
   "id": "9f93a59e-6b87-4f30-818a-c3488351b45d",
   "name": "Vegetation - flowers",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/vegetation_light_flowers.glb"

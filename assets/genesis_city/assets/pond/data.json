@@ -2,6 +2,18 @@
   "id": "2950ca19-cb51-422b-b80e-fc0765d6cf4b",
   "name": "Pond",
   "category": "nature",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "nature",
+    "water",
+    "pond",
+    "rock",
+    "rocks",
+    "stone",
+    "stones"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Pond_01/Pond_01.glb"

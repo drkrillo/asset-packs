@@ -2,6 +2,11 @@
   "id": "d6fd3ca8-f5bc-40f6-8815-7246927318a5",
   "name": "Squared Floor Panel",
   "category": "tiles",
+  "tags": [
+    "scifi",
+    "tile",
+    "ground"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Floor_Module_04/Floor_Module_04.glb"

@@ -2,6 +2,7 @@
   "id": "604e60fd-ecd9-4bc8-a0de-6ff71ad4fd48",
   "name": "Floor - Cream Small",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/CreamFloor_Small.glb"

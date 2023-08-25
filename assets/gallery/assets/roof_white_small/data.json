@@ -2,6 +2,7 @@
   "id": "dab40751-bb69-4b3b-a0d4-bb44d676a45c",
   "name": "Roof - White Small",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/WhiteRoof_Small.glb"

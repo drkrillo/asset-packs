@@ -2,6 +2,7 @@
   "id": "30fc17bd-19d8-493b-88e6-4502da9ee209",
   "name": "H Red",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/H_Red.glb"

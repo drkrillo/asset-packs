@@ -2,6 +2,11 @@
   "id": "0e8a19d7-392f-434a-bf32-e8dc932cba81",
   "name": "Hexagonal Floor Panel",
   "category": "tiles",
+  "tags": [
+    "scifi",
+    "tile",
+    "ground"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FloorHexa_01/FloorHexa_01.glb"

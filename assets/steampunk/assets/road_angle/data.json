@@ -2,6 +2,7 @@
   "id": "16f2ad21-56ab-4d28-bcce-f818cd390fcf",
   "name": "Road Angle",
   "category": "tiles",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Road Angle.glb"

@@ -2,6 +2,10 @@
   "id": "d06e22f7-0816-4e5e-98ff-50e87b8e78f3",
   "name": "Tubular Fronds",
   "category": "nature",
+  "tags": [
+    "scifi",
+    "tree"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/PlantSF_09/PlantSF_09.glb"

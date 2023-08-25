@@ -2,6 +2,13 @@
   "id": "6ac60649-7f9d-4426-9329-e73275e63472",
   "name": "Long Straight Vent",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "air",
+    "vent",
+    "straight",
+    "long"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/AirVent_Straight_Long_01/AirVent_Straight_Long_01.glb"

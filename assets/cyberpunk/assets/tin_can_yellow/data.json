@@ -2,6 +2,7 @@
   "id": "d72e9736-7bba-4f83-b4f0-144a7c9f00fe",
   "name": "Tin Can - Yellow",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Tin_Can_Yellow.glb"

@@ -2,6 +2,7 @@
   "id": "9dd1e9ad-5843-4f0c-b512-80c9f8a1e88c",
   "name": "Furnace 3 Pipe",
   "category": "furniture",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Furnace 3 Pipe.glb"

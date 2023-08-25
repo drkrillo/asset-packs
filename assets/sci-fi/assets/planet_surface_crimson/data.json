@@ -2,6 +2,10 @@
   "id": "1ac5eebf-24e9-43b4-a4b3-d20c5ff49c6f",
   "name": "Planet Surface Crimson",
   "category": "tiles",
+  "tags": [
+    "scifi",
+    "tile"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/PlanetFloorRed_02/PlanetFloorRed_02.glb"

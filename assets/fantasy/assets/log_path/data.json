@@ -2,6 +2,15 @@
   "id": "a63d844d-e432-471d-bb1c-357be3cb2253",
   "name": "Log Path",
   "category": "structures",
+  "tags": [
+    "fantasy",
+    "forest",
+    "log",
+    "path",
+    "pathway",
+    "wood",
+    "wooden"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Log_Path_01/Log_Path_01.glb"

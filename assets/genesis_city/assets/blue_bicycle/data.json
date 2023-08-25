@@ -2,6 +2,18 @@
   "id": "51f9b4b2-6711-4877-94a1-a6f2213e01c1",
   "name": "Blue Bicycle",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decoration",
+    "bicycle",
+    "bike",
+    "vehicle",
+    "wheel",
+    "wheels",
+    "blue"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Bicycle_02/Bicycle_02.glb"

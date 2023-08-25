@@ -2,6 +2,14 @@
   "id": "23540a6e-eb8c-4866-9bf6-563b75dc83a8",
   "name": "Wooden Throne",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "throne",
+    "chair",
+    "sit",
+    "wood",
+    "wooden"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/WoodBigChair_01/WoodBigChair_01.glb"

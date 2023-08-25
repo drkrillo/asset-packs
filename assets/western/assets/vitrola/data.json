@@ -2,6 +2,7 @@
   "id": "e63e740b-4e09-4964-b6af-9f6b87d15951",
   "name": "Vitrola",
   "category": "furniture",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Vitrola.glb"

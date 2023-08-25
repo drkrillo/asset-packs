@@ -2,6 +2,7 @@
   "id": "58c362a4-6a39-43ba-b19f-111da2c29380",
   "name": "Chest",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Chest.glb"

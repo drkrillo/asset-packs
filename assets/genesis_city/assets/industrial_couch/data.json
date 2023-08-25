@@ -2,6 +2,16 @@
   "id": "6ef496c2-4ccd-49ab-a12f-6c9c25b6f92c",
   "name": "Industrial Couch",
   "category": "furniture",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "furniture",
+    "couch",
+    "industrial",
+    "comfy",
+    "orange"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Couch_02/Couch_02.glb"

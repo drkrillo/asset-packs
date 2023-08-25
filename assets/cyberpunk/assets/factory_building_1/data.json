@@ -2,6 +2,7 @@
   "id": "ffb83e2e-5157-4798-ad82-4c48f4bc3a36",
   "name": "Factory Building 1",
   "category": "structures",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Factory_Building_1.glb"

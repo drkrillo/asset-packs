@@ -2,6 +2,20 @@
   "id": "e59947e7-8356-4ca7-9e80-9c8e4fe3c507",
   "name": "Green Poplars",
   "category": "nature",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "nature",
+    "tree",
+    "trees",
+    "green",
+    "forest",
+    "park",
+    "garden",
+    "backyard",
+    "yard"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/TreeFir_02/TreeFir_02.glb"

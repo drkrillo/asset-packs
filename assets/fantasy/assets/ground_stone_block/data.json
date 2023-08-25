@@ -2,6 +2,15 @@
   "id": "acba3049-1035-42a3-99f9-0f3d50a9899a",
   "name": "Ground Stone Block",
   "category": "structures",
+  "tags": [
+    "fantasy",
+    "nature",
+    "stone",
+    "stones",
+    "rock",
+    "rocks",
+    "forest"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Stone_Blocks_End_01/Stone_Blocks_End_01.glb"

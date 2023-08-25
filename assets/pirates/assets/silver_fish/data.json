@@ -2,6 +2,15 @@
   "id": "75eb7118-ce1f-444e-99c8-3dbe044f743e",
   "name": "Silver Fish",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "nature",
+    "fish",
+    "silver",
+    "water"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Fish_01/Fish_01.glb"

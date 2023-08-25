@@ -2,6 +2,19 @@
   "id": "a7c13819-d5eb-4134-acf5-4ec2958fa7f7",
   "name": "Coin Gecko Statue",
   "category": "structures",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "structures",
+    "dcl",
+    "coin",
+    "gecko",
+    "coingecko",
+    "decentraland",
+    "crypto",
+    "logo"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/GeckoStone_01/GeckoStone_01.glb"

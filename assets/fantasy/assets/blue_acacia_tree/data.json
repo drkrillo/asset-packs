@@ -2,6 +2,12 @@
   "id": "26343874-a629-49cc-bacd-6a040ad7427d",
   "name": "Blue Acacia Tree",
   "category": "nature",
+  "tags": [
+    "fantasy",
+    "blue",
+    "tree",
+    "forest"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Tree_Forest_Blue_01/Tree_Forest_Blue_01.glb"

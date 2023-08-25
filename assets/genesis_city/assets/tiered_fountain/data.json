@@ -2,6 +2,17 @@
   "id": "1c7304c3-ab41-4831-8970-7f24061aaa14",
   "name": "Tiered Fountain",
   "category": "structures",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "structures",
+    "water",
+    "fountain",
+    "stone",
+    "park",
+    "garden"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Fountain_01/Fountain_01.glb"

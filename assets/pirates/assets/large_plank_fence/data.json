@@ -2,6 +2,15 @@
   "id": "8f2069c1-ab16-4b16-b2cb-f2cc9238917e",
   "name": "Large Plank Fence",
   "category": "structures",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "structures",
+    "wood",
+    "wooden",
+    "plank"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FenceWoodLarge_01/FenceWoodLarge_01.glb"

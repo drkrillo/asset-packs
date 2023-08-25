@@ -2,6 +2,17 @@
   "id": "775ae960-ad49-4c15-b451-f7123f9b7d92",
   "name": "Wooden & Iron Court Table",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "table",
+    "fabric",
+    "wood",
+    "wooden",
+    "iron",
+    "gold",
+    "golden",
+    "court"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Table_Wood_01/Table_Wood_01.glb"

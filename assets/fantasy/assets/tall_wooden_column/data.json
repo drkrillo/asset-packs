@@ -2,6 +2,13 @@
   "id": "1f1be6ab-cd9a-4dbf-bc67-1dfc71bec257",
   "name": "Tall Wooden Column",
   "category": "structures",
+  "tags": [
+    "fantasy",
+    "column",
+    "wood",
+    "wooden",
+    "iron"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Column_Vertical_Wood_Large/Column_Vertical_Wood_Large.glb"

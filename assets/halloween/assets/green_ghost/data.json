@@ -2,6 +2,7 @@
   "id": "0de00714-ff82-49d7-b66e-63daadaa760c",
   "name": "Green Ghost",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/HWN20_GreenGhost.glb"

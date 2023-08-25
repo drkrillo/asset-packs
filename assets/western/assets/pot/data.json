@@ -2,6 +2,7 @@
   "id": "5e0f9a3a-21f5-4394-bbdc-a5c0677f1280",
   "name": "Pot",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Pot.glb"

@@ -2,6 +2,7 @@
   "id": "9d570661-7bc1-4e20-b3f7-02fbc32ab968",
   "name": "Barrel",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Barrel.glb"

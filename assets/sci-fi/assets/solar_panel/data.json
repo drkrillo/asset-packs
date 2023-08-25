@@ -2,6 +2,14 @@
   "id": "fc1458e2-d886-4901-b3d2-21d003ea73c4",
   "name": "Solar Panel",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "tech",
+    "parts",
+    "power",
+    "energy",
+    "sun"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/SolarPanel_01/SolarPanel_01.glb"

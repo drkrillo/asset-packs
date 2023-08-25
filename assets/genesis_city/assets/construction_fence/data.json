@@ -2,6 +2,18 @@
   "id": "03635caa-b836-446a-9797-4850f1f668df",
   "name": "Construction Fence",
   "category": "structures",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "structures",
+    "construction",
+    "fence",
+    "wood",
+    "city",
+    "limit",
+    "limits"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/ConstructionFence_01/ConstructionFence_01.glb"

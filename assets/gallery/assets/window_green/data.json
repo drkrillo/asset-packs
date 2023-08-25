@@ -2,6 +2,7 @@
   "id": "2b0c22f3-263e-4ee5-a801-62a9d340c41e",
   "name": "Window - Green ",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/GreenWindow.glb"

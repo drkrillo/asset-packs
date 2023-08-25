@@ -2,6 +2,7 @@
   "id": "f002cd2b-68ad-4946-97ca-3c37d639ca35",
   "name": "Chest Plates",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Chest Plates.glb"

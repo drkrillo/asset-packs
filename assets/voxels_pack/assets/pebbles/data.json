@@ -2,6 +2,7 @@
   "id": "a2f47727-3f6c-4313-ae76-8034fafa2e5b",
   "name": "Pebbles",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/pebbles.glb"

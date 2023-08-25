@@ -2,6 +2,7 @@
   "id": "b59f4b8f-9634-4cb8-97ce-1927e1763c3c",
   "name": "Sushi Box 1",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Sushi_Box_1.glb"

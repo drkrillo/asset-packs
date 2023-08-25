@@ -2,6 +2,11 @@
   "id": "530c1d6f-25db-41dc-adad-887a5436c84e",
   "name": "Curly Magic Bean Sprout",
   "category": "nature",
+  "tags": [
+    "fantasy",
+    "swamp",
+    "forest"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Vegetation_05/Vegetation_05.glb"

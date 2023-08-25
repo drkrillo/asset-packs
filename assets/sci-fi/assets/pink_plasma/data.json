@@ -2,6 +2,12 @@
   "id": "839032cd-f3b0-4575-9eb5-c27f1923fc59",
   "name": "Pink Plasma",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "energy",
+    "supply",
+    "power"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/PlasmaPink_01/PlasmaPink_01.glb"

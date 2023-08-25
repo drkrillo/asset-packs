@@ -2,6 +2,7 @@
   "id": "1f249994-a5ab-450f-868e-d6625b1ed703",
   "name": "Chest Plates Key",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Chest Plates Key.glb"

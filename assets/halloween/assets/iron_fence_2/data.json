@@ -2,6 +2,7 @@
   "id": "7d219744-814d-4d9b-ae2f-9721725167ca",
   "name": "Iron Fence 2",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/HWN20_IronfFence_02.glb"

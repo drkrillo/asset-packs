@@ -2,6 +2,7 @@
   "id": "2030fe67-5e37-4aec-a76f-b35fd286e9ac",
   "name": "Wall - PlainGrey",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/PlainGreyWall.glb"

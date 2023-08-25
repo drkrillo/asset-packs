@@ -2,6 +2,14 @@
   "id": "6313daa6-7523-48f0-ad47-981be7eb77b5",
   "name": "Unlit Candle with Golden Holder",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "wax",
+    "unlit",
+    "light",
+    "gold",
+    "golden"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Candle_03/Candle_03.glb"

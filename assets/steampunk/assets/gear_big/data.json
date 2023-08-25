@@ -2,6 +2,7 @@
   "id": "bdfed959-cd8e-48bc-8146-ed2449bf19d7",
   "name": "Gear Big",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Gear Big.glb"

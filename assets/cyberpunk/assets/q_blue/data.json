@@ -2,6 +2,7 @@
   "id": "5a52edfb-848d-49c2-a4e1-04759c1c2522",
   "name": "Q Blue",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Q_Blue.glb"

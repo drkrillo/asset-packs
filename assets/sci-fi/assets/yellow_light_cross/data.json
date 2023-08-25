@@ -2,6 +2,13 @@
   "id": "668d0805-3e9d-447b-8d07-27d4862f4693",
   "name": "Yellow Light Cross",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "power",
+    "spark",
+    "base",
+    "spaceship"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/LightCross_01/LightCross_01.glb"

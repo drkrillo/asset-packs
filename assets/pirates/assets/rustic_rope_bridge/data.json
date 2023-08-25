@@ -2,6 +2,19 @@
   "id": "9bcc6035-2fe6-4588-88d6-c06e6d4e9c45",
   "name": "Rustic Rope Bridge",
   "category": "structures",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "structures",
+    "wood",
+    "wooden",
+    "dock",
+    "rope",
+    "ropes",
+    "pillar",
+    "pillars"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/DocksBridge_01/DocksBridge_01.glb"

@@ -2,6 +2,7 @@
   "id": "dd8af591-b663-40b0-abf5-8dc686bb80af",
   "name": "Roof - Yellow 4Edges",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/YellowRoof_4Edges.glb"

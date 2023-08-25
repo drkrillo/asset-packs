@@ -2,6 +2,11 @@
   "id": "ea601b6c-3d21-4c34-b4cb-620c7022d3a2",
   "name": "NO IMAGE",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "living",
+    "environment"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/GreenHouse_02/GreenHouse_02.glb"

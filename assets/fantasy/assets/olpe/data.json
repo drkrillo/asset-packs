@@ -2,6 +2,12 @@
   "id": "7d1c00d6-aebf-4ed7-b32f-286aceda7fbe",
   "name": "Olpe",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "vase",
+    "liquid",
+    "silver"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Vase_08/Vase_08.glb"

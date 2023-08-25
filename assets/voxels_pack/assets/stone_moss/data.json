@@ -2,6 +2,7 @@
   "id": "02de79e1-bd4b-4db1-8f1d-b5c8ae628f70",
   "name": "Stone - Moss",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/stone_moss.glb"

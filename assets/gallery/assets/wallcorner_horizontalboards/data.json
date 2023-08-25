@@ -2,6 +2,7 @@
   "id": "36bb5c1e-08d6-4f4d-854e-33a3d1b8e220",
   "name": "WallCorner - HorizontalBoards",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/HorizontalBoardCorner.glb"

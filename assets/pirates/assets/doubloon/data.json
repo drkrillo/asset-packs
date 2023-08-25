@@ -2,6 +2,15 @@
   "id": "f8ff05e0-60c2-4c8a-aee3-14796ef97509",
   "name": "Doubloon",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "gold",
+    "golden",
+    "coin"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Coin_01/Coin_01.glb"

@@ -2,6 +2,14 @@
   "id": "5c71060e-8d0f-4d06-be5c-d768d8029ef8",
   "name": "Yellow Magic Stone",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "yellow",
+    "crystal",
+    "gem",
+    "gemstone",
+    "stone"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Crystal_05/Crystal_05.glb"

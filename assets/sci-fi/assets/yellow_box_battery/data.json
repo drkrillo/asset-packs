@@ -2,6 +2,14 @@
   "id": "7eb2486f-1356-4e22-8140-cd0868aadf37",
   "name": "Yellow Box Battery",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "energy",
+    "power",
+    "supply",
+    "electricity",
+    "plasma"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Battery_02/Battery_02.glb"

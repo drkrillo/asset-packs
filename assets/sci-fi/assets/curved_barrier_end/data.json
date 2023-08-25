@@ -2,6 +2,12 @@
   "id": "a2feb0bb-a805-40ff-83fb-337785bf7eb3",
   "name": "Curved Barrier End",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "guard",
+    "wall",
+    "split"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Fence_End_01/Fence_End_01.glb"

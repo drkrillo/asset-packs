@@ -2,6 +2,17 @@
   "id": "3f7e1dbd-8693-409d-9dd9-2a06feaadec9",
   "name": "Small Palm Tree",
   "category": "nature",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "nature",
+    "fern",
+    "beach",
+    "foliage",
+    "plant",
+    "plants"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/JunglePlant_07/JunglePlant_07.glb"

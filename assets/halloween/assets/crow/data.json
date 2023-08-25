@@ -2,6 +2,7 @@
   "id": "91c3b6d4-5102-4203-ab79-3fd17d5b5900",
   "name": "Crow",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/HWN20_Crow.glb"

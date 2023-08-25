@@ -2,6 +2,7 @@
   "id": "c86d33be-a365-48f8-bffe-361b9049f2ed",
   "name": "Mines Car Track 3M V1",
   "category": "structures",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Mines Car Track 3M V1.glb"

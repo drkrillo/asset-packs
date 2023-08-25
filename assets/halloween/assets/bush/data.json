@@ -2,6 +2,7 @@
   "id": "b34ad4ca-db96-44fe-8fd6-86b4aa9f2218",
   "name": "Bush",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/HWN20_Bush.glb"

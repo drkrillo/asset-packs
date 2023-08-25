@@ -2,6 +2,17 @@
   "id": "afbfb027-3214-4b4d-9ee9-8031c2e470e5",
   "name": "Beach Fern",
   "category": "nature",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "nature",
+    "fern",
+    "beach",
+    "foliage",
+    "plant",
+    "plants"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Grass_01/Grass_01.glb"

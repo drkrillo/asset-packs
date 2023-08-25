@@ -2,6 +2,13 @@
   "id": "a875c61d-6c4c-4bb6-94eb-a0f2e1198661",
   "name": "Large Parquet Tile",
   "category": "tiles",
+  "tags": [
+    "fantasy",
+    "tile",
+    "wood",
+    "wooden",
+    "parquet"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Floor_Wood_4M/Floor_Wood_4M.glb"

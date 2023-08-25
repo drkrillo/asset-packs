@@ -2,6 +2,12 @@
   "id": "0bd5b981-2434-4078-85a3-83bc7e383430",
   "name": "Short Ramp",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "dock",
+    "port",
+    "metal"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Dock_Ramp_01/Dock_Ramp_01.glb"

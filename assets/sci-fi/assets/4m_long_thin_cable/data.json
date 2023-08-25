@@ -2,6 +2,13 @@
   "id": "ff916a0e-ea49-4cd5-a225-a3ad50652561",
   "name": "4M Long Thin Cable",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "energy",
+    "power",
+    "electricity",
+    "connectors"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Cable_4M_03/Cable_4M_03.glb"

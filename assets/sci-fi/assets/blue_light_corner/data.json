@@ -2,6 +2,13 @@
   "id": "0fbe386e-cc30-4ce9-8eb6-d78101ff090b",
   "name": "Blue Light Corner",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "power",
+    "spark",
+    "base",
+    "spaceship"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/LightCorner_02/LightCorner_02.glb"

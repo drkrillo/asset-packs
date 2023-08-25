@@ -2,6 +2,16 @@
   "id": "46afa743-3c66-4caa-ad28-3d970a0e553c",
   "name": "Cafe Street Sign",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decorations",
+    "cafe",
+    "street",
+    "city",
+    "sign"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Sign_02/Sign_02.glb"

@@ -2,6 +2,7 @@
   "id": "6d7cc92e-dc56-452e-bc0e-a5797d762e8f",
   "name": "Tree Fence",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Tree Fence.glb"

@@ -2,6 +2,7 @@
   "id": "2f3a96d8-aaff-47c5-8efa-fb0b87c02671",
   "name": "Roof - Cream 3Edges Small",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/CreamRoof_3Edges_Small.glb"

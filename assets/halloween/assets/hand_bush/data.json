@@ -2,6 +2,7 @@
   "id": "41ef014f-47ce-4932-97d2-32bfcaa80063",
   "name": "Hand Bush",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/HWN20_HandBush.glb"

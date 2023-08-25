@@ -2,6 +2,16 @@
   "id": "bf08e109-d3ef-42d2-8691-7817449a8a3d",
   "name": "Rug",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decoration",
+    "rug",
+    "carpet",
+    "brown",
+    "old"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Carpet_03/Carpet_03.glb"

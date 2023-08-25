@@ -2,6 +2,13 @@
   "id": "1a9a22d6-e8ea-4b49-a542-b86261eba8c0",
   "name": "Wild Mushroom",
   "category": "nature",
+  "tags": [
+    "fantasy",
+    "mushroom",
+    "herb",
+    "forest",
+    "ingredient"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Mushrooms_01/Mushrooms_01.glb"

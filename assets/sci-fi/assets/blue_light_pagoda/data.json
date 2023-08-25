@@ -2,6 +2,13 @@
   "id": "d9bd15c5-8c18-44bc-a574-1aeff9c8e580",
   "name": "Blue Light Pagoda",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "power",
+    "spark",
+    "base",
+    "spaceship"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/LightCylinder_02/LightCylinder_02.glb"

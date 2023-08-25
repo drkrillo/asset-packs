@@ -2,6 +2,17 @@
   "id": "9433feab-9fb4-43e3-b64d-6f6a0c43bb67",
   "name": "Beachgrass",
   "category": "nature",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "nature",
+    "fern",
+    "beach",
+    "foliage",
+    "plant",
+    "plants"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Grass_05/Grass_05.glb"

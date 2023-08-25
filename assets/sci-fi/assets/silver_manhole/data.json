@@ -2,6 +2,12 @@
   "id": "6cc07461-a2b1-4f04-bb5b-b35ffdfb3322",
   "name": "Silver Manhole",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "spaceship",
+    "base",
+    "hole"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Manhole_01/Manhole_01.glb"

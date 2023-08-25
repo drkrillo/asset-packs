@@ -2,6 +2,7 @@
   "id": "3c50f13b-5869-4190-abf1-92efa727b0fa",
   "name": "Cart Small 1",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Cart Small 1.glb"

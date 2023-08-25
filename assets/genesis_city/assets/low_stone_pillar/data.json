@@ -2,6 +2,18 @@
   "id": "29df1bf7-2421-4e42-aafd-b448aa1f17d1",
   "name": "Low Stone Pillar",
   "category": "structures",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "structures",
+    "stone",
+    "pilar",
+    "statue",
+    "garden",
+    "park",
+    "wall"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FenceStonePillar_01/FenceStonePillar_01.glb"

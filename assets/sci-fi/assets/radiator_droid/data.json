@@ -2,6 +2,11 @@
   "id": "934550f8-49fd-4999-b0d5-aa461945e293",
   "name": "Radiator Droid",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "robot",
+    "tech"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Droid_02/Droid_02.glb"

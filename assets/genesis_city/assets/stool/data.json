@@ -2,6 +2,14 @@
   "id": "9ffe3ab2-e17a-4aab-8959-34e62791d084",
   "name": "Stool",
   "category": "furniture",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "furniture",
+    "wood",
+    "seat"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Bench_02/Bench_02.glb"

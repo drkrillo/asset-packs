@@ -2,6 +2,7 @@
   "id": "17d41c8d-abe2-42b4-a08e-742657130081",
   "name": "Stone Bricks - Moss",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/concrete_moss.glb"

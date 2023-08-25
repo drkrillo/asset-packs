@@ -2,6 +2,17 @@
   "id": "ce45a1a0-7021-4428-b56f-cd60bdcb7dac",
   "name": "Big Stone",
   "category": "nature",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "nature",
+    "rock",
+    "rocks",
+    "stone",
+    "stones",
+    "forest"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/RockLarge_03/RockLarge_03.glb"

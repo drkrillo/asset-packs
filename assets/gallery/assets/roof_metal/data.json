@@ -2,6 +2,7 @@
   "id": "771b5aa0-e9c9-4bde-829f-f8cbca8d185c",
   "name": "Roof - Metal",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/MetalRoof.glb"

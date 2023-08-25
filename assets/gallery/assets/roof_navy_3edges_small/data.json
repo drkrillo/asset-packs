@@ -2,6 +2,7 @@
   "id": "dfc8158b-1d99-442d-9512-61b9c6a3f31a",
   "name": "Roof - Navy 3Edges Small",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/NavyRoof_3Edges_Small.glb"

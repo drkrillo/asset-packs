@@ -2,6 +2,16 @@
   "id": "83cbcb52-39b3-4b24-b3e0-01f30fb8f872",
   "name": "Wooden Tavern Table",
   "category": "furniture",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "furniture",
+    "wood",
+    "wooden",
+    "table",
+    "rectangular"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/TableWood_01/TableWood_01.glb"

@@ -2,6 +2,11 @@
   "id": "64e0ce7a-4eff-4ced-9f6b-48c304ab03e6",
   "name": "Fatsia",
   "category": "nature",
+  "tags": [
+    "fantasy",
+    "swamp",
+    "forest"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Vegetation_10/Vegetation_10.glb"

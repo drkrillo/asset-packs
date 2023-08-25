@@ -2,6 +2,16 @@
   "id": "1293e8b4-4b43-42ac-aa63-7a43fcc8789c",
   "name": "Pebble",
   "category": "nature",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "nature",
+    "rock",
+    "stone",
+    "rock",
+    "stones"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Pebble_01/Pebble_01.glb"

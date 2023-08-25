@@ -2,6 +2,12 @@
   "id": "d4f3489d-e228-4145-9bd6-18d696779f6b",
   "name": "Bookshelf Bench",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "booksheld",
+    "bench",
+    "sit"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Shelf_03/Shelf_03.glb"

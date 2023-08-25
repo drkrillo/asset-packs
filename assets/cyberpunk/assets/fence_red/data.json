@@ -2,6 +2,7 @@
   "id": "2cd19012-2579-4ed1-8e2f-1c988643bf1d",
   "name": "Fence - Red",
   "category": "structures",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Fence_Red.glb"

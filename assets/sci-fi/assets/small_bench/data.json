@@ -2,6 +2,13 @@
   "id": "d6cdb5cd-2413-423a-8859-e7a3b0281971",
   "name": "Small Bench",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "lab",
+    "table",
+    "work",
+    "tools"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/BenchSmall_01/BenchSmall_01.glb"

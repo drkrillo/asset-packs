@@ -2,6 +2,7 @@
   "id": "72f9b185-9fde-469c-8b57-899e5f89b18e",
   "name": "Doorframe - Navy",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/NavyDoorframe.glb"

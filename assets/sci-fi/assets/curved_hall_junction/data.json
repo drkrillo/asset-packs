@@ -2,6 +2,11 @@
   "id": "ec5d61c9-22b2-483f-81a7-46c02f582a9f",
   "name": "Curved Hall Junction",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "alien",
+    "base"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Hallway_Module_Curve_01/Hallway_Module_Curve_01.glb"

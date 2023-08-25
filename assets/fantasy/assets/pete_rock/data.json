@@ -2,6 +2,15 @@
   "id": "64f4b43f-1d08-4732-b940-5348659b9dca",
   "name": "Pete Rock",
   "category": "nature",
+  "tags": [
+    "fantasy",
+    "nature",
+    "stone",
+    "stones",
+    "rock",
+    "rocks",
+    "forest"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Rock_02/Rock_02.glb"

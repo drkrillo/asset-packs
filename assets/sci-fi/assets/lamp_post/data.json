@@ -2,6 +2,11 @@
   "id": "ac343262-ae62-45d1-8f17-0e01a9591992",
   "name": "Lamp Post",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "light",
+    "tall"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/LampPostSciFi_01/LampPostSciFi_01.glb"

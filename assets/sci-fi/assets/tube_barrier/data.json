@@ -2,6 +2,12 @@
   "id": "476ec838-a599-4450-a17c-5f0ba75bfd9e",
   "name": "Tube Barrier",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "guard",
+    "wall",
+    "split"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Fence_01/Fence_01.glb"

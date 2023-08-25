@@ -2,6 +2,15 @@
   "id": "0d66b548-6238-4df3-9dc8-d305aa60c729",
   "name": "Rock Hudson",
   "category": "nature",
+  "tags": [
+    "fantasy",
+    "nature",
+    "stone",
+    "stones",
+    "rock",
+    "rocks",
+    "forest"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Rock_05/Rock_05.glb"

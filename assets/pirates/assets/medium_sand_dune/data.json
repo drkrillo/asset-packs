@@ -2,6 +2,15 @@
   "id": "e6178652-a715-4375-bd6e-d692d49beaab",
   "name": "Medium Sand Dune",
   "category": "nature",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "nature",
+    "sand",
+    "dune",
+    "beach"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/SandPatchMedium_01/SandPatchMedium_01.glb"

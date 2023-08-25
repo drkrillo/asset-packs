@@ -2,6 +2,17 @@
   "id": "b4c64a17-c3b8-45b6-bd60-6a90a79834ac",
   "name": "The Fountain of Purity",
   "category": "structures",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "structures",
+    "stone",
+    "water",
+    "tiered",
+    "fountain",
+    "plaza"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Fountain_02/Fountain_02.glb"

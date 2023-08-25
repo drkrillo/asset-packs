@@ -2,6 +2,11 @@
   "id": "ef826d89-431b-4134-9020-f35e689be497",
   "name": "Blue Potion",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "bottle",
+    "potion"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Potion_02/Potion_02.glb"

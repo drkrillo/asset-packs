@@ -2,6 +2,12 @@
   "id": "4dde5a29-b4a7-48dd-87b9-4cc7101b61e4",
   "name": "Stairs",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "dock",
+    "port",
+    "metal"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Dock_Stair_01/Dock_Stair_01.glb"

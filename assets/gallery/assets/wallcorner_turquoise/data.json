@@ -2,6 +2,7 @@
   "id": "97528a96-bab1-4e26-9a3b-b82bb71e5222",
   "name": "WallCorner - Turquoise ",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/TurquoiseCorner.glb"

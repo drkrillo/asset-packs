@@ -2,6 +2,16 @@
   "id": "66e51890-1a70-48cb-af0a-20fa115882f6",
   "name": "Softwood Bridge",
   "category": "structures",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "structures",
+    "wood",
+    "bridge",
+    "river",
+    "water"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Bridge_02/Bridge_02.glb"

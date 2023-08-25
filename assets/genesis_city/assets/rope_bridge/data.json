@@ -2,6 +2,18 @@
   "id": "5778e895-b89c-4d86-9cd5-ca958d39692c",
   "name": "Rope Bridge",
   "category": "structures",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "structures",
+    "wood",
+    "bridge",
+    "river",
+    "water",
+    "rope",
+    "jungle"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Bridge_05/Bridge_05.glb"

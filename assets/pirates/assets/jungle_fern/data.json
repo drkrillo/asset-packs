@@ -2,6 +2,17 @@
   "id": "3a4e677f-88c7-4616-bbf0-9a97055463d6",
   "name": "Jungle Fern",
   "category": "nature",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "nature",
+    "fern",
+    "beach",
+    "foliage",
+    "plant",
+    "plants"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/JunglePlant_01/JunglePlant_01.glb"

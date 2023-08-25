@@ -2,6 +2,12 @@
   "id": "46fdf728-788a-487d-8249-6d59ab1c6322",
   "name": "Uneven Stone Tile",
   "category": "tiles",
+  "tags": [
+    "fantasy",
+    "tile",
+    "stone",
+    "path"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Stone_Tile_01/Stone_Tile_01.glb"

@@ -2,6 +2,7 @@
   "id": "d6343681-cf7c-4439-a5c7-55bbd3a722a6",
   "name": "Roof - Blue 3Edges Small",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/BlueRoof_3Edges_Small.glb"

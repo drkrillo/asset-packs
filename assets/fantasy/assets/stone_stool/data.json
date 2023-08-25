@@ -2,6 +2,13 @@
   "id": "3402611d-3fc7-40f1-92cd-6fdb6044e3a6",
   "name": "Stone Stool",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "stool",
+    "chair",
+    "stone",
+    "rune"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Chair_Rock_01/Chair_Rock_01.glb"

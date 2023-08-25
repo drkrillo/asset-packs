@@ -2,6 +2,13 @@
   "id": "e278708b-97ac-4a02-898a-1344ac78a950",
   "name": "Small Stone Floor",
   "category": "tiles",
+  "tags": [
+    "fantasy",
+    "stone",
+    "floor",
+    "path",
+    "tile"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Stone_Module_1M/Stone_Module_1M.glb"

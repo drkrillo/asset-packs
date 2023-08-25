@@ -2,6 +2,7 @@
   "id": "27bf041e-3b08-4c06-ab1a-751a39ba4678",
   "name": "WallCorner - Futuristic ",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FuturisticCorner.glb"

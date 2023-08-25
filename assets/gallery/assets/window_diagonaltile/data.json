@@ -2,6 +2,7 @@
   "id": "0e4b51c0-4177-418f-977a-a609fbd9f689",
   "name": "Window - DiagonalTile ",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/DiagonalTileWindow.glb"

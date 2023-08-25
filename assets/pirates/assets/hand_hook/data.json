@@ -2,6 +2,18 @@
   "id": "609d2bea-408b-43b6-bd1e-1fbbf05bc73c",
   "name": "Hand Hook",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "hook",
+    "hand",
+    "golden",
+    "gold",
+    "wood",
+    "tool"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Hook_01/Hook_01.glb"

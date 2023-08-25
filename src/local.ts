@@ -107,11 +107,12 @@ export class LocalFileSystem {
     const assetsPath = this.getAssetsPath(assetPack.title)
     await createDirectory(assetsPath)
     const assetPath = await this.getAvailableAssetPath(assetPack, asset)
-    const { id, name, category, model } = asset
+    const { id, name, category, model, tags } = asset
     const data: AssetData = {
       id,
       name,
       category,
+      tags,
       components: {
         'core::GltfContainer': {
           src: `{assetPath}/${model}`,

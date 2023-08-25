@@ -2,6 +2,7 @@
   "id": "1a4b02fe-894d-41c2-a5ee-5715e4ad4b3f",
   "name": "Window - CorrugatedMetal ",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/CorrugatedMetalWindow.glb"

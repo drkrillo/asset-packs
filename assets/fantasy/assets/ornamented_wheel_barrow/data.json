@@ -2,6 +2,15 @@
   "id": "91e7693c-f26a-49aa-90b7-bab50e045e09",
   "name": "Ornamented Wheel Barrow",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "wood",
+    "wooden",
+    "iron",
+    "wheel",
+    "golden",
+    "gold"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/WheelBarrow_01/WheelBarrow_01.glb"

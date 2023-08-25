@@ -2,6 +2,12 @@
   "id": "82a8f521-ea30-4fba-b91f-840b2658779d",
   "name": "Dirt Mound",
   "category": "nature",
+  "tags": [
+    "scifi",
+    "space",
+    "planet",
+    "soil"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Dirt_03/Dirt_03.glb"

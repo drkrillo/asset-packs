@@ -2,6 +2,17 @@
   "id": "d6ba84b2-3474-43dc-879d-2d3d70fb4f82",
   "name": "Medium Street Curbs ",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decoration",
+    "street",
+    "sidewalk",
+    "curb",
+    "curbs",
+    "city"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/StreetCordMedium_01/StreetCordMedium_01.glb"

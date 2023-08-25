@@ -2,6 +2,12 @@
   "id": "614f3ed5-6524-4c86-96ff-e94eee731ee9",
   "name": "Command Console",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "spaceship",
+    "parts",
+    "computer"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/CommandControl_01/CommandControl_01.glb"

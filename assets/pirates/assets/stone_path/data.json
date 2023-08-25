@@ -2,6 +2,16 @@
   "id": "1aa57826-1afe-466c-ab11-afd5f0df702c",
   "name": "Stone Path",
   "category": "tiles",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "tiles",
+    "cobblestones",
+    "stone",
+    "stones",
+    "path"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/StonePath_01/StonePath_01.glb"

@@ -2,6 +2,11 @@
   "id": "448e5567-b94f-43c2-bd71-3478571452eb",
   "name": "Rose Stone",
   "category": "nature",
+  "tags": [
+    "scifi",
+    "rock",
+    "planet"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Stone_02/Stone_02.glb"

@@ -2,6 +2,17 @@
   "id": "a274429d-c05a-4964-9cee-9a0bb241e89e",
   "name": "Flat Medium Stone",
   "category": "nature",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "nature",
+    "rock",
+    "rocks",
+    "stone",
+    "stones",
+    "forest"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/RockMedium_03/RockMedium_03.glb"

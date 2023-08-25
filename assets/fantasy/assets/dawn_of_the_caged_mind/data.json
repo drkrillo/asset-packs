@@ -2,6 +2,13 @@
   "id": "9eeca876-94d9-4e89-8780-55586a7151ed",
   "name": "Dawn of the Caged Mind",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "book",
+    "codex",
+    "knowledge",
+    "shelf"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Book_04/Book_04.glb"

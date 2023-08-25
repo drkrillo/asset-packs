@@ -2,6 +2,7 @@
   "id": "dc4ce13c-875c-4a3d-bf2c-098dcb7f55f4",
   "name": "Deck 3M",
   "category": "structures",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Deck 3M.glb"

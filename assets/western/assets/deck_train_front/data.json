@@ -2,6 +2,7 @@
   "id": "f786d966-13ae-4eee-9760-ed09488cdb9e",
   "name": "Deck Train Front",
   "category": "structures",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Deck Train Front.glb"

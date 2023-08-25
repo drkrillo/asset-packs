@@ -2,6 +2,12 @@
   "id": "d2d2febd-e168-4127-b432-50164e5e0c84",
   "name": "Upright Work Table",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "base",
+    "tool",
+    "work"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/TableSciFi_01/TableSciFi_01.glb"

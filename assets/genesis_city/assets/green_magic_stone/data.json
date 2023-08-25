@@ -2,6 +2,18 @@
   "id": "73a85586-d161-47e1-bc40-725e00a73813",
   "name": "Green Magic Stone ",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decoration",
+    "green",
+    "rock",
+    "rocks",
+    "stone",
+    "stones",
+    "magic"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/SpiralStone_01/SpiralStone_01.glb"

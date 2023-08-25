@@ -2,6 +2,16 @@
   "id": "19c95897-1a48-4028-91ab-9b5016646ac3",
   "name": "Bookshelf",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "book",
+    "codex",
+    "knowledge",
+    "bookshelf",
+    "wood",
+    "wooden",
+    "nails"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Shelf_02/Shelf_02.glb"

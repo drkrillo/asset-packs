@@ -2,6 +2,7 @@
   "id": "c7015da9-0ffc-4359-997a-94b06d3654ac",
   "name": "Road Cobble T Short",
   "category": "tiles",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Road Cobble T Short.glb"

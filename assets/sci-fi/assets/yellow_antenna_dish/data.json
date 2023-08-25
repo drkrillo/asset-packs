@@ -2,6 +2,14 @@
   "id": "aee6bb97-fb50-4a29-b486-4aa7b9481a41",
   "name": "Yellow Antenna Dish",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "antenna",
+    "communications",
+    "comms",
+    "radar",
+    "dish"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Antenna_01/Antenna_01.glb"

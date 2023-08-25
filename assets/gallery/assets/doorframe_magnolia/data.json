@@ -2,6 +2,7 @@
   "id": "4c05f8b6-7bc5-4413-826a-f9b006d3b92d",
   "name": "Doorframe - Magnolia",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/MagnoliaDoorframe.glb"

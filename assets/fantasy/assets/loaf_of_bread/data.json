@@ -2,6 +2,13 @@
   "id": "61154191-52cb-4c51-8a34-17fabfbfc040",
   "name": "Loaf of Bread",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "meal",
+    "bread",
+    "table",
+    "banquet"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Bread_01/Bread_01.glb"

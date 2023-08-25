@@ -2,6 +2,17 @@
   "id": "78749cba-fbfe-4cd7-bd09-8e1229cc1e6c",
   "name": "Wooden Paddle",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "wood",
+    "wooden",
+    "boat",
+    "water",
+    "paddle"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/BoatPaddle_01/BoatPaddle_01.glb"

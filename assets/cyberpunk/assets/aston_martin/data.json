@@ -2,6 +2,7 @@
   "id": "69a1b4aa-d3c1-4fbe-84fa-0206e357795b",
   "name": "Aston Martin",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Aston_Martin.glb"

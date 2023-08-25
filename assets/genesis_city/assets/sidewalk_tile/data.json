@@ -2,6 +2,17 @@
   "id": "9e52d29e-d70c-4dc2-9cff-80cfc2771b58",
   "name": "Sidewalk Tile",
   "category": "tiles",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "floors",
+    "blue",
+    "path",
+    "sidewalk",
+    "city",
+    "tile"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FloorBlock_01/FloorBlock_01.glb"

@@ -16,6 +16,7 @@ export type AssetData = {
   id: string
   name: string
   category: string
+  tags: string[]
   components: Record<string, any>
 }
 

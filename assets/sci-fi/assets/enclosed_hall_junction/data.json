@@ -2,6 +2,11 @@
   "id": "506287b3-c449-4e13-8c1f-705ffd14cb66",
   "name": "Enclosed Hall Junction",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "alien",
+    "base"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Hallway_Big_Module_01/Hallway_Big_Module_01.glb"

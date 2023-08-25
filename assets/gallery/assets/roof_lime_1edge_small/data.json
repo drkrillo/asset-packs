@@ -2,6 +2,7 @@
   "id": "32ff9402-7af2-4884-ab67-87a5ec8c502f",
   "name": "Roof - Lime 1Edge Small",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/LimeRoof_1Edge_Small.glb"

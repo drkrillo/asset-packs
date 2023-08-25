@@ -2,6 +2,13 @@
   "id": "17c0a664-226e-46d7-a983-9539109340ca",
   "name": "Wooden Spike",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "wood",
+    "wooden",
+    "spike",
+    "iron"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/WoodSpike_01/WoodSpike_01.glb"

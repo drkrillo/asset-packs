@@ -2,6 +2,18 @@
   "id": "283aa4d0-64a3-499a-9bce-f653427e2b23",
   "name": "Spear",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "wood",
+    "wooden",
+    "iron",
+    "spear",
+    "leather",
+    "weapon"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Spear_01/Spear_01.glb"

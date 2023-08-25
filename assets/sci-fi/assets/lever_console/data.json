@@ -2,6 +2,12 @@
   "id": "0e958747-8737-4b17-962b-1c26b8423446",
   "name": "Lever Console",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "trigger",
+    "button",
+    "enable"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Lever_01/Lever_01.glb"

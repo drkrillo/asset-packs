@@ -2,6 +2,12 @@
   "id": "8ab2e6c4-b415-4690-8290-6fd3c505961e",
   "name": "Disc Comet",
   "category": "nature",
+  "tags": [
+    "scifi",
+    "rock",
+    "space",
+    "cosmic"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Comet_03/Comet_03.glb"

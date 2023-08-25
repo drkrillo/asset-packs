@@ -2,6 +2,18 @@
   "id": "1a2ce913-4f5f-4f72-9974-b2878b65505a",
   "name": "Stone Pillar",
   "category": "structures",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "structures",
+    "stone",
+    "pillar",
+    "column",
+    "garden",
+    "park",
+    "wall"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FenceStonePillarTall_01/FenceStonePillarTall_01.glb"

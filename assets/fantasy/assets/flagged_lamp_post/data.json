@@ -2,6 +2,16 @@
   "id": "9670c079-a471-4e4b-b56f-80f8eccffffc",
   "name": "Flagged Lamp post",
   "category": "structures",
+  "tags": [
+    "fantasy",
+    "iron",
+    "wood",
+    "wooden",
+    "flag",
+    "banner",
+    "lamp",
+    "post"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FlagPole_01/FlagPole_01.glb"

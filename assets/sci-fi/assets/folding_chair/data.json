@@ -2,6 +2,11 @@
   "id": "e31c1ffb-0712-44f5-9e55-b74a73d077d4",
   "name": "Folding Chair",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "spaceship",
+    "parts"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Chair_01/Chair_01.glb"

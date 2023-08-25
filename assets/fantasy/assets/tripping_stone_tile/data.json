@@ -2,6 +2,12 @@
   "id": "71c793d9-34c2-409d-91da-3145cf16c73d",
   "name": "Tripping Stone Tile",
   "category": "tiles",
+  "tags": [
+    "fantasy",
+    "tile",
+    "stone",
+    "path"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Stone_Tile_02/Stone_Tile_02.glb"

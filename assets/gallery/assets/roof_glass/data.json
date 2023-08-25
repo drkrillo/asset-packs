@@ -2,6 +2,7 @@
   "id": "af9aa90e-f9bf-4363-bb8b-447c15ef908e",
   "name": "Roof - Glass",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/GlassRoof.glb"

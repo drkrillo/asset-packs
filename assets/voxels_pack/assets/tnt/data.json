@@ -2,6 +2,7 @@
   "id": "06d9804d-51d5-4857-b022-cefbf1b7398f",
   "name": "TNT",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/tnt.glb"

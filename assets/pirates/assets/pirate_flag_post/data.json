@@ -2,6 +2,18 @@
   "id": "8f74cc59-965a-4ba7-a572-4e68735ff083",
   "name": "Pirate Flag Post",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "wood",
+    "wooden",
+    "post",
+    "flag",
+    "skull",
+    "paint",
+    "painted"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Flag_01/Flag_01.glb"

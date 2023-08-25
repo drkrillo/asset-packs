@@ -2,6 +2,12 @@
   "id": "890b7073-9d2c-4090-a23b-52729d53df9e",
   "name": "Wooden Chest Lid",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "chest",
+    "wood",
+    "wooden"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Chest_Top_01/Chest_Top_01.glb"

@@ -2,6 +2,7 @@
   "id": "3cb8e3d5-db5a-4a85-82c0-9632faec57e8",
   "name": "Pillar - Antique",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/AntiquePillar.glb"

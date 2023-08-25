@@ -2,6 +2,7 @@
   "id": "5a18447e-7f42-47e8-b0e4-0447dbc07f2a",
   "name": "Cistern",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Cistern.glb"

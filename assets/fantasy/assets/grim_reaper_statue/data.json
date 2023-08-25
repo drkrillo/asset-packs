@@ -2,6 +2,14 @@
   "id": "88536537-c354-498c-8091-cefc6a586522",
   "name": "Grim Reaper Statue",
   "category": "structures",
+  "tags": [
+    "fantasy",
+    "grim",
+    "reaper",
+    "dead",
+    "statue",
+    "forest"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Statue_01/Statue_01.glb"

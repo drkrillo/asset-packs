@@ -2,6 +2,14 @@
   "id": "36a55a04-ae4a-4559-83f2-160f70e788cc",
   "name": "Blue Antenna Dish",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "antenna",
+    "communications",
+    "comms",
+    "radar",
+    "dish"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Antenna_02/Antenna_02.glb"

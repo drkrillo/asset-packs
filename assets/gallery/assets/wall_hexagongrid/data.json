@@ -2,6 +2,7 @@
   "id": "59fecc02-0949-4feb-9501-f4279744b57e",
   "name": "Wall - HexagonGrid",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/HexagonGridWall.glb"

@@ -2,6 +2,18 @@
   "id": "fee59c38-29ec-471e-ae6d-48bc9b799991",
   "name": "Medium Iron Fence",
   "category": "structures",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "structures",
+    "fence",
+    "fences",
+    "metal",
+    "iron",
+    "park",
+    "garden"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FenceIronMedium_01/FenceIronMedium_01.glb"

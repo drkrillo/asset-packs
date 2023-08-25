@@ -2,6 +2,15 @@
   "id": "38a12f38-e389-49b8-bdfb-1d6823ab894b",
   "name": "The Rock",
   "category": "nature",
+  "tags": [
+    "fantasy",
+    "nature",
+    "stone",
+    "stones",
+    "rock",
+    "rocks",
+    "forest"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Rock_04/Rock_04.glb"

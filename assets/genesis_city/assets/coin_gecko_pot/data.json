@@ -2,6 +2,17 @@
   "id": "19ff62b6-e28c-491f-b2eb-8118f2e429a7",
   "name": "Coin Gecko Pot",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decoration",
+    "pot",
+    "coin",
+    "gecko",
+    "coingecko",
+    "crypto"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/GeckoBush_01/GeckoBush_01.glb"

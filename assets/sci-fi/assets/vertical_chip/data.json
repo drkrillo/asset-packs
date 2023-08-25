@@ -2,6 +2,12 @@
   "id": "f3adb04b-4342-4f2d-b3c0-00e3f3c0882d",
   "name": "Vertical Chip",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "parts",
+    "computer",
+    "electric"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Chip_03/Chip_03.glb"

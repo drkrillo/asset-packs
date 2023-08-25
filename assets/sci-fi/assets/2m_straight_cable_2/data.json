@@ -2,6 +2,13 @@
   "id": "bc94d528-40e2-48c5-80e4-08bad2a4be22",
   "name": "2M Straight Cable",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "energy",
+    "power",
+    "electricity",
+    "connectors"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Cable_2M_01/Cable_2M_01.glb"

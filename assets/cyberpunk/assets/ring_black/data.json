@@ -2,6 +2,7 @@
   "id": "6ad03769-b1d4-42d1-87f0-988f1993feba",
   "name": "Ring - Black",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Ring_Black.glb"

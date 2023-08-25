@@ -2,6 +2,12 @@
   "id": "6294758b-d426-46d9-af0f-b93db469da61",
   "name": "Sensor",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "tech",
+    "comms",
+    "detector"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Sensor_01/Sensor_01.glb"

@@ -2,6 +2,7 @@
   "id": "643b8abe-0682-464f-a8be-17a0a755f2c1",
   "name": "WallCorner - HexagonGrid ",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/HexagonGridCorner.glb"

@@ -2,6 +2,7 @@
   "id": "61ded0a2-3594-4956-8fc1-15055f66ca57",
   "name": "Deck 6M v07",
   "category": "structures",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Deck 6M v07.glb"

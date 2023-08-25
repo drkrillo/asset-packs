@@ -2,6 +2,13 @@
   "id": "acda2c22-f93a-4cf6-96ab-6e882edbedb2",
   "name": "Curved Cable Adapter",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "energy",
+    "power",
+    "electricity",
+    "connectors"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Cable_Adapter_02/Cable_Adapter_02.glb"

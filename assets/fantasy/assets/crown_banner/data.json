@@ -2,6 +2,12 @@
   "id": "e11927ea-d51f-472a-8425-d96d5be2ddd4",
   "name": "Crown Banner",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "banner",
+    "fabric",
+    "crown"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FlagPole_02/FlagPole_02.glb"

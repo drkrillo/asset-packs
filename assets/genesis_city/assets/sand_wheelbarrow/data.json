@@ -2,6 +2,16 @@
   "id": "56723983-b854-4a16-822a-70c528054372",
   "name": "Sand Wheelbarrow",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decoration",
+    "sand",
+    "wheel",
+    "wheels",
+    "construction"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Wheelbarrow_01/Wheelbarrow_01.glb"

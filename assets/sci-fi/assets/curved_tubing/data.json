@@ -2,6 +2,10 @@
   "id": "a9e25035-2baf-4f08-a077-a097d336c201",
   "name": "Curved Tubing",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "tube"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/TubePiece_03/TubePiece_03.glb"

@@ -2,6 +2,17 @@
   "id": "55b53f11-5bff-4176-8ac8-bbf078ff99f9",
   "name": "Big Flat Rock",
   "category": "nature",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "nature",
+    "rock",
+    "rocks",
+    "stone",
+    "stones",
+    "forest"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/RockLarge_02/RockLarge_02.glb"

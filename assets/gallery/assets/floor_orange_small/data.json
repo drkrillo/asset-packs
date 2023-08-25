@@ -2,6 +2,7 @@
   "id": "3061e010-741d-49ab-900a-b5ac854587e1",
   "name": "Floor - Orange Small",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/OrangeFloor_Small.glb"

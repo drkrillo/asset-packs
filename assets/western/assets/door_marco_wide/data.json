@@ -2,6 +2,7 @@
   "id": "d67b0bd3-e67c-4300-b8eb-c1de93d5d127",
   "name": "Door Marco Wide",
   "category": "structures",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Door Marco Wide.glb"

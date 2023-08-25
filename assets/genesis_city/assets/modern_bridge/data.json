@@ -2,6 +2,18 @@
   "id": "0520e968-0399-47ac-919c-612b20a96930",
   "name": "Modern Bridge",
   "category": "structures",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "structures",
+    "bridge",
+    "river",
+    "water",
+    "rail",
+    "railing",
+    "city"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Bridge_06/Bridge_06.glb"

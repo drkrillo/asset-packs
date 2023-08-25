@@ -2,6 +2,7 @@
   "id": "8153ae37-4d0a-4c51-982c-2dfedf7a8c29",
   "name": "Sushi - Two Boxes",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Two_Boxes_Sushi.glb"

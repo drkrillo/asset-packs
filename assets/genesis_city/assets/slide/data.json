@@ -2,6 +2,17 @@
   "id": "34e36e9f-1cc5-49a1-8143-fcf04999e0b7",
   "name": "Slide",
   "category": "structures",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "structures",
+    "playground",
+    "park",
+    "yard",
+    "backyard",
+    "slide"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/PlaygroundSlide_01/PlaygroundSlide_01.glb"

@@ -2,6 +2,7 @@
   "id": "f9863493-ba4d-4613-9656-160dabf485dd",
   "name": "Stones - Pale",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/stones_loght.glb"

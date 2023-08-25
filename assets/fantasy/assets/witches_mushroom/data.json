@@ -2,6 +2,13 @@
   "id": "84945b46-5ff5-4a09-a5cb-c10781b1a028",
   "name": "Witches Mushroom",
   "category": "nature",
+  "tags": [
+    "fantasy",
+    "mushroom",
+    "herb",
+    "forest",
+    "ingredient"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Mushrooms_03/Mushrooms_03.glb"

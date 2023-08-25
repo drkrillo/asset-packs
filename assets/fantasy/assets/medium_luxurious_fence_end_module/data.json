@@ -2,6 +2,14 @@
   "id": "2701826b-dadf-44d2-9cfa-9bbcb3c9169e",
   "name": "Medium Luxurious Fence End Module",
   "category": "structures",
+  "tags": [
+    "fantasy",
+    "fence",
+    "stone",
+    "gold",
+    "module",
+    "end"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Fence_Stone_End/Fence_Stone_End.glb"

@@ -2,6 +2,12 @@
   "id": "ad1bad2f-4fdd-47e3-8df0-d0ffe756e38c",
   "name": "Silver Knife",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "silver",
+    "knife",
+    "tableware"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Knife_01/Knife_01.glb"

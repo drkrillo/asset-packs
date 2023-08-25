@@ -2,6 +2,19 @@
   "id": "a87ac70c-0622-4c0b-8050-8dfbfdff6d2d",
   "name": "Round shot",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "iron",
+    "sphere",
+    "round",
+    "rounded",
+    "ammunition",
+    "shot",
+    "cannon"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Cannonball_01/Cannonball_01.glb"

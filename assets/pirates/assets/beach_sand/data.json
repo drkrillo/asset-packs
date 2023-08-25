@@ -2,6 +2,12 @@
   "id": "0ee02d9e-7d23-42d9-a0c9-e1394ac0a98a",
   "name": "Beach Sand",
   "category": "ground",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "ground"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FloorBaseSand_01/FloorBaseSand_01.glb"

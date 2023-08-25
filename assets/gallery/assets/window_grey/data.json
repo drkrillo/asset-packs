@@ -2,6 +2,7 @@
   "id": "80efb2be-83ca-4d7e-9103-bbc598a8826a",
   "name": "Window - Grey ",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/GreyWindow.glb"

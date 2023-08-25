@@ -2,6 +2,14 @@
   "id": "71887407-e785-402b-a0e5-9096d8410d1b",
   "name": "Rhino-Horn Stalagmite",
   "category": "nature",
+  "tags": [
+    "fantasy",
+    "stalagmite",
+    "stone",
+    "cave",
+    "forest",
+    "ruins"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Stalagmite_04/Stalagmite_04.glb"

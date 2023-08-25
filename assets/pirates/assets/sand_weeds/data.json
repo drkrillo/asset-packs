@@ -2,6 +2,17 @@
   "id": "2bcd70c1-64a0-4cfc-9027-7d839d254854",
   "name": "Sand Weeds",
   "category": "nature",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "nature",
+    "fern",
+    "beach",
+    "foliage",
+    "plant",
+    "plants"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/ShoreGrass_01/ShoreGrass_01.glb"

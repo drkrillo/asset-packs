@@ -2,6 +2,17 @@
   "id": "b822fad3-67d2-472b-aaf2-84fffad00b8c",
   "name": "Rectangular Canopy",
   "category": "structures",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "structures",
+    "shade",
+    "sunshade",
+    "garden",
+    "beach",
+    "tent"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Canopy_02/Canopy_02.glb"

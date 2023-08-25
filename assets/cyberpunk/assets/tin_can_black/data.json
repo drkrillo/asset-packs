@@ -2,6 +2,7 @@
   "id": "eb76004c-b555-4e8b-a73c-6e06cf167207",
   "name": "Tin Can - Black",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Tin_Can_Black.glb"

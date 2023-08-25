@@ -2,6 +2,11 @@
   "id": "771f67cd-fe43-496a-9425-c55ed54afd84",
   "name": "Cryogenic Chamber Base",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "spaceship",
+    "tech"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/CryogenicChamberBase_01/CryogenicChamberBase_01.glb"

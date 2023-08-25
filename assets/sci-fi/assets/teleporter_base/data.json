@@ -2,6 +2,11 @@
   "id": "20e35437-2ae3-41f0-a99e-429b7c8c6bf2",
   "name": "Teleporter Base",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "tech",
+    "spaceship"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Teleporter_01/Teleporter_01.glb"

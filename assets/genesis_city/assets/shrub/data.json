@@ -2,6 +2,17 @@
   "id": "4db158c0-a44f-4f79-a9e6-c5d6a219d48d",
   "name": "Shrub",
   "category": "nature",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "nature",
+    "bush",
+    "park",
+    "garden",
+    "forest",
+    "mountain"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Bush_01/Bush_01.glb"

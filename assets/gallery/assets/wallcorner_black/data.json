@@ -2,6 +2,7 @@
   "id": "b147f30c-9dee-4138-8ac3-3f9d1fadee5f",
   "name": "WallCorner - Black ",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/BlackCorner.glb"

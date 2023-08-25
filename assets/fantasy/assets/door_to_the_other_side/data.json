@@ -2,6 +2,16 @@
   "id": "029dd3b0-7123-4020-b9d6-d0774a30c3f4",
   "name": "Door to the Other Side",
   "category": "structures",
+  "tags": [
+    "fantasy",
+    "wood",
+    "skull",
+    "grim",
+    "reaper",
+    "dead",
+    "beyond",
+    "door"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Door_01/Door_01.glb"

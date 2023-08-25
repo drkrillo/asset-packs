@@ -2,6 +2,13 @@
   "id": "f8309b2b-c603-4daa-a988-c2d35c46254e",
   "name": "Square Yellow Neon",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "power",
+    "spark",
+    "base",
+    "spaceship"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/NeonLight_02/NeonLight_02.glb"

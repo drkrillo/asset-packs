@@ -2,6 +2,17 @@
   "id": "91a3246b-2598-4f35-88de-56d9ce977523",
   "name": "Sticks Medium Fence",
   "category": "structures",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "structures",
+    "wood",
+    "wooden",
+    "dock",
+    "stick",
+    "sticks"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FenceSticksMedium_01/FenceSticksMedium_01.glb"

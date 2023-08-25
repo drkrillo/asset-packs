@@ -2,6 +2,7 @@
   "id": "10a7af75-02a9-4c04-8aa5-48c637713a8d",
   "name": "Window - BathroomTiles ",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/BathroomTilesWindow.glb"

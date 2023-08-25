@@ -2,6 +2,7 @@
   "id": "21185344-9f99-4e99-91d0-b5ace4dc3754",
   "name": "Roof - Pink 4Edges",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/PinkRoof_4Edges.glb"

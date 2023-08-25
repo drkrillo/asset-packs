@@ -2,6 +2,7 @@
   "id": "ca5036bb-5f62-4696-b11e-7cce36481e32",
   "name": "Dirt",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/dirt.glb"

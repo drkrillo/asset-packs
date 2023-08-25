@@ -2,6 +2,7 @@
   "id": "f7de372b-3ac8-4f56-a822-640326132014",
   "name": "Table with Chairs",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Table_with_Chairs.glb"

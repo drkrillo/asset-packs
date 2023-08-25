@@ -2,6 +2,7 @@
   "id": "9b026726-cba9-454d-bb4f-aece85632869",
   "name": "Roof - Beige",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/BeigeRoof.glb"

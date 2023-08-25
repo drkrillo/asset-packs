@@ -2,6 +2,11 @@
   "id": "5f82ef04-ba74-426a-9a3e-53220fe7b312",
   "name": "Bulky Turret Base",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "weapon",
+    "laser"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/TurretBase_01/TurretBase_01.glb"

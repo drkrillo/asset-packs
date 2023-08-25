@@ -2,6 +2,14 @@
   "id": "b1983b15-3ef1-48b0-b6fe-f428a295a18b",
   "name": "Small Gemstone Ornament",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "ornament",
+    "wall",
+    "gem",
+    "gemstone",
+    "stone"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Ornament_Stone_Small_01/Ornament_Stone_Small_01.glb"

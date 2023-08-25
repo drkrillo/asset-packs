@@ -2,6 +2,12 @@
   "id": "a57ba6f2-3c3d-459c-9842-18d1b1266702",
   "name": "Curved Platform",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "dock",
+    "port",
+    "metal"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Dock_Curve_01/Dock_Curve_01.glb"

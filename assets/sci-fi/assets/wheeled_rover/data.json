@@ -2,6 +2,12 @@
   "id": "b9295675-6e07-4ca7-8726-7274ff82bbfa",
   "name": "Wheeled Rover",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "robot",
+    "tech",
+    "machine"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Rover_01/Rover_01.glb"

@@ -2,6 +2,7 @@
   "id": "c0766135-6325-46cf-906a-540787d4547d",
   "name": "Doorframe - DarkGrey",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/DarkGreyDoorframe.glb"

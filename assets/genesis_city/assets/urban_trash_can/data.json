@@ -2,6 +2,17 @@
   "id": "c5daf807-1dde-41e8-a1db-c30f58917457",
   "name": "Urban Trash Can",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decoration",
+    "trash",
+    "garbage",
+    "can",
+    "street",
+    "city"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/TrashCan_01/TrashCan_01.glb"

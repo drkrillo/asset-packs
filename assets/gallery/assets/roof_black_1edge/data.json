@@ -2,6 +2,7 @@
   "id": "d7d63b68-ca09-43dd-a897-432a0cf60626",
   "name": "Roof - Black 1Edge",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/BlackRoof_1Edge.glb"

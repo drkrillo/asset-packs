@@ -2,6 +2,11 @@
   "id": "3951c37e-09ca-4846-befc-65dbe1ba2c2d",
   "name": "Short Hallway",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "alien",
+    "base"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Hallway_Module_Straight_02/Hallway_Module_Straight_02.glb"

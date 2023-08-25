@@ -2,6 +2,11 @@
   "id": "e78409c4-35de-482a-8a8e-801970fa0c98",
   "name": "Button Panel",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "controls",
+    "trigger"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/ButtonPanel_01/ButtonPanel_01.glb"

@@ -2,6 +2,14 @@
   "id": "be2684f7-97e0-48e4-bd43-787f86cd650e",
   "name": "Medium Ceiling Joist",
   "category": "structures",
+  "tags": [
+    "fantasy",
+    "column",
+    "wood",
+    "wooden",
+    "joist",
+    "cealing"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Column_Wood_3M/Column_Wood_3M.glb"

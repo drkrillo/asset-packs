@@ -2,6 +2,7 @@
   "id": "22719fc0-de52-439e-bcda-ab630cb7fd21",
   "name": "Roof - Beige Corner",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/BeigeRoof_Corner.glb"

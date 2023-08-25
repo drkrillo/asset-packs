@@ -2,6 +2,17 @@
   "id": "9e9e1a83-a394-4db6-882b-6a14cfca0665",
   "name": "Plumeria",
   "category": "nature",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "nature",
+    "fern",
+    "beach",
+    "foliage",
+    "plant",
+    "plants"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/JunglePlant_08/JunglePlant_08.glb"

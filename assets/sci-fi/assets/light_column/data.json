@@ -2,6 +2,13 @@
   "id": "3c3d75e8-cf1b-4d2c-9a9f-473efdc598b2",
   "name": "Light Column",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "power",
+    "spark",
+    "base",
+    "spaceship"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Light_02/Light_02.glb"

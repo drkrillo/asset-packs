@@ -2,6 +2,18 @@
   "id": "6ddf4e5b-48c6-49e1-ae98-34dc5fd0b5a7",
   "name": "Blue Magic Stone ",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decoration",
+    "blue",
+    "rock",
+    "rocks",
+    "stone",
+    "stones",
+    "magic"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/SpiralStone_02/SpiralStone_02.glb"

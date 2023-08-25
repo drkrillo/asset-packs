@@ -2,6 +2,13 @@
   "id": "ccbbdbd7-3406-4f8d-a792-8d7c396925fd",
   "name": "Prophecy of the Dead",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "book",
+    "codex",
+    "knowledge",
+    "shelf"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Book_06/Book_06.glb"

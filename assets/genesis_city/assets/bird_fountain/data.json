@@ -2,6 +2,17 @@
   "id": "13f3da80-42e0-4e3b-a8b0-567ca1e28d34",
   "name": "Bird Fountain",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decoration",
+    "bird",
+    "water",
+    "fountain",
+    "marble",
+    "park"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/BirdFountain_01/BirdFountain_01.glb"

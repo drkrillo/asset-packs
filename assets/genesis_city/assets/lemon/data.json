@@ -2,6 +2,16 @@
   "id": "38f22e83-4718-4788-9777-26ba847cff1a",
   "name": "Lemon",
   "category": "nature",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "nature",
+    "fruit",
+    "fruits",
+    "market",
+    "edible"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FoodLemon_01/FoodLemon_01.glb"

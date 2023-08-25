@@ -2,6 +2,7 @@
   "id": "6f079b74-7a6b-4792-84c8-a487ecd759ce",
   "name": "Floor - Grey",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/GreyFloor.glb"

@@ -2,6 +2,7 @@
   "id": "d4ee04eb-5cc3-4f1f-ad77-43b8d740f73e",
   "name": "Roof - Navy 4Edges",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/NavyRoof_4Edges.glb"

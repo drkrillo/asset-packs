@@ -2,6 +2,7 @@
   "id": "0b6fbff7-9541-47ff-a059-5fe2661d413d",
   "name": "Paper Ball",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Paper_Ball.glb"

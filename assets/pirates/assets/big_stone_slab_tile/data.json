@@ -2,6 +2,16 @@
   "id": "5ddd810b-9cc1-4451-bb65-2626e182d8b1",
   "name": "Big Stone Slab Tile",
   "category": "tiles",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "tiles",
+    "cobblestones",
+    "stone",
+    "stones",
+    "path"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/StoneSlabSmall_02/StoneSlabSmall_02.glb"

@@ -2,6 +2,7 @@
   "id": "5ecc56f0-8b6a-47cb-b81a-c6937ec8ba98",
   "name": "Roof - Lime Corner",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/LimeRoof_Corner.glb"

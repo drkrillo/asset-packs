@@ -2,6 +2,7 @@
   "id": "0910848c-828c-4729-9ee0-7a455e3f522d",
   "name": "Helicopter Blue",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Helicopter_Blue.glb"

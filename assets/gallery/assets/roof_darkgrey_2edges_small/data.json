@@ -2,6 +2,7 @@
   "id": "f4723ed3-4566-4536-a6fe-45e1ebd956a5",
   "name": "Roof - DarkGrey 2Edges Small",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/DarkGreyRoof_2Edges_Small.glb"

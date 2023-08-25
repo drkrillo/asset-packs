@@ -2,6 +2,7 @@
   "id": "52c06a9b-cde7-4c26-a20f-cac87d9fe744",
   "name": "Sand 2",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/sand_02.glb"

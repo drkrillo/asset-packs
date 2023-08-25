@@ -2,6 +2,7 @@
   "id": "976c9593-7e7d-477a-bcaf-d9f369b59c73",
   "name": "Deck 8M v1",
   "category": "structures",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Deck 8M v1.glb"

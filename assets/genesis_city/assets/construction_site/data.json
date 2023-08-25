@@ -2,6 +2,21 @@
   "id": "bae698f6-8492-4830-a8e8-1e04bdb86f37",
   "name": "Construction Site",
   "category": "structures",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "structures",
+    "construction",
+    "wood",
+    "pallet",
+    "light",
+    "lighting",
+    "city",
+    "building",
+    "buildings",
+    "site"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/ConstructionScene_01/ConstructionScene_01.glb"

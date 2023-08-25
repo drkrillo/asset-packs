@@ -2,6 +2,7 @@
   "id": "13c32951-7177-4848-b7ea-da1cb01f73d9",
   "name": "Awning 2M",
   "category": "structures",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Awning 2M.glb"

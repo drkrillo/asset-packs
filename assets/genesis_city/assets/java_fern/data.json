@@ -2,6 +2,19 @@
   "id": "734c6696-dc46-4f79-a817-41319bcc7395",
   "name": "Java Fern",
   "category": "nature",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "nature",
+    "grass",
+    "fern",
+    "garden",
+    "forest",
+    "park",
+    "yard",
+    "backyard"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Grass_01/Grass_01.glb"

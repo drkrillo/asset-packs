@@ -2,6 +2,7 @@
   "id": "e845d270-f78c-4f57-9ed6-3b644a675399",
   "name": "Doorframe - Metal",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/MetalDoorframe.glb"

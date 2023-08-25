@@ -2,6 +2,7 @@
   "id": "c35e0ca8-1496-4779-b1c9-cdbe35251987",
   "name": "Column 2",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/HWN20_Column_02.glb"

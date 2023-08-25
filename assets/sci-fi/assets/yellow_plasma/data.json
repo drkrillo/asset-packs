@@ -2,6 +2,12 @@
   "id": "4e02ac26-38be-4b85-b678-916b0cbcb66b",
   "name": "Yellow Plasma",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "energy",
+    "supply",
+    "power"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/PlasmaYellow_01/PlasmaYellow_01.glb"

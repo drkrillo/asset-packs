@@ -2,6 +2,7 @@
   "id": "5d6116a8-57a2-4ebe-9954-a6416695bd7c",
   "name": "Zombie Hand ",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/HWN20_ZombieHand_01.glb"

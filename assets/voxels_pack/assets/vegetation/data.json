@@ -2,6 +2,7 @@
   "id": "8d5f255f-3105-411d-bf10-4aa71ce0000d",
   "name": "Vegetation",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/vegetation.glb"

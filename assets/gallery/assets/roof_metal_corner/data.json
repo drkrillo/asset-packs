@@ -2,6 +2,7 @@
   "id": "79a3fa3b-9b3b-40d4-90d1-8c9eac4e20ba",
   "name": "Roof - Metal Corner",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/MetalRoof_Corner.glb"

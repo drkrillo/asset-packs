@@ -2,6 +2,12 @@
   "id": "85e82f0c-40a0-4573-8f4f-c5bea492a25a",
   "name": "Small Comet",
   "category": "nature",
+  "tags": [
+    "scifi",
+    "rock",
+    "space",
+    "cosmic"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Comet_01/Comet_01.glb"

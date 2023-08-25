@@ -2,6 +2,7 @@
   "id": "365a9075-d834-49eb-ac6f-0df4880cd69e",
   "name": "Cross red",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/cross_red.glb"

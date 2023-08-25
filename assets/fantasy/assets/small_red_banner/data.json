@@ -2,6 +2,12 @@
   "id": "d602ec50-6904-414a-90de-e591572b3d0f",
   "name": "Small Red Banner",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "red",
+    "banner",
+    "court"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Banner_Red_02/Banner_Red_02.glb"

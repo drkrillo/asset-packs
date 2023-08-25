@@ -2,6 +2,20 @@
   "id": "eb584cdc-2d37-45a1-a464-45007058b3d5",
   "name": "Light Green Sycamore Tree",
   "category": "nature",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "nature",
+    "tree",
+    "trees",
+    "green",
+    "forest",
+    "park",
+    "garden",
+    "backyard",
+    "yard"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/TreeSycamore_01/TreeSycamore_01.glb"

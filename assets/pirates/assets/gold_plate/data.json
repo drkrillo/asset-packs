@@ -2,6 +2,18 @@
   "id": "59e23489-a37a-4417-b772-4485895daa55",
   "name": "Gold Plate",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "gold",
+    "jewel",
+    "jewels",
+    "gemstones",
+    "plate",
+    "meal"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/TreasurePlate_01/TreasurePlate_01.glb"

@@ -2,6 +2,7 @@
   "id": "d21bb810-5777-42d7-bd07-c76fc4643fd0",
   "name": "Basketball Hoop",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Basketball_Hoop.glb"

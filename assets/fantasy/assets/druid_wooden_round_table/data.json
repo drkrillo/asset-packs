@@ -2,6 +2,14 @@
   "id": "51e9b337-1795-40ba-9177-e5d613fa8a7c",
   "name": "Druid Wooden Round Table",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "table",
+    "wood",
+    "wooden",
+    "forest",
+    "tabern"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/WoodRoundTable_01/WoodRoundTable_01.glb"

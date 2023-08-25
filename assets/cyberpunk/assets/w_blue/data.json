@@ -2,6 +2,7 @@
   "id": "001ed85d-c28c-4946-80f3-dc824f29ab91",
   "name": "W Blue",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/W_Blue.glb"

@@ -2,6 +2,11 @@
   "id": "32d6a153-8fec-4d82-927a-78ce50019466",
   "name": "Orange Crate",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "box",
+    "storage"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/CrateOrange_01/CrateOrange_01.glb"

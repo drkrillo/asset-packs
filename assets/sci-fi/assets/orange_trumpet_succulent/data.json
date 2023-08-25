@@ -2,6 +2,10 @@
   "id": "bb75def3-178d-4486-978e-98277446b066",
   "name": "Orange Trumpet Succulent",
   "category": "nature",
+  "tags": [
+    "scifi",
+    "tree"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/PlantSF_06/PlantSF_06.glb"

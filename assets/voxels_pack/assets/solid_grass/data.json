@@ -2,6 +2,7 @@
   "id": "0d3f0d78-df02-4fd3-a458-820410dd0445",
   "name": "Solid Grass",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/solid_grass.glb"

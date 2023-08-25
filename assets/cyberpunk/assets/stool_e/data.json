@@ -2,6 +2,7 @@
   "id": "ebbaf35b-9491-4e2c-bda6-5555d48637f4",
   "name": "Stool E",
   "category": "furniture",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Stool_E.glb"

@@ -2,6 +2,7 @@
   "id": "0d67ab09-6591-44dc-bc70-2fd1dbc49d06",
   "name": "Roof - Black",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/BlackRoof.glb"

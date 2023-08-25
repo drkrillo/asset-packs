@@ -2,6 +2,17 @@
   "id": "5e4a922e-50f1-40aa-a1a3-bee660371499",
   "name": "Information Terminal",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decoration",
+    "info",
+    "information",
+    "terminal",
+    "technology",
+    "city"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Terminal_01/Terminal_01.glb"

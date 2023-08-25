@@ -2,6 +2,7 @@
   "id": "e0d43db8-2dcc-4093-b48b-986e6cdffc93",
   "name": "Violet Ghost",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/HWN20_VioletGhost.glb"

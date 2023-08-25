@@ -2,6 +2,7 @@
   "id": "2f592602-2cdb-4aba-9e58-36ee66ed4e04",
   "name": "Manhole  -Yellow",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Manhole_Yellow.glb"

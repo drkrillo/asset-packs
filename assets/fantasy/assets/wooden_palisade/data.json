@@ -2,6 +2,12 @@
   "id": "fe8acad3-ce27-43f0-a56d-06a84e97851a",
   "name": "Wooden Palisade",
   "category": "structures",
+  "tags": [
+    "fantasy",
+    "palisade",
+    "wood",
+    "wooden"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Easel_01/Easel_01.glb"

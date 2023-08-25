@@ -2,6 +2,7 @@
   "id": "42650a24-c606-457d-a2c7-e155169c4190",
   "name": "WallCorner - BathroomTiles ",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/BathroomTilesCorner.glb"

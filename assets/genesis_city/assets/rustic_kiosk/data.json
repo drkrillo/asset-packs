@@ -2,6 +2,16 @@
   "id": "5bac22be-63d7-43b9-a400-ca10623119b2",
   "name": "Rustic Kiosk",
   "category": "structures",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "structures",
+    "fair",
+    "kiosk",
+    "market",
+    "rustic"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Store_03/Store_03.glb"

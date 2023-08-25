@@ -2,6 +2,12 @@
   "id": "c6d2078c-81d9-4ea2-99a7-06e0e632efb8",
   "name": "Stone Hammer",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "hammer",
+    "stone",
+    "tool"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Hammer_01/Hammer_01.glb"

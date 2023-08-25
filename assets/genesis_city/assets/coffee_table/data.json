@@ -2,6 +2,15 @@
   "id": "b01154d9-db05-4713-ace7-692b67220bb0",
   "name": "Coffee Table",
   "category": "furniture",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "furniture",
+    "table",
+    "wood",
+    "coffee"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Table_06/Table_06.glb"

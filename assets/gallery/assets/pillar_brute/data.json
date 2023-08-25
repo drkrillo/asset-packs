@@ -2,6 +2,7 @@
   "id": "d3ba9211-be7b-4cce-866f-f505eb615682",
   "name": "Pillar - Brute",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/BrutePillar.glb"

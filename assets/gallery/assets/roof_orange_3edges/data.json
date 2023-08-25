@@ -2,6 +2,7 @@
   "id": "d6047cbd-89e3-40fb-82e7-43f143340ea3",
   "name": "Roof - Orange 3Edges",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/OrangeRoof_3Edges.glb"

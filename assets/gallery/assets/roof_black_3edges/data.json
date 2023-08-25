@@ -2,6 +2,7 @@
   "id": "dc420bf4-ab93-4a1c-b711-1cfd832724b1",
   "name": "Roof - Black 3Edges",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/BlackRoof_3Edges.glb"

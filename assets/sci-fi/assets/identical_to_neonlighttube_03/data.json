@@ -2,6 +2,13 @@
   "id": "23c23cc5-0444-4461-89c0-fbbd87115bfe",
   "name": "IDENTICAL TO NeonLightTube_03",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "power",
+    "spark",
+    "base",
+    "spaceship"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/NeonLightTube_07/NeonLightTube_07.glb"

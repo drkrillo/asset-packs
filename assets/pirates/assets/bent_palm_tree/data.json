@@ -2,6 +2,17 @@
   "id": "e0db669f-e803-4528-bb16-e1e3001956d9",
   "name": "Bent Palm Tree",
   "category": "nature",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "nature",
+    "tree",
+    "beach",
+    "plant",
+    "plants",
+    "foliage"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/PalmTree_01/PalmTree_01.glb"

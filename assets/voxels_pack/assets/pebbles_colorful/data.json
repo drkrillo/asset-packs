@@ -2,6 +2,7 @@
   "id": "077aec54-6797-48d2-828a-0459c5fa2628",
   "name": "Pebbles - Colorful",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/pebbles_color.glb"

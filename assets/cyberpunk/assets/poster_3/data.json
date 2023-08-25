@@ -2,6 +2,7 @@
   "id": "c3701bc8-53f4-41e5-b72d-509ad1970339",
   "name": "Poster 3",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Poster3.glb"

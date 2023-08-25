@@ -2,6 +2,7 @@
   "id": "fbadbfcf-d8f7-4da0-a257-305985b82a2b",
   "name": "Window - Arrow ",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/ArrowWindow.glb"

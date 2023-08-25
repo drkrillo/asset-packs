@@ -2,6 +2,16 @@
   "id": "0c343f45-3fc1-4133-a05f-4fab9f25728c",
   "name": "Folding Stool",
   "category": "furniture",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "furniture",
+    "chair",
+    "seat",
+    "folding",
+    "stool"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Chair_08/Chair_08.glb"

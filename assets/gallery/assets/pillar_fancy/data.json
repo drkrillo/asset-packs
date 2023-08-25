@@ -2,6 +2,7 @@
   "id": "2583def2-238b-448f-a191-de5e48fbfff1",
   "name": "Pillar - Fancy",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FancyPillar.glb"

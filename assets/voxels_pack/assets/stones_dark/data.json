@@ -2,6 +2,7 @@
   "id": "c045245c-3b42-4265-8c7e-1732fea723a6",
   "name": "Stones - Dark",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/stones_dark.glb"

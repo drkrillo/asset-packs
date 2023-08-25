@@ -2,6 +2,12 @@
   "id": "602c44e8-0eb4-4eeb-8613-d76b90c4e47a",
   "name": "Three-Spiked Grass",
   "category": "nature",
+  "tags": [
+    "fantasy",
+    "forest",
+    "grass",
+    "weeds"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Grass_02/Grass_02.glb"

@@ -2,6 +2,11 @@
   "id": "b5da37e9-dff5-45af-ab94-7d5ca951661a",
   "name": "Vertical Pipe Short",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "base",
+    "spaceship"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Pipe_Straight_1M_01/Pipe_Straight_1M_01.glb"

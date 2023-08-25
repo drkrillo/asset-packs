@@ -2,6 +2,23 @@
   "id": "431deb1c-b8e4-44b8-889f-5c45b65f6373",
   "name": "Treasure Chest Base",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "decorations",
+    "wood",
+    "wooden",
+    "iron",
+    "chest",
+    "trunk",
+    "gold",
+    "golden",
+    "doubloon",
+    "doubloons",
+    "coin",
+    "coins"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/OpenChest_01/OpenChest_01.glb"

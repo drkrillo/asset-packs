@@ -2,6 +2,20 @@
   "id": "39494fdb-7107-4dac-9412-a113586ffcda",
   "name": "Kangaroo Paws",
   "category": "nature",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "nature",
+    "flower",
+    "flowers",
+    "garden",
+    "forest",
+    "park",
+    "yard",
+    "backyard",
+    "plant"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Plant_05/Plant_05.glb"

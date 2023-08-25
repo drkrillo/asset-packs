@@ -2,6 +2,7 @@
   "id": "04fe7167-3dbf-481c-b05a-affd9f58fe63",
   "name": "Cart Big Open",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Cart Big Open.glb"

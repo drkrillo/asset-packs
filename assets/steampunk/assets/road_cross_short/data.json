@@ -2,6 +2,7 @@
   "id": "2d8c6889-2029-458b-a40a-b48e3e4ebcd8",
   "name": "Road Cross Short",
   "category": "tiles",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Road Cross Short.glb"

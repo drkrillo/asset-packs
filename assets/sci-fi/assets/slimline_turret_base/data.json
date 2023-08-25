@@ -2,6 +2,11 @@
   "id": "7a0ff2bc-8d4f-4d92-8f31-b67d05bfb883",
   "name": "Slimline Turret Base",
   "category": "structures",
+  "tags": [
+    "scifi",
+    "weapon",
+    "laser"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/TurretBase_02/TurretBase_02.glb"

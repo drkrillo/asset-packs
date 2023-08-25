@@ -2,6 +2,15 @@
   "id": "0b906173-5b55-4c95-9a53-9d9c6ba21fe0",
   "name": "Rounded Starlight Rug",
   "category": "decorations",
+  "tags": [
+    "fantasy",
+    "carpet",
+    "rug",
+    "star",
+    "wizard",
+    "round",
+    "rounded"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Carpet_02/Carpet_02.glb"

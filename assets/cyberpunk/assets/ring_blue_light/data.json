@@ -2,6 +2,7 @@
   "id": "c64dfc6d-582d-497a-a657-e204c1672a7b",
   "name": "Ring - Blue Light",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Ring_Blue_Light.glb"

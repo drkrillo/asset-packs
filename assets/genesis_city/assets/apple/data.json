@@ -2,6 +2,16 @@
   "id": "efe88bc5-618c-4294-a5b5-4c64e95fafa3",
   "name": "Apple",
   "category": "nature",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "nature",
+    "fruit",
+    "fruits",
+    "market",
+    "edible"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/FoodApple_01/FoodApple_01.glb"

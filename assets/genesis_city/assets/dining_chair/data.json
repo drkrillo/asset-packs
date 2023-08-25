@@ -2,6 +2,17 @@
   "id": "5e074edf-f83b-48ff-a7f0-f7f3302a20d8",
   "name": "Dining Chair",
   "category": "furniture",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "furniture",
+    "wood",
+    "seat",
+    "dining",
+    "dinner",
+    "chair"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Chair_04/Chair_04.glb"

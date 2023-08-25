@@ -2,6 +2,7 @@
   "id": "6ea733ff-341a-4466-a206-13e1543ea70c",
   "name": "Window - HorizontalBoard ",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/HorizontalBoardWindow.glb"

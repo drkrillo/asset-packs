@@ -2,6 +2,7 @@
   "id": "779986f4-8a23-4e5c-94a0-08dbd13c7775",
   "name": "Rubbish Recycling",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Rubbish_Recycling.glb"

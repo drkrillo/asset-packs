@@ -2,6 +2,7 @@
   "id": "2014265a-88c0-4dd6-848c-39c09635d751",
   "name": "Roof - Metal 3Edges Small",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/MetalRoof_3Edges_Small.glb"

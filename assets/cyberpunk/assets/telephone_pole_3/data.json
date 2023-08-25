@@ -2,6 +2,7 @@
   "id": "f145f65d-8aa8-4c74-8780-cee40086a6f8",
   "name": "Telephone Pole 3",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Telephone_Pole_3.glb"

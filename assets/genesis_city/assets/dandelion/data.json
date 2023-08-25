@@ -2,6 +2,21 @@
   "id": "009be9a4-294f-4ff4-88b6-04d13a51af0d",
   "name": "Dandelion",
   "category": "nature",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "nature",
+    "grass",
+    "flower",
+    "flowers",
+    "fern",
+    "garden",
+    "forest",
+    "park",
+    "yard",
+    "backyard"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Grass_04/Grass_04.glb"

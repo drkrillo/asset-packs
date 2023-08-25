@@ -2,6 +2,7 @@
   "id": "c4dc7330-b030-4e3c-bdee-5e05f42163ef",
   "name": "Roof - Cream 2Edges",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/CreamRoof_2Edges.glb"

@@ -2,6 +2,7 @@
   "id": "2f153bcd-6c5f-4cb3-96ed-d0fd4de08a2e",
   "name": "I blue",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/I_blue.glb"

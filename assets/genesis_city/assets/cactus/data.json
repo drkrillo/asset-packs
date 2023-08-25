@@ -2,6 +2,16 @@
   "id": "ac4bee02-ae33-4788-a041-183781554855",
   "name": "Cactus",
   "category": "nature",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "nature",
+    "green",
+    "desert",
+    "wilderness",
+    "garden"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Cactus_01/Cactus_01.glb"

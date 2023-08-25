@@ -2,6 +2,7 @@
   "id": "ab2c3222-752d-417d-97a5-89aaafd1a378",
   "name": "Sewer Cover",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Sewer_Cover.glb"

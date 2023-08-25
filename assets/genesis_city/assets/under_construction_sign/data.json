@@ -2,6 +2,18 @@
   "id": "552e9281-df22-462d-9125-3c66853505d0",
   "name": "Under Construction Sign",
   "category": "decorations",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "decorations",
+    "construction",
+    "sign",
+    "yellow",
+    "tool",
+    "tools",
+    "hammer"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/ConstructionSign_01/ConstructionSign_01.glb"

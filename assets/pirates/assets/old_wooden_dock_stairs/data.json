@@ -2,6 +2,18 @@
   "id": "4333febe-145c-46d1-83b0-97593ed37f3d",
   "name": "Old Wooden Dock Stairs",
   "category": "structures",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "structures",
+    "wood",
+    "wooden",
+    "dock",
+    "stair",
+    "steps",
+    "old"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/DocksModuleStairs_02/DocksModuleStairs_02.glb"

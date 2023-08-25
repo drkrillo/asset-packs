@@ -2,6 +2,18 @@
   "id": "84dc1d40-2cdf-4661-af80-d6bd1b770cfc",
   "name": "Grog Mug",
   "category": "decorations",
+  "tags": [
+    "pirate",
+    "paradise",
+    "pirates",
+    "furniture",
+    "wood",
+    "wooden",
+    "leather",
+    "drink",
+    "beverage",
+    "alcohol"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/BeerMug_01/BeerMug_01.glb"

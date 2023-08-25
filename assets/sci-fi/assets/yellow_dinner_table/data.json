@@ -2,6 +2,12 @@
   "id": "87383b74-7a88-4722-b298-fd1fb0444a77",
   "name": "Yellow Dinner Table",
   "category": "decorations",
+  "tags": [
+    "scifi",
+    "base",
+    "tool",
+    "work"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/TableSciFi_02/TableSciFi_02.glb"

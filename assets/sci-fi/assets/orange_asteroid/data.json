@@ -2,6 +2,11 @@
   "id": "3a9b426c-3596-4d6c-be33-4794632c6854",
   "name": "Orange Asteroid",
   "category": "nature",
+  "tags": [
+    "scifi",
+    "rock",
+    "planet"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/Stone_04/Stone_04.glb"

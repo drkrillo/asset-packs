@@ -2,6 +2,7 @@
   "id": "ade1a348-7766-4dc1-aef4-c1a20ab5b575",
   "name": "Candle 04",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/HWN20_Candle_04.glb"

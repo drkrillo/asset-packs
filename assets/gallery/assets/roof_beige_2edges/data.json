@@ -2,6 +2,7 @@
   "id": "58bc6469-f328-41da-a850-3b0aa48109cb",
   "name": "Roof - Beige 2Edges",
   "category": "decorations",
+  "tags": [],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/BeigeRoof_2Edges.glb"

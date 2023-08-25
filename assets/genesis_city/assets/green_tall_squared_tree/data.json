@@ -2,6 +2,20 @@
   "id": "98f35970-9633-410d-883b-493350654bc9",
   "name": "Green Tall Squared Tree",
   "category": "nature",
+  "tags": [
+    "genesis",
+    "city",
+    "town",
+    "nature",
+    "tree",
+    "trees",
+    "green",
+    "forest",
+    "park",
+    "garden",
+    "backyard",
+    "yard"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/TreeTall_02/TreeTall_02.glb"
