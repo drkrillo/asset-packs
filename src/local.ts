@@ -65,7 +65,7 @@ export class LocalFileSystem {
       const buffer = await readBuffer(filePath)
       contents[file] = await hashV1(buffer)
     }
-    return { ...data, contents }
+    return { ...data, contents, path }
   }
 
   async isTaken(path: string, asset: BuilderApiAsset) {
