@@ -8,7 +8,7 @@ import { LocalFileSystem } from '../src/local'
 
 dotenv.config()
 const accessKeyId = process.env.AWS_ACCESS_KEY_ID
-const secretAccessKey = process.env.AWS_SECREST_ACCESS_KEY
+const secretAccessKey = process.env.AWS_SECRET_ACCESS_KEY
 const bucketName = process.env.S3_BUCKET_NAME
 const region = process.env.S3_REGION
 const concurrency = parseInt(process.env.S3_UPLOAD_CONCURRENCY || '')
@@ -19,7 +19,7 @@ async function main() {
     throw new Error(`Missing AWS_ACCESS_KEY_ID env var`)
   }
   if (!secretAccessKey) {
-    throw new Error(`Missing AWS_SECREST_ACCESS_KEY env var`)
+    throw new Error(`Missing AWS_SECRET_ACCESS_KEY env var`)
   }
   if (!bucketName) {
     throw new Error(`Missing S3_BUCKET_NAME env var`)
