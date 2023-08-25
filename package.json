@@ -6,7 +6,8 @@
   "scripts": {
     "download": "ts-node ./scripts/download.ts",
     "validate": "ts-node ./scripts/validate.ts",
-    "upload": "ts-node ./scripts/upload.ts"
+    "upload": "ts-node ./scripts/upload.ts",
+    "catalog": "ts-node ./scripts/catalog.ts"
   },
   "repository": {
     "type": "git",
