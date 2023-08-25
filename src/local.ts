@@ -10,7 +10,13 @@ import {
 } from './utils/fs'
 import { slug } from './utils/string'
 import { BuilderApiAsset, BuilderApiAssetPack } from './builder/types'
-import { AssetData, AssetPackData, isAsset, isAssetPack } from './types'
+import {
+  AssetData,
+  AssetPackData,
+  Catalog,
+  isAssetData,
+  isAssetPackData,
+} from './types'
 
 export class LocalFileSystem {
   constructor(public cwd: string) {}
@@ -35,10 +41,13 @@ export class LocalFileSystem {
   async getAssetPack(path: string) {
     const dataPath = `${path}/data.json`
     const data = await readJson(dataPath)
-    if (!isAssetPack(data)) {
+    if (!isAssetPackData(data)) {
       throw new Error(`Invalid data in "${dataPath}"`)
     }
-    return data
+    const thumbnailPath = `${path}/thumbnail.png`
+    const thumbnail = await readBuffer(thumbnailPath)
+    const hash = await hashV1(thumbnail)
+    return { ...data, thumbnail: hash }
   }
 
   getAssetsPath(assetPackName: string) {
@@ -52,7 +61,7 @@ export class LocalFileSystem {
   async getAsset(path: string) {
     const dataPath = `${path}/data.json`
     const data = await readJson(dataPath)
-    if (!isAsset(data)) {
+    if (!isAssetData(data)) {
       throw new Error(`Invalid data in "${dataPath}"`)
     }
     const contents: Record<string, string> = {}
@@ -119,8 +128,8 @@ export class LocalFileSystem {
     return Promise.all(folders.map(this.getAssetPack))
   }
 
-  async getAssets(_path: string) {
-    const folders = await getSubfolders(_path)
+  async getAssets(path: string) {
+    const folders = await getSubfolders(path)
     return Promise.all(
       folders.map((folder) =>
         this.getAsset(folder).catch(() => {
@@ -128,5 +137,21 @@ export class LocalFileSystem {
         }),
       ),
     )
+  }
+
+  async getCatalog() {
+    const catalog: Catalog = {
+      assetPacks: [],
+    }
+    const assetPacks = await this.getAssetPacks()
+    for (const assetPack of assetPacks) {
+      const assetsPath = this.getAssetsPath(assetPack.name)
+      const assets = await this.getAssets(assetsPath)
+      catalog.assetPacks.push({
+        ...assetPack,
+        assets: assets.map(({ path, ...asset }) => asset),
+      })
+    }
+    return catalog
   }
 }

@@ -3,7 +3,7 @@ export type AssetPackData = {
   name: string
 }
 
-export function isAssetPack(value: any): value is AssetPackData {
+export function isAssetPackData(value: any): value is AssetPackData {
   return (
     typeof value === 'object' &&
     value !== null &&
@@ -19,7 +19,7 @@ export type AssetData = {
   components: Record<string, any>
 }
 
-export function isAsset(value: any): value is AssetData {
+export function isAssetData(value: any): value is AssetData {
   return (
     typeof value === 'object' &&
     value !== null &&
@@ -30,3 +30,7 @@ export function isAsset(value: any): value is AssetData {
     value.components !== null
   )
 }
+
+export type Asset = AssetData & { contents: Record<string, string> }
+export type AssetPack = AssetPackData & { thumbnail: string; assets: Asset[] }
+export type Catalog = { assetPacks: AssetPack[] }

@@ -54,14 +54,15 @@ async function main() {
   })
 
   async function upload(key: string, pathToFile: string) {
-    const head = new HeadObjectCommand({
-      Bucket: bucketName,
-      Key: key,
-    })
     try {
+      // if head object returns successfully, this file has already been uploaded, it can be skipped
+      const head = new HeadObjectCommand({
+        Bucket: bucketName,
+        Key: key,
+      })
       await client.send(head)
-      console.log(`Skipping "${key}"`)
     } catch (error) {
+      // if head object does not exist, this file needs to be uploaded
       const mimeType =
         mimeTypes.lookup(pathToFile) || 'application/octet-stream'
       const upload = new Upload({
@@ -80,10 +81,37 @@ async function main() {
   }
 
   const local = new LocalFileSystem('./assets')
-  const assetPacks = await local.getAssetPacks()
-  for (const assetPack of assetPacks) {
-    const assetPackPath = local.getAssetsPath(assetPack.name)
-    const assets = await local.getAssets(assetPackPath)
+
+  const catalog = await local.getCatalog()
+
+  // upload catalog
+  console.log(`Uploading catalog...`)
+  await new Upload({
+    client,
+    params: {
+      Bucket: bucketName,
+      Key: 'catalog.json',
+      Body: Buffer.from(JSON.stringify(catalog, null, 2)),
+      ContentType: 'application/json',
+      CacheControl: 'max-age=300',
+    },
+  }).done()
+  console.log(`Uploaded!`)
+
+  for (const assetPack of catalog.assetPacks) {
+    console.log(`Starting upload of "${assetPack.name}"...`)
+    // upload thumbnail
+    const assetPackPath = local.getAssetPackPath(assetPack.name)
+    queue.add(() =>
+      upload(
+        `contents/${assetPack.thumbnail}`,
+        resolve(assetPackPath, `thumbnail.png`),
+      ),
+    )
+
+    // upload assets
+    const assetsPath = local.getAssetsPath(assetPack.name)
+    const assets = await local.getAssets(assetsPath)
     for (const asset of assets) {
       for (const path in asset.contents) {
         const hash = asset.contents[path]
@@ -91,6 +119,8 @@ async function main() {
         queue.add(() => upload(key, resolve(asset.path, path)))
       }
     }
+
+    // wait for upload queue to finish
     await queue.onIdle()
     console.log(`Upload of "${assetPack.name}" is complete ✅`)
   }
