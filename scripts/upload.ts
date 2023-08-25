@@ -76,7 +76,7 @@ async function main() {
         },
       })
       await upload.done()
-      console.log(`Uploaded "${key}"`)
+      console.log(`Uploaded "${pathToFile}" to "${key}"`)
     }
   }
 
