@@ -1,7 +1,10 @@
+import { hashV1 } from '@dcl/hashing'
 import {
   createDirectory,
   exists,
+  getFiles,
   getSubfolders,
+  readBuffer,
   readJson,
   writeFile,
 } from './utils/fs'
@@ -52,8 +55,17 @@ export class LocalFileSystem {
     if (!isAsset(data)) {
       throw new Error(`Invalid data in "${dataPath}"`)
     }
-    const isSmart = await exists(`${path}/bin/game.js`)
-    return { ...data, isSmart }
+    const contents: Record<string, string> = {}
+    const paths = await getFiles(path)
+    for (const filePath of paths) {
+      const file = filePath.slice(path.length + 1)
+      if (file === `data.json`) {
+        continue
+      }
+      const buffer = await readBuffer(filePath)
+      contents[file] = await hashV1(buffer)
+    }
+    return { ...data, contents }
   }
 
   async isTaken(path: string, asset: BuilderApiAsset) {

@@ -62,29 +62,57 @@ export function isDirectory(path: string) {
   return promise
 }
 
-export function getSubfolders(path: string) {
+export function list(path: string) {
   const promise = future<string[]>()
   fs.readdir(path, async (err, files) => {
     if (err) {
       promise.reject(err)
     } else {
-      const results = await Promise.all(
-        files.map(async (file) => {
-          return {
-            file,
-            isDirectory: await isDirectory(resolve(path, file)),
-          }
-        }),
-      )
-      promise.resolve(
-        results
-          .filter((result) => result.isDirectory)
-          .map((result) => resolve(path, result.file)),
-      )
+      promise.resolve(files)
     }
   })
   return promise
 }
+
+export async function getSubfolders(path: string) {
+  const paths = await list(path)
+  const results = await Promise.all(
+    paths.map(async (file) => {
+      return {
+        file,
+        isDirectory: await isDirectory(resolve(path, file)),
+      }
+    }),
+  )
+  return results
+    .filter((result) => result.isDirectory)
+    .map((result) => resolve(path, result.file))
+}
+
+export async function getFiles(path: string) {
+  const paths = await list(path)
+  const results = await Promise.all(
+    paths.map(async (file) => {
+      return {
+        file,
+        isDirectory: await isDirectory(resolve(path, file)),
+      }
+    }),
+  )
+  const files: string[] = []
+  for (const result of results) {
+    if (result.isDirectory) {
+      const subfiles = await getFiles(resolve(path, result.file))
+      for (const subfile of subfiles) {
+        files.push(subfile)
+      }
+    } else {
+      files.push(resolve(path, result.file))
+    }
+  }
+  return files
+}
+
 
 export function move(from: string, to: string) {
   const promise = future<void>()
