@@ -5,6 +5,7 @@ import mimeTypes from 'mime-types'
 import { HeadObjectCommand, S3 } from '@aws-sdk/client-s3'
 import { Upload } from '@aws-sdk/lib-storage'
 import { LocalFileSystem } from './utils/local'
+import { exists, readBuffer } from './utils/fs'
 
 dotenv.config()
 const accessKeyId = process.env.AWS_ACCESS_KEY_ID
@@ -92,6 +93,25 @@ async function main() {
       Bucket: bucketName,
       Key: 'catalog.json',
       Body: Buffer.from(JSON.stringify(catalog, null, 2)),
+      ContentType: 'application/json',
+      CacheControl: 'max-age=300',
+    },
+  }).done()
+  console.log(`Uploaded!`)
+
+  // upload scene
+  console.log(`Uploading scene...`)
+  const scenePath = resolve(__dirname, '..', 'bin', 'index.js')
+  const sceneExists = await exists(scenePath)
+  if (!sceneExists) {
+    throw new Error(`The scene does not exist on path ${scenePath}`)
+  }
+  await new Upload({
+    client,
+    params: {
+      Bucket: bucketName,
+      Key: 'scene.js',
+      Body: await readBuffer(scenePath),
       ContentType: 'application/json',
       CacheControl: 'max-age=300',
     },
