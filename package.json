@@ -1,13 +1,20 @@
 {
   "name": "@dcl/asset-packs",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/definitions.js",
+  "typings": "dist/definitions.d.ts",
   "scripts": {
-    "download": "ts-node ./scripts/download.ts",
-    "validate": "ts-node ./scripts/validate.ts",
-    "upload": "ts-node ./scripts/upload.ts",
-    "catalog": "ts-node ./scripts/catalog.ts"
+    "download": "ts-node --project tsconfig.scripts.json ./scripts/download.ts",
+    "validate": "ts-node --project tsconfig.scripts.json ./scripts/validate.ts",
+    "upload": "ts-node --project tsconfig.scripts.json ./scripts/upload.ts",
+    "catalog": "ts-node --project tsconfig.scripts.json ./scripts/catalog.ts",
+    "start": "npm run start:js & npm run start:lib",
+    "start:js": "sdk-commands start",
+    "start:lib": "npm run build:lib -- --watch",
+    "build:js": "sdk-commands build",
+    "build:lib": "tsc --project tsconfig.lib.json",
+    "build": "npm run build:js && npm run build:lib"
   },
   "repository": {
     "type": "git",
@@ -21,6 +28,7 @@
   },
   "homepage": "https://github.com/decentraland/asset-packs#readme",
   "devDependencies": {
+    "@dcl/js-runtime": "7.3.12",
     "@types/mime-types": "^2.1.1",
     "@types/node-fetch": "^2.6.4",
     "prettier": "^3.0.2",
@@ -31,6 +39,7 @@
     "@aws-sdk/client-s3": "^3.395.0",
     "@aws-sdk/lib-storage": "^3.398.0",
     "@dcl/hashing": "^3.0.4",
+    "@dcl/sdk": "^7.3.12",
     "dotenv": "^16.3.1",
     "fp-future": "^1.0.1",
     "mime-types": "^2.1.35",
