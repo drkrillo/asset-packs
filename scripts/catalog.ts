@@ -1,8 +1,8 @@
-import { LocalFileSystem } from '../src/local'
-import { writeFile } from '../src/utils/fs'
+import { LocalFileSystem } from './utils/local'
+import { writeFile } from './utils/fs'
 
 async function main() {
-  const local = new LocalFileSystem('./assets')
+  const local = new LocalFileSystem('./packs')
   const catalog = await local.getCatalog()
   await writeFile('catalog.json', JSON.stringify(catalog, null, 2))
   console.log(`> catalog.json saved ✅`)

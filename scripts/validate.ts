@@ -1,7 +1,7 @@
-import { LocalFileSystem } from '../src/local'
+import { LocalFileSystem } from './utils/local'
 
 async function main() {
-  const local = new LocalFileSystem('./assets')
+  const local = new LocalFileSystem('./packs')
   const assetPacks = await local.getAssetPacks()
   for (const assetPack of assetPacks) {
     const assetsPath = local.getAssetsPath(assetPack.name)

@@ -7,8 +7,8 @@ import {
   readBuffer,
   readJson,
   writeFile,
-} from './utils/fs'
-import { slug } from './utils/string'
+} from './fs'
+import { slug } from './string'
 import { BuilderApiAsset, BuilderApiAssetPack } from './builder/types'
 import {
   AssetData,

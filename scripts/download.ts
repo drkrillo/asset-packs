@@ -1,16 +1,16 @@
 import path from 'path'
-import { Api } from '../src/builder/api'
-import { createDirectory, exists, writeFile } from '../src/utils/fs'
-import { LocalFileSystem } from '../src/local'
+import { Api } from './utils/builder/api'
+import { createDirectory, exists, writeFile } from './utils/fs'
+import { LocalFileSystem } from './utils/local'
 import { rimraf } from 'rimraf'
 
 async function main() {
   console.log('Creating dist directory...')
-  const assets = path.resolve(__dirname, '..', 'assets')
-  await createDirectory(assets)
+  const packs = path.resolve(__dirname, '..', 'packs')
+  await createDirectory(packs)
 
   const builder = new Api('https://builder-api.decentraland.org')
-  const local = new LocalFileSystem(assets)
+  const local = new LocalFileSystem(packs)
 
   console.log('Downloading asset packs...')
   const assetPacks = await builder.getAssetPacks()

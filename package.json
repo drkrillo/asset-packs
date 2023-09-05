@@ -1,5 +1,5 @@
 {
-  "name": "asset-packs",
+  "name": "@dcl/asset-packs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
