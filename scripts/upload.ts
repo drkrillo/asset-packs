@@ -4,7 +4,7 @@ import dotenv from 'dotenv'
 import mimeTypes from 'mime-types'
 import { HeadObjectCommand, S3 } from '@aws-sdk/client-s3'
 import { Upload } from '@aws-sdk/lib-storage'
-import { LocalFileSystem } from '../src/local'
+import { LocalFileSystem } from './utils/local'
 
 dotenv.config()
 const accessKeyId = process.env.AWS_ACCESS_KEY_ID
@@ -80,7 +80,7 @@ async function main() {
     }
   }
 
-  const local = new LocalFileSystem('./assets')
+  const local = new LocalFileSystem('./packs')
 
   const catalog = await local.getCatalog()
 
