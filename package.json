@@ -28,24 +28,24 @@
   },
   "homepage": "https://github.com/decentraland/asset-packs#readme",
   "devDependencies": {
+    "@aws-sdk/client-s3": "^3.405.0",
+    "@aws-sdk/lib-storage": "^3.405.0",
+    "@dcl/hashing": "^3.0.4",
     "@dcl/js-runtime": "7.3.12",
     "@types/mime-types": "^2.1.1",
     "@types/node-fetch": "^2.6.4",
+    "dotenv": "^16.3.1",
+    "fp-future": "^1.0.1",
+    "mime-types": "^2.1.35",
+    "node-fetch": "^3.3.2",
+    "p-queue": "^7.4.1",
     "prettier": "^3.0.2",
+    "rimraf": "^5.0.1",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6"
   },
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.395.0",
-    "@aws-sdk/lib-storage": "^3.398.0",
-    "@dcl/hashing": "^3.0.4",
-    "@dcl/sdk": "^7.3.12",
-    "dotenv": "^16.3.1",
-    "fp-future": "^1.0.1",
-    "mime-types": "^2.1.35",
-    "node-fetch": "^2.6.13",
-    "p-queue": "^7.3.4",
-    "rimraf": "^5.0.1"
+    "@dcl/sdk": "^7.3.12"
   },
   "prettier": {
     "singleQuote": true,
