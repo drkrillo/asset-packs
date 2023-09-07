@@ -21,7 +21,7 @@ jobs:
       - name: Install
         run: npm ci
       - name: Build
-        run: npm run build:lib
+        run: npm run build && cp -r bin dist
       - name: Publish
         uses: menduz/oddish-action@master
         with:
