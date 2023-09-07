@@ -30,12 +30,6 @@ Go to this repo in your machine and do this:
 3. Run `npm link` to allow other projects to symlink to this one.
 4. Copy the path to the `bin/index.js` in this repo (something like `/Users/my-user/path/to/asset-packs/bin/index.js`).
 
-Go the `builder-server` repo in your machine and do this:
-1. Set the `DEV_SCENE_JS_PATH` env var in `.env` to the path you copied in the previous section.
-2. Set the `DEV_SCENE_JS_PORT` to the port where the SDK7 started running (by defualt `8000`).
-3. Run `npm start` to start the server (by default on port `5000`)
-4. Run `npx local-ssl-proxy --source 5001 --target 5000`. Now the server can be used via HTTPS on port `5001`. You might need to open the browser on `https://localhost:5001` and acknowledge the warning message you will see there before the browser can make requests to it (this only needs to be done once). This is because the SSL certificate is self-signed and untrusted by default.
-
 Go the `js-sdk-toolchain` repo in your machine and do this:
 1. Run `cd packages/@dcl/inspector`.
 2. Run `npm link @dcl/asset-packs` to symlink to your local repository
@@ -43,7 +37,8 @@ Go the `js-sdk-toolchain` repo in your machine and do this:
 
 Go to the `builder` repo in your machine and do this:
 1. Set the `REACT_APP_INSPECTOR_PORT` env var in `.env` to be `8001` (this is the `@dcl/inspector` dev server we started in the previous section).
-2. Change the `BUILDER_SERVER_URL` in the `src/config/env/dev.json` to be `https://localhost:5001` (this is our local builder server behind the HTTPS proxy).
+1. Set the `REACT_APP_BIN_INDEX_JS_DEV_JS_PATH` env var in `.env` to the path to the `bin/index.js` that you copied in the first section.
+2. Set the `REACT_APP_BIN_INDEX_JS_DEV_JS_PORT` to the port where the SDK7 started running (by defualt `8000`).
 3. Run `npm start` to start the builder local server which should start on port `3000`
 
 Now you are all set, you can start developing the SDK7 scene in this repo, use it from the local Builder and test it by previewing the scene, which should use your local Builder Server serving the development javascript files.
