@@ -99,24 +99,6 @@ async function main() {
   }).done()
   console.log(`Uploaded!`)
 
-  // delete scene
-  console.log(`Deleting scene...`)
-  try {
-    const head = new HeadObjectCommand({
-      Bucket: bucketName,
-      Key: 'scene.js',
-    })
-    await client.send(head)
-    const remove = new DeleteObjectCommand({
-      Bucket: bucketName,
-      Key: 'scene.js',
-    })
-    console.log(`Scene deleted!`)
-    await client.send(remove)
-  } catch (e) {
-    console.log(`Scene already deleted...`)
-  }
-
   for (const assetPack of catalog.assetPacks) {
     console.log(`Starting upload of "${assetPack.name}"...`)
     // upload thumbnail
