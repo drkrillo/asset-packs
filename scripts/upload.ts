@@ -2,7 +2,7 @@ import { resolve } from 'path'
 import { createReadStream } from 'fs'
 import dotenv from 'dotenv'
 import mimeTypes from 'mime-types'
-import { HeadObjectCommand, S3 } from '@aws-sdk/client-s3'
+import { DeleteObjectCommand, HeadObjectCommand, S3 } from '@aws-sdk/client-s3'
 import { Upload } from '@aws-sdk/lib-storage'
 import { LocalFileSystem } from './utils/local'
 import { exists, readBuffer } from './utils/fs'
@@ -99,24 +99,23 @@ async function main() {
   }).done()
   console.log(`Uploaded!`)
 
-  // upload scene
-  console.log(`Uploading scene...`)
-  const scenePath = resolve(__dirname, '..', 'bin', 'index.js')
-  const sceneExists = await exists(scenePath)
-  if (!sceneExists) {
-    throw new Error(`The scene does not exist on path ${scenePath}`)
-  }
-  await new Upload({
-    client,
-    params: {
+  // delete scene
+  console.log(`Deleting scene...`)
+  try {
+    const head = new HeadObjectCommand({
       Bucket: bucketName,
       Key: 'scene.js',
-      Body: await readBuffer(scenePath),
-      ContentType: 'application/json',
-      CacheControl: 'max-age=300',
-    },
-  }).done()
-  console.log(`Uploaded!`)
+    })
+    await client.send(head)
+    const remove = new DeleteObjectCommand({
+      Bucket: bucketName,
+      Key: 'scene.js',
+    })
+    console.log(`Scene deleted!`)
+    await client.send(remove)
+  } catch (e) {
+    console.log(`Scene already deleted...`)
+  }
 
   for (const assetPack of catalog.assetPacks) {
     console.log(`Starting upload of "${assetPack.name}"...`)
