@@ -37,8 +37,8 @@ Go the `js-sdk-toolchain` repo in your machine and do this:
 
 Go to the `builder` repo in your machine and do this:
 1. Set the `REACT_APP_INSPECTOR_PORT` env var in `.env` to be `8001` (this is the `@dcl/inspector` dev server we started in the previous section).
-1. Set the `REACT_APP_BIN_INDEX_JS_DEV_JS_PATH` env var in `.env` to the path to the `bin/index.js` that you copied in the first section.
-2. Set the `REACT_APP_BIN_INDEX_JS_DEV_JS_PORT` to the port where the SDK7 started running (by defualt `8000`).
+1. Set the `REACT_APP_BIN_INDEX_JS_DEV_PORT` to the port where the SDK7 started running (by defualt `8000`).
+2. Set the `REACT_APP_BIN_INDEX_JS_DEV_PATH` env var in `.env` to the path to the `bin/index.js` that you copied in the first section.
 3. Run `npm start` to start the builder local server which should start on port `3000`
 
 Now you are all set, you can start developing the SDK7 scene in this repo, use it from the local Builder and test it by previewing the scene, which should use your local Builder Server serving the development javascript files.
