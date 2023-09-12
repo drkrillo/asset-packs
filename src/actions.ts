@@ -69,7 +69,6 @@ function initPlayAnimationAction(entity: Entity, action: Action) {
 
   addAction(entity, action.name, () => {
     Animator.stopAllAnimations(entity)
-    console.log('Animator.getClip(entity, clipName)', entity, clipName)
     const clip = Animator.getClip(entity, clipName)
     clip.playing = true
     clip.loop = false

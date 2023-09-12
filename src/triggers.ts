@@ -13,7 +13,6 @@ export function triggersSystem(_dt: number) {
     }
 
     for (const trigger of triggers.value) {
-      console.log('trigger', trigger, trigger)
       switch (trigger.type) {
         case TriggerType.ON_CLICK: {
           initOnClickTrigger(entity, trigger)
