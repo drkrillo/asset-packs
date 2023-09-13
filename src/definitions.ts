@@ -34,7 +34,18 @@ export function createComponents(engine: IEngine) {
           ActionType,
           ActionType.PLAY_ANIMATION,
         ),
-        animation: Schemas.Optional(Schemas.String),
+        payload: Schemas.Map({
+          playAnimation: Schemas.Optional(
+            Schemas.Map({
+              animation: Schemas.Optional(Schemas.String),
+            }),
+          ),
+          setState: Schemas.Optional(
+            Schemas.Map({
+              state: Schemas.Optional(Schemas.String),
+            }),
+          ),
+        }),
       }),
     ),
   })

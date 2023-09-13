@@ -1,6 +1,7 @@
 import { engine, Entity, Animator } from '@dcl/sdk/ecs'
-import { Actions } from './components'
+import { Actions, States } from './components'
 import { Action, ActionType } from './definitions'
+import { getDefaultValue, isValidState } from './states'
 
 const inited = new Set<Entity>()
 
@@ -37,6 +38,10 @@ export function actionsSystem(dt: number) {
           initPlayAnimationAction(entity, action)
           break
         }
+        case ActionType.SET_STATE: {
+          initStateStateAction(entity, action)
+          break
+        }
       }
     }
 
@@ -46,7 +51,7 @@ export function actionsSystem(dt: number) {
 
 // PLAY_ANIMATION
 function initPlayAnimationAction(entity: Entity, action: Action) {
-  const clipName = action.animation || ''
+  const clipName = action.payload.playAnimation?.animation || ''
   if (!Animator.has(entity)) {
     Animator.create(entity, {
       states: [
@@ -72,5 +77,19 @@ function initPlayAnimationAction(entity: Entity, action: Action) {
     const clip = Animator.getClip(entity, clipName)
     clip.playing = true
     clip.loop = false
+  })
+}
+
+// SET_STATE
+function initStateStateAction(entity: Entity, action: Action) {
+  addAction(entity, action.name, () => {
+    const states = States.getMutableOrNull(entity)
+    if (states) {
+      let nextState = action.payload.setState?.state
+      nextState = isValidState(states, nextState)
+        ? nextState
+        : getDefaultValue(states)
+      states.currentValue = nextState
+    }
   })
 }
