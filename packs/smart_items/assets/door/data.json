@@ -7,21 +7,29 @@
     "core::GltfContainer": {
       "src": "{assetPath}/Door.glb"
     },
-    "inspector::Actions": {
+    "asset-packs::Actions": {
       "value": [
         {
           "name": "Open",
           "type": "play_animation",
-          "animation": "Open"
+          "payload": {
+            "playAnimation": {
+              "animation": "Open"
+            }
+          }
         },
         {
           "name": "Close",
           "type": "play_animation",
-          "animation": "Close"
+          "payload": {
+            "playAnimation": {
+              "animation": "Close"
+            }
+          }
         }
       ]
     },
-    "inspector::Triggers": {
+    "asset-packs::Triggers": {
       "value": [
         {
           "type": "on_click",
