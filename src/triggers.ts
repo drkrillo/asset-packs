@@ -51,32 +51,30 @@ function checkConditions(trigger: Trigger) {
 }
 
 function checkCondition(condition: TriggerCondition) {
-  const entity = Number(condition.entity) as Entity
-  if (isNaN(entity)) {
-    console.error(`Invalid entity in condition`, condition)
-    return
-  }
-  try {
-    switch (condition.type) {
-      case TriggerConditionType.WHEN_STATE_IS: {
-        const states = States.getOrNull(entity)
-        if (states !== null) {
-          const currentValue = getCurrentValue(states)
-          return currentValue === condition.value
+  const entity = condition.entity
+  if (entity) {
+    try {
+      switch (condition.type) {
+        case TriggerConditionType.WHEN_STATE_IS: {
+          const states = States.getOrNull(entity)
+          if (states !== null) {
+            const currentValue = getCurrentValue(states)
+            return currentValue === condition.value
+          }
+          break
         }
-        break
-      }
-      case TriggerConditionType.WHEN_STATE_IS_NOT: {
-        const states = States.getOrNull(entity)
-        if (states !== null) {
-          const currentValue = getCurrentValue(states)
-          return currentValue !== condition.value
+        case TriggerConditionType.WHEN_STATE_IS_NOT: {
+          const states = States.getOrNull(entity)
+          if (states !== null) {
+            const currentValue = getCurrentValue(states)
+            return currentValue !== condition.value
+          }
+          break
         }
-        break
       }
+    } catch (error) {
+      console.error('Error in condition', condition)
     }
-  } catch (error) {
-    console.error('Error in condition', condition)
   }
   return false
 }
