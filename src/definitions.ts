@@ -57,16 +57,20 @@ export function createComponents(engine: IEngine) {
           TriggerType,
           TriggerType.ON_CLICK,
         ),
-        conditions: Schemas.Array(
-          Schemas.Map({
-            entity: Schemas.Optional(Schemas.Entity),
-            type: Schemas.String,
-            value: Schemas.String,
-          }),
+        conditions: Schemas.Optional(
+          Schemas.Array(
+            Schemas.Map({
+              entity: Schemas.Optional(Schemas.Entity),
+              type: Schemas.String,
+              value: Schemas.String,
+            }),
+          ),
         ),
-        operation: Schemas.EnumString<TriggerConditionOperation>(
-          TriggerConditionOperation,
-          TriggerConditionOperation.AND,
+        operation: Schemas.Optional(
+          Schemas.EnumString<TriggerConditionOperation>(
+            TriggerConditionOperation,
+            TriggerConditionOperation.AND,
+          ),
         ),
         actions: Schemas.Array(
           Schemas.Map({
@@ -99,7 +103,7 @@ export type Action = ReturnType<ActionsComponent['get']>['value'][0]
 export type TriggersComponent = Components['Triggers']
 export type Trigger = ReturnType<TriggersComponent['get']>['value'][0]
 export type TriggerAction = Trigger['actions'][0]
-export type TriggerCondition = Trigger['conditions'][0]
+export type TriggerCondition = Exclude<Trigger['conditions'], undefined>[0]
 
 export type StatesComponent = Components['States']
 export type States = ReturnType<StatesComponent['get']>

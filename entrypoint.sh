@@ -1,3 +1,3 @@
 #!/bin/sh
 npm run build
-npx concurrently "npm run start:catalog" "npm run start"
+npx concurrently "npm run start:catalog-and-upload" "npm run start"

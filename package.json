@@ -8,14 +8,15 @@
     "download": "ts-node --project tsconfig.scripts.json ./scripts/download.ts",
     "validate": "ts-node --project tsconfig.scripts.json ./scripts/validate.ts",
     "upload": "ts-node --project tsconfig.scripts.json ./scripts/upload.ts",
-    "catalog": "ts-node --project tsconfig.scripts.json ./scripts/catalog.ts",
     "start": "npm run start:js & npm run start:lib",
     "start:js": "sdk-commands start",
     "start:lib": "npm run build:lib -- --watch",
-    "start:catalog": "npm run catalog && npm run upload && ts-node --project tsconfig.scripts.json server.ts",
+    "start:catalog": "npm run build:catalog && ts-node --project tsconfig.scripts.json server.ts",
+    "start:catalog-and-upload": "npm run build:catalog && npm run upload && ts-node --project tsconfig.scripts.json server.ts",
     "build:js": "sdk-commands build",
     "build:lib": "tsc --project tsconfig.lib.json",
-    "build": "npm run build:js && npm run build:lib"
+    "build:catalog": "ts-node --project tsconfig.scripts.json ./scripts/catalog.ts",
+    "build": "npm run build:js && npm run build:lib && npm run build:catalog"
   },
   "repository": {
     "type": "git",

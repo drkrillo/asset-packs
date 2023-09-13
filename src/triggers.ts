@@ -36,7 +36,8 @@ function checkConditions(trigger: Trigger) {
   if (trigger.conditions && trigger.conditions.length > 0) {
     const conditions = trigger.conditions.map(checkCondition)
     const isTrue = (result?: boolean) => !!result
-    switch (trigger.operation) {
+    const operation = trigger.operation || TriggerConditionOperation.AND
+    switch (operation) {
       case TriggerConditionOperation.AND: {
         return conditions.every(isTrue)
       }
@@ -87,12 +88,13 @@ function initOnClickTrigger(entity: Entity, trigger: Trigger) {
       entity,
       opts: {
         button: InputAction.IA_POINTER,
-        hoverText:
-          trigger.actions.length > 0 ? trigger.actions[0].name : 'Click',
+        hoverText: 'Click',
       },
     },
     function () {
+      console.log('ON_CLICK', entity, trigger)
       if (checkConditions(trigger)) {
+        console.log('CONDITIONS PASSED')
         for (const action of trigger.actions) {
           playAction(action.entity, action.name)
         }
