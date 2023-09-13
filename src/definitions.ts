@@ -61,7 +61,10 @@ export function createComponents(engine: IEngine) {
           Schemas.Array(
             Schemas.Map({
               entity: Schemas.Optional(Schemas.Entity),
-              type: Schemas.String,
+              type: Schemas.EnumString<TriggerConditionType>(
+                TriggerConditionType,
+                TriggerConditionType.WHEN_STATE_IS,
+              ),
               value: Schemas.String,
             }),
           ),
