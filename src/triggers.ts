@@ -7,7 +7,7 @@ import {
   TriggerConditionType,
   TriggerType,
 } from './definitions'
-import { playAction } from './actions'
+import { executeAction } from './actions'
 import { getCurrentValue } from './states'
 
 const inited = new Set<Entity>()
@@ -92,11 +92,9 @@ function initOnClickTrigger(entity: Entity, trigger: Trigger) {
       },
     },
     function () {
-      console.log('ON_CLICK', entity, trigger)
       if (checkConditions(trigger)) {
-        console.log('CONDITIONS PASSED')
         for (const action of trigger.actions) {
-          playAction(action.entity, action.name)
+          executeAction(action.entity, action.name)
         }
       }
     },

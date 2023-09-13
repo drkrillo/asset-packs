@@ -15,7 +15,7 @@ function addAction(entity: Entity, name: string, callback: () => void) {
   entityActions.set(name, callback)
 }
 
-export function playAction(entity?: Entity, name?: string) {
+export function executeAction(entity?: Entity, name?: string) {
   if (entity && name) {
     const entityActions = actions.get(entity)
     if (entityActions && entityActions.has(name)) {
