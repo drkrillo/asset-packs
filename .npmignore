@@ -9,7 +9,4 @@ README.md
 scripts
 .github
 docker-compose.yml
-Dockerfile
-entrypoint.sh
 minio-mc-entrypoint.sh
-.dockerignore
