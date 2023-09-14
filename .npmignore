@@ -8,3 +8,8 @@ README.md
 .env.example
 scripts
 .github
+docker-compose.yml
+Dockerfile
+entrypoint.sh
+minio-mc-entrypoint.sh
+.dockerignore
