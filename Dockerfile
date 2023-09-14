@@ -9,7 +9,4 @@ RUN npm ci
 
 COPY . /app
 
-# Dependencies to run an http server and serve the catalog and assets
-RUN npm install concurrently
-
 ENTRYPOINT ["./entrypoint.sh"]

@@ -6,24 +6,6 @@
 version: '3.8'
 
 services:
-  # HTTP server that serves the SDK7 scene locally via http://localhost:8000.
-  # HTTP server that serves the catalog and asset-packs via http://localhost:8002.
-  asset-packs:
-    build: .
-    env_file:
-      - .env
-    ports:
-      - 8000:8000
-      - 8002:8002
-    volumes:
-      - ./packs:/app/packs
-      - ./scripts:/app/scripts
-      - ./src:/app/src
-      - ./server.ts:/app/server.ts
-      - ./entrypoint.sh:/app/entrypoint.sh
-    links:
-      - minio
-
   # Object storage compatible with aws-sdk.
   # Comes with a UI that can be accessed via http://localhost:9001.
   # https://min.io/

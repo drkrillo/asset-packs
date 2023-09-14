@@ -1,3 +1,3 @@
 #!/bin/sh
-npm run build
-npx concurrently "npm run start:catalog-and-upload" "npm run start"
+npm run validate
+npm run upload

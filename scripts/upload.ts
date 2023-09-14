@@ -103,20 +103,6 @@ async function main() {
 
   const catalog = await local.getCatalog()
 
-  // upload catalog
-  console.log(`Uploading catalog...`)
-  await new Upload({
-    client,
-    params: {
-      Bucket: bucketName,
-      Key: 'catalog.json',
-      Body: Buffer.from(JSON.stringify(catalog, null, 2)),
-      ContentType: 'application/json',
-      CacheControl: 'max-age=300',
-    },
-  }).done()
-  console.log(`Uploaded!`)
-
   for (const assetPack of catalog.assetPacks) {
     console.log(`Starting upload of "${assetPack.name}"...`)
     // upload thumbnail
