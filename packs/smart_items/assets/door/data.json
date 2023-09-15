@@ -41,6 +41,13 @@
           ]
         }
       ]
+    },
+    "asset-packs::States": {
+      "value": [
+        "Open",
+        "Close"
+      ],
+      "defaultValue": "Close"
     }
   }
 }
