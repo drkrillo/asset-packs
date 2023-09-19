@@ -1,11 +1,11 @@
 {
-  "id": "a351d9e4-030d-47bd-abca-16103cd8849d",
-  "name": "A door",
-  "category": "decorations",
-  "tags": [],
+  "id": "fefa3ea5-40f3-46c6-a240-9ce70db8f677",
+  "name": "Hatch trapdoor",
+  "category": "structures",
+  "tags": ["door"],
   "components": {
     "core::GltfContainer": {
-      "src": "{assetPath}/Door.glb"
+      "src": "{assetPath}/hatch_anim.glb"
     },
     "asset-packs::Actions": {
       "value": [
@@ -14,7 +14,7 @@
           "type": "play_animation",
           "payload": {
             "playAnimation": {
-              "animation": "Open"
+              "animation": "openHatch"
             }
           }
         },
@@ -23,7 +23,7 @@
           "type": "play_animation",
           "payload": {
             "playAnimation": {
-              "animation": "Close"
+              "animation": "closeHatch"
             }
           }
         }

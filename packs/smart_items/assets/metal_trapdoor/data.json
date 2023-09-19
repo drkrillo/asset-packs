@@ -1,11 +1,15 @@
 {
-  "id": "a351d9e4-030d-47bd-abca-16103cd8849d",
-  "name": "A door",
-  "category": "decorations",
-  "tags": [],
+  "id": "1fc96600-3d45-45f6-b364-86aa8cd15587",
+  "name": "Metal Trapdoor",
+  "category": "structures",
+  "tags": [
+    "door",
+    "trap",
+    "interactive"
+  ],
   "components": {
     "core::GltfContainer": {
-      "src": "{assetPath}/Door.glb"
+      "src": "{assetPath}/grey_trap_door.glb"
     },
     "asset-packs::Actions": {
       "value": [
@@ -14,7 +18,7 @@
           "type": "play_animation",
           "payload": {
             "playAnimation": {
-              "animation": "Open"
+              "animation": "open"
             }
           }
         },
@@ -23,7 +27,7 @@
           "type": "play_animation",
           "payload": {
             "playAnimation": {
-              "animation": "Close"
+              "animation": "close"
             }
           }
         }
@@ -52,7 +56,10 @@
       ]
     },
     "asset-packs::States": {
-      "value": ["Open", "Close"],
+      "value": [
+        "Open",
+        "Close"
+      ],
       "defaultValue": "Close"
     }
   }
