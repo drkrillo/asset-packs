@@ -63,6 +63,7 @@ export function triggersSystem(_dt: number) {
         }
       })
     }
+    triggerEvents.emit(TriggerType.ON_SPAWN)
 
     initedEntities.add(entity)
   }
