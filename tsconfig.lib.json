@@ -29,6 +29,7 @@
     "strictBindCallApply": true,
     "strictFunctionTypes": true,
     "strictPropertyInitialization": true,
+    "resolveJsonModule": true,
     "lib": ["ES2020"],
     "types": ["@dcl/js-runtime"]
   },

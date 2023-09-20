@@ -1,57 +1,42 @@
 import { engine, Entity, Animator } from '@dcl/sdk/ecs'
 import { Actions, States } from './components'
-import { Action, ActionType } from './definitions'
+import { ActionPayload, ActionType, TriggerType } from './definitions'
 import { getDefaultValue, isValidState } from './states'
+import { getActionEvents, getTriggerEvents } from './events'
 
-const inited = new Set<Entity>()
+const initedEntities = new Set<Entity>()
 
-export const actions = new Map<Entity, Map<string, () => void>>()
-
-function addAction(entity: Entity, name: string, callback: () => void) {
-  if (!actions.has(entity)) {
-    actions.set(entity, new Map<string, () => void>())
-  }
-  const entityActions = actions.get(entity)!
-  entityActions.set(name, callback)
-}
-
-export function executeAction(entity?: Entity, name?: string) {
-  if (entity && name) {
-    const entityActions = actions.get(entity)
-    if (entityActions && entityActions.has(name)) {
-      const callback = entityActions.get(name)!
-      callback()
-    }
-  }
-}
-
-export function actionsSystem(dt: number) {
+export function actionsSystem(_dt: number) {
   const entitiesWithActions = engine.getEntitiesWith(Actions)
   for (const [entity, actions] of entitiesWithActions) {
-    if (inited.has(entity)) {
+    if (initedEntities.has(entity)) {
       continue
     }
 
+    const actionEvents = getActionEvents(entity)
     for (const action of actions.value) {
-      switch (action.type) {
-        case ActionType.PLAY_ANIMATION: {
-          initPlayAnimationAction(entity, action)
-          break
+      actionEvents.on(action.name, () => {
+        switch (action.type) {
+          case ActionType.PLAY_ANIMATION: {
+            handlePlayAnimation(entity, action.payload)
+            break
+          }
+          case ActionType.SET_STATE: {
+            handleSetState(entity, action.payload)
+            break
+          }
         }
-        case ActionType.SET_STATE: {
-          initStateStateAction(entity, action)
-          break
-        }
-      }
+      })
     }
 
-    inited.add(entity)
+    initedEntities.add(entity)
   }
 }
 
 // PLAY_ANIMATION
-function initPlayAnimationAction(entity: Entity, action: Action) {
-  const clipName = action.payload.playAnimation?.animation || ''
+function handlePlayAnimation(entity: Entity, action: ActionPayload) {
+  const clipName = action.playAnimation?.animation || ''
+
   if (!Animator.has(entity)) {
     Animator.create(entity, {
       states: [
@@ -63,33 +48,35 @@ function initPlayAnimationAction(entity: Entity, action: Action) {
     })
   } else {
     const animator = Animator.getMutable(entity)
-    animator.states = [
-      ...animator.states,
-      {
-        name: clipName,
-        clip: clipName,
-      },
-    ]
+    if (!animator.states.some(($) => $.name === clipName)) {
+      animator.states = [
+        ...animator.states,
+        {
+          name: clipName,
+          clip: clipName,
+        },
+      ]
+    }
   }
 
-  addAction(entity, action.name, () => {
-    Animator.stopAllAnimations(entity)
-    const clip = Animator.getClip(entity, clipName)
-    clip.playing = true
-    clip.loop = false
-  })
+  Animator.stopAllAnimations(entity)
+  const clip = Animator.getClip(entity, clipName)
+  clip.playing = true
+  clip.loop = false
 }
 
 // SET_STATE
-function initStateStateAction(entity: Entity, action: Action) {
-  addAction(entity, action.name, () => {
-    const states = States.getMutableOrNull(entity)
-    if (states) {
-      let nextState = action.payload.setState?.state
-      nextState = isValidState(states, nextState)
-        ? nextState
-        : getDefaultValue(states)
-      states.currentValue = nextState
-    }
-  })
+function handleSetState(entity: Entity, action: ActionPayload) {
+  const states = States.getMutableOrNull(entity)
+
+  if (states) {
+    let nextState = action.setState?.state
+    nextState = isValidState(states, nextState)
+      ? nextState
+      : getDefaultValue(states)
+    states.currentValue = nextState
+
+    const triggerEvents = getTriggerEvents(entity)
+    triggerEvents.emit(TriggerType.ON_STATE_CHANGE)
+  }
 }

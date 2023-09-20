@@ -13,6 +13,7 @@ export enum ActionType {
 
 export enum TriggerType {
   ON_CLICK = 'on_click',
+  ON_STATE_CHANGE = 'on_state_change',
 }
 
 export enum TriggerConditionType {
@@ -102,6 +103,7 @@ export type Components = ReturnType<typeof createComponents>
 
 export type ActionsComponent = Components['Actions']
 export type Action = ReturnType<ActionsComponent['get']>['value'][0]
+export type ActionPayload = Action['payload']
 
 export type TriggersComponent = Components['Triggers']
 export type Trigger = ReturnType<TriggersComponent['get']>['value'][0]
