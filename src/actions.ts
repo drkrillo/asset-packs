@@ -13,6 +13,21 @@ export function actionsSystem(_dt: number) {
       continue
     }
 
+    // initialize actions for given entity
+    const types = actions.value.reduce(
+      (types, action) => types.add(action.type),
+      new Set<ActionType>(),
+    )
+    for (const type of types) {
+      switch (type) {
+        case ActionType.PLAY_ANIMATION: {
+          initPlayAnimation(entity)
+          break
+        }
+      }
+    }
+
+    // bind actions
     const actionEvents = getActionEvents(entity)
     for (const action of actions.value) {
       actionEvents.on(action.name, () => {
@@ -34,29 +49,25 @@ export function actionsSystem(_dt: number) {
 }
 
 // PLAY_ANIMATION
+function initPlayAnimation(entity: Entity) {
+  Animator.create(entity, {
+    states: [],
+  })
+  Animator.stopAllAnimations(entity)
+}
+
 function handlePlayAnimation(entity: Entity, action: ActionPayload) {
   const clipName = action.playAnimation?.animation || ''
 
-  if (!Animator.has(entity)) {
-    Animator.create(entity, {
-      states: [
-        {
-          name: clipName,
-          clip: clipName,
-        },
-      ],
-    })
-  } else {
-    const animator = Animator.getMutable(entity)
-    if (!animator.states.some(($) => $.name === clipName)) {
-      animator.states = [
-        ...animator.states,
-        {
-          name: clipName,
-          clip: clipName,
-        },
-      ]
-    }
+  const animator = Animator.getMutable(entity)
+  if (!animator.states.some(($) => $.name === clipName)) {
+    animator.states = [
+      ...animator.states,
+      {
+        name: clipName,
+        clip: clipName,
+      },
+    ]
   }
 
   Animator.stopAllAnimations(entity)

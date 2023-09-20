@@ -15,6 +15,24 @@
       "value": [
         {
           "name": "Open",
+          "type": "set_state",
+          "payload": {
+            "setState": {
+              "state": "Open"
+            }
+          }
+        },
+        {
+          "name": "Close",
+          "type": "set_state",
+          "payload": {
+            "setState": {
+              "state": "Closed"
+            }
+          }
+        },
+        {
+          "name": "Play Open Animation",
           "type": "play_animation",
           "payload": {
             "playAnimation": {
@@ -23,7 +41,7 @@
           }
         },
         {
-          "name": "Close",
+          "name": "Play Close Animation",
           "type": "play_animation",
           "payload": {
             "playAnimation": {
@@ -37,6 +55,13 @@
       "value": [
         {
           "type": "on_click",
+          "conditions": [
+            {
+              "entity": "{selfEntity}",
+              "type": "when_state_is",
+              "value": "Closed"
+            }
+          ],
           "actions": [
             {
               "entity": "{selfEntity}",
@@ -46,10 +71,49 @@
         },
         {
           "type": "on_click",
+          "conditions": [
+            {
+              "entity": "{selfEntity}",
+              "type": "when_state_is",
+              "value": "Open"
+            }
+          ],
           "actions": [
             {
               "entity": "{selfEntity}",
               "name": "Close"
+            }
+          ]
+        },
+        {
+          "type": "on_state_change",
+          "conditions": [
+            {
+              "entity": "{selfEntity}",
+              "type": "when_state_is",
+              "value": "Open"
+            }
+          ],
+          "actions": [
+            {
+              "entity": "{selfEntity}",
+              "name": "Play Open Animation"
+            }
+          ]
+        },
+        {
+          "type": "on_state_change",
+          "conditions": [
+            {
+              "entity": "{selfEntity}",
+              "type": "when_state_is",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "entity": "{selfEntity}",
+              "name": "Play Close Animation"
             }
           ]
         }
@@ -58,9 +122,9 @@
     "asset-packs::States": {
       "value": [
         "Open",
-        "Close"
+        "Closed"
       ],
-      "defaultValue": "Close"
+      "defaultValue": "Closed"
     }
   }
 }
