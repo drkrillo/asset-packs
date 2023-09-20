@@ -1,0 +1,137 @@
+{
+  "id": "7cd4d0bc-54d4-4f64-8ab2-6f18f41f03a3",
+  "name": "Cyberpunk Door",
+  "category": "structures",
+  "tags": [
+    "door"
+  ],
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/cyberpunk_door_anim.glb"
+    },
+    "asset-packs::Actions": {
+      "value": [
+        {
+          "name": "Open",
+          "type": "set_state",
+          "payload": {
+            "setState": {
+              "state": "Open"
+            }
+          }
+        },
+        {
+          "name": "Close",
+          "type": "set_state",
+          "payload": {
+            "setState": {
+              "state": "Closed"
+            }
+          }
+        },
+        {
+          "name": "Play Open Animation",
+          "type": "play_animation",
+          "payload": {
+            "playAnimation": {
+              "animation": "open"
+            }
+          }
+        },
+        {
+          "name": "Play Close Animation",
+          "type": "play_animation",
+          "payload": {
+            "playAnimation": {
+              "animation": "close"
+            }
+          }
+        }
+      ]
+    },
+    "asset-packs::Triggers": {
+      "value": [
+        {
+          "type": "on_click",
+          "conditions": [
+            {
+              "entity": "{selfEntity}",
+              "type": "when_state_is",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "entity": "{selfEntity}",
+              "name": "Open"
+            }
+          ]
+        },
+        {
+          "type": "on_click",
+          "conditions": [
+            {
+              "entity": "{selfEntity}",
+              "type": "when_state_is",
+              "value": "Open"
+            }
+          ],
+          "actions": [
+            {
+              "entity": "{selfEntity}",
+              "name": "Close"
+            }
+          ]
+        },
+        {
+          "type": "on_state_change",
+          "conditions": [
+            {
+              "entity": "{selfEntity}",
+              "type": "when_state_is",
+              "value": "Open"
+            }
+          ],
+          "actions": [
+            {
+              "entity": "{selfEntity}",
+              "name": "Play Open Animation"
+            }
+          ]
+        },
+        {
+          "type": "on_state_change",
+          "conditions": [
+            {
+              "entity": "{selfEntity}",
+              "type": "when_state_is",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "entity": "{selfEntity}",
+              "name": "Play Close Animation"
+            }
+          ]
+        },
+        {
+          "type": "on_spawn",
+          "actions": [
+            {
+              "entity": "{selfEntity}",
+              "name": "Close"
+            }
+          ]
+        }
+      ]
+    },
+    "asset-packs::States": {
+      "value": [
+        "Open",
+        "Closed"
+      ],
+      "defaultValue": "Closed"
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "id": "e915cdb6-03e6-43e2-81fb-58ad8603f68c",
+  "name": "Iron Fence Door",
+  "category": "structures",
+  "tags": [
+    "door"
+  ],
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/door_genesis.glb"
+    },
+    "asset-packs::Actions": {
+      "value": [
+        {
+          "name": "Open",
+          "type": "set_state",
+          "payload": {
+            "setState": {
+              "state": "Open"
+            }
+          }
+        },
+        {
+          "name": "Close",
+          "type": "set_state",
+          "payload": {
+            "setState": {
+              "state": "Closed"
+            }
+          }
+        },
+        {
+          "name": "Play Open Animation",
+          "type": "play_animation",
+          "payload": {
+            "playAnimation": {
+              "animation": "open"
+            }
+          }
+        },
+        {
+          "name": "Play Close Animation",
+          "type": "play_animation",
+          "payload": {
+            "playAnimation": {
+              "animation": "close"
+            }
+          }
+        },
+        {
+          "name": "Play Idle Animation",
+          "type": "play_animation",
+          "payload": {
+            "playAnimation": {
+              "animation": "main"
+            }
+          }
+        }
+      ]
+    },
+    "asset-packs::Triggers": {
+      "value": [
+        {
+          "type": "on_click",
+          "conditions": [
+            {
+              "entity": "{selfEntity}",
+              "type": "when_state_is",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "entity": "{selfEntity}",
+              "name": "Open"
+            }
+          ]
+        },
+        {
+          "type": "on_click",
+          "conditions": [
+            {
+              "entity": "{selfEntity}",
+              "type": "when_state_is",
+              "value": "Open"
+            }
+          ],
+          "actions": [
+            {
+              "entity": "{selfEntity}",
+              "name": "Close"
+            }
+          ]
+        },
+        {
+          "type": "on_state_change",
+          "conditions": [
+            {
+              "entity": "{selfEntity}",
+              "type": "when_state_is",
+              "value": "Open"
+            }
+          ],
+          "actions": [
+            {
+              "entity": "{selfEntity}",
+              "name": "Play Open Animation"
+            }
+          ]
+        },
+        {
+          "type": "on_state_change",
+          "conditions": [
+            {
+              "entity": "{selfEntity}",
+              "type": "when_state_is",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "entity": "{selfEntity}",
+              "name": "Play Close Animation"
+            }
+          ]
+        },
+        {
+          "type": "on_spawn",
+          "actions": [
+            {
+              "entity": "{selfEntity}",
+              "name": "Play Idle Animation"
+            }
+          ]
+        }
+      ]
+    },
+    "asset-packs::States": {
+      "value": [
+        "Open",
+        "Closed"
+      ],
+      "defaultValue": "Closed"
+    }
+  }
+}

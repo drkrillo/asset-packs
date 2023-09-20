@@ -1,0 +1,126 @@
+{
+  "id": "ed36149f-76c5-45c4-a678-d4b31c4ed9ca",
+  "name": "Wooden Door",
+  "category": "structures",
+  "tags": ["door"],
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/door_fantasy.glb"
+    },
+    "asset-packs::Actions": {
+      "value": [
+        {
+          "name": "Open",
+          "type": "set_state",
+          "payload": {
+            "setState": {
+              "state": "Open"
+            }
+          }
+        },
+        {
+          "name": "Close",
+          "type": "set_state",
+          "payload": {
+            "setState": {
+              "state": "Closed"
+            }
+          }
+        },
+        {
+          "name": "Play Open Animation",
+          "type": "play_animation",
+          "payload": {
+            "playAnimation": {
+              "animation": "Open"
+            }
+          }
+        },
+        {
+          "name": "Play Close Animation",
+          "type": "play_animation",
+          "payload": {
+            "playAnimation": {
+              "animation": "Close"
+            }
+          }
+        }
+      ]
+    },
+    "asset-packs::Triggers": {
+      "value": [
+        {
+          "type": "on_click",
+          "conditions": [
+            {
+              "entity": "{selfEntity}",
+              "type": "when_state_is",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "entity": "{selfEntity}",
+              "name": "Open"
+            }
+          ]
+        },
+        {
+          "type": "on_click",
+          "conditions": [
+            {
+              "entity": "{selfEntity}",
+              "type": "when_state_is",
+              "value": "Open"
+            }
+          ],
+          "actions": [
+            {
+              "entity": "{selfEntity}",
+              "name": "Close"
+            }
+          ]
+        },
+        {
+          "type": "on_state_change",
+          "conditions": [
+            {
+              "entity": "{selfEntity}",
+              "type": "when_state_is",
+              "value": "Open"
+            }
+          ],
+          "actions": [
+            {
+              "entity": "{selfEntity}",
+              "name": "Play Open Animation"
+            }
+          ]
+        },
+        {
+          "type": "on_state_change",
+          "conditions": [
+            {
+              "entity": "{selfEntity}",
+              "type": "when_state_is",
+              "value": "Closed"
+            }
+          ],
+          "actions": [
+            {
+              "entity": "{selfEntity}",
+              "name": "Play Close Animation"
+            }
+          ]
+        }
+      ]
+    },
+    "asset-packs::States": {
+      "value": [
+        "Open",
+        "Closed"
+      ],
+      "defaultValue": "Closed"
+    }
+  }
+}
