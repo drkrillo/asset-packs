@@ -2,8 +2,8 @@
   "name": "@dcl/asset-packs",
   "version": "0.0.0",
   "description": "",
-  "main": "dist/definitions.js",
-  "typings": "dist/definitions.d.ts",
+  "main": "dist/src/definitions.js",
+  "typings": "dist/src/definitions.d.ts",
   "scripts": {
     "download": "ts-node --project tsconfig.scripts.json ./scripts/download.ts",
     "validate": "ts-node --project tsconfig.scripts.json ./scripts/validate.ts",
@@ -50,7 +50,8 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
-    "@dcl/sdk": "^7.3.12"
+    "@dcl/sdk": "^7.3.12",
+    "mitt": "^3.0.1"
   },
   "prettier": {
     "singleQuote": true,

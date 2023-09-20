@@ -1,34 +1,70 @@
 import { engine, Entity, pointerEventsSystem, InputAction } from '@dcl/sdk/ecs'
-import { States, Triggers } from './components'
+import { Actions, States, Triggers } from './components'
 import {
+  Action,
   Trigger,
   TriggerCondition,
   TriggerConditionOperation,
   TriggerConditionType,
   TriggerType,
 } from './definitions'
-import { executeAction } from './actions'
 import { getCurrentValue } from './states'
+import { getActionEvents, getTriggerEvents } from './events'
 
-const inited = new Set<Entity>()
+const initedEntities = new Set<Entity>()
+const actionQueue: { entity: Entity; action: Action }[] = []
 
 export function triggersSystem(_dt: number) {
+  // process action queue
+  while (actionQueue.length > 0) {
+    const { entity, action } = actionQueue.shift()!
+    const actionEvents = getActionEvents(entity)
+    actionEvents.emit(action.name, action.payload)
+  }
+
   const entitiesWithTriggers = engine.getEntitiesWith(Triggers)
   for (const [entity, triggers] of entitiesWithTriggers) {
-    if (inited.has(entity)) {
+    if (initedEntities.has(entity)) {
       continue
     }
 
-    for (const trigger of triggers.value) {
-      switch (trigger.type) {
+    // initialize triggers for given entity
+    const types = triggers.value.reduce(
+      (types, trigger) => types.add(trigger.type),
+      new Set<TriggerType>(),
+    )
+    for (const type of types) {
+      switch (type) {
         case TriggerType.ON_CLICK: {
-          initOnClickTrigger(entity, trigger)
+          initOnClickTrigger(entity)
           break
         }
       }
     }
 
-    inited.add(entity)
+    // bind triggers
+    const triggerEvents = getTriggerEvents(entity)
+    for (const trigger of triggers.value) {
+      triggerEvents.on(trigger.type, () => {
+        if (checkConditions(trigger)) {
+          for (const { entity, name } of trigger.actions) {
+            if (entity && name) {
+              const actions = Actions.getOrNull(entity)
+              if (actions) {
+                const action = actions.value.find(($) => $.name === name)
+                if (action) {
+                  // actions are enqueued to be executed on the next tick after all the triggers have been processed,
+                  // this is to avoid one trigger messing with other trigger's conditions
+                  actionQueue.push({ entity, action })
+                }
+              }
+            }
+          }
+        }
+      })
+    }
+
+    initedEntities.add(entity)
   }
 }
 
@@ -80,7 +116,7 @@ function checkCondition(condition: TriggerCondition) {
 }
 
 // ON_CLICK
-function initOnClickTrigger(entity: Entity, trigger: Trigger) {
+function initOnClickTrigger(entity: Entity) {
   pointerEventsSystem.onPointerDown(
     {
       entity,
@@ -89,12 +125,9 @@ function initOnClickTrigger(entity: Entity, trigger: Trigger) {
         hoverText: 'Click',
       },
     },
-    function () {
-      if (checkConditions(trigger)) {
-        for (const action of trigger.actions) {
-          executeAction(action.entity, action.name)
-        }
-      }
+    () => {
+      const triggerEvents = getTriggerEvents(entity)
+      triggerEvents.emit(TriggerType.ON_CLICK)
     },
   )
 }
