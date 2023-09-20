@@ -114,6 +114,15 @@
               "name": "Play Close Animation"
             }
           ]
+        },
+        {
+          "type": "on_spawn",
+          "actions": [
+            {
+              "entity": "{selfEntity}",
+              "name": "Close"
+            }
+          ]
         }
       ]
     },

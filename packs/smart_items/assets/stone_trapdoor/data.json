@@ -48,6 +48,15 @@
               "animation": "close"
             }
           }
+        },
+        {
+          "name": "Play Idle Animation",
+          "type": "play_animation",
+          "payload": {
+            "playAnimation": {
+              "animation": "main"
+            }
+          }
         }
       ]
     },
@@ -114,6 +123,15 @@
             {
               "entity": "{selfEntity}",
               "name": "Play Close Animation"
+            }
+          ]
+        },
+        {
+          "type": "on_spawn",
+          "actions": [
+            {
+              "entity": "{selfEntity}",
+              "name": "Play Idle Animation"
             }
           ]
         }
