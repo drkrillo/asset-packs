@@ -34,7 +34,7 @@
           "type": "play_animation",
           "payload": {
             "playAnimation": {
-              "animation": "open"
+              "animation": "Open"
             }
           }
         },
@@ -43,7 +43,7 @@
           "type": "play_animation",
           "payload": {
             "playAnimation": {
-              "animation": "close"
+              "animation": "Close"
             }
           }
         }

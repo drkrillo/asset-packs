@@ -116,8 +116,11 @@
       ]
     },
     "asset-packs::States": {
-      "value": ["Open", "Close"],
-      "defaultValue": "Close"
+      "value": [
+        "Open",
+        "Closed"
+      ],
+      "defaultValue": "Closed"
     }
   }
 }
