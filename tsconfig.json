@@ -3,7 +3,8 @@
     "allowJs": true,
     "strict": true,
     "inlineSources": false,
-    "sourceMap": false
+    "sourceMap": false,
+    "resolveJsonModule": true
   },
   "include": [
     "src/**/*.ts",
