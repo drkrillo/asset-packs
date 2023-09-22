@@ -22,9 +22,12 @@ export const ActionSchemas = {
   [ActionType.SET_STATE]: Schemas.Map({ state: Schemas.String }),
 }
 
-export type ActionPayload<T extends ActionType> = ReturnType<
-  (typeof ActionSchemas)[T]['deserialize']
->
+export type ActionPayload<T extends ActionType = any> =
+  T extends keyof typeof ActionSchemas
+    ? (typeof ActionSchemas)[T] extends ISchema
+      ? ReturnType<(typeof ActionSchemas)[T]['deserialize']>
+      : {}
+    : {}
 
 export enum TriggerType {
   ON_CLICK = 'on_click',
@@ -148,11 +151,14 @@ export function getActionTypesComponent(engine: IEngine) {
 export function addActionType<T extends ISchema>(
   engine: IEngine,
   type: string,
-  schema: T,
+  schema?: T,
 ) {
   const ActionTypes = getActionTypesComponent(engine)
   const actionTypes = ActionTypes.getOrCreateMutable(engine.RootEntity)
-  actionTypes.value.push({ type, schemaJson: JSON.stringify(schema) })
+  actionTypes.value.push({
+    type,
+    schemaJson: JSON.stringify(schema || Schemas.Map({})),
+  })
 }
 
 export function getActionSchema(engine: IEngine, type: string): ISchema {
