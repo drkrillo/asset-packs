@@ -1,10 +1,14 @@
 import { engine, Entity, Animator } from '@dcl/sdk/ecs'
 import { Actions, States } from './components'
-import { ActionPayload, ActionType, TriggerType } from './definitions'
+import { Action, ActionPayload, ActionType, TriggerType } from './definitions'
 import { getDefaultValue, isValidState } from './states'
 import { getActionEvents, getTriggerEvents } from './events'
 
 const initedEntities = new Set<Entity>()
+
+export function getPayload<T extends ActionType>(action: Action) {
+  return JSON.parse(action.payloadJson) as ActionPayload<T>
+}
 
 export function actionsSystem(_dt: number) {
   const entitiesWithActions = engine.getEntitiesWith(Actions)
@@ -16,7 +20,7 @@ export function actionsSystem(_dt: number) {
     // initialize actions for given entity
     const types = actions.value.reduce(
       (types, action) => types.add(action.type),
-      new Set<ActionType>(),
+      new Set<String>(),
     )
     for (const type of types) {
       switch (type) {
@@ -33,11 +37,14 @@ export function actionsSystem(_dt: number) {
       actionEvents.on(action.name, () => {
         switch (action.type) {
           case ActionType.PLAY_ANIMATION: {
-            handlePlayAnimation(entity, action.payload)
+            handlePlayAnimation(
+              entity,
+              getPayload<ActionType.PLAY_ANIMATION>(action),
+            )
             break
           }
           case ActionType.SET_STATE: {
-            handleSetState(entity, action.payload)
+            handleSetState(entity, getPayload<ActionType.SET_STATE>(action))
             break
           }
         }
@@ -56,8 +63,11 @@ function initPlayAnimation(entity: Entity) {
   Animator.stopAllAnimations(entity)
 }
 
-function handlePlayAnimation(entity: Entity, action: ActionPayload) {
-  const clipName = action.playAnimation?.animation || ''
+function handlePlayAnimation(
+  entity: Entity,
+  action: ActionPayload<ActionType.PLAY_ANIMATION>,
+) {
+  const clipName = action.animation
 
   const animator = Animator.getMutable(entity)
   if (!animator.states.some(($) => $.name === clipName)) {
@@ -77,11 +87,14 @@ function handlePlayAnimation(entity: Entity, action: ActionPayload) {
 }
 
 // SET_STATE
-function handleSetState(entity: Entity, action: ActionPayload) {
+function handleSetState(
+  entity: Entity,
+  action: ActionPayload<ActionType.SET_STATE>,
+) {
   const states = States.getMutableOrNull(entity)
 
   if (states) {
-    let nextState = action.setState?.state
+    let nextState: string | undefined = action.state
     nextState = isValidState(states, nextState)
       ? nextState
       : getDefaultValue(states)

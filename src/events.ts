@@ -1,10 +1,13 @@
 import mitt, { Emitter } from 'mitt'
 import { Entity } from '@dcl/sdk/ecs'
-import { Action, TriggerType } from './definitions'
+import { ActionPayload, ActionType, TriggerType } from './definitions'
 
 const triggers = new Map<Entity, Emitter<Record<TriggerType, void>>>()
 
-const actions = new Map<Entity, Emitter<Record<string, Action['payload']>>>()
+const actions = new Map<
+  Entity,
+  Emitter<Record<string, ActionPayload<ActionType>>>
+>()
 
 export function getTriggerEvents(entity: Entity) {
   if (!triggers.has(entity)) {

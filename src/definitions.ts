@@ -1,6 +1,12 @@
-import { IEngine, Schemas } from '@dcl/sdk/ecs'
+import {
+  IEngine,
+  ISchema,
+  LastWriteWinElementSetComponentDefinition,
+  Schemas,
+} from '@dcl/sdk/ecs'
 
 export enum ComponentName {
+  ACTION_TYPES = 'asset-packs::ActionTypes',
   ACTIONS = 'asset-packs::Actions',
   TRIGGERS = 'asset-packs::Triggers',
   STATES = 'asset-packs::States',
@@ -10,6 +16,15 @@ export enum ActionType {
   PLAY_ANIMATION = 'play_animation',
   SET_STATE = 'set_state',
 }
+
+export const ActionSchemas = {
+  [ActionType.PLAY_ANIMATION]: Schemas.Map({ animation: Schemas.String }),
+  [ActionType.SET_STATE]: Schemas.Map({ state: Schemas.String }),
+}
+
+export type ActionPayload<T extends ActionType> = ReturnType<
+  (typeof ActionSchemas)[T]['deserialize']
+>
 
 export enum TriggerType {
   ON_CLICK = 'on_click',
@@ -28,26 +43,21 @@ export enum TriggerConditionOperation {
 }
 
 export function createComponents(engine: IEngine) {
+  const ActionTypes = engine.defineComponent(ComponentName.ACTION_TYPES, {
+    value: Schemas.Array(
+      Schemas.Map({
+        type: Schemas.String,
+        schemaJson: Schemas.String,
+      }),
+    ),
+  })
+
   const Actions = engine.defineComponent(ComponentName.ACTIONS, {
     value: Schemas.Array(
       Schemas.Map({
         name: Schemas.String,
-        type: Schemas.EnumString<ActionType>(
-          ActionType,
-          ActionType.PLAY_ANIMATION,
-        ),
-        payload: Schemas.Map({
-          playAnimation: Schemas.Optional(
-            Schemas.Map({
-              animation: Schemas.Optional(Schemas.String),
-            }),
-          ),
-          setState: Schemas.Optional(
-            Schemas.Map({
-              state: Schemas.Optional(Schemas.String),
-            }),
-          ),
-        }),
+        type: Schemas.String,
+        payloadJson: Schemas.String,
       }),
     ),
   })
@@ -93,7 +103,20 @@ export function createComponents(engine: IEngine) {
     currentValue: Schemas.Optional(Schemas.String),
   })
 
+  // Add actions from this package
+  addActionType(
+    engine,
+    ActionType.PLAY_ANIMATION,
+    ActionSchemas[ActionType.PLAY_ANIMATION],
+  )
+  addActionType(
+    engine,
+    ActionType.SET_STATE,
+    ActionSchemas[ActionType.SET_STATE],
+  )
+
   return {
+    ActionTypes,
     Actions,
     Triggers,
     States,
@@ -102,9 +125,11 @@ export function createComponents(engine: IEngine) {
 
 export type Components = ReturnType<typeof createComponents>
 
+export type ActionTypesComponent = Components['ActionTypes']
+export type ActionTypes = ReturnType<ActionTypesComponent['getOrCreateMutable']>
+
 export type ActionsComponent = Components['Actions']
 export type Action = ReturnType<ActionsComponent['get']>['value'][0]
-export type ActionPayload = Action['payload']
 
 export type TriggersComponent = Components['Triggers']
 export type Trigger = ReturnType<TriggersComponent['get']>['value'][0]
@@ -113,3 +138,32 @@ export type TriggerCondition = Exclude<Trigger['conditions'], undefined>[0]
 
 export type StatesComponent = Components['States']
 export type States = ReturnType<StatesComponent['get']>
+
+export function getActionTypesComponent(engine: IEngine) {
+  return engine.getComponent(
+    ComponentName.ACTION_TYPES,
+  ) as LastWriteWinElementSetComponentDefinition<ActionTypes>
+}
+
+export function addActionType<T extends ISchema>(
+  engine: IEngine,
+  type: string,
+  schema: T,
+) {
+  const ActionTypes = getActionTypesComponent(engine)
+  const actionTypes = ActionTypes.getOrCreateMutable(engine.RootEntity)
+  actionTypes.value.push({ type, schemaJson: JSON.stringify(schema) })
+}
+
+export function getActionSchema(engine: IEngine, type: string): ISchema {
+  const ActionTypes = getActionTypesComponent(engine)
+  const actionTypes = ActionTypes.getOrCreateMutable(engine.RootEntity)
+  const actionType = actionTypes.value.find(($) => $.type === type)
+  return actionType ? JSON.parse(actionType.schemaJson) : null
+}
+
+export function getActionTypes(engine: IEngine) {
+  const ActionTypes = getActionTypesComponent(engine)
+  const actionTypes = ActionTypes.getOrCreateMutable(engine.RootEntity)
+  return actionTypes.value.map(($) => $.type)
+}
