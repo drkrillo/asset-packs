@@ -34,14 +34,14 @@ export function addActionType<T extends ISchema>(
   })
 }
 
-export function getActionSchema(engine: IEngine, type: string) {
+export function getActionSchema<T>(engine: IEngine, type: string) {
   const ActionTypes = getActionTypesComponent(engine)
   const actionTypes = ActionTypes.getOrCreateMutable(engine.RootEntity)
   const actionType = actionTypes.value.find(($) => $.type === type)
   const jsonSchema: JsonSchemaExtended = actionType
     ? JSON.parse(actionType.jsonSchema)
     : EMPTY
-  return Schemas.fromJson(jsonSchema)
+  return Schemas.fromJson(jsonSchema) as ISchema<T>
 }
 
 export function getActionTypes(engine: IEngine) {
