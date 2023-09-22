@@ -1,9 +1,5 @@
-import {
-  IEngine,
-  ISchema,
-  LastWriteWinElementSetComponentDefinition,
-  Schemas,
-} from '@dcl/sdk/ecs'
+import { IEngine, ISchema, Schemas } from '@dcl/sdk/ecs'
+import { addActionType } from './action-types'
 
 export enum ComponentName {
   ACTION_TYPES = 'asset-packs::ActionTypes',
@@ -50,7 +46,7 @@ export function createComponents(engine: IEngine) {
     value: Schemas.Array(
       Schemas.Map({
         type: Schemas.String,
-        schemaJson: Schemas.String,
+        jsonSchema: Schemas.String,
       }),
     ),
   })
@@ -60,7 +56,7 @@ export function createComponents(engine: IEngine) {
       Schemas.Map({
         name: Schemas.String,
         type: Schemas.String,
-        payloadJson: Schemas.String,
+        jsonPayload: Schemas.String,
       }),
     ),
   })
@@ -141,35 +137,3 @@ export type TriggerCondition = Exclude<Trigger['conditions'], undefined>[0]
 
 export type StatesComponent = Components['States']
 export type States = ReturnType<StatesComponent['get']>
-
-export function getActionTypesComponent(engine: IEngine) {
-  return engine.getComponent(
-    ComponentName.ACTION_TYPES,
-  ) as LastWriteWinElementSetComponentDefinition<ActionTypes>
-}
-
-export function addActionType<T extends ISchema>(
-  engine: IEngine,
-  type: string,
-  schema?: T,
-) {
-  const ActionTypes = getActionTypesComponent(engine)
-  const actionTypes = ActionTypes.getOrCreateMutable(engine.RootEntity)
-  actionTypes.value.push({
-    type,
-    schemaJson: JSON.stringify(schema || Schemas.Map({})),
-  })
-}
-
-export function getActionSchema(engine: IEngine, type: string): ISchema {
-  const ActionTypes = getActionTypesComponent(engine)
-  const actionTypes = ActionTypes.getOrCreateMutable(engine.RootEntity)
-  const actionType = actionTypes.value.find(($) => $.type === type)
-  return actionType ? JSON.parse(actionType.schemaJson) : null
-}
-
-export function getActionTypes(engine: IEngine) {
-  const ActionTypes = getActionTypesComponent(engine)
-  const actionTypes = ActionTypes.getOrCreateMutable(engine.RootEntity)
-  return actionTypes.value.map(($) => $.type)
-}

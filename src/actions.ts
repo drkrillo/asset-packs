@@ -7,7 +7,7 @@ import { getActionEvents, getTriggerEvents } from './events'
 const initedEntities = new Set<Entity>()
 
 export function getPayload<T extends ActionType>(action: Action) {
-  return JSON.parse(action.payloadJson) as ActionPayload<T>
+  return JSON.parse(action.jsonPayload) as ActionPayload<T>
 }
 
 export function actionsSystem(_dt: number) {
@@ -28,6 +28,8 @@ export function actionsSystem(_dt: number) {
           initPlayAnimation(entity)
           break
         }
+        default:
+          break
       }
     }
 
@@ -47,6 +49,8 @@ export function actionsSystem(_dt: number) {
             handleSetState(entity, getPayload<ActionType.SET_STATE>(action))
             break
           }
+          default:
+            break
         }
       })
     }
@@ -65,9 +69,9 @@ function initPlayAnimation(entity: Entity) {
 
 function handlePlayAnimation(
   entity: Entity,
-  action: ActionPayload<ActionType.PLAY_ANIMATION>,
+  payload: ActionPayload<ActionType.PLAY_ANIMATION>,
 ) {
-  const clipName = action.animation
+  const clipName = payload.animation
 
   const animator = Animator.getMutable(entity)
   if (!animator.states.some(($) => $.name === clipName)) {
@@ -89,12 +93,12 @@ function handlePlayAnimation(
 // SET_STATE
 function handleSetState(
   entity: Entity,
-  action: ActionPayload<ActionType.SET_STATE>,
+  payload: ActionPayload<ActionType.SET_STATE>,
 ) {
   const states = States.getMutableOrNull(entity)
 
   if (states) {
-    let nextState: string | undefined = action.state
+    let nextState: string | undefined = payload.state
     nextState = isValidState(states, nextState)
       ? nextState
       : getDefaultValue(states)
