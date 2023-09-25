@@ -1,11 +1,16 @@
 {
-  "id": "fefa3ea5-40f3-46c6-a240-9ce70db8f677",
-  "name": "Hatch trapdoor",
+  "id": "f7573b6c-f5d3-403c-ad74-2657adbe4a54",
+  "name": "Vertical Hallway Door",
   "category": "structures",
-  "tags": ["door"],
+  "tags": [
+    "door",
+    "vertical",
+    "hallway",
+    "interactive"
+  ],
   "components": {
     "core::GltfContainer": {
-      "src": "{assetPath}/hatch_anim.glb"
+      "src": "{assetPath}/vertical_hallway_door.glb"
     },
     "asset-packs::Actions": {
       "value": [
@@ -22,12 +27,17 @@
         {
           "name": "Play Open Animation",
           "type": "play_animation",
-          "jsonPayload": "{ \"animation\": \"openHatch\" }"
+          "jsonPayload": "{ \"animation\": \"open\" }"
         },
         {
           "name": "Play Close Animation",
           "type": "play_animation",
-          "jsonPayload": "{ \"animation\": \"closeHatch\" }"
+          "jsonPayload": "{ \"animation\": \"close\" }"
+        },
+        {
+          "name": "Play Idle Animation",
+          "type": "play_animation",
+          "jsonPayload": "{ \"animation\": \"main\" }"
         }
       ]
     },
@@ -102,7 +112,7 @@
           "actions": [
             {
               "entity": "{selfEntity}",
-              "name": "Close"
+              "name": "Play Idle Animation"
             }
           ]
         }

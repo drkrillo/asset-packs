@@ -3,6 +3,7 @@ import { Actions, States } from './components'
 import { ActionPayload, ActionType, TriggerType } from './definitions'
 import { getDefaultValue, isValidState } from './states'
 import { getActionEvents, getTriggerEvents } from './events'
+import { getPayload } from './action-types'
 
 const initedEntities = new Set<Entity>()
 
@@ -16,7 +17,7 @@ export function actionsSystem(_dt: number) {
     // initialize actions for given entity
     const types = actions.value.reduce(
       (types, action) => types.add(action.type),
-      new Set<ActionType>(),
+      new Set<String>(),
     )
     for (const type of types) {
       switch (type) {
@@ -24,6 +25,8 @@ export function actionsSystem(_dt: number) {
           initPlayAnimation(entity)
           break
         }
+        default:
+          break
       }
     }
 
@@ -33,13 +36,18 @@ export function actionsSystem(_dt: number) {
       actionEvents.on(action.name, () => {
         switch (action.type) {
           case ActionType.PLAY_ANIMATION: {
-            handlePlayAnimation(entity, action.payload)
+            handlePlayAnimation(
+              entity,
+              getPayload<ActionType.PLAY_ANIMATION>(action),
+            )
             break
           }
           case ActionType.SET_STATE: {
-            handleSetState(entity, action.payload)
+            handleSetState(entity, getPayload<ActionType.SET_STATE>(action))
             break
           }
+          default:
+            break
         }
       })
     }
@@ -56,8 +64,11 @@ function initPlayAnimation(entity: Entity) {
   Animator.stopAllAnimations(entity)
 }
 
-function handlePlayAnimation(entity: Entity, action: ActionPayload) {
-  const clipName = action.playAnimation?.animation || ''
+function handlePlayAnimation(
+  entity: Entity,
+  payload: ActionPayload<ActionType.PLAY_ANIMATION>,
+) {
+  const clipName = payload.animation
 
   const animator = Animator.getMutable(entity)
   if (!animator.states.some(($) => $.name === clipName)) {
@@ -77,11 +88,14 @@ function handlePlayAnimation(entity: Entity, action: ActionPayload) {
 }
 
 // SET_STATE
-function handleSetState(entity: Entity, action: ActionPayload) {
+function handleSetState(
+  entity: Entity,
+  payload: ActionPayload<ActionType.SET_STATE>,
+) {
   const states = States.getMutableOrNull(entity)
 
   if (states) {
-    let nextState = action.setState?.state
+    let nextState: string | undefined = payload.state
     nextState = isValidState(states, nextState)
       ? nextState
       : getDefaultValue(states)

@@ -10,6 +10,7 @@ import {
 } from './definitions'
 import { getCurrentValue } from './states'
 import { getActionEvents, getTriggerEvents } from './events'
+import { getPayload } from './action-types'
 
 const initedEntities = new Set<Entity>()
 const actionQueue: { entity: Entity; action: Action }[] = []
@@ -19,7 +20,7 @@ export function triggersSystem(_dt: number) {
   while (actionQueue.length > 0) {
     const { entity, action } = actionQueue.shift()!
     const actionEvents = getActionEvents(entity)
-    actionEvents.emit(action.name, action.payload)
+    actionEvents.emit(action.name, getPayload(action))
   }
 
   const entitiesWithTriggers = engine.getEntitiesWith(Triggers)
