@@ -32,12 +32,16 @@ export function addActionType<T extends ISchema>(
 ) {
   const ActionTypes = getActionTypesComponent(engine)
   const actionTypes = ActionTypes.getOrCreateMutable(engine.RootEntity)
-  actionTypes.value.push({
+  const actionType = {
     type,
     jsonSchema: JSON.stringify(
       schema?.jsonSchema || Schemas.Map({}).jsonSchema,
     ),
-  })
+  }
+  actionTypes.value = [
+    ...actionTypes.value.filter(($) => $.type !== actionType.type),
+    actionType,
+  ]
 }
 
 export function getActionSchema<T = unknown>(engine: IEngine, type: string) {
