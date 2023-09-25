@@ -5,7 +5,13 @@ import {
   LastWriteWinElementSetComponentDefinition,
   Schemas,
 } from '@dcl/sdk/ecs'
-import { ActionTypes, ComponentName } from './definitions'
+import {
+  Action,
+  ActionPayload,
+  ActionType,
+  ActionTypes,
+  ComponentName,
+} from './definitions'
 
 export const EMPTY: JsonSchemaExtended = {
   type: 'object',
@@ -34,7 +40,7 @@ export function addActionType<T extends ISchema>(
   })
 }
 
-export function getActionSchema<T>(engine: IEngine, type: string) {
+export function getActionSchema<T = unknown>(engine: IEngine, type: string) {
   const ActionTypes = getActionTypesComponent(engine)
   const actionTypes = ActionTypes.getOrCreateMutable(engine.RootEntity)
   const actionType = actionTypes.value.find(($) => $.type === type)
@@ -48,4 +54,12 @@ export function getActionTypes(engine: IEngine) {
   const ActionTypes = getActionTypesComponent(engine)
   const actionTypes = ActionTypes.getOrCreateMutable(engine.RootEntity)
   return actionTypes.value.map(($) => $.type)
+}
+
+export function getPayload<T extends ActionType>(action: Action) {
+  return JSON.parse(action.jsonPayload) as ActionPayload<T>
+}
+
+export function getJson<T extends ActionType>(payload: ActionPayload<T>) {
+  return JSON.stringify(payload)
 }

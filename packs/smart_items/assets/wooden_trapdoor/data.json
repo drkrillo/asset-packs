@@ -16,38 +16,22 @@
         {
           "name": "Open",
           "type": "set_state",
-          "payload": {
-            "setState": {
-              "state": "Open"
-            }
-          }
+          "jsonPayload": "{ \"state\": \"Open\" }"
         },
         {
           "name": "Close",
           "type": "set_state",
-          "payload": {
-            "setState": {
-              "state": "Closed"
-            }
-          }
+          "jsonPayload": "{ \"state\": \"Closed\" }"
         },
         {
           "name": "Play Open Animation",
           "type": "play_animation",
-          "payload": {
-            "playAnimation": {
-              "animation": "open"
-            }
-          }
+          "jsonPayload": "{ \"animation\": \"open\" }"
         },
         {
           "name": "Play Close Animation",
           "type": "play_animation",
-          "payload": {
-            "playAnimation": {
-              "animation": "close"
-            }
-          }
+          "jsonPayload": "{ \"animation\": \"close\" }"
         }
       ]
     },

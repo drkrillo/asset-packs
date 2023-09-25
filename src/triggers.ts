@@ -10,7 +10,7 @@ import {
 } from './definitions'
 import { getCurrentValue } from './states'
 import { getActionEvents, getTriggerEvents } from './events'
-import { getPayload } from './actions'
+import { getPayload } from './action-types'
 
 const initedEntities = new Set<Entity>()
 const actionQueue: { entity: Entity; action: Action }[] = []

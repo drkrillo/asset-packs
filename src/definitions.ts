@@ -1,6 +1,10 @@
 import { IEngine, ISchema, Schemas } from '@dcl/sdk/ecs'
 import { addActionType } from './action-types'
 
+export * from './action-types'
+export * from './events'
+export * from './states'
+
 export enum ComponentName {
   ACTION_TYPES = 'asset-packs::ActionTypes',
   ACTIONS = 'asset-packs::Actions',
@@ -102,18 +106,6 @@ export function createComponents(engine: IEngine) {
     currentValue: Schemas.Optional(Schemas.String),
   })
 
-  // Add actions from this package
-  addActionType(
-    engine,
-    ActionType.PLAY_ANIMATION,
-    ActionSchemas[ActionType.PLAY_ANIMATION],
-  )
-  addActionType(
-    engine,
-    ActionType.SET_STATE,
-    ActionSchemas[ActionType.SET_STATE],
-  )
-
   return {
     ActionTypes,
     Actions,
@@ -137,3 +129,13 @@ export type TriggerCondition = Exclude<Trigger['conditions'], undefined>[0]
 
 export type StatesComponent = Components['States']
 export type States = ReturnType<StatesComponent['get']>
+
+export function addActionTypes(engine: IEngine) {
+  // Add actions from this package
+  for (const type of Object.values(ActionType).filter(
+    ($) => typeof $ === 'string' && isNaN(+$),
+  )) {
+    const actionType = type as ActionType
+    addActionType(engine, actionType, ActionSchemas[actionType])
+  }
+}

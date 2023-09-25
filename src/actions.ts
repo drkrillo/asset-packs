@@ -1,14 +1,11 @@
 import { engine, Entity, Animator } from '@dcl/sdk/ecs'
 import { Actions, States } from './components'
-import { Action, ActionPayload, ActionType, TriggerType } from './definitions'
+import { ActionPayload, ActionType, TriggerType } from './definitions'
 import { getDefaultValue, isValidState } from './states'
 import { getActionEvents, getTriggerEvents } from './events'
+import { getPayload } from './action-types'
 
 const initedEntities = new Set<Entity>()
-
-export function getPayload<T extends ActionType>(action: Action) {
-  return JSON.parse(action.jsonPayload) as ActionPayload<T>
-}
 
 export function actionsSystem(_dt: number) {
   const entitiesWithActions = engine.getEntitiesWith(Actions)
