@@ -1,12 +1,22 @@
-import { engine, Entity, pointerEventsSystem, InputAction } from '@dcl/sdk/ecs'
-import { Actions, States, Triggers } from './components'
+import {
+  engine,
+  Entity,
+  pointerEventsSystem,
+  InputAction,
+  LastWriteWinElementSetComponentDefinition,
+  DeepReadonlyObject,
+} from '@dcl/sdk/ecs'
+import { Actions, Counter, States, Triggers } from './components'
 import {
   Action,
+  ComponentName,
   Trigger,
+  TriggerAction,
   TriggerCondition,
   TriggerConditionOperation,
   TriggerConditionType,
   TriggerType,
+  getConditionTypesByComponentName,
 } from './definitions'
 import { getCurrentValue } from './states'
 import { getActionEvents, getTriggerEvents } from './events'
@@ -48,15 +58,20 @@ export function triggersSystem(_dt: number) {
     for (const trigger of triggers.value) {
       triggerEvents.on(trigger.type, () => {
         if (checkConditions(trigger)) {
-          for (const { entity, name } of trigger.actions) {
-            if (entity && name) {
-              const actions = Actions.getOrNull(entity)
-              if (actions) {
-                const action = actions.value.find(($) => $.name === name)
-                if (action) {
-                  // actions are enqueued to be executed on the next tick after all the triggers have been processed,
-                  // this is to avoid one trigger messing with other trigger's conditions
-                  actionQueue.push({ entity, action })
+          for (const triggerAction of trigger.actions) {
+            if (isValidAction(triggerAction)) {
+              const entity = getEntityByAction(triggerAction)
+              if (entity) {
+                const actions = Actions.getOrNull(entity)
+                if (actions) {
+                  const action = actions.value.find(
+                    ($) => $.name === triggerAction.name,
+                  )
+                  if (action) {
+                    // actions are enqueued to be executed on the next tick after all the triggers have been processed,
+                    // this is to avoid one trigger messing with other trigger's conditions
+                    actionQueue.push({ entity, action })
+                  }
                 }
               }
             }
@@ -70,7 +85,12 @@ export function triggersSystem(_dt: number) {
   }
 }
 
-function checkConditions(trigger: Trigger) {
+function isValidAction(action: TriggerAction) {
+  const { id, name } = action
+  return !!id && !!name
+}
+
+function checkConditions(trigger: DeepReadonlyObject<Trigger>) {
   if (trigger.conditions && trigger.conditions.length > 0) {
     const conditions = trigger.conditions.map(checkCondition)
     const isTrue = (result?: boolean) => !!result
@@ -89,7 +109,7 @@ function checkConditions(trigger: Trigger) {
 }
 
 function checkCondition(condition: TriggerCondition) {
-  const entity = condition.entity
+  const entity = getEntityByCondition(condition)
   if (entity) {
     try {
       switch (condition.type) {
@@ -109,12 +129,84 @@ function checkCondition(condition: TriggerCondition) {
           }
           break
         }
+        case TriggerConditionType.WHEN_COUNTER_EQUALS: {
+          const counter = Counter.getOrNull(entity)
+          if (counter !== null) {
+            const numeric = Number(condition.value)
+            if (!isNaN(numeric)) {
+              return counter.value === numeric
+            }
+          }
+          break
+        }
+        case TriggerConditionType.WHEN_COUNTER_IS_GREATER_THAN: {
+          const counter = Counter.getOrNull(entity)
+          if (counter !== null) {
+            const numeric = Number(condition.value)
+            if (!isNaN(numeric)) {
+              return counter.value > numeric
+            }
+          }
+          break
+        }
+        case TriggerConditionType.WHEN_COUNTER_IS_LESS_THAN: {
+          const counter = Counter.getOrNull(entity)
+          if (counter !== null) {
+            const numeric = Number(condition.value)
+            if (!isNaN(numeric)) {
+              return counter.value < numeric
+            }
+          }
+          break
+        }
       }
     } catch (error) {
       console.error('Error in condition', condition)
     }
   }
   return false
+}
+
+function getEntityById<T extends { id: number }>(
+  componentName: string,
+  id: number,
+) {
+  const Component = engine.getComponent(
+    componentName,
+  ) as LastWriteWinElementSetComponentDefinition<T>
+  const entities = Array.from(engine.getEntitiesWith(Component))
+  const result = entities.find(([_entity, value]) => value.id === id)
+  return Array.isArray(result) && result.length > 0 ? result[0] : null
+}
+
+function getEntityByAction(action: TriggerAction) {
+  if (action.id) {
+    const entity = getEntityById(ComponentName.ACTIONS, action.id)
+    if (entity) {
+      return entity
+    }
+  }
+  return null
+}
+
+function getEntityByCondition(condition: TriggerCondition) {
+  const componentName = Object.values(ComponentName)
+    .map((componentName) => ({
+      componentName,
+      conditionTypes: getConditionTypesByComponentName(componentName),
+    }))
+    .reduce<ComponentName | null>(
+      (result, { componentName, conditionTypes }) =>
+        conditionTypes.includes(condition.type) ? componentName : result,
+      null,
+    )
+  if (componentName && condition.id) {
+    const entity = getEntityById(componentName, condition.id)
+    if (entity) {
+      return entity
+    }
+  }
+  return null
 }
 
 // ON_CLICK

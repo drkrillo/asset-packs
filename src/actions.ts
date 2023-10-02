@@ -3,11 +3,10 @@ import {
   Entity,
   Animator,
   Transform,
-  TransformType,
 } from '@dcl/sdk/ecs'
 import { Quaternion, Vector3 } from '@dcl/sdk/math'
 import * as utils from '@dcl-sdk/utils'
-import { Actions, States } from './components'
+import { Actions, States, Counter } from './components'
 import {
   ActionPayload,
   ActionType,
@@ -61,6 +60,24 @@ export function actionsSystem(_dt: number) {
           }
           case ActionType.START_TWEEN: {
             handleStartTween(entity, getPayload<ActionType.START_TWEEN>(action))
+            break
+          }
+          case ActionType.SET_COUNTER: {
+            handleSetCounter(entity, getPayload<ActionType.SET_COUNTER>(action))
+            break
+          }
+          case ActionType.INCREMENT_COUNTER: {
+            handleIncrementCounter(
+              entity,
+              getPayload<ActionType.INCREMENT_COUNTER>(action),
+            )
+            break
+          }
+          case ActionType.DECREASE_COUNTER: {
+            handleDecreaseCounter(
+              entity,
+              getPayload<ActionType.DECREASE_COUNTER>(action),
+            )
             break
           }
           default:
@@ -215,4 +232,49 @@ function handleScaleItem(
     interpolationType,
     onTweenEnd,
   )
+}
+
+// SET_COUNTER
+function handleSetCounter(
+  entity: Entity,
+  payload: ActionPayload<ActionType.SET_COUNTER>,
+) {
+  const counter = Counter.getMutableOrNull(entity)
+
+  if (counter) {
+    counter.value = payload.counter
+
+    const triggerEvents = getTriggerEvents(entity)
+    triggerEvents.emit(TriggerType.ON_COUNTER_CHANGE)
+  }
+}
+
+// INCREMENT_COUNTER
+function handleIncrementCounter(
+  entity: Entity,
+  _payload: ActionPayload<ActionType.INCREMENT_COUNTER>,
+) {
+  const counter = Counter.getMutableOrNull(entity)
+
+  if (counter) {
+    counter.value += 1
+
+    const triggerEvents = getTriggerEvents(entity)
+    triggerEvents.emit(TriggerType.ON_COUNTER_CHANGE)
+  }
+}
+
+// DECREASE_COUNTER
+function handleDecreaseCounter(
+  entity: Entity,
+  _payload: ActionPayload<ActionType.INCREMENT_COUNTER>,
+) {
+  const counter = Counter.getMutableOrNull(entity)
+
+  if (counter) {
+    counter.value -= 1
+
+    const triggerEvents = getTriggerEvents(entity)
+    triggerEvents.emit(TriggerType.ON_COUNTER_CHANGE)
+  }
 }
