@@ -28,11 +28,6 @@
           "jsonPayload": "{ \"src\": \"{assetPath}/sound.mp3\" }"
         },
         {
-          "name": "Play Sound",
-          "type": "play_sound",
-          "jsonPayload": "{ \"src\": \"{assetPath}/sound.mp3\" }"
-        },
-        {
           "name": "Play Open Animation",
           "type": "play_animation",
           "jsonPayload": "{ \"animation\": \"open\" }"
