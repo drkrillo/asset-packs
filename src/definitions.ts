@@ -1,4 +1,3 @@
-
 import {
   IEngine,
   ISchema,
@@ -36,6 +35,7 @@ export enum ActionType {
   SET_COUNTER = 'set_counter',
   INCREMENT_COUNTER = 'increment_counter',
   DECREASE_COUNTER = 'decrease_counter',
+  PLAY_SOUND = 'play_sound',
 }
 
 export const ActionSchemas = {
@@ -54,6 +54,10 @@ export const ActionSchemas = {
   [ActionType.SET_COUNTER]: Schemas.Map({ counter: Schemas.Int }),
   [ActionType.INCREMENT_COUNTER]: Schemas.Map({}),
   [ActionType.DECREASE_COUNTER]: Schemas.Map({}),
+  [ActionType.PLAY_SOUND]: Schemas.Map({
+    src: Schemas.String,
+    loop: Schemas.Optional(Schemas.Boolean),
+  }),
 }
 
 export type ActionPayload<T extends ActionType = any> =

@@ -3,6 +3,7 @@ import {
   Entity,
   Animator,
   Transform,
+  AudioSource
 } from '@dcl/sdk/ecs'
 import { Quaternion, Vector3 } from '@dcl/sdk/math'
 import * as utils from '@dcl-sdk/utils'
@@ -78,6 +79,10 @@ export function actionsSystem(_dt: number) {
               entity,
               getPayload<ActionType.DECREASE_COUNTER>(action),
             )
+            break
+          }
+          case ActionType.PLAY_SOUND: {
+            handlePlaySound(entity, getPayload<ActionType.PLAY_SOUND>(action))
             break
           }
           default:
@@ -277,4 +282,17 @@ function handleDecreaseCounter(
     const triggerEvents = getTriggerEvents(entity)
     triggerEvents.emit(TriggerType.ON_COUNTER_CHANGE)
   }
+}
+
+// PLAY_SOUND
+function handlePlaySound(
+  entity: Entity,
+  payload: ActionPayload<ActionType.PLAY_SOUND>,
+) {
+  const { src, loop } = payload
+  AudioSource.createOrReplace(entity, {
+    audioClipUrl: src,
+    loop,
+    playing: true,
+  })
 }

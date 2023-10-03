@@ -23,6 +23,11 @@
           "jsonPayload": "{ \"state\": \"Closed\" }"
         },
         {
+          "name": "Play Sound",
+          "type": "play_sound",
+          "jsonPayload": "{ \"src\": \"{assetPath}/sound.mp3\" }"
+        },
+        {
           "name": "Play Open Animation",
           "type": "play_animation",
           "jsonPayload": "{ \"animation\": \"Open\" }"
@@ -81,6 +86,10 @@
             {
               "id": "{self:asset-packs::Actions}",
               "name": "Play Open Animation"
+            },
+            {
+              "id": "{self:asset-packs::Actions}",
+              "name": "Play Sound"
             }
           ]
         },
@@ -97,6 +106,10 @@
             {
               "id": "{self:asset-packs::Actions}",
               "name": "Play Close Animation"
+            },
+            {
+              "id": "{self:asset-packs::Actions}",
+              "name": "Play Sound"
             }
           ]
         }
