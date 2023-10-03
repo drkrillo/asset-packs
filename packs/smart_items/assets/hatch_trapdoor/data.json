@@ -1,6 +1,6 @@
 {
   "id": "fefa3ea5-40f3-46c6-a240-9ce70db8f677",
-  "name": "Hatch trapdoor",
+  "name": "Hatch Trapdoor",
   "category": "structures",
   "tags": ["door"],
   "components": {
@@ -19,6 +19,11 @@
           "name": "Close",
           "type": "set_state",
           "jsonPayload": "{ \"state\": \"Closed\" }"
+        },
+        {
+          "name": "Play Sound",
+          "type": "play_sound",
+          "jsonPayload": "{ \"src\": \"{assetPath}/sound.mp3\" }"
         },
         {
           "name": "Play Open Animation",
