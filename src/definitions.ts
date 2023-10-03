@@ -1,9 +1,16 @@
-import { IEngine, ISchema, Schemas } from '@dcl/sdk/ecs'
+
+import {
+  IEngine,
+  ISchema,
+  LastWriteWinElementSetComponentDefinition,
+  Schemas,
+} from '@dcl/sdk/ecs'
 import { InterpolationType } from '@dcl-sdk/utils'
 import { addActionType } from './action-types'
 
 export * from './action-types'
 export * from './events'
+export * from './id'
 export * from './states'
 
 export { InterpolationType }
@@ -11,6 +18,7 @@ export { InterpolationType }
 export enum ComponentName {
   ACTION_TYPES = 'asset-packs::ActionTypes',
   ACTIONS = 'asset-packs::Actions',
+  COUNTER = 'asset-packs::Counter',
   TRIGGERS = 'asset-packs::Triggers',
   STATES = 'asset-packs::States',
 }
@@ -25,6 +33,9 @@ export enum ActionType {
   PLAY_ANIMATION = 'play_animation',
   SET_STATE = 'set_state',
   START_TWEEN = 'start_tween',
+  SET_COUNTER = 'set_counter',
+  INCREMENT_COUNTER = 'increment_counter',
+  DECREASE_COUNTER = 'decrease_counter',
 }
 
 export const ActionSchemas = {
@@ -40,6 +51,9 @@ export const ActionSchemas = {
     duration: Schemas.Float,
     relative: Schemas.Boolean,
   }),
+  [ActionType.SET_COUNTER]: Schemas.Map({ counter: Schemas.Int }),
+  [ActionType.INCREMENT_COUNTER]: Schemas.Map({}),
+  [ActionType.DECREASE_COUNTER]: Schemas.Map({}),
 }
 
 export type ActionPayload<T extends ActionType = any> =
@@ -54,11 +68,15 @@ export enum TriggerType {
   ON_STATE_CHANGE = 'on_state_change',
   ON_SPAWN = 'on_spawn',
   ON_TWEEN_END = 'on_tween_end',
+  ON_COUNTER_CHANGE = 'on_counter_change',
 }
 
 export enum TriggerConditionType {
   WHEN_STATE_IS = 'when_state_is',
   WHEN_STATE_IS_NOT = 'when_state_is_not',
+  WHEN_COUNTER_EQUALS = 'when_counter_equals',
+  WHEN_COUNTER_IS_GREATER_THAN = 'when_counter_is_greater_than',
+  WHEN_COUNTER_IS_LESS_THAN = 'when_counter_is_less_than',
 }
 
 export enum TriggerConditionOperation {
@@ -77,6 +95,7 @@ export function createComponents(engine: IEngine) {
   })
 
   const Actions = engine.defineComponent(ComponentName.ACTIONS, {
+    id: Schemas.Int,
     value: Schemas.Array(
       Schemas.Map({
         name: Schemas.String,
@@ -84,6 +103,11 @@ export function createComponents(engine: IEngine) {
         jsonPayload: Schemas.String,
       }),
     ),
+  })
+
+  const Counter = engine.defineComponent(ComponentName.COUNTER, {
+    id: Schemas.Number,
+    value: Schemas.Int,
   })
 
   const Triggers = engine.defineComponent(ComponentName.TRIGGERS, {
@@ -96,7 +120,7 @@ export function createComponents(engine: IEngine) {
         conditions: Schemas.Optional(
           Schemas.Array(
             Schemas.Map({
-              entity: Schemas.Optional(Schemas.Entity),
+              id: Schemas.Optional(Schemas.Int),
               type: Schemas.EnumString<TriggerConditionType>(
                 TriggerConditionType,
                 TriggerConditionType.WHEN_STATE_IS,
@@ -113,7 +137,7 @@ export function createComponents(engine: IEngine) {
         ),
         actions: Schemas.Array(
           Schemas.Map({
-            entity: Schemas.Optional(Schemas.Entity),
+            id: Schemas.Optional(Schemas.Int),
             name: Schemas.Optional(Schemas.String),
           }),
         ),
@@ -122,6 +146,7 @@ export function createComponents(engine: IEngine) {
   })
 
   const States = engine.defineComponent(ComponentName.STATES, {
+    id: Schemas.Number,
     value: Schemas.Array(Schemas.String),
     defaultValue: Schemas.Optional(Schemas.String),
     currentValue: Schemas.Optional(Schemas.String),
@@ -130,33 +155,68 @@ export function createComponents(engine: IEngine) {
   return {
     ActionTypes,
     Actions,
+    Counter,
     Triggers,
     States,
+  }
+}
+
+export function initComponents(engine: IEngine) {
+  // Add actions from this package
+  const actionTypes = Object.values(ActionType)
+  for (const type of actionTypes) {
+    const actionType = type as ActionType
+    addActionType(engine, actionType, ActionSchemas[actionType])
+  }
+
+  // Add counter to root entity
+  const Counter = engine.getComponent(
+    ComponentName.COUNTER,
+  ) as LastWriteWinElementSetComponentDefinition<Counter>
+  const counter = Counter.getOrCreateMutable(engine.RootEntity)
+  counter.value = counter.value || 0
+}
+
+export function getConditionTypesByComponentName(componentName: ComponentName) {
+  switch (componentName) {
+    case ComponentName.STATES: {
+      return [
+        TriggerConditionType.WHEN_STATE_IS,
+        TriggerConditionType.WHEN_STATE_IS_NOT,
+      ]
+    }
+    case ComponentName.COUNTER: {
+      return [
+        TriggerConditionType.WHEN_COUNTER_EQUALS,
+        TriggerConditionType.WHEN_COUNTER_IS_GREATER_THAN,
+        TriggerConditionType.WHEN_COUNTER_IS_LESS_THAN,
+      ]
+    }
+    default: {
+      return []
+    }
   }
 }
 
 export type Components = ReturnType<typeof createComponents>
 
 export type ActionTypesComponent = Components['ActionTypes']
-export type ActionTypes = ReturnType<ActionTypesComponent['getOrCreateMutable']>
+export type ActionTypes = ReturnType<
+  ActionTypesComponent['schema']['deserialize']
+>
 
 export type ActionsComponent = Components['Actions']
-export type Action = ReturnType<ActionsComponent['get']>['value'][0]
+export type Actions = ReturnType<ActionsComponent['schema']['deserialize']>
+export type Action = Actions['value'][0]
+
+export type CounterComponent = Components['Counter']
+export type Counter = ReturnType<CounterComponent['schema']['deserialize']>
 
 export type TriggersComponent = Components['Triggers']
-export type Trigger = ReturnType<TriggersComponent['get']>['value'][0]
+export type Triggers = ReturnType<TriggersComponent['schema']['deserialize']>
+export type Trigger = Triggers['value'][0]
 export type TriggerAction = Trigger['actions'][0]
 export type TriggerCondition = Exclude<Trigger['conditions'], undefined>[0]
 
 export type StatesComponent = Components['States']
-export type States = ReturnType<StatesComponent['get']>
-
-export function addActionTypes(engine: IEngine) {
-  // Add actions from this package
-  for (const type of Object.values(ActionType).filter(
-    ($) => typeof $ === 'string' && isNaN(+$),
-  )) {
-    const actionType = type as ActionType
-    addActionType(engine, actionType, ActionSchemas[actionType])
-  }
-}
+export type States = ReturnType<StatesComponent['schema']['deserialize']>

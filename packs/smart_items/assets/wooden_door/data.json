@@ -8,6 +8,7 @@
       "src": "{assetPath}/door_fantasy.glb"
     },
     "asset-packs::Actions": {
+      "id": "{self}",
       "value": [
         {
           "name": "Open",
@@ -37,14 +38,14 @@
           "type": "on_click",
           "conditions": [
             {
-              "entity": "{selfEntity}",
+              "id": "{self:asset-packs::States}",
               "type": "when_state_is",
               "value": "Closed"
             }
           ],
           "actions": [
             {
-              "entity": "{selfEntity}",
+              "id": "{self:asset-packs::Actions}",
               "name": "Open"
             }
           ]
@@ -53,14 +54,14 @@
           "type": "on_click",
           "conditions": [
             {
-              "entity": "{selfEntity}",
+              "id": "{self:asset-packs::States}",
               "type": "when_state_is",
               "value": "Open"
             }
           ],
           "actions": [
             {
-              "entity": "{selfEntity}",
+              "id": "{self:asset-packs::Actions}",
               "name": "Close"
             }
           ]
@@ -69,14 +70,14 @@
           "type": "on_state_change",
           "conditions": [
             {
-              "entity": "{selfEntity}",
+              "id": "{self:asset-packs::States}",
               "type": "when_state_is",
               "value": "Open"
             }
           ],
           "actions": [
             {
-              "entity": "{selfEntity}",
+              "id": "{self:asset-packs::Actions}",
               "name": "Play Open Animation"
             }
           ]
@@ -85,14 +86,14 @@
           "type": "on_state_change",
           "conditions": [
             {
-              "entity": "{selfEntity}",
+              "id": "{self:asset-packs::States}",
               "type": "when_state_is",
               "value": "Closed"
             }
           ],
           "actions": [
             {
-              "entity": "{selfEntity}",
+              "id": "{self:asset-packs::Actions}",
               "name": "Play Close Animation"
             }
           ]
@@ -100,6 +101,7 @@
       ]
     },
     "asset-packs::States": {
+      "id": "{self}",
       "value": [
         "Open",
         "Closed"
