@@ -91,6 +91,10 @@
             {
               "id": "{self:asset-packs::Actions}",
               "name": "Play Open Animation"
+            },
+            {
+              "id": "{self:asset-packs::Actions}",
+              "name": "Play Sound"
             }
           ]
         },
@@ -107,6 +111,10 @@
             {
               "id": "{self:asset-packs::Actions}",
               "name": "Play Close Animation"
+            },
+            {
+              "id": "{self:asset-packs::Actions}",
+              "name": "Play Sound"
             }
           ]
         },
