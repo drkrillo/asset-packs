@@ -1,6 +1,19 @@
-import { engine, Entity, Animator } from '@dcl/sdk/ecs'
+import {
+  engine,
+  Entity,
+  Animator,
+  Transform,
+  TransformType,
+} from '@dcl/sdk/ecs'
+import { Quaternion, Vector3 } from '@dcl/sdk/math'
+import * as utils from '@dcl-sdk/utils'
 import { Actions, States } from './components'
-import { ActionPayload, ActionType, TriggerType } from './definitions'
+import {
+  ActionPayload,
+  ActionType,
+  TriggerType,
+  TweenType,
+} from './definitions'
 import { getDefaultValue, isValidState } from './states'
 import { getActionEvents, getTriggerEvents } from './events'
 import { getPayload } from './action-types'
@@ -44,6 +57,10 @@ export function actionsSystem(_dt: number) {
           }
           case ActionType.SET_STATE: {
             handleSetState(entity, getPayload<ActionType.SET_STATE>(action))
+            break
+          }
+          case ActionType.START_TWEEN: {
+            handleStartTween(entity, getPayload<ActionType.START_TWEEN>(action))
             break
           }
           default:
@@ -104,4 +121,98 @@ function handleSetState(
     const triggerEvents = getTriggerEvents(entity)
     triggerEvents.emit(TriggerType.ON_STATE_CHANGE)
   }
+}
+
+// START_TWEEN
+function handleStartTween(
+  entity: Entity,
+  payload: ActionPayload<ActionType.START_TWEEN>,
+) {
+  if (payload) {
+    const triggerEvents = getTriggerEvents(entity)
+    const onTweenEnd = () => triggerEvents.emit(TriggerType.ON_TWEEN_END)
+
+    switch (payload.type) {
+      case TweenType.MOVE_ITEM: {
+        handleMoveItem(entity, payload, onTweenEnd)
+        break
+      }
+      case TweenType.ROTATE_ITEM: {
+        handleRotateItem(entity, payload, onTweenEnd)
+        break
+      }
+      case TweenType.SCALE_ITEM: {
+        handleScaleItem(entity, payload, onTweenEnd)
+        break
+      }
+      default: {
+        throw new Error(`Unknown tween type: ${payload.type}`)
+      }
+    }
+  }
+}
+
+// MOVE_ITEM
+function handleMoveItem(
+  entity: Entity,
+  tween: ActionPayload['start_tween'],
+  onTweenEnd: () => void,
+) {
+  const transform = Transform.get(entity)
+  const { duration, interpolationType, relative } = tween
+  const end = Vector3.create(tween.end.x, tween.end.y, tween.end.z)
+  const endPosition = relative ? Vector3.add(transform.position, end) : end
+
+  utils.tweens.startTranslation(
+    entity,
+    transform.position,
+    endPosition,
+    duration,
+    interpolationType,
+    onTweenEnd,
+  )
+}
+
+// ROTATE_ITEM
+function handleRotateItem(
+  entity: Entity,
+  tween: ActionPayload['start_tween'],
+  onTweenEnd: () => void,
+) {
+  const transform = Transform.get(entity)
+  const { duration, interpolationType, relative } = tween
+  const end = Quaternion.fromEulerDegrees(tween.end.x, tween.end.y, tween.end.z)
+  const endRotation = relative
+    ? Quaternion.multiply(transform.rotation, end)
+    : end
+
+  utils.tweens.startRotation(
+    entity,
+    transform.rotation,
+    endRotation,
+    duration,
+    interpolationType,
+    onTweenEnd,
+  )
+}
+
+// SCALE_ITEM
+function handleScaleItem(
+  entity: Entity,
+  tween: ActionPayload['start_tween'],
+  onTweenEnd: () => void,
+) {
+  const transform = Transform.get(entity)
+  const { duration, interpolationType, relative } = tween
+  const end = Vector3.create(tween.end.x, tween.end.y, tween.end.z)
+  const endScale = relative ? Vector3.add(transform.scale, end) : end
+
+  utils.tweens.startScaling(
+    entity,
+    transform.scale,
+    endScale,
+    duration,
+    interpolationType,
+    onTweenEnd,
+  )
 }

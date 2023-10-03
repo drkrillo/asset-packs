@@ -1,9 +1,12 @@
 import { IEngine, ISchema, Schemas } from '@dcl/sdk/ecs'
+import { InterpolationType } from '@dcl-sdk/utils'
 import { addActionType } from './action-types'
 
 export * from './action-types'
 export * from './events'
 export * from './states'
+
+export { InterpolationType }
 
 export enum ComponentName {
   ACTION_TYPES = 'asset-packs::ActionTypes',
@@ -12,14 +15,31 @@ export enum ComponentName {
   STATES = 'asset-packs::States',
 }
 
+export enum TweenType {
+  MOVE_ITEM = 'move_item',
+  ROTATE_ITEM = 'rotate_item',
+  SCALE_ITEM = 'scale_item',
+}
+
 export enum ActionType {
   PLAY_ANIMATION = 'play_animation',
   SET_STATE = 'set_state',
+  START_TWEEN = 'start_tween',
 }
 
 export const ActionSchemas = {
   [ActionType.PLAY_ANIMATION]: Schemas.Map({ animation: Schemas.String }),
   [ActionType.SET_STATE]: Schemas.Map({ state: Schemas.String }),
+  [ActionType.START_TWEEN]: Schemas.Map({
+    type: Schemas.EnumString<TweenType>(TweenType, TweenType.MOVE_ITEM),
+    end: Schemas.Vector3,
+    interpolationType: Schemas.EnumString(
+      InterpolationType,
+      InterpolationType.LINEAR,
+    ),
+    duration: Schemas.Float,
+    relative: Schemas.Boolean,
+  }),
 }
 
 export type ActionPayload<T extends ActionType = any> =
@@ -33,6 +53,7 @@ export enum TriggerType {
   ON_CLICK = 'on_click',
   ON_STATE_CHANGE = 'on_state_change',
   ON_SPAWN = 'on_spawn',
+  ON_TWEEN_END = 'on_tween_end',
 }
 
 export enum TriggerConditionType {
