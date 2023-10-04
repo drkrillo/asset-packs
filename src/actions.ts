@@ -3,10 +3,11 @@ import {
   Entity,
   Animator,
   Transform,
-  AudioSource
+  AudioSource,
+  VisibilityComponent,
 } from '@dcl/sdk/ecs'
 import { Quaternion, Vector3 } from '@dcl/sdk/math'
-import * as utils from '@dcl-sdk/utils'
+import { tweens } from '@dcl-sdk/utils/dist/tween'
 import { Actions, States, Counter } from './components'
 import {
   ActionPayload,
@@ -83,6 +84,13 @@ export function actionsSystem(_dt: number) {
           }
           case ActionType.PLAY_SOUND: {
             handlePlaySound(entity, getPayload<ActionType.PLAY_SOUND>(action))
+            break
+          }
+          case ActionType.SET_VISIBILITY: {
+            handleSetVisibility(
+              entity,
+              getPayload<ActionType.SET_VISIBILITY>(action),
+            )
             break
           }
           default:
@@ -185,7 +193,7 @@ function handleMoveItem(
   const end = Vector3.create(tween.end.x, tween.end.y, tween.end.z)
   const endPosition = relative ? Vector3.add(transform.position, end) : end
 
-  utils.tweens.startTranslation(
+  tweens.startTranslation(
     entity,
     transform.position,
     endPosition,
@@ -208,7 +216,7 @@ function handleRotateItem(
     ? Quaternion.multiply(transform.rotation, end)
     : end
 
-  utils.tweens.startRotation(
+  tweens.startRotation(
     entity,
     transform.rotation,
     endRotation,
@@ -229,7 +237,7 @@ function handleScaleItem(
   const end = Vector3.create(tween.end.x, tween.end.y, tween.end.z)
   const endScale = relative ? Vector3.add(transform.scale, end) : end
 
-  utils.tweens.startScaling(
+  tweens.startScaling(
     entity,
     transform.scale,
     endScale,
@@ -295,4 +303,15 @@ function handlePlaySound(
     loop,
     playing: true,
   })
+}
+
+// SET_VISIBILITY
+function handleSetVisibility(
+  entity: Entity,
+  payload: ActionPayload<ActionType.SET_VISIBILITY>,
+) {
+  const component = VisibilityComponent.createOrReplace(entity)
+  if (component) {
+    component.visible = payload.visible
+  }
 }
