@@ -4,15 +4,12 @@ import {
   LastWriteWinElementSetComponentDefinition,
   Schemas,
 } from '@dcl/sdk/ecs'
-import { InterpolationType } from '@dcl-sdk/utils'
 import { addActionType } from './action-types'
 
 export * from './action-types'
 export * from './events'
 export * from './id'
 export * from './states'
-
-export { InterpolationType }
 
 export enum ComponentName {
   ACTION_TYPES = 'asset-packs::ActionTypes',
@@ -26,6 +23,25 @@ export enum TweenType {
   MOVE_ITEM = 'move_item',
   ROTATE_ITEM = 'rotate_item',
   SCALE_ITEM = 'scale_item',
+}
+
+export enum InterpolationType {
+  LINEAR = 'linear',
+  EASEINQUAD = 'easeinquad',
+  EASEOUTQUAD = 'easeoutquad',
+  EASEQUAD = 'easequad',
+  EASEINSINE = 'easeinsine',
+  EASEOUTSINE = 'easeoutsine',
+  EASESINE = 'easeinoutsine',
+  EASEINEXPO = 'easeinexpo',
+  EASEOUTEXPO = 'easeoutexpo',
+  EASEEXPO = 'easeinoutexpo',
+  EASEINELASTIC = 'easeinelastic',
+  EASEOUTELASTIC = 'easeoutelastic',
+  EASEELASTIC = 'easeinoutelastic',
+  EASEINBOUNCE = 'easeinbounce',
+  EASEOUTEBOUNCE = 'easeoutbounce',
+  EASEBOUNCE = 'easeinoutbounce',
 }
 
 export enum ActionType {
