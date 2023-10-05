@@ -46,17 +46,25 @@ export enum InterpolationType {
 
 export enum ActionType {
   PLAY_ANIMATION = 'play_animation',
+  STOP_ANIMATION = 'stop_animation',
   SET_STATE = 'set_state',
   START_TWEEN = 'start_tween',
   SET_COUNTER = 'set_counter',
   INCREMENT_COUNTER = 'increment_counter',
   DECREASE_COUNTER = 'decrease_counter',
   PLAY_SOUND = 'play_sound',
+  STOP_SOUND = 'stop_sound',
   SET_VISIBILITY = 'set_visibility',
+  ATTACH_TO_PLAYER = 'attach_to_player',
+  DETACH_FROM_PLAYER = 'detach_from_player',
 }
 
 export const ActionSchemas = {
-  [ActionType.PLAY_ANIMATION]: Schemas.Map({ animation: Schemas.String }),
+  [ActionType.PLAY_ANIMATION]: Schemas.Map({
+    animation: Schemas.String,
+    loop: Schemas.Optional(Schemas.Boolean),
+  }),
+  [ActionType.STOP_ANIMATION]: Schemas.Map({}),
   [ActionType.SET_STATE]: Schemas.Map({ state: Schemas.String }),
   [ActionType.START_TWEEN]: Schemas.Map({
     type: Schemas.EnumString<TweenType>(TweenType, TweenType.MOVE_ITEM),
@@ -75,7 +83,12 @@ export const ActionSchemas = {
     src: Schemas.String,
     loop: Schemas.Optional(Schemas.Boolean),
   }),
+  [ActionType.STOP_SOUND]: Schemas.Map({}),
   [ActionType.SET_VISIBILITY]: Schemas.Map({ visible: Schemas.Boolean }),
+  [ActionType.ATTACH_TO_PLAYER]: Schemas.Map({
+    anchorPointId: Schemas.Int,
+  }),
+  [ActionType.DETACH_FROM_PLAYER]: Schemas.Map({}),
 }
 
 export type ActionPayload<T extends ActionType = any> =
