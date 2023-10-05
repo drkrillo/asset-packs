@@ -5,6 +5,7 @@ import {
   Transform,
   AudioSource,
   VisibilityComponent,
+  AvatarAttach,
 } from '@dcl/sdk/ecs'
 import { Quaternion, Vector3 } from '@dcl/sdk/math'
 import { tweens } from '@dcl-sdk/utils/dist/tween'
@@ -56,6 +57,13 @@ export function actionsSystem(_dt: number) {
             )
             break
           }
+          case ActionType.STOP_ANIMATION: {
+            handleStopAnimation(
+              entity,
+              getPayload<ActionType.STOP_ANIMATION>(action),
+            )
+            break
+          }
           case ActionType.SET_STATE: {
             handleSetState(entity, getPayload<ActionType.SET_STATE>(action))
             break
@@ -86,10 +94,28 @@ export function actionsSystem(_dt: number) {
             handlePlaySound(entity, getPayload<ActionType.PLAY_SOUND>(action))
             break
           }
+          case ActionType.STOP_SOUND: {
+            handleStopSound(entity, getPayload<ActionType.STOP_SOUND>(action))
+            break
+          }
           case ActionType.SET_VISIBILITY: {
             handleSetVisibility(
               entity,
               getPayload<ActionType.SET_VISIBILITY>(action),
+            )
+            break
+          }
+          case ActionType.ATTACH_TO_PLAYER: {
+            handleAttachToPlayer(
+              entity,
+              getPayload<ActionType.ATTACH_TO_PLAYER>(action),
+            )
+            break
+          }
+          case ActionType.DETACH_FROM_PLAYER: {
+            handleDetachFromPlayer(
+              entity,
+              getPayload<ActionType.DETACH_FROM_PLAYER>(action),
             )
             break
           }
@@ -115,23 +141,32 @@ function handlePlayAnimation(
   entity: Entity,
   payload: ActionPayload<ActionType.PLAY_ANIMATION>,
 ) {
-  const clipName = payload.animation
+  const { animation, loop } = payload
 
   const animator = Animator.getMutable(entity)
-  if (!animator.states.some(($) => $.name === clipName)) {
+  if (!animator.states.some(($) => $.clip === animation)) {
     animator.states = [
       ...animator.states,
       {
-        name: clipName,
-        clip: clipName,
+        clip: animation,
       },
     ]
   }
 
   Animator.stopAllAnimations(entity)
-  const clip = Animator.getClip(entity, clipName)
+  const clip = Animator.getClip(entity, animation)
   clip.playing = true
-  clip.loop = false
+  clip.loop = loop ?? false
+}
+
+// STOP_ANIMATION
+function handleStopAnimation(
+  entity: Entity,
+  _payload: ActionPayload<ActionType.STOP_ANIMATION>,
+) {
+  if (Animator.has(entity)) {
+    Animator.stopAllAnimations(entity)
+  }
 }
 
 // SET_STATE
@@ -305,13 +340,41 @@ function handlePlaySound(
   })
 }
 
+// STOP_SOUND
+function handleStopSound(
+  entity: Entity,
+  _payload: ActionPayload<ActionType.STOP_SOUND>,
+) {
+  const audioSource = AudioSource.getMutableOrNull(entity)
+  if (audioSource) {
+    audioSource.playing = false
+  }
+}
+
 // SET_VISIBILITY
 function handleSetVisibility(
   entity: Entity,
   payload: ActionPayload<ActionType.SET_VISIBILITY>,
 ) {
-  const component = VisibilityComponent.createOrReplace(entity)
-  if (component) {
-    component.visible = payload.visible
+  const { visible } = payload
+  VisibilityComponent.createOrReplace(entity, { visible })
+}
+
+// ATTACH_TO_PLAYER
+function handleAttachToPlayer(
+  entity: Entity,
+  payload: ActionPayload<ActionType.ATTACH_TO_PLAYER>,
+) {
+  const { anchorPointId } = payload
+  AvatarAttach.createOrReplace(entity, { anchorPointId })
+}
+
+// DETACH_FROM_PLAYER
+function handleDetachFromPlayer(
+  entity: Entity,
+  _payload: ActionPayload<ActionType.DETACH_FROM_PLAYER>,
+) {
+  if (AvatarAttach.has(entity)) {
+    AvatarAttach.deleteFrom(entity)
   }
 }
