@@ -1,16 +1,11 @@
-import {
-  IEngine,
-  ISchema,
-  JsonSchemaExtended,
-  LastWriteWinElementSetComponentDefinition,
-  Schemas,
-} from '@dcl/sdk/ecs'
+import { IEngine, ISchema, JsonSchemaExtended, Schemas } from '@dcl/sdk/ecs'
 import {
   Action,
   ActionPayload,
   ActionType,
   ActionTypes,
   ComponentName,
+  getComponent,
 } from './definitions'
 
 export const EMPTY: JsonSchemaExtended = {
@@ -19,18 +14,15 @@ export const EMPTY: JsonSchemaExtended = {
   serializationType: 'map',
 }
 
-export function getActionTypesComponent(engine: IEngine) {
-  return engine.getComponent(
-    ComponentName.ACTION_TYPES,
-  ) as LastWriteWinElementSetComponentDefinition<ActionTypes>
-}
-
 export function addActionType<T extends ISchema>(
   engine: IEngine,
   type: string,
   schema?: T,
 ) {
-  const ActionTypes = getActionTypesComponent(engine)
+  const ActionTypes = getComponent<ActionTypes>(
+    ComponentName.ACTION_TYPES,
+    engine,
+  )
   const actionTypes = ActionTypes.getOrCreateMutable(engine.RootEntity)
   const actionType = {
     type,
@@ -45,7 +37,10 @@ export function addActionType<T extends ISchema>(
 }
 
 export function getActionSchema<T = unknown>(engine: IEngine, type: string) {
-  const ActionTypes = getActionTypesComponent(engine)
+  const ActionTypes = getComponent<ActionTypes>(
+    ComponentName.ACTION_TYPES,
+    engine,
+  )
   const actionTypes = ActionTypes.getOrCreateMutable(engine.RootEntity)
   const actionType = actionTypes.value.find(($) => $.type === type)
   const jsonSchema: JsonSchemaExtended = actionType
@@ -55,7 +50,10 @@ export function getActionSchema<T = unknown>(engine: IEngine, type: string) {
 }
 
 export function getActionTypes(engine: IEngine) {
-  const ActionTypes = getActionTypesComponent(engine)
+  const ActionTypes = getComponent<ActionTypes>(
+    ComponentName.ACTION_TYPES,
+    engine,
+  )
   const actionTypes = ActionTypes.getOrCreateMutable(engine.RootEntity)
   return actionTypes.value.map(($) => $.type)
 }

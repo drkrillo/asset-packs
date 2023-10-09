@@ -125,6 +125,28 @@ export enum TriggerConditionOperation {
   OR = 'or',
 }
 
+export function getComponent<T>(componentName: string, engine: IEngine) {
+  try {
+    return engine.getComponent(
+      componentName,
+    ) as LastWriteWinElementSetComponentDefinition<T>
+  } catch (error) {
+    console.error(
+      `Error using getComponent with componentName="${componentName}"`,
+    )
+    throw error
+  }
+}
+
+export function getComponents(engine: IEngine) {
+  return {
+    Actions: getComponent<Actions>(ComponentName.ACTIONS, engine),
+    States: getComponent<States>(ComponentName.STATES, engine),
+    Counter: getComponent<Counter>(ComponentName.COUNTER, engine),
+    Triggers: getComponent<Triggers>(ComponentName.TRIGGERS, engine),
+  }
+}
+
 export function createComponents(engine: IEngine) {
   const ActionTypes = engine.defineComponent(ComponentName.ACTION_TYPES, {
     value: Schemas.Array(
