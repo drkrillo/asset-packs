@@ -1,12 +1,24 @@
-import {  engine } from '@dcl/sdk/ecs'
-import { name, version } from '../package.json'
-import { actionsSystem } from './actions'
-import { triggersSystem } from './triggers'
-import { initComponents } from './definitions'
+import {
+  engine,
+  pointerEventsSystem,
+  Animator,
+  Transform,
+  AudioSource,
+  AvatarAttach,
+  VisibilityComponent,
+  GltfContainer,
+} from '@dcl/sdk/ecs'
+import { initAssetPacks } from './scene-entrypoint'
+
+initAssetPacks(engine, pointerEventsSystem, {
+  Animator,
+  Transform,
+  AudioSource,
+  AvatarAttach,
+  VisibilityComponent,
+  GltfContainer,
+})
 
 export function main() {
-  console.log(`Using ${name}@${version}`)
-  initComponents(engine)
-  engine.addSystem(actionsSystem)
-  engine.addSystem(triggersSystem)
+  console.log('Scene ready')
 }
