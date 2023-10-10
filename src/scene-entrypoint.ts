@@ -1,5 +1,4 @@
 import { IEngine, PointerEventsSystem } from '@dcl/sdk/ecs'
-import { name, version } from '../package.json'
 import { createComponents, initComponents } from './definitions'
 import { createActionsSystem } from './actions'
 import { createTriggersSystem } from './triggers'
@@ -18,7 +17,6 @@ export function initAssetPacks(
 ) {
   const engine = _engine as IEngine
   const pointerEventsSystem = _pointerEventsSystem as PointerEventsSystem
-  console.log(`Using ${name}@${version}`)
   try {
     createComponents(engine)
     engine.addSystem(createActionsSystem(engine, components))
