@@ -2,8 +2,8 @@
   "name": "@dcl/asset-packs",
   "version": "0.0.0",
   "description": "",
-  "main": "dist/src/definitions.js",
-  "typings": "dist/src/definitions.d.ts",
+  "main": "dist/definitions.js",
+  "typings": "dist/definitions.d.ts",
   "scripts": {
     "download": "ts-node --project tsconfig.scripts.json ./scripts/download.ts",
     "validate": "ts-node --project tsconfig.scripts.json ./scripts/validate.ts",
