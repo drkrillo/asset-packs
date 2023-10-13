@@ -1,7 +1,7 @@
 {
   "id": "7abe1ec8-bd5c-4ffe-b318-f17a330296bf",
   "name": "Vertical Black Pad",
-  "category": "structures",
+  "category": "platforms",
   "tags": ["platform", "vertical", "interactive"],
   "components": {
     "core::GltfContainer": {

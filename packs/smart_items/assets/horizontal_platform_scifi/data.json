@@ -1,7 +1,7 @@
 {
   "id": "c5bcfd25-77a5-4186-a1fc-3525a7130daa",
   "name": "Horizontal Platform SciFi",
-  "category": "structures",
+  "category": "platforms",
   "tags": ["platform", "horizontal", "interactive"],
   "components": {
     "core::GltfContainer": {

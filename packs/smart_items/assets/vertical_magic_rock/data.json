@@ -1,7 +1,7 @@
 {
   "id": "4c3b4f56-9329-4230-9d43-4f94fbf6771d",
   "name": "Vertical Magic Rock",
-  "category": "structures",
+  "category": "platforms",
   "tags": ["platform", "vertical", "interactive", "smart"],
   "components": {
     "core::GltfContainer": {

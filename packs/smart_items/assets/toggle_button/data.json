@@ -1,7 +1,7 @@
 {
   "id": "a186416e-81f1-4d0a-b0cd-a4b0077d264d",
   "name": "Toggle Button",
-  "category": "decorations",
+  "category": "buttons",
   "tags": ["button", "toggle"],
   "components": {
     "core::GltfContainer": {

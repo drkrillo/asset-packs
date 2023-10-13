@@ -1,7 +1,7 @@
 {
   "id": "fefa3ea5-40f3-46c6-a240-9ce70db8f677",
   "name": "Hatch Trapdoor",
-  "category": "structures",
+  "category": "doors",
   "tags": ["door"],
   "components": {
     "core::GltfContainer": {

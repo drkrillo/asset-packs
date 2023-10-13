@@ -1,7 +1,7 @@
 {
   "id": "65ce08be-0585-407d-a9ab-df68888263bf",
   "name": "Horizontal Circular SciFi Alt",
-  "category": "structures",
+  "category": "platforms",
   "tags": ["platform", "horizontal", "interactive"],
   "components": {
     "core::GltfContainer": {

@@ -1,7 +1,7 @@
 {
   "id": "534ba1b7-7e5b-4aeb-905a-f155de4b7c6a",
   "name": "Vertical Red Pad",
-  "category": "structures",
+  "category": "platforms",
   "tags": ["platform", "vertical", "interactive"],
   "components": {
     "core::GltfContainer": {

@@ -1,7 +1,7 @@
 {
   "id": "9845778b-d877-4c06-a32a-75131a4ca6c4",
   "name": "Horizontal Platform Pirates",
-  "category": "structures",
+  "category": "platforms",
   "tags": ["platform", "horizontal", "interactive"],
   "components": {
     "core::GltfContainer": {
