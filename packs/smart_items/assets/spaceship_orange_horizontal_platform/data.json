@@ -1,7 +1,7 @@
 {
   "id": "d64291e9-d4a0-4375-9fc3-7f220734b8f1",
   "name": "Spaceship Orange Horizontal Platform",
-  "category": "vehicles",
+  "category": "platforms",
   "tags": ["platform", "horizontal", "interactive", "spaceship", "vehicle"],
   "components": {
     "core::GltfContainer": {

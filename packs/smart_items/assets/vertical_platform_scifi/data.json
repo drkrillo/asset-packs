@@ -1,7 +1,7 @@
 {
   "id": "58dc566a-2add-4326-b61c-0fdf46903195",
   "name": "Vertical Platform SciFi",
-  "category": "structures",
+  "category": "platforms",
   "tags": ["platform", "vertical", "interactive", "smart"],
   "components": {
     "core::GltfContainer": {

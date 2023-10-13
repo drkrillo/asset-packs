@@ -1,7 +1,7 @@
 {
   "id": "6ab20acc-eff6-4272-8243-c183e70a9fa1",
   "name": "Vertical Platform Genesis",
-  "category": "structures",
+  "category": "platforms",
   "tags": ["platform", "vertical", "interactive", "smart"],
   "components": {
     "core::GltfContainer": {

@@ -1,7 +1,7 @@
 {
   "id": "132c8f9d-5faa-4e14-b985-44562ccacc24",
   "name": "Vertical Magic Rock Alt",
-  "category": "structures",
+  "category": "platforms",
   "tags": ["platform", "vertical", "interactive", "smart"],
   "components": {
     "core::GltfContainer": {

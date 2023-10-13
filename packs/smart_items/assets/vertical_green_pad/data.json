@@ -1,7 +1,7 @@
 {
   "id": "6678fa53-038e-4722-b10a-b50cb175436b",
   "name": "Vertical Green Pad",
-  "category": "structures",
+  "category": "platforms",
   "tags": ["platform", "vertical", "interactive"],
   "components": {
     "core::GltfContainer": {

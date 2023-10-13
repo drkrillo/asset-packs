@@ -1,7 +1,7 @@
 {
   "id": "fa423878-fbbe-4333-80a8-3d3f2dbe5889",
   "name": "Vertical Yellow Pad",
-  "category": "structures",
+  "category": "platforms",
   "tags": ["platform", "vertical", "interactive"],
   "components": {
     "core::GltfContainer": {
