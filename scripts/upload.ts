@@ -2,12 +2,7 @@ import { resolve } from 'path'
 import { createReadStream } from 'fs'
 import dotenv from 'dotenv'
 import mimeTypes from 'mime-types'
-import {
-  DeleteObjectCommand,
-  HeadObjectCommand,
-  S3,
-  S3ClientConfigType,
-} from '@aws-sdk/client-s3'
+import { HeadObjectCommand, S3, S3ClientConfigType } from '@aws-sdk/client-s3'
 import { Upload } from '@aws-sdk/lib-storage'
 import { LocalFileSystem } from './utils/local'
 
@@ -62,17 +57,6 @@ async function main() {
 
   // s3 auth client
   const client = new S3(config)
-
-  // delete catalog
-  try {
-    const command = new DeleteObjectCommand({
-      Bucket: bucketName,
-      Key: 'catalog.json',
-    })
-    await client.send(command)
-  } catch (error) {
-    console.error('Error deleting catalog.json', error)
-  }
 
   // upload queue
   const { default: Queue } = await import('p-queue')
