@@ -10,7 +10,6 @@ import {
 } from '@aws-sdk/client-s3'
 import { Upload } from '@aws-sdk/lib-storage'
 import { LocalFileSystem } from './utils/local'
-import { exists, readBuffer } from './utils/fs'
 
 dotenv.config()
 const accessKeyId = process.env.AWS_ACCESS_KEY_ID
@@ -63,6 +62,17 @@ async function main() {
 
   // s3 auth client
   const client = new S3(config)
+
+  // delete catalog
+  try {
+    const command = new DeleteObjectCommand({
+      Bucket: bucketName,
+      Key: 'catalog.json',
+    })
+    await client.send(command)
+  } catch (error) {
+    console.error('Error deleting catalog.json', error)
+  }
 
   // upload queue
   const { default: Queue } = await import('p-queue')
