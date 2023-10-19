@@ -1,18 +1,18 @@
 ## asset-packs
 
-This repo holds all the asset packs for the Editor and Web Editor. When the repo is deployed, all the files are hashed and uploaded to an S3 bucket under `contents/:hash` and an npm package `@dcl/asset-packs` is published with a `catalog.json` that holds all the asset packs and assets data, and their contents point to the hashes in the CDN. Also a `bin/index.js` is compiled and published along in the npm package, which must be included in scenes that make use of Smart Items. The bucket is accessible through the `builder-items.decentraland.*` via Cloudflare.
+This repo holds all the asset packs for the Editor and Web Editor. When the repo is deployed, all the files are hashed and uploaded to an S3 bucket under `contents/:hash` and an npm package `@dcl/asset-packs` is published with a `catalog.json` that holds all the asset packs and assets data, and their contents point to the hashes in the bucket. Also a `bin/index.js` is compiled and published along in the npm package, which must be included in scenes that make use of Smart Items. The bucket is accessible through the `builder-items.decentraland.*` via Cloudflare.
 
 ### Production
 
-- Catalog: `https://builder-items.decentraland.org/catalog.json`
+- npm: `@dcl/asset-packs@latest`
 
-- Contents: `https://builder-items.decentraland.org/contents/:hash`
+- cdn: `https://builder-items.decentraland.org/contents/:hash`
 
 ### Development
 
-- Catalog: `https://builder-items.decentraland.zone/catalog.json`
+- npm: `@dcl/asset-packs@next`
 
-- Contents: `https://builder-items.decentraland.zone/contents/:hash`
+- cdn: `https://builder-items.decentraland.zone/contents/:hash`
 
 ### Deployment
 
