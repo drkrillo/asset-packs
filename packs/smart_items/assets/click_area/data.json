@@ -14,12 +14,7 @@
       "value": [
         {
           "type": "on_click",
-          "actions": [
-            {
-              "id": "",
-              "name": ""
-            }
-          ]
+          "actions": []
         }
       ]
     }

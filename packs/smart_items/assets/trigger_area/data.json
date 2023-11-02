@@ -19,21 +19,11 @@
       "value": [
         {
           "type": "on_player_enters_area",
-          "actions": [
-            {
-              "id": "",
-              "name": ""
-            }
-          ]
+          "actions": []
         },
         {
           "type": "on_player_leaves_area",
-          "actions": [
-            {
-              "id": "",
-              "name": ""
-            }
-          ]
+          "actions": []
         }
       ]
     }

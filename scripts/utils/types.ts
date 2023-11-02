@@ -1,3 +1,5 @@
+import { ComponentName } from '../../src/enums'
+
 export type AssetPackData = {
   id: string
   name: string
@@ -20,6 +22,16 @@ export type AssetData = {
   components: Record<string, any>
 }
 
+export interface TriggerData {
+  value: {
+    type: string
+    actions: {
+      id: string
+      name: string
+    }[]
+  }[]
+}
+
 export function isAssetData(value: any): value is AssetData {
   return (
     typeof value === 'object' &&
@@ -30,6 +42,20 @@ export function isAssetData(value: any): value is AssetData {
     typeof value.components === 'object' &&
     value.components !== null
   )
+}
+
+export function getTriggerComponent(value: AssetData): TriggerData | undefined {
+  return value.components[ComponentName.TRIGGERS]
+}
+
+export function assertValidTriggerComponent(assetName: string, trigger: TriggerData) {
+  trigger.value.forEach(({ type, actions }) => {
+    actions.forEach(({ id, name }) => {
+      if (!id || !name) {
+        throw new Error(`Invalid actions found on "${assetName}" for trigger with type "${type}"`)
+      }
+    })
+  })
 }
 
 export type Asset = AssetData & { contents: Record<string, string> }
