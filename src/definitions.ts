@@ -199,7 +199,10 @@ function initVideoPlayerComponents(engine: IEngine) {
     for (const [entity, material] of engine.getEntitiesWith(Material, VideoPlayer)) {
       const videoTexture = getVideoTexture(material)
       if (videoTexture?.videoPlayerEntity === engine.RootEntity) {
-        Material.Texture.Video({ videoPlayerEntity: entity })
+        Material.setPbrMaterial(entity, {
+          ...material.material,
+          texture: Material.Texture.Video({ videoPlayerEntity: entity })
+        })
       }
     }
   }

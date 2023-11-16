@@ -13,12 +13,6 @@
     "core::VisibilityComponent": {
       "visible": false
     },
-    "core::MeshRenderer": {
-      "mesh": {
-        "$case": "plane",
-        "plane": { "uvs": [] }
-      }
-    },
     "core::AudioStream": {
       "url": "",
       "playing": true
