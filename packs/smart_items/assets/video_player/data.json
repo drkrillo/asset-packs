@@ -24,7 +24,7 @@
             "tex": {
               "$case": "videoTexture",
               "videoTexture": {
-                "videoPlayerEntity": "{entity}"
+                "videoPlayerEntity": 0
               }
             }
           },
