@@ -1,0 +1,38 @@
+{
+  "id": "dc5ec17b-aa1a-4bd0-bace-7d615d9bdc70",
+  "name": "Video Player",
+  "category": "utils",
+  "tags": [
+    "video"
+  ],
+  "components": {
+    "core::VideoPlayer": {
+      "src": "",
+      "playing": true
+    },
+    "core::MeshRenderer": {
+      "mesh": {
+        "$case": "plane",
+        "plane": { "uvs": [] }
+      }
+    },
+    "core::Material": {
+      "material": {
+        "$case": "pbr",
+        "pbr": {
+          "texture": {
+            "tex": {
+              "$case": "videoTexture",
+              "videoTexture": {
+                "videoPlayerEntity": 0
+              }
+            }
+          },
+          "roughness": 1.0,
+          "specularIntensity": 0,
+          "metallic": 0
+        }
+      }
+    }
+  }
+}

@@ -2,7 +2,11 @@ import {
   IEngine,
   ISchema,
   LastWriteWinElementSetComponentDefinition,
+  Material,
+  PBMaterial,
   Schemas,
+  VideoPlayer,
+  VideoTexture,
 } from '@dcl/sdk/ecs'
 import { addActionType } from './action-types'
 import {
@@ -177,6 +181,32 @@ export function initComponents(engine: IEngine) {
   ) as LastWriteWinElementSetComponentDefinition<Counter>
   const counter = Counter.getOrCreateMutable(engine.RootEntity)
   counter.value = counter.value || 0
+
+  initVideoPlayerComponents(engine)
+}
+
+function getVideoTexture({ material }: PBMaterial): VideoTexture | undefined {
+  if (material?.$case === 'pbr' && material.pbr.texture?.tex?.$case === 'videoTexture') {
+    return material.pbr.texture.tex.videoTexture
+  }
+
+  return undefined
+}
+
+function initVideoPlayerComponents(engine: IEngine) {
+  function replaceVideoTexture() {
+    engine.removeSystem(replaceVideoTexture)
+    for (const [entity, material] of engine.getEntitiesWith(Material, VideoPlayer)) {
+      const videoTexture = getVideoTexture(material)
+      if (videoTexture?.videoPlayerEntity === engine.RootEntity) {
+        Material.setPbrMaterial(entity, {
+          ...material.material,
+          texture: Material.Texture.Video({ videoPlayerEntity: entity })
+        })
+      }
+    }
+  }
+  engine.addSystem(replaceVideoTexture)
 }
 
 export function getConditionTypesByComponentName(componentName: ComponentName) {
