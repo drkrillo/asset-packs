@@ -8,15 +8,20 @@ import {
   PBAvatarAttach,
   PBVisibilityComponent,
   PBGltfContainer,
+  VideoPlayer,
+  Material,
+  AudioStream,
 } from '@dcl/sdk/ecs'
 import { Quaternion, Vector3 } from '@dcl/sdk/math'
 import { tweens } from '@dcl-sdk/utils/dist/tween'
+import { getActiveVideoStreams } from '~system/CommsApi'
 import {
   ActionPayload,
   ActionType,
   TriggerType,
   TweenType,
   getComponents,
+  initVideoPlayerComponentMaterial,
 } from './definitions'
 import { getDefaultValue, isValidState } from './states'
 import { getActionEvents, getTriggerEvents } from './events'
@@ -147,6 +152,34 @@ export function createActionsSystem(
               handleDetachFromPlayer(
                 entity,
                 getPayload<ActionType.DETACH_FROM_PLAYER>(action),
+              )
+              break
+            }
+            case ActionType.PLAY_VIDEO_STREAM: {
+              handlePlayVideo(
+                entity,
+                getPayload<ActionType.PLAY_VIDEO_STREAM>(action),
+              )
+              break
+            }
+            case ActionType.STOP_VIDEO_STREAM: {
+              handleStopVideo(
+                entity,
+                getPayload<ActionType.STOP_VIDEO_STREAM>(action),
+              )
+              break
+            }
+            case ActionType.PLAY_AUDIO_STREAM: {
+              handlePlayAudioStream(
+                entity,
+                getPayload<ActionType.PLAY_AUDIO_STREAM>(action),
+              )
+              break
+            }
+            case ActionType.STOP_AUDIO_STREAM: {
+              handleStopAudioStream(
+                entity,
+                getPayload<ActionType.STOP_AUDIO_STREAM>(action),
               )
               break
             }
@@ -418,5 +451,81 @@ export function createActionsSystem(
     if (AvatarAttach.has(entity)) {
       AvatarAttach.deleteFrom(entity)
     }
+  }
+}
+
+async function getVideoSrc({
+  src,
+  dclCast,
+}: ActionPayload<ActionType.PLAY_VIDEO_STREAM>) {
+  if (dclCast) {
+    const { streams } = await getActiveVideoStreams({})
+    return streams.length > 0 ? streams[0].trackSid : ''
+  }
+  return src ?? ''
+}
+
+// PLAY_VIDEO
+function handlePlayVideo(
+  entity: Entity,
+  payload: ActionPayload<ActionType.PLAY_VIDEO_STREAM>,
+) {
+  // Get the video src from a promise (Video File/Video Stream/DCL Cast)
+  getVideoSrc(payload).then((src) => {
+    if (!src) return
+
+    const videoSource = VideoPlayer.getMutableOrNull(entity)
+
+    if (videoSource) {
+      videoSource.src = src
+      videoSource.volume = payload.volume ?? 1
+      videoSource.loop = payload.loop ?? false
+      videoSource.playing = true
+    } else {
+      VideoPlayer.createOrReplace(entity, {
+        src,
+        volume: payload.volume ?? 1,
+        loop: payload.loop ?? false,
+        playing: true,
+      })
+
+      // Init video player material when the entity doesn't have a VideoPlayer component defined
+      initVideoPlayerComponentMaterial(entity, Material.getOrNull(entity))
+    }
+  })
+}
+
+// STOP_VIDEO
+function handleStopVideo(
+  entity: Entity,
+  _payload: ActionPayload<ActionType.STOP_VIDEO_STREAM>,
+) {
+  const videoSource = VideoPlayer.getMutableOrNull(entity)
+  if (videoSource) {
+    videoSource.playing = false
+  }
+}
+
+// PLAY_AUDIO_STREAM
+function handlePlayAudioStream(
+  entity: Entity,
+  payload: ActionPayload<ActionType.PLAY_AUDIO_STREAM>,
+) {
+  const { url, volume } = payload
+  AudioStream.createOrReplace(entity, {
+    url,
+    playing: true,
+    volume: volume ?? 1,
+  })
+}
+
+// STOP_AUDIO_STREAM
+function handleStopAudioStream(
+  entity: Entity,
+  _payload: ActionPayload<ActionType.STOP_AUDIO_STREAM>,
+) {
+  const audioSource = AudioStream.getMutableOrNull(entity)
+  if (audioSource) {
+    audioSource.playing = false
   }
 }
