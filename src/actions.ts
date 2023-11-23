@@ -508,14 +508,12 @@ export function createActionsSystem(
     _entity: Entity,
     payload: ActionPayload<ActionType.MOVE_PLAYER>,
   ) {
-    const { position, cameraTarget } = payload
     const options = {
-      newRelativePosition: position,
-      cameraTarget,
+      newRelativePosition: payload.position,
+      cameraTarget: payload.cameraTarget,
     }
-    // leaving this here for debugging purposes until we figure out why this does not work as intended
     console.log('movePlayerTo', options)
-    movePlayerTo(options)
+    void movePlayerTo(options)
   }
 
   // PLAY DEFAULT EMOTE
@@ -533,7 +531,6 @@ export function createActionsSystem(
     payload: ActionPayload<ActionType.PLAY_CUSTOM_EMOTE>,
   ) {
     const { src, loop } = payload
-    console.log('triggerSceneEmote', payload)
     void triggerSceneEmote({ src, loop })
   }
 

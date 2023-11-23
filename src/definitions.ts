@@ -77,18 +77,8 @@ export const ActionSchemas = {
     y: Schemas.Int,
   }),
   [ActionType.MOVE_PLAYER]: Schemas.Map({
-    position: Schemas.Map({
-      x: Schemas.Int,
-      y: Schemas.Int,
-      z: Schemas.Int,
-    }),
-    cameraTarget: Schemas.Optional(
-      Schemas.Map({
-        x: Schemas.Int,
-        y: Schemas.Int,
-        z: Schemas.Int,
-      }),
-    ),
+    position: Schemas.Vector3,
+    cameraTarget: Schemas.Optional(Schemas.Vector3),
   }),
   [ActionType.PLAY_DEFAULT_EMOTE]: Schemas.Map({
     emote: Schemas.String,
