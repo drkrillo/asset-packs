@@ -48,6 +48,11 @@ export enum ActionType {
   STOP_VIDEO_STREAM = 'stop_video_stream',
   PLAY_AUDIO_STREAM = 'play_audio_stream',
   STOP_AUDIO_STREAM = 'stop_audio_stream',
+  TELEPORT_PLAYER = 'teleport_player',
+  MOVE_PLAYER = 'move_player',
+  PLAY_DEFAULT_EMOTE = 'play_default_emote',
+  PLAY_CUSTOM_EMOTE = 'play_custom_emote',
+  OPEN_LINK = 'open_link',
 }
 
 export enum TriggerType {
