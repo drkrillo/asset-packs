@@ -26,6 +26,13 @@ import {
 import { getDefaultValue, isValidState } from './states'
 import { getActionEvents, getTriggerEvents } from './events'
 import { getPayload } from './action-types'
+import { requestTeleport } from '~system/UserActionModule'
+import {
+  movePlayerTo,
+  triggerEmote,
+  triggerSceneEmote,
+  openExternalUrl,
+} from '~system/RestrictedActions'
 
 const initedEntities = new Set<Entity>()
 
@@ -181,6 +188,38 @@ export function createActionsSystem(
                 entity,
                 getPayload<ActionType.STOP_AUDIO_STREAM>(action),
               )
+              break
+            }
+            case ActionType.TELEPORT_PLAYER: {
+              handleTeleportPlayer(
+                entity,
+                getPayload<ActionType.TELEPORT_PLAYER>(action),
+              )
+              break
+            }
+            case ActionType.MOVE_PLAYER: {
+              handleMovePlayer(
+                entity,
+                getPayload<ActionType.MOVE_PLAYER>(action),
+              )
+              break
+            }
+            case ActionType.PLAY_DEFAULT_EMOTE: {
+              handlePlayDefaultEmote(
+                entity,
+                getPayload<ActionType.PLAY_DEFAULT_EMOTE>(action),
+              )
+              break
+            }
+            case ActionType.PLAY_CUSTOM_EMOTE: {
+              handlePlayCustomEmote(
+                entity,
+                getPayload<ActionType.PLAY_CUSTOM_EMOTE>(action),
+              )
+              break
+            }
+            case ActionType.OPEN_LINK: {
+              handleOpenLink(entity, getPayload<ActionType.OPEN_LINK>(action))
               break
             }
             default:
@@ -451,6 +490,57 @@ export function createActionsSystem(
     if (AvatarAttach.has(entity)) {
       AvatarAttach.deleteFrom(entity)
     }
+  }
+
+  // TELEPORT PLAYER
+  function handleTeleportPlayer(
+    _entity: Entity,
+    payload: ActionPayload<ActionType.TELEPORT_PLAYER>,
+  ) {
+    const { x, y } = payload
+    requestTeleport({
+      destination: `${x},${y}`,
+    })
+  }
+
+  // MOVE PLAYER
+  function handleMovePlayer(
+    _entity: Entity,
+    payload: ActionPayload<ActionType.MOVE_PLAYER>,
+  ) {
+    const options = {
+      newRelativePosition: payload.position,
+      cameraTarget: payload.cameraTarget,
+    }
+    console.log('movePlayerTo', options)
+    void movePlayerTo(options)
+  }
+
+  // PLAY DEFAULT EMOTE
+  function handlePlayDefaultEmote(
+    _entity: Entity,
+    payload: ActionPayload<ActionType.PLAY_DEFAULT_EMOTE>,
+  ) {
+    const { emote } = payload
+    void triggerEmote({ predefinedEmote: emote })
+  }
+
+  // PLAY CUSTOM EMOTE
+  function handlePlayCustomEmote(
+    _entity: Entity,
+    payload: ActionPayload<ActionType.PLAY_CUSTOM_EMOTE>,
+  ) {
+    const { src, loop } = payload
+    void triggerSceneEmote({ src, loop })
+  }
+
+  // OPEN LINK
+  function handleOpenLink(
+    _entity: Entity,
+    payload: ActionPayload<ActionType.OPEN_LINK>,
+  ) {
+    const { url } = payload
+    void openExternalUrl({ url })
   }
 }
 

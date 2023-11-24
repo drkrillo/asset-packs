@@ -72,6 +72,24 @@ export const ActionSchemas = {
     volume: Schemas.Optional(Schemas.Float),
   }),
   [ActionType.STOP_AUDIO_STREAM]: Schemas.Map({}),
+  [ActionType.TELEPORT_PLAYER]: Schemas.Map({
+    x: Schemas.Int,
+    y: Schemas.Int,
+  }),
+  [ActionType.MOVE_PLAYER]: Schemas.Map({
+    position: Schemas.Vector3,
+    cameraTarget: Schemas.Optional(Schemas.Vector3),
+  }),
+  [ActionType.PLAY_DEFAULT_EMOTE]: Schemas.Map({
+    emote: Schemas.String,
+  }),
+  [ActionType.PLAY_CUSTOM_EMOTE]: Schemas.Map({
+    src: Schemas.String,
+    loop: Schemas.Optional(Schemas.Boolean),
+  }),
+  [ActionType.OPEN_LINK]: Schemas.Map({
+    url: Schemas.String,
+  }),
 }
 
 export type ActionPayload<T extends ActionType = any> =
