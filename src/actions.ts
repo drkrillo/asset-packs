@@ -786,10 +786,10 @@ export function createActionsSystem(
       }
     }
 
-    const transform = Transform.getOrCreateMutable(entity)
+    const transform = Transform.getOrCreateMutable(clone)
     transform.position = position
 
-    const triggerEvents = getTriggerEvents(entity)
+    const triggerEvents = getTriggerEvents(clone)
     triggerEvents.emit(TriggerType.ON_SPAWN)
     triggerEvents.emit(TriggerType.ON_CLONE)
   }
