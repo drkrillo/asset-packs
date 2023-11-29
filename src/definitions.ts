@@ -117,6 +117,10 @@ export const ActionSchemas = {
   [ActionType.STOP_LOOP]: Schemas.Map({
     action: Schemas.String,
   }),
+  [ActionType.CLONE_ENTITY]: Schemas.Map({
+    position: Schemas.Vector3,
+  }),
+  [ActionType.REMOVE_ENTITY]: Schemas.Map({}),
 }
 
 export type ActionPayload<T extends ActionType = any> =

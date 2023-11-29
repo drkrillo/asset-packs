@@ -59,6 +59,8 @@ export enum ActionType {
   STOP_DELAY = 'stop_delay',
   START_LOOP = 'start_loop',
   STOP_LOOP = 'stop_loop',
+  CLONE_ENTITY = 'clone_entity',
+  REMOVE_ENTITY = 'remove_entity',
 }
 
 export enum TriggerType {
@@ -71,6 +73,7 @@ export enum TriggerType {
   ON_PLAYER_LEAVES_AREA = 'on_player_leaves_area',
   ON_DELAY = 'on_delay',
   ON_LOOP = 'on_loop',
+  ON_CLONE = 'on_clone',
 }
 
 export enum TriggerConditionType {
