@@ -283,10 +283,12 @@ export function createActionsSystem(
 
   // PLAY_ANIMATION
   function initPlayAnimation(entity: Entity) {
-    Animator.create(entity, {
-      states: [],
-    })
-    Animator.stopAllAnimations(entity)
+    if (!Animator.has(entity)) {
+      Animator.create(entity, {
+        states: [],
+      })
+      Animator.stopAllAnimations(entity)
+    }
   }
 
   function handlePlayAnimation(
