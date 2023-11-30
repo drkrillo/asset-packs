@@ -2,7 +2,9 @@
   "id": "dc5ec17b-aa1a-4bd0-bace-7d615d9bdc70",
   "name": "Video Player",
   "category": "utils",
-  "tags": ["video"],
+  "tags": [
+    "video"
+  ],
   "components": {
     "core::VideoPlayer": {
       "src": "",
@@ -11,14 +13,18 @@
     "core::MeshRenderer": {
       "mesh": {
         "$case": "plane",
-        "plane": { "uvs": [] }
+        "plane": {
+          "uvs": []
+        }
       }
     },
     "core::MeshCollider": {
       "collisionMask": 1,
       "mesh": {
         "$case": "plane",
-        "plane": { "uvs": [] }
+        "plane": {
+          "uvs": []
+        }
       }
     },
     "core::Material": {
@@ -55,7 +61,7 @@
         {
           "name": "Play Video Stream",
           "type": "play_video_stream",
-          "jsonPayload": "{ \"src\": \"\", \"loop\": \"false\", \"volume\": \"1.0\", \"dclCast\": false }"
+          "jsonPayload": "{ \"src\": \"\", \"loop\": \"false\", \"volume\": 1, \"dclCast\": false }"
         },
         {
           "name": "Stop Video Stream",
@@ -134,7 +140,10 @@
     },
     "asset-packs::States": {
       "id": "{self}",
-      "value": ["Playing", "Stopped"],
+      "value": [
+        "Playing",
+        "Stopped"
+      ],
       "defaultValue": "Stopped"
     }
   }
