@@ -16,6 +16,7 @@ import {
   YGUnit,
   TextAlignMode,
   Font,
+  ComponentDefinition,
 } from '@dcl/sdk/ecs'
 import { Quaternion, Vector3 } from '@dcl/sdk/math'
 import { tweens } from '@dcl-sdk/utils/dist/tween'
@@ -39,6 +40,7 @@ import {
   triggerSceneEmote,
   openExternalUrl,
 } from '~system/RestrictedActions'
+import { isLastWriteWinComponent } from './lww'
 
 const initedEntities = new Set<Entity>()
 
@@ -253,6 +255,20 @@ export function createActionsSystem(
             }
             case ActionType.STOP_LOOP: {
               handleStopLoop(entity, getPayload<ActionType.STOP_LOOP>(action))
+              break
+            }
+            case ActionType.CLONE_ENTITY: {
+              handleCloneEntity(
+                entity,
+                getPayload<ActionType.CLONE_ENTITY>(action),
+              )
+              break
+            }
+            case ActionType.REMOVE_ENTITY: {
+              handleRemoveEntity(
+                entity,
+                getPayload<ActionType.REMOVE_ENTITY>(action),
+              )
               break
             }
             default:
@@ -751,5 +767,38 @@ export function createActionsSystem(
   ) {
     const { action } = payload
     stopInterval(entity, action)
+  }
+
+  // CLONE_ENTITY
+  function handleCloneEntity(
+    entity: Entity,
+    payload: ActionPayload<ActionType.CLONE_ENTITY>,
+  ) {
+    const { position } = payload
+    const clone = engine.addEntity()
+
+    for (const component of engine.componentsIter()) {
+      if (component.has(entity)) {
+        const value = component.get(entity)
+        if (isLastWriteWinComponent(component)) {
+          component.createOrReplace(clone, value)
+        }
+      }
+    }
+
+    const transform = Transform.getOrCreateMutable(clone)
+    transform.position = position
+
+    const triggerEvents = getTriggerEvents(clone)
+    triggerEvents.emit(TriggerType.ON_SPAWN)
+    triggerEvents.emit(TriggerType.ON_CLONE)
+  }
+
+  // REMOVE_ENTITY
+  function handleRemoveEntity(
+    entity: Entity,
+    _payload: ActionPayload<ActionType.REMOVE_ENTITY>,
+  ) {
+    engine.removeEntity(entity)
   }
 }
