@@ -2,7 +2,10 @@
   "id": "1b0ea1b1-9672-4853-8aa1-5405473747d9",
   "name": "Audio Stream",
   "category": "utils",
-  "tags": ["audio", "stream"],
+  "tags": [
+    "audio",
+    "stream"
+  ],
   "components": {
     "core::GltfContainer": {
       "src": "{assetPath}/radio.glb",
@@ -13,7 +16,10 @@
     },
     "core::MeshCollider": {
       "collisionMask": 1,
-      "mesh": { "$case": "box", "box": {} }
+      "mesh": {
+        "$case": "box",
+        "box": {}
+      }
     },
     "core::AudioStream": {
       "url": "",
@@ -35,7 +41,7 @@
         {
           "name": "Play Audio Stream",
           "type": "play_audio_stream",
-          "jsonPayload": "{ \"url\": \"\", \"volume\": \"1.0\" }"
+          "jsonPayload": "{ \"url\": \"\", \"volume\": 1 }"
         },
         {
           "name": "Stop Audio Stream",
@@ -114,7 +120,10 @@
     },
     "asset-packs::States": {
       "id": "{self}",
-      "value": ["Playing", "Stopped"],
+      "value": [
+        "Playing",
+        "Stopped"
+      ],
       "defaultValue": "Stopped"
     }
   }
