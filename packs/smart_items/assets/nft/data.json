@@ -6,14 +6,12 @@
     "nft"
   ],
   "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/nft.glb"
-    },
     "core::NftShape": {
       "urn": ""
     },
-    "core::VisibilityComponent": {
-      "visible": false
+    "asset-packs::Actions": {
+      "id": "{self}",
+      "value": []
     }
   }
 }
