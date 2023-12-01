@@ -2,12 +2,18 @@ import {
   Entity,
   IEngine,
   ISchema,
-  LastWriteWinElementSetComponentDefinition,
-  Material,
+  MaterialComponentDefinitionExtended,
   PBMaterial,
+  PBVideoPlayer,
   Schemas,
-  VideoPlayer,
   VideoTexture,
+  AnimatorComponentDefinitionExtended,
+  TransformComponentExtended,
+  LastWriteWinElementSetComponentDefinition,
+  PBAudioSource,
+  PBAvatarAttach,
+  PBVisibilityComponent,
+  PBGltfContainer,
 } from '@dcl/sdk/ecs'
 import { addActionType } from './action-types'
 import {
@@ -229,7 +235,21 @@ export function createComponents(engine: IEngine) {
   }
 }
 
-export function initComponents(engine: IEngine) {
+export type EngineComponents = {
+  Animator: AnimatorComponentDefinitionExtended
+  Transform: TransformComponentExtended
+  AudioSource: LastWriteWinElementSetComponentDefinition<PBAudioSource>
+  AvatarAttach: LastWriteWinElementSetComponentDefinition<PBAvatarAttach>
+  VisibilityComponent: LastWriteWinElementSetComponentDefinition<PBVisibilityComponent>
+  GltfContainer: LastWriteWinElementSetComponentDefinition<PBGltfContainer>
+  Material: MaterialComponentDefinitionExtended
+  VideoPlayer: LastWriteWinElementSetComponentDefinition<PBVideoPlayer>
+}
+
+export function initComponents(
+  engine: IEngine,
+  components: EngineComponents
+) {
   // Add actions from this package
   const actionTypes = Object.values(ActionType)
   for (const type of actionTypes) {
@@ -244,7 +264,7 @@ export function initComponents(engine: IEngine) {
   const counter = Counter.getOrCreateMutable(engine.RootEntity)
   counter.value = counter.value || 0
 
-  initVideoPlayerComponents(engine)
+  initVideoPlayerComponents(engine, components)
 }
 
 function getVideoTexture({ material }: PBMaterial): VideoTexture | undefined {
@@ -260,6 +280,7 @@ function getVideoTexture({ material }: PBMaterial): VideoTexture | undefined {
 
 export function initVideoPlayerComponentMaterial(
   entity: Entity,
+  { Material }: EngineComponents,
   material?: PBMaterial | null,
 ) {
   if (!material || !material.material || material.material.$case !== 'pbr') {
@@ -274,8 +295,9 @@ export function initVideoPlayerComponentMaterial(
   })
 }
 
-function initVideoPlayerComponents(engine: IEngine) {
+function initVideoPlayerComponents(engine: IEngine, components: EngineComponents) {
   function replaceVideoTexture() {
+    const { Material, VideoPlayer } = components
     engine.removeSystem(replaceVideoTexture)
     for (const [entity, material] of engine.getEntitiesWith(
       Material,
@@ -283,7 +305,7 @@ function initVideoPlayerComponents(engine: IEngine) {
     )) {
       const videoTexture = getVideoTexture(material)
       if (videoTexture?.videoPlayerEntity === engine.RootEntity) {
-        initVideoPlayerComponentMaterial(entity, material)
+        initVideoPlayerComponentMaterial(entity, components, material)
       }
     }
   }

@@ -7,6 +7,8 @@ import {
   AvatarAttach,
   VisibilityComponent,
   GltfContainer,
+  Material,
+  VideoPlayer
 } from '@dcl/sdk/ecs'
 import { initAssetPacks } from './scene-entrypoint'
 
@@ -17,6 +19,8 @@ initAssetPacks(engine, pointerEventsSystem, {
   AvatarAttach,
   VisibilityComponent,
   GltfContainer,
+  Material,
+  VideoPlayer
 })
 
 export function main() {
