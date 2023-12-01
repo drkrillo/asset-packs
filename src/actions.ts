@@ -1,13 +1,6 @@
 import {
   IEngine,
   Entity,
-  AnimatorComponentDefinitionExtended,
-  TransformComponentExtended,
-  LastWriteWinElementSetComponentDefinition,
-  PBAudioSource,
-  PBAvatarAttach,
-  PBVisibilityComponent,
-  PBGltfContainer,
   VideoPlayer,
   Material,
   AudioStream,
@@ -16,7 +9,6 @@ import {
   YGUnit,
   TextAlignMode,
   Font,
-  ComponentDefinition,
 } from '@dcl/sdk/ecs'
 import { Quaternion, Vector3 } from '@dcl/sdk/math'
 import { tweens } from '@dcl-sdk/utils/dist/tween'
@@ -24,6 +16,7 @@ import { getActiveVideoStreams } from '~system/CommsApi'
 import {
   ActionPayload,
   ActionType,
+  EngineComponents,
   TriggerType,
   TweenType,
   getComponents,
@@ -46,14 +39,7 @@ const initedEntities = new Set<Entity>()
 
 export function createActionsSystem(
   engine: IEngine,
-  components: {
-    Animator: AnimatorComponentDefinitionExtended
-    Transform: TransformComponentExtended
-    AudioSource: LastWriteWinElementSetComponentDefinition<PBAudioSource>
-    AvatarAttach: LastWriteWinElementSetComponentDefinition<PBAvatarAttach>
-    VisibilityComponent: LastWriteWinElementSetComponentDefinition<PBVisibilityComponent>
-    GltfContainer: LastWriteWinElementSetComponentDefinition<PBGltfContainer>
-  },
+  components: EngineComponents,
 ) {
   const {
     Animator,
@@ -630,7 +616,7 @@ export function createActionsSystem(
         })
 
         // Init video player material when the entity doesn't have a VideoPlayer component defined
-        initVideoPlayerComponentMaterial(entity, Material.getOrNull(entity))
+        initVideoPlayerComponentMaterial(entity, components, Material.getOrNull(entity))
       }
     })
   }

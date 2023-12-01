@@ -14,6 +14,8 @@ export function initAssetPacks(
     AvatarAttach: any
     VisibilityComponent: any
     GltfContainer: any
+    Material: any,
+    VideoPlayer: any
   },
 ) {
   const engine = _engine as IEngine
@@ -23,7 +25,7 @@ export function initAssetPacks(
     engine.addSystem(createActionsSystem(engine, components))
     engine.addSystem(createTriggersSystem(engine, pointerEventsSystem))
     engine.addSystem(createTimerSystem())
-    initComponents(engine)
+    initComponents(engine, components)
   } catch (error) {
     console.error(`Error initializing Asset Packs: ${(error as Error).message}`)
   }
