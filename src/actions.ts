@@ -15,6 +15,13 @@ import {
 } from '@dcl/sdk/ecs'
 import { Quaternion, Vector3 } from '@dcl/sdk/math'
 import { tweens } from '@dcl-sdk/utils/dist/tween'
+import { requestTeleport } from '~system/UserActionModule'
+import {
+  movePlayerTo,
+  triggerEmote,
+  triggerSceneEmote,
+  openExternalUrl,
+} from '~system/RestrictedActions'
 import { getActiveVideoStreams } from '~system/CommsApi'
 import {
   ActionPayload,
@@ -23,6 +30,7 @@ import {
   ScreenAlignMode,
   TriggerType,
   TweenType,
+  clone,
   getComponents,
   initVideoPlayerComponentMaterial,
 } from './definitions'
@@ -37,24 +45,28 @@ import {
   stopTimeout,
 } from './timer'
 import { getPayload } from './action-types'
-import { requestTeleport } from '~system/UserActionModule'
-import {
-  movePlayerTo,
-  triggerEmote,
-  triggerSceneEmote,
-  openExternalUrl,
-} from '~system/RestrictedActions'
-import { isLastWriteWinComponent } from './lww'
 import {
   getUIBackground,
   getUIText,
   getUITransform,
   mapAlignToScreenAlign,
 } from './ui'
+import { initTriggers } from './triggers'
 
 const initedEntities = new Set<Entity>()
 const uiStacks = new Map<string, Entity>()
 const lastUiEntityClicked = new Map<Entity, Entity>()
+
+let internalInitActions: ((entity: Entity) => void) | null = null
+
+export function initActions(entity: Entity) {
+  if (internalInitActions) {
+    return internalInitActions(entity)
+  }
+  throw new Error(
+    `Cannot call initActions while actionsSystem has not been created`,
+  )
+}
 
 export function createActionsSystem(
   engine: IEngine,
@@ -68,230 +80,228 @@ export function createActionsSystem(
     VisibilityComponent,
     GltfContainer,
   } = components
-  const { Actions, States, Counter } = getComponents(engine)
+  const { Actions, States, Counter, Triggers } = getComponents(engine)
+
+  // save internal reference to init funcion
+  internalInitActions = initActions
 
   return function actionsSystem(_dt: number) {
     const entitiesWithActions = engine.getEntitiesWith(Actions)
 
-    for (const [entity, actions] of entitiesWithActions) {
-      if (initedEntities.has(entity)) {
-        continue
+    for (const [entity] of entitiesWithActions) {
+      initActions(entity)
+    }
+  }
+
+  function initActions(entity: Entity) {
+    if (!Actions.has(entity) || initedEntities.has(entity)) {
+      return
+    }
+
+    // get actions data
+    const actions = Actions.get(entity)
+
+    // initialize actions for given entity
+    const types = actions.value.reduce(
+      (types, action) => types.add(action.type),
+      new Set<String>(),
+    )
+
+    for (const type of types) {
+      switch (type) {
+        case ActionType.PLAY_ANIMATION: {
+          initPlayAnimation(entity)
+          break
+        }
+        default:
+          break
       }
+    }
 
-      // initialize actions for given entity
-      const types = actions.value.reduce(
-        (types, action) => types.add(action.type),
-        new Set<String>(),
-      )
-
-      for (const type of types) {
-        switch (type) {
+    // bind actions
+    const actionEvents = getActionEvents(entity)
+    for (const action of actions.value) {
+      actionEvents.on(action.name, () => {
+        switch (action.type) {
           case ActionType.PLAY_ANIMATION: {
-            initPlayAnimation(entity)
+            handlePlayAnimation(
+              entity,
+              getPayload<ActionType.PLAY_ANIMATION>(action),
+            )
+            break
+          }
+          case ActionType.STOP_ANIMATION: {
+            handleStopAnimation(
+              entity,
+              getPayload<ActionType.STOP_ANIMATION>(action),
+            )
+            break
+          }
+          case ActionType.SET_STATE: {
+            handleSetState(entity, getPayload<ActionType.SET_STATE>(action))
+            break
+          }
+          case ActionType.START_TWEEN: {
+            handleStartTween(entity, getPayload<ActionType.START_TWEEN>(action))
+            break
+          }
+          case ActionType.SET_COUNTER: {
+            handleSetCounter(entity, getPayload<ActionType.SET_COUNTER>(action))
+            break
+          }
+          case ActionType.INCREMENT_COUNTER: {
+            handleIncrementCounter(
+              entity,
+              getPayload<ActionType.INCREMENT_COUNTER>(action),
+            )
+            break
+          }
+          case ActionType.DECREASE_COUNTER: {
+            handleDecreaseCounter(
+              entity,
+              getPayload<ActionType.DECREASE_COUNTER>(action),
+            )
+            break
+          }
+          case ActionType.PLAY_SOUND: {
+            handlePlaySound(entity, getPayload<ActionType.PLAY_SOUND>(action))
+            break
+          }
+          case ActionType.STOP_SOUND: {
+            handleStopSound(entity, getPayload<ActionType.STOP_SOUND>(action))
+            break
+          }
+          case ActionType.SET_VISIBILITY: {
+            handleSetVisibility(
+              entity,
+              getPayload<ActionType.SET_VISIBILITY>(action),
+            )
+            break
+          }
+          case ActionType.ATTACH_TO_PLAYER: {
+            handleAttachToPlayer(
+              entity,
+              getPayload<ActionType.ATTACH_TO_PLAYER>(action),
+            )
+            break
+          }
+          case ActionType.DETACH_FROM_PLAYER: {
+            handleDetachFromPlayer(
+              entity,
+              getPayload<ActionType.DETACH_FROM_PLAYER>(action),
+            )
+            break
+          }
+          case ActionType.PLAY_VIDEO_STREAM: {
+            handlePlayVideo(
+              entity,
+              getPayload<ActionType.PLAY_VIDEO_STREAM>(action),
+            )
+            break
+          }
+          case ActionType.STOP_VIDEO_STREAM: {
+            handleStopVideo(
+              entity,
+              getPayload<ActionType.STOP_VIDEO_STREAM>(action),
+            )
+            break
+          }
+          case ActionType.PLAY_AUDIO_STREAM: {
+            handlePlayAudioStream(
+              entity,
+              getPayload<ActionType.PLAY_AUDIO_STREAM>(action),
+            )
+            break
+          }
+          case ActionType.STOP_AUDIO_STREAM: {
+            handleStopAudioStream(
+              entity,
+              getPayload<ActionType.STOP_AUDIO_STREAM>(action),
+            )
+            break
+          }
+          case ActionType.TELEPORT_PLAYER: {
+            handleTeleportPlayer(
+              entity,
+              getPayload<ActionType.TELEPORT_PLAYER>(action),
+            )
+            break
+          }
+          case ActionType.MOVE_PLAYER: {
+            handleMovePlayer(entity, getPayload<ActionType.MOVE_PLAYER>(action))
+            break
+          }
+          case ActionType.PLAY_DEFAULT_EMOTE: {
+            handlePlayDefaultEmote(
+              entity,
+              getPayload<ActionType.PLAY_DEFAULT_EMOTE>(action),
+            )
+            break
+          }
+          case ActionType.PLAY_CUSTOM_EMOTE: {
+            handlePlayCustomEmote(
+              entity,
+              getPayload<ActionType.PLAY_CUSTOM_EMOTE>(action),
+            )
+            break
+          }
+          case ActionType.OPEN_LINK: {
+            handleOpenLink(entity, getPayload<ActionType.OPEN_LINK>(action))
+            break
+          }
+          case ActionType.SHOW_TEXT: {
+            handleShowText(entity, getPayload<ActionType.SHOW_TEXT>(action))
+            break
+          }
+          case ActionType.HIDE_TEXT: {
+            handleHideText(entity, getPayload<ActionType.HIDE_TEXT>(action))
+            break
+          }
+          case ActionType.START_DELAY: {
+            handleStartDelay(entity, getPayload<ActionType.START_DELAY>(action))
+            break
+          }
+          case ActionType.STOP_DELAY: {
+            handleStopDelay(entity, getPayload<ActionType.STOP_DELAY>(action))
+            break
+          }
+          case ActionType.START_LOOP: {
+            handleStartLoop(entity, getPayload<ActionType.START_LOOP>(action))
+            break
+          }
+          case ActionType.STOP_LOOP: {
+            handleStopLoop(entity, getPayload<ActionType.STOP_LOOP>(action))
+            break
+          }
+          case ActionType.CLONE_ENTITY: {
+            handleCloneEntity(
+              entity,
+              getPayload<ActionType.CLONE_ENTITY>(action),
+            )
+            break
+          }
+          case ActionType.REMOVE_ENTITY: {
+            handleRemoveEntity(
+              entity,
+              getPayload<ActionType.REMOVE_ENTITY>(action),
+            )
+            break
+          }
+          case ActionType.SHOW_IMAGE: {
+            handleShowImage(entity, getPayload<ActionType.SHOW_IMAGE>(action))
+            break
+          }
+          case ActionType.HIDE_IMAGE: {
+            handleHideImage(entity, getPayload<ActionType.HIDE_IMAGE>(action))
             break
           }
           default:
             break
         }
-      }
-
-      // bind actions
-      const actionEvents = getActionEvents(entity)
-      for (const action of actions.value) {
-        actionEvents.on(action.name, () => {
-          switch (action.type) {
-            case ActionType.PLAY_ANIMATION: {
-              handlePlayAnimation(
-                entity,
-                getPayload<ActionType.PLAY_ANIMATION>(action),
-              )
-              break
-            }
-            case ActionType.STOP_ANIMATION: {
-              handleStopAnimation(
-                entity,
-                getPayload<ActionType.STOP_ANIMATION>(action),
-              )
-              break
-            }
-            case ActionType.SET_STATE: {
-              handleSetState(entity, getPayload<ActionType.SET_STATE>(action))
-              break
-            }
-            case ActionType.START_TWEEN: {
-              handleStartTween(
-                entity,
-                getPayload<ActionType.START_TWEEN>(action),
-              )
-              break
-            }
-            case ActionType.SET_COUNTER: {
-              handleSetCounter(
-                entity,
-                getPayload<ActionType.SET_COUNTER>(action),
-              )
-              break
-            }
-            case ActionType.INCREMENT_COUNTER: {
-              handleIncrementCounter(
-                entity,
-                getPayload<ActionType.INCREMENT_COUNTER>(action),
-              )
-              break
-            }
-            case ActionType.DECREASE_COUNTER: {
-              handleDecreaseCounter(
-                entity,
-                getPayload<ActionType.DECREASE_COUNTER>(action),
-              )
-              break
-            }
-            case ActionType.PLAY_SOUND: {
-              handlePlaySound(entity, getPayload<ActionType.PLAY_SOUND>(action))
-              break
-            }
-            case ActionType.STOP_SOUND: {
-              handleStopSound(entity, getPayload<ActionType.STOP_SOUND>(action))
-              break
-            }
-            case ActionType.SET_VISIBILITY: {
-              handleSetVisibility(
-                entity,
-                getPayload<ActionType.SET_VISIBILITY>(action),
-              )
-              break
-            }
-            case ActionType.ATTACH_TO_PLAYER: {
-              handleAttachToPlayer(
-                entity,
-                getPayload<ActionType.ATTACH_TO_PLAYER>(action),
-              )
-              break
-            }
-            case ActionType.DETACH_FROM_PLAYER: {
-              handleDetachFromPlayer(
-                entity,
-                getPayload<ActionType.DETACH_FROM_PLAYER>(action),
-              )
-              break
-            }
-            case ActionType.PLAY_VIDEO_STREAM: {
-              handlePlayVideo(
-                entity,
-                getPayload<ActionType.PLAY_VIDEO_STREAM>(action),
-              )
-              break
-            }
-            case ActionType.STOP_VIDEO_STREAM: {
-              handleStopVideo(
-                entity,
-                getPayload<ActionType.STOP_VIDEO_STREAM>(action),
-              )
-              break
-            }
-            case ActionType.PLAY_AUDIO_STREAM: {
-              handlePlayAudioStream(
-                entity,
-                getPayload<ActionType.PLAY_AUDIO_STREAM>(action),
-              )
-              break
-            }
-            case ActionType.STOP_AUDIO_STREAM: {
-              handleStopAudioStream(
-                entity,
-                getPayload<ActionType.STOP_AUDIO_STREAM>(action),
-              )
-              break
-            }
-            case ActionType.TELEPORT_PLAYER: {
-              handleTeleportPlayer(
-                entity,
-                getPayload<ActionType.TELEPORT_PLAYER>(action),
-              )
-              break
-            }
-            case ActionType.MOVE_PLAYER: {
-              handleMovePlayer(
-                entity,
-                getPayload<ActionType.MOVE_PLAYER>(action),
-              )
-              break
-            }
-            case ActionType.PLAY_DEFAULT_EMOTE: {
-              handlePlayDefaultEmote(
-                entity,
-                getPayload<ActionType.PLAY_DEFAULT_EMOTE>(action),
-              )
-              break
-            }
-            case ActionType.PLAY_CUSTOM_EMOTE: {
-              handlePlayCustomEmote(
-                entity,
-                getPayload<ActionType.PLAY_CUSTOM_EMOTE>(action),
-              )
-              break
-            }
-            case ActionType.OPEN_LINK: {
-              handleOpenLink(entity, getPayload<ActionType.OPEN_LINK>(action))
-              break
-            }
-            case ActionType.SHOW_TEXT: {
-              handleShowText(entity, getPayload<ActionType.SHOW_TEXT>(action))
-              break
-            }
-            case ActionType.HIDE_TEXT: {
-              handleHideText(entity, getPayload<ActionType.HIDE_TEXT>(action))
-              break
-            }
-            case ActionType.START_DELAY: {
-              handleStartDelay(
-                entity,
-                getPayload<ActionType.START_DELAY>(action),
-              )
-              break
-            }
-            case ActionType.STOP_DELAY: {
-              handleStopDelay(entity, getPayload<ActionType.STOP_DELAY>(action))
-              break
-            }
-            case ActionType.START_LOOP: {
-              handleStartLoop(entity, getPayload<ActionType.START_LOOP>(action))
-              break
-            }
-            case ActionType.STOP_LOOP: {
-              handleStopLoop(entity, getPayload<ActionType.STOP_LOOP>(action))
-              break
-            }
-            case ActionType.CLONE_ENTITY: {
-              handleCloneEntity(
-                entity,
-                getPayload<ActionType.CLONE_ENTITY>(action),
-              )
-              break
-            }
-            case ActionType.REMOVE_ENTITY: {
-              handleRemoveEntity(
-                entity,
-                getPayload<ActionType.REMOVE_ENTITY>(action),
-              )
-              break
-            }
-            case ActionType.SHOW_IMAGE: {
-              handleShowImage(entity, getPayload<ActionType.SHOW_IMAGE>(action))
-              break
-            }
-            case ActionType.HIDE_IMAGE: {
-              handleHideImage(entity, getPayload<ActionType.HIDE_IMAGE>(action))
-              break
-            }
-            default:
-              break
-          }
-        })
-      }
-
-      initedEntities.add(entity)
+      })
     }
+
+    initedEntities.add(entity)
   }
 
   // PLAY_ANIMATION
@@ -781,22 +791,18 @@ export function createActionsSystem(
     payload: ActionPayload<ActionType.CLONE_ENTITY>,
   ) {
     const { position } = payload
-    const clone = engine.addEntity()
 
-    for (const component of engine.componentsIter()) {
-      if (component.has(entity)) {
-        const value = component.get(entity)
-        if (isLastWriteWinComponent(component)) {
-          component.createOrReplace(clone, value)
-        }
-      }
-    }
+    // clone entity
+    const cloned = clone(entity, engine, Triggers)
 
-    const transform = Transform.getOrCreateMutable(clone)
+    // initialize
+    initActions(cloned)
+    initTriggers(cloned)
+
+    const transform = Transform.getOrCreateMutable(cloned)
     transform.position = position
 
-    const triggerEvents = getTriggerEvents(clone)
-    triggerEvents.emit(TriggerType.ON_SPAWN)
+    const triggerEvents = getTriggerEvents(cloned)
     triggerEvents.emit(TriggerType.ON_CLONE)
   }
 
