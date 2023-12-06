@@ -27,11 +27,26 @@ import { getPayload } from './action-types'
 const initedEntities = new Set<Entity>()
 const actionQueue: { entity: Entity; action: Action }[] = []
 
+let internalInitTriggers: ((entity: Entity) => void) | null = null
+
+export function initTriggers(entity: Entity) {
+  if (internalInitTriggers) {
+    return internalInitTriggers(entity)
+  }
+  throw new Error(
+    `Cannot call initTriggers while triggersSystem has not been created`,
+  )
+}
+
 export function createTriggersSystem(
   engine: IEngine,
   pointerEventsSystem: PointerEventsSystem,
 ) {
   const { Actions, States, Counter, Triggers } = getComponents(engine)
+
+  // save reference to the init function
+  internalInitTriggers = initEntityTriggers
+
   return function triggersSystem(_dt: number) {
     // process action queue
     while (actionQueue.length > 0) {
@@ -41,60 +56,67 @@ export function createTriggersSystem(
     }
 
     const entitiesWithTriggers = engine.getEntitiesWith(Triggers)
-    for (const [entity, triggers] of entitiesWithTriggers) {
-      if (initedEntities.has(entity)) {
-        continue
-      }
+    for (const [entity] of entitiesWithTriggers) {
+      initEntityTriggers(entity)
+    }
+  }
 
-      // initialize triggers for given entity
-      const types = triggers.value.reduce(
-        (types, trigger) => types.add(trigger.type),
-        new Set<TriggerType>(),
-      )
-      for (const type of types) {
-        switch (type) {
-          case TriggerType.ON_CLICK: {
-            initOnClickTrigger(entity)
-            break
-          }
-          case TriggerType.ON_PLAYER_ENTERS_AREA:
-          case TriggerType.ON_PLAYER_LEAVES_AREA: {
-            initOnPlayerTriggerArea(entity)
-            break
-          }
+  function initEntityTriggers(entity: Entity) {
+    if (!Triggers.has(entity) || initedEntities.has(entity)) {
+      return
+    }
+
+    // get triggers data
+    const triggers = Triggers.get(entity)
+
+    // initialize triggers for given entity
+    const types = triggers.value.reduce(
+      (types, trigger) => types.add(trigger.type),
+      new Set<TriggerType>(),
+    )
+    for (const type of types) {
+      switch (type) {
+        case TriggerType.ON_CLICK: {
+          initOnClickTrigger(entity)
+          break
+        }
+        case TriggerType.ON_PLAYER_ENTERS_AREA:
+        case TriggerType.ON_PLAYER_LEAVES_AREA: {
+          initOnPlayerTriggerArea(entity)
+          break
         }
       }
+    }
 
-      // bind triggers
-      const triggerEvents = getTriggerEvents(entity)
-      for (const trigger of triggers.value) {
-        triggerEvents.on(trigger.type, () => {
-          if (checkConditions(trigger)) {
-            for (const triggerAction of trigger.actions) {
-              if (isValidAction(triggerAction)) {
-                const entity = getEntityByAction(triggerAction)
-                if (entity) {
-                  const actions = Actions.getOrNull(entity)
-                  if (actions) {
-                    const action = actions.value.find(
-                      ($) => $.name === triggerAction.name,
-                    )
-                    if (action) {
-                      // actions are enqueued to be executed on the next tick after all the triggers have been processed,
-                      // this is to avoid one trigger messing with other trigger's conditions
-                      actionQueue.push({ entity, action })
-                    }
+    // bind triggers
+    const triggerEvents = getTriggerEvents(entity)
+    for (const trigger of triggers.value) {
+      triggerEvents.on(trigger.type, () => {
+        if (checkConditions(trigger)) {
+          for (const triggerAction of trigger.actions) {
+            if (isValidAction(triggerAction)) {
+              const entity = getEntityByAction(triggerAction)
+              if (entity) {
+                const actions = Actions.getOrNull(entity)
+                if (actions) {
+                  const action = actions.value.find(
+                    ($) => $.name === triggerAction.name,
+                  )
+                  if (action) {
+                    // actions are enqueued to be executed on the next tick after all the triggers have been processed,
+                    // this is to avoid one trigger messing with other trigger's conditions
+                    actionQueue.push({ entity, action })
                   }
                 }
               }
             }
           }
-        })
-      }
-      triggerEvents.emit(TriggerType.ON_SPAWN)
-
-      initedEntities.add(entity)
+        }
+      })
     }
+    triggerEvents.emit(TriggerType.ON_SPAWN)
+
+    initedEntities.add(entity)
   }
 
   function isValidAction(action: TriggerAction) {

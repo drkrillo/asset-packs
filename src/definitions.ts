@@ -33,6 +33,8 @@ export * from './action-types'
 export * from './events'
 export * from './id'
 export * from './states'
+export * from './clone'
+export * from './lww'
 
 export const ActionSchemas = {
   [ActionType.PLAY_ANIMATION]: Schemas.Map({
@@ -255,7 +257,12 @@ export type EngineComponents = {
   VideoPlayer: LastWriteWinElementSetComponentDefinition<PBVideoPlayer>
 }
 
-export function initComponents(engine: IEngine, components: EngineComponents) {
+export type AssetPackComponents = ReturnType<typeof getComponents>
+
+export function initComponents(
+  engine: IEngine,
+  components?: Partial<Record<keyof EngineComponents, any>>,
+) {
   // Add actions from this package
   const actionTypes = Object.values(ActionType)
   for (const type of actionTypes) {
@@ -270,7 +277,12 @@ export function initComponents(engine: IEngine, components: EngineComponents) {
   const counter = Counter.getOrCreateMutable(engine.RootEntity)
   counter.value = counter.value || 0
 
-  initVideoPlayerComponents(engine, components)
+  if (components && components.VideoPlayer && components.Material) {
+    initVideoPlayerComponents(engine, {
+      VideoPlayer: components.VideoPlayer,
+      Material: components.Material,
+    })
+  }
 }
 
 function getVideoTexture({ material }: PBMaterial): VideoTexture | undefined {
@@ -286,7 +298,7 @@ function getVideoTexture({ material }: PBMaterial): VideoTexture | undefined {
 
 export function initVideoPlayerComponentMaterial(
   entity: Entity,
-  { Material }: EngineComponents,
+  { Material }: Pick<EngineComponents, 'Material'>,
   material?: PBMaterial | null,
 ) {
   if (!material || !material.material || material.material.$case !== 'pbr') {
@@ -303,7 +315,7 @@ export function initVideoPlayerComponentMaterial(
 
 function initVideoPlayerComponents(
   engine: IEngine,
-  components: EngineComponents,
+  components: Pick<EngineComponents, 'Material' | 'VideoPlayer'>,
 ) {
   function replaceVideoTexture() {
     const { Material, VideoPlayer } = components
