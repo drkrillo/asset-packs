@@ -9,7 +9,6 @@ import {
   GltfContainer,
   Material,
   VideoPlayer,
-  TextShape,
 } from '@dcl/sdk/ecs'
 import { initAssetPacks } from './scene-entrypoint'
 
