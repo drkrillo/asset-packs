@@ -8,10 +8,6 @@
   "components": {
     "core::NftShape": {
       "urn": ""
-    },
-    "asset-packs::Actions": {
-      "id": "{self}",
-      "value": []
     }
   }
 }
