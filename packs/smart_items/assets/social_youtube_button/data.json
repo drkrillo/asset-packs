@@ -1,0 +1,38 @@
+{
+  "id": "76d3a347-02b1-4c74-bbf3-7787ede6a3b1",
+  "name": "YouTube Button",
+  "category": "social",
+  "tags": [
+    "social",
+    "links",
+    "youtube"
+  ],
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/youtube.glb"
+    },
+    "asset-packs::Actions": {
+      "id": "{self}",
+      "value": [
+        {
+          "name": "Open Link",
+          "type": "open_link",
+          "jsonPayload": "{ \"url\": \"https://youtube.com\" }"
+        }
+      ]
+    },
+    "asset-packs::Triggers": {
+      "value": [
+        {
+          "type": "on_click",
+          "actions": [
+            {
+              "id": "{self:asset-packs::Actions}",
+              "name": "Open Link"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
