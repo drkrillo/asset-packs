@@ -1,0 +1,25 @@
+{
+  "id": "27de7a4b-c63b-4c88-b521-e60a321abbb7",
+  "name": "Invisible Dome",
+  "category": "utils",
+  "tags": [
+    "invisible",
+    "wall",
+    "dome",
+    "sphere",
+    "semisphere",
+    "hemisphere",
+    "globe",
+    "collider"
+  ],
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/invisible_semisphere.glb",
+      "visibleMeshesCollisionMask": 2,
+      "invisibleMeshesCollisionMask": 0
+    },
+    "core::VisibilityComponent": {
+      "visible": false
+    }
+  }
+}

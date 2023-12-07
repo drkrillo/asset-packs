@@ -1,0 +1,23 @@
+{
+  "id": "b853061a-bf5a-4d76-b7f1-92ed9ea4a8bf",
+  "name": "Invisible Cylinder",
+  "category": "utils",
+  "tags": [
+    "invisible",
+    "wall",
+    "cylinder",
+    "column",
+    "pillar",
+    "collider"
+  ],
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/invisible_cylinder.glb",
+      "visibleMeshesCollisionMask": 2,
+      "invisibleMeshesCollisionMask": 0
+    },
+    "core::VisibilityComponent": {
+      "visible": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "a72de884-e275-490d-b1bb-7f7eaca4777f",
+  "name": "Invisible Ramp",
+  "category": "utils",
+  "tags": [
+    "invisible",
+    "wall",
+    "ramp",
+    "collider"
+  ],
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/invisible_ramp.glb",
+      "visibleMeshesCollisionMask": 2,
+      "invisibleMeshesCollisionMask": 0
+    },
+    "core::VisibilityComponent": {
+      "visible": false
+    }
+  }
+}
