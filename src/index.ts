@@ -8,7 +8,7 @@ import {
   VisibilityComponent,
   GltfContainer,
   Material,
-  VideoPlayer
+  VideoPlayer,
 } from '@dcl/sdk/ecs'
 import { initAssetPacks } from './scene-entrypoint'
 
@@ -20,7 +20,7 @@ initAssetPacks(engine, pointerEventsSystem, {
   VisibilityComponent,
   GltfContainer,
   Material,
-  VideoPlayer
+  VideoPlayer,
 })
 
 export function main() {

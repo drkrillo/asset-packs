@@ -1,0 +1,14 @@
+{
+  "id": "6f5c4b28-f27c-4d30-836e-c6fd0b687727",
+  "name": "Text",
+  "category": "utils",
+  "tags": [
+    "text"
+  ],
+  "components": {
+    "core::TextShape": {
+      "text": "Text",
+      "font": 2
+    }
+  }
+}
