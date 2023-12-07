@@ -1,0 +1,45 @@
+{
+  "id": "6f5c4b28-f27c-4d30-836e-c6fd0b687727",
+  "name": "Teleport",
+  "category": "utils",
+  "tags": [
+    "teleport"
+  ],
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/teleport.glb"
+    },
+    "core::Animator": {
+      "states": [
+        {
+          "clip": "ArmatureAction",
+          "playing": true,
+          "loop": true
+        }
+      ]
+    },
+    "asset-packs::Actions": {
+      "id": "{self}",
+      "value": [
+        {
+          "name": "Teleport",
+          "type": "teleport_player",
+          "jsonPayload": "{ \"x\": 0, \"y\": 0 }"
+        }
+      ]
+    },
+    "asset-packs::Triggers": {
+      "value": [
+        {
+          "type": "on_click",
+          "actions": [
+            {
+              "id": "{self:asset-packs::Actions}",
+              "name": "Teleport"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
