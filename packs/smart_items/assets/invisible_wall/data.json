@@ -1,0 +1,20 @@
+{
+  "id": "6ff6b3aa-083a-4e8c-bdd8-b4d64e1f2db1",
+  "name": "Invisible Wall",
+  "category": "utils",
+  "tags": [
+    "invisible",
+    "wall",
+    "collider"
+  ],
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/invisible_box.glb",
+      "visibleMeshesCollisionMask": 2,
+      "invisibleMeshesCollisionMask": 0
+    },
+    "core::VisibilityComponent": {
+      "visible": false
+    }
+  }
+}
