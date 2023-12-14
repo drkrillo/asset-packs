@@ -41,7 +41,7 @@ export function getActionSchema<T = unknown>(engine: IEngine, type: string) {
     ComponentName.ACTION_TYPES,
     engine,
   )
-  const actionTypes = ActionTypes.getOrCreateMutable(engine.RootEntity)
+  const actionTypes = ActionTypes.get(engine.RootEntity)
   const actionType = actionTypes.value.find(($) => $.type === type)
   const jsonSchema: JsonSchemaExtended = actionType
     ? JSON.parse(actionType.jsonSchema)
@@ -54,7 +54,7 @@ export function getActionTypes(engine: IEngine) {
     ComponentName.ACTION_TYPES,
     engine,
   )
-  const actionTypes = ActionTypes.getOrCreateMutable(engine.RootEntity)
+  const actionTypes = ActionTypes.get(engine.RootEntity)
   return actionTypes.value.map(($) => $.type)
 }
 
