@@ -41,5 +41,7 @@
         }
       ]
     }
+    ,
+    "core-schema::SyncComponents": { "value": ["core::Animator", "core::AudioSource"] }
   }
 }

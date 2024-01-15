@@ -9,5 +9,6 @@
     "core::NftShape": {
       "urn": ""
     }
-  }
+  },
+  "core-schema::SyncComponents": { "value": ["core::NftShape", "core::VisibilityComponent"] }
 }

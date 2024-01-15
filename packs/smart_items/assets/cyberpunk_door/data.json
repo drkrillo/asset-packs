@@ -131,6 +131,7 @@
         "Closed"
       ],
       "defaultValue": "Closed"
-    }
+    },
+    "core-schema::SyncComponents": { "value": ["core::Animator", "core::AudioSource", "asset-packs::States"] }
   }
 }

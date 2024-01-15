@@ -19,6 +19,7 @@
     },
     "core::VisibilityComponent": {
       "visible": false
-    }
+    },
+    "core-schema::SyncComponents": { "value": ["core::GltfContainer"] }
   }
 }
