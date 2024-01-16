@@ -21,6 +21,6 @@
     "core::VisibilityComponent": {
       "visible": false
     },
-    "core-schema::SyncComponents": { "value": ["core::GltfContainer"] }
+    "core-schema::Sync-Components": { "value": ["core::GltfContainer"] }
   }
 }

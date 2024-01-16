@@ -18,6 +18,6 @@
         }
       ]
     },
-    "core-schema::SyncComponents": { "value": ["core::PointerEvents"] }
+    "core-schema::Sync-Components": { "value": ["core::PointerEvents"] }
   }
 }

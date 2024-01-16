@@ -146,6 +146,6 @@
       ],
       "defaultValue": "Stopped"
     },
-    "core-schema::SyncComponents": { "value": ["core::VideoPlayer"] }
+    "core-schema::Sync-Components": { "value": ["core::VideoPlayer"] }
   }
 }

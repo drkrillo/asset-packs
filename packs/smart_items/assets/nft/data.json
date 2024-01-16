@@ -10,5 +10,5 @@
       "urn": ""
     }
   },
-  "core-schema::SyncComponents": { "value": ["core::NftShape", "core::VisibilityComponent"] }
+  "core-schema::Sync-Components": { "value": ["core::NftShape", "core::VisibilityComponent"] }
 }
