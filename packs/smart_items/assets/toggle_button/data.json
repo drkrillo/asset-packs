@@ -117,6 +117,7 @@
       "id": "{self}",
       "value": ["Activated", "Deactivated"],
       "defaultValue": "Deactivated"
-    }
+    },
+    "core-schema::Sync-Components": { "value": ["core::Animator", "core::AudioSource", "asset-packs::States"] }
   }
 }

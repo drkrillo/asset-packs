@@ -17,6 +17,7 @@
           "actions": []
         }
       ]
-    }
+    },
+    "core-schema::Sync-Components": { "value": ["core::PointerEvents"] }
   }
 }

@@ -10,5 +10,7 @@
       "text": "Text",
       "font": 2
     }
+    ,
+  "core-schema::Sync-Components": { "value": ["core::TextShape", "core::VisibilityComponent"] }
   }
 }
