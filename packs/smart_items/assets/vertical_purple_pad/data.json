@@ -116,6 +116,6 @@
       "value": ["GoingToEnd", "GoingToStart"],
       "defaultValue": "GoingToEnd"
     },
-    "core-schema::SyncComponents": { "value": ["core::Tween"] }
+    "core-schema::Sync-Components": { "value": ["core::Tween"] }
   }
 }
