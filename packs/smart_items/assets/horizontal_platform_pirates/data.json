@@ -115,6 +115,7 @@
       "id": "{self}",
       "value": ["GoingToEnd", "GoingToStart"],
       "defaultValue": "GoingToEnd"
-    }
+    },
+    "core-schema::Sync-Components": { "value": ["core::Tween"] }
   }
 }
