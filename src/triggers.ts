@@ -5,7 +5,6 @@ import {
   InputAction,
   LastWriteWinElementSetComponentDefinition,
   DeepReadonlyObject,
-  Transform,
 } from '@dcl/sdk/ecs'
 import { triggers, LAYER_1, NO_LAYERS } from '@dcl-sdk/utils'
 import {
@@ -19,6 +18,7 @@ import {
   TriggerType,
   getConditionTypesByComponentName,
   getComponents,
+  EngineComponents,
 } from './definitions'
 import { getCurrentValue } from './states'
 import { getActionEvents, getTriggerEvents } from './events'
@@ -40,8 +40,10 @@ export function initTriggers(entity: Entity) {
 
 export function createTriggersSystem(
   engine: IEngine,
+  components: EngineComponents,
   pointerEventsSystem: PointerEventsSystem,
 ) {
+  const { Transform } = components
   const { Actions, States, Counter, Triggers } = getComponents(engine)
 
   // save reference to the init function
@@ -261,7 +263,7 @@ export function createTriggersSystem(
   }
 
   function initOnPlayerTriggerArea(entity: Entity) {
-    const { scale } = Transform.get(entity)
+    const transform = Transform.getOrNull(entity)
     triggers.addTrigger(
       entity,
       NO_LAYERS,
@@ -269,7 +271,7 @@ export function createTriggersSystem(
       [
         {
           type: 'box',
-          scale,
+          scale: transform ? transform.scale : { x: 1, y: 1, z: 1 },
         },
       ],
       () => {
