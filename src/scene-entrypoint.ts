@@ -19,7 +19,9 @@ export function initAssetPacks(
   try {
     createComponents(engine)
     engine.addSystem(createActionsSystem(engine, components))
-    engine.addSystem(createTriggersSystem(engine, pointerEventsSystem))
+    engine.addSystem(
+      createTriggersSystem(engine, components, pointerEventsSystem),
+    )
     engine.addSystem(createTimerSystem())
     initComponents(engine, components)
   } catch (error) {
