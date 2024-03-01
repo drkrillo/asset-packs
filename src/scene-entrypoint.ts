@@ -1,29 +1,31 @@
-import { IEngine, PointerEventsSystem } from '@dcl/sdk/ecs'
+import { IEngine } from '@dcl/sdk/ecs'
 import {
-  EngineComponents,
   createComponents,
   initComponents,
 } from './definitions'
 import { createActionsSystem } from './actions'
 import { createTriggersSystem } from './triggers'
 import { createTimerSystem } from './timer'
+import { getExplorerComponents } from './components'
 
-export function initAssetPacks(
-  _engine: any,
-  _pointerEventsSystem: any,
-  _components: Record<keyof EngineComponents, any>,
-) {
+/**
+ * the _args param is there to mantain backwards compatibility with all versions.
+ * Before it was initAssetPacks(engine, pointerEventsSystem, components)
+ */
+export function initAssetPacks(_engine: unknown, ..._args: any[]) {
   const engine = _engine as IEngine
-  const pointerEventsSystem = _pointerEventsSystem as PointerEventsSystem
-  const components = _components as EngineComponents
   try {
+    const components = getExplorerComponents(engine)
+    // create editor components
     createComponents(engine)
-    engine.addSystem(createActionsSystem(engine, components))
+
+    // create systems that some components needs (VideoPlayer, etc)
+    initComponents(engine)
+    engine.addSystem(createActionsSystem(engine))
     engine.addSystem(
-      createTriggersSystem(engine, components, pointerEventsSystem),
+      createTriggersSystem(engine, components),
     )
     engine.addSystem(createTimerSystem())
-    initComponents(engine, components)
   } catch (error) {
     console.error(`Error initializing Asset Packs: ${(error as Error).message}`)
   }
