@@ -147,6 +147,53 @@ export const ActionSchemas = {
   [ActionType.HIDE_IMAGE]: Schemas.Map({
     imageEntity: Schemas.Optional(Schemas.Int),
   }),
+  [ActionType.TRIGGER_PROXIMITY]: Schemas.Map({
+    radius: Schemas.Float,
+  }),
+  [ActionType.MOVE_PLAYER_HERE]: Schemas.Map({}),
+  [ActionType.PLACE_ON_PLAYER]: Schemas.Map({}),
+  [ActionType.ROTATE_AS_PLAYER]: Schemas.Map({}),
+  [ActionType.PLACE_ON_CAMERA]: Schemas.Map({}),
+  [ActionType.ROTATE_AS_CAMERA]: Schemas.Map({}),
+  [ActionType.SET_POSITION]: Schemas.Map({
+    x: Schemas.Float,
+    y: Schemas.Float,
+    z: Schemas.Float,
+  }),
+  [ActionType.SET_ROTATION]: Schemas.Map({
+    x: Schemas.Float,
+    y: Schemas.Float,
+    z: Schemas.Float,
+  }),
+  [ActionType.SET_SCALE]: Schemas.Map({
+    x: Schemas.Float,
+    y: Schemas.Float,
+    z: Schemas.Float,
+  }),
+  [ActionType.FOLLOW_PLAYER]: Schemas.Map({
+    speed: Schemas.Float,
+    x: Schemas.Boolean,
+    y: Schemas.Boolean,
+    z: Schemas.Boolean,
+    minDistance: Schemas.Float,
+  }),
+  [ActionType.STOP_FOLLOWING_PLAYER]: Schemas.Map({}),
+  [ActionType.RANDOM]: Schemas.Map({
+    actions: Schemas.Array(
+      Schemas.Map({
+        id: Schemas.Int,
+        name: Schemas.String,
+      }),
+    ),
+  }),
+  [ActionType.BATCH]: Schemas.Map({
+    actions: Schemas.Array(
+      Schemas.Map({
+        id: Schemas.Int,
+        name: Schemas.String,
+      }),
+    ),
+  }),
 }
 
 export type ActionPayload<T extends ActionType = any> =
@@ -351,6 +398,12 @@ export function getConditionTypesByComponentName(componentName: ComponentName) {
         TriggerConditionType.WHEN_COUNTER_EQUALS,
         TriggerConditionType.WHEN_COUNTER_IS_GREATER_THAN,
         TriggerConditionType.WHEN_COUNTER_IS_LESS_THAN,
+      ]
+    }
+    case ComponentName.ACTIONS: {
+      return [
+        TriggerConditionType.WHEN_DISTANCE_TO_PLAYER_LESS_THAN,
+        TriggerConditionType.WHEN_DISTANCE_TO_PLAYER_GREATER_THAN,
       ]
     }
     default: {

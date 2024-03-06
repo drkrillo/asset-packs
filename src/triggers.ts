@@ -8,7 +8,14 @@ import {
 } from '@dcl/sdk/ecs'
 import { createPointerEventsSystem } from '@dcl/ecs/dist/systems/events'
 import { createInputSystem } from '@dcl/ecs/dist/engine/input'
-import { triggers, LAYER_1, NO_LAYERS } from '@dcl-sdk/utils'
+import {
+  triggers,
+  LAYER_1,
+  NO_LAYERS,
+  getPlayerPosition,
+  getWorldPosition,
+} from '@dcl-sdk/utils'
+
 import {
   Action,
   ComponentName,
@@ -25,9 +32,14 @@ import {
 import { getCurrentValue } from './states'
 import { getActionEvents, getTriggerEvents } from './events'
 import { getPayload } from './action-types'
+import { globalInputActions } from './input-actions'
+import { tickSet } from './timer'
+import { Vector3 } from '@dcl/sdk/math'
 
 const initedEntities = new Set<Entity>()
 const actionQueue: { entity: Entity; action: Action }[] = []
+
+export const proximityTargets = new Set<Entity>()
 
 let internalInitTriggers: ((entity: Entity) => void) | null = null
 
@@ -40,9 +52,11 @@ export function initTriggers(entity: Entity) {
   )
 }
 
-export function createTriggersSystem(engine: IEngine, components: EngineComponents) {
-  const inputSystem = createInputSystem(engine)
-  const pointerEventsSystem = createPointerEventsSystem(engine, inputSystem)
+export function createTriggersSystem(
+  engine: IEngine,
+  components: EngineComponents,
+  pointerEventsSystem: PointerEventsSystem,
+) {
   const { Transform } = components
   const { Actions, States, Counter, Triggers } = getComponents(engine)
 
@@ -85,6 +99,26 @@ export function createTriggersSystem(engine: IEngine, components: EngineComponen
         case TriggerType.ON_PLAYER_ENTERS_AREA:
         case TriggerType.ON_PLAYER_LEAVES_AREA: {
           initOnPlayerTriggerArea(entity)
+          break
+        }
+        case TriggerType.ON_PROXIMITY: {
+          initOnProximity(entity)
+          break
+        }
+        case TriggerType.ON_GLOBAL_CLICK: {
+          initOnGlobalCick(entity)
+          break
+        }
+        case TriggerType.ON_GLOBAL_PRIMARY: {
+          initOnGlobalPrimary(entity)
+          break
+        }
+        case TriggerType.ON_GLOBAL_SECONDARY: {
+          initOnGlobalSecondary(entity)
+          break
+        }
+        case TriggerType.ON_TICK: {
+          initOnTick(entity)
           break
         }
       }
@@ -195,6 +229,24 @@ export function createTriggersSystem(engine: IEngine, components: EngineComponen
             }
             break
           }
+          case TriggerConditionType.WHEN_DISTANCE_TO_PLAYER_LESS_THAN: {
+            const position = getWorldPosition(entity)
+
+            const numeric = Number(condition.value)
+            if (!isNaN(numeric)) {
+              return Vector3.distance(position, getPlayerPosition()) < numeric
+            }
+
+            break
+          }
+          case TriggerConditionType.WHEN_DISTANCE_TO_PLAYER_GREATER_THAN: {
+            const position = getWorldPosition(entity)
+            const numeric = Number(condition.value)
+            if (!isNaN(numeric)) {
+              return Vector3.distance(position, getPlayerPosition()) > numeric
+            }
+            break
+          }
         }
       } catch (error) {
         console.error('Error in condition', condition)
@@ -283,5 +335,34 @@ export function createTriggersSystem(engine: IEngine, components: EngineComponen
         triggerEvents.emit(TriggerType.ON_PLAYER_LEAVES_AREA)
       },
     )
+  }
+
+  function initOnProximity(entity: Entity) {
+    proximityTargets.add(entity)
+  }
+
+  function initOnGlobalCick(entity: Entity) {
+    globalInputActions.on(InputAction.IA_POINTER, () => {
+      const triggerEvents = getTriggerEvents(entity)
+      triggerEvents.emit(TriggerType.ON_GLOBAL_CLICK)
+    })
+  }
+
+  function initOnGlobalPrimary(entity: Entity) {
+    globalInputActions.on(InputAction.IA_PRIMARY, () => {
+      const triggerEvents = getTriggerEvents(entity)
+      triggerEvents.emit(TriggerType.ON_GLOBAL_PRIMARY)
+    })
+  }
+
+  function initOnGlobalSecondary(entity: Entity) {
+    globalInputActions.on(InputAction.IA_SECONDARY, () => {
+      const triggerEvents = getTriggerEvents(entity)
+      triggerEvents.emit(TriggerType.ON_GLOBAL_SECONDARY)
+    })
+  }
+
+  function initOnTick(entity: Entity) {
+    tickSet.add(entity)
   }
 }
