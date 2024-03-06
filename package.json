@@ -49,7 +49,7 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
-    "@dcl-sdk/utils": "^1.2.6",
+    "@dcl-sdk/utils": "^1.2.7",
     "@dcl/js-runtime": "7.4.7",
     "@dcl/sdk": "^7.4.7",
     "mitt": "^3.0.1"
