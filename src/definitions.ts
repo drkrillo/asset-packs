@@ -293,12 +293,17 @@ export function createComponents(engine: IEngine) {
     currentValue: Schemas.Optional(Schemas.String),
   })
 
+  const CounterBar = engine.defineComponent(ComponentName.COUNTER_BAR, {
+    color: Schemas.Color3,
+  })
+
   return {
     ActionTypes,
     Actions,
     Counter,
     Triggers,
     States,
+    CounterBar,
   }
 }
 
@@ -425,6 +430,11 @@ export type Action = Actions['value'][0]
 
 export type CounterComponent = Components['Counter']
 export type Counter = ReturnType<CounterComponent['schema']['deserialize']>
+
+export type CounterBarComponent = Components['CounterBar']
+export type CounterBar = ReturnType<
+  CounterBarComponent['schema']['deserialize']
+>
 
 export type TriggersComponent = Components['Triggers']
 export type Triggers = ReturnType<TriggersComponent['schema']['deserialize']>
