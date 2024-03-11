@@ -449,7 +449,6 @@ export function createActionsSystem(engine: IEngine) {
     if (payload) {
       const triggerEvents = getTriggerEvents(entity)
       const onTweenEnd = () => {
-        console.log('onTweenEnd')
         triggerEvents.emit(TriggerType.ON_TWEEN_END)
       }
 
@@ -490,10 +489,7 @@ export function createActionsSystem(engine: IEngine) {
       endPosition,
       duration,
       interpolationType,
-      () => {
-        console.log('colbac')
-        onTweenEnd()
-      },
+      () => onTweenEnd(),
     )
   }
 
@@ -876,17 +872,18 @@ export function createActionsSystem(engine: IEngine) {
     const { position } = payload
 
     // clone entity
-    const cloned = clone(entity, engine, Triggers)
+    const { cloned, entities } = clone(entity, engine, Transform, Triggers)
+    for (const cloned of entities.values()) {
+      // initialize
+      initActions(cloned)
+      initTriggers(cloned)
 
-    // initialize
-    initActions(cloned)
-    initTriggers(cloned)
+      const triggerEvents = getTriggerEvents(cloned)
+      triggerEvents.emit(TriggerType.ON_CLONE)
+    }
 
     const transform = Transform.getOrCreateMutable(cloned)
     transform.position = position
-
-    const triggerEvents = getTriggerEvents(cloned)
-    triggerEvents.emit(TriggerType.ON_CLONE)
   }
 
   // REMOVE_ENTITY

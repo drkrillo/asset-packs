@@ -1,4 +1,9 @@
-import { Entity, IEngine } from '@dcl/sdk/ecs'
+import {
+  Entity,
+  IEngine,
+  TransformComponentExtended,
+  getComponentEntityTree,
+} from '@dcl/sdk/ecs'
 import { getNextId, requiresId } from './id'
 import { isLastWriteWinComponent } from './lww'
 import { TriggersComponent } from './definitions'
@@ -6,21 +11,74 @@ import { TriggersComponent } from './definitions'
 export function clone(
   entity: Entity,
   engine: IEngine,
+  Transform: TransformComponentExtended,
   Triggers: TriggersComponent,
+) {
+  const ids = new Map<number, number>()
+  const entities = new Map<Entity, Entity>()
+  const tree = getComponentEntityTree(engine, entity, Transform)
+  for (const original of tree) {
+    cloneEntity(original, engine, ids, entities)
+  }
+
+  const clones = Array.from(entities.values()).reverse()
+
+  for (const cloned of clones) {
+    // if the entity has triggers, remap the old ids in the actions and conditions to the new ones
+
+    if (Triggers.has(cloned)) {
+      const triggers = Triggers.getMutable(cloned)
+      for (const trigger of triggers.value) {
+        for (const action of trigger.actions) {
+          if (action.id) {
+            const newId = ids.get(action.id)
+            if (newId) {
+              action.id = newId
+            }
+          }
+        }
+        if (trigger.conditions) {
+          for (const condition of trigger.conditions) {
+            if (condition.id) {
+              const newId = ids.get(condition.id)
+              if (newId) {
+                condition.id = newId
+              }
+            }
+          }
+        }
+      }
+    }
+
+    const transform = Transform.getMutableOrNull(cloned)
+    if (transform && transform.parent) {
+      const newParent = entities.get(transform.parent)
+      if (newParent) {
+        transform.parent = newParent
+      }
+    }
+  }
+
+  const cloned = clones[0]
+
+  return { ids, entities, cloned }
+}
+
+export function cloneEntity(
+  entity: Entity,
+  engine: IEngine,
+  ids: Map<number, number>,
+  entities: Map<Entity, Entity>,
 ) {
   const cloned = engine.addEntity()
 
-  // map ids
-  const newIds = new Map<number, number>()
-  debugger
   for (const component of engine.componentsIter()) {
     if (component.has(entity)) {
       let newValue = JSON.parse(JSON.stringify(component.get(entity)))
       if (requiresId(component)) {
-        component
         const oldId = newValue.id
         const newId = getNextId(engine)
-        newIds.set(oldId, newId)
+        ids.set(oldId, newId)
         newValue = {
           ...newValue,
           id: newId,
@@ -32,30 +90,7 @@ export function clone(
     }
   }
 
-  // if the entity has triggers, remap the old ids in the actions and conditions to the new ones
-  if (Triggers.has(cloned)) {
-    const triggers = Triggers.getMutable(cloned)
-    for (const trigger of triggers.value) {
-      for (const action of trigger.actions) {
-        if (action.id) {
-          const newId = newIds.get(action.id)
-          if (newId) {
-            action.id = newId
-          }
-        }
-      }
-      if (trigger.conditions) {
-        for (const condition of trigger.conditions) {
-          if (condition.id) {
-            const newId = newIds.get(condition.id)
-            if (newId) {
-              condition.id = newId
-            }
-          }
-        }
-      }
-    }
-  }
+  entities.set(entity, cloned)
 
   return cloned
 }
