@@ -17,8 +17,28 @@ export function clone(
   const ids = new Map<number, number>()
   const entities = new Map<Entity, Entity>()
   const tree = getComponentEntityTree(engine, entity, Transform)
+
   for (const original of tree) {
-    cloneEntity(original, engine, ids, entities)
+    const cloned = engine.addEntity()
+
+    for (const component of engine.componentsIter()) {
+      if (component.has(original)) {
+        let newValue = JSON.parse(JSON.stringify(component.get(original)))
+        if (requiresId(component)) {
+          const oldId = newValue.id
+          const newId = getNextId(engine)
+          ids.set(oldId, newId)
+          newValue = {
+            ...newValue,
+            id: newId,
+          }
+        }
+        if (isLastWriteWinComponent(component)) {
+          component.createOrReplace(cloned, newValue)
+        }
+      }
+    }
+    entities.set(original, cloned)
   }
 
   const clones = Array.from(entities.values()).reverse()
@@ -62,35 +82,4 @@ export function clone(
   const cloned = clones[0]
 
   return { ids, entities, cloned }
-}
-
-export function cloneEntity(
-  entity: Entity,
-  engine: IEngine,
-  ids: Map<number, number>,
-  entities: Map<Entity, Entity>,
-) {
-  const cloned = engine.addEntity()
-
-  for (const component of engine.componentsIter()) {
-    if (component.has(entity)) {
-      let newValue = JSON.parse(JSON.stringify(component.get(entity)))
-      if (requiresId(component)) {
-        const oldId = newValue.id
-        const newId = getNextId(engine)
-        ids.set(oldId, newId)
-        newValue = {
-          ...newValue,
-          id: newId,
-        }
-      }
-      if (isLastWriteWinComponent(component)) {
-        component.createOrReplace(cloned, newValue)
-      }
-    }
-  }
-
-  entities.set(entity, cloned)
-
-  return cloned
 }
