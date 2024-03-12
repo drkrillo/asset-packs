@@ -6,8 +6,6 @@ import {
   LastWriteWinElementSetComponentDefinition,
   DeepReadonlyObject,
 } from '@dcl/sdk/ecs'
-import { createPointerEventsSystem } from '@dcl/ecs/dist/systems/events'
-import { createInputSystem } from '@dcl/ecs/dist/engine/input'
 import {
   triggers,
   LAYER_1,

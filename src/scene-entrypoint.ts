@@ -3,13 +3,14 @@ import {
   createInputSystem,
   createPointerEventsSystem,
 } from '@dcl/sdk/ecs'
-import { createComponents, initComponents } from './definitions'
+import { Components, createComponents, initComponents } from './definitions'
 import { createActionsSystem } from './actions'
 import { createTriggersSystem } from './triggers'
 import { createTimerSystem } from './timer'
-import { getExplorerComponents } from './components'
+import { getExplorerComponents as getEngineComponents } from './components'
 import { createTransformSystem } from './transform'
 import { createInputActionSystem } from './input-actions'
+import { createCounterBarSystem } from './counter-bar'
 
 let initialized: boolean = false
 /**
@@ -24,8 +25,10 @@ export function initAssetPacks(_engine: unknown, ..._args: any[]) {
 
   const engine = _engine as IEngine
   try {
-    const components = getExplorerComponents(engine)
-    // create editor components
+    // get engine components
+    const components = getEngineComponents(engine)
+
+    // create asset packs components
     createComponents(engine)
 
     // create core systems
@@ -40,6 +43,7 @@ export function initAssetPacks(_engine: unknown, ..._args: any[]) {
     )
     engine.addSystem(createTimerSystem())
     engine.addSystem(createInputActionSystem(inputSystem))
+    engine.addSystem(createCounterBarSystem(engine, components))
     engine.addSystem(createTransformSystem(components))
   } catch (error) {
     console.error(`Error initializing Asset Packs: ${(error as Error).message}`)

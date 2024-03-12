@@ -16,7 +16,9 @@ import {
   PBGltfContainer,
   PBUiTransform,
   PBUiText,
-  PBUiBackground
+  PBUiBackground,
+  MeshRendererComponentDefinitionExtended,
+  PBBillboard,
 } from '@dcl/sdk/ecs'
 import { addActionType } from './action-types'
 import {
@@ -222,6 +224,7 @@ export function getComponents(engine: IEngine) {
     States: getComponent<States>(ComponentName.STATES, engine),
     Counter: getComponent<Counter>(ComponentName.COUNTER, engine),
     Triggers: getComponent<Triggers>(ComponentName.TRIGGERS, engine),
+    CounterBar: getComponent<CounterBar>(ComponentName.COUNTER_BAR, engine),
   }
 }
 
@@ -295,6 +298,7 @@ export function createComponents(engine: IEngine) {
 
   const CounterBar = engine.defineComponent(ComponentName.COUNTER_BAR, {
     color: Schemas.Color3,
+    maxValue: Schemas.Float,
   })
 
   return {
@@ -315,13 +319,13 @@ export type EngineComponents = {
   VisibilityComponent: LastWriteWinElementSetComponentDefinition<PBVisibilityComponent>
   GltfContainer: LastWriteWinElementSetComponentDefinition<PBGltfContainer>
   Material: MaterialComponentDefinitionExtended
+  MeshRenderer: MeshRendererComponentDefinitionExtended
   VideoPlayer: LastWriteWinElementSetComponentDefinition<PBVideoPlayer>
   UiTransform: LastWriteWinElementSetComponentDefinition<PBUiTransform>
   UiText: LastWriteWinElementSetComponentDefinition<PBUiText>
   UiBackground: LastWriteWinElementSetComponentDefinition<PBUiBackground>
+  Billboard: LastWriteWinElementSetComponentDefinition<PBBillboard>
 }
-
-export type AssetPackComponents = ReturnType<typeof getComponents>
 
 export function initComponents(engine: IEngine) {
   // Add actions from this package
