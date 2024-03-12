@@ -12,6 +12,7 @@ import {
   pointerEventsSystem,
   InputAction,
   MeshCollider,
+  getComponentEntityTree,
 } from '@dcl/sdk/ecs'
 import { Quaternion, Vector3 } from '@dcl/sdk/math'
 import { tweens } from '@dcl-sdk/utils/dist/tween'
@@ -894,7 +895,11 @@ export function createActionsSystem(engine: IEngine) {
     // Remove all timers before remove the entity
     stopAllTimeouts(entity)
     stopAllIntervals(entity)
-    engine.removeEntity(entity)
+
+    const tree = getComponentEntityTree(engine, entity, Transform)
+    for (const entityToRemove of tree) {
+      engine.removeEntity(entityToRemove)
+    }
   }
 
   function getUiStack(align: ScreenAlignMode) {
