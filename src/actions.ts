@@ -1001,13 +1001,20 @@ export function createActionsSystem(engine: IEngine) {
     payload: ActionPayload<ActionType.TRIGGER_PROXIMITY>,
   ) {
     const { radius } = payload
+    console.log('entity', entity)
     const entityPosition = getWorldPosition(entity)
+    console.log('entityPosition', entityPosition)
     for (const target of proximityTargets) {
+      console.log('target', target)
       const targetPosition = getWorldPosition(target)
+      console.log('targetPosition', targetPosition)
       const distance = Vector3.distance(entityPosition, targetPosition)
+      console.log('distance', distance)
+      console.log('radius', radius)
       if (distance <= radius) {
         const triggerEvents = getTriggerEvents(target)
         triggerEvents.emit(TriggerType.ON_PROXIMITY)
+        console.log('emitted')
       }
     }
   }

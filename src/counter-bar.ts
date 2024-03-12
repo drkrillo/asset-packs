@@ -49,6 +49,15 @@ export function createCounterBarSystem(
           rotation: Quaternion.fromEulerDegrees(0, 0, 90),
           parent: container,
         })
+
+        const entityTransform = Transform.getMutableOrNull(entity)
+        if (entityTransform) {
+          if (entityTransform.parent === engine.PlayerEntity) {
+            entityTransform.position = { x: 0, y: 1.3, z: 0 }
+          } else if (entityTransform.parent === engine.CameraEntity) {
+            entityTransform.position = { x: 0, y: 0.5, z: 1 }
+          }
+        }
       }
 
       const currentValue = Math.max(Math.min(value / 10, 1), 0) / (1 / SCALE) // 0.75
