@@ -62,8 +62,12 @@ export const ActionSchemas = {
     relative: Schemas.Boolean,
   }),
   [ActionType.SET_COUNTER]: Schemas.Map({ counter: Schemas.Int }),
-  [ActionType.INCREMENT_COUNTER]: Schemas.Map({}),
-  [ActionType.DECREASE_COUNTER]: Schemas.Map({}),
+  [ActionType.INCREMENT_COUNTER]: Schemas.Map({
+    amount: Schemas.Optional(Schemas.Int),
+  }),
+  [ActionType.DECREASE_COUNTER]: Schemas.Map({
+    amount: Schemas.Optional(Schemas.Int),
+  }),
   [ActionType.PLAY_SOUND]: Schemas.Map({
     src: Schemas.String,
     loop: Schemas.Optional(Schemas.Boolean),

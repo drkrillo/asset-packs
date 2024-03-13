@@ -560,12 +560,13 @@ export function createActionsSystem(engine: IEngine) {
   // INCREMENT_COUNTER
   function handleIncrementCounter(
     entity: Entity,
-    _payload: ActionPayload<ActionType.INCREMENT_COUNTER>,
+    payload: ActionPayload<ActionType.INCREMENT_COUNTER>,
   ) {
     const counter = Counter.getMutableOrNull(entity)
+    const amount = payload.amount ?? 1
 
     if (counter) {
-      counter.value += 1
+      counter.value += amount
 
       const triggerEvents = getTriggerEvents(entity)
       triggerEvents.emit(TriggerType.ON_COUNTER_CHANGE)
@@ -575,12 +576,13 @@ export function createActionsSystem(engine: IEngine) {
   // DECREASE_COUNTER
   function handleDecreaseCounter(
     entity: Entity,
-    _payload: ActionPayload<ActionType.INCREMENT_COUNTER>,
+    payload: ActionPayload<ActionType.INCREMENT_COUNTER>,
   ) {
     const counter = Counter.getMutableOrNull(entity)
+    const amount = payload.amount ?? 1
 
     if (counter) {
-      counter.value -= 1
+      counter.value -= amount
 
       const triggerEvents = getTriggerEvents(entity)
       triggerEvents.emit(TriggerType.ON_COUNTER_CHANGE)
