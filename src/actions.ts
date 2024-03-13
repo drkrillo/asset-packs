@@ -372,6 +372,14 @@ export function createActionsSystem(engine: IEngine) {
             handleSetScale(entity, getPayload<ActionType.SET_SCALE>(action))
             break
           }
+          case ActionType.RANDOM: {
+            handleRandom(entity, getPayload<ActionType.RANDOM>(action))
+            break
+          }
+          case ActionType.BATCH: {
+            handleBatch(entity, getPayload<ActionType.BATCH>(action))
+            break
+          }
           default:
             break
         }
@@ -1130,5 +1138,32 @@ export function createActionsSystem(engine: IEngine) {
     _payload: ActionPayload<ActionType.STOP_FOLLOWING_PLAYER>,
   ) {
     followMap.delete(entity)
+  }
+
+  function handleRandom(
+    entity: Entity,
+    payload: ActionPayload<ActionType.RANDOM>,
+  ) {
+    const { actions } = payload
+    const actionEvents = getActionEvents(entity)
+    const actionName = actions[Math.floor(Math.random() * actions.length)]
+    const action = findActionByName(entity, actionName)
+    if (action) {
+      actionEvents.emit(action.name, getPayload(action))
+    }
+  }
+
+  function handleBatch(
+    entity: Entity,
+    payload: ActionPayload<ActionType.BATCH>,
+  ) {
+    const { actions } = payload
+    const actionEvents = getActionEvents(entity)
+    for (const actionName of actions) {
+      const action = findActionByName(entity, actionName)
+      if (action) {
+        actionEvents.emit(action.name, getPayload(action))
+      }
+    }
   }
 }

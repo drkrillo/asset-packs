@@ -186,20 +186,10 @@ export const ActionSchemas = {
   }),
   [ActionType.STOP_FOLLOWING_PLAYER]: Schemas.Map({}),
   [ActionType.RANDOM]: Schemas.Map({
-    actions: Schemas.Array(
-      Schemas.Map({
-        id: Schemas.Int,
-        name: Schemas.String,
-      }),
-    ),
+    actions: Schemas.Array(Schemas.String),
   }),
   [ActionType.BATCH]: Schemas.Map({
-    actions: Schemas.Array(
-      Schemas.Map({
-        id: Schemas.Int,
-        name: Schemas.String,
-      }),
-    ),
+    actions: Schemas.Array(Schemas.String),
   }),
 }
 
