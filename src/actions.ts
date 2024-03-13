@@ -53,7 +53,7 @@ import {
 } from './ui'
 import { getExplorerComponents } from './components'
 import { initTriggers, proximityTargets } from './triggers'
-import { getWorldPosition } from '@dcl-sdk/utils'
+import { getPlayerPosition, getWorldPosition } from '@dcl-sdk/utils'
 import { followMap } from './transform'
 
 const initedEntities = new Set<Entity>()
@@ -1001,20 +1001,15 @@ export function createActionsSystem(engine: IEngine) {
     payload: ActionPayload<ActionType.TRIGGER_PROXIMITY>,
   ) {
     const { radius } = payload
-    console.log('entity', entity)
-    const entityPosition = getWorldPosition(entity)
-    console.log('entityPosition', entityPosition)
+    const entityPosition = AvatarAttach.has(entity)
+      ? getPlayerPosition()
+      : getWorldPosition(entity)
     for (const target of proximityTargets) {
-      console.log('target', target)
       const targetPosition = getWorldPosition(target)
-      console.log('targetPosition', targetPosition)
       const distance = Vector3.distance(entityPosition, targetPosition)
-      console.log('distance', distance)
-      console.log('radius', radius)
       if (distance <= radius) {
         const triggerEvents = getTriggerEvents(target)
         triggerEvents.emit(TriggerType.ON_PROXIMITY)
-        console.log('emitted')
       }
     }
   }

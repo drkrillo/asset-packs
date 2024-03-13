@@ -12,6 +12,7 @@ import {
   Material as defineMaterial,
   MeshRenderer as defineMeshRenderer,
   Billboard as defineBillboard,
+  Name as defineName,
 } from '@dcl/ecs/dist/components'
 import { IEngine } from '@dcl/sdk/ecs'
 import { EngineComponents } from './definitions'
@@ -31,5 +32,6 @@ export function getExplorerComponents(engine: IEngine): EngineComponents {
     Material: defineMaterial(engine),
     MeshRenderer: defineMeshRenderer(engine),
     Billboard: defineBillboard(engine),
+    Name: defineName(engine),
   }
 }
