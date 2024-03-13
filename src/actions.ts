@@ -27,6 +27,7 @@ import { getActiveVideoStreams } from '~system/CommsApi'
 import {
   ActionPayload,
   ActionType,
+  ProximityLayer,
   ScreenAlignMode,
   TriggerType,
   TweenType,
@@ -53,7 +54,11 @@ import {
 } from './ui'
 import { getExplorerComponents } from './components'
 import { initTriggers, proximityTargets } from './triggers'
-import { getPlayerPosition, getWorldPosition } from '@dcl-sdk/utils'
+import {
+  getEntityParent,
+  getPlayerPosition,
+  getWorldPosition,
+} from '@dcl-sdk/utils'
 import { followMap } from './transform'
 
 const initedEntities = new Set<Entity>()
@@ -82,6 +87,7 @@ export function createActionsSystem(engine: IEngine) {
     UiTransform,
     UiText,
     UiBackground,
+    Name,
   } = getExplorerComponents(engine)
   const { Actions, States, Counter, Triggers } = getComponents(engine)
 
@@ -1010,16 +1016,39 @@ export function createActionsSystem(engine: IEngine) {
     entity: Entity,
     payload: ActionPayload<ActionType.TRIGGER_PROXIMITY>,
   ) {
-    const { radius } = payload
+    const { radius, layer, hits } = payload
     const entityPosition = AvatarAttach.has(entity)
       ? getPlayerPosition()
       : getWorldPosition(entity)
+
+    const getRoot = (entity: Entity): Entity => {
+      const parent = getEntityParent(entity)
+      return !parent ? entity : getRoot(parent)
+    }
+
     for (const target of proximityTargets) {
       const targetPosition = getWorldPosition(target)
       const distance = Vector3.distance(entityPosition, targetPosition)
+
+      if (layer) {
+        if (layer === ProximityLayer.PLAYER) {
+          const root = getRoot(target)
+          if (root !== engine.PlayerEntity && root !== engine.CameraEntity) {
+            continue
+          }
+        } else if (layer === ProximityLayer.NON_PLAYER) {
+          const root = getRoot(target)
+          if (root === engine.PlayerEntity || root === engine.CameraEntity) {
+            continue
+          }
+        }
+      }
       if (distance <= radius) {
-        const triggerEvents = getTriggerEvents(target)
-        triggerEvents.emit(TriggerType.ON_PROXIMITY)
+        const total = hits === undefined ? 1 : Math.max(hits, 1)
+        for (let i = 0; i < total; i++) {
+          const triggerEvents = getTriggerEvents(target)
+          triggerEvents.emit(TriggerType.ON_PROXIMITY)
+        }
       }
     }
   }

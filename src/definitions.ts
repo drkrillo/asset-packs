@@ -33,6 +33,7 @@ import {
   AlignMode,
   Font,
   Colliders,
+  ProximityLayer,
 } from './enums'
 import { getExplorerComponents } from './components'
 
@@ -156,6 +157,10 @@ export const ActionSchemas = {
   }),
   [ActionType.TRIGGER_PROXIMITY]: Schemas.Map({
     radius: Schemas.Float,
+    layer: Schemas.Optional(
+      Schemas.EnumString(ProximityLayer, ProximityLayer.ALL),
+    ),
+    hits: Schemas.Optional(Schemas.Int),
   }),
   [ActionType.MOVE_PLAYER_HERE]: Schemas.Map({}),
   [ActionType.PLACE_ON_PLAYER]: Schemas.Map({}),

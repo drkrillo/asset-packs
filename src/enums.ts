@@ -163,3 +163,9 @@ export enum Colliders {
   CL_CUSTOM7 = 16384,
   CL_CUSTOM8 = 32768,
 }
+
+export enum ProximityLayer {
+  ALL = 'all',
+  PLAYER = 'player',
+  NON_PLAYER = 'non_player',
+}
