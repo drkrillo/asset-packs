@@ -17,17 +17,24 @@ export function createCounterBarSystem(
     for (const [
       entity,
       { value },
-      { color, maxValue },
+      { primaryColor, secondaryColor, maxValue },
     ] of engine.getEntitiesWith(Counter, CounterBar)) {
       if (!bars.has(entity)) {
+        const primary = primaryColor
+          ? Color4.fromHexString(primaryColor)
+          : Color4.Green()
+        const seconday = secondaryColor
+          ? Color4.fromHexString(secondaryColor)
+          : Color4.Red()
+
         const container = engine.addEntity()
         Transform.create(container, { parent: entity })
         Billboard.create(container)
 
         const bar = engine.addEntity()
         bars.set(entity, bar)
-        Material.setPbrMaterial(bar, {
-          albedoColor: Color4.Green(),
+        Material.setBasicMaterial(bar, {
+          diffuseColor: primary,
         })
         MeshRenderer.setCylinder(bar)
         Transform.create(bar, {
@@ -39,8 +46,8 @@ export function createCounterBarSystem(
 
         const background = engine.addEntity()
         backgrounds.set(entity, background)
-        Material.setPbrMaterial(background, {
-          albedoColor: Color4.Red(),
+        Material.setBasicMaterial(background, {
+          diffuseColor: seconday,
         })
         MeshRenderer.setCylinder(background)
         Transform.create(background, {
@@ -60,7 +67,14 @@ export function createCounterBarSystem(
         }
       }
 
-      const currentValue = Math.max(Math.min(value / 10, 1), 0) / (1 / SCALE) // 0.75
+      const max = maxValue || 10
+
+      const counter = Counter.getMutable(entity)
+      if (counter.value > max) {
+        counter.value = max
+      }
+      const currentValue =
+        Math.max(Math.min(counter.value / max, 1), 0) / (1 / SCALE) // 0.75
       const bar = bars.get(entity)!
       const background = backgrounds.get(entity)!
       const barTransform = Transform.getMutable(bar)

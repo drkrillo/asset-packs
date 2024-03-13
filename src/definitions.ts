@@ -297,8 +297,9 @@ export function createComponents(engine: IEngine) {
   })
 
   const CounterBar = engine.defineComponent(ComponentName.COUNTER_BAR, {
-    color: Schemas.Color3,
-    maxValue: Schemas.Float,
+    primaryColor: Schemas.Optional(Schemas.String),
+    secondaryColor: Schemas.Optional(Schemas.String),
+    maxValue: Schemas.Optional(Schemas.Float),
   })
 
   return {
