@@ -155,7 +155,7 @@ export const ActionSchemas = {
   [ActionType.HIDE_IMAGE]: Schemas.Map({
     imageEntity: Schemas.Optional(Schemas.Int),
   }),
-  [ActionType.TRIGGER_PROXIMITY]: Schemas.Map({
+  [ActionType.DAMAGE]: Schemas.Map({
     radius: Schemas.Float,
     layer: Schemas.Optional(
       Schemas.EnumString(ProximityLayer, ProximityLayer.ALL),

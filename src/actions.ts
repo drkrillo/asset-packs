@@ -304,10 +304,10 @@ export function createActionsSystem(engine: IEngine) {
             handleHideImage(entity, getPayload<ActionType.HIDE_IMAGE>(action))
             break
           }
-          case ActionType.TRIGGER_PROXIMITY: {
+          case ActionType.DAMAGE: {
             handleTriggerProximity(
               entity,
-              getPayload<ActionType.TRIGGER_PROXIMITY>(action),
+              getPayload<ActionType.DAMAGE>(action),
             )
             break
           }
@@ -1011,10 +1011,10 @@ export function createActionsSystem(engine: IEngine) {
     }
   }
 
-  // TRIGGER_PROXIMITY
+  // DAMAGE
   function handleTriggerProximity(
     entity: Entity,
-    payload: ActionPayload<ActionType.TRIGGER_PROXIMITY>,
+    payload: ActionPayload<ActionType.DAMAGE>,
   ) {
     const { radius, layer, hits } = payload
     const entityPosition = AvatarAttach.has(entity)
@@ -1047,7 +1047,7 @@ export function createActionsSystem(engine: IEngine) {
         const total = hits === undefined ? 1 : Math.max(hits, 1)
         for (let i = 0; i < total; i++) {
           const triggerEvents = getTriggerEvents(target)
-          triggerEvents.emit(TriggerType.ON_PROXIMITY)
+          triggerEvents.emit(TriggerType.ON_DAMAGE)
         }
       }
     }

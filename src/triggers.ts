@@ -99,7 +99,7 @@ export function createTriggersSystem(
           initOnPlayerTriggerArea(entity)
           break
         }
-        case TriggerType.ON_PROXIMITY: {
+        case TriggerType.ON_DAMAGE: {
           initOnProximity(entity)
           break
         }

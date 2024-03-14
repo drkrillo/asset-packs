@@ -5,7 +5,7 @@ import { Color4, Quaternion } from '@dcl/sdk/math'
 const bars = new Map<Entity, Entity>()
 const backgrounds = new Map<Entity, Entity>()
 
-const SCALE = 0.5
+const SCALE = 1
 
 export function createCounterBarSystem(
   engine: IEngine,
@@ -61,8 +61,10 @@ export function createCounterBarSystem(
         if (entityTransform) {
           if (entityTransform.parent === engine.PlayerEntity) {
             entityTransform.position = { x: 0, y: 1.3, z: 0 }
+            entityTransform.scale = { x: 0.5, y: 0.5, z: 0.5 }
           } else if (entityTransform.parent === engine.CameraEntity) {
             entityTransform.position = { x: 0, y: 0.5, z: 1 }
+            entityTransform.scale = { x: 0.5, y: 0.5, z: 0.5 }
           }
         }
       }
