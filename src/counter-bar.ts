@@ -75,6 +75,9 @@ export function createCounterBarSystem(
       if (counter.value > max) {
         counter.value = max
       }
+      if (counter.value < 0) {
+        counter.value = 0
+      }
       const currentValue =
         Math.max(Math.min(counter.value / max, 1), 0) / (1 / SCALE) // 0.75
       const bar = bars.get(entity)!

@@ -53,7 +53,7 @@ import {
   mapAlignToScreenAlign,
 } from './ui'
 import { getExplorerComponents } from './components'
-import { initTriggers, proximityTargets } from './triggers'
+import { initTriggers, damageTargets, healTargets } from './triggers'
 import {
   getEntityParent,
   getPlayerPosition,
@@ -305,10 +305,7 @@ export function createActionsSystem(engine: IEngine) {
             break
           }
           case ActionType.DAMAGE: {
-            handleTriggerProximity(
-              entity,
-              getPayload<ActionType.DAMAGE>(action),
-            )
+            handleDamage(entity, getPayload<ActionType.DAMAGE>(action))
             break
           }
           case ActionType.MOVE_PLAYER_HERE: {
@@ -384,6 +381,10 @@ export function createActionsSystem(engine: IEngine) {
           }
           case ActionType.BATCH: {
             handleBatch(entity, getPayload<ActionType.BATCH>(action))
+            break
+          }
+          case ActionType.HEAL_PLAYER: {
+            handleHealPlayer(entity, getPayload<ActionType.HEAL_PLAYER>(action))
             break
           }
           default:
@@ -1012,7 +1013,7 @@ export function createActionsSystem(engine: IEngine) {
   }
 
   // DAMAGE
-  function handleTriggerProximity(
+  function handleDamage(
     entity: Entity,
     payload: ActionPayload<ActionType.DAMAGE>,
   ) {
@@ -1026,7 +1027,7 @@ export function createActionsSystem(engine: IEngine) {
       return !parent ? entity : getRoot(parent)
     }
 
-    for (const target of proximityTargets) {
+    for (const target of damageTargets) {
       const targetPosition = getWorldPosition(target)
       const distance = Vector3.distance(entityPosition, targetPosition)
 
@@ -1192,6 +1193,29 @@ export function createActionsSystem(engine: IEngine) {
       const action = findActionByName(entity, actionName)
       if (action) {
         actionEvents.emit(action.name, getPayload(action))
+      }
+    }
+  }
+
+  function handleHealPlayer(
+    entity: Entity,
+    payload: ActionPayload<ActionType.HEAL_PLAYER>,
+  ) {
+    const { multiplier } = payload
+
+    const getRoot = (entity: Entity): Entity => {
+      const parent = getEntityParent(entity)
+      return !parent ? entity : getRoot(parent)
+    }
+
+    for (const target of healTargets) {
+      const root = getRoot(target)
+      if (root === engine.PlayerEntity) {
+        const triggerEvents = getTriggerEvents(target)
+        const total = Math.max(multiplier ?? 1, 1)
+        for (let i = 0; i < total; i++) {
+          triggerEvents.emit(TriggerType.ON_HEAL_PLAYER)
+        }
       }
     }
   }

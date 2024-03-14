@@ -37,7 +37,8 @@ import { Vector3 } from '@dcl/sdk/math'
 const initedEntities = new Set<Entity>()
 const actionQueue: { entity: Entity; action: Action }[] = []
 
-export const proximityTargets = new Set<Entity>()
+export const damageTargets = new Set<Entity>()
+export const healTargets = new Set<Entity>()
 
 let internalInitTriggers: ((entity: Entity) => void) | null = null
 
@@ -100,8 +101,11 @@ export function createTriggersSystem(
           break
         }
         case TriggerType.ON_DAMAGE: {
-          initOnProximity(entity)
+          initOnDamage(entity)
           break
+        }
+        case TriggerType.ON_HEAL_PLAYER: {
+          initOnHealPlayer(entity)
         }
         case TriggerType.ON_GLOBAL_CLICK: {
           initOnGlobalCick(entity)
@@ -335,8 +339,12 @@ export function createTriggersSystem(
     )
   }
 
-  function initOnProximity(entity: Entity) {
-    proximityTargets.add(entity)
+  function initOnDamage(entity: Entity) {
+    damageTargets.add(entity)
+  }
+
+  function initOnHealPlayer(entity: Entity) {
+    healTargets.add(entity)
   }
 
   function initOnGlobalCick(entity: Entity) {

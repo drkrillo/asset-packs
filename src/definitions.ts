@@ -196,6 +196,9 @@ export const ActionSchemas = {
   [ActionType.BATCH]: Schemas.Map({
     actions: Schemas.Array(Schemas.String),
   }),
+  [ActionType.HEAL_PLAYER]: Schemas.Map({
+    multiplier: Schemas.Int,
+  }),
 }
 
 export type ActionPayload<T extends ActionType = any> =

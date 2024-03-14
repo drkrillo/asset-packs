@@ -79,6 +79,7 @@ export enum ActionType {
   STOP_FOLLOWING_PLAYER = 'stop_following_player',
   RANDOM = 'random',
   BATCH = 'batch',
+  HEAL_PLAYER = 'heal_player',
 }
 
 export enum TriggerType {
@@ -98,6 +99,7 @@ export enum TriggerType {
   ON_GLOBAL_PRIMARY = 'on_global_primary',
   ON_GLOBAL_SECONDARY = 'on_global_secondary',
   ON_TICK = 'on_tick',
+  ON_HEAL_PLAYER = 'on_heal_player',
 }
 
 export enum TriggerConditionType {
