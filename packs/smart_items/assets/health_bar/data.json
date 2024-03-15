@@ -1,0 +1,89 @@
+{
+  "id": "cb6d8b06-9359-433b-a008-0e4ed27945a6",
+  "name": "Health Bar",
+  "category": "health",
+  "tags": [
+    "health"
+  ],
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/health-bar.glb",
+      "invisibleMeshesCollisionMask": 0
+    },
+    "core::VisibilityComponent": {
+      "visible": false
+    },
+    "asset-packs::Actions": {
+      "id": "{self}",
+      "value": [
+        {
+          "name": "Heal",
+          "type": "increment_counter",
+          "jsonPayload": "{ \"amount\": 1 }"
+        },
+        {
+          "name": "Damage",
+          "type": "decrease_counter",
+          "jsonPayload": "{ \"amount\": 1 }"
+        },
+        {
+          "name": "Reset",
+          "type": "set_counter",
+          "jsonPayload": "{ \"counter\": 100 }"
+        },
+        {
+          "name": "Remove",
+          "type": "remove_entity",
+          "jsonPayload": "{}"
+        }
+      ]
+    },
+    "asset-packs::Triggers": {
+      "value": [
+        {
+          "type": "on_damage",
+          "actions": [
+            {
+              "id": "{self:asset-packs::Actions}",
+              "name": "Damage"
+            }
+          ]
+        },
+        {
+          "type": "on_heal_player",
+          "actions": [
+            {
+              "id": "{self:asset-packs::Actions}",
+              "name": "Heal"
+            }
+          ]
+        },
+        {
+          "type": "on_counter_change",
+          "conditions": [
+            {
+              "id": "{self:asset-packs::Counter}",
+              "type": "when_counter_is_less_than",
+              "value": "1"
+            }
+          ],
+          "actions": [
+            {
+              "id": "{self:asset-packs::Actions}",
+              "name": "Remove"
+            }
+          ]
+        }
+      ]
+    },
+    "asset-packs::Counter": {
+      "id": "{self}",
+      "value": 100
+    },
+    "asset-packs::CounterBar": {
+      "maxValue": 100,
+      "primaryColor": "#00FF00",
+      "secondaryColor:": "#FF0000"
+    }
+  }
+}
