@@ -1118,7 +1118,14 @@ export function createActionsSystem(engine: IEngine) {
   ) {
     const transform = Transform.getMutableOrNull(entity)
     if (transform) {
-      transform.position = Vector3.create(payload.x, payload.y, payload.z)
+      if (payload.relative) {
+        transform.position = Vector3.add(
+          transform.position,
+          Vector3.create(payload.x, payload.y, payload.z),
+        )
+      } else {
+        transform.position = Vector3.create(payload.x, payload.y, payload.z)
+      }
     }
   }
 
@@ -1129,11 +1136,18 @@ export function createActionsSystem(engine: IEngine) {
   ) {
     const transform = Transform.getMutableOrNull(entity)
     if (transform) {
-      transform.rotation = Quaternion.fromEulerDegrees(
-        payload.x,
-        payload.y,
-        payload.z,
-      )
+      if (payload.relative) {
+        transform.rotation = Quaternion.multiply(
+          transform.rotation,
+          Quaternion.fromEulerDegrees(payload.x, payload.y, payload.z),
+        )
+      } else {
+        transform.rotation = Quaternion.fromEulerDegrees(
+          payload.x,
+          payload.y,
+          payload.z,
+        )
+      }
     }
   }
 
@@ -1144,7 +1158,14 @@ export function createActionsSystem(engine: IEngine) {
   ) {
     const transform = Transform.getMutableOrNull(entity)
     if (transform) {
-      transform.scale = Vector3.create(payload.x, payload.y, payload.z)
+      if (payload.relative) {
+        transform.scale = Vector3.add(
+          transform.scale,
+          Vector3.create(payload.x, payload.y, payload.z),
+        )
+      } else {
+        transform.scale = Vector3.create(payload.x, payload.y, payload.z)
+      }
     }
   }
 

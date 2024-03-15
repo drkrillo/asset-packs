@@ -171,16 +171,19 @@ export const ActionSchemas = {
     x: Schemas.Float,
     y: Schemas.Float,
     z: Schemas.Float,
+    relative: Schemas.Optional(Schemas.Boolean),
   }),
   [ActionType.SET_ROTATION]: Schemas.Map({
     x: Schemas.Float,
     y: Schemas.Float,
     z: Schemas.Float,
+    relative: Schemas.Optional(Schemas.Boolean),
   }),
   [ActionType.SET_SCALE]: Schemas.Map({
     x: Schemas.Float,
     y: Schemas.Float,
     z: Schemas.Float,
+    relative: Schemas.Optional(Schemas.Boolean),
   }),
   [ActionType.FOLLOW_PLAYER]: Schemas.Map({
     speed: Schemas.Float,
