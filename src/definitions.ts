@@ -16,7 +16,10 @@ import {
   PBGltfContainer,
   PBUiTransform,
   PBUiText,
-  PBUiBackground
+  PBUiBackground,
+  MeshRendererComponentDefinitionExtended,
+  PBBillboard,
+  NameType,
 } from '@dcl/sdk/ecs'
 import { addActionType } from './action-types'
 import {
@@ -30,6 +33,7 @@ import {
   AlignMode,
   Font,
   Colliders,
+  ProximityLayer,
 } from './enums'
 import { getExplorerComponents } from './components'
 
@@ -59,8 +63,12 @@ export const ActionSchemas = {
     relative: Schemas.Boolean,
   }),
   [ActionType.SET_COUNTER]: Schemas.Map({ counter: Schemas.Int }),
-  [ActionType.INCREMENT_COUNTER]: Schemas.Map({}),
-  [ActionType.DECREASE_COUNTER]: Schemas.Map({}),
+  [ActionType.INCREMENT_COUNTER]: Schemas.Map({
+    amount: Schemas.Optional(Schemas.Int),
+  }),
+  [ActionType.DECREASE_COUNTER]: Schemas.Map({
+    amount: Schemas.Optional(Schemas.Int),
+  }),
   [ActionType.PLAY_SOUND]: Schemas.Map({
     src: Schemas.String,
     loop: Schemas.Optional(Schemas.Boolean),
@@ -147,6 +155,53 @@ export const ActionSchemas = {
   [ActionType.HIDE_IMAGE]: Schemas.Map({
     imageEntity: Schemas.Optional(Schemas.Int),
   }),
+  [ActionType.DAMAGE]: Schemas.Map({
+    radius: Schemas.Float,
+    layer: Schemas.Optional(
+      Schemas.EnumString(ProximityLayer, ProximityLayer.ALL),
+    ),
+    hits: Schemas.Optional(Schemas.Int),
+  }),
+  [ActionType.MOVE_PLAYER_HERE]: Schemas.Map({}),
+  [ActionType.PLACE_ON_PLAYER]: Schemas.Map({}),
+  [ActionType.ROTATE_AS_PLAYER]: Schemas.Map({}),
+  [ActionType.PLACE_ON_CAMERA]: Schemas.Map({}),
+  [ActionType.ROTATE_AS_CAMERA]: Schemas.Map({}),
+  [ActionType.SET_POSITION]: Schemas.Map({
+    x: Schemas.Float,
+    y: Schemas.Float,
+    z: Schemas.Float,
+    relative: Schemas.Optional(Schemas.Boolean),
+  }),
+  [ActionType.SET_ROTATION]: Schemas.Map({
+    x: Schemas.Float,
+    y: Schemas.Float,
+    z: Schemas.Float,
+    relative: Schemas.Optional(Schemas.Boolean),
+  }),
+  [ActionType.SET_SCALE]: Schemas.Map({
+    x: Schemas.Float,
+    y: Schemas.Float,
+    z: Schemas.Float,
+    relative: Schemas.Optional(Schemas.Boolean),
+  }),
+  [ActionType.FOLLOW_PLAYER]: Schemas.Map({
+    speed: Schemas.Float,
+    x: Schemas.Boolean,
+    y: Schemas.Boolean,
+    z: Schemas.Boolean,
+    minDistance: Schemas.Float,
+  }),
+  [ActionType.STOP_FOLLOWING_PLAYER]: Schemas.Map({}),
+  [ActionType.RANDOM]: Schemas.Map({
+    actions: Schemas.Array(Schemas.String),
+  }),
+  [ActionType.BATCH]: Schemas.Map({
+    actions: Schemas.Array(Schemas.String),
+  }),
+  [ActionType.HEAL_PLAYER]: Schemas.Map({
+    multiplier: Schemas.Int,
+  }),
 }
 
 export type ActionPayload<T extends ActionType = any> =
@@ -175,6 +230,7 @@ export function getComponents(engine: IEngine) {
     States: getComponent<States>(ComponentName.STATES, engine),
     Counter: getComponent<Counter>(ComponentName.COUNTER, engine),
     Triggers: getComponent<Triggers>(ComponentName.TRIGGERS, engine),
+    CounterBar: getComponent<CounterBar>(ComponentName.COUNTER_BAR, engine),
   }
 }
 
@@ -246,12 +302,19 @@ export function createComponents(engine: IEngine) {
     currentValue: Schemas.Optional(Schemas.String),
   })
 
+  const CounterBar = engine.defineComponent(ComponentName.COUNTER_BAR, {
+    primaryColor: Schemas.Optional(Schemas.String),
+    secondaryColor: Schemas.Optional(Schemas.String),
+    maxValue: Schemas.Optional(Schemas.Float),
+  })
+
   return {
     ActionTypes,
     Actions,
     Counter,
     Triggers,
     States,
+    CounterBar,
   }
 }
 
@@ -263,13 +326,14 @@ export type EngineComponents = {
   VisibilityComponent: LastWriteWinElementSetComponentDefinition<PBVisibilityComponent>
   GltfContainer: LastWriteWinElementSetComponentDefinition<PBGltfContainer>
   Material: MaterialComponentDefinitionExtended
+  MeshRenderer: MeshRendererComponentDefinitionExtended
   VideoPlayer: LastWriteWinElementSetComponentDefinition<PBVideoPlayer>
   UiTransform: LastWriteWinElementSetComponentDefinition<PBUiTransform>
   UiText: LastWriteWinElementSetComponentDefinition<PBUiText>
   UiBackground: LastWriteWinElementSetComponentDefinition<PBUiBackground>
+  Billboard: LastWriteWinElementSetComponentDefinition<PBBillboard>
+  Name: LastWriteWinElementSetComponentDefinition<NameType>
 }
-
-export type AssetPackComponents = ReturnType<typeof getComponents>
 
 export function initComponents(engine: IEngine) {
   // Add actions from this package
@@ -353,6 +417,12 @@ export function getConditionTypesByComponentName(componentName: ComponentName) {
         TriggerConditionType.WHEN_COUNTER_IS_LESS_THAN,
       ]
     }
+    case ComponentName.ACTIONS: {
+      return [
+        TriggerConditionType.WHEN_DISTANCE_TO_PLAYER_LESS_THAN,
+        TriggerConditionType.WHEN_DISTANCE_TO_PLAYER_GREATER_THAN,
+      ]
+    }
     default: {
       return []
     }
@@ -372,6 +442,11 @@ export type Action = Actions['value'][0]
 
 export type CounterComponent = Components['Counter']
 export type Counter = ReturnType<CounterComponent['schema']['deserialize']>
+
+export type CounterBarComponent = Components['CounterBar']
+export type CounterBar = ReturnType<
+  CounterBarComponent['schema']['deserialize']
+>
 
 export type TriggersComponent = Components['Triggers']
 export type Triggers = ReturnType<TriggersComponent['schema']['deserialize']>

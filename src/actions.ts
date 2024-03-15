@@ -12,6 +12,7 @@ import {
   pointerEventsSystem,
   InputAction,
   MeshCollider,
+  getComponentEntityTree,
 } from '@dcl/sdk/ecs'
 import { Quaternion, Vector3 } from '@dcl/sdk/math'
 import { tweens } from '@dcl-sdk/utils/dist/tween'
@@ -26,7 +27,7 @@ import { getActiveVideoStreams } from '~system/CommsApi'
 import {
   ActionPayload,
   ActionType,
-  EngineComponents,
+  ProximityLayer,
   ScreenAlignMode,
   TriggerType,
   TweenType,
@@ -50,10 +51,15 @@ import {
   getUIText,
   getUITransform,
   mapAlignToScreenAlign,
-
 } from './ui'
-import { initTriggers } from './triggers'
 import { getExplorerComponents } from './components'
+import { initTriggers, damageTargets, healTargets } from './triggers'
+import {
+  getEntityParent,
+  getPlayerPosition,
+  getWorldPosition,
+} from '@dcl-sdk/utils'
+import { followMap } from './transform'
 
 const initedEntities = new Set<Entity>()
 const uiStacks = new Map<string, Entity>()
@@ -70,9 +76,7 @@ export function initActions(entity: Entity) {
   )
 }
 
-export function createActionsSystem(
-  engine: IEngine,
-) {
+export function createActionsSystem(engine: IEngine) {
   const {
     Animator,
     Transform,
@@ -83,6 +87,7 @@ export function createActionsSystem(
     UiTransform,
     UiText,
     UiBackground,
+    Name,
   } = getExplorerComponents(engine)
   const { Actions, States, Counter, Triggers } = getComponents(engine)
 
@@ -299,6 +304,89 @@ export function createActionsSystem(
             handleHideImage(entity, getPayload<ActionType.HIDE_IMAGE>(action))
             break
           }
+          case ActionType.DAMAGE: {
+            handleDamage(entity, getPayload<ActionType.DAMAGE>(action))
+            break
+          }
+          case ActionType.MOVE_PLAYER_HERE: {
+            handleMovePlayerHere(
+              entity,
+              getPayload<ActionType.MOVE_PLAYER_HERE>(action),
+            )
+            break
+          }
+          case ActionType.FOLLOW_PLAYER: {
+            handleFollowPlayer(
+              entity,
+              getPayload<ActionType.FOLLOW_PLAYER>(action),
+            )
+            break
+          }
+          case ActionType.STOP_FOLLOWING_PLAYER: {
+            handleStopFollowingPlayer(
+              entity,
+              getPayload<ActionType.STOP_FOLLOWING_PLAYER>(action),
+            )
+            break
+          }
+          case ActionType.PLACE_ON_PLAYER: {
+            handlePlaceOnPlayer(
+              entity,
+              getPayload<ActionType.PLACE_ON_PLAYER>(action),
+            )
+            break
+          }
+          case ActionType.ROTATE_AS_PLAYER: {
+            handleRotateAsPlayer(
+              entity,
+              getPayload<ActionType.ROTATE_AS_PLAYER>(action),
+            )
+            break
+          }
+          case ActionType.PLACE_ON_CAMERA: {
+            handlePlaceOnCamera(
+              entity,
+              getPayload<ActionType.PLACE_ON_CAMERA>(action),
+            )
+            break
+          }
+          case ActionType.ROTATE_AS_CAMERA: {
+            handleRotateAsCamera(
+              entity,
+              getPayload<ActionType.ROTATE_AS_CAMERA>(action),
+            )
+            break
+          }
+          case ActionType.SET_POSITION: {
+            handleSetPosition(
+              entity,
+              getPayload<ActionType.SET_POSITION>(action),
+            )
+            break
+          }
+          case ActionType.SET_ROTATION: {
+            handleSetRotation(
+              entity,
+              getPayload<ActionType.SET_ROTATION>(action),
+            )
+            break
+          }
+          case ActionType.SET_SCALE: {
+            handleSetScale(entity, getPayload<ActionType.SET_SCALE>(action))
+            break
+          }
+          case ActionType.RANDOM: {
+            handleRandom(entity, getPayload<ActionType.RANDOM>(action))
+            break
+          }
+          case ActionType.BATCH: {
+            handleBatch(entity, getPayload<ActionType.BATCH>(action))
+            break
+          }
+          case ActionType.HEAL_PLAYER: {
+            handleHealPlayer(entity, getPayload<ActionType.HEAL_PLAYER>(action))
+            break
+          }
           default:
             break
         }
@@ -376,7 +464,9 @@ export function createActionsSystem(
   ) {
     if (payload) {
       const triggerEvents = getTriggerEvents(entity)
-      const onTweenEnd = () => triggerEvents.emit(TriggerType.ON_TWEEN_END)
+      const onTweenEnd = () => {
+        triggerEvents.emit(TriggerType.ON_TWEEN_END)
+      }
 
       switch (payload.type) {
         case TweenType.MOVE_ITEM: {
@@ -415,7 +505,7 @@ export function createActionsSystem(
       endPosition,
       duration,
       interpolationType,
-      onTweenEnd,
+      () => onTweenEnd(),
     )
   }
 
@@ -485,12 +575,13 @@ export function createActionsSystem(
   // INCREMENT_COUNTER
   function handleIncrementCounter(
     entity: Entity,
-    _payload: ActionPayload<ActionType.INCREMENT_COUNTER>,
+    payload: ActionPayload<ActionType.INCREMENT_COUNTER>,
   ) {
     const counter = Counter.getMutableOrNull(entity)
+    const amount = payload.amount ?? 1
 
     if (counter) {
-      counter.value += 1
+      counter.value += amount
 
       const triggerEvents = getTriggerEvents(entity)
       triggerEvents.emit(TriggerType.ON_COUNTER_CHANGE)
@@ -500,12 +591,13 @@ export function createActionsSystem(
   // DECREASE_COUNTER
   function handleDecreaseCounter(
     entity: Entity,
-    _payload: ActionPayload<ActionType.INCREMENT_COUNTER>,
+    payload: ActionPayload<ActionType.INCREMENT_COUNTER>,
   ) {
     const counter = Counter.getMutableOrNull(entity)
+    const amount = payload.amount ?? 1
 
     if (counter) {
-      counter.value -= 1
+      counter.value -= amount
 
       const triggerEvents = getTriggerEvents(entity)
       triggerEvents.emit(TriggerType.ON_COUNTER_CHANGE)
@@ -595,7 +687,6 @@ export function createActionsSystem(
       newRelativePosition: payload.position,
       cameraTarget: payload.cameraTarget,
     }
-    console.log('movePlayerTo', options)
     void movePlayerTo(options)
   }
 
@@ -799,17 +890,18 @@ export function createActionsSystem(
     const { position } = payload
 
     // clone entity
-    const cloned = clone(entity, engine, Triggers)
+    const { cloned, entities } = clone(entity, engine, Transform, Triggers)
+    for (const cloned of entities.values()) {
+      // initialize
+      initActions(cloned)
+      initTriggers(cloned)
 
-    // initialize
-    initActions(cloned)
-    initTriggers(cloned)
+      const triggerEvents = getTriggerEvents(cloned)
+      triggerEvents.emit(TriggerType.ON_CLONE)
+    }
 
     const transform = Transform.getOrCreateMutable(cloned)
     transform.position = position
-
-    const triggerEvents = getTriggerEvents(cloned)
-    triggerEvents.emit(TriggerType.ON_CLONE)
   }
 
   // REMOVE_ENTITY
@@ -820,7 +912,11 @@ export function createActionsSystem(
     // Remove all timers before remove the entity
     stopAllTimeouts(entity)
     stopAllIntervals(entity)
-    engine.removeEntity(entity)
+
+    const tree = getComponentEntityTree(engine, entity, Transform)
+    for (const entityToRemove of tree) {
+      engine.removeEntity(entityToRemove)
+    }
   }
 
   function getUiStack(align: ScreenAlignMode) {
@@ -912,6 +1008,235 @@ export function createActionsSystem(
       if (clickedImage) {
         engine.removeEntity(clickedImage)
         lastUiEntityClicked.delete(entity)
+      }
+    }
+  }
+
+  // DAMAGE
+  function handleDamage(
+    entity: Entity,
+    payload: ActionPayload<ActionType.DAMAGE>,
+  ) {
+    const { radius, layer, hits } = payload
+    const entityPosition = AvatarAttach.has(entity)
+      ? getPlayerPosition()
+      : getWorldPosition(entity)
+
+    const getRoot = (entity: Entity): Entity => {
+      const parent = getEntityParent(entity)
+      return !parent ? entity : getRoot(parent)
+    }
+
+    for (const target of damageTargets) {
+      const targetPosition = getWorldPosition(target)
+      const distance = Vector3.distance(entityPosition, targetPosition)
+
+      if (layer) {
+        if (layer === ProximityLayer.PLAYER) {
+          const root = getRoot(target)
+          if (root !== engine.PlayerEntity && root !== engine.CameraEntity) {
+            continue
+          }
+        } else if (layer === ProximityLayer.NON_PLAYER) {
+          const root = getRoot(target)
+          if (root === engine.PlayerEntity || root === engine.CameraEntity) {
+            continue
+          }
+        }
+      }
+      if (distance <= radius) {
+        const total = hits === undefined ? 1 : Math.max(hits, 1)
+        for (let i = 0; i < total; i++) {
+          const triggerEvents = getTriggerEvents(target)
+          triggerEvents.emit(TriggerType.ON_DAMAGE)
+        }
+      }
+    }
+  }
+
+  // MOVE_PLAYER_HERE
+  function handleMovePlayerHere(
+    entity: Entity,
+    _payload: ActionPayload<ActionType.MOVE_PLAYER_HERE>,
+  ) {
+    const here = getWorldPosition(entity)
+    void movePlayerTo({ newRelativePosition: here })
+  }
+
+  // PLACE_ON_PLAYER
+  function handlePlaceOnPlayer(
+    entity: Entity,
+    _payload: ActionPayload<ActionType.PLACE_ON_PLAYER>,
+  ) {
+    const transform = Transform.getMutableOrNull(entity)
+    const player = Transform.getOrNull(engine.PlayerEntity)
+    if (transform && player) {
+      transform.position = player.position
+    }
+  }
+
+  // ROTATE_AS_PLAYER
+  function handleRotateAsPlayer(
+    entity: Entity,
+    _payload: ActionPayload<ActionType.ROTATE_AS_PLAYER>,
+  ) {
+    const transform = Transform.getMutableOrNull(entity)
+    const player = Transform.getOrNull(engine.PlayerEntity)
+    if (transform && player) {
+      transform.rotation = player.rotation
+    }
+  }
+
+  // PLACE_ON_CAMERA
+  function handlePlaceOnCamera(
+    entity: Entity,
+    _payload: ActionPayload<ActionType.PLACE_ON_CAMERA>,
+  ) {
+    const transform = Transform.getMutableOrNull(entity)
+    const camera = Transform.getOrNull(engine.CameraEntity)
+    if (transform && camera) {
+      transform.position = camera.position
+    }
+  }
+
+  // ROTATE_AS_CAMERA
+  function handleRotateAsCamera(
+    entity: Entity,
+    _payload: ActionPayload<ActionType.ROTATE_AS_CAMERA>,
+  ) {
+    const transform = Transform.getMutableOrNull(entity)
+    const camera = Transform.getOrNull(engine.CameraEntity)
+    if (transform && camera) {
+      transform.rotation = camera.rotation
+    }
+  }
+
+  // SET_POSITION
+  function handleSetPosition(
+    entity: Entity,
+    payload: ActionPayload<ActionType.SET_POSITION>,
+  ) {
+    const transform = Transform.getMutableOrNull(entity)
+    if (transform) {
+      if (payload.relative) {
+        transform.position = Vector3.add(
+          transform.position,
+          Vector3.create(payload.x, payload.y, payload.z),
+        )
+      } else {
+        transform.position = Vector3.create(payload.x, payload.y, payload.z)
+      }
+    }
+  }
+
+  // SET_ROTATION
+  function handleSetRotation(
+    entity: Entity,
+    payload: ActionPayload<ActionType.SET_ROTATION>,
+  ) {
+    const transform = Transform.getMutableOrNull(entity)
+    if (transform) {
+      if (payload.relative) {
+        transform.rotation = Quaternion.multiply(
+          transform.rotation,
+          Quaternion.fromEulerDegrees(payload.x, payload.y, payload.z),
+        )
+      } else {
+        transform.rotation = Quaternion.fromEulerDegrees(
+          payload.x,
+          payload.y,
+          payload.z,
+        )
+      }
+    }
+  }
+
+  // SET_SCALE
+  function handleSetScale(
+    entity: Entity,
+    payload: ActionPayload<ActionType.SET_SCALE>,
+  ) {
+    const transform = Transform.getMutableOrNull(entity)
+    if (transform) {
+      if (payload.relative) {
+        transform.scale = Vector3.add(
+          transform.scale,
+          Vector3.create(payload.x, payload.y, payload.z),
+        )
+      } else {
+        transform.scale = Vector3.create(payload.x, payload.y, payload.z)
+      }
+    }
+  }
+
+  // FOLLOW_PLAYER
+  function handleFollowPlayer(
+    entity: Entity,
+    payload: ActionPayload<ActionType.FOLLOW_PLAYER>,
+  ) {
+    const { speed, x, y, z, minDistance } = payload
+    followMap.set(entity, {
+      target: engine.PlayerEntity,
+      speed,
+      minDistance,
+      axes: { x, y, z },
+    })
+  }
+
+  // STOP_FOLLOWING_PLAYER
+  function handleStopFollowingPlayer(
+    entity: Entity,
+    _payload: ActionPayload<ActionType.STOP_FOLLOWING_PLAYER>,
+  ) {
+    followMap.delete(entity)
+  }
+
+  function handleRandom(
+    entity: Entity,
+    payload: ActionPayload<ActionType.RANDOM>,
+  ) {
+    const { actions } = payload
+    const actionEvents = getActionEvents(entity)
+    const actionName = actions[Math.floor(Math.random() * actions.length)]
+    const action = findActionByName(entity, actionName)
+    if (action) {
+      actionEvents.emit(action.name, getPayload(action))
+    }
+  }
+
+  function handleBatch(
+    entity: Entity,
+    payload: ActionPayload<ActionType.BATCH>,
+  ) {
+    const { actions } = payload
+    const actionEvents = getActionEvents(entity)
+    for (const actionName of actions) {
+      const action = findActionByName(entity, actionName)
+      if (action) {
+        actionEvents.emit(action.name, getPayload(action))
+      }
+    }
+  }
+
+  function handleHealPlayer(
+    entity: Entity,
+    payload: ActionPayload<ActionType.HEAL_PLAYER>,
+  ) {
+    const { multiplier } = payload
+
+    const getRoot = (entity: Entity): Entity => {
+      const parent = getEntityParent(entity)
+      return !parent ? entity : getRoot(parent)
+    }
+
+    for (const target of healTargets) {
+      const root = getRoot(target)
+      if (root === engine.PlayerEntity) {
+        const triggerEvents = getTriggerEvents(target)
+        const total = Math.max(multiplier ?? 1, 1)
+        for (let i = 0; i < total; i++) {
+          triggerEvents.emit(TriggerType.ON_HEAL_PLAYER)
+        }
       }
     }
   }

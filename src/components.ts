@@ -9,11 +9,15 @@ import {
   UiText as defineUiText,
   UiBackground as defineUiBackground,
   VideoPlayer as defineVideoPlayer,
-  Material as defineMaterial
+  Material as defineMaterial,
+  MeshRenderer as defineMeshRenderer,
+  Billboard as defineBillboard,
+  Name as defineName,
 } from '@dcl/ecs/dist/components'
 import { IEngine } from '@dcl/sdk/ecs'
+import { EngineComponents } from './definitions'
 
-export function getExplorerComponents(engine: IEngine) {
+export function getExplorerComponents(engine: IEngine): EngineComponents {
   return {
     Animator: defineAnimator(engine),
     Transform: defineTransform(engine),
@@ -25,6 +29,9 @@ export function getExplorerComponents(engine: IEngine) {
     UiText: defineUiText(engine),
     UiBackground: defineUiBackground(engine),
     VideoPlayer: defineVideoPlayer(engine),
-    Material: defineMaterial(engine)
+    Material: defineMaterial(engine),
+    MeshRenderer: defineMeshRenderer(engine),
+    Billboard: defineBillboard(engine),
+    Name: defineName(engine),
   }
 }

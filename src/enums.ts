@@ -6,6 +6,7 @@ export enum ComponentName {
   COUNTER = 'asset-packs::Counter',
   TRIGGERS = 'asset-packs::Triggers',
   STATES = 'asset-packs::States',
+  COUNTER_BAR = 'asset-packs::CounterBar',
 }
 
 export enum TweenType {
@@ -65,6 +66,20 @@ export enum ActionType {
   REMOVE_ENTITY = 'remove_entity',
   SHOW_IMAGE = 'show_image',
   HIDE_IMAGE = 'hide_image',
+  DAMAGE = 'damage',
+  MOVE_PLAYER_HERE = 'move_player_here',
+  PLACE_ON_PLAYER = 'place_on_player',
+  ROTATE_AS_PLAYER = 'rotate_as_player',
+  PLACE_ON_CAMERA = 'place_on_camera',
+  ROTATE_AS_CAMERA = 'rotate_as_camera',
+  SET_POSITION = 'set_position',
+  SET_ROTATION = 'set_rotation',
+  SET_SCALE = 'set_scale',
+  FOLLOW_PLAYER = 'follow_player',
+  STOP_FOLLOWING_PLAYER = 'stop_following_player',
+  RANDOM = 'random',
+  BATCH = 'batch',
+  HEAL_PLAYER = 'heal_player',
 }
 
 export enum TriggerType {
@@ -79,6 +94,12 @@ export enum TriggerType {
   ON_LOOP = 'on_loop',
   ON_CLONE = 'on_clone',
   ON_CLICK_IMAGE = 'on_click_image',
+  ON_DAMAGE = 'on_damage',
+  ON_GLOBAL_CLICK = 'on_global_click',
+  ON_GLOBAL_PRIMARY = 'on_global_primary',
+  ON_GLOBAL_SECONDARY = 'on_global_secondary',
+  ON_TICK = 'on_tick',
+  ON_HEAL_PLAYER = 'on_heal_player',
 }
 
 export enum TriggerConditionType {
@@ -87,6 +108,8 @@ export enum TriggerConditionType {
   WHEN_COUNTER_EQUALS = 'when_counter_equals',
   WHEN_COUNTER_IS_GREATER_THAN = 'when_counter_is_greater_than',
   WHEN_COUNTER_IS_LESS_THAN = 'when_counter_is_less_than',
+  WHEN_DISTANCE_TO_PLAYER_LESS_THAN = 'when_distance_to_player_less_than',
+  WHEN_DISTANCE_TO_PLAYER_GREATER_THAN = 'when_distance_to_player_greater_than',
 }
 
 export enum TriggerConditionOperation {
@@ -141,4 +164,10 @@ export enum Colliders {
   CL_CUSTOM6 = 8192,
   CL_CUSTOM7 = 16384,
   CL_CUSTOM8 = 32768,
+}
+
+export enum ProximityLayer {
+  ALL = 'all',
+  PLAYER = 'player',
+  NON_PLAYER = 'non_player',
 }

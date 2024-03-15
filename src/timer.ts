@@ -15,6 +15,8 @@ interface IntervalAction {
   callback: Function
 }
 
+export const tickSet = new Set<Entity>()
+
 const queueDelay = new Map<Entity, Array<DelayAction>>()
 const queueInterval = new Map<Entity, Array<IntervalAction>>()
 
@@ -22,6 +24,7 @@ export function createTimerSystem() {
   return function timerSystem(dt: number) {
     intervalSystem(dt)
     delaySystem(dt)
+    tickSystem(dt)
   }
 
   function intervalSystem(dt: number) {
@@ -65,6 +68,13 @@ export function createTimerSystem() {
       for (const action of completedActions) {
         actions.splice(action, 1)
       }
+    }
+  }
+
+  function tickSystem(_dt: number) {
+    for (const entity of tickSet) {
+      const triggerEvents = getTriggerEvents(entity)
+      triggerEvents.emit(TriggerType.ON_TICK)
     }
   }
 }
