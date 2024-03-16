@@ -17,12 +17,12 @@
         {
           "name": "Play Damage Sound",
           "type": "play_sound",
-          "jsonPayload": "{ \"src\": \"{assetPath}/damage.mp3\" }"
+          "jsonPayload": "{ \"src\": \"{assetPath}/spikes.mp3\" }"
         },
         {
           "name": "Damage",
           "type": "damage",
-          "jsonPayload": "{ \"radius\": 3, \"hits\" 15, \"layer\": \"player\" }"
+          "jsonPayload": "{ \"radius\": 3, \"hits\": 15, \"layer\": \"player\" }"
         },
         {
           "name": "Start Damage",
