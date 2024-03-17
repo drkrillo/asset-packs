@@ -16,6 +16,11 @@
       "id": "{self}",
       "value": [
         {
+          "name": "Explode",
+          "type": "batch",
+          "jsonPayload": "{ \"actions\": [\"Play Explosion Animation\", \"Damage\", \"Delay Remove\"] }"
+        },
+        {
           "name": "Play Explosion Animation",
           "type": "play_animation",
           "jsonPayload": "{ \"animation\": \"Animation\" }"
@@ -34,11 +39,6 @@
           "name": "Delay Remove",
           "type": "start_delay",
           "jsonPayload": "{ \"actions\": [\"Remove\"], \"timeout\": 1 }"
-        },
-        {
-          "name": "Explode",
-          "type": "batch",
-          "jsonPayload": "{ \"actions\": [\"Play Explode Animation\", \"Damage\", \"Delay Remove\"] }"
         }
       ]
     }

@@ -1,0 +1,100 @@
+{
+  "id": "134af1d4-e0f1-451b-8a3b-9d2eb42fbe2d",
+  "name": "Wooden Wall",
+  "category": "health",
+  "tags": [
+    "health",
+    "damage",
+    "breakable"
+  ],
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/wooden_wall.glb"
+    },
+    "asset-packs::Actions": {
+      "id": "{self}",
+      "value": [
+        {
+          "name": "Play Hit Animation",
+          "type": "play_animation",
+          "jsonPayload": "{ \"animation\": \"Hit\" }"
+        },
+        {
+          "name": "Play Fall Animation",
+          "type": "play_animation",
+          "jsonPayload": "{ \"animation\": \"Fall\" }"
+        },
+        {
+          "name": "Play Fall Sound",
+          "type": "play_sound",
+          "jsonPayload": "{ \"src\": \"{assetPath}/fall.mp3\" }"
+        },
+        {
+          "name": "Decrease Counter",
+          "type": "decrease_counter",
+          "jsonPayload": "{ \"amount\": 1 }"
+        }
+      ]
+    },
+    "asset-packs::Triggers": {
+      "value": [
+        {
+          "type": "on_damage",
+          "conditions": [
+            {
+              "id": "{self:asset-packs::Counter}",
+              "type": "when_counter_is_greater_than",
+              "value": "0"
+            }
+          ],
+          "actions": [
+            {
+              "id": "{self:asset-packs::Actions}",
+              "name": "Decrease Counter"
+            }
+          ]
+        },
+        {
+          "type": "on_counter_change",
+          "conditions": [
+            {
+              "id": "{self:asset-packs::Counter}",
+              "type": "when_counter_is_greater_than",
+              "value": "0"
+            }
+          ],
+          "actions": [
+            {
+              "id": "{self:asset-packs::Actions}",
+              "name": "Play Hit Animation"
+            }
+          ]
+        },
+        {
+          "type": "on_counter_change",
+          "conditions": [
+            {
+              "id": "{self:asset-packs::Counter}",
+              "type": "when_counter_is_less_than",
+              "value": "1"
+            }
+          ],
+          "actions": [
+            {
+              "id": "{self:asset-packs::Actions}",
+              "name": "Play Fall Animation"
+            },
+            {
+              "id": "{self:asset-packs::Actions}",
+              "name": "Play Fall Sound"
+            }
+          ]
+        }
+      ]
+    },
+    "asset-packs::Counter": {
+      "id": "{self}",
+      "value": 30
+    }
+  }
+}
