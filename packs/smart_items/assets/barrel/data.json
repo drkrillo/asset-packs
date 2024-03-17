@@ -1,0 +1,46 @@
+{
+  "id": "134af1d4-e0f1-451b-8a3b-9d2eb42fbe2d",
+  "name": "Barrel",
+  "category": "health",
+  "tags": [
+    "health",
+    "enemy",
+    "damage",
+    "weapon"
+  ],
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/barrel.glb"
+    },
+    "asset-packs::Actions": {
+      "id": "{self}",
+      "value": [
+        {
+          "name": "Play Explosion Animation",
+          "type": "play_animation",
+          "jsonPayload": "{ \"animation\": \"Animation\" }"
+        },
+        {
+          "name": "Damage",
+          "type": "damage",
+          "jsonPayload": "{ \"radius\": 10, \"hits\": 30, \"layer\": \"all\" }"
+        },
+        {
+          "name": "Remove",
+          "type": "remove_entity",
+          "jsonPayload": "{ }"
+        },
+        {
+          "name": "Delay Remove",
+          "type": "start_delay",
+          "jsonPayload": "{ \"actions\": [\"Remove\"], \"timeout\": 1 }"
+        },
+        {
+          "name": "Explode",
+          "type": "batch",
+          "jsonPayload": "{ \"actions\": [\"Play Explode Animation\", \"Damage\", \"Delay Remove\"] }"
+        }
+      ]
+    }
+  }
+}
