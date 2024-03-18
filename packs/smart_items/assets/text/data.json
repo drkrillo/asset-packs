@@ -1,5 +1,5 @@
 {
-  "id": "6f5c4b28-f27c-4d30-836e-c6fd0b687727",
+  "id": "dd0d51c1-f16f-41c2-9bf1-735fe5b17dc4",
   "name": "Text",
   "category": "utils",
   "tags": [
@@ -9,8 +9,12 @@
     "core::TextShape": {
       "text": "Text",
       "font": 2
+    },
+    "core-schema::Sync-Components": {
+      "value": [
+        "core::TextShape",
+        "core::VisibilityComponent"
+      ]
     }
-    ,
-  "core-schema::Sync-Components": { "value": ["core::TextShape", "core::VisibilityComponent"] }
   }
 }

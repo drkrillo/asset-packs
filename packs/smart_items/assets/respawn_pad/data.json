@@ -1,0 +1,36 @@
+{
+  "id": "ed91cbc9-8a33-4664-a8a6-c54169db51bd",
+  "name": "Respawn Pad",
+  "category": "health",
+  "tags": [
+    "health",
+    "respawn",
+    "spawn",
+    "pad"
+  ],
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/respawn_pad.glb"
+    },
+    "asset-packs::Actions": {
+      "id": "{self}",
+      "value": [
+        {
+          "name": "Respawn Player",
+          "type": "batch",
+          "jsonPayload": "{ \"actions\": [\"Move Player\", \"Play Spawn Sound\"] }"
+        },
+        {
+          "name": "Move Player",
+          "type": "move_player_here",
+          "jsonPayload": "{ }"
+        },
+        {
+          "name": "Play Spawn Sound",
+          "type": "play_sound",
+          "jsonPayload": "{ \"src\": \"{assetPath}/spawn.mp3\" }"
+        }
+      ]
+    }
+  }
+}

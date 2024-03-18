@@ -1,0 +1,66 @@
+{
+  "id": "4e31b74c-7027-416a-b739-65989f40f62b",
+  "name": "Spikes",
+  "category": "health",
+  "tags": [
+    "health",
+    "enemy",
+    "damage"
+  ],
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/spikes.glb"
+    },
+    "asset-packs::Actions": {
+      "id": "{self}",
+      "value": [
+        {
+          "name": "Play Damage Sound",
+          "type": "play_sound",
+          "jsonPayload": "{ \"src\": \"{assetPath}/spikes.mp3\" }"
+        },
+        {
+          "name": "Damage",
+          "type": "damage",
+          "jsonPayload": "{ \"radius\": 3, \"hits\": 15, \"layer\": \"player\" }"
+        },
+        {
+          "name": "Start Damage",
+          "type": "start_loop",
+          "jsonPayload": "{ \"actions\": [\"Damage\"], \"interval\": 2 }"
+        },
+        {
+          "name": "Stop Damage",
+          "type": "stop_loop",
+          "jsonPayload": "{ \"action\": \"Damage\" }"
+        }
+      ]
+    },
+    "asset-packs::Triggers": {
+      "value": [
+        {
+          "type": "on_player_enters_area",
+          "actions": [
+            {
+              "id": "{self:asset-packs::Actions}",
+              "name": "Start Damage"
+            },
+            {
+              "id": "{self:asset-packs::Actions}",
+              "name": "Play Damage Sound"
+            }
+          ]
+        },
+        {
+          "type": "on_player_leaves_area",
+          "actions": [
+            {
+              "id": "{self:asset-packs::Actions}",
+              "name": "Stop Damage"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "b3158511-bda8-4459-a213-d90df94f1e5b",
+  "name": "First Aid",
+  "category": "health",
+  "tags": [
+    "health",
+    "enemy",
+    "damage"
+  ],
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/first_aid.glb"
+    },
+    "asset-packs::Actions": {
+      "id": "{self}",
+      "value": [
+        {
+          "name": "Heal Player",
+          "type": "heal_player",
+          "jsonPayload": "{ \"multiplier\": 100 }"
+        },
+        {
+          "name": "Remove",
+          "type": "remove_entity",
+          "jsonPayload": "{ }"
+        }
+      ]
+    },
+    "asset-packs::Triggers": {
+      "value": [
+        {
+          "type": "on_click",
+          "actions": [
+            {
+              "id": "{self:asset-packs::Actions}",
+              "name": "Heal Player"
+            },
+            {
+              "id": "{self:asset-packs::Actions}",
+              "name": "Remove"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

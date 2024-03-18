@@ -1,0 +1,66 @@
+{
+  "id": "001538c8-af64-43fe-bf81-74464d9bdf07",
+  "name": "Healing Pad",
+  "category": "health",
+  "tags": [
+    "health",
+    "healing",
+    "pad"
+  ],
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/healing_pad.glb"
+    },
+    "asset-packs::Actions": {
+      "id": "{self}",
+      "value": [
+        {
+          "name": "Play Heal Sound",
+          "type": "play_sound",
+          "jsonPayload": "{ \"src\": \"{assetPath}/heal.mp3\" }"
+        },
+        {
+          "name": "Heal Player",
+          "type": "heal_player",
+          "jsonPayload": "{ \"multiplier\": 5 }"
+        },
+        {
+          "name": "Start Healing",
+          "type": "start_loop",
+          "jsonPayload": "{ \"actions\": [\"Heal Player\"], \"interval\": 0.5 }"
+        },
+        {
+          "name": "Stop Healing",
+          "type": "stop_loop",
+          "jsonPayload": "{ \"action\": \"Heal Player\" }"
+        }
+      ]
+    },
+    "asset-packs::Triggers": {
+      "value": [
+        {
+          "type": "on_player_enters_area",
+          "actions": [
+            {
+              "id": "{self:asset-packs::Actions}",
+              "name": "Start Healing"
+            },
+            {
+              "id": "{self:asset-packs::Actions}",
+              "name": "Play Heal Sound"
+            }
+          ]
+        },
+        {
+          "type": "on_player_leaves_area",
+          "actions": [
+            {
+              "id": "{self:asset-packs::Actions}",
+              "name": "Stop Healing"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "73f9d47b-bf93-4e1d-b60c-760ef3e977cb",
+  "name": "Robot Enemy",
+  "category": "health",
+  "tags": [
+    "health",
+    "enemy"
+  ],
+  "components": {
+    "core::GltfContainer": {
+      "src": "{assetPath}/robot.glb"
+    },
+    "asset-packs::Actions": {
+      "id": "{self}",
+      "value": [
+        {
+          "name": "Die",
+          "type": "batch",
+          "jsonPayload": "{ \"actions\": [\"Play Explosion Animation\", \"Delay Remove\"] }"
+        },
+        {
+          "name": "Follow",
+          "type": "follow_player",
+          "jsonPayload": "{ \"speed\": 1, \"minDistance\": 2, \"x\": true, \"y\": false, \"z\": true }"
+        },
+        {
+          "name": "Play Attack Animation",
+          "type": "play_animation",
+          "jsonPayload": "{ \"animation\": \"Attack\" }"
+        },
+        {
+          "name": "Damage",
+          "type": "damage",
+          "jsonPayload": "{ \"radius\": 3, \"hits\": 10, \"layer\": \"player\" }"
+        },
+        {
+          "name": "Attack Loop",
+          "type": "start_loop",
+          "jsonPayload": "{ \"actions\": [\"Damage\"], \"interval\": 1 }"
+        },
+        {
+          "name": "Remove",
+          "type": "remove_entity",
+          "jsonPayload": "{ }"
+        },
+        {
+          "name": "Delay Remove",
+          "type": "start_delay",
+          "jsonPayload": "{ \"actions\": [\"Remove\"], \"timeout\": 0.5 }"
+        },
+        {
+          "name": "Play Explosion Animation",
+          "type": "play_animation",
+          "jsonPayload": "{ \"animation\": \"explode\" }"
+        }
+      ]
+    },
+    "asset-packs::Triggers": {
+      "value": [
+        {
+          "type": "on_spawn",
+          "actions": [
+            {
+              "id": "{self:asset-packs::Actions}",
+              "name": "Follow"
+            },
+            {
+              "id": "{self:asset-packs::Actions}",
+              "name": "Attack Loop"
+            }
+          ]
+        },
+        {
+          "type": "on_loop",
+          "conditions": [
+            {
+              "id": "{self:asset-packs::Actions}",
+              "type": "when_distance_to_player_less_than",
+              "value": "3"
+            }
+          ],
+          "actions": [
+            {
+              "id": "{self:asset-packs::Actions}",
+              "name": "Play Attack Animation"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
