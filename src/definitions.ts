@@ -20,6 +20,8 @@ import {
   MeshRendererComponentDefinitionExtended,
   PBBillboard,
   NameType,
+  PBTween,
+  PBTweenSequence,
 } from '@dcl/sdk/ecs'
 import { addActionType } from './action-types'
 import {
@@ -251,6 +253,7 @@ export function createComponents(engine: IEngine) {
         name: Schemas.String,
         type: Schemas.String,
         jsonPayload: Schemas.String,
+        allowedInBasicView: Schemas.Optional(Schemas.Boolean),
       }),
     ),
   })
@@ -289,8 +292,11 @@ export function createComponents(engine: IEngine) {
           Schemas.Map({
             id: Schemas.Optional(Schemas.Int),
             name: Schemas.Optional(Schemas.String),
+            allowedInBasicView: Schemas.Optional(Schemas.Boolean)
           }),
         ),
+        basicViewId: Schemas.Optional(Schemas.String),
+        allowedInBasicView: Schemas.Optional(Schemas.Boolean)
       }),
     ),
   })
@@ -300,6 +306,7 @@ export function createComponents(engine: IEngine) {
     value: Schemas.Array(Schemas.String),
     defaultValue: Schemas.Optional(Schemas.String),
     currentValue: Schemas.Optional(Schemas.String),
+    previousValue: Schemas.Optional(Schemas.String),
   })
 
   const CounterBar = engine.defineComponent(ComponentName.COUNTER_BAR, {
@@ -333,6 +340,8 @@ export type EngineComponents = {
   UiBackground: LastWriteWinElementSetComponentDefinition<PBUiBackground>
   Billboard: LastWriteWinElementSetComponentDefinition<PBBillboard>
   Name: LastWriteWinElementSetComponentDefinition<NameType>
+  Tween: LastWriteWinElementSetComponentDefinition<PBTween>
+  TweenSequence: LastWriteWinElementSetComponentDefinition<PBTweenSequence>
 }
 
 export function initComponents(engine: IEngine) {
@@ -408,6 +417,8 @@ export function getConditionTypesByComponentName(componentName: ComponentName) {
       return [
         TriggerConditionType.WHEN_STATE_IS,
         TriggerConditionType.WHEN_STATE_IS_NOT,
+        TriggerConditionType.WHEN_PREVIOUS_STATE_IS,
+        TriggerConditionType.WHEN_PREVIOUS_STATE_IS_NOT
       ]
     }
     case ComponentName.COUNTER: {

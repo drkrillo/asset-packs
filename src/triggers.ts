@@ -1,11 +1,14 @@
 import {
   IEngine,
   Entity,
-  PointerEventsSystem,
   InputAction,
   LastWriteWinElementSetComponentDefinition,
   DeepReadonlyObject,
+  Tween,
+  PointerEventsSystem,
+  TweenSystem,
 } from '@dcl/sdk/ecs'
+import { Vector3 } from '@dcl/sdk/math'
 import {
   triggers,
   LAYER_1,
@@ -13,7 +16,6 @@ import {
   getPlayerPosition,
   getWorldPosition,
 } from '@dcl-sdk/utils'
-
 import {
   Action,
   ComponentName,
@@ -27,12 +29,11 @@ import {
   getComponents,
   EngineComponents,
 } from './definitions'
-import { getCurrentValue } from './states'
+import { getCurrentValue, getPreviousValue } from './states'
 import { getActionEvents, getTriggerEvents } from './events'
 import { getPayload } from './action-types'
 import { globalInputActions } from './input-actions'
 import { tickSet } from './timer'
-import { Vector3 } from '@dcl/sdk/math'
 
 const initedEntities = new Set<Entity>()
 const actionQueue: { entity: Entity; action: Action }[] = []
@@ -55,6 +56,7 @@ export function createTriggersSystem(
   engine: IEngine,
   components: EngineComponents,
   pointerEventsSystem: PointerEventsSystem,
+  tweenSystem: TweenSystem,
 ) {
   const { Transform } = components
   const { Actions, States, Counter, Triggers } = getComponents(engine)
@@ -73,6 +75,7 @@ export function createTriggersSystem(
     const entitiesWithTriggers = engine.getEntitiesWith(Triggers)
     for (const [entity] of entitiesWithTriggers) {
       initEntityTriggers(entity)
+      handleOnTweenEnd(entity)
     }
   }
 
@@ -201,6 +204,22 @@ export function createTriggersSystem(
             }
             break
           }
+          case TriggerConditionType.WHEN_PREVIOUS_STATE_IS: {
+            const states = States.getOrNull(entity)
+            if (states !== null) {
+              const previousValue = getPreviousValue(states)
+              return previousValue === condition.value
+            }
+            break
+          }
+          case TriggerConditionType.WHEN_PREVIOUS_STATE_IS_NOT: {
+            const states = States.getOrNull(entity)
+            if (states !== null) {
+              const previousValue = getPreviousValue(states)
+              return previousValue !== condition.value
+            }
+            break
+          }
           case TriggerConditionType.WHEN_COUNTER_EQUALS: {
             const counter = Counter.getOrNull(entity)
             if (counter !== null) {
@@ -316,6 +335,7 @@ export function createTriggersSystem(
     )
   }
 
+  // ON_PLAYER_ENTERS_AREA / ON_PLAYER_LEAVES_AREA
   function initOnPlayerTriggerArea(entity: Entity) {
     const transform = Transform.getOrNull(entity)
     triggers.addTrigger(
@@ -370,5 +390,13 @@ export function createTriggersSystem(
 
   function initOnTick(entity: Entity) {
     tickSet.add(entity)
+  }
+
+  // ON_TWEEN_END
+  function handleOnTweenEnd(entity: Entity) {
+    if (Tween.getOrNull(entity) && tweenSystem.tweenCompleted(entity)) {
+      const triggerEvents = getTriggerEvents(entity)
+      triggerEvents.emit(TriggerType.ON_TWEEN_END)
+    }
   }
 }
