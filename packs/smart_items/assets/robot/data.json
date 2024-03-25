@@ -16,7 +16,7 @@
         {
           "name": "Die",
           "type": "batch",
-          "jsonPayload": "{ \"actions\": [\"Play Explosion Animation\", \"Delay Remove\"] }"
+          "jsonPayload": "{ \"actions\": [\"Play Explosion Animation\", \"Stop Attack Loop\", \"Delay Remove\"] }"
         },
         {
           "name": "Follow",
@@ -52,6 +52,11 @@
           "name": "Play Explosion Animation",
           "type": "play_animation",
           "jsonPayload": "{ \"animation\": \"explode\" }"
+        },
+        {
+          "name": "Stop Attack Loop",
+          "type": "stop_loop",
+          "jsonPayload": "{ \"action\": \"Damage\" }"
         }
       ]
     },
