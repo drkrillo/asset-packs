@@ -1031,6 +1031,15 @@ export function createActionsSystem(engine: IEngine) {
       const targetPosition = getWorldPosition(target)
       const distance = Vector3.distance(entityPosition, targetPosition)
 
+      // avoid causing damage to the entity itself or its children
+      const entityTree = Array.from(
+        getComponentEntityTree(engine, entity, Transform),
+      )
+      const isPartOfEntityTree = entityTree.some(($) => $ === target)
+      if (isPartOfEntityTree) {
+        continue
+      }
+
       if (layer) {
         if (layer === ProximityLayer.PLAYER) {
           const root = getRoot(target)
