@@ -57,7 +57,7 @@ export function createTriggersSystem(
   pointerEventsSystem: PointerEventsSystem,
   tweenSystem: TweenSystem,
 ) {
-  const { Transform, Tween: TweenComponent } = components
+  const { Transform, Tween: TweenComponent, PointerEvents } = components
   const { Actions, States, Counter, Triggers } = getComponents(engine)
 
   // save reference to the init function
@@ -93,8 +93,13 @@ export function createTriggersSystem(
     )
     for (const type of types) {
       switch (type) {
+        /** @deprecated use ON_INPUT_ACTION instead */
         case TriggerType.ON_CLICK: {
           initOnClickTrigger(entity)
+          break
+        }
+        case TriggerType.ON_INPUT_ACTION: {
+          initOnInputActionTrigger(entity)
           break
         }
         case TriggerType.ON_PLAYER_ENTERS_AREA:
@@ -317,6 +322,7 @@ export function createTriggersSystem(
     return null
   }
 
+  /** @deprecated use ON_INPUT_ACTION instead */
   // ON_CLICK
   function initOnClickTrigger(entity: Entity) {
     pointerEventsSystem.onPointerDown(
@@ -330,6 +336,29 @@ export function createTriggersSystem(
       () => {
         const triggerEvents = getTriggerEvents(entity)
         triggerEvents.emit(TriggerType.ON_CLICK)
+      },
+    )
+  }
+
+  // ON_INPUT_ACTION
+  function initOnInputActionTrigger(entity: Entity) {
+    const pointerEvent = PointerEvents.getOrNull(entity)
+
+    const opts = {
+      button:
+        pointerEvent?.pointerEvents[0].eventInfo?.button ||
+        InputAction.IA_POINTER,
+      ...(pointerEvent === null ? { hoverText: 'Click' } : {}),
+    }
+
+    pointerEventsSystem.onPointerDown(
+      {
+        entity,
+        opts,
+      },
+      () => {
+        const triggerEvents = getTriggerEvents(entity)
+        triggerEvents.emit(TriggerType.ON_INPUT_ACTION)
       },
     )
   }

@@ -83,7 +83,9 @@ export enum ActionType {
 }
 
 export enum TriggerType {
+  /** @deprecated use ON_INPUT_ACTION instead */
   ON_CLICK = 'on_click',
+  ON_INPUT_ACTION = 'on_input_action',
   ON_STATE_CHANGE = 'on_state_change',
   ON_SPAWN = 'on_spawn',
   ON_TWEEN_END = 'on_tween_end',
