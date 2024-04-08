@@ -60,7 +60,7 @@ export function createCounterBarSystem(
         const entityTransform = Transform.getMutableOrNull(entity)
         if (entityTransform) {
           if (entityTransform.parent === engine.PlayerEntity) {
-            entityTransform.position = { x: 0, y: 1.3, z: 0 }
+            entityTransform.position = { x: 0, y: 2.1, z: 0 }
             entityTransform.scale = { x: 0.5, y: 0.5, z: 0.5 }
           } else if (entityTransform.parent === engine.CameraEntity) {
             entityTransform.position = { x: 0, y: 0.5, z: 1 }
