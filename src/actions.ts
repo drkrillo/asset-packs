@@ -609,12 +609,19 @@ export function createActionsSystem(engine: IEngine) {
     payload: ActionPayload<ActionType.PLAY_SOUND>,
   ) {
     const { src, loop, volume } = payload
-    AudioSource.createOrReplace(entity, {
-      audioClipUrl: src,
-      loop,
-      playing: true,
-      volume: volume ?? 1,
-    })
+    if (AudioSource.has(entity)) {
+      AudioSource.playSound(entity, src)
+      const audioSource = AudioSource.getMutable(entity)
+      audioSource.loop = loop
+      audioSource.volume = volume ?? 1
+    } else {
+      AudioSource.create(entity, {
+        audioClipUrl: src,
+        loop,
+        playing: true,
+        volume: volume ?? 1,
+      })
+    }
   }
 
   // STOP_SOUND
