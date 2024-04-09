@@ -22,17 +22,22 @@
         {
           "name": "Damage",
           "type": "damage",
-          "jsonPayload": "{ \"radius\": 3, \"hits\": 15, \"layer\": \"player\" }"
+          "jsonPayload": "{ \"radius\": 5, \"hits\": 15, \"layer\": \"player\" }"
         },
         {
           "name": "Start Damage",
           "type": "start_loop",
-          "jsonPayload": "{ \"actions\": [\"Damage\"], \"interval\": 2 }"
+          "jsonPayload": "{ \"actions\": [\"Damage Batch\"], \"interval\": 2 }"
         },
         {
           "name": "Stop Damage",
           "type": "stop_loop",
-          "jsonPayload": "{ \"action\": \"Damage\" }"
+          "jsonPayload": "{ \"action\": \"Damage Batch\" }"
+        },
+        {
+          "name": "Damage Batch",
+          "type": "batch",
+          "jsonPayload": "{ \"actions\": [\"Damage\", \"Play Damage Sound\"]}"
         }
       ]
     },
@@ -44,10 +49,6 @@
             {
               "id": "{self:asset-packs::Actions}",
               "name": "Start Damage"
-            },
-            {
-              "id": "{self:asset-packs::Actions}",
-              "name": "Play Damage Sound"
             }
           ]
         },

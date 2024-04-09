@@ -10,7 +10,6 @@ import {
   AnimatorComponentDefinitionExtended,
   TransformComponentExtended,
   LastWriteWinElementSetComponentDefinition,
-  PBAudioSource,
   PBAvatarAttach,
   PBVisibilityComponent,
   PBGltfContainer,
@@ -23,6 +22,7 @@ import {
   PBTween,
   PBTweenSequence,
   PBPointerEvents,
+  AudioSourceComponentDefinitionExtended,
 } from '@dcl/sdk/ecs'
 import { addActionType } from './action-types'
 import {
@@ -327,7 +327,7 @@ export function createComponents(engine: IEngine) {
 export type EngineComponents = {
   Animator: AnimatorComponentDefinitionExtended
   Transform: TransformComponentExtended
-  AudioSource: LastWriteWinElementSetComponentDefinition<PBAudioSource>
+  AudioSource: AudioSourceComponentDefinitionExtended
   AvatarAttach: LastWriteWinElementSetComponentDefinition<PBAvatarAttach>
   VisibilityComponent: LastWriteWinElementSetComponentDefinition<PBVisibilityComponent>
   GltfContainer: LastWriteWinElementSetComponentDefinition<PBGltfContainer>
