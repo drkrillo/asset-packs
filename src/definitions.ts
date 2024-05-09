@@ -255,6 +255,7 @@ export function createComponents(engine: IEngine) {
         type: Schemas.String,
         jsonPayload: Schemas.String,
         allowedInBasicView: Schemas.Optional(Schemas.Boolean),
+        basicViewId: Schemas.Optional(Schemas.String),
       }),
     ),
   })

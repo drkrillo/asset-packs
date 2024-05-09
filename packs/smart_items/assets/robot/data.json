@@ -16,12 +16,21 @@
         {
           "name": "Die",
           "type": "batch",
-          "jsonPayload": "{ \"actions\": [\"Play Explosion Animation\", \"Stop Attack Loop\", \"Delay Remove\"] }"
+          "jsonPayload": "{ \"actions\": [\"Play Explosion Animation\", \"Stop Attack Loop\", \"Delay Remove\"] }",
+          "allowedInBasicView": true
         },
         {
           "name": "Follow",
           "type": "follow_player",
-          "jsonPayload": "{ \"speed\": 1, \"minDistance\": 2, \"x\": true, \"y\": false, \"z\": true }"
+          "jsonPayload": "{ \"speed\": 1, \"minDistance\": 2, \"x\": true, \"y\": false, \"z\": true }",
+          "basicViewId": "action-follow-player",
+          "allowedInBasicView": true
+        },
+        {
+          "name": "Stop Following Player",
+          "type": "stop_following_player",
+          "jsonPayload": "{ }",
+          "allowedInBasicView": true
         },
         {
           "name": "Play Attack Animation",
@@ -31,7 +40,9 @@
         {
           "name": "Damage",
           "type": "damage",
-          "jsonPayload": "{ \"radius\": 3, \"hits\": 10, \"layer\": \"player\" }"
+          "jsonPayload": "{ \"radius\": 3, \"hits\": 10, \"layer\": \"player\" }",
+          "basicViewId": "action-damage",
+          "allowedInBasicView": true
         },
         {
           "name": "Attack Loop",
@@ -90,6 +101,24 @@
               "name": "Play Attack Animation"
             }
           ]
+        }
+      ]
+    },
+    "inspector::Config": {
+      "isBasicViewEnabled": true,
+      "componentName": "Robot Enemy",
+      "fields": [
+        {
+          "name": "Damage",
+          "type": "asset-packs::Actions",
+          "basicViewId": "action-damage",
+          "layout":"{\"radius\": { \"field\": \"TextField\", \"type\": \"number\", \"label\": \"Attack Radius\" }, \"hits\": { \"field\": \"TextField\", \"type\": \"number\", \"label\": \"Attack Damage Points\" }, \"layer\": { \"field\": \"Dropdown\", \"label\": \"Damage Target\" } }"
+        },
+        {
+          "name": "Speed",
+          "type": "asset-packs::Actions",
+          "basicViewId": "action-follow-player",
+          "layout":"{\"speed\": { \"field\": \"TextField\", \"type\": \"number\" } }"
         }
       ]
     }

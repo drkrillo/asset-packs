@@ -17,7 +17,8 @@
         {
           "name": "Pick Up",
           "type": "batch",
-          "jsonPayload": "{ \"actions\": [\"Set Ready\"] }"
+          "jsonPayload": "{ \"actions\": [\"Set Ready\"] }",
+          "allowedInBasicView": true
         },
         {
           "name": "Set Ready",
@@ -37,7 +38,8 @@
         {
           "name": "Damage",
           "type": "damage",
-          "jsonPayload": "{ \"radius\": 3, \"hits\": 10, \"layer\": \"non_player\" }"
+          "jsonPayload": "{ \"radius\": 3, \"hits\": 10, \"layer\": \"non_player\" }",
+          "basicViewId": "action-damage"
         },
         {
           "name": "Set Cooling Down",
@@ -47,7 +49,9 @@
         {
           "name": "Start Cool Down Delay",
           "type": "start_delay",
-          "jsonPayload": "{ \"actions\": [\"Set Ready\"], \"timeout\": 0.5 }"
+          "jsonPayload": "{ \"actions\": [\"Set Ready\"], \"timeout\": 0.5 }",
+          "basicViewId": "action-cool-down-delay",
+          "allowedInBasicView": true
         },
         {
           "name": "Cool Down",
@@ -114,6 +118,24 @@
         "Cooling Down"
       ],
       "defaultValue": "Idle"
+    },
+    "inspector::Config": {
+      "isBasicViewEnabled": true,
+      "componentName": "Sword",
+      "fields": [
+        {
+          "name": "Damage",
+          "type": "asset-packs::Actions",
+          "basicViewId": "action-damage",
+          "layout":"{\"radius\": { \"field\": \"TextField\", \"type\": \"number\" }, \"hits\": { \"field\": \"TextField\", \"type\": \"number\", \"label\": \"Damage Points\" }, \"layer\": { \"field\": \"Dropdown\", \"label\": \"Damage Target\" }}"
+        },
+        {
+          "name": "Attack Cooldown",
+          "type": "asset-packs::Actions",
+          "basicViewId": "action-cool-down-delay",
+          "layout": "{\"timeout\": { \"field\": \"RangeField\", \"label\": \"Attack Cooldown\", \"step\": \"0.1\" } }"
+        }
+      ]
     }
   }
 }

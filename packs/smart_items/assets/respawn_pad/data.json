@@ -18,7 +18,8 @@
         {
           "name": "Respawn Player",
           "type": "batch",
-          "jsonPayload": "{ \"actions\": [\"Move Player\", \"Play Spawn Sound\"] }"
+          "jsonPayload": "{ \"actions\": [\"Move Player\", \"Play Spawn Sound\"] }",
+          "allowedInBasicView": true
         },
         {
           "name": "Move Player",
@@ -29,6 +30,26 @@
           "name": "Play Spawn Sound",
           "type": "play_sound",
           "jsonPayload": "{ \"src\": \"{assetPath}/spawn.mp3\" }"
+        }
+      ]
+    },
+    "asset-packs::Triggers": {
+      "value": [
+        {
+          "type": "on_player_spawn",
+          "actions": [],
+          "basicViewId": "trigger-when-player-spawn"
+        }
+      ]
+    },
+    "inspector::Config": {
+      "isBasicViewEnabled": true,
+      "componentName": "Respawn Pad",
+      "fields": [
+        {
+          "name": "When Player Spawns Here",
+          "type": "asset-packs::Triggers",
+          "basicViewId": "trigger-when-player-spawn"
         }
       ]
     }
