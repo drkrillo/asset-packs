@@ -1,4 +1,4 @@
-import { engine } from '@dcl/sdk/ecs'
+import { engine } from '@dcl/ecs'
 import { initAssetPacks } from './scene-entrypoint'
 
 initAssetPacks(engine)

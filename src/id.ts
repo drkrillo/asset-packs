@@ -2,7 +2,7 @@ import {
   ComponentDefinition,
   IEngine,
   LastWriteWinElementSetComponentDefinition,
-} from '@dcl/sdk/ecs'
+} from '@dcl/ecs'
 import { ComponentName, Counter } from './definitions'
 
 export const COMPONENTS_WITH_ID: string[] = [
