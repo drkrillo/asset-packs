@@ -1,4 +1,4 @@
-import { YGAlign, YGJustify } from '@dcl/sdk/ecs'
+import { YGAlign, YGJustify } from '@dcl/ecs'
 
 export enum ComponentName {
   ACTION_TYPES = 'asset-packs::ActionTypes',

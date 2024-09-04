@@ -3,7 +3,7 @@ import {
   IEngine,
   TransformComponentExtended,
   getComponentEntityTree,
-} from '@dcl/sdk/ecs'
+} from '@dcl/ecs'
 import { getNextId, requiresId } from './id'
 import { isLastWriteWinComponent } from './lww'
 import { TriggersComponent } from './definitions'

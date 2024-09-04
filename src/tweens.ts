@@ -1,5 +1,5 @@
-import { EasingFunction } from "@dcl/sdk/ecs"
-import { InterpolationType } from "./enums"
+import { EasingFunction } from '@dcl/ecs'
+import { InterpolationType } from './enums'
 
 /**
  * Maps an EasingFunction to the provided InterpolationType
@@ -8,7 +8,9 @@ import { InterpolationType } from "./enums"
  * @returns An EasingFunction enum type
  * @public
  */
-export function getEasingFunctionFromInterpolation(type: InterpolationType): EasingFunction {
+export function getEasingFunctionFromInterpolation(
+  type: InterpolationType,
+): EasingFunction {
   switch (type) {
     case InterpolationType.LINEAR:
       return EasingFunction.EF_LINEAR

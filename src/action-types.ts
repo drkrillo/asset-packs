@@ -1,4 +1,4 @@
-import { IEngine, ISchema, JsonSchemaExtended, Schemas } from '@dcl/sdk/ecs'
+import { IEngine, ISchema, JsonSchemaExtended, Schemas } from '@dcl/ecs'
 import {
   Action,
   ActionPayload,

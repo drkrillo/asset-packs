@@ -3,7 +3,7 @@ import {
   createInputSystem,
   createPointerEventsSystem,
   createTweenSystem,
-} from '@dcl/sdk/ecs'
+} from '@dcl/ecs'
 import { createComponents, initComponents } from './definitions'
 import { createActionsSystem } from './actions'
 import { createTriggersSystem } from './triggers'

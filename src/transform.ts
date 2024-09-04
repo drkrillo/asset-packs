@@ -1,4 +1,4 @@
-import { Entity } from '@dcl/sdk/ecs'
+import { Entity } from '@dcl/ecs'
 import { EngineComponents } from './definitions'
 import { Quaternion, Vector3 } from '@dcl/sdk/math'
 

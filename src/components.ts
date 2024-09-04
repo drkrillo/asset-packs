@@ -17,7 +17,7 @@ import {
   TweenSequence as defineTweenSequence,
   PointerEvents as definePointerEvents,
 } from '@dcl/ecs/dist/components'
-import { IEngine } from '@dcl/sdk/ecs'
+import { IEngine } from '@dcl/ecs'
 import { EngineComponents } from './definitions'
 
 export function getExplorerComponents(engine: IEngine): EngineComponents {

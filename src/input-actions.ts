@@ -1,5 +1,5 @@
 import mitt from 'mitt'
-import { IInputSystem, InputAction, PointerEventType } from '@dcl/sdk/ecs'
+import { IInputSystem, InputAction, PointerEventType } from '@dcl/ecs'
 
 export const globalInputActions = mitt<Record<InputAction, null>>()
 

@@ -1,7 +1,7 @@
 import {
   ComponentDefinition,
   LastWriteWinElementSetComponentDefinition,
-} from '@dcl/sdk/ecs'
+} from '@dcl/ecs'
 
 export function isLastWriteWinComponent<T = unknown>(
   component: ComponentDefinition<T>,

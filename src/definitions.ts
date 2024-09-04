@@ -23,7 +23,7 @@ import {
   PBTweenSequence,
   PBPointerEvents,
   AudioSourceComponentDefinitionExtended,
-} from '@dcl/sdk/ecs'
+} from '@dcl/ecs'
 import { addActionType } from './action-types'
 import {
   ComponentName,
