@@ -8,10 +8,10 @@ import {
   YGJustify,
   YGPositionType,
   YGUnit,
-} from '@dcl/sdk/ecs'
-import { Color4 } from '@dcl/sdk/math'
+} from '@dcl/ecs'
 import { EngineComponents } from './definitions'
 import { AlignMode, Font, ScreenAlignMode } from './enums'
+import { Color4 } from '@dcl/ecs/dist/components/generated/pb/decentraland/common/colors.gen'
 
 function getAlignMode(align: AlignMode, isColumn: boolean) {
   switch (align) {
@@ -134,7 +134,7 @@ export function mapAlignToScreenAlign(
 }
 
 export function getUITransform(
-  component: EngineComponents["UiTransform"],
+  component: EngineComponents['UiTransform'],
   entiy: Entity,
   height = 100,
   width = 100,
@@ -162,7 +162,7 @@ export function getUITransform(
 }
 
 export function getUIBackground(
-  component: EngineComponents["UiBackground"],
+  component: EngineComponents['UiBackground'],
   entity: Entity,
   src: string,
   textureMode = BackgroundTextureMode.NINE_SLICES,
@@ -225,13 +225,13 @@ function breakLines(text: string, linelength: number) {
 }
 
 export function getUIText(
-  component: EngineComponents["UiText"],
+  component: EngineComponents['UiText'],
   entity: Entity,
   text: string,
   fontSize = 10,
   containerWidth: number,
   align: AlignMode = AlignMode.TAM_MIDDLE_CENTER,
-  color: Color4 = Color4.Black(),
+  color: Color4 = { r: 0, g: 0, b: 0, a: 1 },
 ) {
   const lineLength = Math.floor(containerWidth / (fontSize / 1.7))
 

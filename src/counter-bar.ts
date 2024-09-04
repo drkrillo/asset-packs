@@ -1,4 +1,4 @@
-import { Entity, IEngine } from '@dcl/sdk/ecs'
+import { Entity, IEngine } from '@dcl/ecs'
 import { EngineComponents, getComponents } from './definitions'
 import { Color4, Quaternion } from '@dcl/sdk/math'
 

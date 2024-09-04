@@ -1,5 +1,5 @@
 import mitt, { Emitter } from 'mitt'
-import { Entity } from '@dcl/sdk/ecs'
+import { Entity } from '@dcl/ecs'
 import { ActionPayload, ActionType, TriggerType } from './definitions'
 
 const triggers = new Map<Entity, Emitter<Record<TriggerType, void>>>()

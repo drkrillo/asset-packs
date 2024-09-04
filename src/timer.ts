@@ -1,4 +1,4 @@
-import { Entity } from '@dcl/sdk/ecs'
+import { Entity } from '@dcl/ecs'
 import { getTriggerEvents } from './events'
 import { TriggerType } from './enums'
 

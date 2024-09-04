@@ -18,7 +18,7 @@ import {
   PBTween,
   Rotate,
   Scale,
-} from '@dcl/sdk/ecs'
+} from '@dcl/ecs'
 import { Quaternion, Vector3 } from '@dcl/sdk/math'
 import { requestTeleport } from '~system/UserActionModule'
 import {

@@ -8,7 +8,7 @@ import {
   TweenSystem,
   TweenState,
   TweenStateStatus,
-} from '@dcl/sdk/ecs'
+} from '@dcl/ecs'
 import { Vector3 } from '@dcl/sdk/math'
 import {
   triggers,
