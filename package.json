@@ -56,9 +56,6 @@
     "@dcl/js-runtime": "7.5.2",
     "mitt": "^3.0.1"
   },
-  "peerDependencies": {
-    "@dcl/ecs": "7.x"
-  },
   "prettier": {
     "singleQuote": true,
     "semi": false,
