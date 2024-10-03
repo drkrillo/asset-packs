@@ -45,3 +45,16 @@ Go to the `builder` repo in your machine and do this:
 5. Run `npm start` to start the builder local server which should start on port `3000`
 
 Now you are all set, you can start developing the SDK7 scene in this repo, use it from the local Builder and test it by previewing the scene, which should use your local Builder Server serving the development javascript files.
+
+### Troubleshooting
+
+#### Missing `@dcl/ecs` dependency
+This package has a dependency on `@dcl/ecs` for several types. This is package is not added as a dependency even though it should be, because this causes an issue when installing `@dcl/sdk@next` on a scene. The problem is the following dependency chains:
+
+1) `@dcl/sdk` -> `@dcl/ecs`
+2) `@dcl/sdk` -> `@dcl/sdk-commands` -> `@dcl/inspector` -> `@dcl/asset-packs` -> `@dcl/ecs`
+
+When a user installs `@dcl/sdk@next` on as scene, that updates `@dcl/ecs` from 1) but not the one from 2) and due to the clash npm stores the `@latest` version on the top level of node_modules and the `@next` version only whithin the `@dcl/sdk/node_modules`. This can cause runtime issues.
+
+So we decisded to remove the explicit dependency of `@dcl/ecs` from the `@dcl/asset-packs` package, and that allows users to install `@dcl/sdk@next` or upgrade versions without problems. 
+The downside is that if this package is used in some project where `@dcl/ecs` is not available, it's going to break. This package is not meant to be used outside of a Decentraland scene anyway so that shouldn't be a problem.
