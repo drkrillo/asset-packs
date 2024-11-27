@@ -17,7 +17,7 @@ import {
   isAssetData,
   isAssetPackData,
   isLegacyAssetData,
-} from './types'
+} from '../../src/types'
 
 export class LocalFileSystem {
   constructor(public cwd: string) {}

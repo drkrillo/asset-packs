@@ -1,4 +1,4 @@
-import { ComponentName } from '../../src/enums'
+import { ComponentName } from './enums'
 
 export type AssetPackData = {
   id: string

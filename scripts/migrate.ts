@@ -7,7 +7,7 @@ import {
   isAssetPackData,
   isLegacyAssetData,
   Component,
-} from './utils/types'
+} from '../src/types'
 
 /**
  * Creates a component object with the specified name and data.

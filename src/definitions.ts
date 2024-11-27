@@ -47,6 +47,7 @@ export * from './id'
 export * from './states'
 export * from './clone'
 export * from './lww'
+export * from './types'
 
 export const ActionSchemas = {
   [ActionType.PLAY_ANIMATION]: Schemas.Map({
