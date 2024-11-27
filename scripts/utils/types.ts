@@ -14,12 +14,30 @@ export function isAssetPackData(value: any): value is AssetPackData {
   )
 }
 
-export type AssetData = {
+export type LegacyAssetData = {
   id: string
   name: string
   category: string
   tags: string[]
   components: Record<string, any>
+}
+
+export type AssetData = {
+  id: string
+  name: string
+  category: string
+  tags: string[]
+  composite: {
+    version: number
+    components: Array<{
+      name: string
+      data: {
+        [key: string]: {
+          json: any
+        }
+      }
+    }>
+  }
 }
 
 export interface TriggerData {
@@ -34,6 +52,18 @@ export interface TriggerData {
 
 export function isAssetData(value: any): value is AssetData {
   return (
+    value &&
+    typeof value === 'object' &&
+    'composite' in value &&
+    typeof value.composite === 'object' &&
+    'version' in value.composite &&
+    'components' in value.composite &&
+    Array.isArray(value.composite.components)
+  )
+}
+
+export function isLegacyAssetData(value: any): value is LegacyAssetData {
+  return (
     typeof value === 'object' &&
     value !== null &&
     typeof value.id === 'string' &&
@@ -45,14 +75,21 @@ export function isAssetData(value: any): value is AssetData {
 }
 
 export function getTriggerComponent(value: AssetData): TriggerData | undefined {
-  return value.components[ComponentName.TRIGGERS]
+  return value.composite.components.find(
+    (c) => c.name === ComponentName.TRIGGERS,
+  )?.data[0]?.json as TriggerData | undefined
 }
 
-export function assertValidTriggerComponent(assetName: string, trigger: TriggerData) {
+export function assertValidTriggerComponent(
+  assetName: string,
+  trigger: TriggerData,
+) {
   trigger.value.forEach(({ type, actions }) => {
     actions.forEach(({ id, name }) => {
       if (!id || !name) {
-        throw new Error(`Invalid actions found on "${assetName}" for trigger with type "${type}"`)
+        throw new Error(
+          `Invalid actions found on "${assetName}" for trigger with type "${type}"`,
+        )
       }
     })
   })
@@ -61,3 +98,23 @@ export function assertValidTriggerComponent(assetName: string, trigger: TriggerD
 export type Asset = AssetData & { contents: Record<string, string> }
 export type AssetPack = AssetPackData & { thumbnail: string; assets: Asset[] }
 export type Catalog = { assetPacks: AssetPack[] }
+
+export type JsonSchemaProperty = {
+  type: string
+  properties?: { [key: string]: JsonSchemaProperty }
+  items?: {
+    type: string
+    properties?: { [key: string]: JsonSchemaProperty }
+    serializationType?: string
+  }
+  serializationType?: string
+}
+
+export type Component = {
+  name: string
+  data: {
+    [key: string]: {
+      json: any
+    }
+  }
+}

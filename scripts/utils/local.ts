@@ -16,6 +16,7 @@ import {
   Catalog,
   isAssetData,
   isAssetPackData,
+  isLegacyAssetData,
 } from './types'
 
 export class LocalFileSystem {
@@ -42,7 +43,7 @@ export class LocalFileSystem {
     const dataPath = `${path}/data.json`
     const data = await readJson(dataPath)
     if (!isAssetPackData(data)) {
-      throw new Error(`Invalid data in "${dataPath}"`)
+      throw new Error(`Invalid data in "${dataPath}", ${JSON.stringify(data)}`)
     }
     const thumbnailPath = `${path}/thumbnail.png`
     const thumbnail = await readBuffer(thumbnailPath)
@@ -61,6 +62,11 @@ export class LocalFileSystem {
   async getAsset(path: string) {
     const dataPath = `${path}/data.json`
     const data = await readJson(dataPath)
+    if (isLegacyAssetData(data)) {
+      throw new Error(
+        `Asset "${data.name}" is using the legacy data format. Please run the migration script.`,
+      )
+    }
     if (!isAssetData(data)) {
       throw new Error(`Invalid data in "${dataPath}"`)
     }
@@ -113,10 +119,20 @@ export class LocalFileSystem {
       name,
       category,
       tags,
-      components: {
-        'core::GltfContainer': {
-          src: `{assetPath}/${model}`,
-        },
+      composite: {
+        version: 1,
+        components: [
+          {
+            name: 'core::GltfContainer',
+            data: {
+              '0': {
+                json: {
+                  src: `${assetPath}/${model}`,
+                },
+              },
+            },
+          },
+        ],
       },
     }
     await createDirectory(assetPath)
@@ -133,8 +149,8 @@ export class LocalFileSystem {
     const folders = await getSubfolders(path)
     return Promise.all(
       folders.map((folder) =>
-        this.getAsset(folder).catch(() => {
-          throw new Error(`Invalid asset at ${folder}`)
+        this.getAsset(folder).catch((error) => {
+          throw new Error(`Invalid asset at ${folder}: ${error.message}`)
         }),
       ),
     )
