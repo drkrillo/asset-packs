@@ -3,9 +3,19 @@
   "name": "Night Stand",
   "category": "furniture",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Night Stand.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Night Stand.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

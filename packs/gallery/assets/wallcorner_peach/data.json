@@ -3,9 +3,19 @@
   "name": "WallCorner - Peach ",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/PeachCorner.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/PeachCorner.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

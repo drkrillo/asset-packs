@@ -12,9 +12,19 @@
     "market",
     "edible"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/FoodPineapple_01/FoodPineapple_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/FoodPineapple_01/FoodPineapple_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

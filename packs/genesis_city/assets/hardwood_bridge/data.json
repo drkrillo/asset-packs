@@ -12,9 +12,19 @@
     "river",
     "water"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Bridge_01/Bridge_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Bridge_01/Bridge_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

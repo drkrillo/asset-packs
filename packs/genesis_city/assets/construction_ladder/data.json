@@ -12,9 +12,19 @@
     "step",
     "metal"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/ConstructionLadder_01/ConstructionLadder_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/ConstructionLadder_01/ConstructionLadder_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

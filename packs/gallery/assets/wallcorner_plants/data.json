@@ -3,9 +3,19 @@
   "name": "WallCorner - Plants",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/PlantCorner.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/PlantCorner.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

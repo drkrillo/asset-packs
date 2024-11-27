@@ -3,9 +3,19 @@
   "name": "Small Iron Fence",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/HWN20_SmallIronfFence_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/HWN20_SmallIronfFence_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

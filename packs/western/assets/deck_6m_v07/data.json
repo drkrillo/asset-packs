@@ -3,9 +3,19 @@
   "name": "Deck 6M v07",
   "category": "structures",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Deck 6M v07.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Deck 6M v07.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

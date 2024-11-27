@@ -8,9 +8,19 @@
     "knife",
     "tableware"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Knife_01/Knife_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Knife_01/Knife_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

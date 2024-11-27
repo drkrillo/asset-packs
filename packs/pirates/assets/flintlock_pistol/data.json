@@ -18,9 +18,19 @@
     "boom",
     "bang"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Gun_01/Gun_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Gun_01/Gun_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

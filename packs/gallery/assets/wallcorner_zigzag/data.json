@@ -3,9 +3,19 @@
   "name": "WallCorner - Zigzag ",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/ZigzagCorner.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/ZigzagCorner.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

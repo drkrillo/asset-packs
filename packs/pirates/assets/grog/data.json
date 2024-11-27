@@ -12,9 +12,19 @@
     "beverage",
     "alcohol"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Bottle_07/Bottle_07.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Bottle_07/Bottle_07.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

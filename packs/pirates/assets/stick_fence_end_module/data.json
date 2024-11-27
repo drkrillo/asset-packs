@@ -14,9 +14,19 @@
     "stick",
     "sticks"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/FenceSticksEnd_01/FenceSticksEnd_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/FenceSticksEnd_01/FenceSticksEnd_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

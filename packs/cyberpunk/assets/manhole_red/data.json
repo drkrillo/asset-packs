@@ -3,9 +3,19 @@
   "name": "Manhole - Red",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Manhole_Red.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Manhole_Red.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

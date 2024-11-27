@@ -12,9 +12,19 @@
     "vegetation",
     "flowers"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/FarmVegetation_03/FarmVegetation_03.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/FarmVegetation_03/FarmVegetation_03.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

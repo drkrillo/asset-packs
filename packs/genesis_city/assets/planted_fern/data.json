@@ -16,9 +16,19 @@
     "backyard",
     "soil"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/PlantPot_03/PlantPot_03.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/PlantPot_03/PlantPot_03.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

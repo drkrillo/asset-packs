@@ -14,9 +14,19 @@
     "lootbox",
     "loot"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Trunk_01/Trunk_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Trunk_01/Trunk_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

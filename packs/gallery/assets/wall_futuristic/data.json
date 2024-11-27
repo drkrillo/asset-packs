@@ -3,9 +3,19 @@
   "name": "Wall - Futuristic",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/FuturisticWall.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/FuturisticWall.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

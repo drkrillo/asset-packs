@@ -3,9 +3,19 @@
   "name": "Factory Building 2",
   "category": "structures",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Factory_Building_2.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Factory_Building_2.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

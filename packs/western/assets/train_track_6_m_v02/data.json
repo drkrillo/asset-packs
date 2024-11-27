@@ -3,9 +3,19 @@
   "name": "Train Track 6 M V02",
   "category": "tiles",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Train Track 6 M V02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Train Track 6 M V02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

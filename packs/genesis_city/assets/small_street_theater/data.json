@@ -14,9 +14,19 @@
     "show",
     "street"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Theatre_01/Theatre_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Theatre_01/Theatre_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

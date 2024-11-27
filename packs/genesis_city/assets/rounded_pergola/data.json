@@ -10,9 +10,19 @@
     "garden",
     "park"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Pergola_01/Pergola_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Pergola_01/Pergola_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

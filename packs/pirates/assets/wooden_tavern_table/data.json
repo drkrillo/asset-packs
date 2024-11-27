@@ -12,9 +12,19 @@
     "table",
     "rectangular"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/TableWood_01/TableWood_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/TableWood_01/TableWood_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

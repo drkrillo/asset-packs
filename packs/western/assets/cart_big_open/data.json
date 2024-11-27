@@ -3,9 +3,19 @@
   "name": "Cart Big Open",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Cart Big Open.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Cart Big Open.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -3,9 +3,19 @@
   "name": "Pillar - Glow",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/GlowPillar.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/GlowPillar.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

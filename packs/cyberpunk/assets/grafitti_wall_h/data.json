@@ -3,9 +3,19 @@
   "name": "Grafitti Wall H",
   "category": "structures",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Grafitti_Wall_H.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Grafitti_Wall_H.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

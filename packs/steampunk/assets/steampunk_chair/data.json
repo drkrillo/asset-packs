@@ -3,9 +3,19 @@
   "name": "Steampunk Chair",
   "category": "furniture",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Steampunk Chair.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Steampunk Chair.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

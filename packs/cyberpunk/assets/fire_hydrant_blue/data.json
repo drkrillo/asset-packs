@@ -3,9 +3,19 @@
   "name": "Fire Hydrant  - Blue",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Fire_Hydrant_Blue.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Fire_Hydrant_Blue.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

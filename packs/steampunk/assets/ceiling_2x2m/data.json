@@ -3,9 +3,19 @@
   "name": "Ceiling 2x2M",
   "category": "tiles",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Ceiling 2x2M.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Ceiling 2x2M.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

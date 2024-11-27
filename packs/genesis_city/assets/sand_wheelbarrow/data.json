@@ -12,9 +12,19 @@
     "wheels",
     "construction"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Wheelbarrow_01/Wheelbarrow_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Wheelbarrow_01/Wheelbarrow_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

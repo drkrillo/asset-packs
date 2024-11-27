@@ -3,9 +3,19 @@
   "name": "Wall - AncientEgiptian",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/AncientEgiptianWall.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/AncientEgiptianWall.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

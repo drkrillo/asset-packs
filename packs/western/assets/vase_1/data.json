@@ -3,9 +3,19 @@
   "name": "Vase 1",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Vase 1.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Vase 1.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -10,9 +10,19 @@
     "sign",
     "yard"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Sign_03/Sign_03.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Sign_03/Sign_03.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

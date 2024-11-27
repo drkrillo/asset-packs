@@ -3,9 +3,19 @@
   "name": "Door 1",
   "category": "structures",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Door 1.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Door 1.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

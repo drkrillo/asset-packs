@@ -3,9 +3,19 @@
   "name": "Flying Taxi - Occupied",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Flying_Taxi_Occupied.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Flying_Taxi_Occupied.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

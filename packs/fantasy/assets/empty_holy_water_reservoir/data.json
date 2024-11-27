@@ -9,9 +9,19 @@
     "empty",
     "reservoir"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Pillar_Fire_02/Pillar_Fire_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Pillar_Fire_02/Pillar_Fire_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

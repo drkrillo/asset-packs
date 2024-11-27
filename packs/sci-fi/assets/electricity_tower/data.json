@@ -9,9 +9,19 @@
     "power",
     "laser"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/ElectricTower_01/ElectricTower_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/ElectricTower_01/ElectricTower_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

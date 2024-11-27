@@ -5,9 +5,19 @@
   "tags": [
     "fantasy"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Crystal_01/Crystal_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Crystal_01/Crystal_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

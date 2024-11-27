@@ -14,9 +14,19 @@
     "limit",
     "limits"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/ConstructionFence_02/ConstructionFence_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/ConstructionFence_02/ConstructionFence_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

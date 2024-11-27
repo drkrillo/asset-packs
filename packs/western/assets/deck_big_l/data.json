@@ -3,9 +3,19 @@
   "name": "Deck Big L",
   "category": "structures",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Deck Big L.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Deck Big L.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -3,9 +3,19 @@
   "name": "Narrow Flags 02",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Narrow_Flags_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Narrow_Flags_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

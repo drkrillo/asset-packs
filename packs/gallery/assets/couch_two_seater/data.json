@@ -3,9 +3,19 @@
   "name": "Couch - Two Seater ",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/TwoSeater_Couch.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/TwoSeater_Couch.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

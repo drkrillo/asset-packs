@@ -3,9 +3,19 @@
   "name": "Deck Train Side",
   "category": "structures",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Deck Train Side.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Deck Train Side.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

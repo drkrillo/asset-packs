@@ -7,32 +7,56 @@
     "links",
     "telegram"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/telegram.glb"
-    },
-    "asset-packs::Actions": {
-      "id": "{self}",
-      "value": [
-        {
-          "name": "Open Link",
-          "type": "open_link",
-          "jsonPayload": "{ \"url\": \"https://telegram.com\" }"
-        }
-      ]
-    },
-    "asset-packs::Triggers": {
-      "value": [
-        {
-          "type": "on_click",
-          "actions": [
-            {
-              "id": "{self:asset-packs::Actions}",
-              "name": "Open Link"
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/telegram.glb"
             }
-          ]
+          }
         }
-      ]
-    }
+      },
+      {
+        "name": "asset-packs::Actions",
+        "data": {
+          "0": {
+            "json": {
+              "id": "{self}",
+              "value": [
+                {
+                  "name": "Open Link",
+                  "type": "open_link",
+                  "jsonPayload": "{ \"url\": \"https://telegram.com\" }"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "name": "asset-packs::Triggers",
+        "data": {
+          "0": {
+            "json": {
+              "value": [
+                {
+                  "type": "on_click",
+                  "actions": [
+                    {
+                      "id": "{self:asset-packs::Actions}",
+                      "name": "Open Link"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   }
 }

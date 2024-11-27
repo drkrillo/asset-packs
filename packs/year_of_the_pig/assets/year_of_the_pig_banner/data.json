@@ -8,9 +8,19 @@
     "banner",
     "flag"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/ChineseFlag_01/ChineseFlag_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/ChineseFlag_01/ChineseFlag_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

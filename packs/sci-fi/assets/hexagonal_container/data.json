@@ -8,9 +8,19 @@
     "spaceship",
     "lab"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/ScienceContainer_02/ScienceContainer_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/ScienceContainer_02/ScienceContainer_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

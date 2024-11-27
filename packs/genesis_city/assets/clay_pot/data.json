@@ -12,9 +12,19 @@
     "flower",
     "flowers"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Pot_01/Pot_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Pot_01/Pot_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

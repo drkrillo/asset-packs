@@ -11,9 +11,19 @@
     "carpet",
     "picnic"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Carpet_02/Carpet_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Carpet_02/Carpet_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

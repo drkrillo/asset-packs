@@ -10,9 +10,19 @@
     "joist",
     "cealing"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Column_Wood_1M/Column_Wood_1M.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Column_Wood_1M/Column_Wood_1M.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -3,9 +3,19 @@
   "name": "Mines Tunel End",
   "category": "structures",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Mines Tunel End.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Mines Tunel End.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

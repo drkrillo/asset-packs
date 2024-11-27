@@ -18,9 +18,19 @@
     "yard",
     "farm"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/FencePicketDoor_01/FencePicketDoor_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/FencePicketDoor_01/FencePicketDoor_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

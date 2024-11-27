@@ -3,9 +3,19 @@
   "name": "Cactus 9",
   "category": "nature",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Cactus 9.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Cactus 9.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

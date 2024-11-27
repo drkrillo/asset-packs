@@ -3,9 +3,19 @@
   "name": "Doorframe - Peach",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/PeachDoorframe.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/PeachDoorframe.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

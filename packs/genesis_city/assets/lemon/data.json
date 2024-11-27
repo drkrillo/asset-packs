@@ -12,9 +12,19 @@
     "market",
     "edible"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/FoodLemon_01/FoodLemon_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/FoodLemon_01/FoodLemon_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

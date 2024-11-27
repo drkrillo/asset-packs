@@ -3,9 +3,19 @@
   "name": "Grass",
   "category": "ground",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Grass.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Grass.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

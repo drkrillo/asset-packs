@@ -8,9 +8,19 @@
     "pirates",
     "ground"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/FloorBaseDesert_01/FloorBaseDesert_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/FloorBaseDesert_01/FloorBaseDesert_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

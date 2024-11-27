@@ -3,9 +3,19 @@
   "name": "Helicopter Pink",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Helicopter_Pink.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Helicopter_Pink.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

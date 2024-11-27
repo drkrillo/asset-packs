@@ -3,9 +3,19 @@
   "name": "Sand 2",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/sand_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/sand_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

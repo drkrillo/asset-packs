@@ -12,9 +12,19 @@
     "seat",
     "round"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Chairwood_01/Chairwood_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Chairwood_01/Chairwood_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

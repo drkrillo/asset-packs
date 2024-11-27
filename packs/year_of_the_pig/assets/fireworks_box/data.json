@@ -8,9 +8,19 @@
     "box",
     "celebration"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/ChineseFireworks_01/ChineseFireworks_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/ChineseFireworks_01/ChineseFireworks_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

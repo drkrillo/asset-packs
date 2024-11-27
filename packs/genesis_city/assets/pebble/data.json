@@ -12,9 +12,19 @@
     "rock",
     "stones"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Pebble_01/Pebble_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Pebble_01/Pebble_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

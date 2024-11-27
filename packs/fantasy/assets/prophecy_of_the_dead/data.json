@@ -9,9 +9,19 @@
     "knowledge",
     "shelf"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Book_06/Book_06.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Book_06/Book_06.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

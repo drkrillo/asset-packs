@@ -3,9 +3,19 @@
   "name": "Bed Single",
   "category": "furniture",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Bed Single.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Bed Single.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

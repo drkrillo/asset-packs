@@ -3,9 +3,19 @@
   "name": "Arcade Machine Red",
   "category": "furniture",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Arcade_Machine_Red.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Arcade_Machine_Red.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

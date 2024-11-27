@@ -3,9 +3,19 @@
   "name": "Bottle - Sake",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Bottle_Sake.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Bottle_Sake.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

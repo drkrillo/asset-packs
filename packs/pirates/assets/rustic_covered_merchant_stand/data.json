@@ -13,9 +13,19 @@
     "fabric",
     "blanket"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/SellingGoods_03/SellingGoods_03.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/SellingGoods_03/SellingGoods_03.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -15,9 +15,19 @@
     "rope",
     "post"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/JungleLampPost_01/JungleLampPost_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/JungleLampPost_01/JungleLampPost_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

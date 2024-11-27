@@ -13,9 +13,19 @@
     "golden",
     "court"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Table_Wood_01/Table_Wood_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Table_Wood_01/Table_Wood_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

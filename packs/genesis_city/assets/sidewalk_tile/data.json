@@ -13,9 +13,19 @@
     "city",
     "tile"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/FloorBlock_01/FloorBlock_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/FloorBlock_01/FloorBlock_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

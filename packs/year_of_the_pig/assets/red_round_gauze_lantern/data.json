@@ -9,9 +9,19 @@
     "gauze",
     "red"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/ChineseLantern_03/ChineseLantern_03.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/ChineseLantern_03/ChineseLantern_03.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -10,9 +10,19 @@
     "forest",
     "ruins"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Stalagmite_02/Stalagmite_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Stalagmite_02/Stalagmite_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

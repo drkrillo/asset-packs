@@ -12,9 +12,19 @@
     "meal",
     "stew"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Cauldron_01/Cauldron_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Cauldron_01/Cauldron_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

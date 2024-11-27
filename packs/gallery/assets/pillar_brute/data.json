@@ -3,9 +3,19 @@
   "name": "Pillar - Brute",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/BrutePillar.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/BrutePillar.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -12,9 +12,19 @@
     "trip",
     "travel"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Suitcase_01/Suitcase_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Suitcase_01/Suitcase_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

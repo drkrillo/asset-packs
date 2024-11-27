@@ -9,9 +9,19 @@
     "base",
     "spaceship"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/LightCorner_02/LightCorner_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/LightCorner_02/LightCorner_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -3,9 +3,19 @@
   "name": "Train Track 10 M Curve",
   "category": "tiles",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Train Track 10 M Curve.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Train Track 10 M Curve.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

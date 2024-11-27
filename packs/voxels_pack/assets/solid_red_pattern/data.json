@@ -3,9 +3,19 @@
   "name": "Solid Red Pattern",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/solid_red_pattern.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/solid_red_pattern.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

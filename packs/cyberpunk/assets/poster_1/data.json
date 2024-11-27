@@ -3,9 +3,19 @@
   "name": "Poster 1",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Poster1.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Poster1.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

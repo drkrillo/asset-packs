@@ -3,9 +3,19 @@
   "name": "TV Games Console",
   "category": "furniture",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/TV_Games_Console.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/TV_Games_Console.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

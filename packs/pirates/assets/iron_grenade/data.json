@@ -12,9 +12,19 @@
     "wick",
     "boom"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Bomb_01/Bomb_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Bomb_01/Bomb_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

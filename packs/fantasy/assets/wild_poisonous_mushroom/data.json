@@ -9,9 +9,19 @@
     "forest",
     "ingredient"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Mushrooms_02/Mushrooms_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Mushrooms_02/Mushrooms_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

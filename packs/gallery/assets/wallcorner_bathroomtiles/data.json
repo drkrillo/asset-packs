@@ -3,9 +3,19 @@
   "name": "WallCorner - BathroomTiles ",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/BathroomTilesCorner.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/BathroomTilesCorner.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

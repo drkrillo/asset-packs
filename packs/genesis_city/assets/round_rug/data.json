@@ -12,9 +12,19 @@
     "beach",
     "sun"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Carpet_01/Carpet_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Carpet_01/Carpet_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

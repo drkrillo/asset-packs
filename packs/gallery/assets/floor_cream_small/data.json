@@ -3,9 +3,19 @@
   "name": "Floor - Cream Small",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/CreamFloor_Small.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/CreamFloor_Small.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

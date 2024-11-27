@@ -7,9 +7,19 @@
     "alien",
     "base"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Hallway_Module_Door_01/Hallway_Module_Door_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Hallway_Module_Door_01/Hallway_Module_Door_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

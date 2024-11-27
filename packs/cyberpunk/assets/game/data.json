@@ -3,9 +3,19 @@
   "name": "\"Game\"",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Game.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Game.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

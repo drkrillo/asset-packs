@@ -8,9 +8,19 @@
     "wood",
     "wooden"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Door_Wood_01/Door_Wood_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Door_Wood_01/Door_Wood_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -10,9 +10,19 @@
     "blue",
     "table"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Table_02/Table_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Table_02/Table_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

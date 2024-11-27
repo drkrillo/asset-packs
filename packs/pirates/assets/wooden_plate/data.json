@@ -13,9 +13,19 @@
     "dish",
     "meal"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Plate_01/Plate_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Plate_01/Plate_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

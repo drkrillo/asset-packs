@@ -3,9 +3,19 @@
   "name": "High Building 3",
   "category": "structures",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/High_Building_3.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/High_Building_3.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -14,9 +14,19 @@
     "paper",
     "message"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Bottle_11/Bottle_11.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Bottle_11/Bottle_11.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

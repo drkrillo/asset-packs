@@ -10,9 +10,19 @@
     "comfy",
     "beach"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Hammock_01/Hammock_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Hammock_01/Hammock_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

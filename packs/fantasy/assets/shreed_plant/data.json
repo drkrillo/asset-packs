@@ -8,9 +8,19 @@
     "plant",
     "green"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Plant_03/Plant_03.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Plant_03/Plant_03.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

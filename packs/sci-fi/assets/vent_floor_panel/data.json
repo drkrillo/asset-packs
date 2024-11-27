@@ -8,9 +8,19 @@
     "ground",
     "vent"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Floor_Module_05/Floor_Module_05.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Floor_Module_05/Floor_Module_05.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

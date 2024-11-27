@@ -3,9 +3,19 @@
   "name": "Ceiling 4x4M",
   "category": "tiles",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Ceiling 4x4M.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Ceiling 4x4M.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

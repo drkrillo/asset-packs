@@ -3,9 +3,19 @@
   "name": "Bar 3 1M",
   "category": "furniture",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Furnit Bar 3 1M.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Furnit Bar 3 1M.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

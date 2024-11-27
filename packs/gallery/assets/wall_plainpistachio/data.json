@@ -3,9 +3,19 @@
   "name": "Wall - PlainPistachio",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/PlainPistachioWall.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/PlainPistachioWall.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

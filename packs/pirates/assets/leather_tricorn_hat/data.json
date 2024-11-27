@@ -13,9 +13,19 @@
     "golden",
     "strips"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/PirateHat_01/PirateHat_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/PirateHat_01/PirateHat_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

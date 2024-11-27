@@ -9,9 +9,19 @@
     "electricity",
     "connectors"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Cable_4M_04/Cable_4M_04.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Cable_4M_04/Cable_4M_04.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

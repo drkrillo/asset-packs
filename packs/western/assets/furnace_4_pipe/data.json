@@ -3,9 +3,19 @@
   "name": "Furnace 4 Pipe",
   "category": "furniture",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Furnace 4 Pipe.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Furnace 4 Pipe.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

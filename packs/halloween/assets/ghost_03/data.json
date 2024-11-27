@@ -3,9 +3,19 @@
   "name": "Ghost 03",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/HWN20_Ghost_03.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/HWN20_Ghost_03.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

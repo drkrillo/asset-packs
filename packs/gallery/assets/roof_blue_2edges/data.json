@@ -3,9 +3,19 @@
   "name": "Roof - Blue 2Edges",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/BlueRoof_2Edges.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/BlueRoof_2Edges.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -3,9 +3,19 @@
   "name": "Sofa - White",
   "category": "furniture",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Sofa_White.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Sofa_White.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

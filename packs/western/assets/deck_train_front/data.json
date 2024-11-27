@@ -3,9 +3,19 @@
   "name": "Deck Train Front",
   "category": "structures",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Deck Train Front.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Deck Train Front.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

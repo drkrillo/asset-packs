@@ -3,9 +3,19 @@
   "name": "Bricks - White",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/brick_white.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/brick_white.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -14,9 +14,19 @@
     "tools",
     "hammer"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/ConstructionSign_01/ConstructionSign_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/ConstructionSign_01/ConstructionSign_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -3,9 +3,19 @@
   "name": "Floor - Green",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/GreenFloor.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/GreenFloor.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

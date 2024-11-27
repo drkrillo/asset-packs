@@ -8,9 +8,19 @@
     "bench",
     "sit"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Shelf_03/Shelf_03.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Shelf_03/Shelf_03.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

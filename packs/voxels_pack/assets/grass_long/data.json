@@ -3,9 +3,19 @@
   "name": "Grass - long",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/grass_long_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/grass_long_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

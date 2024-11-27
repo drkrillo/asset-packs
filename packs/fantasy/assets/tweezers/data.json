@@ -8,9 +8,19 @@
     "tweezers",
     "tool"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Tweezers_01/Tweezers_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Tweezers_01/Tweezers_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

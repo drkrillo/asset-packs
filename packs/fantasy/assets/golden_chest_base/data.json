@@ -8,9 +8,19 @@
     "gold",
     "golden"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Chest_Base_Gold_01/Chest_Base_Gold_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Chest_Base_Gold_01/Chest_Base_Gold_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

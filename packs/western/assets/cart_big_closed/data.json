@@ -3,9 +3,19 @@
   "name": "Cart Big Closed",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Cart Big Closed.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Cart Big Closed.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

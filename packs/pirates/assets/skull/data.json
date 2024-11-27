@@ -14,9 +14,19 @@
     "hamlet",
     "yorick"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/BonesSkull_01/BonesSkull_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/BonesSkull_01/BonesSkull_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

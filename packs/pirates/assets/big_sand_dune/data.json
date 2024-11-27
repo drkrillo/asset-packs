@@ -11,9 +11,19 @@
     "dune",
     "beach"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/SandPatchBig_01/SandPatchBig_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/SandPatchBig_01/SandPatchBig_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -16,9 +16,19 @@
     "backyard",
     "yard"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/TreeFir_02/TreeFir_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/TreeFir_02/TreeFir_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

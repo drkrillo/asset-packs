@@ -3,9 +3,19 @@
   "name": "Chest Plates Key",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Chest Plates Key.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Chest Plates Key.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -11,9 +11,19 @@
     "camping",
     "outdoor"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Table_05/Table_05.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Table_05/Table_05.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

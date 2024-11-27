@@ -3,9 +3,19 @@
   "name": "Pumpkin - Green",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/pumpkin_green.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/pumpkin_green.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

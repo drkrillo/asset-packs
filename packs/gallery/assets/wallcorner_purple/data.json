@@ -3,9 +3,19 @@
   "name": "WallCorner - Purple ",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/PurpleCorner.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/PurpleCorner.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

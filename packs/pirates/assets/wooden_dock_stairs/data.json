@@ -13,9 +13,19 @@
     "stair",
     "steps"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/DocksModuleStairs_01/DocksModuleStairs_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/DocksModuleStairs_01/DocksModuleStairs_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

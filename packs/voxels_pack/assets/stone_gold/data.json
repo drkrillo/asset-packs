@@ -3,9 +3,19 @@
   "name": "Stone - Gold",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/stone_gold.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/stone_gold.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

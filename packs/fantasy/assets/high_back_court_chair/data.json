@@ -10,9 +10,19 @@
     "court",
     "wood"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Chair_Wood_01/Chair_Wood_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Chair_Wood_01/Chair_Wood_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -7,9 +7,19 @@
     "swamp",
     "forest"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Vegetation_03/Vegetation_03.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Vegetation_03/Vegetation_03.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

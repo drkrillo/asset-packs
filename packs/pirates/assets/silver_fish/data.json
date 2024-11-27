@@ -11,9 +11,19 @@
     "silver",
     "water"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Fish_01/Fish_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Fish_01/Fish_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

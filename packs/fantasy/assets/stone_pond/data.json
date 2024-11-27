@@ -9,9 +9,19 @@
     "stone",
     "circular"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Pond_Stone_01/Pond_Stone_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Pond_Stone_01/Pond_Stone_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

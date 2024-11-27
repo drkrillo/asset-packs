@@ -3,9 +3,19 @@
   "name": "Roof - Black 3Edges",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/BlackRoof_3Edges.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/BlackRoof_3Edges.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

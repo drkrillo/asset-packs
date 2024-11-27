@@ -9,9 +9,19 @@
     "stone",
     "module"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Fence_Iron_3M/Fence_Iron_3M.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Fence_Iron_3M/Fence_Iron_3M.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

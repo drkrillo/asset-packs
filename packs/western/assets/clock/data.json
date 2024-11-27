@@ -3,9 +3,19 @@
   "name": "Clock",
   "category": "furniture",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Furnit 5 Clock.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Furnit 5 Clock.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

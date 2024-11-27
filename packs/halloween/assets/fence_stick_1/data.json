@@ -3,9 +3,19 @@
   "name": "Fence Stick 1",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/HWN20_FenceStick_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/HWN20_FenceStick_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

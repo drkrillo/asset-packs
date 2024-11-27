@@ -17,9 +17,19 @@
     "city",
     "road"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/FloorBlock_04/FloorBlock_04.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/FloorBlock_04/FloorBlock_04.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

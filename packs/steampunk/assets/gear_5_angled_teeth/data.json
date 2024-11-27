@@ -3,9 +3,19 @@
   "name": "Gear 5 Angled Teeth",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Gear 5 Angled Teeth.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Gear 5 Angled Teeth.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

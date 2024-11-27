@@ -13,9 +13,19 @@
     "ship",
     "flagship"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/BoatWheel_02/BoatWheel_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/BoatWheel_02/BoatWheel_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

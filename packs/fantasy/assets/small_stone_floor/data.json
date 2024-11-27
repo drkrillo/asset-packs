@@ -9,9 +9,19 @@
     "path",
     "tile"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Stone_Module_1M/Stone_Module_1M.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Stone_Module_1M/Stone_Module_1M.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

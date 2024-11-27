@@ -11,9 +11,19 @@
     "iron",
     "eye"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Chest_Box_02/Chest_Box_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Chest_Box_02/Chest_Box_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -3,9 +3,19 @@
   "name": "Solid Blue",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/solid_blue.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/solid_blue.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

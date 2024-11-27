@@ -14,9 +14,19 @@
     "mountain",
     "shrub"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Bush_03/Bush_03.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Bush_03/Bush_03.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

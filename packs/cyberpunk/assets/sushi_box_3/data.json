@@ -3,9 +3,19 @@
   "name": "Sushi Box 3",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Sushi_Box_3.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Sushi_Box_3.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

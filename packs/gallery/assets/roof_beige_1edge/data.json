@@ -3,9 +3,19 @@
   "name": "Roof - Beige 1Edge",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/BeigeRoof_1Edge.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/BeigeRoof_1Edge.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

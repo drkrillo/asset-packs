@@ -14,9 +14,19 @@
     "bush",
     "shrub"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/BushPatch_02/BushPatch_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/BushPatch_02/BushPatch_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

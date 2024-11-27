@@ -3,9 +3,19 @@
   "name": "House 8 M Gray",
   "category": "structures",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/House 8 M Gray.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/House 8 M Gray.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

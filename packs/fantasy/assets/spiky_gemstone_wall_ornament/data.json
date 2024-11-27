@@ -11,9 +11,19 @@
     "gem",
     "gemstone"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Ornament_04/Ornament_04.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Ornament_04/Ornament_04.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

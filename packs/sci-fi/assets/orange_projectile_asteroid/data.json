@@ -7,9 +7,19 @@
     "rock",
     "planet"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Stone_05/Stone_05.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Stone_05/Stone_05.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -8,9 +8,19 @@
     "fabric",
     "crown"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/FlagPole_02/FlagPole_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/FlagPole_02/FlagPole_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

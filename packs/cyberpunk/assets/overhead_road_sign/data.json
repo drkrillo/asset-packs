@@ -3,9 +3,19 @@
   "name": "Overhead Road Sign",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Overhead_Road_Sign.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Overhead_Road_Sign.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

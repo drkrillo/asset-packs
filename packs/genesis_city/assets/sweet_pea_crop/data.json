@@ -13,9 +13,19 @@
     "sweet",
     "pea"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/FarmVegetation_01/FarmVegetation_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/FarmVegetation_01/FarmVegetation_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

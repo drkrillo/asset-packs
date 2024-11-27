@@ -9,9 +9,19 @@
     "spines",
     "cactus"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Vegetation_06/Vegetation_06.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Vegetation_06/Vegetation_06.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

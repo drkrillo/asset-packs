@@ -3,9 +3,19 @@
   "name": "Floor - Plain White small",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/plainWhiteFloor_small.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/plainWhiteFloor_small.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

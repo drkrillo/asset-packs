@@ -3,9 +3,19 @@
   "name": "Roof - Grey 1Edge",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/GreyRoof_1Edge.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/GreyRoof_1Edge.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

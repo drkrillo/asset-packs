@@ -12,9 +12,19 @@
     "wooden",
     "fabric"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/WizardStaff_02/WizardStaff_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/WizardStaff_02/WizardStaff_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

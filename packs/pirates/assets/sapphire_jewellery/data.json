@@ -15,9 +15,19 @@
     "golden",
     "framed"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Gem_09/Gem_09.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Gem_09/Gem_09.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

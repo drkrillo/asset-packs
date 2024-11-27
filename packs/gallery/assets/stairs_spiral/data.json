@@ -3,9 +3,19 @@
   "name": "Stairs Spiral",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/SpiralStairs.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/SpiralStairs.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

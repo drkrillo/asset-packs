@@ -3,9 +3,19 @@
   "name": "Window - MetalBolts ",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/MetalBoltsWindow.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/MetalBoltsWindow.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

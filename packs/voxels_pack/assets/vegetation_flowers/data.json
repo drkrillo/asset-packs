@@ -3,9 +3,19 @@
   "name": "Vegetation - flowers",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/vegetation_light_flowers.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/vegetation_light_flowers.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

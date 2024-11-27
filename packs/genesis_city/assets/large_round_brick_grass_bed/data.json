@@ -12,9 +12,19 @@
     "brick",
     "bricks"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/GrassPatchLarge_01/GrassPatchLarge_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/GrassPatchLarge_01/GrassPatchLarge_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

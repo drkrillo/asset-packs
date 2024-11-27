@@ -3,9 +3,19 @@
   "name": "Cross Table",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/CrossTable.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/CrossTable.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

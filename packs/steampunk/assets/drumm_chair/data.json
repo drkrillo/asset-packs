@@ -3,9 +3,19 @@
   "name": "Drumm Chair",
   "category": "furniture",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Drumm Chair.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Drumm Chair.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

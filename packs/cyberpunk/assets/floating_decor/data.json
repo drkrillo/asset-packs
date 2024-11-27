@@ -3,9 +3,19 @@
   "name": "Floating Decor",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Floating_Decor.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Floating_Decor.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

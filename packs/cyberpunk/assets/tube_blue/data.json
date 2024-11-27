@@ -3,9 +3,19 @@
   "name": "Tube - Blue",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Tube_Blue.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Tube_Blue.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

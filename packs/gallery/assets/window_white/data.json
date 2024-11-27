@@ -3,9 +3,19 @@
   "name": "Window - White ",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/WhiteWindow.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/WhiteWindow.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

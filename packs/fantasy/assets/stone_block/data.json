@@ -7,9 +7,19 @@
     "stone",
     "block"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Fence_Stone_Block_01/Fence_Stone_Block_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Fence_Stone_Block_01/Fence_Stone_Block_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -14,9 +14,19 @@
     "park",
     "garden"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/FenceIronSmall_01/FenceIronSmall_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/FenceIronSmall_01/FenceIronSmall_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

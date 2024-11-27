@@ -3,9 +3,19 @@
   "name": "Road Cobble T",
   "category": "tiles",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Road Cobble T.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Road Cobble T.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

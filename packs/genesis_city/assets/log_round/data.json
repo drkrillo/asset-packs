@@ -11,9 +11,19 @@
     "forest",
     "log"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Log_04/Log_04.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Log_04/Log_04.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

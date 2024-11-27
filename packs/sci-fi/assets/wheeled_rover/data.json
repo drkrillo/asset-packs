@@ -8,9 +8,19 @@
     "tech",
     "machine"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Rover_01/Rover_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Rover_01/Rover_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

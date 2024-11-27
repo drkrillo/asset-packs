@@ -14,9 +14,19 @@
     "pillar",
     "pillars"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/RockPillars_01/RockPillars_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/RockPillars_01/RockPillars_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

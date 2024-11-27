@@ -7,9 +7,19 @@
     "weapon",
     "laser"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Turret_03/Turret_03.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Turret_03/Turret_03.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

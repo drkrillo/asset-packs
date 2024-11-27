@@ -8,9 +8,19 @@
     "cart",
     "curved"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/TrainTrack_Curve_01/TrainTrack_Curve_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/TrainTrack_Curve_01/TrainTrack_Curve_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

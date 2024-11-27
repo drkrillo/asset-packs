@@ -3,9 +3,19 @@
   "name": "Window - LEDGrid ",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/LEDGridWindow.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/LEDGridWindow.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

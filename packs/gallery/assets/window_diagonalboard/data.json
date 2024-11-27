@@ -3,9 +3,19 @@
   "name": "Window - DiagonalBoard ",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/DiagonalBoardWindow.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/DiagonalBoardWindow.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

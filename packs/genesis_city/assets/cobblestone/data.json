@@ -8,9 +8,19 @@
     "town",
     "ground"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/FloorBaseTiles_01/FloorBaseTiles_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/FloorBaseTiles_01/FloorBaseTiles_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

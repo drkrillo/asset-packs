@@ -12,9 +12,19 @@
     "city",
     "sign"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Sign_02/Sign_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Sign_02/Sign_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

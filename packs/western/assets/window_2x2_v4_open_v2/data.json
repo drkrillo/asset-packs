@@ -3,9 +3,19 @@
   "name": "Window 2x2 V4 Open v2",
   "category": "structures",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Window 2x2 V4 Open v2.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Window 2x2 V4 Open v2.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

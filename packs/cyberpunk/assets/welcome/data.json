@@ -3,9 +3,19 @@
   "name": "\"Welcome\"",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Welcome.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Welcome.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

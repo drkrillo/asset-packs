@@ -13,9 +13,19 @@
     "rocks",
     "beach"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/RockBig_07/RockBig_07.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/RockBig_07/RockBig_07.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

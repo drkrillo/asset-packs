@@ -9,9 +9,19 @@
     "baseboard",
     "stone"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/SkirtingBoard_02/SkirtingBoard_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/SkirtingBoard_02/SkirtingBoard_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

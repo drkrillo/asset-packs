@@ -3,9 +3,19 @@
   "name": "Roof - Purple 1Edge Small",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/PurpleRoof_1Edge_Small.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/PurpleRoof_1Edge_Small.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

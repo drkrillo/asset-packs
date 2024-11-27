@@ -3,9 +3,19 @@
   "name": "Pumpkin Basket",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/HWN20_PumpkinBasket.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/HWN20_PumpkinBasket.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

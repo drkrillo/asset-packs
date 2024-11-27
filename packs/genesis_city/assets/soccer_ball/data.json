@@ -14,9 +14,19 @@
     "sports",
     "sport"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/PlaygroundBall_01/PlaygroundBall_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/PlaygroundBall_01/PlaygroundBall_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

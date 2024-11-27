@@ -3,9 +3,19 @@
   "name": "Boulder Arthur",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Boulder Arthur.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Boulder Arthur.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

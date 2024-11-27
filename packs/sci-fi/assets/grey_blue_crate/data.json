@@ -7,9 +7,19 @@
     "box",
     "storage"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/CrateBlueBig_01/CrateBlueBig_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/CrateBlueBig_01/CrateBlueBig_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

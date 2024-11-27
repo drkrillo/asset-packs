@@ -3,9 +3,19 @@
   "name": "Neon Tube - Red",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Neon_Tube_Red.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Neon_Tube_Red.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

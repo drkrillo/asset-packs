@@ -17,9 +17,19 @@
     "yard",
     "farm"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/FenceWoodEnd_01/FenceWoodEnd_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/FenceWoodEnd_01/FenceWoodEnd_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

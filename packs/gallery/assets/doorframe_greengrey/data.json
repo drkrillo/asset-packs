@@ -3,9 +3,19 @@
   "name": "Doorframe - GreenGrey",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/GreenGreyDoorframe.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/GreenGreyDoorframe.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

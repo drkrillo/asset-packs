@@ -10,9 +10,19 @@
     "bag",
     "sand"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Sandbag_01/Sandbag_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Sandbag_01/Sandbag_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

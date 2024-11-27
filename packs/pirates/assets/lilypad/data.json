@@ -13,9 +13,19 @@
     "plants",
     "water"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/LilyPad_01/LilyPad_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/LilyPad_01/LilyPad_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

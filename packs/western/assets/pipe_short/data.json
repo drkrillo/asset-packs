@@ -3,9 +3,19 @@
   "name": "Pipe Short",
   "category": "structures",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Pipe Short.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Pipe Short.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

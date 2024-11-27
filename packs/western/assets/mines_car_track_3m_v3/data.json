@@ -3,9 +3,19 @@
   "name": "Mines Car Track 3M V3",
   "category": "structures",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Mines Car Track 3M V3.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Mines Car Track 3M V3.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

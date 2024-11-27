@@ -7,9 +7,19 @@
     "storage",
     "spaceship"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Drawer_03/Drawer_03.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Drawer_03/Drawer_03.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

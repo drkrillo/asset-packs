@@ -3,9 +3,19 @@
   "name": "Mushroom - Brown",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/mushroom_brown.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/mushroom_brown.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -14,9 +14,19 @@
     "fruits",
     "edible"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Store_02/Store_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Store_02/Store_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }
