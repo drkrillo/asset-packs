@@ -99,17 +99,6 @@ export type Asset = AssetData & { contents: Record<string, string> }
 export type AssetPack = AssetPackData & { thumbnail: string; assets: Asset[] }
 export type Catalog = { assetPacks: AssetPack[] }
 
-export type JsonSchemaProperty = {
-  type: string
-  properties?: { [key: string]: JsonSchemaProperty }
-  items?: {
-    type: string
-    properties?: { [key: string]: JsonSchemaProperty }
-    serializationType?: string
-  }
-  serializationType?: string
-}
-
 export type Component = {
   name: string
   data: {
