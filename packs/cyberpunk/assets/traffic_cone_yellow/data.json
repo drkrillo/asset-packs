@@ -3,9 +3,19 @@
   "name": "Traffic Cone - Yellow",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Traffic_Cone_Yellow.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Traffic_Cone_Yellow.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

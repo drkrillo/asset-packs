@@ -7,9 +7,19 @@
     "wall",
     "stone"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Wall_Stone_Small/Wall_Stone_Small.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Wall_Stone_Small/Wall_Stone_Small.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

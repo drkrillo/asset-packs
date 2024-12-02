@@ -12,9 +12,19 @@
     "simple",
     "chair"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Chair_03/Chair_03.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Chair_03/Chair_03.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

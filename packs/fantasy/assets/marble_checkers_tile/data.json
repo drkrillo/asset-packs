@@ -9,9 +9,19 @@
     "pattern",
     "checkers"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Tile_Floor_01/Tile_Floor_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Tile_Floor_01/Tile_Floor_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

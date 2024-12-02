@@ -11,9 +11,19 @@
     "bones",
     "calcium"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/BonesBig_01/BonesBig_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/BonesBig_01/BonesBig_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

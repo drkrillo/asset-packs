@@ -9,9 +9,19 @@
     "dry",
     "forest"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Tree_Dead_02/Tree_Dead_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Tree_Dead_02/Tree_Dead_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

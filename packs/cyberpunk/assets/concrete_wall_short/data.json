@@ -3,9 +3,19 @@
   "name": "Concrete Wall - Short",
   "category": "structures",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Concrete_Wall_Short.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Concrete_Wall_Short.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

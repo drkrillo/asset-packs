@@ -3,9 +3,19 @@
   "name": "Wall - Fancy",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/FancyWall.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/FancyWall.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

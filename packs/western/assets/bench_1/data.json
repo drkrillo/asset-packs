@@ -3,9 +3,19 @@
   "name": "Bench 1",
   "category": "furniture",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Bench 1.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Bench 1.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

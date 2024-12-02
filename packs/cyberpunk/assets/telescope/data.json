@@ -3,9 +3,19 @@
   "name": "Telescope",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Telescope.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Telescope.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

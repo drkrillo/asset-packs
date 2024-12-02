@@ -3,9 +3,19 @@
   "name": "Window - Futuristic ",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/FuturisticWindow.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/FuturisticWindow.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

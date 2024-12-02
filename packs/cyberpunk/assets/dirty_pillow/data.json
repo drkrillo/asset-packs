@@ -3,9 +3,19 @@
   "name": "Dirty Pillow",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Dirty_Pillow.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Dirty_Pillow.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

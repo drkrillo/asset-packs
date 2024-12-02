@@ -3,9 +3,19 @@
   "name": "Fliptop Bin",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Fliptop_Bin.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Fliptop_Bin.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

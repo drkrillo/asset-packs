@@ -9,9 +9,19 @@
     "lens",
     "optics"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Camera_01/Camera_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Camera_01/Camera_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

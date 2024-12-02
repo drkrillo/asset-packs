@@ -7,9 +7,19 @@
     "life",
     "support"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/OxygenStorage_01/OxygenStorage_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/OxygenStorage_01/OxygenStorage_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

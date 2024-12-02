@@ -8,9 +8,19 @@
     "energy",
     "boom"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/GasCharger_01/GasCharger_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/GasCharger_01/GasCharger_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

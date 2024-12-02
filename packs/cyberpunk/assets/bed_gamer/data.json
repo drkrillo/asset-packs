@@ -3,9 +3,19 @@
   "name": "Bed Gamer",
   "category": "furniture",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Bed_Gamer.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Bed_Gamer.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

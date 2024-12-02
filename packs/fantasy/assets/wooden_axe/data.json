@@ -9,9 +9,19 @@
     "wooden",
     "sharp"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Axe_01/Axe_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Axe_01/Axe_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

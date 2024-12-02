@@ -3,9 +3,19 @@
   "name": "Doorframe - PinkBoards",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/PinkBoardsDoorframe.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/PinkBoardsDoorframe.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

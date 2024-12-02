@@ -3,9 +3,19 @@
   "name": "Roof - Blue Corner Small",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/BlueRoof_Corner_Small.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/BlueRoof_Corner_Small.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -8,9 +8,19 @@
     "stone",
     "broken"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Pillar_Quad_Half_01/Pillar_Quad_Half_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Pillar_Quad_Half_01/Pillar_Quad_Half_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

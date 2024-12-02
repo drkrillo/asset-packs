@@ -8,9 +8,19 @@
     "trigger",
     "base"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/KeyboardSciFi_01/KeyboardSciFi_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/KeyboardSciFi_01/KeyboardSciFi_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

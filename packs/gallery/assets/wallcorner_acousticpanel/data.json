@@ -3,9 +3,19 @@
   "name": "WallCorner - AcousticPanel ",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/AcousticPanelCorner.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/AcousticPanelCorner.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

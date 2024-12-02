@@ -9,9 +9,19 @@
     "mail",
     "box"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Mail_Post_01/Mail_Post_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Mail_Post_01/Mail_Post_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

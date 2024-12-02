@@ -15,9 +15,19 @@
     "tabern",
     "rustic"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/LampPost_04/LampPost_04.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/LampPost_04/LampPost_04.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

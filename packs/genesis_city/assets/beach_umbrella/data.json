@@ -11,9 +11,19 @@
     "sun",
     "umbrella"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Umbrella_01/Umbrella_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Umbrella_01/Umbrella_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

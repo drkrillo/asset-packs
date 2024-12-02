@@ -9,9 +9,19 @@
     "wooden",
     "parquet"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Floor_Wood_4M/Floor_Wood_4M.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Floor_Wood_4M/Floor_Wood_4M.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

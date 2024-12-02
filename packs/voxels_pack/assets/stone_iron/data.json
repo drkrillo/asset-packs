@@ -3,9 +3,19 @@
   "name": "Stone - Iron",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/stone_iron.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/stone_iron.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

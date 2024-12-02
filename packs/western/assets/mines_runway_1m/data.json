@@ -3,9 +3,19 @@
   "name": "Mines Runway 1M",
   "category": "tiles",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Mines Runway 1M.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Mines Runway 1M.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

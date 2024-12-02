@@ -3,9 +3,19 @@
   "name": "Roof - Beige 3Edges",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/BeigeRoof_3Edges.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/BeigeRoof_3Edges.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

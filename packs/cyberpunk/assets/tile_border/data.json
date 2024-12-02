@@ -3,9 +3,19 @@
   "name": "Tile Border",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Tile_Border.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Tile_Border.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

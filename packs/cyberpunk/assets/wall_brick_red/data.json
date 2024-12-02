@@ -3,9 +3,19 @@
   "name": "Wall - Brick Red",
   "category": "structures",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Wall_Brick_Red.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Wall_Brick_Red.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

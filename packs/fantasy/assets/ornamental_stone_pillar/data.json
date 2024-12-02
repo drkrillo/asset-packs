@@ -7,9 +7,19 @@
     "pillar",
     "stone"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Pillar_Cylinder_03/Pillar_Cylinder_03.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Pillar_Cylinder_03/Pillar_Cylinder_03.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

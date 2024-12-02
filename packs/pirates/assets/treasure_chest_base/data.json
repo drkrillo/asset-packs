@@ -19,9 +19,19 @@
     "coin",
     "coins"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/OpenChest_01/OpenChest_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/OpenChest_01/OpenChest_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

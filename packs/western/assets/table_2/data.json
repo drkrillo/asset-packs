@@ -3,9 +3,19 @@
   "name": "Table 2",
   "category": "furniture",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Table 2.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Table 2.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

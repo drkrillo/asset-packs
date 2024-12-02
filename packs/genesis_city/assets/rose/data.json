@@ -15,9 +15,19 @@
     "yard",
     "vegetation"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Flower_03/Flower_03.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Flower_03/Flower_03.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -3,9 +3,19 @@
   "name": "Stool F",
   "category": "furniture",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Stool_F.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Stool_F.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

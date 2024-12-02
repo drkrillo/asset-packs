@@ -3,9 +3,19 @@
   "name": "Box Small",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Box Small.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Box Small.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

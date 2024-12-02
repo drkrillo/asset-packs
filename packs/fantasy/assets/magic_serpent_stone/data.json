@@ -8,9 +8,19 @@
     "magic",
     "rune"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Stone_Magic_02/Stone_Magic_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Stone_Magic_02/Stone_Magic_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

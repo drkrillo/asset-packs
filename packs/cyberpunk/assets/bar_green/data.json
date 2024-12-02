@@ -3,9 +3,19 @@
   "name": "Bar Green",
   "category": "furniture",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Bar_Green.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Bar_Green.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -3,9 +3,19 @@
   "name": "Stone 6",
   "category": "nature",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Stone 6.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Stone 6.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

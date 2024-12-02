@@ -3,9 +3,19 @@
   "name": "Tree 3",
   "category": "nature",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Tree 3.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Tree 3.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

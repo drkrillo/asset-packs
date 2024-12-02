@@ -3,9 +3,19 @@
   "name": "Stone Bricks - Ruins",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/stone_ancient.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/stone_ancient.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -3,9 +3,19 @@
   "name": "Wall - PlainRed",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/PlainRedWall.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/PlainRedWall.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

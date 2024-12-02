@@ -3,9 +3,19 @@
   "name": "Stairs Full Height U-Shape",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/fullHeightUShapeStairs.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/fullHeightUShapeStairs.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -3,9 +3,19 @@
   "name": "Donut Counter",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Donut_Counter.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Donut_Counter.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

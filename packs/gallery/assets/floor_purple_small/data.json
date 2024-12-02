@@ -3,9 +3,19 @@
   "name": "Floor - Purple Small",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/PurpleFloor_Small.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/PurpleFloor_Small.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

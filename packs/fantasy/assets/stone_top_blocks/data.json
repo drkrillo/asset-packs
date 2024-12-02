@@ -7,9 +7,19 @@
     "stones",
     "stone"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Pillar_Top_Stones_Big_01/Pillar_Top_Stones_Big_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Pillar_Top_Stones_Big_01/Pillar_Top_Stones_Big_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

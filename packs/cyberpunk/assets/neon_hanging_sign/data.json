@@ -3,9 +3,19 @@
   "name": "Neon Hanging Sign",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Neon_Hanging_Sign.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Neon_Hanging_Sign.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

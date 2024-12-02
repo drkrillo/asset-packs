@@ -3,9 +3,19 @@
   "name": "Armchair D",
   "category": "furniture",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Armchair_D.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Armchair_D.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

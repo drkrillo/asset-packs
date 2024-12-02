@@ -10,9 +10,19 @@
     "gemstone",
     "stone"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Glowing_Stone_03/Glowing_Stone_03.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Glowing_Stone_03/Glowing_Stone_03.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

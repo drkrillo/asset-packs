@@ -3,9 +3,19 @@
   "name": "Sand Gold",
   "category": "ground",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Sand Gold.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Sand Gold.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

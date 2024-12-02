@@ -17,9 +17,19 @@
     "garden",
     "park"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/FenceStoneLarge_02/FenceStoneLarge_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/FenceStoneLarge_02/FenceStoneLarge_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

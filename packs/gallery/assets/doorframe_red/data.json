@@ -3,9 +3,19 @@
   "name": "Doorframe - Red",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/RedDoorframe.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/RedDoorframe.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

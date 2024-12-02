@@ -3,9 +3,19 @@
   "name": "Mines Tunel Curve",
   "category": "structures",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Mines Tunel Curve.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Mines Tunel Curve.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

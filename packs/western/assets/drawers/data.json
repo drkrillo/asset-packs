@@ -3,9 +3,19 @@
   "name": "Drawers",
   "category": "furniture",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Furnit 2.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Furnit 2.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -8,9 +8,19 @@
     "forest",
     "shrub"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Vegetation_08/Vegetation_08.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Vegetation_08/Vegetation_08.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

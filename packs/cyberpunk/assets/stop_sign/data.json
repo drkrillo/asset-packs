@@ -3,9 +3,19 @@
   "name": "Stop Sign",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Stop_Sign.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Stop_Sign.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

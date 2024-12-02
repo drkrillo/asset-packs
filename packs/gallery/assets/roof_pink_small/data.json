@@ -3,9 +3,19 @@
   "name": "Roof - Pink Small",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/PinkRoof_Small.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/PinkRoof_Small.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

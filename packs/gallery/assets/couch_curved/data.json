@@ -3,9 +3,19 @@
   "name": "Couch - Curved",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/CurvedCouch.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/CurvedCouch.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

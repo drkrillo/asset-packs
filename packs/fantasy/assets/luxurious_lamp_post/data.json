@@ -9,9 +9,19 @@
     "gold",
     "golden"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/LampPost_01/LampPost_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/LampPost_01/LampPost_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

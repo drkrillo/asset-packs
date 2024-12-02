@@ -8,9 +8,19 @@
     "banner",
     "fabric"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/WallCloths_Blue_01/WallCloths_Blue_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/WallCloths_Blue_01/WallCloths_Blue_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -9,9 +9,19 @@
     "base",
     "spaceship"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/NeonLight_01/NeonLight_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/NeonLight_01/NeonLight_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

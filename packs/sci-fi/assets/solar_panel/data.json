@@ -10,9 +10,19 @@
     "energy",
     "sun"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/SolarPanel_01/SolarPanel_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/SolarPanel_01/SolarPanel_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

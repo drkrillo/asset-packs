@@ -3,9 +3,19 @@
   "name": "Old TV",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Old_TV.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Old_TV.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

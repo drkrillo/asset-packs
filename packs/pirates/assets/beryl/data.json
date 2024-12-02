@@ -11,9 +11,19 @@
     "jewels",
     "gemstone"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Gem_03/Gem_03.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Gem_03/Gem_03.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -9,9 +9,19 @@
     "stained",
     "glass"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Window_03/Window_03.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Window_03/Window_03.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

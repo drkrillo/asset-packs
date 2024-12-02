@@ -7,9 +7,19 @@
     "air",
     "vent"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/RoofVent_01/RoofVent_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/RoofVent_01/RoofVent_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

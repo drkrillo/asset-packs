@@ -3,9 +3,19 @@
   "name": "Pillar - Traditional",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/TraditionalPillar.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/TraditionalPillar.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

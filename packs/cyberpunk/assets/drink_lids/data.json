@@ -3,9 +3,19 @@
   "name": "Drink Lids",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Drink_Lids.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Drink_Lids.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

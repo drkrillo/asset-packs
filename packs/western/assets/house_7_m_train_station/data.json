@@ -3,9 +3,19 @@
   "name": "House 7 M Train Station",
   "category": "structures",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/House 7 M Train Station.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/House 7 M Train Station.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

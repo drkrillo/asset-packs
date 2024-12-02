@@ -12,9 +12,19 @@
     "radio",
     "sound"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Boombox_01/Boombox_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Boombox_01/Boombox_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

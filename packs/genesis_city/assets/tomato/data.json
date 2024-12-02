@@ -14,9 +14,19 @@
     "market",
     "edible"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/FoodTomato_01/FoodTomato_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/FoodTomato_01/FoodTomato_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

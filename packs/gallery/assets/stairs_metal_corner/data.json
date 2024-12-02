@@ -3,9 +3,19 @@
   "name": "Stairs Metal corner",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/metalStairs_corner.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/metalStairs_corner.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

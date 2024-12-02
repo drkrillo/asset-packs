@@ -3,9 +3,19 @@
   "name": "Railing - Straight",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Railing_Straight.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Railing_Straight.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

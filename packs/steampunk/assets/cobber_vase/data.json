@@ -3,9 +3,19 @@
   "name": "Cobber Vase",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Cobber Vase.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Cobber Vase.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

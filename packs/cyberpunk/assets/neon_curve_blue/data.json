@@ -3,9 +3,19 @@
   "name": "Neon Curve Blue",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Neon_Curve_Blue.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Neon_Curve_Blue.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

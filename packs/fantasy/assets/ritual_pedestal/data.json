@@ -10,9 +10,19 @@
     "ritual",
     "pedestal"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Pedestal_01/Pedestal_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Pedestal_01/Pedestal_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

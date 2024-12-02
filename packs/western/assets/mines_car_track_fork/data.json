@@ -3,9 +3,19 @@
   "name": "Mines Car Track Fork",
   "category": "structures",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Mines Car Track Fork.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Mines Car Track Fork.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

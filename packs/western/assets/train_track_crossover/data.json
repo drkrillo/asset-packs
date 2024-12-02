@@ -3,9 +3,19 @@
   "name": "Train Track Crossover",
   "category": "tiles",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Train Track Crossover.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Train Track Crossover.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

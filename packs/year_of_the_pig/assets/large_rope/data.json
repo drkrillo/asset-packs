@@ -9,9 +9,19 @@
     "cord",
     "string"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/ChineseLampRopeLarge_01/ChineseLampRopeLarge_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/ChineseLampRopeLarge_01/ChineseLampRopeLarge_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

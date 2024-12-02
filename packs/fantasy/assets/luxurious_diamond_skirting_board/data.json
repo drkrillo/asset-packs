@@ -8,9 +8,19 @@
     "board",
     "baseboard"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/SkirtingBoard_04/SkirtingBoard_04.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/SkirtingBoard_04/SkirtingBoard_04.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

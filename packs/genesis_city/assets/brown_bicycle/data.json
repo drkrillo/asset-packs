@@ -14,9 +14,19 @@
     "wheels",
     "brown"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Bicycle_03/Bicycle_03.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Bicycle_03/Bicycle_03.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

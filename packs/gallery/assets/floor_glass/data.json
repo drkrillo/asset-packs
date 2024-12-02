@@ -3,9 +3,19 @@
   "name": "Floor - Glass",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/GlassFloor.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/GlassFloor.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

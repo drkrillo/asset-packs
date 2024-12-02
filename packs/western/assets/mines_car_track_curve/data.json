@@ -3,9 +3,19 @@
   "name": "Mines Car Track Curve",
   "category": "structures",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Mines Car Track Curve.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Mines Car Track Curve.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

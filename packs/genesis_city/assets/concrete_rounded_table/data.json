@@ -11,9 +11,19 @@
     "cafe",
     "concrete"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Table_04/Table_04.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Table_04/Table_04.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -3,9 +3,19 @@
   "name": "Wall - HexagonGrid",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/HexagonGridWall.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/HexagonGridWall.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

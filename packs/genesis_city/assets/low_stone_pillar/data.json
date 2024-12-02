@@ -14,9 +14,19 @@
     "park",
     "wall"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/FenceStonePillar_01/FenceStonePillar_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/FenceStonePillar_01/FenceStonePillar_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

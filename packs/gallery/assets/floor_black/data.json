@@ -3,9 +3,19 @@
   "name": "Floor - Black",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/BlackFloor.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/BlackFloor.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

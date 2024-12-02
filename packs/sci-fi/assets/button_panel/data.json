@@ -7,9 +7,19 @@
     "controls",
     "trigger"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/ButtonPanel_01/ButtonPanel_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/ButtonPanel_01/ButtonPanel_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

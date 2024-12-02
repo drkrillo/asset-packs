@@ -13,9 +13,19 @@
     "beach",
     "tent"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Canopy_01/Canopy_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Canopy_01/Canopy_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

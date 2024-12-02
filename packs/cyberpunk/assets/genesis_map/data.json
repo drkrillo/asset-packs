@@ -3,9 +3,19 @@
   "name": "Genesis Map",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Genesis_Map.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Genesis_Map.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

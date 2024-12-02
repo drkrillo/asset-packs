@@ -8,9 +8,19 @@
     "hole",
     "planet"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Crater_02/Crater_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Crater_02/Crater_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

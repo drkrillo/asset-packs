@@ -8,9 +8,19 @@
     "pavilion",
     "pergola"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/ChinesePergola_01/ChinesePergola_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/ChinesePergola_01/ChinesePergola_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

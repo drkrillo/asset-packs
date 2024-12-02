@@ -12,9 +12,19 @@
     "calcium",
     "fish"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/FishSkeleton_01/FishSkeleton_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/FishSkeleton_01/FishSkeleton_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

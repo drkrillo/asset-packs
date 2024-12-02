@@ -11,9 +11,19 @@
     "wood",
     "pallet"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/ConstructionPallet_01/ConstructionPallet_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/ConstructionPallet_01/ConstructionPallet_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

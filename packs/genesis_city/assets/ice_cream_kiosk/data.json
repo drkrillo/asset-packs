@@ -15,9 +15,19 @@
     "city",
     "park"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/IceCreamTruck_01/IceCreamTruck_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/IceCreamTruck_01/IceCreamTruck_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

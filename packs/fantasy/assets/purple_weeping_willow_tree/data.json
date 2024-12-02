@@ -8,9 +8,19 @@
     "leaf",
     "purple"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Tree_Leafs_01/Tree_Leafs_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Tree_Leafs_01/Tree_Leafs_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

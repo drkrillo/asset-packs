@@ -3,9 +3,19 @@
   "name": "Piano stool",
   "category": "furniture",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Piano chair.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Piano chair.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

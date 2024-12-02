@@ -7,9 +7,19 @@
     "tile",
     "mosaic"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Floor_Tiles_2M_04/Floor_Tiles_2M_04.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Floor_Tiles_2M_04/Floor_Tiles_2M_04.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

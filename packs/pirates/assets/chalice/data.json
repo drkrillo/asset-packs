@@ -15,9 +15,19 @@
     "holy",
     "grail"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Chalice_01/Chalice_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Chalice_01/Chalice_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

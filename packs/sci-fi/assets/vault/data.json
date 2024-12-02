@@ -8,9 +8,19 @@
     "storage",
     "safe"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Vault_01/Vault_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Vault_01/Vault_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

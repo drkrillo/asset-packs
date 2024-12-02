@@ -3,9 +3,19 @@
   "name": "Roof - Navy small",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/NavyRoof_small.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/NavyRoof_small.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -10,9 +10,19 @@
     "module",
     "end"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Fence_Stone_End/Fence_Stone_End.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Fence_Stone_End/Fence_Stone_End.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

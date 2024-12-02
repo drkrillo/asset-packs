@@ -3,9 +3,19 @@
   "name": "Window - Navy Large",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/NavyWindowLarge.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/NavyWindowLarge.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

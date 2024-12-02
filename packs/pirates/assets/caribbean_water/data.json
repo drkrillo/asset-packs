@@ -11,9 +11,19 @@
     "beach",
     "ocean"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/WaterPatchFull_01/WaterPatchFull_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/WaterPatchFull_01/WaterPatchFull_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

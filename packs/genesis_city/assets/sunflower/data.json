@@ -13,9 +13,19 @@
     "vegetation",
     "sun"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Flower_04/Flower_04.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Flower_04/Flower_04.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

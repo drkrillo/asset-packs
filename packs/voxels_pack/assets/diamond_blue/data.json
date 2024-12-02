@@ -3,9 +3,19 @@
   "name": "Diamond - Blue",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/diamond_pattern_blue.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/diamond_pattern_blue.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

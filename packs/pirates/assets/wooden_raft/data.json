@@ -11,9 +11,19 @@
     "rope",
     "sail"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Raft_01/Raft_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Raft_01/Raft_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

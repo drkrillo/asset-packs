@@ -3,9 +3,19 @@
   "name": "Radioactive Container",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Radioactive_Container.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Radioactive_Container.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -12,9 +12,19 @@
     "plank",
     "old"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/FenceWoodLarge_02/FenceWoodLarge_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/FenceWoodLarge_02/FenceWoodLarge_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

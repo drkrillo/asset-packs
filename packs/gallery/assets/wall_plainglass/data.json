@@ -3,9 +3,19 @@
   "name": "Wall - PlainGlass",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/PlainGlassWall.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/PlainGlassWall.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -8,9 +8,19 @@
     "round",
     "spike"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Star_01/Star_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Star_01/Star_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

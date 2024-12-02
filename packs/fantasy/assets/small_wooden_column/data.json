@@ -9,9 +9,19 @@
     "wooden",
     "iron"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Column_Vertical_Wood_Small/Column_Vertical_Wood_Small.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Column_Vertical_Wood_Small/Column_Vertical_Wood_Small.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

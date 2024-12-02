@@ -8,9 +8,19 @@
     "arc",
     "threshold"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/ArchWay_01/ArchWay_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/ArchWay_01/ArchWay_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

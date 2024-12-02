@@ -3,9 +3,19 @@
   "name": "House 6 M Blue",
   "category": "structures",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/House 6 M Blue.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/House 6 M Blue.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

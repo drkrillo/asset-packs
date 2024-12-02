@@ -6,9 +6,19 @@
     "scifi",
     "tube"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/TubeCurve_01/TubeCurve_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/TubeCurve_01/TubeCurve_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

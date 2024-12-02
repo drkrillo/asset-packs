@@ -13,9 +13,19 @@
     "pillar",
     "pillars"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/DocksPillar_01/DocksPillar_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/DocksPillar_01/DocksPillar_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

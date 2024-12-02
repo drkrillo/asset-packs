@@ -3,9 +3,19 @@
   "name": "Plastic Cups",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Plastic_Cups.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Plastic_Cups.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

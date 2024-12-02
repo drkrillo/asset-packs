@@ -3,9 +3,19 @@
   "name": "Roof - Blue 1Edge",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/BlueRoof_1Edge.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/BlueRoof_1Edge.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

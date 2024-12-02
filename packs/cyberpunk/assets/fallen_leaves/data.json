@@ -3,9 +3,19 @@
   "name": "Fallen Leaves",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Fallen_Leaves.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Fallen_Leaves.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

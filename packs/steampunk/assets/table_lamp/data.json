@@ -3,9 +3,19 @@
   "name": "Table Lamp",
   "category": "furniture",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Table Lamp.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Table Lamp.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

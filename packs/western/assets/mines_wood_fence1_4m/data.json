@@ -3,9 +3,19 @@
   "name": "Mines Wood Fence1 4M",
   "category": "structures",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Mines Wood Fence1 4M.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Mines Wood Fence1 4M.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

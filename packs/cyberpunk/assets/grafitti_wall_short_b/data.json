@@ -3,9 +3,19 @@
   "name": "Grafitti Wall Short B",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Grafitti_Wall_Short_B.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Grafitti_Wall_Short_B.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

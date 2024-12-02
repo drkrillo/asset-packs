@@ -3,9 +3,19 @@
   "name": "Cardboard Box Closed",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Cardboard_Box_Closed.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Cardboard_Box_Closed.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

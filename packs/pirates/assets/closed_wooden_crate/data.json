@@ -12,9 +12,19 @@
     "crate",
     "box"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Crate_01/Crate_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Crate_01/Crate_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

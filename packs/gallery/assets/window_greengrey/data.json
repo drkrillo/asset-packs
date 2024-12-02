@@ -3,9 +3,19 @@
   "name": "Window - GreenGrey ",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/GreenGreyWindow.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/GreenGreyWindow.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

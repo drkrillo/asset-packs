@@ -8,9 +8,19 @@
     "mosaic",
     "marble"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Floor_Tiles_2M_06/Floor_Tiles_2M_06.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Floor_Tiles_2M_06/Floor_Tiles_2M_06.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

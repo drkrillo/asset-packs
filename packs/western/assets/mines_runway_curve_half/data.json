@@ -3,9 +3,19 @@
   "name": "Mines Runway Curve Half",
   "category": "tiles",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Mines Runway Curve Half.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Mines Runway Curve Half.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

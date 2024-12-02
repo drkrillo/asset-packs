@@ -3,9 +3,19 @@
   "name": "Factory Tube 01",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Factory_Tube_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Factory_Tube_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -16,9 +16,19 @@
     "park",
     "garden"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/FloorBlock_05/FloorBlock_05.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/FloorBlock_05/FloorBlock_05.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -8,9 +8,19 @@
     "banner",
     "court"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Banner_Blue_02/Banner_Blue_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Banner_Blue_02/Banner_Blue_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

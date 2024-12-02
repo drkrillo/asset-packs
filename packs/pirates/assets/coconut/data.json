@@ -11,9 +11,19 @@
     "fruits",
     "beach"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Coco_01/Coco_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Coco_01/Coco_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

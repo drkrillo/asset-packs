@@ -9,9 +9,19 @@
     "slash",
     "sword"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Sword_01/Sword_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Sword_01/Sword_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

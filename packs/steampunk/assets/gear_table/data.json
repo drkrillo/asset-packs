@@ -3,9 +3,19 @@
   "name": "Gear Table",
   "category": "furniture",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Gear Table.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Gear Table.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

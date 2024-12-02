@@ -3,9 +3,19 @@
   "name": "Wall - BathroomTiles",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/BathroomTilesWall.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/BathroomTilesWall.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

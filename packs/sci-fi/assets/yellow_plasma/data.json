@@ -8,9 +8,19 @@
     "supply",
     "power"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/PlasmaYellow_01/PlasmaYellow_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/PlasmaYellow_01/PlasmaYellow_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

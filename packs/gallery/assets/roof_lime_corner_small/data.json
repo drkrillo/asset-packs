@@ -3,9 +3,19 @@
   "name": "Roof - Lime Corner Small",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/LimeRoof_Corner_Small.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/LimeRoof_Corner_Small.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

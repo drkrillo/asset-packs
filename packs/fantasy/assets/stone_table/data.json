@@ -8,9 +8,19 @@
     "stone",
     "rune"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/TableRock_01/TableRock_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/TableRock_01/TableRock_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

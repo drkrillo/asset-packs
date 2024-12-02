@@ -8,9 +8,19 @@
     "computer",
     "electric"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Chip_01/Chip_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Chip_01/Chip_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

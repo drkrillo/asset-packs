@@ -3,9 +3,19 @@
   "name": "Doorframe - Yellow",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/YellowDoorframe.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/YellowDoorframe.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

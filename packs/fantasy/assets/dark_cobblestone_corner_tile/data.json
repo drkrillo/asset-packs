@@ -9,9 +9,19 @@
     "stone",
     "corner"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/FloorCorner_02/FloorCorner_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/FloorCorner_02/FloorCorner_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

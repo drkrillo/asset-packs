@@ -6,9 +6,19 @@
     "fantasy",
     "ground"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/FloorFantasyRocks_04/FloorFantasyRocks_04.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/FloorFantasyRocks_04/FloorFantasyRocks_04.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

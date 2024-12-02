@@ -3,9 +3,19 @@
   "name": "Mines Model 16 M Big",
   "category": "structures",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Mines Model 16 M Big.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Mines Model 16 M Big.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -3,9 +3,19 @@
   "name": "Drinks Dispenser - Pink",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Drinks_Dispenser_Pink.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Drinks_Dispenser_Pink.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

@@ -3,9 +3,19 @@
   "name": "Deck 7M v02",
   "category": "structures",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Deck 7M v02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Deck 7M v02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

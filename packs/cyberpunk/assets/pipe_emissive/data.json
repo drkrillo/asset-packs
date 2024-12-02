@@ -3,9 +3,19 @@
   "name": "Pipe - Emissive",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Pipe_Emissive.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Pipe_Emissive.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

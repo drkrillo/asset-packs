@@ -8,9 +8,19 @@
     "block",
     "column"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Fence_Stone_Block_02/Fence_Stone_Block_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Fence_Stone_Block_02/Fence_Stone_Block_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

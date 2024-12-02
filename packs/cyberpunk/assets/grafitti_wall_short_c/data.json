@@ -3,9 +3,19 @@
   "name": "Grafitti Wall Short C",
   "category": "structures",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Grafitti_Wall_Short_C.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Grafitti_Wall_Short_C.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

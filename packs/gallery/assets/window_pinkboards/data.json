@@ -3,9 +3,19 @@
   "name": "Window - PinkBoards ",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/PinkBoardsWindow.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/PinkBoardsWindow.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

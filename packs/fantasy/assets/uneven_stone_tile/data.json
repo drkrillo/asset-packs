@@ -8,9 +8,19 @@
     "stone",
     "path"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Stone_Tile_01/Stone_Tile_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Stone_Tile_01/Stone_Tile_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

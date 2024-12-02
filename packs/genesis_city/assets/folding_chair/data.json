@@ -15,9 +15,19 @@
     "backyard",
     "chair"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Chair_05/Chair_05.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Chair_05/Chair_05.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

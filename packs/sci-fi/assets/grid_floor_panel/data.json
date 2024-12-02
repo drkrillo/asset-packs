@@ -7,9 +7,19 @@
     "tile",
     "ground"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Floor_Module_02/Floor_Module_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Floor_Module_02/Floor_Module_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

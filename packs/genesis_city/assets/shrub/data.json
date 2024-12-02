@@ -13,9 +13,19 @@
     "forest",
     "mountain"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Bush_01/Bush_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Bush_01/Bush_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

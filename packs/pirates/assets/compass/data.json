@@ -17,9 +17,19 @@
     "east",
     "west"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Compass_01/Compass_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Compass_01/Compass_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

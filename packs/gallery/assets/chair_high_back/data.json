@@ -3,9 +3,19 @@
   "name": "Chair - High Back",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/HighBackChair.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/HighBackChair.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

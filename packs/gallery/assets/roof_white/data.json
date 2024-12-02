@@ -3,9 +3,19 @@
   "name": "Roof - White",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/WhiteRoof.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/WhiteRoof.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

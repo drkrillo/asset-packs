@@ -3,9 +3,19 @@
   "name": "Gear Angled 10 Teeth",
   "category": "decorations",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Gear Angled 10 Teeth.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Gear Angled 10 Teeth.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

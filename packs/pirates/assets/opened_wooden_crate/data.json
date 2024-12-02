@@ -13,9 +13,19 @@
     "box",
     "open"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Crate_02/Crate_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Crate_02/Crate_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

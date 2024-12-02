@@ -7,9 +7,19 @@
     "bottle",
     "potion"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Potion_02/Potion_02.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Potion_02/Potion_02.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

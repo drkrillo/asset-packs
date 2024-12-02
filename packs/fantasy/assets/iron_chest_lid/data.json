@@ -7,9 +7,19 @@
     "chest",
     "iron"
   ],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Chest_Top_Iron_01/Chest_Top_Iron_01.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Chest_Top_Iron_01/Chest_Top_Iron_01.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }

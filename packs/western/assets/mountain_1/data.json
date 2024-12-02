@@ -3,9 +3,19 @@
   "name": "Mountain 1",
   "category": "nature",
   "tags": [],
-  "components": {
-    "core::GltfContainer": {
-      "src": "{assetPath}/Mountain 1.glb"
-    }
+  "composite": {
+    "version": 1,
+    "components": [
+      {
+        "name": "core::GltfContainer",
+        "data": {
+          "0": {
+            "json": {
+              "src": "{assetPath}/Mountain 1.glb"
+            }
+          }
+        }
+      }
+    ]
   }
 }
