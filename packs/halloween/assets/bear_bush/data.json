@@ -2,20 +2,5 @@
   "id": "bac2e00d-61e8-461c-a120-794bc730d32d",
   "name": "Bear Bush",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_BearBush.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -13,20 +13,5 @@
     "stone",
     "stones",
     "wish"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Well_01/Well_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

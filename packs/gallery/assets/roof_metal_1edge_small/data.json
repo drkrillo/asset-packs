@@ -2,20 +2,5 @@
   "id": "8b7b3464-d9eb-4f4a-a290-7362857d9f38",
   "name": "Roof - Metal 1Edge Small",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/MetalRoof_1Edge_Small.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

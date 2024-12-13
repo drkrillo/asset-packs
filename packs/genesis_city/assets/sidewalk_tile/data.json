@@ -12,20 +12,5 @@
     "sidewalk",
     "city",
     "tile"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/FloorBlock_01/FloorBlock_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

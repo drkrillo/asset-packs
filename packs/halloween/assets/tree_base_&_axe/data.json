@@ -2,20 +2,5 @@
   "id": "91778d52-52a1-4afc-a325-ee48d6e2a96c",
   "name": "Tree Base & Axe",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_TreeBase&Axe.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

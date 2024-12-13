@@ -2,20 +2,5 @@
   "id": "39256459-b949-4a00-9a4f-4ca100c81847",
   "name": "Stone - Gold",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/stone_gold.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

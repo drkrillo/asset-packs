@@ -2,20 +2,5 @@
   "id": "c9638edc-0d7e-4b2e-90da-8bed71eeac39",
   "name": "Peak",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Peak.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

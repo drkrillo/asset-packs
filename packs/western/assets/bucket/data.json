@@ -2,20 +2,5 @@
   "id": "22e5e8a9-dcbb-4184-9354-fe5511252214",
   "name": "Bucket",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Bucket.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

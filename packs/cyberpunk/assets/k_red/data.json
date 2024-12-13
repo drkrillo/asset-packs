@@ -2,20 +2,5 @@
   "id": "0ecc5369-f58e-4ed0-9c6d-6969e4c493fc",
   "name": "K Red",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/K_Red.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -13,20 +13,5 @@
     "decentraland",
     "crypto",
     "logo"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/DecentralandLogo_01/DecentralandLogo_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

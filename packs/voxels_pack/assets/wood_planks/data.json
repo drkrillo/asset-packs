@@ -2,20 +2,5 @@
   "id": "efbf7a13-cbaa-4210-8839-7b562c3db691",
   "name": "Wood - Planks",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/woodplanks.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

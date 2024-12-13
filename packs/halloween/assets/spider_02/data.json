@@ -2,20 +2,5 @@
   "id": "11fe90b4-c9d2-4e4c-b1cd-471e099e0167",
   "name": "Spider 02",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_Spider_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

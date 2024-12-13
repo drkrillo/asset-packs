@@ -2,20 +2,5 @@
   "id": "33f047bc-bdb2-440b-9dd3-5cbf4395cc42",
   "name": "Doorframe - LEDGrid",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/LEDGridDoorframe.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

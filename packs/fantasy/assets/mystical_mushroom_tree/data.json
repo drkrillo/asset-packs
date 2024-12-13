@@ -10,20 +10,5 @@
     "purple",
     "blue",
     "forest"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Tree_03/Tree_03.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

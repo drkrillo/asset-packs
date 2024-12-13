@@ -2,20 +2,5 @@
   "id": "76dfeea7-5445-4840-af14-e658f3173803",
   "name": "Window - PinkBoards ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PinkBoardsWindow.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

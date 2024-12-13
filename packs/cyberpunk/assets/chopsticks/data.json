@@ -2,20 +2,5 @@
   "id": "3dd81a4a-9af0-4c32-9b47-8d49af50877b",
   "name": "Chopsticks",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Chopsticks.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

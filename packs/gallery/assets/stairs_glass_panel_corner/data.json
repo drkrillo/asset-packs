@@ -2,20 +2,5 @@
   "id": "730ddd1e-3520-414d-a1e1-9398fd630841",
   "name": "Stairs Glass Panel corner",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/glassPanelStairs_corner.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

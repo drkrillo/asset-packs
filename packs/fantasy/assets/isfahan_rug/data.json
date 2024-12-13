@@ -6,20 +6,5 @@
     "fantasy",
     "carpet",
     "rug"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Carpet_03/Carpet_03.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

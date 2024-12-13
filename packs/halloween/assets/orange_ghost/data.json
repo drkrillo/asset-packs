@@ -2,20 +2,5 @@
   "id": "4fe0dc79-14cd-416d-b311-87a3ca9e4a19",
   "name": "Orange Ghost",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_YellowGhost.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

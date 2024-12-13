@@ -2,20 +2,5 @@
   "id": "2dfb7fdb-f9b3-4dad-95d3-081a35b9fe3d",
   "name": "Wood - Dark Planks",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/woodplanks_dark.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

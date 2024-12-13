@@ -2,20 +2,5 @@
   "id": "8e2c2658-15d1-4bce-8e8c-0bf975d3b6d2",
   "name": "Stone - pale",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/stone_light.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

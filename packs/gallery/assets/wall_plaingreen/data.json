@@ -2,20 +2,5 @@
   "id": "a51b2b23-e6cf-4ccf-8243-70f745583d2e",
   "name": "Wall - PlainGreen",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PlainGreenWall.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

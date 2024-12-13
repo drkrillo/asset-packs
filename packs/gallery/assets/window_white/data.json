@@ -2,20 +2,5 @@
   "id": "680d7753-be91-4e9b-962e-acd1b345e64a",
   "name": "Window - White ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/WhiteWindow.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

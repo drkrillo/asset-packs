@@ -11,20 +11,5 @@
     "wooden",
     "table",
     "rectangular"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/TableWood_01/TableWood_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

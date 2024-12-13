@@ -2,20 +2,5 @@
   "id": "845adf39-cf21-44b7-a1a5-4ad4e87cb521",
   "name": "Ground 10 M Long",
   "category": "tiles",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Ground 10 M Long.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

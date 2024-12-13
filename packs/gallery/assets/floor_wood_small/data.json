@@ -2,20 +2,5 @@
   "id": "efe04abf-0511-4535-aea3-d2916c8b39c8",
   "name": "Floor - Wood Small",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/WoodFloor_Small.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

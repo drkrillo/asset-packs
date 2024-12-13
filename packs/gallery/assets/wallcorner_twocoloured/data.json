@@ -2,20 +2,5 @@
   "id": "e096e7b6-45e9-416c-9b53-c1cd9851f761",
   "name": "WallCorner - TwoColoured ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/TwoColouredCorner.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

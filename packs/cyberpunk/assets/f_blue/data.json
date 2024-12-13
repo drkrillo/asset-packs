@@ -2,20 +2,5 @@
   "id": "8c5ffcfe-8240-40ae-8f5f-3a691a3c9308",
   "name": "F Blue",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/F_Blue.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

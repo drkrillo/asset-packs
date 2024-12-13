@@ -2,20 +2,5 @@
   "id": "76c38211-e8c0-4818-8cab-0f7327c16dd7",
   "name": "Window - Fancy ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/FancyWindow.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

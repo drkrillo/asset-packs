@@ -2,20 +2,5 @@
   "id": "8a081836-0083-489b-8aec-4d96e1522f5b",
   "name": "Window - Yellow Large",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/YellowWindowLarge.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

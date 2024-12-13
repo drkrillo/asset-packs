@@ -2,20 +2,5 @@
   "id": "ee54769a-cf8e-4c03-93f1-8c2ed299753c",
   "name": "Manhole  - White",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Manhole_White.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

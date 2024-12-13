@@ -9,20 +9,5 @@
     "supply",
     "electricity",
     "plasma"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Battery_03/Battery_03.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

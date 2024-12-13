@@ -2,20 +2,5 @@
   "id": "bc7ef90a-1077-419d-bd4a-1b4fa12aba2d",
   "name": "Doorframe - HorizontalBoard",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HorizontalBoardDoorframe.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

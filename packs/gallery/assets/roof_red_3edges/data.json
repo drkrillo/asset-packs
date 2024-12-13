@@ -2,20 +2,5 @@
   "id": "527b76e0-91e1-4afc-b1d2-b221943fc741",
   "name": "Roof - Red 3Edges",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/RedRoof_3Edges.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

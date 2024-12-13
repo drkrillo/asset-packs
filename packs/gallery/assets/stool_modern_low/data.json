@@ -2,20 +2,5 @@
   "id": "f5844d08-2967-4d9a-99c9-57ad5c5c26c3",
   "name": "Stool Modern Low",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/ModernStoolLow.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

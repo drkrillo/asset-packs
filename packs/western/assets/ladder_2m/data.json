@@ -2,20 +2,5 @@
   "id": "925b31e8-96a2-49d7-b0cd-914be048ee37",
   "name": "Ladder 2M",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Ladder 2M.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

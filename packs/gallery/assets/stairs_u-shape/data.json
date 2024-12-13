@@ -2,20 +2,5 @@
   "id": "b9225d4c-1b10-4216-a2f5-e64198a28518",
   "name": "Stairs U-Shape",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/UShapeStairs.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

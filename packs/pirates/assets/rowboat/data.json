@@ -11,20 +11,5 @@
     "wooden",
     "boat",
     "water"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Boat_01/Boat_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

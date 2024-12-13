@@ -2,20 +2,5 @@
   "id": "568e0e3c-e431-4554-83f4-9eac727bb2d6",
   "name": "Cracked Stones",
   "category": "ground",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Cracked Stones.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

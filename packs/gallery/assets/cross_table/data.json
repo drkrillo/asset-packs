@@ -2,20 +2,5 @@
   "id": "741e12b9-17c2-4c59-bf8d-871780fbf0cd",
   "name": "Cross Table",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/CrossTable.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

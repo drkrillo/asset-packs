@@ -2,20 +2,5 @@
   "id": "4f7f8fd9-5e9f-4e98-bdff-b93a45e75274",
   "name": "Furnace 6 Pipe",
   "category": "furniture",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Furnace 6 Pipe.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

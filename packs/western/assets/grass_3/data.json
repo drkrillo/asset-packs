@@ -2,20 +2,5 @@
   "id": "dac91a20-7728-44c4-8dd1-952749ee176e",
   "name": "Grass 3",
   "category": "nature",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Grass 3.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

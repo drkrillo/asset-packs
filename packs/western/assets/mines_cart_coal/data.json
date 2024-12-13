@@ -2,20 +2,5 @@
   "id": "4d6c8a50-de44-48e7-8832-643d2dfa3df1",
   "name": "Mines Cart Coal",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Mines Cart Coal.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

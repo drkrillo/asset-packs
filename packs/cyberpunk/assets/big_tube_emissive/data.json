@@ -2,20 +2,5 @@
   "id": "5c6034df-1da1-4b7b-9dbc-58655a056984",
   "name": "Big Tube - Emissive",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Big_Tube_Emissive.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

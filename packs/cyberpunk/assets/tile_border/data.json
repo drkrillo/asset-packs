@@ -2,20 +2,5 @@
   "id": "16351f2c-d9ca-4522-8db2-3f55b1474596",
   "name": "Tile Border",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Tile_Border.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

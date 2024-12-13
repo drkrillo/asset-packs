@@ -2,20 +2,5 @@
   "id": "16245d9a-18fe-4fa2-91fd-ff6df1455b11",
   "name": "Floor - Plain White",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/plainWhiteFloor_large.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

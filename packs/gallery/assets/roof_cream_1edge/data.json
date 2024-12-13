@@ -2,20 +2,5 @@
   "id": "fc8b681b-224e-4cff-bde4-52d7e74db725",
   "name": "Roof - Cream 1Edge",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/CreamRoof_1Edge.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

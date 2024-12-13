@@ -2,20 +2,5 @@
   "id": "7ca3fbac-d29a-4127-8e34-8992a16bc99e",
   "name": "Shotgun 2",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Shotgun 2.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

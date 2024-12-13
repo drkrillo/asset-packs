@@ -2,20 +2,5 @@
   "id": "9339013d-71f8-4787-af43-0e389aafaa3a",
   "name": "Wood - pale plank",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/wood_light_plank.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

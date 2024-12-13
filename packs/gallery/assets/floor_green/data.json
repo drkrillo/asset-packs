@@ -2,20 +2,5 @@
   "id": "854d4b7e-a3f5-4619-bd0a-61793a8a8d6a",
   "name": "Floor - Green",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/GreenFloor.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

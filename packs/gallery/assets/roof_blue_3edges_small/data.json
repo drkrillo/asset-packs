@@ -2,20 +2,5 @@
   "id": "d6343681-cf7c-4439-a5c7-55bbd3a722a6",
   "name": "Roof - Blue 3Edges Small",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/BlueRoof_3Edges_Small.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

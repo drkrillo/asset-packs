@@ -7,20 +7,5 @@
     "iron",
     "blue",
     "shield"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Shield_01/Shield_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

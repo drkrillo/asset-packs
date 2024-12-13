@@ -2,20 +2,5 @@
   "id": "ce61e198-735a-482a-bd6e-0825727ef7de",
   "name": "D Red",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/D_Red.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

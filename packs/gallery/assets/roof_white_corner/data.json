@@ -2,20 +2,5 @@
   "id": "697ee0a7-6fbf-40b5-92ed-4ae96724ed78",
   "name": "Roof - White Corner",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/WhiteRoof_Corner.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -7,20 +7,5 @@
     "swamp",
     "forest",
     "water"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Vegetation_01/Vegetation_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

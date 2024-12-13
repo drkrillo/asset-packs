@@ -2,20 +2,5 @@
   "id": "03446bcc-c69c-4e16-afc1-ae3c4d7beda3",
   "name": "Train Track Crossover",
   "category": "tiles",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Train Track Crossover.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

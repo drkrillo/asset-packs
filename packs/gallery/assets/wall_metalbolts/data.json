@@ -2,20 +2,5 @@
   "id": "9a51cc2f-779d-4d10-92f8-9264f187dc30",
   "name": "Wall - MetalBolts",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/MetalBoltsWall.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -18,20 +18,5 @@
     "farm",
     "door",
     "entrance"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/FenceWoodDoor_01/FenceWoodDoor_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

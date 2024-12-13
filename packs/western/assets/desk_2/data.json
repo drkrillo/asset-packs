@@ -2,20 +2,5 @@
   "id": "9a25f7ad-ec44-4ed7-bda6-c357c6691389",
   "name": "Desk",
   "category": "furniture",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Furnit 4 Desk.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

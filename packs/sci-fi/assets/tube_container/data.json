@@ -7,20 +7,5 @@
     "storage",
     "spaceship",
     "lab"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/ScienceContainer_01/ScienceContainer_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

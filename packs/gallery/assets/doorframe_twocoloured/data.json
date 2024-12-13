@@ -2,20 +2,5 @@
   "id": "c4403267-ac99-48df-b19b-522eeebe73f9",
   "name": "Doorframe - TwoColoured",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/TwoColouredDoorframe.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

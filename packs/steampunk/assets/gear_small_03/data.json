@@ -2,20 +2,5 @@
   "id": "7f1cfc95-91f1-40ef-a727-024eb7ced026",
   "name": "Gear Small 03",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Gear Small_03.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -10,20 +10,5 @@
     "wheel",
     "golden",
     "gold"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/WheelBarrow_01/WheelBarrow_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

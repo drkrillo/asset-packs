@@ -2,20 +2,5 @@
   "id": "03f91f4d-3ca7-4f97-b0ea-0557541ea9c5",
   "name": "Solid Red Pattern",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/solid_red_pattern.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

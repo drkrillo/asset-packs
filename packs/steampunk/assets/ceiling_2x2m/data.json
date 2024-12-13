@@ -2,20 +2,5 @@
   "id": "0efcf632-80ae-4c0b-94a9-7ebf7fd569b0",
   "name": "Ceiling 2x2M",
   "category": "tiles",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Ceiling 2x2M.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

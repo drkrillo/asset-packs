@@ -2,20 +2,5 @@
   "id": "b5431f1a-d804-4c19-9f54-26cffd148c5a",
   "name": "Glass - Violet",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/glass_violet.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

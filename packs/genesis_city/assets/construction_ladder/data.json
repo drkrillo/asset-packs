@@ -11,20 +11,5 @@
     "ladder",
     "step",
     "metal"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/ConstructionLadder_01/ConstructionLadder_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

@@ -6,20 +6,5 @@
     "scifi",
     "alien",
     "base"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Hallway_Module_StraightHalf_01/Hallway_Module_StraightHalf_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

@@ -10,20 +10,5 @@
     "fish",
     "exotic",
     "water"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Fish_04/Fish_04.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

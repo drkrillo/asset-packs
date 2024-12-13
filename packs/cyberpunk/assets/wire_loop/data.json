@@ -2,20 +2,5 @@
   "id": "a9423bf9-4f76-44ea-ac5a-4da2c93ba40a",
   "name": "Wire Loop",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Wire_Loop.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

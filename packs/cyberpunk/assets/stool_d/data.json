@@ -2,20 +2,5 @@
   "id": "068bd007-1047-4cb5-94b9-718f3ceee14d",
   "name": "Stool D",
   "category": "furniture",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Stool_D.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

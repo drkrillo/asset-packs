@@ -2,20 +2,5 @@
   "id": "dc2d6a5f-0dc7-4300-8015-46993a3c425d",
   "name": "Armchair - Red",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/RedArmchair.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -6,20 +6,5 @@
     "scifi",
     "spaceship",
     "drone"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/SpaceShip_03/SpaceShip_03.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

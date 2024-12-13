@@ -2,20 +2,5 @@
   "id": "2fb50813-c7e6-4443-8dc2-b143c6be1efa",
   "name": "Window - AcousticPanel ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/AcousticPanelWindow.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

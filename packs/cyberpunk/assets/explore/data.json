@@ -2,20 +2,5 @@
   "id": "dd7267a4-d217-498a-9c59-f54dd3ff5e32",
   "name": "\"Explore\"",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Explore.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

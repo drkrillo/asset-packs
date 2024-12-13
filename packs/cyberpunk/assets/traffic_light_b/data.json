@@ -2,20 +2,5 @@
   "id": "a0da39f1-4cd1-477d-938e-b33211844fc5",
   "name": "Traffic Light B",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Traffic_Light_B.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

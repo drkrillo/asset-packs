@@ -2,20 +2,5 @@
   "id": "23c75023-0be2-4cc5-b14e-206fa94c996c",
   "name": "Cactus 6",
   "category": "nature",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Cactus 6.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

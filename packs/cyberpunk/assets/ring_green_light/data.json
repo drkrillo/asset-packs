@@ -2,20 +2,5 @@
   "id": "8afb65e1-05e3-46a7-949a-e9ed299e623c",
   "name": "Ring - Green Light",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Ring_Green_Light.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

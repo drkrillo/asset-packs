@@ -2,20 +2,5 @@
   "id": "05ea63bd-33da-40ba-ba8b-4db117a3ed84",
   "name": "Pipe Medium",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Pipe Medium.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

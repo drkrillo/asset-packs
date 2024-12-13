@@ -7,20 +7,5 @@
     "wall",
     "banner",
     "fabric"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/WallCloths_Red_01/WallCloths_Red_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

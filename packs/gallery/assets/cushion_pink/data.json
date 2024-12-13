@@ -2,20 +2,5 @@
   "id": "95bedfa0-4e73-470a-910a-73bcee603f3c",
   "name": "Cushion - Pink",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PinkCushion.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

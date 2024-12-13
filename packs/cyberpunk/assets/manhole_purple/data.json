@@ -2,20 +2,5 @@
   "id": "f5878d84-951e-4deb-9eeb-5feaf716136c",
   "name": "Manhole - Purple",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Manhole_Purple.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

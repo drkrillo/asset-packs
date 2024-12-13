@@ -2,20 +2,5 @@
   "id": "12ce92bf-f0b8-4be1-81ad-97425bc3b45c",
   "name": "Floor - Concrete",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/ConcreteFloor.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

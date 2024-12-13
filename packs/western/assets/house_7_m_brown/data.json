@@ -2,20 +2,5 @@
   "id": "7dc2fbae-9a93-45d0-9ab2-22e35b027bc6",
   "name": "House 7 M Brown",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/House 7 M Brown.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

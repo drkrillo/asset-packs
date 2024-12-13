@@ -2,20 +2,5 @@
   "id": "eca11096-8d70-4510-869b-2dba3683ddbb",
   "name": "Train Car",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Train Car.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

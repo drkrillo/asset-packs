@@ -2,20 +2,5 @@
   "id": "661a0e19-f941-4278-bd85-f709c210dc8d",
   "name": "Roof - Black 3Edges Small",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/BlackRoof_3Edges_Small.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

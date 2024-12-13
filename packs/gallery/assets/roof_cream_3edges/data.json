@@ -2,20 +2,5 @@
   "id": "4448b7a5-089f-455f-a52a-b001db97d926",
   "name": "Roof - Cream 3Edges",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/CreamRoof_3Edges.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

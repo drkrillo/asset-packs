@@ -2,20 +2,5 @@
   "id": "b4a17329-14d3-4d3e-a4de-4fb58f621d73",
   "name": "Window - Beige ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/BeigeWindow.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

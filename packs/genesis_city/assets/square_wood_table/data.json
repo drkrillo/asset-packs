@@ -10,20 +10,5 @@
     "wodd",
     "table",
     "cafe"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Table_03/Table_03.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

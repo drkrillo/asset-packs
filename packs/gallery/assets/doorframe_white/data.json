@@ -2,20 +2,5 @@
   "id": "f9b8280a-e7de-4d12-b0b2-987e82a75189",
   "name": "Doorframe - White",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/WhiteDoorframe.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

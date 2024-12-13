@@ -2,20 +2,5 @@
   "id": "4bd7a0cc-0016-49c2-8075-7ec361af961a",
   "name": "Ring Red Light",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Ring_Red_Light.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

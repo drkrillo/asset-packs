@@ -2,20 +2,5 @@
   "id": "53eadfc5-b9a5-4458-a794-7d9332473971",
   "name": "Floor - Pink",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PinkFloor.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

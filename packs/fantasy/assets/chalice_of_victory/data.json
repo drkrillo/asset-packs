@@ -9,20 +9,5 @@
     "beverage",
     "drink",
     "drinks"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Chalice_02/Chalice_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

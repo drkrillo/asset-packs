@@ -2,20 +2,5 @@
   "id": "005e2772-1438-41e6-9882-062ae0a8b2ba",
   "name": "Console Table",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/ConsoleTable.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

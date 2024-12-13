@@ -2,20 +2,5 @@
   "id": "b645a8f2-b7b7-4bbf-86e2-29d73765ea41",
   "name": "Wall - PlainPeach",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PlainPeachWall.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

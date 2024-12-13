@@ -2,20 +2,5 @@
   "id": "6cafabc9-033e-4b5a-a150-360d8deb0007",
   "name": "Wall - Futuristic",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/FuturisticWall.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

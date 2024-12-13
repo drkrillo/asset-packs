@@ -2,20 +2,5 @@
   "id": "7d8fe168-8b4a-4fc5-bda8-a7dc320f281f",
   "name": "Doorframe - Cracked",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/CrackedDoorframe.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "c337d9f8-902d-41e5-9bba-e98244d63d38",
   "name": "Pipe Long B",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Pipe Long B.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "968cfa8d-c9c4-4e82-9c23-07a05bd51164",
   "name": "Lamp - Yellow",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Lamp_Yellow.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

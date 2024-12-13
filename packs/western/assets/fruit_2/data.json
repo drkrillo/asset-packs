@@ -2,20 +2,5 @@
   "id": "50c18ed7-ccb8-4b41-ad45-3502b43e07d0",
   "name": "Fruit 2",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Fruit 2.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

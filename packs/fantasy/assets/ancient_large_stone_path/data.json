@@ -12,20 +12,5 @@
     "rocks",
     "forest",
     "path"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/RockFloor_Module_4M/RockFloor_Module_4M.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

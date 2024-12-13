@@ -2,20 +2,5 @@
   "id": "77683fc3-021a-4d5c-8a7a-f6db84b8c819",
   "name": "Arcade Machine Green",
   "category": "furniture",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Arcade_Machine_Green.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

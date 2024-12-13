@@ -2,20 +2,5 @@
   "id": "8d8d5f8b-2bd3-4da1-942d-d89c182ca020",
   "name": "Bricks - Pale",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/brick_light.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

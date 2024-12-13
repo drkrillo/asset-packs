@@ -7,20 +7,5 @@
     "air",
     "vent",
     "hang"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/AirVent_Hang_01/AirVent_Hang_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

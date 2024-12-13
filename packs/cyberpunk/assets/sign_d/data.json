@@ -2,20 +2,5 @@
   "id": "5613f3b5-bc32-4e80-8897-0e6cbc4a729c",
   "name": "Sign D",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/SignD.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

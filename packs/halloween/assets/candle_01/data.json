@@ -2,20 +2,5 @@
   "id": "a6839fd4-c2e9-4f41-a4e1-cd2bdd1a4138",
   "name": "Candle 01",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_Candle_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

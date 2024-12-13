@@ -2,20 +2,5 @@
   "id": "21b7d85b-8b79-4b5c-9193-5aaddb3f9d1b",
   "name": "Y Blue",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Y_Blue.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

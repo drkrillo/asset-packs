@@ -2,20 +2,5 @@
   "id": "207a06d7-e801-42e8-8e36-2a887a728917",
   "name": "Roof - Black Corner",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/BlackRoof_Corner.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

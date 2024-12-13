@@ -2,20 +2,5 @@
   "id": "2b308369-b0c5-47ab-8810-7a07f784d1ca",
   "name": "Window - Lime",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/LimeWindow.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

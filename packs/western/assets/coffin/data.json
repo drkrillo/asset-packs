@@ -2,20 +2,5 @@
   "id": "7151aa8f-fbf7-4ee5-965f-c7b680f72de4",
   "name": "Coffin",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Coffin.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

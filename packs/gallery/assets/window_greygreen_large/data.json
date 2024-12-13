@@ -2,20 +2,5 @@
   "id": "3556eafb-86c4-4378-aa41-39b2148ef031",
   "name": "Window - GreyGreen Large",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/GreyGreenWindowLarge.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

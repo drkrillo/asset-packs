@@ -2,20 +2,5 @@
   "id": "a30d012f-3c0f-44c3-ac00-bb75e516e9f8",
   "name": "WallCorner - GreenGrey ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/GreenGreyCorner.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

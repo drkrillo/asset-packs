@@ -2,20 +2,5 @@
   "id": "78549fc6-6946-481e-99f6-5101490c5b5e",
   "name": "Wall - Arrows",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/ArrowWall.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

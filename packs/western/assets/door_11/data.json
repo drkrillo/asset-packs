@@ -2,20 +2,5 @@
   "id": "ad94b5e5-face-4011-be73-a261eece8dd3",
   "name": "Door 11",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Door 11.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

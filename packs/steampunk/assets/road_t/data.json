@@ -2,20 +2,5 @@
   "id": "6497938f-280d-4956-9f3f-0cde1af7b1e1",
   "name": "Road T",
   "category": "tiles",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Road T.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

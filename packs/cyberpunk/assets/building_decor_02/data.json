@@ -2,20 +2,5 @@
   "id": "3655de90-a03a-4acd-b2a2-8af35180cc05",
   "name": "Building Decor 02",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Building_Decor_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

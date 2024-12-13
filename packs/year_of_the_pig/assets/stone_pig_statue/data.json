@@ -7,20 +7,5 @@
     "statue",
     "pig",
     "stone"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/ChineseStatuePig_01/ChineseStatuePig_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

@@ -2,20 +2,5 @@
   "id": "d5d9c7b0-66d7-44f1-a345-8ec7db703309",
   "name": "Mountain 3",
   "category": "nature",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Mountain 3.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

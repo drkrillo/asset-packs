@@ -2,20 +2,5 @@
   "id": "c11f79b5-b07c-4842-80fb-98e96496aa75",
   "name": "Roof - Purple 3Edges Small",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PurpleRoof_3Edges_Small.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

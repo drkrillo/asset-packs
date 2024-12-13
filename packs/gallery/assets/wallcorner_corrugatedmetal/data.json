@@ -2,20 +2,5 @@
   "id": "188bbc91-f1e3-452d-80ca-1bdb8f6ccfcf",
   "name": "WallCorner - CorrugatedMetal ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/CorrugatedMetalCorner.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "2160396f-7056-45f6-ae87-88d6899caa7e",
   "name": "V Red",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/V_Red.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

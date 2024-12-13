@@ -2,20 +2,5 @@
   "id": "45f97802-5b23-4e33-a150-44d250c570c0",
   "name": "Sushi Shelf 2",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Sushi_Shelf_2.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "5c500e3f-ff17-4381-954c-3c74e04b00d8",
   "name": "Garland",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Garland.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

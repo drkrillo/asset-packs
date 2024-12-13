@@ -2,20 +2,5 @@
   "id": "642c2767-b248-422c-ba7f-42317d20c0e9",
   "name": "Drawer 1",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Drawer 1.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

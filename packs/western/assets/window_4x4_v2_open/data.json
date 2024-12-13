@@ -2,20 +2,5 @@
   "id": "a4f62a39-366b-4c84-9b52-863c43e551f6",
   "name": "Window 4x4 V2 Open",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Window 4x4 V2 Open.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

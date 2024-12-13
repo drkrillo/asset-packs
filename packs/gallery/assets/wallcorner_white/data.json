@@ -2,20 +2,5 @@
   "id": "91515a72-8f9f-4e7b-8ca5-a4dec6f99402",
   "name": "WallCorner - White ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/WhiteCorner.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

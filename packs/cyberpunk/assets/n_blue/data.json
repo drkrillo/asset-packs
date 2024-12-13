@@ -2,20 +2,5 @@
   "id": "7bffadb3-de78-454e-a642-b92c0b8ee4db",
   "name": "N Blue",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/N_Blue.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

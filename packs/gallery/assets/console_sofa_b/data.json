@@ -2,20 +2,5 @@
   "id": "52ba638e-ea92-4a4a-b8d7-97c3699ea51a",
   "name": "Console Sofa B",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/ConsoleSofaB.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

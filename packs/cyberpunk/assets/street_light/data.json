@@ -2,20 +2,5 @@
   "id": "1e866c9b-7298-4277-b57f-9e8c7d65156b",
   "name": "Street Light",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Street_Light.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

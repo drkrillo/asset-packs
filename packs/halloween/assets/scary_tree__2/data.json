@@ -2,20 +2,5 @@
   "id": "e7c65e14-bed3-471e-a76f-a9dd4247b102",
   "name": " Scary Tree  2",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_ScaryTree_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

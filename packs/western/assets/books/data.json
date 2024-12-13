@@ -2,20 +2,5 @@
   "id": "44bcc403-ae66-42db-ba5d-bd561040f607",
   "name": "Books",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Books.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

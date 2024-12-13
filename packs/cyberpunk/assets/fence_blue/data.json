@@ -2,20 +2,5 @@
   "id": "87187c4c-e90f-4407-9b7a-259beab4eebd",
   "name": "Fence - Blue",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Fence_Blue.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "6167b0ed-a70e-4711-a8e1-3f3cae99ce24",
   "name": "Mines Model Curve",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Mines Model Curve.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

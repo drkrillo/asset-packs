@@ -2,20 +2,5 @@
   "id": "305bd2e8-030e-4d46-a632-2aa607444b5d",
   "name": "Flower 01",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_Flower_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "d54cb21e-7adf-4769-944e-b4d434d3523a",
   "name": "WallCorner - DiagonalTiles",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/DiagonalTileCorner.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

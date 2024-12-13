@@ -2,20 +2,5 @@
   "id": "cce36f8c-1d5e-4c47-93ee-bdc73318e762",
   "name": "Cracked Sand",
   "category": "ground",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Cracked Sand.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

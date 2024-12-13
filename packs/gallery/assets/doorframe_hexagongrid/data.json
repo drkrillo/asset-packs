@@ -2,20 +2,5 @@
   "id": "dbf318ee-9c03-4301-82c9-47a0041d263a",
   "name": "Doorframe - HexagonGrid",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HexagonGridDoorframe.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -10,20 +10,5 @@
     "construction",
     "light",
     "lighting"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/ConstructionLight_01/ConstructionLight_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

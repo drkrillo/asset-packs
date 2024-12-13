@@ -2,20 +2,5 @@
   "id": "05393e82-0acd-40ea-837a-02752445bbf0",
   "name": "Factory Tube 02",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Factory_Tube_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -13,20 +13,5 @@
     "weapon",
     "boom",
     "wick"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Cannon_02/Cannon_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

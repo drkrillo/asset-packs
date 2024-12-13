@@ -2,20 +2,5 @@
   "id": "5e74295e-315c-4581-be84-61a8069f1f4d",
   "name": "Neon Rectangle Sign",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Neon_Rectangle_Sign.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

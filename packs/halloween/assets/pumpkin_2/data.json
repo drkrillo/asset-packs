@@ -2,20 +2,5 @@
   "id": "09585c78-16b6-4dab-bc12-0e4ac5ff13c7",
   "name": "Pumpkin 2",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_Pumpkin_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

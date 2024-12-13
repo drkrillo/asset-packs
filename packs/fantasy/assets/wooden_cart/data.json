@@ -7,20 +7,5 @@
     "wheels",
     "wood",
     "cart"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Cart_01/Cart_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

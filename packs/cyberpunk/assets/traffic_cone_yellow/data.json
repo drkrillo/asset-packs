@@ -2,20 +2,5 @@
   "id": "66ced90e-ad6d-4cc0-ae22-c7cb25003572",
   "name": "Traffic Cone - Yellow",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Traffic_Cone_Yellow.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

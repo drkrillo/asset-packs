@@ -2,20 +2,5 @@
   "id": "fbd64178-0c5c-4c3e-8b88-cc65ae1d1a42",
   "name": "Mines Wood Fence3 4M",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Mines Wood Fence3 4M.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

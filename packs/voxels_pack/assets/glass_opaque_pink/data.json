@@ -2,20 +2,5 @@
   "id": "65c5fb89-f153-4b1c-a4e5-002aca5d09ef",
   "name": "Glass - Opaque Pink",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/glass_opaque_pink.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

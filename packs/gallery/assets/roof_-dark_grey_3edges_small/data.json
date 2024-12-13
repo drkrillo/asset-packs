@@ -2,20 +2,5 @@
   "id": "5b2f50e1-9740-4cb2-aed1-9b1717be93bf",
   "name": "Roof -Dark Grey 3Edges Small",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/DarkGreyRoof_3Edges_Small.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

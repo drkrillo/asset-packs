@@ -2,20 +2,5 @@
   "id": "fa8d293e-fbb8-411f-a03c-c9e26102e0c9",
   "name": "Cushion - Black",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/BlackCushion.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

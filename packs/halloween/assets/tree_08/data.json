@@ -2,20 +2,5 @@
   "id": "67dbc020-c065-475f-a1d4-871995bc08f4",
   "name": "Tree 08",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_Tree_08.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

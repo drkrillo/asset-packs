@@ -2,20 +2,5 @@
   "id": "7e909b0f-aeba-4b30-bef0-a2827d4f1677",
   "name": "Sushi Plate",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Sushi_Plate.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -6,57 +6,5 @@
     "social",
     "links",
     "wechat"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/wechat.glb"
-            }
-          }
-        }
-      },
-      {
-        "name": "asset-packs::Actions",
-        "data": {
-          "0": {
-            "json": {
-              "id": "{self}",
-              "value": [
-                {
-                  "name": "Open Link",
-                  "type": "open_link",
-                  "jsonPayload": "{ \"url\": \"https://wechat.com\" }"
-                }
-              ]
-            }
-          }
-        }
-      },
-      {
-        "name": "asset-packs::Triggers",
-        "data": {
-          "0": {
-            "json": {
-              "value": [
-                {
-                  "type": "on_click",
-                  "actions": [
-                    {
-                      "id": "{self:asset-packs::Actions}",
-                      "name": "Open Link"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

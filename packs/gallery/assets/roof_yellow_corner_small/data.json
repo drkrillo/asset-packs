@@ -2,20 +2,5 @@
   "id": "97c10916-08a1-41a1-827f-447ce0ef885f",
   "name": "Roof - Yellow Corner Small",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/YellowRoof_Corner_Small.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

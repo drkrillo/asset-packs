@@ -2,20 +2,5 @@
   "id": "5aef7429-20a5-446d-b799-e09e9c7fa8b5",
   "name": "Roof - Purple 2Edges",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PurpleRoof_2Edges.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

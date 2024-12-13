@@ -2,20 +2,5 @@
   "id": "461b6dd1-161b-4888-b9b2-012f49a3ee0e",
   "name": "Microwave - Open",
   "category": "furniture",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Microwave_Open.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

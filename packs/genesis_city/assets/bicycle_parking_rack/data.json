@@ -12,20 +12,5 @@
     "park",
     "hipster",
     "Netherlands"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/BicycleParking_01/BicycleParking_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

@@ -2,20 +2,5 @@
   "id": "a7c127cf-0f13-4da0-ab0a-4616868590dc",
   "name": "Bricks - Red",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/brick_red.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

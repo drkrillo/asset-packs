@@ -2,20 +2,5 @@
   "id": "c58efc8e-b7de-4bd6-a639-1711cf569e2d",
   "name": "Fence Wood V4 Entry",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Fence Wood V4 Entry.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

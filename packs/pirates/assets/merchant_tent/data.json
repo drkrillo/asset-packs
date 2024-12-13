@@ -13,20 +13,5 @@
     "sticks",
     "fabric",
     "canopy"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Tent_01/Tent_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

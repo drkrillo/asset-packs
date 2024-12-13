@@ -15,20 +15,5 @@
     "garden",
     "backyard",
     "yard"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/TreeSycamore_02/TreeSycamore_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

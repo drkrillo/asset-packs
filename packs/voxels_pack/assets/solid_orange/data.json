@@ -2,20 +2,5 @@
   "id": "312a5775-b7b0-4455-903b-5e569f63d3fa",
   "name": "Solid Orange",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/solid_orange.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

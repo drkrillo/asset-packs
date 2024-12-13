@@ -2,20 +2,5 @@
   "id": "25b44553-7b35-4260-81b9-733961f8c248",
   "name": "WallCorner - Metal ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/MetalCorner.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

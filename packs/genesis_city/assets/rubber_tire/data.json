@@ -10,20 +10,5 @@
     "tire",
     "rubber",
     "construction"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/RubberTire_01/RubberTire_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

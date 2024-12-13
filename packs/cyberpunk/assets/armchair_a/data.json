@@ -2,20 +2,5 @@
   "id": "3692233b-6494-4f39-8e51-18029085dd15",
   "name": "Armchair A",
   "category": "furniture",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Armchair_A.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

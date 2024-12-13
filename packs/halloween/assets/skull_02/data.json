@@ -2,20 +2,5 @@
   "id": "df0c31e7-1773-48a5-abb1-460111c7e71a",
   "name": "Skull 02",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_Skull_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

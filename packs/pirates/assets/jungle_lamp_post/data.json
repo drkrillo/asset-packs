@@ -14,20 +14,5 @@
     "iron",
     "rope",
     "post"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/JungleLampPost_01/JungleLampPost_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

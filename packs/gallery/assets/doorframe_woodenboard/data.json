@@ -2,20 +2,5 @@
   "id": "21b3e842-c257-4777-9775-ece3aa2e0749",
   "name": "Doorframe - WoodenBoard",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/WoodenBoardDoorframe.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

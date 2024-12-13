@@ -2,20 +2,5 @@
   "id": "b346d714-05ee-4f9a-a6a8-f146047c4501",
   "name": "Roof - Black 2Edges",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/BlackRoof_2Edges.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

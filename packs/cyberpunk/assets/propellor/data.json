@@ -2,20 +2,5 @@
   "id": "1f7e732a-2316-4cda-8422-17d0b8d2ad66",
   "name": "Propellor",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Propellor.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "bd3d2d45-9aaf-4785-90ed-83fde84f8841",
   "name": "Armchair - White Modern",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/WhiteModernArmchair.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

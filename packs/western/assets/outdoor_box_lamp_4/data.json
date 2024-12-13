@@ -2,20 +2,5 @@
   "id": "7948681c-cf29-4ed1-81e7-124363c218a6",
   "name": "Outdoor Box Lamp 4",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Outdoor Box Lamp 4.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

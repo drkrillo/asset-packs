@@ -2,20 +2,5 @@
   "id": "35860126-1cba-45b4-9fb0-6a587cf89993",
   "name": "Grafitti Wall H",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Grafitti_Wall_H.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

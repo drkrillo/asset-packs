@@ -2,20 +2,5 @@
   "id": "5244e375-c3de-4c48-8a9d-0e2ee6264f65",
   "name": "Furnace 2",
   "category": "furniture",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Furnace 2.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

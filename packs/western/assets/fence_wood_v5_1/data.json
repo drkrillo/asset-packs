@@ -2,20 +2,5 @@
   "id": "4061ae67-07ea-448e-b5f5-a004ca3f018e",
   "name": "Fence Wood V5 1",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Fence Wood V5 1.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

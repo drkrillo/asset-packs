@@ -11,20 +11,5 @@
     "crop",
     "vegetation",
     "lettuce"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/FarmVegetation_02/FarmVegetation_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

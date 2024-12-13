@@ -2,20 +2,5 @@
   "id": "2bb2e50a-96a1-42e1-82b2-f527bc9a89b3",
   "name": "Column  4",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_Column_04.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "35653f98-5c85-4c6d-8cec-346b86f8a4a4",
   "name": "Doorframe - Beige",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/BeigeDoorframe.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

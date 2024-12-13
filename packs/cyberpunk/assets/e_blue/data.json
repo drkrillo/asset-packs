@@ -2,20 +2,5 @@
   "id": "7066767f-2f78-449d-84fc-a2b5f6615892",
   "name": "E Blue",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/E_Blue.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

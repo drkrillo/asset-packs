@@ -2,20 +2,5 @@
   "id": "32049ed9-26e5-4fc2-965f-6e09e7084984",
   "name": "WallCorner - Glass ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/GlassCorner.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

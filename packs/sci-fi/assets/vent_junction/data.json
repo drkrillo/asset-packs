@@ -7,20 +7,5 @@
     "air",
     "vent",
     "union"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/AirVent_Union_01/AirVent_Union_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

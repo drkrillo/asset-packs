@@ -8,20 +8,5 @@
     "marble",
     "pattern",
     "luxurious"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Tile_Floor_02/Tile_Floor_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

@@ -2,20 +2,5 @@
   "id": "ed38e64c-a107-49da-8a9e-66f73cdb5d67",
   "name": "Train Track 10 M Curve",
   "category": "tiles",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Train Track 10 M Curve.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

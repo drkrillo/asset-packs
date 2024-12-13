@@ -8,20 +8,5 @@
     "line",
     "cord",
     "string"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/ChineseLampRopeSmall_01/ChineseLampRopeSmall_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

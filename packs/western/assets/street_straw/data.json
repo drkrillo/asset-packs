@@ -2,20 +2,5 @@
   "id": "0d0b9fb9-0055-42e5-b39c-ed21e0782b2b",
   "name": "Street Straw",
   "category": "nature",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Street Straw.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

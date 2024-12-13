@@ -2,20 +2,5 @@
   "id": "e6bb4e73-d06e-452a-88d2-dfd5463e59fe",
   "name": "Clock",
   "category": "furniture",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Furnit 5 Clock.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

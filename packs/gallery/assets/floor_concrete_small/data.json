@@ -2,20 +2,5 @@
   "id": "e5eace4d-b914-4571-9d79-830c8b14caa3",
   "name": "Floor - Concrete Small",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/ConcreteFloor_Small.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

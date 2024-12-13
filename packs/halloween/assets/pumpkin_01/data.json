@@ -2,20 +2,5 @@
   "id": "dabe1960-5e48-471e-805e-8409ac499b80",
   "name": "Pumpkin 01",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_Pumpkin_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

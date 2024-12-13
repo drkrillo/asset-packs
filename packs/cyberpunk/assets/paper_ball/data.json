@@ -2,20 +2,5 @@
   "id": "0b6fbff7-9541-47ff-a059-5fe2661d413d",
   "name": "Paper Ball",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Paper_Ball.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

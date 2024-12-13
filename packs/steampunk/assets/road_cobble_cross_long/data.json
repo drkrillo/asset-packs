@@ -2,20 +2,5 @@
   "id": "bfff3e0c-3958-46ac-99d4-0724429a90d9",
   "name": "Road Cobble Cross Long",
   "category": "tiles",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Road Cobble Cross Long.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

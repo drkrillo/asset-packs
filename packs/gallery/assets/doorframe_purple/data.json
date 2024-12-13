@@ -2,20 +2,5 @@
   "id": "70a1e8db-b171-4b43-87da-5b1e0e9a9dd4",
   "name": "Doorframe - Purple",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PurpleDoorframe.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

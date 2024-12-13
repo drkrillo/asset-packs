@@ -2,20 +2,5 @@
   "id": "17f2bbdb-4eaf-4934-be24-64299fa2df30",
   "name": "Bulletin Post",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Bulletin_Post.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

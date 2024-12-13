@@ -2,20 +2,5 @@
   "id": "3c50f13b-5869-4190-abf1-92efa727b0fa",
   "name": "Cart Small 1",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Cart Small 1.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

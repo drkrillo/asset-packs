@@ -2,20 +2,5 @@
   "id": "73ac6057-627c-495c-931e-cc8829dce894",
   "name": "Dirt - Grass",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/dirt_grass.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

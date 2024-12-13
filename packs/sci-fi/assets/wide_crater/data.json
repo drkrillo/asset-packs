@@ -7,20 +7,5 @@
     "cosmic",
     "hole",
     "planet"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Crater_01/Crater_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

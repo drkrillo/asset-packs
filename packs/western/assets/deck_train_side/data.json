@@ -2,20 +2,5 @@
   "id": "eb141478-dd57-4888-bda2-d17f39fe1d94",
   "name": "Deck Train Side",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Deck Train Side.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

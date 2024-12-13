@@ -2,20 +2,5 @@
   "id": "8b0d5631-234f-4d29-abe4-89e6d7436a3d",
   "name": "Grave 12",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_Grave_12.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

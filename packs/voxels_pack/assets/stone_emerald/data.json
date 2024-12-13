@@ -2,20 +2,5 @@
   "id": "ad8d434b-ce0b-4d92-800a-ea0e9dcec4e8",
   "name": "Stone - Emerald",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/stone_emerald.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

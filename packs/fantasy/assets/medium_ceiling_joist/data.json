@@ -9,20 +9,5 @@
     "wooden",
     "joist",
     "cealing"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Column_Wood_3M/Column_Wood_3M.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

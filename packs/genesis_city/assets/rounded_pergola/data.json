@@ -9,20 +9,5 @@
     "structures",
     "garden",
     "park"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Pergola_01/Pergola_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

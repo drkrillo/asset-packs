@@ -13,20 +13,5 @@
     "iron",
     "park",
     "garden"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/FenceIronEnd_01/FenceIronEnd_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

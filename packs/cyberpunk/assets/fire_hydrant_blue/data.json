@@ -2,20 +2,5 @@
   "id": "f2e04ed0-7bcf-4f2f-95bd-1658de022fb3",
   "name": "Fire Hydrant  - Blue",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Fire_Hydrant_Blue.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

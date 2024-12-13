@@ -2,20 +2,5 @@
   "id": "a7afb9c7-eb2a-4d05-807f-e284b128e434",
   "name": "Drawers",
   "category": "furniture",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Furnit 2.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

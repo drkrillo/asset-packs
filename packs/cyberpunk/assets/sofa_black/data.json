@@ -2,20 +2,5 @@
   "id": "a9bb84fd-6556-4d92-bdd3-d66ffe963b3e",
   "name": "Sofa Black",
   "category": "furniture",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Sofa_Black.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

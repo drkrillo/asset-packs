@@ -2,20 +2,5 @@
   "id": "74900411-6b15-4fbd-8655-631e73ebe057",
   "name": "Stone 7",
   "category": "nature",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Stone 7.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

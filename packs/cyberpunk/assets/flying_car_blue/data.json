@@ -2,20 +2,5 @@
   "id": "2b4e6d93-779f-4a95-9ed7-eb45e01505a9",
   "name": "Flying Car Blue",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Flying_Car_Blue.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "b69f135b-a411-4c2b-92b0-ff23746dcdc7",
   "name": "Light Wall",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Light Wall.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

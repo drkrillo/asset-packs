@@ -2,20 +2,5 @@
   "id": "c2f3bda2-7ffc-4873-8d2b-026d2a4abeb6",
   "name": "Floor - Hexagon",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HexagonFloor.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

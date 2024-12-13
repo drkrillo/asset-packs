@@ -2,20 +2,5 @@
   "id": "9fd24d73-f7dd-4106-a31c-5e76810f7cd4",
   "name": "Roof - Green Corner Small",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/GreenRoof_Corner_Small.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

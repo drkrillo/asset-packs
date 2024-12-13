@@ -2,20 +2,5 @@
   "id": "06d68dea-ab97-48e1-b35a-a77b504aa45c",
   "name": "Wood Planks Floor Modules 4x4M",
   "category": "tiles",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Wood Planks Floor Modules 4x4M.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

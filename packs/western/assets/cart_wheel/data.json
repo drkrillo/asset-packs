@@ -2,20 +2,5 @@
   "id": "22d08ed2-0fbd-4d16-8fa8-e75e34adfea3",
   "name": "Cart Wheel",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Cart Wheel.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

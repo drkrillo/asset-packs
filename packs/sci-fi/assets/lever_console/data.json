@@ -7,20 +7,5 @@
     "trigger",
     "button",
     "enable"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Lever_01/Lever_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

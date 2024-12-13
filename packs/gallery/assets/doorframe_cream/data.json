@@ -2,20 +2,5 @@
   "id": "0b4884d2-81ed-46e0-9d5f-b3ea91145376",
   "name": "Doorframe - Cream",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/CreamDoorframe.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

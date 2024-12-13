@@ -2,20 +2,5 @@
   "id": "fb6c9576-7f02-4a02-959f-1186bea84387",
   "name": "Stairs Spiral Floating",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/spiralFloatingStairs.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

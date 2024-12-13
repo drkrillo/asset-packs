@@ -2,20 +2,5 @@
   "id": "0e37e423-9868-4b9f-bbc0-bbb4c8425ace",
   "name": "Wood - Red Planks",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/woodplank_light_red.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

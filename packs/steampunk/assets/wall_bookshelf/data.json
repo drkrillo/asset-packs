@@ -2,20 +2,5 @@
   "id": "b44ad9a1-d018-4152-ba5b-2fad3a66a872",
   "name": "Wall Bookshelf",
   "category": "furniture",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Wall Bookshelf.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -12,20 +12,5 @@
     "red",
     "water",
     "beach"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Starfish_01/Starfish_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

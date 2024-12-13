@@ -2,20 +2,5 @@
   "id": "1b5eeccc-be7b-475e-8002-21dc5d4d9f21",
   "name": "Skull Deco",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_SkullDeco_DDLM_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "890e21c1-57d7-4127-80c0-becdcbc4ddb3",
   "name": "Mines Runway Curve Half",
   "category": "tiles",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Mines Runway Curve Half.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

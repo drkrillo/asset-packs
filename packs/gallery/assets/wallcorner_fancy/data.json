@@ -2,20 +2,5 @@
   "id": "dcda3155-1a81-4cad-849b-38da22270cb7",
   "name": "WallCorner - Fancy ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/FancyCorner.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

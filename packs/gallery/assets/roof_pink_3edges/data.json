@@ -2,20 +2,5 @@
   "id": "bad148c7-d8ce-4fed-8ec8-f62e82d21c2f",
   "name": "Roof - Pink 3Edges",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PinkRoof_3Edges.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

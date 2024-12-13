@@ -2,20 +2,5 @@
   "id": "04fe7167-3dbf-481c-b05a-affd9f58fe63",
   "name": "Cart Big Open",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Cart Big Open.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

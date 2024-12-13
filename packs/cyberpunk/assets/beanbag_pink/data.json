@@ -2,20 +2,5 @@
   "id": "ff6f1a6e-ea64-42ce-b657-dfda8b460382",
   "name": "Beanbag Pink",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Beanbag_Pink.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

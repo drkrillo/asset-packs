@@ -6,20 +6,5 @@
     "scifi",
     "storage",
     "spaceship"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Drawer_01/Drawer_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

@@ -2,20 +2,5 @@
   "id": "83554f07-9f86-431a-ab32-a545a0d4ab21",
   "name": "Deck Railing",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Deck Railing.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

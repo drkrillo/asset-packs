@@ -2,20 +2,5 @@
   "id": "487fc8df-c718-4c90-b7bf-8d02c47c7a0a",
   "name": "Roof - Lime 2Edges",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/LimeRoof_2Edges.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

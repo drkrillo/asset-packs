@@ -2,20 +2,5 @@
   "id": "23282bc0-b8c7-4996-b637-c566d2966ca9",
   "name": "Solid White",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/solid_white.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

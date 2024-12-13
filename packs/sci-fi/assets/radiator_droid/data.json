@@ -6,20 +6,5 @@
     "scifi",
     "robot",
     "tech"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Droid_02/Droid_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

@@ -10,20 +10,5 @@
     "bookshelf",
     "wood",
     "wooden"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Shelf_01/Shelf_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

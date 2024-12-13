@@ -2,20 +2,5 @@
   "id": "deea7009-4e8c-4e90-91dc-ff7e64341bbe",
   "name": "Spider Tree 1",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_SpiderTree_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -13,20 +13,5 @@
     "spear",
     "leather",
     "weapon"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Spear_01/Spear_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

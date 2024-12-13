@@ -7,20 +7,5 @@
     "tile",
     "cobblestone",
     "stone"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/FloorSquare_01/FloorSquare_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

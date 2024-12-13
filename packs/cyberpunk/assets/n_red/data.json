@@ -2,20 +2,5 @@
   "id": "bdf6fabe-68f6-4672-b2ff-072b0368abb5",
   "name": "N Red",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/N_Red.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

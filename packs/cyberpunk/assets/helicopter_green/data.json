@@ -2,20 +2,5 @@
   "id": "8904d42a-734c-49c7-87fe-eaf35f3ee98e",
   "name": "Helicopter Green",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Helicopter_Green.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

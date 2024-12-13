@@ -8,20 +8,5 @@
     "iron",
     "barrel",
     "fairy"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Barrel_01/Barrel_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

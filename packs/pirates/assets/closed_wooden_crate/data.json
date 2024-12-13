@@ -11,20 +11,5 @@
     "wooden",
     "crate",
     "box"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Crate_01/Crate_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

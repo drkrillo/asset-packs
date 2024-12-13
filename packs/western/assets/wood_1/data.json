@@ -2,20 +2,5 @@
   "id": "45841fab-b0ca-44c3-9015-a7707383dbae",
   "name": "Wood 1",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Wood 1.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

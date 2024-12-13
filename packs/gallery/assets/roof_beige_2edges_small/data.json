@@ -2,20 +2,5 @@
   "id": "089eb615-45f4-422f-92ea-abab34fecba9",
   "name": "Roof - Beige 2Edges Small",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/BeigeRoof_2Edges_Small.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "72926a7f-46aa-48df-a276-aaa8e7bfb485",
   "name": "Sand",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/sand.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

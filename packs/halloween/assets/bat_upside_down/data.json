@@ -2,20 +2,5 @@
   "id": "7698d460-3f21-4edc-9e67-d8921b3b67eb",
   "name": "Bat Upside Down",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_Bat_UpsideDown.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

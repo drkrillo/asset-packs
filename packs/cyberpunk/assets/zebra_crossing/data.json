@@ -2,20 +2,5 @@
   "id": "aab32db2-13ee-48e8-94ce-183d6db8557a",
   "name": "Zebra Crossing",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Zebra_Crossing.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

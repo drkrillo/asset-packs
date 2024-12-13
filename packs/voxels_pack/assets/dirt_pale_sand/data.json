@@ -2,20 +2,5 @@
   "id": "632eaa33-ab18-4465-8256-f4a2dbfeb6c1",
   "name": "Dirt - Pale Sand",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/dirt_light_sand.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

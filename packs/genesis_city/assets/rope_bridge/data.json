@@ -13,20 +13,5 @@
     "water",
     "rope",
     "jungle"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Bridge_05/Bridge_05.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

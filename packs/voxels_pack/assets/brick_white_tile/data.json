@@ -2,20 +2,5 @@
   "id": "dd1bab8b-61a5-4fe0-8eb2-9febe60d2e67",
   "name": "Brick White Tile",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/brick_light_tile.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

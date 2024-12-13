@@ -2,20 +2,5 @@
   "id": "56aae1c1-03f9-451f-9b04-55a8c84cc77b",
   "name": "Lava",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/lava.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

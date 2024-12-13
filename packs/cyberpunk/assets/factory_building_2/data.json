@@ -2,20 +2,5 @@
   "id": "64b3cd44-a35c-4d56-80c7-d2cde4bb55d7",
   "name": "Factory Building 2",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Factory_Building_2.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

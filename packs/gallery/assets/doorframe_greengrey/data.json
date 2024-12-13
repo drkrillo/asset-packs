@@ -2,20 +2,5 @@
   "id": "43620f88-c288-4f78-aabd-7be1b0ff4521",
   "name": "Doorframe - GreenGrey",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/GreenGreyDoorframe.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

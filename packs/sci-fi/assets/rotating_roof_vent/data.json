@@ -6,20 +6,5 @@
     "scifi",
     "air",
     "vent"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/RoofVent_01/RoofVent_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

@@ -2,20 +2,5 @@
   "id": "a7e93da2-7024-4d11-8fa5-c0ea51c87963",
   "name": "Roof - Pink 2Edges Small",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PinkRoof_2Edges_Small.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

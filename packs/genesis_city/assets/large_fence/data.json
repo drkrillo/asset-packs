@@ -15,20 +15,5 @@
     "backyard",
     "yard",
     "farm"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/FencePicketLarge_01/FencePicketLarge_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

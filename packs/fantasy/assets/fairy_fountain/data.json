@@ -7,20 +7,5 @@
     "fountain",
     "water",
     "park"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Fountain_01/Fountain_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

@@ -2,20 +2,5 @@
   "id": "8df3c1ed-b76b-4053-a4cf-18327c13c3cb",
   "name": "Door 5",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Door 5.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

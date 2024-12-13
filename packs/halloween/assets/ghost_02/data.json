@@ -2,20 +2,5 @@
   "id": "9b1b9f6f-6a2f-47b7-a8a5-eef8e431aca8",
   "name": "Ghost 02",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_Ghost_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

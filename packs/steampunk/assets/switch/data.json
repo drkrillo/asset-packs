@@ -2,20 +2,5 @@
   "id": "db2af51f-01cb-4f9d-833a-cfa2070bd6a8",
   "name": "Switch",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Switch.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

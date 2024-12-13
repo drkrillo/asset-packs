@@ -2,20 +2,5 @@
   "id": "c17db1de-1c8f-4e30-b8cf-d470d0ca7fcf",
   "name": "Steampunk Bench",
   "category": "furniture",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Steampunk Bench.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

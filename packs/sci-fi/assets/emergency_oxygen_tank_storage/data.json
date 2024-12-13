@@ -6,20 +6,5 @@
     "scifi",
     "life",
     "support"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/OxygenWall_01/OxygenWall_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

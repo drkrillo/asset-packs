@@ -6,20 +6,5 @@
     "scifi",
     "bio",
     "metal"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Dome_01/Dome_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

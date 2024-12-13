@@ -2,20 +2,5 @@
   "id": "13573ffc-d7ee-4940-bdba-ccad6f0b5e1a",
   "name": "Stone 3",
   "category": "nature",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Stone 3.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

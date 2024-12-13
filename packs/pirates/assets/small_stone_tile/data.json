@@ -11,20 +11,5 @@
     "stone",
     "stones",
     "path"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/StoneRandomSmall_01/StoneRandomSmall_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

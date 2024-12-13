@@ -2,20 +2,5 @@
   "id": "ce9ffe83-e787-4eee-89ea-e7dac7c12db7",
   "name": "Mines Tunel Curve",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Mines Tunel Curve.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

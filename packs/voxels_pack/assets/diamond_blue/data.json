@@ -2,20 +2,5 @@
   "id": "d7b8acc4-9590-45ea-ba36-9d427b74df9d",
   "name": "Diamond - Blue",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/diamond_pattern_blue.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

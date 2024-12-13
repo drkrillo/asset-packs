@@ -2,20 +2,5 @@
   "id": "74f6fe3c-7d82-4f32-b205-e498cd48b910",
   "name": "Window - Turquoise Large",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/TurquoiseWindowLarge.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

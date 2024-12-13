@@ -9,20 +9,5 @@
     "light",
     "gold",
     "golden"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Candle_03/Candle_03.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

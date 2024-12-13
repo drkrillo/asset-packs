@@ -10,20 +10,5 @@
     "park",
     "wood",
     "seat"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Bench_01/Bench_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

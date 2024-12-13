@@ -2,20 +2,5 @@
   "id": "8cb72f7b-0216-4bef-a9e9-dbef377eca14",
   "name": "Beam Exterior 3",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Beam Exterior 3.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

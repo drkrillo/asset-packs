@@ -2,20 +2,5 @@
   "id": "e2db1a16-fedd-48e5-97b6-56bf90997f00",
   "name": "Stairs Spiral",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/SpiralStairs.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

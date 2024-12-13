@@ -7,20 +7,5 @@
     "iron",
     "tweezers",
     "tool"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Tweezers_01/Tweezers_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

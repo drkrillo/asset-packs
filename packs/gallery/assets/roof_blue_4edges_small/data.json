@@ -2,20 +2,5 @@
   "id": "5842de4c-fc8b-47f4-9e00-74314b6989cc",
   "name": "Roof - Blue 4Edges Small",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/BlueRoof_4Edges_Small.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

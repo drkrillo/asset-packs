@@ -2,20 +2,5 @@
   "id": "d72f1055-6740-4037-ae7f-5e1227240c2e",
   "name": "Small Billboard",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Small_Billboard.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

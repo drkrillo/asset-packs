@@ -2,20 +2,5 @@
   "id": "03446b8e-c2aa-4174-91fc-665e6f7f9ceb",
   "name": "Window - Brick ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/BrickWindow.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

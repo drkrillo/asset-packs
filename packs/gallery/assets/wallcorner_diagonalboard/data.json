@@ -2,20 +2,5 @@
   "id": "ed413173-b804-46c4-87c4-2a1a655c10a3",
   "name": "WallCorner - DiagonalBoard ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/DiagonalBoardCorner.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -11,20 +11,5 @@
     "camping",
     "forest",
     "backyard"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Fireplace_01/Fireplace_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

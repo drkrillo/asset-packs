@@ -10,20 +10,5 @@
     "paint",
     "bucket",
     "construction"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PaintBucket_01/PaintBucket_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

@@ -2,20 +2,5 @@
   "id": "344a9cca-476d-4e83-8746-3e9834947847",
   "name": "Doorframe - Lime",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/LimeDoorframe.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

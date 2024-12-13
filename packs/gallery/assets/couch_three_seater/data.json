@@ -2,20 +2,5 @@
   "id": "7ec82823-7d54-4456-9a88-faf48f6098e1",
   "name": "Couch - Three Seater",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/ThreeSeater_Couch.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

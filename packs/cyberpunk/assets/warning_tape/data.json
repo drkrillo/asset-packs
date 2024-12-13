@@ -2,20 +2,5 @@
   "id": "75c80836-c6d3-4221-ac9a-7542dc13e4b6",
   "name": "Warning Tape",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Warning_Tape.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

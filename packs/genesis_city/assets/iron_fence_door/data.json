@@ -15,20 +15,5 @@
     "entrance",
     "park",
     "garden"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/FenceIronDoor_01/FenceIronDoor_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

@@ -2,20 +2,5 @@
   "id": "13d9f406-e303-47a5-97e3-ea64cf9823ab",
   "name": "WallCorner - AcousticPanel ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/AcousticPanelCorner.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

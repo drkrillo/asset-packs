@@ -2,20 +2,5 @@
   "id": "0128977b-dd35-4a67-a514-ba048838903c",
   "name": "Window - AncientEgyptian ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/AncientEgyptianWindow.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

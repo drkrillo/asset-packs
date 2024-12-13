@@ -8,20 +8,5 @@
     "round",
     "grey",
     "air"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/AirVent_Cap_01/AirVent_Cap_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

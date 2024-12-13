@@ -2,20 +2,5 @@
   "id": "bd8b419e-7284-44a5-969b-8cb32c4d7065",
   "name": "Roof - Glass 3Edges Small",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/GlassRoof_3Edges_Small.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

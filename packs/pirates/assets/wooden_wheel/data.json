@@ -14,20 +14,5 @@
     "steel",
     "tire",
     "felloes"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Wheel_01/Wheel_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

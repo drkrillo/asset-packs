@@ -2,20 +2,5 @@
   "id": "e20955a1-286a-4d28-aecb-17715fa2009b",
   "name": "Stone 6",
   "category": "nature",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Stone 6.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

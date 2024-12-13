@@ -2,20 +2,5 @@
   "id": "08130654-5217-402e-957d-c71062f45be1",
   "name": "Buy",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Buy.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

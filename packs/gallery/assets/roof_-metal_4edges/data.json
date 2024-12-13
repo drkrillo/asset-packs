@@ -2,20 +2,5 @@
   "id": "d11d3ab8-0281-4bab-bfb8-186aec8f93c4",
   "name": "Roof -Metal 4Edges",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/MetalRoof_4Edges.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

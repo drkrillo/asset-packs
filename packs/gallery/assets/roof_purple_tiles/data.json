@@ -2,20 +2,5 @@
   "id": "3e0cedc9-be07-47e1-ba83-734aa76eb8c2",
   "name": "Roof - Purple Tiles",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PurpleTileRoof.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

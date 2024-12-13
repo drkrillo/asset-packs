@@ -11,20 +11,5 @@
     "wooden",
     "seat",
     "square"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Chairwood_02/Chairwood_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

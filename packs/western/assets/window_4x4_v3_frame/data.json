@@ -2,20 +2,5 @@
   "id": "4bd17014-d98b-4d42-a3fc-8d5bd61b0a21",
   "name": "Window 4x4 V3 Frame",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Window 4x4 V3 Frame.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

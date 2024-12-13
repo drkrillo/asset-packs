@@ -2,20 +2,5 @@
   "id": "a28e9d6e-508d-4a47-bbf0-acbf8554b2e4",
   "name": "Cardboard Box Open",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Cardboard_Box_Open.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

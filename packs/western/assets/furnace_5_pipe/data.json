@@ -2,20 +2,5 @@
   "id": "530260bb-eccc-49f9-9d72-7f039030af29",
   "name": "Furnace 5 Pipe",
   "category": "furniture",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Furnace 5 Pipe.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

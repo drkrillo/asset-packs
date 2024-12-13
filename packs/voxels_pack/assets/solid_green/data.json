@@ -2,20 +2,5 @@
   "id": "4d94d24b-4769-46e1-8ce5-b1ed252f1121",
   "name": "Solid Green",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/solid_green.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

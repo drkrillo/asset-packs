@@ -2,20 +2,5 @@
   "id": "096f46e2-7183-47f8-bb4e-9c16a34f029e",
   "name": "Dumpster",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Dumpster.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

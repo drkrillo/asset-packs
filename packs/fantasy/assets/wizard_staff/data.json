@@ -13,20 +13,5 @@
     "fabric",
     "gem",
     "gemstone"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/WizardStaff_01/WizardStaff_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

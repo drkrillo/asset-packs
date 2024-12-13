@@ -2,20 +2,5 @@
   "id": "c273380f-251d-4214-865c-0e179ce1d67f",
   "name": "Grave 03",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_Grave_03.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

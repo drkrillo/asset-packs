@@ -2,20 +2,5 @@
   "id": "1a817329-54da-4581-8df7-3e6c6187dde1",
   "name": "Stone 4",
   "category": "nature",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Stone 4.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

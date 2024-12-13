@@ -2,20 +2,5 @@
   "id": "6f515533-a89d-422e-8957-325e3620c4f7",
   "name": "P Red",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/P_Red.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

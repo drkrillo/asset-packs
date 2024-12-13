@@ -11,20 +11,5 @@
     "stone",
     "stones",
     "path"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/StoneSlabSmall_01/StoneSlabSmall_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

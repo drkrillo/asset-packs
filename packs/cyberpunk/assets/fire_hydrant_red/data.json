@@ -2,20 +2,5 @@
   "id": "fe753160-1c5a-467f-becb-c422fef1d67f",
   "name": "Fire Hydrant - Red",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Fire_Hydrant_Red.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

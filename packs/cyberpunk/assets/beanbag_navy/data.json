@@ -2,20 +2,5 @@
   "id": "e4008d63-ac7b-4def-a79e-760b268b0afb",
   "name": "Beanbag - Navy",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Beanbag_Navy.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "8fe483f3-7baf-4909-88db-7076fc32b6a5",
   "name": "Food Box - Empty",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Empty_Foodbox.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

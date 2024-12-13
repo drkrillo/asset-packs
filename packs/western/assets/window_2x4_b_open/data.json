@@ -2,20 +2,5 @@
   "id": "adc613c6-03fd-4a60-b31d-45e01c53d1b5",
   "name": "Window 2x4 B Open",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Window 2x4 B Open.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

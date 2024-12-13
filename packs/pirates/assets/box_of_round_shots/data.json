@@ -14,20 +14,5 @@
     "ammunition",
     "shot",
     "cannon"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Cannonball_03/Cannonball_03.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

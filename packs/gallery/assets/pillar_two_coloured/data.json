@@ -2,20 +2,5 @@
   "id": "8eb10c1c-1fdd-4d45-9d71-4c26e49f77e5",
   "name": "Pillar - Two Coloured",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/TwoColouredPillar.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

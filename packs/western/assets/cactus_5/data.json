@@ -2,20 +2,5 @@
   "id": "18756a28-70e3-4109-9cb9-b729a8775d23",
   "name": "Cactus 5",
   "category": "nature",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Cactus 5.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

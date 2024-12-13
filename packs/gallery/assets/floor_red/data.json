@@ -2,20 +2,5 @@
   "id": "8f9ae905-00de-4ae1-b2ef-dab27559eb50",
   "name": "Floor - Red",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/RedFloor.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "f7de372b-3ac8-4f56-a822-640326132014",
   "name": "Table with Chairs",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Table_with_Chairs.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

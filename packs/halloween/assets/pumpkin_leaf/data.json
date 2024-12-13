@@ -2,20 +2,5 @@
   "id": "3b148722-e5ab-4eed-ae05-06f564cda654",
   "name": "Pumpkin Leaf",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_PumpkinLeaf.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

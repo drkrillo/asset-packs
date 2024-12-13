@@ -2,20 +2,5 @@
   "id": "1372bdd7-159e-4665-b9a4-6a93b5ca828c",
   "name": "Roof - Navy 1Edge Small",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/NavyRoof_1Edge_Small.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

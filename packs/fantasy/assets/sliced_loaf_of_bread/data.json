@@ -8,20 +8,5 @@
     "bread",
     "table",
     "banquet"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Bread_02/Bread_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

@@ -2,20 +2,5 @@
   "id": "31377006-75a4-4014-b78c-5d9eed799e7b",
   "name": "Roof - Navy 2Edges Small",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/NavyRoof_2Edges_Small.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

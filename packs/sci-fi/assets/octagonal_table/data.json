@@ -8,20 +8,5 @@
     "table",
     "work",
     "tools"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/DigitalTable_01/DigitalTable_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

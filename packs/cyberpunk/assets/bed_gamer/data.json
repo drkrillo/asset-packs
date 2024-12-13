@@ -2,20 +2,5 @@
   "id": "591af8a8-b871-429e-9c90-0c744c9cb7be",
   "name": "Bed Gamer",
   "category": "furniture",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Bed_Gamer.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

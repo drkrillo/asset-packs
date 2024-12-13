@@ -2,20 +2,5 @@
   "id": "cd51877d-5ec8-4a5e-935c-2f28825cca0d",
   "name": "Window - TwoColoured ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/TwoColouredWindow.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

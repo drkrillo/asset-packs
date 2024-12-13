@@ -2,20 +2,5 @@
   "id": "f8d1c4ef-6997-4ac2-8381-2cd36c294e66",
   "name": "Wall - AncientEgiptian",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/AncientEgiptianWall.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

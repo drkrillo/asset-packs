@@ -2,20 +2,5 @@
   "id": "b134c0d3-a690-401c-9853-18f26764dea2",
   "name": "Doorframe - Zigzag",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/ZigzagDoorframe.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

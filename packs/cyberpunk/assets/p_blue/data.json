@@ -2,20 +2,5 @@
   "id": "9b068fc7-f7cb-4ae9-ac54-8a1ff01ae4cb",
   "name": "P Blue",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/P_Blue.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

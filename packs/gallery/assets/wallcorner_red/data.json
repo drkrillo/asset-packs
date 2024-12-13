@@ -2,20 +2,5 @@
   "id": "682fb89d-163a-4bc9-86ff-e945b8e623cc",
   "name": "WallCorner - Red ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/RedCorner.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

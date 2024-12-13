@@ -2,20 +2,5 @@
   "id": "38b1b9b3-22c6-4a41-8c96-73c19aa2cc5b",
   "name": "Tree 4",
   "category": "nature",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Tree 4.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

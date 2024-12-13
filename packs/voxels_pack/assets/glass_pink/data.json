@@ -2,20 +2,5 @@
   "id": "94d918bd-e383-4d06-adbd-410fbf646cdf",
   "name": "Glass - Pink",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/glass_pink.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

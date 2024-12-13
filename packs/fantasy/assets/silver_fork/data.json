@@ -7,20 +7,5 @@
     "silver",
     "fork",
     "tableware"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Fork_01/Fork_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

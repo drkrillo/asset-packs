@@ -2,20 +2,5 @@
   "id": "1e7c68e5-7306-4340-9fa8-671cf654becd",
   "name": "Neon Curve Blue",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Neon_Curve_Blue.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

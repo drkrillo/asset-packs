@@ -2,20 +2,5 @@
   "id": "ddbf877b-685d-448b-b764-489ac3f37c11",
   "name": "Traffic Cone - Red",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Traffic_Cone_Red.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

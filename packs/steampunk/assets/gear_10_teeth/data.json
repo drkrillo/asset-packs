@@ -2,20 +2,5 @@
   "id": "c414b036-d5ad-4fa7-ae2d-e0aac26e5be1",
   "name": "Gear 10 Teeth",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Gear 10 Teeth.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "d1cbae5c-f003-49ca-892e-ae7bb15a9ca1",
   "name": "Doorframe - Peach",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PeachDoorframe.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

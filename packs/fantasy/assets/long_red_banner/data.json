@@ -7,20 +7,5 @@
     "red",
     "banner",
     "court"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Banner_Red_01/Banner_Red_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

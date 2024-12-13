@@ -2,20 +2,5 @@
   "id": "55fc3f63-f34c-4492-9da2-3da9fb477938",
   "name": "Wall - PlainBlue",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PlainBlueWall.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

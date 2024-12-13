@@ -2,20 +2,5 @@
   "id": "696cf9fc-ca37-468c-a507-cb42903a0747",
   "name": "Solid Blue",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/solid_blue.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "88c8ac33-d706-46e1-a865-ea62e37b9782",
   "name": "Wall - White Bricks",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Wall_Brick_White.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

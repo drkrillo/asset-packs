@@ -2,20 +2,5 @@
   "id": "7e849069-7be0-4075-a66d-2c68431c4890",
   "name": "Ground 7 M Square",
   "category": "tiles",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Ground 7 M Square.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

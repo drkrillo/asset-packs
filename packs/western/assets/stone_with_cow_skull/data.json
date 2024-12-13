@@ -2,20 +2,5 @@
   "id": "a0c2c372-6e30-425b-afd1-ece5c83b4382",
   "name": "Stone with Cow Skull",
   "category": "nature",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Stone with Cow Skull.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

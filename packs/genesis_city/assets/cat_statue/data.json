@@ -10,20 +10,5 @@
     "pilar",
     "statue",
     "cat"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PillarCat_01/PillarCat_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

@@ -2,20 +2,5 @@
   "id": "fc80d33c-5d80-4ff7-a635-f7fee6763b4b",
   "name": "Stone - Iron",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/stone_iron.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "54c63033-d7c8-40ae-9159-d5c92c74d44d",
   "name": "Skull Chain 02",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_SkullChain_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

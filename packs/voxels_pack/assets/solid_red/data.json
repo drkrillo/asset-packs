@@ -2,20 +2,5 @@
   "id": "894982cf-7f4c-482a-bc41-cc9ab2adfbbc",
   "name": "Solid Red",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/solid_red.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

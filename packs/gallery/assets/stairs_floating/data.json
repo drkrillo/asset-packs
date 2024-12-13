@@ -2,20 +2,5 @@
   "id": "896b942f-3c65-4d53-b8ff-8d874270fe6e",
   "name": "Stairs Floating",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/floatingStairs.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

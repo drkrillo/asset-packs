@@ -2,20 +2,5 @@
   "id": "ae9037fd-cfa0-4012-b3a5-d006d8f5cc9e",
   "name": "Stone - Diamond",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/stone_diamond.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

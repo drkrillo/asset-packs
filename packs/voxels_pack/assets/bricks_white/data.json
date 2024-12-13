@@ -2,20 +2,5 @@
   "id": "9f38c201-cbcd-4d96-8296-ddcedcdab8e3",
   "name": "Bricks - White",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/brick_white.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

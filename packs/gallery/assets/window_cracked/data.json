@@ -2,20 +2,5 @@
   "id": "aad703ad-bf4a-4d95-94c3-f610d56b4d9b",
   "name": "Window - Cracked ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/CrackedWindow.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

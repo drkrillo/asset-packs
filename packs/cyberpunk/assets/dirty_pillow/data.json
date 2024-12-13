@@ -2,20 +2,5 @@
   "id": "533f4c50-a04f-4f7d-9f38-150c033babdb",
   "name": "Dirty Pillow",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Dirty_Pillow.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

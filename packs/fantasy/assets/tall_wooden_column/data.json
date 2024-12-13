@@ -8,20 +8,5 @@
     "wood",
     "wooden",
     "iron"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Column_Vertical_Wood_Large/Column_Vertical_Wood_Large.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

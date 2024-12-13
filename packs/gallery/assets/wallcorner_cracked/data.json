@@ -2,20 +2,5 @@
   "id": "a232ad8b-777a-426f-aff6-3a1eff3dd7ea",
   "name": "WallCorner - Cracked ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/CrackedCorner.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

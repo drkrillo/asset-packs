@@ -2,20 +2,5 @@
   "id": "64cc9781-8595-4bb9-94f1-8ab3d6a86e5a",
   "name": "Barrel - With Lid",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Barrel_Lid.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

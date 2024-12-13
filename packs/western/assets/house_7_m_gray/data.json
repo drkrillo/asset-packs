@@ -2,20 +2,5 @@
   "id": "48d0446f-0928-4bab-9664-305657075233",
   "name": "House 7 M Gray",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/House 7 M Gray.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "28d2130d-4b81-4288-b7a4-65a5aef5c4de",
   "name": "Wall - Cracked",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/CrackedWall.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

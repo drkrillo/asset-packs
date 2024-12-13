@@ -2,20 +2,5 @@
   "id": "eff9309b-3e7b-452e-b435-e50d9bba6d78",
   "name": "Neon Curve Red",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Neon_Curve_Red.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

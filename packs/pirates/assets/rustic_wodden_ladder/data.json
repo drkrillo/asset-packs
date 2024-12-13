@@ -11,20 +11,5 @@
     "wooden",
     "ladder",
     "steps"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Ladder_01/Ladder_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

@@ -2,20 +2,5 @@
   "id": "2da9347a-052e-4d05-8fb8-23ca4f2008a5",
   "name": "Lamp - Purple",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Lamp_Purple.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

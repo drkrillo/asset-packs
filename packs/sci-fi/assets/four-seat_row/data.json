@@ -6,20 +6,5 @@
     "scifi",
     "spaceship",
     "parts"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Seats_01/Seats_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

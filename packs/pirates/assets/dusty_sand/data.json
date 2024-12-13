@@ -7,20 +7,5 @@
     "paradise",
     "pirates",
     "ground"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/FloorBaseDirt_01/FloorBaseDirt_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

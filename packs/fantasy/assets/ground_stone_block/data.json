@@ -10,20 +10,5 @@
     "rock",
     "rocks",
     "forest"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Stone_Blocks_End_01/Stone_Blocks_End_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

@@ -2,20 +2,5 @@
   "id": "ae83adb9-abaf-4346-a7b6-708de259ec4c",
   "name": "Wall - Fancy",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/FancyWall.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

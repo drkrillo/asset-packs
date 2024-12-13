@@ -2,20 +2,5 @@
   "id": "272274f1-0840-4c59-964e-0d56e3dae5f7",
   "name": "Helipad",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Helipad.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

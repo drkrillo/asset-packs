@@ -10,20 +10,5 @@
     "jewel",
     "jewels",
     "gemstone"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Gem_01/Gem_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

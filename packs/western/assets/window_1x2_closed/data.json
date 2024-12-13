@@ -2,20 +2,5 @@
   "id": "73bbc273-2a3a-4c0b-b236-14ea588ccbca",
   "name": "Window 1x2 Closed",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Window 1x2 Closed.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

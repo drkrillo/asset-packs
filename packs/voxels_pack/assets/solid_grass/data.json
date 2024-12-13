@@ -2,20 +2,5 @@
   "id": "0d3f0d78-df02-4fd3-a458-820410dd0445",
   "name": "Solid Grass",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/solid_grass.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

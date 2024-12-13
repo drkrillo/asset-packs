@@ -2,20 +2,5 @@
   "id": "898eae14-e505-4525-aa76-827a01e6da89",
   "name": "Window - DarkGrey ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/DarkGreyWindow.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

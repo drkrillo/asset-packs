@@ -2,20 +2,5 @@
   "id": "4f89bc00-1bfc-4b63-b4a2-43a5b0a00cca",
   "name": "Tree Base & Knife",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_TreeBase&Knife.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

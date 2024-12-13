@@ -2,20 +2,5 @@
   "id": "31826345-f209-4231-98bb-ef8d4b61f21d",
   "name": "Plant 3",
   "category": "nature",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Plant 3.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

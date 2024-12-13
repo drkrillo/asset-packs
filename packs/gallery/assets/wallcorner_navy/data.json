@@ -2,20 +2,5 @@
   "id": "9ac90001-b77d-45ad-b7e3-5551562da394",
   "name": "WallCorner - Navy",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/NavyCorner.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

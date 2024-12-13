@@ -2,20 +2,5 @@
   "id": "dd0802fe-6a52-4b19-b588-8b4bc2341b6b",
   "name": "Drinks Dispenser Black",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Drinks_Dispenser_Black.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "96a5de99-593a-42df-813e-20a00b2a1b2f",
   "name": "Dirt - solid",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/solid_dirt.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

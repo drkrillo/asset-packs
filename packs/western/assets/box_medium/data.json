@@ -2,20 +2,5 @@
   "id": "5f593326-a3b2-4e41-96d2-b9882535f68e",
   "name": "Box Medium",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Box Medium.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

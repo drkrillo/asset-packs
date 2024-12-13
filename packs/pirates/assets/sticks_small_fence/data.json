@@ -12,20 +12,5 @@
     "dock",
     "stick",
     "sticks"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/FenceSticksSmall_01/FenceSticksSmall_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

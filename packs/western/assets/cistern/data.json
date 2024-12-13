@@ -2,20 +2,5 @@
   "id": "5a18447e-7f42-47e8-b0e4-0447dbc07f2a",
   "name": "Cistern",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Cistern.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

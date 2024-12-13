@@ -2,20 +2,5 @@
   "id": "129dcff6-13ea-49e1-a5f2-1eb88ac7933b",
   "name": "Trough",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Trough.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

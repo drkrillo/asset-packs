@@ -2,20 +2,5 @@
   "id": "5e4c9eb9-0b1f-4e81-a56b-4c8be2c36e5e",
   "name": "Big Table",
   "category": "furniture",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Big_Table.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

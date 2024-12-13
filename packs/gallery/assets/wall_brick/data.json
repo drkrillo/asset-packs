@@ -2,20 +2,5 @@
   "id": "171c182d-e766-4e6d-a290-308fd81b3ac5",
   "name": "Wall - Brick",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/BrickWall.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

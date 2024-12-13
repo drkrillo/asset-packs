@@ -2,20 +2,5 @@
   "id": "cedb85f7-6daf-432c-bad7-bf4250b71daa",
   "name": "Floor - Navy",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/NavyFloor.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

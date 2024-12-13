@@ -2,20 +2,5 @@
   "id": "b30392a6-02dc-473e-9eb5-a1f67f972bfe",
   "name": "Road Straight Short",
   "category": "tiles",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Road Straight Short.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "58268614-41f3-43a0-9de1-93293bbd975e",
   "name": "House 7 M Blue",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/House 7 M Blue.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

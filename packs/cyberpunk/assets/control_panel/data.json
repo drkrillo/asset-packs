@@ -2,20 +2,5 @@
   "id": "6820c506-a201-4448-bf5b-2b46ba50868e",
   "name": "Control Panel",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Control_Panel.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

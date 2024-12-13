@@ -2,20 +2,5 @@
   "id": "eca0ed40-33f2-41d8-801a-8ec86609d466",
   "name": "Q Red",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Q_Red.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }
