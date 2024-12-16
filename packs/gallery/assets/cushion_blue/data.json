@@ -2,20 +2,5 @@
   "id": "60233b48-365b-47f0-afe0-194312294e95",
   "name": "Cushion - Blue",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/BlueCushion.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

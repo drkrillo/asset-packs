@@ -2,20 +2,5 @@
   "id": "e20782b4-2b4c-4046-a5ee-41e60912c620",
   "name": "Sushi Bar",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Sushi_Bar.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

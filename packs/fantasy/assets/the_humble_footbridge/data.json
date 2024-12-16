@@ -9,20 +9,5 @@
     "forest",
     "wood",
     "wooden"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Log_Bridge_01/Log_Bridge_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

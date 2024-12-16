@@ -2,20 +2,5 @@
   "id": "afdff31f-6c0e-4464-b737-855c0d8e8164",
   "name": "Street Loop",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Street Loop.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

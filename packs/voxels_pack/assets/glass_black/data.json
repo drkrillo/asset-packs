@@ -2,20 +2,5 @@
   "id": "c39c2bfa-efd9-40a6-b0be-fc0da138e1f7",
   "name": "Glass Black",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/glass_black.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

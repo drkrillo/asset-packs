@@ -2,20 +2,5 @@
   "id": "02f0a730-d74c-4f9c-8a12-4fcfc87e14aa",
   "name": "Floor - Purple",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PurpleFloor.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

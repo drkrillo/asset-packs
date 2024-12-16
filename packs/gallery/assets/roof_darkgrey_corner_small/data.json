@@ -2,20 +2,5 @@
   "id": "f789ba5d-7641-4033-b864-399134e340d6",
   "name": "Roof - DarkGrey Corner Small",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/DarkGreyRoof_Corner_Small.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "eb3962c1-3f62-4d3c-9f12-a6082eb7235d",
   "name": "Wood Plank Floor 4x4M",
   "category": "tiles",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Wood Plank Floor 4x4M.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

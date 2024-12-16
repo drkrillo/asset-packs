@@ -7,20 +7,5 @@
     "palisade",
     "wood",
     "wooden"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Easel_01/Easel_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

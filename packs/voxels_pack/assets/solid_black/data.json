@@ -2,20 +2,5 @@
   "id": "b7968b36-5d70-4cfe-bf87-875c4b2bdf9b",
   "name": "Solid Black",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/solid_black.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

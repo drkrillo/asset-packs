@@ -2,20 +2,5 @@
   "id": "2d188cbb-570b-4043-bf03-8b01eed28ff2",
   "name": "Roof - Red Corner Small",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/RedRoof_Corner_Small.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

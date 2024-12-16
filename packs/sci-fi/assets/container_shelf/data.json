@@ -6,20 +6,5 @@
     "scifi",
     "box",
     "storage"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/ContainerSmall_01/ContainerSmall_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

@@ -2,20 +2,5 @@
   "id": "753a0cb7-d318-4ae6-8dab-782440078695",
   "name": "TNT",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/TNT.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

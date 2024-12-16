@@ -2,20 +2,5 @@
   "id": "6cfbdc0c-9f3e-411f-b16d-aa489371da83",
   "name": "Sand Gold",
   "category": "ground",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Sand Gold.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

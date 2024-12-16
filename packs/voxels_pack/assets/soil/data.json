@@ -2,20 +2,5 @@
   "id": "824d4e6a-82c0-4a5d-940c-ff2a8ac32a29",
   "name": "Soil",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/soil.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

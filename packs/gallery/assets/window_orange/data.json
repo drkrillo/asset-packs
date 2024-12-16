@@ -2,20 +2,5 @@
   "id": "401ffae7-205c-4cc0-a989-9db88b20f1d9",
   "name": "Window - Orange ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/OrangeWindow.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

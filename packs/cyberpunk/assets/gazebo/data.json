@@ -2,20 +2,5 @@
   "id": "bb136e02-6af2-4332-9f14-4757bc26b183",
   "name": "Gazebo",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Gazebo.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

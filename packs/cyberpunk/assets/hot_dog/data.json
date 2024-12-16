@@ -2,20 +2,5 @@
   "id": "c84492d4-55e5-4c17-839f-7f4a84cb8a79",
   "name": "Hot Dog",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Hot_Dog.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

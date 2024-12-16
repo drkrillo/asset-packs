@@ -2,20 +2,5 @@
   "id": "5a68d500-5a4d-4477-9db6-c436df8fe639",
   "name": "Roof - Orange Corner",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/OrangeRoof_Corner.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

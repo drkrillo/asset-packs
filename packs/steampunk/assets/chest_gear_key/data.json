@@ -2,20 +2,5 @@
   "id": "6543316a-b7fd-4bab-9f81-a95034cfcae7",
   "name": "Chest Gear Key",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Chest Gear Key.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

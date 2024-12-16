@@ -10,20 +10,5 @@
     "couch",
     "blue",
     "comfy"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Couch_01/Couch_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

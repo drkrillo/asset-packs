@@ -9,20 +9,5 @@
     "lamp",
     "garden",
     "traditional"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/ChineseLampPost_01/ChineseFountain_03.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

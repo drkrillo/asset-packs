@@ -2,20 +2,5 @@
   "id": "833c5a5b-c565-4ac9-a908-cfa4372356fb",
   "name": "Mountain 2",
   "category": "nature",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Mountain 2.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

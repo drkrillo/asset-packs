@@ -2,20 +2,5 @@
   "id": "45d0cd91-58bf-4aee-ba15-1c3bcecf3f6e",
   "name": "WallCorner - Beach ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/BeachCorner.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

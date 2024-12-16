@@ -8,20 +8,5 @@
     "light",
     "gauze",
     "red"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/ChineseLantern_01/ChineseLantern_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

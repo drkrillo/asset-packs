@@ -13,20 +13,5 @@
     "crate",
     "fabric",
     "blanket"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/SellingGoods_02/SellingGoods_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

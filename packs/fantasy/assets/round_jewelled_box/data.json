@@ -10,20 +10,5 @@
     "golden",
     "jewellery",
     "jewels"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Chest_01/Chest_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

@@ -15,20 +15,5 @@
     "yard",
     "tile",
     "deck"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/FloorBlock_03/FloorBlock_03.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

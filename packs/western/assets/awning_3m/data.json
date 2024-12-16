@@ -2,20 +2,5 @@
   "id": "ef7be39a-62ee-49c7-ada8-55bc1d6590f6",
   "name": "Awning 3M",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Awning 3M.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "ac0ebcb8-0a14-4a36-b21d-e3bb526c2247",
   "name": "Sign B",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/SignB.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

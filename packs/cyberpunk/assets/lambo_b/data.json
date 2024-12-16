@@ -2,20 +2,5 @@
   "id": "472814a3-6798-4930-b987-91e58ef1f57d",
   "name": "Lambo B",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Lambo_B.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

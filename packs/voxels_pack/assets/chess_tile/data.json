@@ -2,20 +2,5 @@
   "id": "188b4b6d-0446-4af3-ae68-8dd3316a678d",
   "name": "Chess Tile",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/chess_tile.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

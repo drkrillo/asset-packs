@@ -15,6 +15,7 @@ import {
   AssetPackData,
   Catalog,
   isAssetData,
+  isAssetDataWithoutComposite,
   isAssetPackData,
   isLegacyAssetData,
 } from '../../src/types'
@@ -61,15 +62,24 @@ export class LocalFileSystem {
 
   async getAsset(path: string) {
     const dataPath = `${path}/data.json`
-    const data = await readJson(dataPath)
-    if (isLegacyAssetData(data)) {
+    const dataWithoutComposite = await readJson(dataPath)
+    if (isLegacyAssetData(dataWithoutComposite)) {
       throw new Error(
-        `Asset "${data.name}" is using the legacy data format. Please run the migration script.`,
+        `Asset "${dataWithoutComposite.name}" is using the legacy data format. Please run the migration script.`,
       )
     }
-    if (!isAssetData(data)) {
+    if (isAssetData(dataWithoutComposite)) {
+      throw new Error(
+        `Asset "${dataPath}" has the composite stored inside. Please run migration script.`,
+      )
+    }
+    if (!isAssetDataWithoutComposite(dataWithoutComposite)) {
       throw new Error(`Invalid data in "${dataPath}"`)
     }
+
+    const compositePath = `${path}/composite.json`
+    const composite = await readJson(compositePath)
+
     const contents: Record<string, string> = {}
     const paths = await getFiles(path)
     for (const filePath of paths) {
@@ -80,7 +90,8 @@ export class LocalFileSystem {
       const buffer = await readBuffer(filePath)
       contents[file] = await hashV1(buffer)
     }
-    return { ...data, contents, path }
+    const data: AssetData = { ...dataWithoutComposite, composite }
+    return { ...data, contents, path, composite }
   }
 
   async isTaken(path: string, asset: BuilderApiAsset) {

@@ -2,20 +2,5 @@
   "id": "a051b312-3935-428a-b5e0-2a2f253de26b",
   "name": "Volcano",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/volcan.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

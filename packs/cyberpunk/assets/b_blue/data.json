@@ -2,20 +2,5 @@
   "id": "5ea180ca-fe25-4fe3-a06c-d9d9e3bcb7a8",
   "name": "B Blue",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/B_Blue.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

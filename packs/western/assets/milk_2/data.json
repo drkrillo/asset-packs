@@ -2,20 +2,5 @@
   "id": "78e637ad-affd-4034-92eb-99641155b858",
   "name": "Milk 2",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Milk 2.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

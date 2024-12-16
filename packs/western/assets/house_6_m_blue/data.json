@@ -2,20 +2,5 @@
   "id": "e9da63f2-f037-4ec0-848e-3819df1ad4e7",
   "name": "House 6 M Blue",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/House 6 M Blue.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

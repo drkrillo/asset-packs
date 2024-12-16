@@ -11,20 +11,5 @@
     "wooden",
     "seat",
     "round"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Chairwood_01/Chairwood_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

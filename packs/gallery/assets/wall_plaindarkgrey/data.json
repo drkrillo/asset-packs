@@ -2,20 +2,5 @@
   "id": "9f69ad55-310d-4182-bd28-89983721f963",
   "name": "Wall - PlainDarkGrey",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PlainDarkGreyWall.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

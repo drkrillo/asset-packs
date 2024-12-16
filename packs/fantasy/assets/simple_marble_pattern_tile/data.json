@@ -8,20 +8,5 @@
     "marble",
     "pattern",
     "simple"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Tile_Floor_03/Tile_Floor_03.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

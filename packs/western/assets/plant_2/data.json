@@ -2,20 +2,5 @@
   "id": "ec8b2557-4819-4a6c-a443-2fe15e7e980a",
   "name": "Plant 2",
   "category": "nature",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Plant 2.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

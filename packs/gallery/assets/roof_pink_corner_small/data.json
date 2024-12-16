@@ -2,20 +2,5 @@
   "id": "7ef3c797-8b16-4668-ab1e-45c487f566ae",
   "name": "Roof - Pink Corner Small",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PinkRoof_Corner_Small.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

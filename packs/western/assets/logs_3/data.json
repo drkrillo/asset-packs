@@ -2,20 +2,5 @@
   "id": "92e6d7c0-cec4-4825-a2b6-2ed510bf9943",
   "name": "Logs 3",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Logs 3.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

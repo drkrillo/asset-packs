@@ -6,20 +6,5 @@
     "scifi",
     "computer",
     "parts"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Terminal_01/Terminal_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

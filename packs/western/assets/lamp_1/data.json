@@ -2,20 +2,5 @@
   "id": "fb7166d6-06f0-43d4-8334-5b059197436c",
   "name": "Lamp 1",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Lamp 1.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

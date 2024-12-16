@@ -2,20 +2,5 @@
   "id": "760eb96f-f5fb-4126-a9ab-e260213b5f86",
   "name": "T Red",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/T_Red.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

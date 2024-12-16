@@ -2,20 +2,5 @@
   "id": "ec088596-4f05-4a4e-ba56-45b49310de45",
   "name": "Roof - Black 4Edges",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/BlackRoof_4Edges.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

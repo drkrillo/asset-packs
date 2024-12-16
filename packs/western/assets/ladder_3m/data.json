@@ -2,20 +2,5 @@
   "id": "323816b9-ee9f-4cea-b0ed-b73a02816c36",
   "name": "Ladder 3M",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Ladder 3M.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

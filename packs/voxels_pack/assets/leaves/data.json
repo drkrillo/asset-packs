@@ -2,20 +2,5 @@
   "id": "c472d9bf-3376-47b2-a311-b1feda37b135",
   "name": "Leaves",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/leaves.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

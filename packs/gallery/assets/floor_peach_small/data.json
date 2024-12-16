@@ -2,20 +2,5 @@
   "id": "7d98983b-2d58-4066-a889-1eff3cd09772",
   "name": "Floor - Peach Small",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PeachFloor_Small.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

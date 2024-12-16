@@ -2,20 +2,5 @@
   "id": "afaf1ad3-a00b-4e44-b90d-152276f2b3c1",
   "name": "Door 6",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Door 6.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

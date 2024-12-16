@@ -2,20 +2,5 @@
   "id": "cb241026-bced-4622-8846-5f529727c84b",
   "name": "Stairs Floating U-Shape",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/floatingUShapeStairs.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

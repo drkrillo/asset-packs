@@ -2,20 +2,5 @@
   "id": "79a3fa3b-9b3b-40d4-90d1-8c9eac4e20ba",
   "name": "Roof - Metal Corner",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/MetalRoof_Corner.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "4f654415-1940-4c50-b53c-b730a77e74ec",
   "name": "Artwork Info",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/ArtworkInfo_SmartItem.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

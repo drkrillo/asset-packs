@@ -2,20 +2,5 @@
   "id": "9cc4b4a2-46b6-4b49-aef9-da3959de0ac8",
   "name": "Chair - High Back",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HighBackChair.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

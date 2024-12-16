@@ -2,20 +2,5 @@
   "id": "6270719c-7cd6-46cb-b208-cdec0b254f07",
   "name": "L Red",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/L_Red.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

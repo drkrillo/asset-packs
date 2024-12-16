@@ -8,20 +8,5 @@
     "gem",
     "gemstone",
     "light"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Torch_01/Torch_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

@@ -2,20 +2,5 @@
   "id": "5ce1129d-7172-4cd9-b88c-c9e1ee39aa87",
   "name": "Beanbag Blue",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Beanbag_Blue.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

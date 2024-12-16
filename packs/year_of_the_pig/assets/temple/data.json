@@ -7,20 +7,5 @@
     "garden",
     "house",
     "temple"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/ChineseHouse_01/ChineseHouse_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

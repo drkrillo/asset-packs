@@ -2,20 +2,5 @@
   "id": "47f9d2df-05bc-4a4b-887d-d168fc65f10b",
   "name": "Small Fence 02",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_SmallFence_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

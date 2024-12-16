@@ -2,20 +2,5 @@
   "id": "042358c4-a634-4e64-a1e8-7453b5e44e8e",
   "name": "Iron Entrance Arc",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_IronEntranceArch_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

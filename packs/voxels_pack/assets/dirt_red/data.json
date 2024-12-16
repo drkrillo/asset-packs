@@ -2,20 +2,5 @@
   "id": "f1bb1cfa-5df3-4b82-b6a7-dc60ae2e3d96",
   "name": "Dirt - red",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/dirt_red.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

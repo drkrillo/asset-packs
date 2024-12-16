@@ -2,20 +2,5 @@
   "id": "ca81b1ce-13bd-4580-b612-726f91d9c92d",
   "name": "Door 2",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Door 2.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

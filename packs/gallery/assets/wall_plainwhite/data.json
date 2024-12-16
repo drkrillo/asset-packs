@@ -2,20 +2,5 @@
   "id": "45eb9e1a-2eca-4b6f-a5c4-b0278dc7e635",
   "name": "Wall - PlainWhite",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PlainWhiteWall.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "c074d660-b48c-4868-9128-261c75775c67",
   "name": "Stones - mossy",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/stones_moss.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

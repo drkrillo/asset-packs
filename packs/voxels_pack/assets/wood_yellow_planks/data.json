@@ -2,20 +2,5 @@
   "id": "9cca8ff7-4c82-49ff-921e-9d7a738e1430",
   "name": "Wood - Yellow Planks",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/woodplanks_light.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

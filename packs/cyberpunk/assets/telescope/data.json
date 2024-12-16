@@ -2,20 +2,5 @@
   "id": "de098a3a-3929-4351-b0e3-690cf31fd85b",
   "name": "Telescope",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Telescope.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "902f8b3a-580b-4d6c-b89a-a6b253927d51",
   "name": "Pipe - Emissive",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Pipe_Emissive.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

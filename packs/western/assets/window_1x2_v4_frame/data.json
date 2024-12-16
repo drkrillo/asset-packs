@@ -2,20 +2,5 @@
   "id": "a9e4045c-0efd-4789-82c6-a68825d7e4ef",
   "name": "Window 1x2 V4 Frame",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Window 1x2 V4 Frame.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

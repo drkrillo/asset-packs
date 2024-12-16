@@ -2,20 +2,5 @@
   "id": "3aa19ac9-3993-45f3-8756-eff681802a9c",
   "name": "Cushion - Dark Grey",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/DarkGreyCushion.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

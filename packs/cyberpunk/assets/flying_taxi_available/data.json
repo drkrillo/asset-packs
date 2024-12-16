@@ -2,20 +2,5 @@
   "id": "0975dd6f-1094-455f-89f6-19b3342b296d",
   "name": "Flying Taxi Available",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Flying_Taxi_Available.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

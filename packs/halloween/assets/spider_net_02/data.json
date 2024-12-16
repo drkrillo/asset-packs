@@ -2,20 +2,5 @@
   "id": "7627ecac-a39c-445e-b83f-41513c017615",
   "name": "Spider Net 02",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_Spider_Net_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

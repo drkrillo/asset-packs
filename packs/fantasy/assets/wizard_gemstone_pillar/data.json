@@ -9,20 +9,5 @@
     "golden",
     "gem",
     "gemstone"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Pillar_Magic_01/Pillar_Magic_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

@@ -8,20 +8,5 @@
     "forest",
     "grass",
     "evergreen"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/GrassPatchSmall_04/GrassPatchSmall_04.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

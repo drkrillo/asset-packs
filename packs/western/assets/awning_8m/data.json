@@ -2,20 +2,5 @@
   "id": "6969bfe2-4225-4cf6-988a-010d2435bba9",
   "name": "Awning 8M",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Awning 8M.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -12,20 +12,5 @@
     "foliage",
     "plant",
     "plants"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/JunglePlant_05/JunglePlant_05.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

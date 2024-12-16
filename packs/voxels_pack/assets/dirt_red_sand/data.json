@@ -2,20 +2,5 @@
   "id": "b422c06b-4307-4c80-be9a-e9040d1f32c7",
   "name": "Dirt - Red Sand",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/dirt_red_sand.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "6ffe6575-68de-4bd2-a526-bf682ccdebeb",
   "name": "Bat Tree  1",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_BatTree_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

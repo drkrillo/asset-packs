@@ -2,20 +2,5 @@
   "id": "82ffe8b2-1845-499b-9287-67b022348430",
   "name": "Stool - High",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HighStool.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

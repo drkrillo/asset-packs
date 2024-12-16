@@ -2,20 +2,5 @@
   "id": "bbe4ef2d-bda9-4dbc-897a-b531cb457ffe",
   "name": "Mines Model 16 M",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Mines Model 16 M.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

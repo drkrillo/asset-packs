@@ -2,20 +2,5 @@
   "id": "d918354b-4382-4b9d-acbb-cc13fadad45a",
   "name": "Bar Green",
   "category": "furniture",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Bar_Green.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

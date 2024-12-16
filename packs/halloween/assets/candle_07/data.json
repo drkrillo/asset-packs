@@ -2,20 +2,5 @@
   "id": "46788f70-8224-46e4-bbfb-5e6829f48b2b",
   "name": "Candle 07",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_Candle_07.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

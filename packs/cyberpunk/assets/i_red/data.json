@@ -2,20 +2,5 @@
   "id": "6b2d34e6-5a21-4a9d-a472-da1f30301057",
   "name": "I Red",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/I_Red.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

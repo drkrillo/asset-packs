@@ -9,20 +9,5 @@
     "cave",
     "forest",
     "ruins"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Stalagmite_01/Stalagmite_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

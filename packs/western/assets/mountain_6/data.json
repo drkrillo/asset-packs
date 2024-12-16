@@ -2,20 +2,5 @@
   "id": "89314fe1-0f36-43ec-90e2-5944bca1ab51",
   "name": "Mountain 6",
   "category": "nature",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Mountain 6.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

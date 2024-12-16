@@ -12,20 +12,5 @@
     "curb",
     "curbs",
     "city"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/StreetCordMedium_01/StreetCordMedium_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

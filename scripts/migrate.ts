@@ -7,6 +7,8 @@ import {
   isAssetPackData,
   isLegacyAssetData,
   Component,
+  isAssetDataWithoutComposite,
+  AssetDataWithoutComposite,
 } from '../src/types'
 
 /**
@@ -70,8 +72,22 @@ function migrateFile(filePath: string) {
     const data = JSON.parse(content)
 
     // Check if already migrated
-    if (isAssetData(data)) {
+    if (isAssetDataWithoutComposite(data)) {
       console.log(`Skipping ${filePath} - already migrated`)
+      return
+    }
+
+    if (isAssetData(data)) {
+      console.log(
+        `This file has the composite data inside, it needs to be moved into a separate file.`,
+      )
+      const { composite, ...rest } = data
+      // new data should be oldData without composite
+      const newData = rest as AssetDataWithoutComposite
+      writeFileSync(filePath, JSON.stringify(newData, null, 2))
+      const compositePath = `${filePath.replace('data.json', 'composite.json')}`
+      writeFileSync(compositePath, JSON.stringify(composite, null, 2))
+      console.log(`Successfully migrated ${filePath}`)
       return
     }
 
@@ -108,13 +124,17 @@ async function migrate() {
     try {
       const content = readFileSync(file, 'utf-8')
       const data = JSON.parse(content)
-      if (isAssetPackData(data) && !isAssetData(data)) {
+      if (
+        isAssetPackData(data) &&
+        !isAssetData(data) &&
+        !isAssetDataWithoutComposite(data)
+      ) {
         // skip asset pack data
         console.log(`Skipping ${file} - asset pack data`)
         continue
       }
 
-      if (isAssetData(data)) {
+      if (isAssetDataWithoutComposite(data)) {
         skipped++
       } else {
         migrateFile(file)

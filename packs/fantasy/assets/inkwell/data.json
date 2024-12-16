@@ -8,20 +8,5 @@
     "feather",
     "desk",
     "scriptorium"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Tint_01/Tint_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

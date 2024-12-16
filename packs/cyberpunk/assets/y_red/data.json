@@ -2,20 +2,5 @@
   "id": "ed9c88e1-bea9-4607-86a9-3479056d546f",
   "name": "Y Red",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Y_Red.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

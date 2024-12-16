@@ -2,20 +2,5 @@
   "id": "30f835d1-c992-4ae5-b6ff-1b600cf48657",
   "name": "Mines Cart Empty",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Mines Cart Empty.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

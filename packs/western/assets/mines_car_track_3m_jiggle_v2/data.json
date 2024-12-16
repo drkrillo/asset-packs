@@ -2,20 +2,5 @@
   "id": "2ab2c40a-3fa6-42d2-a7da-f7c9116d8348",
   "name": "Mines Car Track 3M Jiggle v2",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Mines Car Track 3M Jiggle v2.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "1835cb52-d719-41e0-bf70-5b72b5c85885",
   "name": "Wall - Brick Red",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Wall_Brick_Red.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

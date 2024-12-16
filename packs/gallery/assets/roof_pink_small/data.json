@@ -2,20 +2,5 @@
   "id": "1f8f0d0d-fbc0-4cb5-832b-76722e0ca203",
   "name": "Roof - Pink Small",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PinkRoof_Small.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

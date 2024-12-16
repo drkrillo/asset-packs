@@ -2,20 +2,5 @@
   "id": "cb18c198-3228-403d-ab68-9c9f5105ad82",
   "name": "House 6 M Yellow",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/House 6 M Yellow.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

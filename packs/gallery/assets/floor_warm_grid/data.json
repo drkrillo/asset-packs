@@ -2,20 +2,5 @@
   "id": "4aa17c2a-f2d0-4ec7-976e-6458a58145f7",
   "name": "Floor - Warm Grid",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/warmGridFloor.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

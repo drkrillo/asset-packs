@@ -2,20 +2,5 @@
   "id": "677ad16d-8379-4f83-8ef7-1a29a32c3834",
   "name": "Narrow Flags 01",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Narrow_Flags_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "a071b97c-80d9-448e-a2ce-706e5c7a453b",
   "name": "Gear Shaft",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Gear Shaft.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "e5eaf3ce-f580-46ff-b83d-7d229d5980eb",
   "name": "Tree 3",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_Tree_03.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

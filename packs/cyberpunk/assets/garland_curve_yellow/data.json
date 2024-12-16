@@ -2,20 +2,5 @@
   "id": "680af140-41c7-40d9-8ce8-7648196c3caf",
   "name": "Garland Curve - Yellow",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Garland_Curve_Yellow.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

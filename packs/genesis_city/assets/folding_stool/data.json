@@ -11,20 +11,5 @@
     "seat",
     "folding",
     "stool"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Chair_08/Chair_08.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

@@ -8,20 +8,5 @@
     "electricity",
     "power",
     "laser"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/ElectricTower_01/ElectricTower_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

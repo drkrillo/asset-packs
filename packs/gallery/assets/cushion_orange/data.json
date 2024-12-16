@@ -2,20 +2,5 @@
   "id": "38a4d794-2632-4e18-8664-635fb9f5887a",
   "name": "Cushion - Orange",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/OrangeCushion.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

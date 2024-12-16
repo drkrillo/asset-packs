@@ -2,20 +2,5 @@
   "id": "e31ccb50-0122-4a15-84f7-5691a2dcc1a5",
   "name": "Leather",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Leather.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

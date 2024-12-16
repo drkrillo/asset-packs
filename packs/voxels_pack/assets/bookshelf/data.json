@@ -2,20 +2,5 @@
   "id": "1c79c625-8eb0-4090-a7ee-df2e0b9d5db4",
   "name": "Bookshelf",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/bookshelf.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

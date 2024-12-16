@@ -2,20 +2,5 @@
   "id": "5962aecb-495f-4e09-a81e-c225d0eaee7c",
   "name": "Cactus 4",
   "category": "nature",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Cactus 4.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

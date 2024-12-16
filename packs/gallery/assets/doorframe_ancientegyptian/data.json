@@ -2,20 +2,5 @@
   "id": "c6f10a4e-40f9-40e6-b4b0-ef73a6c7e57a",
   "name": "Doorframe - AncientEgyptian",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/AncientEgyptianDoorframe.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "5eccc147-a071-46ca-ac8c-999f7fec8daa",
   "name": "Solid Violet Pattern",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/solid_violet_pattern.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

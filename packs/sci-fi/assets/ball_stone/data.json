@@ -6,20 +6,5 @@
     "scifi",
     "rock",
     "planet"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Stone_03/Stone_03.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

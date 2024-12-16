@@ -2,20 +2,5 @@
   "id": "261c26bf-c3d1-473d-9359-6d8e256ff234",
   "name": "Umbrella",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Umbrella.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

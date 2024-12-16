@@ -2,20 +2,5 @@
   "id": "2c58b31c-6f61-4086-bca3-2a6b4038b2df",
   "name": "Floor - Cream",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/CreamFloor.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "0a087e46-3df5-4515-92c6-343f4ebc0d0d",
   "name": "Unicorn Statue",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Unicorn_Statue.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -12,20 +12,5 @@
     "crate",
     "box",
     "open"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/CrateLong_02/CrateLong_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

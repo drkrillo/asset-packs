@@ -2,20 +2,5 @@
   "id": "7524b0ea-0762-4b78-bfa6-3664790496f5",
   "name": "Stone - Coal",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/stone_coal.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

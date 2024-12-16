@@ -2,20 +2,5 @@
   "id": "5dec0cfb-feb6-44fa-8acb-ac84246455fa",
   "name": "Window - Purple ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PurpleWindow.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

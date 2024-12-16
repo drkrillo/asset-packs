@@ -2,20 +2,5 @@
   "id": "17b69cd7-35c9-4a0e-929c-e294ab3921c6",
   "name": "Roof - Metal 4Edges Small",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/MetalRoof_4Edges_Small.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

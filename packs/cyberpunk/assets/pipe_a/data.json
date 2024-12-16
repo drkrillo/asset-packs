@@ -2,20 +2,5 @@
   "id": "feffadec-a65f-4f5a-b623-566fe3383928",
   "name": "Pipe A",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Pipe_A.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

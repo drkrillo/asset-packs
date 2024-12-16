@@ -2,20 +2,5 @@
   "id": "aac0e9f6-00f9-454c-9955-930d635f2351",
   "name": "Wall - PlainCream",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PlainCreamWall.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

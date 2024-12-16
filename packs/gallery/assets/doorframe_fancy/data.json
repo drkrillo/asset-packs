@@ -2,20 +2,5 @@
   "id": "5b541292-c036-4c73-904d-cbb46394a05d",
   "name": "Doorframe - Fancy",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/FancyDoorframe.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

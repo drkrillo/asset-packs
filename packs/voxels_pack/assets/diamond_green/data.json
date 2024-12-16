@@ -2,20 +2,5 @@
   "id": "b09d52cb-fc5d-4ff2-a58c-20371266a031",
   "name": "Diamond - Green",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/diamond_pattern_green.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

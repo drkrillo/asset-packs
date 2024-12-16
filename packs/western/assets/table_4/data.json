@@ -2,20 +2,5 @@
   "id": "bb1d0557-fba7-4d0c-a823-c33b665845d8",
   "name": "Table 4",
   "category": "furniture",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Table 4.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

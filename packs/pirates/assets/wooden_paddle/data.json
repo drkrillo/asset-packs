@@ -12,20 +12,5 @@
     "boat",
     "water",
     "paddle"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/BoatPaddle_01/BoatPaddle_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

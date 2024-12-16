@@ -6,20 +6,5 @@
     "scifi",
     "spaceship",
     "tech"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/CryogenicChamberBase_01/CryogenicChamberBase_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

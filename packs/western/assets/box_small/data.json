@@ -2,20 +2,5 @@
   "id": "8a6787dc-873d-4ff7-a3cb-c28209f20a50",
   "name": "Box Small",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Box Small.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

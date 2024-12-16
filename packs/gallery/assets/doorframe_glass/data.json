@@ -2,20 +2,5 @@
   "id": "f38f0a83-881b-4080-abba-a6f7ffe671a4",
   "name": "Doorframe - Glass",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/GlassDoorframe.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

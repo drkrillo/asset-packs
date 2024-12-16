@@ -2,20 +2,5 @@
   "id": "23b3cfe4-c23c-44e1-966a-6a1cf94d2609",
   "name": "Box",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Box.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

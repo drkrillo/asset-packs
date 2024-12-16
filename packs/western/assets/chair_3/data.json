@@ -2,20 +2,5 @@
   "id": "70967c9e-8252-4526-aedb-1856d71f26cf",
   "name": "Chair 3",
   "category": "furniture",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Chair 3.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

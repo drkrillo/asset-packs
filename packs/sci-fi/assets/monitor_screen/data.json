@@ -6,20 +6,5 @@
     "scifi",
     "spaceship",
     "computer"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Monitor_01/Monitor_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

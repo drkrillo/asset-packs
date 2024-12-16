@@ -2,20 +2,5 @@
   "id": "5bb52c8f-623f-4d6b-95d1-e0ae34cf0f20",
   "name": "Plastic Cups",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Plastic_Cups.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

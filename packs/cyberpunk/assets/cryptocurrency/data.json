@@ -2,20 +2,5 @@
   "id": "cf105f3c-ff46-487e-90bb-cced9ae17324",
   "name": "\"Cryptocurrency\"",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Cryptocurrency.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

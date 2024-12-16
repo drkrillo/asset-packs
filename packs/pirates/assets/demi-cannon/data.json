@@ -16,20 +16,5 @@
     "wheels",
     "weapon",
     "boom"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Cannon_01/Cannon_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

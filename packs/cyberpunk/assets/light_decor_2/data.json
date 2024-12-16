@@ -2,20 +2,5 @@
   "id": "cc93be70-5b8a-4598-83a9-3822ba15539b",
   "name": "Light Decor 2",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Light_Decor2.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

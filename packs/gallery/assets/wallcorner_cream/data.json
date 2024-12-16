@@ -2,20 +2,5 @@
   "id": "612cfc6c-fe05-4367-847f-f9e5b30617a4",
   "name": "WallCorner - Cream ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/CreamCorner.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

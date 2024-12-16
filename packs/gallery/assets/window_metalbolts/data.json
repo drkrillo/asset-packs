@@ -2,20 +2,5 @@
   "id": "a2e93352-fdc9-47d5-bcf3-6aaf9abcfd3e",
   "name": "Window - MetalBolts ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/MetalBoltsWindow.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

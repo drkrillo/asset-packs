@@ -2,20 +2,5 @@
   "id": "bf682534-acc7-4c0a-8b6a-63fef10f9ab5",
   "name": "Mines Runway 3M V2",
   "category": "tiles",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Mines Runway 3M V2.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "7170f30f-8922-4e56-aa32-a0eee4189547",
   "name": "Stairs Full Height Corner",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/fullHeightStairs_corner.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

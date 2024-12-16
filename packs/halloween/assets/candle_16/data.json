@@ -2,20 +2,5 @@
   "id": "82ad43ba-ecf2-4545-ad99-d33d37770ad0",
   "name": "Candle 16",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_Candle_16.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

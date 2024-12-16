@@ -2,20 +2,5 @@
   "id": "37216537-30bc-4b49-80a2-d4295485a2ae",
   "name": "C Red",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/C_Red.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -13,20 +13,5 @@
     "fences",
     "garden",
     "park"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/FenceStoneTallLarge_01/FenceStoneTallLarge_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

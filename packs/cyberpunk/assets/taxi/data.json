@@ -2,20 +2,5 @@
   "id": "09b6cf65-6db0-4660-bc8f-d34f6cb0bdbd",
   "name": "Taxi",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Taxi.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

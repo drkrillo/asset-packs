@@ -11,20 +11,5 @@
     "wooden",
     "bucket",
     "water"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Bucket_01/Bucket_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

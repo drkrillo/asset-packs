@@ -2,20 +2,5 @@
   "id": "3f64a496-0dcd-456b-b798-3218c5385b82",
   "name": "Armchair - Purple",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PurpleArmchair.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

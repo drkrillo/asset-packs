@@ -2,20 +2,5 @@
   "id": "e9168df8-2169-4a84-8d53-43f9606adf7c",
   "name": "Diamond - Yellow",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/diamond_pattern_yellow.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

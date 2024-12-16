@@ -7,20 +7,5 @@
     "chest",
     "gold",
     "golden"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Chest_Top_Gold_01/Chest_Top_Gold_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

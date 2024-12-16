@@ -2,20 +2,5 @@
   "id": "42d60765-8482-47f2-9a76-58a2560d7ced",
   "name": "Doorframe - DiagonalBoard",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/DiagonalBoardDoorframe.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

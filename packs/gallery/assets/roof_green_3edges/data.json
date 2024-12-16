@@ -2,20 +2,5 @@
   "id": "63096b84-71b3-41c9-8e02-38a31e8c183f",
   "name": "Roof - Green 3Edges",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/GreenRoof_3Edges.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

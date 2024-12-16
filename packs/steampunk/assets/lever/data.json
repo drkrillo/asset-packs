@@ -2,20 +2,5 @@
   "id": "90303e25-d40e-41d6-a49c-5880e3fd8b58",
   "name": "Lever",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Lever.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

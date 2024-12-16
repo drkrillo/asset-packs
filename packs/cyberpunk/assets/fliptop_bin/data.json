@@ -2,20 +2,5 @@
   "id": "6050ddf0-75ca-43c1-8f24-cf439ebb4f00",
   "name": "Fliptop Bin",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Fliptop_Bin.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

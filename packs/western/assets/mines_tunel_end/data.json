@@ -2,20 +2,5 @@
   "id": "aaea3c23-7535-44fe-84cd-136c3e2390ea",
   "name": "Mines Tunel End",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Mines Tunel End.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

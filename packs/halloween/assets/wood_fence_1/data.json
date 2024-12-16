@@ -2,20 +2,5 @@
   "id": "8c345ed6-e3d1-4e27-b1f8-4fe3d2ec37a9",
   "name": "Wood Fence 1",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_WoodFence_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

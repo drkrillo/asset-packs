@@ -2,20 +2,5 @@
   "id": "8076e7cf-d4e5-4377-881c-4306c73ec28d",
   "name": "Street Entry",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Street Entry.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

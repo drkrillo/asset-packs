@@ -2,20 +2,5 @@
   "id": "8880cce8-844b-4686-9fd8-a73874be7983",
   "name": "Floor - Wood",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/WoodFloor.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

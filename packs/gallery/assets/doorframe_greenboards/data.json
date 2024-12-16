@@ -2,20 +2,5 @@
   "id": "2c2daf13-4f4f-4a2b-bf4a-fbc70be3be99",
   "name": "Doorframe - GreenBoards",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/GreenBoardsDoorframe.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

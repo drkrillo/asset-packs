@@ -2,20 +2,5 @@
   "id": "2105009b-6c3b-445f-bfca-42aef2e61624",
   "name": "Solid Blue Pattern",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/solid_blue_pattern.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

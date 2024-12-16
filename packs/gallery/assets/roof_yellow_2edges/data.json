@@ -2,20 +2,5 @@
   "id": "7857aa52-e50a-4381-a869-fdaf132cb0ae",
   "name": "Roof - Yellow 2Edges",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/YellowRoof_2Edges.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

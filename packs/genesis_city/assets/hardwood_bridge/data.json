@@ -11,20 +11,5 @@
     "bridge",
     "river",
     "water"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Bridge_01/Bridge_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

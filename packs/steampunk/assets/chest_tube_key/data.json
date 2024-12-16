@@ -2,20 +2,5 @@
   "id": "223eabed-10e4-42e1-ba1c-0fb6f59b73cd",
   "name": "Chest Tube Key",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Chest Tube Key.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

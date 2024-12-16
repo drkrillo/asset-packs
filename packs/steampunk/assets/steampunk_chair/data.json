@@ -2,20 +2,5 @@
   "id": "a92e3cfe-6b4f-4485-8605-bc6769ce3e76",
   "name": "Steampunk Chair",
   "category": "furniture",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Steampunk Chair.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "fb10f866-c42b-416d-8175-b029516c74c9",
   "name": "Pipe Tip",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Pipe_Tip.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

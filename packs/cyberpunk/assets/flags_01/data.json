@@ -2,20 +2,5 @@
   "id": "0c8688e7-d8d5-4d74-b355-afa549ffba51",
   "name": "Flags 01",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Flags_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

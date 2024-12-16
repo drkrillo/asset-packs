@@ -2,20 +2,5 @@
   "id": "11a7d372-a6b7-4462-9a22-95b5009160e3",
   "name": "Awning 6M",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Awning 6M.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

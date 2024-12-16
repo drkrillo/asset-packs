@@ -2,20 +2,5 @@
   "id": "c28761f2-759f-4b9a-b497-9dfcabf3aa3f",
   "name": "Couch - Two Seater ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/TwoSeater_Couch.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

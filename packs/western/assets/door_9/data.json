@@ -2,20 +2,5 @@
   "id": "51a574fe-cd64-401b-bd69-077171d9b68e",
   "name": "Door 9",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Door 9.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "981ab998-28c1-497b-bb91-1d0db61ba143",
   "name": "Ladder",
   "category": "furniture",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Ladder.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

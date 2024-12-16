@@ -2,20 +2,5 @@
   "id": "eea5cbb5-a4d6-4c7b-83e5-29917224961b",
   "name": "Mines Car Track Crossover",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Mines Car Track Crossover.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

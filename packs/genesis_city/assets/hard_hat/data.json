@@ -10,20 +10,5 @@
     "hat",
     "construction",
     "orange"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/ConstructionHat_01/ConstructionHat_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

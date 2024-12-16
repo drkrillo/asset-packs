@@ -8,20 +8,5 @@
     "papyrus",
     "scroll",
     "rune"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PapyrusOpen_01/PapyrusOpen_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

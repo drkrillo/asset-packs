@@ -7,20 +7,5 @@
     "space",
     "planet",
     "soil"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Dirt_01/Dirt_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

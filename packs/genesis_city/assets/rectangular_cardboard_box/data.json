@@ -11,20 +11,5 @@
     "cardboard",
     "mail",
     "rectangular"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/CardboardBox_01/CardboardBox_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

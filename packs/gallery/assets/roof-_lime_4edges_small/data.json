@@ -2,20 +2,5 @@
   "id": "cfcd3302-1a1e-426b-b4e9-596c3dd3ba7b",
   "name": "Roof- Lime 4Edges Small",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/LimeRoof_4Edges_Small.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

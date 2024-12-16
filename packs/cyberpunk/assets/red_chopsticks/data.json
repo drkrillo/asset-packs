@@ -2,20 +2,5 @@
   "id": "b0be5b55-6773-49a0-9f2c-65c79ccc2ee4",
   "name": "Red Chopsticks",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Red_Chopsticks.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

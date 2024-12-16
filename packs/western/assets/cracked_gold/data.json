@@ -2,20 +2,5 @@
   "id": "c8f92d79-338f-4125-b12f-e2b3df2a1063",
   "name": "Cracked Gold",
   "category": "ground",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Cracked Gold.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "af0b3efa-4d0c-47ec-86f1-b49868130567",
   "name": "\"Hello\"",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Hello.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "94bbf88f-cd93-4531-8bda-d93e8dfffb8f",
   "name": "Floor - Black",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/BlackFloor.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

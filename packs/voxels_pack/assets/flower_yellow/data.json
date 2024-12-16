@@ -2,20 +2,5 @@
   "id": "a02bc382-2c8d-46a5-b2ba-c8ddc9595ef9",
   "name": "Flower - Yellow",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/flower_yellow.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -8,20 +8,5 @@
     "tech",
     "computer",
     "equipment"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/CaseSciFi_01/CaseSciFi_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

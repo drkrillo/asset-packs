@@ -11,20 +11,5 @@
     "grass",
     "brick",
     "bricks"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/GrassPatchSmall_01/GrassPatchSmall_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

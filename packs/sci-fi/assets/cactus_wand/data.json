@@ -6,20 +6,5 @@
     "scifi",
     "tree",
     "crystal"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PlantSF_07/PlantSF_07.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

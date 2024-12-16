@@ -13,20 +13,5 @@
     "water",
     "rounded",
     "round"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Bridge_04/Bridge_04.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

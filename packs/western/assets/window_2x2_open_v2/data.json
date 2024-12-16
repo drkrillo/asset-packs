@@ -2,20 +2,5 @@
   "id": "b1bc7ccf-7e3b-44ed-b7c6-c527fdcf179c",
   "name": "Window 2x2 Open v2",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Window 2x2 Open v2.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

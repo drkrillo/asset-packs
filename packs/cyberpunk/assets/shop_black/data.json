@@ -2,20 +2,5 @@
   "id": "d3419855-54da-41a8-9267-656eb844ed91",
   "name": "Shop Black",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Shop_Black.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

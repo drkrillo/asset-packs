@@ -2,20 +2,5 @@
   "id": "6dd4071d-a238-4c4c-9c92-58416354ae16",
   "name": "Window 1x2 Glass Panel",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Window 1x2 Glass Panel.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

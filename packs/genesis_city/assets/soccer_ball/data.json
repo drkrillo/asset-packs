@@ -13,20 +13,5 @@
     "soccer",
     "sports",
     "sport"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PlaygroundBall_01/PlaygroundBall_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

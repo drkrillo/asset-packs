@@ -2,20 +2,5 @@
   "id": "8cc2305f-d645-4437-8db1-6ce64e98b487",
   "name": "Sand",
   "category": "ground",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Sand.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

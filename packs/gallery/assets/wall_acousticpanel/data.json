@@ -2,20 +2,5 @@
   "id": "20a71e04-7080-47f6-a1ee-911041118c45",
   "name": "Wall - AcousticPanel",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/AcousticPanelWall.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

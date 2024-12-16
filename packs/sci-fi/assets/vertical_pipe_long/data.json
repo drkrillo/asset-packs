@@ -6,20 +6,5 @@
     "scifi",
     "base",
     "spaceship"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Pipe_Straight_05M_01/Pipe_Straight_05M_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

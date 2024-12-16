@@ -2,20 +2,5 @@
   "id": "26cc03a9-1e6a-4f8e-853e-91504fee53b3",
   "name": "Wall - WoodenBoard",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/WoodenBoardWall.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

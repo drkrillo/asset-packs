@@ -2,20 +2,5 @@
   "id": "f1386d8e-5896-45d8-ad3f-1237e8ce1e41",
   "name": "Solid light blue",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/solid_light_blue.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

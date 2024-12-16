@@ -7,20 +7,5 @@
     "box",
     "storage",
     "safe"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Vault_01/Vault_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

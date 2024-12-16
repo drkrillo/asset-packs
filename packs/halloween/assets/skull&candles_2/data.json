@@ -2,20 +2,5 @@
   "id": "50040a49-1ea3-4a16-96a3-c0e8aabb6e42",
   "name": "Skull&Candles ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_Skull&Candles_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

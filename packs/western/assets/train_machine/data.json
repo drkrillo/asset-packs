@@ -2,20 +2,5 @@
   "id": "33759e65-8fb6-41ce-ad95-ee5d4267ddd3",
   "name": "Train Machine",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Train Machine.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

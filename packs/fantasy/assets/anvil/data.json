@@ -6,20 +6,5 @@
     "fantasy",
     "iron",
     "blacksmith"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Anvil_01/Anvil_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

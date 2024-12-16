@@ -2,20 +2,5 @@
   "id": "43023e11-c3c0-4e66-81ae-5501f88f1527",
   "name": "Table Lamp",
   "category": "furniture",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Table Lamp.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

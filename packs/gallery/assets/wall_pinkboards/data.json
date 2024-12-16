@@ -2,20 +2,5 @@
   "id": "f6fb3031-dc9e-4a10-92a5-ffaac7339e50",
   "name": "Wall - PinkBoards",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PinkBoardsWall.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

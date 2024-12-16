@@ -2,20 +2,5 @@
   "id": "d0137d23-18bc-4100-97b4-c650f00296f3",
   "name": "Spring",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Spring.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

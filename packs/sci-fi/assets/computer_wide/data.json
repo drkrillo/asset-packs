@@ -7,20 +7,5 @@
     "spaceship",
     "parts",
     "computer"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Computer_02/Computer_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

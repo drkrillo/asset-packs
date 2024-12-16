@@ -2,20 +2,5 @@
   "id": "bf7c638f-bfe6-4fe2-b63f-d525b39bc469",
   "name": "SteamPunk Number 00",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/SteamPunk_Number_00.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "1196654f-834d-48f4-94d3-10f16e0de99e",
   "name": "Cat",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_Cat.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "d3f31e1e-70ae-4fac-a87f-fee05467e6dd",
   "name": "Stick",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Stick.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

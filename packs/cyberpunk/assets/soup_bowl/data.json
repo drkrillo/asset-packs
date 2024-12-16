@@ -2,20 +2,5 @@
   "id": "ccb8a627-139a-4691-af47-cc4a1966e328",
   "name": "Soup Bowl",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Soup_Bowl.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

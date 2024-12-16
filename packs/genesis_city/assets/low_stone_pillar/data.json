@@ -13,20 +13,5 @@
     "garden",
     "park",
     "wall"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/FenceStonePillar_01/FenceStonePillar_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

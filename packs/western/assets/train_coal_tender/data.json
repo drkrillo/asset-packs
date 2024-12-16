@@ -2,20 +2,5 @@
   "id": "b11726e0-bd44-4807-ae54-491f6f6e6912",
   "name": "Train Coal Tender",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Train Coal Tender.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

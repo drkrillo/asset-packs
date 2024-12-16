@@ -2,20 +2,5 @@
   "id": "82c7105d-287a-4d67-a817-3e818a5152c8",
   "name": " Barrel - Yellow Oil",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Yellow_Oil_Barrel.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

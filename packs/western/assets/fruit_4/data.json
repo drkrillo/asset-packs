@@ -2,20 +2,5 @@
   "id": "abf88b39-d0f1-433d-9dbe-beb619639a8b",
   "name": "Fruit 4",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Fruit 4.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

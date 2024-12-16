@@ -2,20 +2,5 @@
   "id": "e1a2d69c-765b-4a07-b9d1-703cadb87c7b",
   "name": "Window - Peach  ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PeachWindow.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -14,20 +14,5 @@
     "fair",
     "city",
     "park"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/IceCreamTruck_01/IceCreamTruck_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

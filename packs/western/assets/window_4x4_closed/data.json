@@ -2,20 +2,5 @@
   "id": "664f93d4-0d5c-4205-8bc6-7253bebcc059",
   "name": "Window 4x4 Closed",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Window 4x4 Closed.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

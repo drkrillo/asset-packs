@@ -2,20 +2,5 @@
   "id": "15da5cbf-72b6-442f-9695-d32899b305fa",
   "name": "TV Games Console",
   "category": "furniture",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/TV_Games_Console.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "0b11cb04-7db3-4335-9a20-7f49253829f7",
   "name": "Pillar - Brute Round",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/BruteRoundPillar.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

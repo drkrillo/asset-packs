@@ -2,20 +2,5 @@
   "id": "8e07cf0c-d00b-4578-8862-62b3070f1afa",
   "name": "Doorframe - CorrugatedMetal",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/CorrugatedMetalDoorframe.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

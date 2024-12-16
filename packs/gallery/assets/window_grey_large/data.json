@@ -2,20 +2,5 @@
   "id": "8747c56a-6f21-4ea1-90f2-f2130bd681b3",
   "name": "Window - Grey Large",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/GreyWindowLarge.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "14aa99ba-926f-4641-a1bd-b23c0d0bf833",
   "name": "Grass 2",
   "category": "nature",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Grass 2.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

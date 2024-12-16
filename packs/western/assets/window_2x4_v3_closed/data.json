@@ -2,20 +2,5 @@
   "id": "7859bcfa-3d0d-47f2-b47d-9a0ec2c72882",
   "name": "Window 2x4 V3 Closed",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Window 2x4 V3 Closed.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

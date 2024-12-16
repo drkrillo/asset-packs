@@ -2,20 +2,5 @@
   "id": "375976b4-2a04-47b5-a802-4d0b4cf5520b",
   "name": "Cactus",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/cactus.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

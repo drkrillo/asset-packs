@@ -2,20 +2,5 @@
   "id": "8aa6d1d1-16c1-4805-a803-f25cd17ee06c",
   "name": "Roof - White",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/WhiteRoof.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

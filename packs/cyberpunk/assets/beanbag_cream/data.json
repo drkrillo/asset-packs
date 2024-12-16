@@ -2,20 +2,5 @@
   "id": "a81bf308-134d-4822-8c73-3d88b966b85d",
   "name": "Beanbag Cream",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Beanbag_Cream.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

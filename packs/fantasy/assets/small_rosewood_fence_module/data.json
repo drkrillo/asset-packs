@@ -8,20 +8,5 @@
     "wood",
     "wooden",
     "module"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/FenceWoodSmall_01/FenceWoodSmall_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

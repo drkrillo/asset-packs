@@ -2,20 +2,5 @@
   "id": "724b29cd-a904-4164-8670-900f958f4e5b",
   "name": "Genesis Map",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Genesis_Map.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

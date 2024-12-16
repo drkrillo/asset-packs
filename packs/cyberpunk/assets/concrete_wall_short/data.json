@@ -2,20 +2,5 @@
   "id": "5daddffb-273d-44c7-acd2-26d262efb82b",
   "name": "Concrete Wall - Short",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Concrete_Wall_Short.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "e325f623-6fde-4993-9a07-83c5e9d79214",
   "name": "Flower Pot 04",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_FlowerPot_04.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

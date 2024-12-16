@@ -2,20 +2,5 @@
   "id": "426f9acb-2ede-44aa-bcf5-195963dd1f67",
   "name": "Scarecrow",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_ScareCrow.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

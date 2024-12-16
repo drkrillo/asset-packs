@@ -2,20 +2,5 @@
   "id": "f9a6c67a-4451-4ba8-9fa6-f0ec25fececc",
   "name": "Deck 2M",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Deck 2M.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

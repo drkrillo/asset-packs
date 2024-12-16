@@ -14,20 +14,5 @@
     "gold",
     "golden",
     "framed"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Gem_08/Gem_08.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

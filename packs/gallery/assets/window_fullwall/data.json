@@ -2,20 +2,5 @@
   "id": "7cd98940-78b6-4b61-af5d-da43f3360022",
   "name": "Window - FullWall ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/FullWallWindow.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

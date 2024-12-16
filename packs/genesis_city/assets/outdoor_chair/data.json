@@ -10,20 +10,5 @@
     "beach",
     "seat",
     "chair"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Chair_07/Chair_07.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

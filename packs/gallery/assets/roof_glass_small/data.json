@@ -2,20 +2,5 @@
   "id": "4e520aff-0f9c-4d2a-b63c-b650fc8a4366",
   "name": "Roof - Glass Small",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/GlassRoof_Small.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

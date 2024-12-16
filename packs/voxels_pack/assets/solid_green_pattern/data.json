@@ -2,20 +2,5 @@
   "id": "329c5934-32cd-4222-9257-885bac04d12f",
   "name": "Solid Green Pattern",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/solid_green_pattern.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

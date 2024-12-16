@@ -12,20 +12,5 @@
     "sidewalk",
     "beach",
     "tile"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/FloorBlock_02/FloorBlock_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

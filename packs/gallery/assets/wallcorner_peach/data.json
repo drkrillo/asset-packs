@@ -2,20 +2,5 @@
   "id": "be00fbc8-4a30-4bc5-b03d-5fd50de51d5b",
   "name": "WallCorner - Peach ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PeachCorner.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

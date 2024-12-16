@@ -2,20 +2,5 @@
   "id": "61d650df-ceac-45ec-bb1b-e162092515bb",
   "name": "Pillar - Inset",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/InsetPillar.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

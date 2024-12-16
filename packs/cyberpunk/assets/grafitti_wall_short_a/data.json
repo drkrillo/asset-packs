@@ -2,20 +2,5 @@
   "id": "2bc588eb-d235-4fd0-a188-eb97b6622fff",
   "name": "Grafitti Wall Short A",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Grafitti_Wall_Short_A.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

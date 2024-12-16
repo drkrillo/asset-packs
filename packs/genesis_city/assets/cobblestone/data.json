@@ -7,20 +7,5 @@
     "city",
     "town",
     "ground"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/FloorBaseTiles_01/FloorBaseTiles_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

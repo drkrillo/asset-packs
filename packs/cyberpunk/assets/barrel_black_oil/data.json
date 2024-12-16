@@ -2,20 +2,5 @@
   "id": "36ba14c9-2641-40b4-9337-3b4f3910f15b",
   "name": "Barrel - Black Oil ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Black_Oil_Barrel.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

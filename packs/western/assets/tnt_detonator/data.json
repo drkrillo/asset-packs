@@ -2,20 +2,5 @@
   "id": "7221f2d1-4b0e-4750-ac0b-6bc42b5cce47",
   "name": "TNT Detonator",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/TNT Detonator.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

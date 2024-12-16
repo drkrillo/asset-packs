@@ -2,20 +2,5 @@
   "id": "fa75a56c-812e-4e7c-b984-14b0db02c361",
   "name": "Pet Tomb 03",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_PetTomb_03.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

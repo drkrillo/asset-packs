@@ -2,20 +2,5 @@
   "id": "fa16ec5f-10c2-4452-bb83-096184ea1f5f",
   "name": "Door 3",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Door 3.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

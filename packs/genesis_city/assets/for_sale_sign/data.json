@@ -14,20 +14,5 @@
     "realstate",
     "real",
     "state"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/ForSaleSign_01/ForSaleSign_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

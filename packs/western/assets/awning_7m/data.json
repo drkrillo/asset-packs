@@ -2,20 +2,5 @@
   "id": "dab89505-463e-4f7c-8c02-77d2e24c5afd",
   "name": "Awning 7M",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Awning 7M.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

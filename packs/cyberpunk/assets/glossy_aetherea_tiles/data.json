@@ -2,20 +2,5 @@
   "id": "6b33f46e-9667-45e5-bd90-85f372ee2490",
   "name": "Glossy Aetherea Tiles",
   "category": "ground",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/CityTile.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

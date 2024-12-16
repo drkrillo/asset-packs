@@ -5,20 +5,5 @@
   "tags": [
     "scifi",
     "tube"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/TubePiece_01/TubePiece_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

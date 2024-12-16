@@ -8,20 +8,5 @@
     "power",
     "electricity",
     "connectors"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Cable_4M_01/Cable_4M_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

@@ -7,20 +7,5 @@
     "hammer",
     "stone",
     "tool"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Hammer_01/Hammer_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

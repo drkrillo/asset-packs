@@ -2,20 +2,5 @@
   "id": "ecdd75ef-90cd-4f12-a27b-b23a20a30fb0",
   "name": "Donut Sign",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Donut_Sign.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

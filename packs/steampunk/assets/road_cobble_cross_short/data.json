@@ -2,20 +2,5 @@
   "id": "43e06b8a-0196-4eec-847b-bc3416fe0dca",
   "name": "Road Cobble Cross Short",
   "category": "tiles",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Road Cobble Cross Short.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

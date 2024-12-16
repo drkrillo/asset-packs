@@ -2,20 +2,5 @@
   "id": "cbb89550-f805-4749-b806-1e39b11f6cc5",
   "name": "Ice",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/ice.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

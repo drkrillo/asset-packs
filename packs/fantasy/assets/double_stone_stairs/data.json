@@ -7,20 +7,5 @@
     "stair",
     "stone",
     "step"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Stairs_L_01/Stairs_L_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

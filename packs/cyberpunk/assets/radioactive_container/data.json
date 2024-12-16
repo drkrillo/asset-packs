@@ -2,20 +2,5 @@
   "id": "66170425-9f3d-4d58-940c-bdf073213f62",
   "name": "Radioactive Container",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Radioactive_Container.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "d36f333b-c736-4db8-a5e2-6ab47d4364b9",
   "name": "Wall - PlainBlack",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PlainBlackWall.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

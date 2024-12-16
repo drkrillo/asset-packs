@@ -2,20 +2,5 @@
   "id": "a4f20115-eae1-49a0-839a-3d6588277665",
   "name": "House 5 M Brown",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/House 5 M Brown.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

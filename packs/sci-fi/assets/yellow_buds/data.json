@@ -5,20 +5,5 @@
   "tags": [
     "scifi",
     "tree"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PlantSF_02/PlantSF_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

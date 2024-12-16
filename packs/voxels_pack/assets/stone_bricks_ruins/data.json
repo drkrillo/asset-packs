@@ -2,20 +2,5 @@
   "id": "bf0e9332-7f1d-4ee0-a3f9-db5391b035da",
   "name": "Stone Bricks - Ruins",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/stone_ancient.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

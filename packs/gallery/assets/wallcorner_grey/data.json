@@ -2,20 +2,5 @@
   "id": "f26867b4-2922-456d-a851-b7766ab6a7a9",
   "name": "WallCorner - Grey",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/GreyCorner.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

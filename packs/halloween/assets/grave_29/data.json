@@ -2,20 +2,5 @@
   "id": "e0158504-e74e-469b-aa9a-f9186ad89469",
   "name": "Grave 29",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_Grave_29.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "69371827-a82f-4c54-960e-91d4164195c8",
   "name": "Roof - Yellow 1Edge Small",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/YellowRoof_1Edge_Small.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

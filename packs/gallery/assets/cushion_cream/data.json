@@ -2,20 +2,5 @@
   "id": "f88debdf-6e8f-44d0-983d-e2be73b8eae4",
   "name": "Cushion - Cream",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/CreamCushion.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

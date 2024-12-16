@@ -12,20 +12,5 @@
     "leather",
     "strips",
     "rope"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Map_01/Map_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

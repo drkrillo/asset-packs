@@ -2,20 +2,5 @@
   "id": "fb87d53f-a4c5-4a18-ab39-dddb49cedcce",
   "name": "Deck 5M v02",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Deck 5M v02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

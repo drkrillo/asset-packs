@@ -2,20 +2,5 @@
   "id": "9ea99687-b9e2-48b4-802b-2bdad2c68205",
   "name": "Window - TurquoiseTiles",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/TurquoiseTileWindow.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

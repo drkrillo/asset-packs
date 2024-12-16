@@ -2,20 +2,5 @@
   "id": "e28ea76e-fe21-4544-a001-a65867b11be0",
   "name": "Wall - PlainGlass",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PlainGlassWall.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

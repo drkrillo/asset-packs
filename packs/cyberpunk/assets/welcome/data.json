@@ -2,20 +2,5 @@
   "id": "eb155a5e-673d-4f32-b583-49befcb48e2a",
   "name": "\"Welcome\"",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Welcome.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

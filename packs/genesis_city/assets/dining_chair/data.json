@@ -12,20 +12,5 @@
     "dining",
     "dinner",
     "chair"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Chair_04/Chair_04.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

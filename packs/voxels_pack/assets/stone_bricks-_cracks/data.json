@@ -2,20 +2,5 @@
   "id": "ccbc0171-22f2-49a7-927e-2fcc03a4e5bc",
   "name": "Stone Bricks- Cracks",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/brick_broken_concrete.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

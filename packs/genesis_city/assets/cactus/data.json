@@ -11,20 +11,5 @@
     "desert",
     "wilderness",
     "garden"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Cactus_01/Cactus_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

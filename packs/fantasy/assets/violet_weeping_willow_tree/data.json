@@ -7,20 +7,5 @@
     "tree",
     "leaf",
     "violet"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Tree_Leafs_03/Tree_Leafs_03.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

@@ -9,20 +9,5 @@
     "nature",
     "stick",
     "jungle"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Bamboo_02/Bamboo_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

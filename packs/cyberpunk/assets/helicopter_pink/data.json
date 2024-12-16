@@ -2,20 +2,5 @@
   "id": "1f11d405-ad8b-4705-8a6b-bcfc9ca0893f",
   "name": "Helicopter Pink",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Helicopter_Pink.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

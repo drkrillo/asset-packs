@@ -2,20 +2,5 @@
   "id": "069179c2-b0f2-4458-af72-b00d72d7680f",
   "name": "Mines Cart Gold",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Mines Cart Gold.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

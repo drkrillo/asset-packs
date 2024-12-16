@@ -11,20 +11,5 @@
     "kiosk",
     "market",
     "rustic"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Store_03/Store_03.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

@@ -2,20 +2,5 @@
   "id": "4102c04b-172e-4426-8c1a-801edec6a20a",
   "name": "Pipe Screen - Emissive",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Pipe_Screen_Emissive.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

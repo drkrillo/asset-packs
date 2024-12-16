@@ -7,20 +7,5 @@
     "rock",
     "space",
     "cosmic"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Comet_02/Comet_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

@@ -2,20 +2,5 @@
   "id": "2448c426-7745-4014-965f-1608b7ef90f4",
   "name": "Logs 1",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Logs 1.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

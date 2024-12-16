@@ -11,20 +11,5 @@
     "pot",
     "garden",
     "park"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PlantPot_01/PlantPot_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

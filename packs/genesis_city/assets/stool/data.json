@@ -9,20 +9,5 @@
     "furniture",
     "wood",
     "seat"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Bench_02/Bench_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

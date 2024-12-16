@@ -2,20 +2,5 @@
   "id": "4f3a6285-a427-4d94-9379-cddfb2f67865",
   "name": "WallCorner - Magnolia ",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/MagnoliaCorner.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

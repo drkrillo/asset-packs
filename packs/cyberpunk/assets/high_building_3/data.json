@@ -2,20 +2,5 @@
   "id": "3f06be24-6d8a-46d9-9655-136222575f87",
   "name": "High Building 3",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/High_Building_3.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "610d419d-bed4-47ec-b0ae-22a6afa90efa",
   "name": "Pistol",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Pistol.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "c64148e7-d84f-497c-8d67-b2955a158f77",
   "name": "Pennants",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_Pennants.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

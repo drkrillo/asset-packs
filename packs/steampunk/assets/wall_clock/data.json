@@ -2,20 +2,5 @@
   "id": "a0186d6a-2e78-410a-bb52-fb4d6c3289a9",
   "name": "Wall Clock",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Wall Clock.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

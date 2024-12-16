@@ -10,20 +10,5 @@
     "sand",
     "dune",
     "beach"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/SandPatchSmall_01/SandPatchSmall_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

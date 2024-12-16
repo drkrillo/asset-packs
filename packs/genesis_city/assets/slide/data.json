@@ -12,20 +12,5 @@
     "yard",
     "backyard",
     "slide"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PlaygroundSlide_01/PlaygroundSlide_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

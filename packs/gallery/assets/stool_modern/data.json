@@ -2,20 +2,5 @@
   "id": "7ade3213-58dc-4fba-adb3-d6276f87600e",
   "name": "Stool - Modern",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/ModernStool.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

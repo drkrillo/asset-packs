@@ -2,20 +2,5 @@
   "id": "d878ae26-79d9-45f5-aa11-578ab1fdb11b",
   "name": "Pipe Cap",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Pipe_Cap.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

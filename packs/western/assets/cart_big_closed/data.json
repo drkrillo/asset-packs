@@ -2,20 +2,5 @@
   "id": "23cee040-b0b9-48ca-bd49-43e2722f759d",
   "name": "Cart Big Closed",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Cart Big Closed.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

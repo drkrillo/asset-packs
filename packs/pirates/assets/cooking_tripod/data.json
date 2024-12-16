@@ -11,20 +11,5 @@
     "sticks",
     "rope",
     "hook"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HangingStructure_01/HangingStructure_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

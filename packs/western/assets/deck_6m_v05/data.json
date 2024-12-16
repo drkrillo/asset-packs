@@ -2,20 +2,5 @@
   "id": "8ff53524-97d9-465b-b6e9-1480a4f7a359",
   "name": "Deck 6M v05",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Deck 6M v05.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

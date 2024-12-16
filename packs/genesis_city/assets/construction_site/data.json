@@ -16,20 +16,5 @@
     "building",
     "buildings",
     "site"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/ConstructionScene_01/ConstructionScene_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

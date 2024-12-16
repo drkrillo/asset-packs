@@ -2,20 +2,5 @@
   "id": "326cbd71-f00e-4e93-a222-13eff83f3ed1",
   "name": "Doorframe - BathroomTiles",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/BathroomTilesDoorframe.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

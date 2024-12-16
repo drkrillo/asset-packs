@@ -7,20 +7,5 @@
     "stone",
     "wall",
     "railing"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/StairFence_01/StairFence_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

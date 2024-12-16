@@ -7,20 +7,5 @@
     "spaceship",
     "base",
     "hole"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Manhole_01/Manhole_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

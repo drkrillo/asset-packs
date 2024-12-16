@@ -2,20 +2,5 @@
   "id": "761edf7d-9389-4abf-b73b-46c4cffc7b27",
   "name": "Telephone Pole 2",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Telephone_Pole_2.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

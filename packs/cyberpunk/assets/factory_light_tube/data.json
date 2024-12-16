@@ -2,20 +2,5 @@
   "id": "6b3079b4-38f5-481b-ac17-37b2fbb1fc16",
   "name": "Factory Light Tube",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Factory_Light_Tube.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

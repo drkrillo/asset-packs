@@ -2,20 +2,5 @@
   "id": "107a3a32-9a7b-46da-9ed4-d1100441d6b6",
   "name": "Doorframe - MetalBolts",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/MetalBoltsDoorframe.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

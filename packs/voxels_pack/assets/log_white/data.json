@@ -2,20 +2,5 @@
   "id": "2f68350b-0d13-4185-ad2c-80ec097ac425",
   "name": "Log - White",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/log_white.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

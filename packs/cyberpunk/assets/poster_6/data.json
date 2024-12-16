@@ -2,20 +2,5 @@
   "id": "9311a3a8-037e-4bca-87ac-10232ee36b84",
   "name": "Poster 6",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Poster6.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

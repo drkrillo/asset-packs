@@ -11,20 +11,5 @@
     "golden",
     "jewels",
     "king"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Crown_01/Crown_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

@@ -2,20 +2,5 @@
   "id": "c12b0faf-2187-489d-b838-06ba2c9cd6d0",
   "name": "Wall - BathroomTiles",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/BathroomTilesWall.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

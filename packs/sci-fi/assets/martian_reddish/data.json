@@ -5,20 +5,5 @@
   "tags": [
     "scifi",
     "ground"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/GroundFloorSciFi_02/GroundFloorSciFi_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

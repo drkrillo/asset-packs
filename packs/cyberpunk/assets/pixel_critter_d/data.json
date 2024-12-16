@@ -2,20 +2,5 @@
   "id": "5e498687-e17d-4baa-ac28-ef8be4903c90",
   "name": "Pixel Critter D",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Pixel_Critter_D.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

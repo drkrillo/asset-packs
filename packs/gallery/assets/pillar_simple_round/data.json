@@ -2,20 +2,5 @@
   "id": "b587438c-9430-475f-98c5-3ce680627921",
   "name": "Pillar - Simple Round",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/SimpleRoundPillar.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

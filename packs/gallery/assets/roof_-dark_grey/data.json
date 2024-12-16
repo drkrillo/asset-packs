@@ -2,20 +2,5 @@
   "id": "e305a07b-6ccf-46d5-b641-90c3eec0276a",
   "name": "Roof -Dark Grey",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/DarkGreyRoof.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

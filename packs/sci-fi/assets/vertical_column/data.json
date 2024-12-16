@@ -6,20 +6,5 @@
     "scifi",
     "high",
     "support"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Column_01/Column_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

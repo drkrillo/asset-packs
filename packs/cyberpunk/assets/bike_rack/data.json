@@ -2,20 +2,5 @@
   "id": "701386a5-90ca-4202-829b-e9fd85985aeb",
   "name": "Bike Rack",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Bike_Rack.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

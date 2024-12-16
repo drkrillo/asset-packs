@@ -2,20 +2,5 @@
   "id": "06b566f6-8b50-4f2f-b27d-c297516627b9",
   "name": "Glass - Yellow",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/glass_yellow.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

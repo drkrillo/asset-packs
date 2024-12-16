@@ -13,20 +13,5 @@
     "backyard",
     "slide",
     "dome"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PlaygroundStructure_01/PlaygroundStructure_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

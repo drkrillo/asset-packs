@@ -2,20 +2,5 @@
   "id": "af2ee1de-eb6b-418b-92fb-7f13c7bc7ffb",
   "name": "Sushi Set 1",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Sushi_Set_1.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

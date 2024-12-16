@@ -2,20 +2,5 @@
   "id": "2879cf19-077f-41d9-9144-15067b49f12a",
   "name": "Train Track 6 M Old V01",
   "category": "tiles",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Train Track 6 M Old V01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

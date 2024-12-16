@@ -14,20 +14,5 @@
     "street",
     "city",
     "park"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/LampPost_03/LampPost_03.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

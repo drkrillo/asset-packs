@@ -2,20 +2,5 @@
   "id": "6a40d38d-05c7-4749-9b72-fcb1dc627ca1",
   "name": "Street Light",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Street Light.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -13,20 +13,5 @@
     "stone",
     "stones",
     "magic"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/SpiralStone_02/SpiralStone_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

@@ -2,20 +2,5 @@
   "id": "56154f66-a2aa-4917-9f47-3bcc78428e7b",
   "name": "Fence Stick 2",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_FenceStick_02.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

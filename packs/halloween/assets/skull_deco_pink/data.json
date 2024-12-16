@@ -2,20 +2,5 @@
   "id": "4b7267c3-48a3-4e83-815f-b37fb15b07c0",
   "name": " Skull Deco Pink",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/HWN20_SkullDeco_DDLM_03.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

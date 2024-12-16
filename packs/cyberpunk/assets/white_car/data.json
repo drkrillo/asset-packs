@@ -2,20 +2,5 @@
   "id": "f588367d-f37d-40e2-ac5e-027120869dbe",
   "name": "White Car",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/White_Car.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

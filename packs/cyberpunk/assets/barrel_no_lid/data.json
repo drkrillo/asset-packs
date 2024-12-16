@@ -2,20 +2,5 @@
   "id": "76280eb2-09bc-4ed4-abba-b1f847dcdf3c",
   "name": "Barrel - No Lid",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Barrel_No_Lid.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

@@ -2,20 +2,5 @@
   "id": "411a96e7-4166-466c-a253-4ef5bca4eb39",
   "name": "Doorframe - Plant",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PlantDoorframe.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

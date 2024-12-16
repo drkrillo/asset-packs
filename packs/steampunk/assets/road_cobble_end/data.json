@@ -2,20 +2,5 @@
   "id": "1ef4b5ec-c278-422e-b072-48c04dddce08",
   "name": "Road Cobble End",
   "category": "tiles",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Road Cobble End.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

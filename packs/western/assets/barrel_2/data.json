@@ -2,20 +2,5 @@
   "id": "09fb31d8-57a4-40f9-8405-6fe28df6cb8f",
   "name": "Barrel 2",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Barrel 2.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

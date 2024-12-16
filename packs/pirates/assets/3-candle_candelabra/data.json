@@ -11,20 +11,5 @@
     "candle",
     "light",
     "holder"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Chandelier_01/Chandelier_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

@@ -7,20 +7,5 @@
     "roof",
     "tower",
     "hut"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Roof_01/Roof_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

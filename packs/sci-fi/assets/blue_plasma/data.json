@@ -7,20 +7,5 @@
     "energy",
     "supply",
     "power"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/PlasmaBlue_01/PlasmaBlue_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

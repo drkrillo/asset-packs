@@ -6,20 +6,5 @@
     "scifi",
     "living",
     "environment"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/GreenHouse_01/GreenHouse_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

@@ -2,20 +2,5 @@
   "id": "fa3faf84-129c-4e32-b3c8-da111d10499c",
   "name": "Deck 7M v03",
   "category": "structures",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Deck 7M v03.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

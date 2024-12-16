@@ -2,20 +2,5 @@
   "id": "4b89682b-04fd-456f-984e-e324a26bb78f",
   "name": "Bar 3 1M",
   "category": "furniture",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Furnit Bar 3 1M.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

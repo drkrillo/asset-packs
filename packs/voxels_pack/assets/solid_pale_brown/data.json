@@ -2,20 +2,5 @@
   "id": "1b8c22ec-4eba-4afd-b338-ad2557881ebd",
   "name": "Solid Pale Brown",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/solid_light_brown.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

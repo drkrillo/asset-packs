@@ -12,20 +12,5 @@
     "sun",
     "sports",
     "sport"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/SurfBoard_01/SurfBoard_01.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

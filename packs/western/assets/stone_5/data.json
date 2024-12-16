@@ -2,20 +2,5 @@
   "id": "875bcee1-bdbe-44dd-842c-e5fdff9bf2e5",
   "name": "Stone 5",
   "category": "nature",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Stone 5.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

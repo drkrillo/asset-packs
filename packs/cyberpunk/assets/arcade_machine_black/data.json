@@ -2,20 +2,5 @@
   "id": "7dc89fda-c062-4bf2-aa97-7d6748c8d2f4",
   "name": "Arcade Machine - Black",
   "category": "furniture",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Arcade_Machine_Black.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

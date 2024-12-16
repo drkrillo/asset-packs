@@ -12,20 +12,5 @@
     "foliage",
     "plant",
     "plants"
-  ],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/Grass_05/Grass_05.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  ]
 }

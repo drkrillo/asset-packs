@@ -2,20 +2,5 @@
   "id": "05fb694f-6f72-4cd8-bedb-689fa5514cd7",
   "name": "Roof - Corrugated Metal",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/CorrugatedMetalRoof.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

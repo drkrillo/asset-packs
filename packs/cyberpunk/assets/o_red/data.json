@@ -2,20 +2,5 @@
   "id": "b5366a75-b461-4935-8567-da893caa47b1",
   "name": "O Red",
   "category": "decorations",
-  "tags": [],
-  "composite": {
-    "version": 1,
-    "components": [
-      {
-        "name": "core::GltfContainer",
-        "data": {
-          "0": {
-            "json": {
-              "src": "{assetPath}/O_Red.glb"
-            }
-          }
-        }
-      }
-    ]
-  }
+  "tags": []
 }

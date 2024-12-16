@@ -23,23 +23,27 @@ export type LegacyAssetData = {
   components: Record<string, any>
 }
 
+export type AssetComposite = {
+  version: number
+  components: Array<{
+    name: string
+    data: {
+      [key: string]: {
+        json: any
+      }
+    }
+  }>
+}
+
 export type AssetData = {
   id: string
   name: string
   category: string
   tags: string[]
-  composite: {
-    version: number
-    components: Array<{
-      name: string
-      data: {
-        [key: string]: {
-          json: any
-        }
-      }
-    }>
-  }
+  composite: AssetComposite
 }
+
+export type AssetDataWithoutComposite = Omit<AssetData, 'composite'>
 
 export interface TriggerData {
   value: {
@@ -49,6 +53,26 @@ export interface TriggerData {
       name: string
     }[]
   }[]
+}
+
+export function isAssetDataWithoutComposite(
+  value: any,
+): value is AssetDataWithoutComposite {
+  if ('composite' in value) {
+    return false
+  }
+  return (
+    value &&
+    typeof value === 'object' &&
+    'id' in value &&
+    typeof value.id === 'string' &&
+    'name' in value &&
+    typeof value.name === 'string' &&
+    'category' in value &&
+    typeof value.category === 'string' &&
+    'tags' in value &&
+    Array.isArray(value.tags)
+  )
 }
 
 export function isAssetData(value: any): value is AssetData {
@@ -109,9 +133,12 @@ export type Component = {
   }
 }
 
-
 export type ISDKHelpers = {
   // SyncEntity helper to create network entities at runtime.
   syncEntity?: SyncEntitySDK
 }
-export type SyncEntitySDK =  (entityId: Entity, componentIds: number[], entityEnumId?: number | undefined) => void
+export type SyncEntitySDK = (
+  entityId: Entity,
+  componentIds: number[],
+  entityEnumId?: number | undefined,
+) => void
