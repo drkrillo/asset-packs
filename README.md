@@ -74,3 +74,9 @@ When a user installs `@dcl/sdk@next` on as scene, that updates `@dcl/ecs` from 1
 
 So we decisded to remove the explicit dependency of `@dcl/ecs` from the `@dcl/asset-packs` package, and that allows users to install `@dcl/sdk@next` or upgrade versions without problems.
 The downside is that if this package is used in some project where `@dcl/ecs` is not available, it's going to break. This package is not meant to be used outside of a Decentraland scene anyway so that shouldn't be a problem.
+
+## Related Architecture Decisions
+
+For a deeper understanding of the architecture and design decisions:
+
+- [ADR-281: Items in Decentraland tooling](https://adr.decentraland.org/adr/ADR-281) - Describes the Items abstraction, types of items (Static, Smart, Custom), and technical implementation details.
