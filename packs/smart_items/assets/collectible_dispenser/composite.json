@@ -7,7 +7,7 @@
         "0": {
           "json": {
             "src": "{assetPath}/collectible_dispenser.glb",
-            "visibleMeshesCollisionMask": 0,
+            "visibleMeshesCollisionMask": 3,
             "invisibleMeshesCollisionMask": 0
           }
         }
@@ -45,7 +45,7 @@
               {
                 "name": "Visible",
                 "type": "set_visibility",
-                "jsonPayload": "{\"visible\":true,\"collider\":2}",
+                "jsonPayload": "{\"visible\":true,\"collider\":3}",
                 "allowedInBasicView": true
               },
               {
@@ -68,7 +68,7 @@
               {
                 "name": "LandingAnimation",
                 "type": "play_animation",
-                "jsonPayload": "{\"animation\":[\"Landing\"],\"loop\":false}",
+                "jsonPayload": "{\"animation\":\"Landing\",\"loop\":false}",
                 "allowedInBasicView": true
               },
               {
@@ -89,13 +89,15 @@
           "json": {
             "value": [
               {
-                "type": "on_tween_end",
+                "type": "on_input_action",
+                "conditions": [],
                 "actions": [
                   {
                     "id": "{self:asset-packs::Actions}",
-                    "name": "StopAnimation"
+                    "name": "Claim"
                   }
-                ]
+                ],
+                "basicViewId": "trigger-when-clicked"
               }
             ]
           }
@@ -116,6 +118,28 @@
                   "maxDistance": 10,
                   "showFeedback": true
                 }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "inspector::Config",
+      "data": {
+        "0": {
+          "json": {
+            "isBasicViewEnabled": true,
+            "componentName": "Collectible Dispenser",
+            "fields": [
+              {
+                "name": "Campaign",
+                "type": "asset-packs::Rewards"
+              },
+              {
+                "name": "When Clicked",
+                "type": "asset-packs::Triggers",
+                "basicViewId": "trigger-when-clicked"
               }
             ]
           }
