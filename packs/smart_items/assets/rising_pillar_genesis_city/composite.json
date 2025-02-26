@@ -72,6 +72,43 @@
       }
     },
     {
+      "name": "core::Tween",
+      "data": {
+        "0": {
+          "json": {
+            "duration": 5000,
+            "easingFunction": 0,
+            "mode": {
+              "$case": "move",
+              "move": {
+                "start": {
+                  "x": 28.75,
+                  "y": 0,
+                  "z": 12.5
+                },
+                "end": {
+                  "x": 28.75,
+                  "y": 6,
+                  "z": 12.5
+                }
+              }
+            },
+            "playing": false
+          }
+        }
+      }
+    },
+    {
+      "name": "core::TweenSequence",
+      "data": {
+        "0": {
+          "json": {
+            "sequence": []
+          }
+        }
+      }
+    },
+    {
       "name": "asset-packs::Actions",
       "data": {
         "513": {
@@ -123,19 +160,52 @@
     {
       "name": "asset-packs::Triggers",
       "data": {
-        "513": {
+        "0": {
           "json": {
             "value": [
               {
+                "type": "on_tween_end",
+                "conditions": [
+                  {
+                    "id": "{self:asset-packs::States}",
+                    "type": "when_state_is",
+                    "value": "GoingToEnd"
+                  }
+                ],
+                "actions": [
+                  {
+                    "id": "{self:asset-packs::Actions}",
+                    "name": "Going to Start"
+                  }
+                ],
+                "basicViewId": "trigger-when-end-reached"
+              },
+              {
+                "type": "on_tween_end",
+                "conditions": [
+                  {
+                    "id": "{self:asset-packs::States}",
+                    "type": "when_state_is",
+                    "value": "GoingToStart"
+                  }
+                ],
+                "actions": [
+                  {
+                    "id": "{self:asset-packs::Actions}",
+                    "name": "Going to End"
+                  }
+                ],
+                "basicViewId": "trigger-when-start-reached"
+              },
+              {
                 "type": "on_state_change",
-                "conditions": [],
-                "operation": "and",
                 "actions": [
                   {
                     "id": "{self:asset-packs::Actions}",
                     "name": "Play Sound"
                   }
-                ]
+                ],
+                "conditions": []
               }
             ]
           }
@@ -176,8 +246,7 @@
                 "type": "asset-packs::Triggers",
                 "basicViewId": "trigger-when-start-reached"
               }
-            ],
-            "assetId": "b38819e8-feb0-467b-8ae0-5b2216f28aac"
+            ]
           }
         }
       }

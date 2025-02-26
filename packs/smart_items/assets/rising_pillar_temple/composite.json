@@ -18,7 +18,7 @@
       "data": {
         "0": {
           "json": {
-            "value": "Vertical Magic Rock Alt"
+            "value": "Rising Pillar Temple_2"
           }
         }
       }
@@ -28,7 +28,11 @@
       "data": {
         "0": {
           "json": {
-            "componentIds": [1102, 2709697014, 1020]
+            "componentIds": [
+              1102,
+              2709697014,
+              1020
+            ]
           }
         }
       }
@@ -44,14 +48,14 @@
               "$case": "move",
               "move": {
                 "start": {
-                  "x": 23,
+                  "x": 28.75,
                   "y": 0,
-                  "z": 22
+                  "z": 12.5
                 },
                 "end": {
-                  "x": 23,
-                  "y": 5,
-                  "z": 22
+                  "x": 28.75,
+                  "y": 6,
+                  "z": 12.5
                 }
               }
             },
@@ -65,8 +69,7 @@
       "data": {
         "0": {
           "json": {
-            "sequence": [],
-            "loop": 0
+            "sequence": []
           }
         }
       }
@@ -79,7 +82,7 @@
             "id": "{self}",
             "value": [
               {
-               "name": "Sink",
+                "name": "Sink",
                 "type": "batch",
                 "jsonPayload": "{ \"actions\": [\"Going to Start\", \"Tween to Start\"] }",
                 "allowedInBasicView": true
@@ -103,12 +106,12 @@
               {
                 "name": "Tween to Start",
                 "type": "start_tween",
-                "jsonPayload": "{\"type\":\"move_item\",\"end\":{\"x\":0,\"y\":-5,\"z\":0},\"relative\":true,\"interpolationType\":\"linear\",\"duration\":5}"
+                "jsonPayload": "{\"type\":\"move_item\",\"end\":{\"x\":0,\"y\":-6,\"z\":0},\"relative\":true,\"interpolationType\":\"linear\",\"duration\":5}"
               },
               {
                 "name": "Tween to End",
                 "type": "start_tween",
-                "jsonPayload": "{\"type\":\"move_item\",\"end\":{\"x\":0,\"y\":5,\"z\":0},\"relative\":true,\"interpolationType\":\"linear\",\"duration\":5}"
+                "jsonPayload": "{\"type\":\"move_item\",\"end\":{\"x\":0,\"y\":6,\"z\":0},\"relative\":true,\"interpolationType\":\"linear\",\"duration\":5}"
               },
               {
                 "type": "play_sound",
@@ -162,14 +165,13 @@
               },
               {
                 "type": "on_state_change",
-                "conditions": [],
-                "operation": "and",
                 "actions": [
                   {
                     "id": "{self:asset-packs::Actions}",
                     "name": "Play Sound"
                   }
-                ]
+                ],
+                "conditions": []
               }
             ]
           }
@@ -182,7 +184,10 @@
         "0": {
           "json": {
             "id": "{self}",
-            "value": ["GoingToEnd", "GoingToStart"],
+            "value": [
+              "GoingToEnd",
+              "GoingToStart"
+            ],
             "defaultValue": "GoingToEnd"
           }
         }
@@ -210,8 +215,7 @@
                 "type": "asset-packs::Triggers",
                 "basicViewId": "trigger-when-start-reached"
               }
-            ],
-            "assetId": "132c8f9d-5faa-4e14-b985-44562ccacc24"
+            ]
           }
         }
       }
