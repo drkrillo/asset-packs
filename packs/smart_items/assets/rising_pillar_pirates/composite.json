@@ -59,7 +59,9 @@
       "data": {
         "513": {
           "json": {
-            "componentIds": [1102, 2709697014, 1020]
+            "componentIds": [              "core::Tween",
+            "asset-packs::States",
+            "core::AudioSource"]
           }
         }
       }

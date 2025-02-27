@@ -239,7 +239,20 @@
           }
         }
       }
-    }, 
+    }, {
+      "name": "core-schema::Sync-Components",
+      "data": {
+        "0": {
+          "json": {
+            "value": [
+              "core::VisibilityComponent",
+              "core::AudioSource",
+              "asset-packs::States"
+            ]
+          }
+        }
+      }
+    },
     {
       "name": "inspector::Config",
       "data": {
