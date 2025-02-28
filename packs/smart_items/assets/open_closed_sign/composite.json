@@ -117,12 +117,14 @@
               {
                 "type": "set_state",
                 "name": "Open",
-                "jsonPayload": "{\"state\":\"Open\"}"
+                "jsonPayload": "{\"state\":\"Open\"}",
+                "allowedInBasicView": true
               },
               {
                 "type": "set_state",
                 "name": "Close",
-                "jsonPayload": "{\"state\":\"Closed\"}"
+                "jsonPayload": "{\"state\":\"Closed\"}",
+                "allowedInBasicView": true
               }
             ]
           }
