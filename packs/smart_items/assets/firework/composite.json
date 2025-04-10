@@ -116,6 +116,20 @@
           }
         }
       }
+    },
+    {
+      "name": "core-schema::Sync-Components",
+      "data": {
+        "0": {
+          "json": {
+            "componentIds": [
+              "core::Animator",
+              "core::VisibilityComponent",
+              "core::AudioSource"
+            ]
+          }
+        }
+      }
     }
   ]
 }
