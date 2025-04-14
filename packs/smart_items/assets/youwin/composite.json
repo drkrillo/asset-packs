@@ -84,7 +84,7 @@
               {
                 "name": "Play anim",
                 "type": "play_animation",
-                "jsonPayload": "{\"animation\":\"Play\",\"loop\":false}"
+                "jsonPayload": "{\"animation\":\"Play\",\"loop\":true}"
               },
               {
                 "name": "Reset",
