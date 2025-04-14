@@ -28,21 +28,6 @@
       }
     },
     {
-      "name": "core::Animator",
-      "data": {
-        "0": {
-          "json": {
-            "states": []
-          }
-        },
-        "513": {
-          "json": {
-            "states": []
-          }
-        }
-      }
-    },
-    {
       "name": "core-schema::Name",
       "data": {
         "0": {
