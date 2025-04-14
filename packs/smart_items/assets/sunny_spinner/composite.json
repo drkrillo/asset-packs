@@ -33,7 +33,7 @@
       "data": {
         "0": {
           "json": {
-            "src": "{assetPath}/spinner_(1).glb",
+            "src": "{assetPath}/spinner.glb",
             "visibleMeshesCollisionMask": 0,
             "invisibleMeshesCollisionMask": 0
           }
