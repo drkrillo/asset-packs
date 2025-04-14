@@ -43,19 +43,6 @@
       }
     },
     {
-      "name": "core-schema::Sync-Components",
-      "data": {
-        "0": {
-          "json": {
-            "componentIds": [
-              1042,
-              1081
-            ]
-          }
-        }
-      }
-    },
-    {
       "name": "core::VisibilityComponent",
       "data": {
         "0": {
