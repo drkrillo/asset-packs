@@ -702,7 +702,7 @@ export function createActionsSystem(
     entity: Entity,
     payload: ActionPayload<ActionType.PLAY_SOUND>,
   ) {
-    const { src, loop, volume } = payload
+    const { src, loop, volume, global } = payload
     if (AudioSource.has(entity)) {
       AudioSource.playSound(entity, src)
       const audioSource = AudioSource.getMutable(entity)
@@ -714,6 +714,7 @@ export function createActionsSystem(
         loop,
         playing: true,
         volume: volume ?? 1,
+        global,
       })
     }
   }
