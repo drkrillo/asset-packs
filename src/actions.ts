@@ -708,6 +708,7 @@ export function createActionsSystem(
       const audioSource = AudioSource.getMutable(entity)
       audioSource.loop = loop
       audioSource.volume = volume ?? 1
+      audioSource.global = global ?? false
     } else {
       AudioSource.create(entity, {
         audioClipUrl: src,
