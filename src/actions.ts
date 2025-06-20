@@ -1178,7 +1178,7 @@ export function createActionsSystem(
     _payload: ActionPayload<ActionType.MOVE_PLAYER_HERE>,
   ) {
     const here = getWorldPosition(entity)
-    const entityRotation = Transform.getMutable(entity)
+    const entityRotation = Transform.get(entity)
 
     // We Want the player to look 1m in front of the entity
     const forward = Vector3.Forward()
