@@ -23,6 +23,7 @@ import {
   getEntityParent,
   getPlayerPosition,
   getWorldPosition,
+  getWorldRotation,
 } from '@dcl-sdk/utils'
 import { requestTeleport } from '~system/UserActionModule'
 import {
@@ -1178,11 +1179,11 @@ export function createActionsSystem(
     _payload: ActionPayload<ActionType.MOVE_PLAYER_HERE>,
   ) {
     const here = getWorldPosition(entity)
-    const entityRotation = Transform.get(entity)
+    const rotation = getWorldRotation(entity)
 
     // We Want the player to look 1m in front of the entity
     const forward = Vector3.Forward()
-    const rotatedDirection = Vector3.rotate(forward, entityRotation.rotation)
+    const rotatedDirection = Vector3.rotate(forward, rotation)
     const moveDelta = Vector3.scale(rotatedDirection, 1)
 
     void movePlayerTo({
