@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "components": [
+    {
+      "name": "core::GltfContainer",
+      "data": {
+        "0": {
+          "json": {
+            "src": "{assetPath}/rock02.glb",
+            "visibleMeshesCollisionMask": 0,
+            "invisibleMeshesCollisionMask": 3
+          }
+        }
+      }
+    },
+    {
+      "name": "core-schema::Name",
+      "data": {
+        "0": {
+          "json": {
+            "value": "rock02.glb"
+          }
+        }
+      }
+    }
+  ]
+}
