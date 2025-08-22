@@ -3,6 +3,6 @@
   "name": "Ambient Sound - Factory",
   "category": "sounds",
   "tags": ["factory", "ambient", "sound", "soundscape"],
-  "description": "Ambient sound of a factory floor with machinery and workers.",
+  "description": "An invisible item that plays the ambient sound of conveyor belts in a factory.",
   "author": "Decentraland Foundation"
 }

@@ -3,6 +3,6 @@
   "name": "explosion",
   "category": "pyrotechnics",
   "tags": ["explosion", "detonation", "boom", "blast"],
-  "description": "An explosion that can be used to create a visual effect. It is invisible until triggered. Trigger it from another smart item.",
+  "description": "Invisible until triggered by another smart item, it creates a visual effect of a cloud of smoke exploding outwards.",
   "author": "Decentraland Foundation"
 }

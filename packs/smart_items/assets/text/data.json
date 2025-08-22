@@ -9,6 +9,6 @@
     "description",
     "label"
   ],
-  "description": "Display text in the 3D world.",
+  "description": "2D text that can be placed at any position and orientation, not limited to surfaces.",
   "author": "Decentraland Foundation"
 }

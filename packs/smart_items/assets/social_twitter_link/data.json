@@ -7,6 +7,6 @@
     "links",
     "twitter"
   ],
-  "description": "A clickable item that can open your X page in a browser window. Paste a X page URL in the 'URL' field.",
+  "description": "A clickable item that opens your Twitter page in a browser window. Paste a Twitter URL in the ‘URL’ field.",
   "author": "Decentraland Foundation"
 }

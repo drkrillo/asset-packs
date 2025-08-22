@@ -11,6 +11,6 @@
     "entrance",
     "exit"
   ],
-  "description": "A wooden door that can be opened or closed.",
+  "description": "A wooden door that can be opened or closed when clicked by a player.",
   "author": "Decentraland Foundation"
 }
