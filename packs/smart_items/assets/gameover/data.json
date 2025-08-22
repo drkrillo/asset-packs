@@ -3,6 +3,6 @@
   "name": "Game Over",
   "category": "game mechanics",
   "tags": ["game mechanics", "defeat", "loss"],
-  "description": "A game over 3D UI that can be used to display a message when the game is over. It is invisible until triggered. Trigger it from another smart item.",
+  "description": "3D text that can be displayed when a player loses or finishes a game. Invisible until triggered.",
   "author": "Decentraland Foundation"
 }

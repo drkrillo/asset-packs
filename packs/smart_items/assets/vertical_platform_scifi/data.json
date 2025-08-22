@@ -11,6 +11,6 @@
     "elevator",
     "lift"
   ],
-  "description": "A sci-fi vertical platform that slides up and down.",
+  "description": "A vertical platform that moves up and down. Players can jump on it to reach higher places.",
   "author": "Decentraland Foundation"
 }

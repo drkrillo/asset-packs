@@ -12,6 +12,6 @@
     "detection",
     "detect"
   ],
-  "description": "An invisible area that can be used to activate other smart items when the player enters it.",
+  "description": "An invisible area that, when entered by a player, can trigger actions in other smart items",
   "author": "Decentraland Foundation"
 }

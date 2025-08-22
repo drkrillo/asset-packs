@@ -7,6 +7,6 @@
     "trap",
     "interactive"
   ],
-  "description": "A trapdoor that can be opened or closed. It can be used to create a trapdoor or a secret passage. It can be opened and closed by other smart items, for example a trigger area or a button.",
+  "description": "A trapdoor that can only be opened or closed by another smart item (e.g. a trigger area or button), not by direct player clicks.",
   "author": "Decentraland Foundation"
 }

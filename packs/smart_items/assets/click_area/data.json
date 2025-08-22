@@ -10,6 +10,6 @@
     "invisible",
     "clickable"
   ],
-  "description": "An invisible clickable area that can be used to trigger actions on other smart items.",
+  "description": "An invisible area that, when clicked by a player, can trigger actions in other smart items",
   "author": "Decentraland Foundation"
 }
