@@ -43,17 +43,15 @@
               {
                 "name": "Play once",
                 "type": "play_sound",
-                "jsonPayload": "{\"src\":\"{assetPath}/ambient_3.mp3\"}",
-                "allowedInBasicView": true,
-                "global": true
+                "jsonPayload": "{\"src\":\"{assetPath}/ambient_3.mp3\",\"global\":true}",
+                "allowedInBasicView": true
               },
               {
                 "name": "Loop",
                 "type": "play_sound",
-                "jsonPayload": "{\"loop\":true,\"src\":\"{assetPath}/ambient_3.mp3\"}",
+                "jsonPayload": "{\"loop\":true,\"src\":\"{assetPath}/ambient_3.mp3\",\"global\":true}",
                 "allowedInBasicView": true,
-                "basicViewId": "loop-sound",
-                "global": true
+                "basicViewId": "loop-sound"
               },
               {
                 "name": "Stop",
