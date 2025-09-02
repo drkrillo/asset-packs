@@ -44,14 +44,16 @@
                 "name": "Play once",
                 "type": "play_sound",
                 "jsonPayload": "{\"src\":\"{assetPath}/birds_(1).mp3\"}",
-                "allowedInBasicView": true
+                "allowedInBasicView": true,
+                "global": true
               },
               {
                 "name": "Loop",
                 "type": "play_sound",
                 "jsonPayload": "{\"loop\":true,\"src\":\"{assetPath}/birds_(1).mp3\"}",
                 "allowedInBasicView": true,
-                "basicViewId": "loop-sound"
+                "basicViewId": "loop-sound",
+                "global": true
               },
               {
                 "name": "Stop",
