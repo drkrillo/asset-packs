@@ -2,5 +2,17 @@
   "id": "206d231d-1fd3-4f8c-ab27-1dfb269b8bc2",
   "name": "Roof - Blue 1Edge",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "edge",
+    "exterior",
+    "facade",
+    "roof",
+    "roofed",
+    "roofing",
+    "structure",
+    "visual"
+  ],
+  "caption": "A simple blue 1-edged roof model."
 }

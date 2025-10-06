@@ -2,5 +2,21 @@
   "id": "6b33f46e-9667-45e5-bd90-85f372ee2490",
   "name": "Glossy Aetherea Tiles",
   "category": "ground",
-  "tags": []
+  "tags": [
+    "aetherea",
+    "background",
+    "dark",
+    "finish",
+    "floor",
+    "flooring",
+    "glossy",
+    "interior",
+    "night",
+    "room",
+    "space",
+    "surface",
+    "tile",
+    "tiles"
+  ],
+  "caption": "A black background with a of a glossy tile flooring."
 }

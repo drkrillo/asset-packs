@@ -12,6 +12,19 @@
     "rocks",
     "stone",
     "stones",
-    "magic"
-  ]
+    "magic",
+    "artifact",
+    "aura",
+    "enchanted",
+    "gemstone",
+    "glowing",
+    "mystic",
+    "mystical",
+    "mythical",
+    "power",
+    "relic",
+    "size",
+    "swirl"
+  ],
+  "caption": "A small, brown, magic stone with a green swirl on top."
 }

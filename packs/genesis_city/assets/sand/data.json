@@ -6,6 +6,17 @@
     "genesis",
     "city",
     "town",
-    "ground"
-  ]
+    "ground",
+    "beach",
+    "desert",
+    "dots",
+    "dust",
+    "earthy",
+    "grains",
+    "sand",
+    "sandy",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A yellow sandy texture with small dots scattered throughout."
 }

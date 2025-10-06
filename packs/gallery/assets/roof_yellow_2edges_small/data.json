@@ -2,5 +2,15 @@
   "id": "9652074b-84de-4895-85c3-1dded1554d10",
   "name": "Roof - Yellow 2Edges small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "edge",
+    "flat",
+    "roof",
+    "searchable",
+    "structure",
+    "surface"
+  ],
+  "caption": "A simple, yellow, two-edged roof with a small size."
 }

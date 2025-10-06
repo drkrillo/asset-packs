@@ -2,5 +2,14 @@
   "id": "b8dfcce8-9e95-46b1-b244-2e4fbed23f0a",
   "name": "Roof - Navy 3Edges",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "dark",
+    "edge",
+    "roof",
+    "roofing",
+    "shingle",
+    "slate",
+    "tile"
+  ],
+  "caption": "A simple, dark blue resembling a roof with three edges."
 }

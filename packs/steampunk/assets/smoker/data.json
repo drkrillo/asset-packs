@@ -2,5 +2,19 @@
   "id": "467c2e76-6a62-4a79-868e-9aab52002585",
   "name": "Smoker",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "ashtray",
+    "burning",
+    "cigar",
+    "combustion",
+    "fire",
+    "flame",
+    "handle",
+    "heat",
+    "pipe",
+    "smoke",
+    "smoker",
+    "tobacco"
+  ],
+  "caption": "A red and black smoker with a handle on top."
 }

@@ -2,5 +2,15 @@
   "id": "d7e1e39a-c4c8-4ab1-aa56-cf808e2128a8",
   "name": "Red Stone - Emerald",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "emerald",
+    "gem",
+    "gemstone",
+    "jewel",
+    "luxury",
+    "mineral",
+    "precious",
+    "valuable"
+  ],
+  "caption": "A red stone with green emeralds on its surface."
 }

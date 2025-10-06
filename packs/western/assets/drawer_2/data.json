@@ -2,5 +2,17 @@
   "id": "76c6300e-d786-4922-a54f-93b4c54021a3",
   "name": "Drawer 2",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "box",
+    "cabinet",
+    "closure",
+    "compartment",
+    "container",
+    "drawer",
+    "fixture",
+    "furniture",
+    "handle",
+    "mechanism"
+  ],
+  "caption": "A simple red of a small drawer with a single visible handle."
 }

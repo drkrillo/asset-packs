@@ -8,6 +8,17 @@
     "power",
     "supply",
     "electricity",
-    "plasma"
-  ]
+    "plasma",
+    "battery",
+    "control",
+    "display",
+    "futuristic",
+    "gadget",
+    "interface",
+    "knobs",
+    "pack",
+    "stylized",
+    "technology"
+  ],
+  "caption": "A stylized, futuristic-looking battery pack with a digital display and various control knobs."
 }

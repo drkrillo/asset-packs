@@ -8,6 +8,18 @@
     "stone",
     "gold",
     "module",
-    "end"
-  ]
+    "end",
+    "architecture",
+    "building",
+    "defense",
+    "golden",
+    "luxurious",
+    "medium",
+    "searchable",
+    "stronghold",
+    "structure",
+    "tall",
+    "tower"
+  ],
+  "caption": "A tall, gray tower with a golden top."
 }

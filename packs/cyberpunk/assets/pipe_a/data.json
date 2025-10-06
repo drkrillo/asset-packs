@@ -2,5 +2,15 @@
   "id": "feffadec-a65f-4f5a-b623-566fe3383928",
   "name": "Pipe A",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "appliance",
+    "fixture",
+    "illumination",
+    "industrial",
+    "lighting",
+    "looking",
+    "pipe",
+    "utility"
+  ],
+  "caption": "A black and silver of a modern-looking pipe with a blue light on top."
 }

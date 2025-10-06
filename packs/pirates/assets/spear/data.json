@@ -12,6 +12,17 @@
     "iron",
     "spear",
     "leather",
-    "weapon"
-  ]
+    "weapon",
+    "attack",
+    "combat",
+    "end",
+    "hunting",
+    "pointy",
+    "sharp",
+    "spearhead",
+    "stick",
+    "string",
+    "thrust"
+  ],
+  "caption": "A spear with a red string attached to its end."
 }

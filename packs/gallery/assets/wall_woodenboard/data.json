@@ -2,5 +2,18 @@
   "id": "26cc03a9-1e6a-4f8e-853e-91504fee53b3",
   "name": "Wall - WoodenBoard",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "board",
+    "building",
+    "furniture",
+    "interior",
+    "panel",
+    "plank",
+    "room",
+    "structure",
+    "surface",
+    "timber",
+    "woodenboard"
+  ],
+  "caption": "A wooden board leaning against a wall."
 }

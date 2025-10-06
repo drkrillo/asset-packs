@@ -2,5 +2,22 @@
   "id": "bf682534-acc7-4c0a-8b6a-63fef10f9ab5",
   "name": "Mines Runway 3M V2",
   "category": "tiles",
-  "tags": []
+  "tags": [
+    "asphalt",
+    "colored",
+    "colors",
+    "concrete",
+    "ground",
+    "minefield",
+    "mines",
+    "obstacle",
+    "path",
+    "paving",
+    "plank",
+    "planks",
+    "runway",
+    "searchable",
+    "strip"
+  ],
+  "caption": "A runway with four different colored planks."
 }

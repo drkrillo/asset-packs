@@ -2,5 +2,10 @@
   "id": "4102c04b-172e-4426-8c1a-801edec6a20a",
   "name": "Pipe Screen - Emissive",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "emissive",
+    "pipe",
+    "prop"
+  ],
+  "caption": "A pipe with a screen on it."
 }

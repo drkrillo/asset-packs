@@ -2,5 +2,16 @@
   "id": "20a71e04-7080-47f6-a1ee-911041118c45",
   "name": "Wall - AcousticPanel",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "absorption",
+    "acoustic",
+    "acousticpanel",
+    "panel",
+    "pattern",
+    "searchable",
+    "soundproofing",
+    "stripes",
+    "surface"
+  ],
+  "caption": "An acoustic panel with a black and white striped design."
 }

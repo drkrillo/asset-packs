@@ -2,5 +2,16 @@
   "id": "9c70f4a3-5fc4-42b9-96be-a7f38cee739e",
   "name": "WallCorner - Yellow ",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "bright",
+    "corner",
+    "dimension",
+    "flat",
+    "glow",
+    "highlight",
+    "shape",
+    "surface",
+    "visual"
+  ],
+  "caption": "A simple, three-dimensional yellow corner piece."
 }

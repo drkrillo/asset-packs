@@ -2,5 +2,17 @@
   "id": "51a574fe-cd64-401b-bd69-077171d9b68e",
   "name": "Door 9",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "architecture",
+    "barrier",
+    "building",
+    "doorway",
+    "enclosure",
+    "entrance",
+    "gate",
+    "portal",
+    "structure",
+    "window"
+  ],
+  "caption": "A wooden door with two windows."
 }

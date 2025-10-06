@@ -2,5 +2,19 @@
   "id": "9e9255a8-a291-4661-a982-0a671178d92c",
   "name": "Cardboard Box Closed",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "box",
+    "cardboard",
+    "container",
+    "fiber",
+    "flat",
+    "packaging",
+    "paper",
+    "pulp",
+    "rectangular",
+    "shape",
+    "shipping",
+    "surface"
+  ],
+  "caption": "A simple, closed cardboard box with a yellow arrow pointing upwards on its side."
 }

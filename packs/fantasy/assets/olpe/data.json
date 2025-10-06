@@ -6,6 +6,20 @@
     "fantasy",
     "vase",
     "liquid",
-    "silver"
-  ]
+    "silver",
+    "appliance",
+    "aquatic",
+    "container",
+    "cooking",
+    "electric",
+    "fluid",
+    "heat",
+    "hot",
+    "kettle",
+    "kitchen",
+    "lake",
+    "ocean",
+    "river"
+  ],
+  "caption": "An electric kettle with a blue light on top."
 }

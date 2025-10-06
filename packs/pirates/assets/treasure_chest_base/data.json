@@ -17,6 +17,13 @@
     "doubloon",
     "doubloons",
     "coin",
-    "coins"
-  ]
+    "coins",
+    "base",
+    "filled",
+    "loot",
+    "riches",
+    "trove",
+    "wealth"
+  ],
+  "caption": "A digital illustration of an open treasure chest filled with gold coins."
 }

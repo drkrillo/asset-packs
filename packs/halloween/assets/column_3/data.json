@@ -2,5 +2,18 @@
   "id": "ebec2cbe-ebdc-4cd0-8ddb-7def3a519f12",
   "name": "Column 3",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "column",
+    "cylindrical",
+    "flat",
+    "form",
+    "hue",
+    "pigment",
+    "pinkish",
+    "shape",
+    "surface",
+    "tint",
+    "top"
+  ],
+  "caption": "A simple, pink of a cylindrical column with a flat top."
 }

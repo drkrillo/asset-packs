@@ -9,6 +9,13 @@
     "stones",
     "rock",
     "rocks",
-    "forest"
-  ]
+    "forest",
+    "appearance",
+    "function",
+    "glossy",
+    "irregular",
+    "shape",
+    "surface"
+  ],
+  "caption": "A black, irregularly shaped rock with a glossy surface."
 }

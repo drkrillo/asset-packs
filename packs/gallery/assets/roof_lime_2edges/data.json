@@ -2,5 +2,15 @@
   "id": "487fc8df-c718-4c90-b7bf-8d02c47c7a0a",
   "name": "Roof - Lime 2Edges",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "edge",
+    "exterior",
+    "facade",
+    "roof",
+    "roofing",
+    "structure"
+  ],
+  "caption": "A green of a simple roof with two edges."
 }

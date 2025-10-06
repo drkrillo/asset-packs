@@ -2,5 +2,17 @@
   "id": "64cc9781-8595-4bb9-94f1-8ab3d6a86e5a",
   "name": "Barrel - With Lid",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "closure",
+    "container",
+    "cover",
+    "drum",
+    "lid",
+    "seal",
+    "storage",
+    "tank",
+    "top",
+    "vessel"
+  ],
+  "caption": "A barrel with a lid."
 }

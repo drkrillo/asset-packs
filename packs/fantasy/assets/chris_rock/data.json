@@ -9,6 +9,17 @@
     "stones",
     "rock",
     "rocks",
-    "forest"
-  ]
+    "forest",
+    "boulder",
+    "chunk",
+    "fragment",
+    "geological",
+    "jagged",
+    "like",
+    "mineral",
+    "pebble",
+    "rough",
+    "surface"
+  ],
+  "caption": "A black, jagged rock-like object with a rough surface texture."
 }

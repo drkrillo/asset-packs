@@ -2,5 +2,18 @@
   "id": "ded817c0-d3b9-458f-beab-9ca828000606",
   "name": "Roof - Yellow 1Edge",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architectural",
+    "building",
+    "edged",
+    "flat",
+    "roof",
+    "roofed",
+    "structure",
+    "surface",
+    "top",
+    "triangular",
+    "upper"
+  ],
+  "caption": "A simple, yellow, one-edged roof."
 }

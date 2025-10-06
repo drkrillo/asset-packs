@@ -8,6 +8,15 @@
     "communications",
     "comms",
     "radar",
-    "dish"
-  ]
+    "dish",
+    "communication",
+    "radio",
+    "receiver",
+    "satellite",
+    "signal",
+    "station",
+    "technology",
+    "transmission"
+  ],
+  "caption": "An antenna dish with a satellite dish on top."
 }

@@ -2,5 +2,21 @@
   "id": "9b8e7c70-3f2f-4ec7-bac6-bd0b6c07a9a3",
   "name": "Cactus 3",
   "category": "nature",
-  "tags": []
+  "tags": [
+    "cactus",
+    "desert",
+    "environment",
+    "flora",
+    "foliage",
+    "greenery",
+    "landscape",
+    "plant",
+    "prickly",
+    "spiny",
+    "succulent",
+    "terrain",
+    "thorny",
+    "vegetation"
+  ],
+  "caption": "A cactus with rocks at its base."
 }

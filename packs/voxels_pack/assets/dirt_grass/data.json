@@ -2,5 +2,22 @@
   "id": "73ac6057-627c-495c-931e-cc8829dce894",
   "name": "Dirt - Grass",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "blocky",
+    "dirt",
+    "earth",
+    "environment",
+    "field",
+    "foliage",
+    "grass",
+    "ground",
+    "landscape",
+    "lawn",
+    "meadow",
+    "natural",
+    "nature",
+    "outdoor",
+    "plant"
+  ],
+  "caption": "A 3d blocky model of a dirt and grass cube with a simple texture."
 }

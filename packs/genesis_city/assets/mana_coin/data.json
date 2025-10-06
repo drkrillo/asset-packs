@@ -11,6 +11,15 @@
     "mana",
     "dcl",
     "decentraland",
-    "crypto"
-  ]
+    "crypto",
+    "artifact",
+    "currency",
+    "gem",
+    "hexagon",
+    "hole",
+    "jewel",
+    "magical",
+    "token"
+  ],
+  "caption": "A blue cube with a hexagonal hole in its center."
 }

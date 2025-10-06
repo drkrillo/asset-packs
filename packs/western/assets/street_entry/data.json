@@ -2,5 +2,18 @@
   "id": "8076e7cf-d4e5-4377-881c-4306c73ec28d",
   "name": "Street Entry",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "entrance",
+    "gate",
+    "landmark",
+    "marker",
+    "monument",
+    "post",
+    "signage",
+    "street",
+    "structure"
+  ],
+  "caption": "A simple wooden sign."
 }

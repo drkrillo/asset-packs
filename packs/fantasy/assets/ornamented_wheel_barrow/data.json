@@ -9,6 +9,16 @@
     "iron",
     "wheel",
     "golden",
-    "gold"
-  ]
+    "gold",
+    "barrow",
+    "container",
+    "furniture",
+    "handle",
+    "nature",
+    "outdoor",
+    "storage",
+    "transportation",
+    "vessel"
+  ],
+  "caption": "An ornamented wheel barrow with a handle on top."
 }

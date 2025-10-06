@@ -2,5 +2,21 @@
   "id": "426f9acb-2ede-44aa-bcf5-195963dd1f67",
   "name": "Scarecrow",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "animatronic",
+    "character",
+    "costume",
+    "crow",
+    "dummy",
+    "eyes",
+    "face",
+    "figure",
+    "hat",
+    "mannequin",
+    "prop",
+    "puppet",
+    "scare",
+    "scarecrow"
+  ],
+  "caption": "A scarecrow with red eyes and a black hat."
 }

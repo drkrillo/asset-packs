@@ -2,5 +2,15 @@
   "id": "f1bb1cfa-5df3-4b82-b6a7-dc60ae2e3d96",
   "name": "Dirt - red",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "block",
+    "dirt",
+    "earthy",
+    "environment",
+    "generation",
+    "pixel",
+    "terrain",
+    "voxel"
+  ],
+  "caption": "A red block with a pixelated texture, resembling a cube or a voxel, commonly used in video games for terrain generation."
 }

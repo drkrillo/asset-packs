@@ -2,5 +2,20 @@
   "id": "481601e6-2c48-4cba-b30f-b5d0409bcc60",
   "name": "Train Track 11 M Fork V02",
   "category": "tiles",
-  "tags": []
+  "tags": [
+    "angle",
+    "crossing",
+    "fork",
+    "intersection",
+    "junction",
+    "point",
+    "rail",
+    "railroad",
+    "railway",
+    "station",
+    "track",
+    "tracks",
+    "train"
+  ],
+  "caption": "A railroad crossing with two sets of tracks intersecting at an angle."
 }

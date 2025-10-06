@@ -11,6 +11,18 @@
     "fountain",
     "stone",
     "park",
-    "garden"
-  ]
+    "garden",
+    "aquatic",
+    "architectural",
+    "basin",
+    "figurine",
+    "fluid",
+    "lake",
+    "level",
+    "liquid",
+    "ocean",
+    "outdoor",
+    "pedestal"
+  ],
+  "caption": "A tiered fountain with two levels, each featuring a small statue or figurine on top and a water basin below."
 }

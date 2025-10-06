@@ -2,5 +2,19 @@
   "id": "cc53236c-87c2-4e63-b27d-39cc061c17df",
   "name": "Beam Exterior 2",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "arch",
+    "beam",
+    "bridge",
+    "building",
+    "column",
+    "construction",
+    "crossing",
+    "frame",
+    "river",
+    "span",
+    "structure",
+    "support"
+  ],
+  "caption": "A simple wooden structure resembling a small bridge or platform with four vertical supports."
 }

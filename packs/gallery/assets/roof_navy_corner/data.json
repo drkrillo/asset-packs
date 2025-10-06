@@ -2,5 +2,19 @@
   "id": "1860f286-320b-4d38-b2af-59fb27408d72",
   "name": "Roof - Navy Corner",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "corner",
+    "dark",
+    "exterior",
+    "facade",
+    "roof",
+    "roofing",
+    "shingle",
+    "slate",
+    "surface",
+    "tile"
+  ],
+  "caption": "A dark blue corner roof."
 }

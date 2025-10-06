@@ -11,6 +11,18 @@
     "water",
     "tiered",
     "fountain",
-    "plaza"
-  ]
+    "plaza",
+    "aquatic",
+    "architectural",
+    "basin",
+    "centerpiece",
+    "cleansing",
+    "fluid",
+    "fountainhead",
+    "lake",
+    "liquid",
+    "ocean",
+    "pool"
+  ],
+  "caption": "A stylized fountain with two spouts."
 }

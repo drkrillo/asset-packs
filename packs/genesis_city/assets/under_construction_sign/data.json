@@ -12,6 +12,18 @@
     "yellow",
     "tool",
     "tools",
-    "hammer"
-  ]
+    "hammer",
+    "barrier",
+    "building",
+    "caution",
+    "development",
+    "entrance",
+    "exit",
+    "gate",
+    "renovation",
+    "roadwork",
+    "traffic",
+    "warning"
+  ],
+  "caption": "An under construction sign."
 }

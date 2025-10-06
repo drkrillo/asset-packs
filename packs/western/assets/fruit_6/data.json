@@ -2,5 +2,22 @@
   "id": "2680e223-707f-4e95-8e53-b1c3a8a6e7b4",
   "name": "Fruit 6",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "box",
+    "chemical",
+    "container",
+    "crystal",
+    "drum",
+    "fuel",
+    "gem",
+    "gemstone",
+    "hazardous",
+    "luxury",
+    "petroleum",
+    "precious",
+    "riches",
+    "storage",
+    "tank"
+  ],
+  "caption": "A wooden barrel filled with pink crystals or gems."
 }

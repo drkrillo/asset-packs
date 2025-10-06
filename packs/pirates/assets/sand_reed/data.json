@@ -11,6 +11,19 @@
     "beach",
     "foliage",
     "plant",
-    "plants"
-  ]
+    "plants",
+    "blade",
+    "field",
+    "flora",
+    "grass",
+    "ground",
+    "growth",
+    "herb",
+    "lawn",
+    "leaf",
+    "meadow",
+    "outdoor",
+    "reed"
+  ],
+  "caption": "A single blade of grass or reed."
 }

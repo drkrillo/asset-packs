@@ -7,6 +7,17 @@
     "power",
     "spark",
     "base",
-    "spaceship"
-  ]
+    "spaceship",
+    "architecture",
+    "building",
+    "landmark",
+    "monument",
+    "oriental",
+    "pagoda",
+    "pagodan",
+    "structure",
+    "tier",
+    "tower"
+  ],
+  "caption": "A pagoda-like structure with three tiers."
 }

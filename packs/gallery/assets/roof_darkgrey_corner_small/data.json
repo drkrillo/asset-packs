@@ -2,5 +2,15 @@
   "id": "f789ba5d-7641-4033-b864-399134e340d6",
   "name": "Roof - DarkGrey Corner Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "corner",
+    "dark",
+    "darkgrey",
+    "edge",
+    "roof",
+    "section",
+    "tile",
+    "trim"
+  ],
+  "caption": "A small, dark grey corner roof."
 }

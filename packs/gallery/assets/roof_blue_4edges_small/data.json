@@ -2,5 +2,17 @@
   "id": "5842de4c-fc8b-47f4-9e00-74314b6989cc",
   "name": "Roof - Blue 4Edges Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "corner",
+    "edge",
+    "flat",
+    "roof",
+    "shade",
+    "structure",
+    "surface",
+    "tile"
+  ],
+  "caption": "A small blue roof with four edges."
 }

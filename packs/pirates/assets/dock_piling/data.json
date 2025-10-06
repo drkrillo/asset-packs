@@ -11,6 +11,17 @@
     "wooden",
     "dock",
     "pillar",
-    "pillars"
-  ]
+    "pillars",
+    "construction",
+    "floating",
+    "foundation",
+    "ground",
+    "marine",
+    "pier",
+    "piling",
+    "stability",
+    "structure",
+    "support"
+  ],
+  "caption": "A simple wooden dock piling, which is a type of support structure used in construction to secure a floating dock or pier to the ground."
 }

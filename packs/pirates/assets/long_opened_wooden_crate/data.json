@@ -11,6 +11,14 @@
     "wooden",
     "crate",
     "box",
-    "open"
-  ]
+    "open",
+    "bottom",
+    "container",
+    "drum",
+    "flat",
+    "storage",
+    "tank",
+    "vessel"
+  ],
+  "caption": "A long, open wooden crate with a flat bottom."
 }

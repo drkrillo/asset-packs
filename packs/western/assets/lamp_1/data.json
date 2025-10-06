@@ -2,5 +2,22 @@
   "id": "fb7166d6-06f0-43d4-8334-5b059197436c",
   "name": "Lamp 1",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "desk",
+    "dining",
+    "fixture",
+    "furniture",
+    "handle",
+    "illumination",
+    "kitchen",
+    "lamp",
+    "lantern",
+    "lighting",
+    "office",
+    "room",
+    "shade",
+    "surface",
+    "table"
+  ],
+  "caption": "A yellow lantern with a black handle."
 }

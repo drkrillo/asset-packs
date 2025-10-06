@@ -7,6 +7,20 @@
     "lantern",
     "light",
     "gauze",
-    "orange"
-  ]
+    "orange",
+    "ambiance",
+    "candle",
+    "desk",
+    "dining",
+    "fabric",
+    "furniture",
+    "glow",
+    "kitchen",
+    "lanternlight",
+    "melon",
+    "surface",
+    "table",
+    "textile"
+  ],
+  "caption": "An orange lantern with gauze wrapped around it."
 }

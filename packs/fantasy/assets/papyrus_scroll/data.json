@@ -6,6 +6,17 @@
     "fantasy",
     "paper",
     "papyrus",
-    "scroll"
-  ]
+    "scroll",
+    "artifact",
+    "book",
+    "codex",
+    "document",
+    "history",
+    "manuscript",
+    "parchment",
+    "relic",
+    "script",
+    "written"
+  ],
+  "caption": "A single scroll-like object."
 }

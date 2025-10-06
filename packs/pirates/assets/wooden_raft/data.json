@@ -9,6 +9,21 @@
     "wood",
     "wooden",
     "rope",
-    "sail"
-  ]
+    "sail",
+    "boat",
+    "dock",
+    "float",
+    "marine",
+    "nautical",
+    "ocean",
+    "pallet",
+    "plank",
+    "rafting",
+    "sailing",
+    "ship",
+    "shore",
+    "vessel",
+    "water"
+  ],
+  "caption": "A small wooden raft with a sail on top, placed on a wooden pallet."
 }

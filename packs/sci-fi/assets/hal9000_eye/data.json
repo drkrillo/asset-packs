@@ -6,6 +6,17 @@
     "scifi",
     "computer",
     "parts",
-    "spaceship"
-  ]
+    "spaceship",
+    "artifact",
+    "crystal",
+    "gem",
+    "gemstone",
+    "jewel",
+    "luxury",
+    "ornate",
+    "precious",
+    "ruby",
+    "valuable"
+  ],
+  "caption": "A red gemstone."
 }

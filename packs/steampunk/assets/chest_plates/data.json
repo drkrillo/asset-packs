@@ -2,5 +2,22 @@
   "id": "f002cd2b-68ad-4946-97ca-3c37d639ca35",
   "name": "Chest Plates",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "armor",
+    "container",
+    "defense",
+    "drum",
+    "fortress",
+    "guard",
+    "knight",
+    "palace",
+    "plates",
+    "protection",
+    "shield",
+    "storage",
+    "stronghold",
+    "structure",
+    "tank"
+  ],
+  "caption": "A wooden chest with metal plates on its sides."
 }

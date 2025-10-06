@@ -5,6 +5,14 @@
   "tags": [
     "scifi",
     "tile",
-    "ground"
-  ]
+    "ground",
+    "flat",
+    "floor",
+    "panel",
+    "rectangle",
+    "rectangular",
+    "stripe",
+    "surface"
+  ],
+  "caption": "A simple floor panel, which appears to be a flat, rectangular surface with a yellow stripe running along its length and width."
 }

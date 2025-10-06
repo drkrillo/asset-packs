@@ -2,5 +2,15 @@
   "id": "39256459-b949-4a00-9a4f-4ca100c81847",
   "name": "Stone - Gold",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "block",
+    "glowing",
+    "golden",
+    "luminous",
+    "metallic",
+    "radiant",
+    "riches",
+    "surface"
+  ],
+  "caption": "A 3d block with a golden texture and yellow glowing elements on its surface."
 }

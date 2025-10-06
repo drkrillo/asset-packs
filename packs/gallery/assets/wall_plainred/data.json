@@ -2,5 +2,14 @@
   "id": "7d28a209-e379-4cc4-a9e1-706f24c0a99b",
   "name": "Wall - PlainRed",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "aesthetic",
+    "architecture",
+    "background",
+    "building",
+    "pattern",
+    "surface",
+    "visual"
+  ],
+  "caption": "A simple, plain red wall in a format."
 }

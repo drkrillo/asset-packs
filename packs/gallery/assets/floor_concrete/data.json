@@ -2,5 +2,18 @@
   "id": "12ce92bf-f0b8-4be1-81ad-97425bc3b45c",
   "name": "Floor - Concrete",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "asphalt",
+    "base",
+    "concrete",
+    "flat",
+    "floor",
+    "foundation",
+    "grayscale",
+    "ground",
+    "pavement",
+    "slab",
+    "surface"
+  ],
+  "caption": "A simple, flat concrete floor texture in grayscale."
 }

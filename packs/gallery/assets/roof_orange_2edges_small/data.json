@@ -2,5 +2,17 @@
   "id": "75a57c93-314e-4167-bac9-cd5ef35c60ad",
   "name": "Roof - Orange 2Edges Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "curved",
+    "edge",
+    "flat",
+    "roof",
+    "roofed",
+    "rooflike",
+    "rooftop",
+    "rounded",
+    "sloping",
+    "triangular"
+  ],
+  "caption": "A simple, orange resembling a small roof with two edges."
 }

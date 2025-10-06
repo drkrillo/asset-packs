@@ -11,6 +11,17 @@
     "stones",
     "rock",
     "rocks",
-    "beach"
-  ]
+    "beach",
+    "boulder",
+    "earthy",
+    "granite",
+    "landscape",
+    "mineral",
+    "natural",
+    "pebble",
+    "rough",
+    "rugged",
+    "terrain"
+  ],
+  "caption": "A rock with a rough texture."
 }

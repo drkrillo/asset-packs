@@ -7,6 +7,14 @@
     "tile",
     "wood",
     "wooden",
-    "parquet"
-  ]
+    "parquet",
+    "architecture",
+    "building",
+    "floor",
+    "flooring",
+    "furniture",
+    "pattern",
+    "surface"
+  ],
+  "caption": "A large parquet tile with a wooden texture."
 }

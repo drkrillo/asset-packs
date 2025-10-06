@@ -6,6 +6,19 @@
     "scifi",
     "box",
     "storage",
-    "safe"
-  ]
+    "safe",
+    "armored",
+    "compartment",
+    "container",
+    "fortified",
+    "futuristic",
+    "high",
+    "metallic",
+    "sealed",
+    "secure",
+    "shielded",
+    "sleek",
+    "tech"
+  ],
+  "caption": "A futuristic-looking vault with a sleek design and multiple compartments."
 }

@@ -6,6 +6,16 @@
     "scifi",
     "buttons",
     "trigger",
-    "base"
-  ]
+    "base",
+    "control",
+    "display",
+    "input",
+    "interface",
+    "keypad",
+    "monitor",
+    "output",
+    "panel",
+    "terminal"
+  ],
+  "caption": "A vertical console with a digital display and a keypad."
 }

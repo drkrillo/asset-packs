@@ -9,6 +9,18 @@
     "furniture",
     "table",
     "cafe",
-    "concrete"
-  ]
+    "concrete",
+    "base",
+    "chair",
+    "desk",
+    "dining",
+    "kitchen",
+    "office",
+    "rest",
+    "round",
+    "seat",
+    "sitting",
+    "surface"
+  ],
+  "caption": "A small round table with a metal base."
 }

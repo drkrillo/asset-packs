@@ -2,5 +2,18 @@
   "id": "fa1eaf40-a1f4-4fca-86fa-298dad7c09cd",
   "name": "Street Light Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "beacon",
+    "illumination",
+    "infrastructure",
+    "lamp",
+    "lighting",
+    "outdoor",
+    "post",
+    "street",
+    "top",
+    "urban",
+    "utility"
+  ],
+  "caption": "A small, blue-topped street light."
 }

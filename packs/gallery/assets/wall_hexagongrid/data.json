@@ -2,5 +2,22 @@
   "id": "59fecc02-0949-4feb-9501-f4279744b57e",
   "name": "Wall - HexagonGrid",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "castle",
+    "fortress",
+    "grid",
+    "hexagon",
+    "layout",
+    "palace",
+    "pattern",
+    "royal",
+    "stronghold",
+    "structure",
+    "surface",
+    "tile",
+    "tower"
+  ],
+  "caption": "A hexagonal grid pattern on a vertical surface."
 }

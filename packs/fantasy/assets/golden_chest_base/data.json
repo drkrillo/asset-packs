@@ -6,6 +6,15 @@
     "fantasy",
     "chest",
     "gold",
-    "golden"
-  ]
+    "golden",
+    "box",
+    "chestnut",
+    "container",
+    "loot",
+    "riches",
+    "storage",
+    "vault",
+    "wealth"
+  ],
+  "caption": "A yellow chest with a blue stripe on top."
 }

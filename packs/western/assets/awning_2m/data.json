@@ -2,5 +2,18 @@
   "id": "13c32951-7177-4848-b7ea-da1cb01f73d9",
   "name": "Awning 2M",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "awning",
+    "canopy",
+    "cover",
+    "dark",
+    "fabric",
+    "flat",
+    "rectangle",
+    "roof",
+    "roofing",
+    "shade",
+    "shelter"
+  ],
+  "caption": "A flat rectangular roofing material with a dark color."
 }

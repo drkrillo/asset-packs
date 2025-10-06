@@ -6,6 +6,15 @@
     "scifi",
     "energy",
     "supply",
-    "power"
-  ]
+    "power",
+    "beam",
+    "emerald",
+    "fluorescent",
+    "glow",
+    "glowstick",
+    "orb",
+    "plasma",
+    "radiation"
+  ],
+  "caption": "A green plasma object with a small orange light on top."
 }

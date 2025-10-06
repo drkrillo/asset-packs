@@ -2,5 +2,18 @@
   "id": "90f25c53-b5e7-4947-b9ac-c00a61dd907f",
   "name": "Wood Planks Broken 4x4M",
   "category": "tiles",
-  "tags": []
+  "tags": [
+    "arrangement",
+    "broken",
+    "crate",
+    "debris",
+    "fragment",
+    "furniture",
+    "lumber",
+    "plank",
+    "planks",
+    "timber",
+    "wreckage"
+  ],
+  "caption": "Broken wooden planks in a 4x4 arrangement."
 }

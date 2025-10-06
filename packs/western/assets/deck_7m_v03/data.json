@@ -2,5 +2,22 @@
   "id": "fa3faf84-129c-4e32-b3c8-da111d10499c",
   "name": "Deck 7M v03",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "benches",
+    "branch",
+    "building",
+    "deck",
+    "foliage",
+    "forest",
+    "furniture",
+    "leaves",
+    "nature",
+    "outdoor",
+    "railing",
+    "roof",
+    "roots",
+    "structure",
+    "tree"
+  ],
+  "caption": "A wooden deck with a roof, benches, and a railing."
 }

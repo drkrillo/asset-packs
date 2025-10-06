@@ -7,6 +7,20 @@
     "book",
     "codex",
     "knowledge",
-    "shelf"
-  ]
+    "shelf",
+    "bookshelf",
+    "desk",
+    "dining",
+    "flat",
+    "furniture",
+    "kitchen",
+    "manuscript",
+    "page",
+    "pages",
+    "parchment",
+    "scroll",
+    "surface",
+    "table"
+  ],
+  "caption": "An open book with pages visible, placed on a flat surface."
 }

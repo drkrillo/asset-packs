@@ -2,5 +2,19 @@
   "id": "e81afbde-c9f5-44e0-be77-9e7da6e62c7a",
   "name": "Fence Stick 1",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "barrier",
+    "beam",
+    "fencepost",
+    "plank",
+    "pole",
+    "post",
+    "railing",
+    "rod",
+    "stake",
+    "stick",
+    "support",
+    "timber"
+  ],
+  "caption": "A single red stick from a fence model."
 }

@@ -8,6 +8,20 @@
     "papyrus",
     "scroll",
     "rune",
-    "tie"
-  ]
+    "tie",
+    "band",
+    "belt",
+    "clothing",
+    "fabric",
+    "fashion",
+    "hand",
+    "leather",
+    "parchment",
+    "ribbon",
+    "strap",
+    "strip",
+    "textile",
+    "wrist"
+  ],
+  "caption": "A hand with a red band around the wrist."
 }

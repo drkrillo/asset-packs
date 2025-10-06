@@ -2,5 +2,16 @@
   "id": "3c50f13b-5869-4190-abf1-92efa727b0fa",
   "name": "Cart Small 1",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "cart",
+    "carton",
+    "container",
+    "driving",
+    "furniture",
+    "seat",
+    "storage",
+    "transport",
+    "vehicle"
+  ],
+  "caption": "Small wooden cart with wheels."
 }

@@ -7,6 +7,17 @@
     "energy",
     "power",
     "electricity",
-    "connectors"
-  ]
+    "connectors",
+    "adapter",
+    "cable",
+    "connector",
+    "cord",
+    "curved",
+    "electrical",
+    "function",
+    "outlet",
+    "plug",
+    "stripe"
+  ],
+  "caption": "A curved cable adapter with an orange stripe on its side."
 }

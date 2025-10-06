@@ -2,5 +2,19 @@
   "id": "5e4c9eb9-0b1f-4e81-a56b-4c8be2c36e5e",
   "name": "Big Table",
   "category": "furniture",
-  "tags": []
+  "tags": [
+    "blade",
+    "combat",
+    "cup",
+    "desk",
+    "dining",
+    "furniture",
+    "kitchen",
+    "rest",
+    "royal",
+    "seat",
+    "surface",
+    "table"
+  ],
+  "caption": "A large table with a cup on top."
 }

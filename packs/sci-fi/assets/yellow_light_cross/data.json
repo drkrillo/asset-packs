@@ -7,6 +7,15 @@
     "power",
     "spark",
     "base",
-    "spaceship"
-  ]
+    "spaceship",
+    "beacon",
+    "beam",
+    "cross",
+    "glow",
+    "illumination",
+    "luminous",
+    "radiant",
+    "warning"
+  ],
+  "caption": "A cross-shaped object with two vertical bars and a horizontal bar, all illuminated by a yellow light."
 }

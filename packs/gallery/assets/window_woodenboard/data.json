@@ -2,5 +2,12 @@
   "id": "e572ca87-14ca-47a9-aee0-0b91bfb9e63b",
   "name": "Window - WoodenBoard ",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "board",
+    "boarded",
+    "missing",
+    "pane",
+    "window"
+  ],
+  "caption": "A wooden boarded-up window with a single pane missing."
 }

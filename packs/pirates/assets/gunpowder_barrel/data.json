@@ -13,6 +13,17 @@
     "barrel",
     "powder",
     "boom",
-    "danger"
-  ]
+    "danger",
+    "bands",
+    "container",
+    "drum",
+    "explosive",
+    "fuel",
+    "gunpowder",
+    "keg",
+    "storage",
+    "tank",
+    "vessel"
+  ],
+  "caption": "A wooden barrel with metal bands, resembling a gunpowder keg."
 }

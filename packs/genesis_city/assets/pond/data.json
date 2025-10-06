@@ -12,6 +12,21 @@
     "rock",
     "rocks",
     "stone",
-    "stones"
-  ]
+    "stones",
+    "aquatic",
+    "edge",
+    "environment",
+    "fluid",
+    "habitat",
+    "lake",
+    "landscape",
+    "liquid",
+    "natural",
+    "ocean",
+    "outdoor",
+    "pool",
+    "river",
+    "scenery"
+  ],
+  "caption": "A small pond with a rocky edge and surrounded by rocks."
 }

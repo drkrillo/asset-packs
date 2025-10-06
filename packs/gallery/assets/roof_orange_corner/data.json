@@ -2,5 +2,12 @@
   "id": "5a68d500-5a4d-4477-9db6-c436df8fe639",
   "name": "Roof - Orange Corner",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architectural",
+    "building",
+    "corner",
+    "roof",
+    "structural"
+  ],
+  "caption": "An orange corner piece of a roof in a format."
 }

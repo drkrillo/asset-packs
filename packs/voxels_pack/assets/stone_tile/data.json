@@ -2,5 +2,15 @@
   "id": "ea4d5e3b-8607-4db5-921c-c88a2c9aeaef",
   "name": "Stone tile",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "block",
+    "dark",
+    "floor",
+    "ground",
+    "pattern",
+    "pixel",
+    "surface",
+    "tile"
+  ],
+  "caption": "A pixelated cube with a dark grey color scheme."
 }

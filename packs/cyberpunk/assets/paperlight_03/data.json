@@ -2,5 +2,15 @@
   "id": "2c40b954-bf38-4e85-ba0f-df6394a80e73",
   "name": "Paperlight 03",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "center",
+    "fixture",
+    "form",
+    "hanging",
+    "hole",
+    "shape",
+    "string",
+    "suspended"
+  ],
+  "caption": "A red cube with a hole in the center, suspended by two strings from above."
 }

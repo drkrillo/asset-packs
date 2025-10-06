@@ -9,6 +9,14 @@
     "wall",
     "window",
     "glass",
-    "stained"
-  ]
+    "stained",
+    "architecture",
+    "building",
+    "fortress",
+    "palace",
+    "royal",
+    "stronghold",
+    "structure"
+  ],
+  "caption": "A stone brick window with stained glass."
 }

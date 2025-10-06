@@ -13,6 +13,11 @@
     "fence",
     "fences",
     "garden",
-    "park"
-  ]
+    "park",
+    "furniture",
+    "ornate",
+    "pattern",
+    "railings"
+  ],
+  "caption": "A wooden rail with multiple ornate designs on its surface."
 }

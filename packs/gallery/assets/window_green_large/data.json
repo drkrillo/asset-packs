@@ -2,5 +2,17 @@
   "id": "fdf88146-418e-481a-aee0-b63b6eaef0cd",
   "name": "Window - Green Large",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "clear",
+    "frame",
+    "glass",
+    "glassy",
+    "pane",
+    "rectangle",
+    "shape",
+    "transparent",
+    "window",
+    "windowpane"
+  ],
+  "caption": "Large green window with a rectangular shape."
 }

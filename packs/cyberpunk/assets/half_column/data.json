@@ -2,5 +2,16 @@
   "id": "5b2e270f-4b89-464f-ab93-75b8f68de5e1",
   "name": "Half Column",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "column",
+    "form",
+    "portion",
+    "section",
+    "segment",
+    "shape",
+    "silhouette",
+    "standing",
+    "upright"
+  ],
+  "caption": "A thumbnail of a 3d asset depicting a half column."
 }

@@ -16,6 +16,19 @@
     "danger",
     "rum",
     "fabric",
-    "blanket"
-  ]
+    "blanket",
+    "chemical",
+    "container",
+    "fuel",
+    "hazardous",
+    "hoop",
+    "oil",
+    "petroleum",
+    "radioactive",
+    "storage",
+    "tank",
+    "toxic",
+    "vessel"
+  ],
+  "caption": "A wooden barrel with a metal hoop around its neck."
 }

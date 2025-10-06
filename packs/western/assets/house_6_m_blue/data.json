@@ -2,5 +2,19 @@
   "id": "e9da63f2-f037-4ec0-848e-3819df1ad4e7",
   "name": "House 6 M Blue",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "abode",
+    "architecture",
+    "building",
+    "cabin",
+    "dwelling",
+    "home",
+    "house",
+    "hut",
+    "residence",
+    "roof",
+    "shelter",
+    "structure"
+  ],
+  "caption": "A small blue house with a brown roof."
 }

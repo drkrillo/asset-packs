@@ -2,5 +2,19 @@
   "id": "43e06b8a-0196-4eec-847b-bc3416fe0dca",
   "name": "Road Cobble Cross Short",
   "category": "tiles",
-  "tags": []
+  "tags": [
+    "building",
+    "cobble",
+    "cobblestone",
+    "crossing",
+    "crosswalk",
+    "infrastructure",
+    "intersection",
+    "path",
+    "pavement",
+    "pedestrian",
+    "urban",
+    "walkway"
+  ],
+  "caption": "A cobblestone crosswalk."
 }

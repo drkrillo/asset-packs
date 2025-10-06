@@ -2,5 +2,20 @@
   "id": "1f7e732a-2316-4cda-8422-17d0b8d2ad66",
   "name": "Propellor",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "aerodynamic",
+    "central",
+    "disk",
+    "drive",
+    "engine",
+    "fan",
+    "hub",
+    "movement",
+    "prop",
+    "propeller",
+    "rotating",
+    "spinning",
+    "turbine"
+  ],
+  "caption": "A propeller with a central hub."
 }

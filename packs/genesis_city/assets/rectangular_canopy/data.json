@@ -11,6 +11,22 @@
     "sunshade",
     "garden",
     "beach",
-    "tent"
-  ]
+    "tent",
+    "canopy",
+    "chair",
+    "desk",
+    "dining",
+    "furniture",
+    "interior",
+    "kitchen",
+    "office",
+    "rectangular",
+    "rest",
+    "room",
+    "seat",
+    "seating",
+    "sitting",
+    "surface"
+  ],
+  "caption": "A red table with a white top."
 }

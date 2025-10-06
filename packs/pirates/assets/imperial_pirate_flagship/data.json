@@ -13,6 +13,19 @@
     "sail",
     "black",
     "cannon",
-    "cannons"
-  ]
+    "cannons",
+    "boat",
+    "galleon",
+    "marine",
+    "maritime",
+    "mast",
+    "nautical",
+    "naval",
+    "ocean",
+    "sailing",
+    "sea",
+    "vessel",
+    "water"
+  ],
+  "caption": "An old-fashioned pirate ship with multiple masts and sails."
 }

@@ -7,6 +7,19 @@
     "energy",
     "power",
     "electricity",
-    "connectors"
-  ]
+    "connectors",
+    "cable",
+    "circuit",
+    "connector",
+    "cord",
+    "curved",
+    "electrical",
+    "electronics",
+    "outlet",
+    "plug",
+    "socket",
+    "switch",
+    "wire"
+  ],
+  "caption": "A curved cable with a yellow connector on one end."
 }

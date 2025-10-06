@@ -2,5 +2,18 @@
   "id": "9480d510-be18-4447-b932-2c91f80cace6",
   "name": "Window 1x2 V4 Closed",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "border",
+    "frame",
+    "glass",
+    "interior",
+    "pane",
+    "rectangle",
+    "shape",
+    "shut",
+    "window",
+    "windowframe",
+    "windowpane"
+  ],
+  "caption": "A simple, closed window with a blue interior."
 }

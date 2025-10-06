@@ -16,6 +16,18 @@
     "garden",
     "backyard",
     "yard",
-    "farm"
-  ]
+    "farm",
+    "archway",
+    "barrier",
+    "boundary",
+    "doorframe",
+    "doorway",
+    "enclosure",
+    "fencepost",
+    "gate",
+    "picket",
+    "picketgate",
+    "portal"
+  ],
+  "caption": "A wooden picket fence with a door."
 }

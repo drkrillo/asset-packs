@@ -7,6 +7,16 @@
     "rope",
     "line",
     "cord",
-    "string"
-  ]
+    "string",
+    "binding",
+    "cable",
+    "fiber",
+    "filament",
+    "knot",
+    "tether",
+    "thread",
+    "twine",
+    "yarn"
+  ],
+  "caption": "A simple, thin rope with a slight curve in its center."
 }

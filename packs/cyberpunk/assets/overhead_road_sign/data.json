@@ -2,5 +2,15 @@
   "id": "451e7f17-ec8d-4beb-a383-0ec634eb341e",
   "name": "Overhead Road Sign",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "caution",
+    "directional",
+    "illumination",
+    "lamp",
+    "overhead",
+    "top",
+    "traffic",
+    "warning"
+  ],
+  "caption": "An overhead road sign with three lights on top."
 }

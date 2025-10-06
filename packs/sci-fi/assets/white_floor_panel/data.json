@@ -5,6 +5,15 @@
   "tags": [
     "scifi",
     "tile",
-    "ground"
-  ]
+    "ground",
+    "decor",
+    "edge",
+    "flat",
+    "floor",
+    "flooring",
+    "panel",
+    "rectangle",
+    "surface"
+  ],
+  "caption": "A white floor panel, which appears to be a flat, rectangular piece of flooring with a smooth surface and straight edges."
 }

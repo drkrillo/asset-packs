@@ -2,5 +2,16 @@
   "id": "e676f739-18aa-4322-af9b-c1c2ca24c096",
   "name": "Gear 5 Angled Teeth",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "angle",
+    "cog",
+    "gear",
+    "mechanism",
+    "motion",
+    "rotational",
+    "tooth",
+    "toothed",
+    "turning"
+  ],
+  "caption": "A gear with five teeth, angled in a specific manner."
 }

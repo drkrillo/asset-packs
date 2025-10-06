@@ -2,5 +2,19 @@
   "id": "ed413173-b804-46c4-87c4-2a1a655c10a3",
   "name": "WallCorner - DiagonalBoard ",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecturalfeature",
+    "board",
+    "boarding",
+    "buildingelement",
+    "corner",
+    "cornerpiece",
+    "defensive",
+    "diagonal",
+    "fortified",
+    "structure",
+    "system",
+    "systemcomponent"
+  ],
+  "caption": "A corner piece with diagonal boarding, which appears to be part of a larger structure or system."
 }

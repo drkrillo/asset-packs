@@ -2,5 +2,19 @@
   "id": "147f3545-612f-4493-a647-d3d55fcec771",
   "name": "Roof - Purple 1Edge Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "edge",
+    "hue",
+    "roof",
+    "roofing",
+    "scale",
+    "searchable",
+    "shade",
+    "structure",
+    "tile",
+    "tint"
+  ],
+  "caption": "A simple purple roof with a single edge, which appears to be a small-scale."
 }

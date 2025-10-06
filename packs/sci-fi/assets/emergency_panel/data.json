@@ -5,6 +5,17 @@
   "tags": [
     "scifi",
     "floor",
-    "tile"
-  ]
+    "tile",
+    "alert",
+    "control",
+    "display",
+    "emergency",
+    "indicator",
+    "panel",
+    "signal",
+    "stripe",
+    "switch",
+    "warning"
+  ],
+  "caption": "An emergency panel with a yellow stripe on top."
 }

@@ -13,6 +13,18 @@
     "rounded",
     "ammunition",
     "shot",
-    "cannon"
-  ]
+    "cannon",
+    "ball",
+    "collection",
+    "container",
+    "form",
+    "grouping",
+    "metallic",
+    "pile",
+    "shape",
+    "spherical",
+    "storage",
+    "vessel"
+  ],
+  "caption": "A pile of spherical objects."
 }

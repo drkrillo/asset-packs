@@ -2,5 +2,18 @@
   "id": "c3fe212d-f3c1-47e2-aa8b-707492866281",
   "name": "Road Cobble Angled",
   "category": "tiles",
-  "tags": []
+  "tags": [
+    "angled",
+    "blocks",
+    "cobble",
+    "cobblestone",
+    "pattern",
+    "pavement",
+    "paving",
+    "pavingblock",
+    "perspective",
+    "surface",
+    "terrain"
+  ],
+  "caption": "Cobblestone paving blocks with an angled perspective."
 }

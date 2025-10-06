@@ -2,5 +2,21 @@
   "id": "11fe90b4-c9d2-4e4c-b1cd-471e099e0167",
   "name": "Spider 02",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "animal",
+    "animation",
+    "arachnid",
+    "crawling",
+    "creature",
+    "eightlegged",
+    "hanging",
+    "insect",
+    "movement",
+    "pose",
+    "spider",
+    "spiderweb",
+    "string",
+    "web"
+  ],
+  "caption": "A spider hanging from a string."
 }

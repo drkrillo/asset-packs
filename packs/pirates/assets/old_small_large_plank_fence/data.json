@@ -10,6 +10,18 @@
     "wood",
     "wooden",
     "plank",
-    "old"
-  ]
+    "old",
+    "barrier",
+    "boundary",
+    "enclosure",
+    "fencepost",
+    "fencing",
+    "landscape",
+    "nature",
+    "outdoor",
+    "rural",
+    "rustic",
+    "scenery"
+  ],
+  "caption": "A simple wooden fence with three planks in varying sizes."
 }

@@ -2,5 +2,17 @@
   "id": "9b026726-cba9-454d-bb4f-aece85632869",
   "name": "Roof - Beige",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "facade",
+    "flat",
+    "outline",
+    "paper",
+    "roof",
+    "shape",
+    "structure",
+    "surface"
+  ],
+  "caption": "A simple, flat, yellow 3d object resembling a roof or a piece of paper with a black outline."
 }

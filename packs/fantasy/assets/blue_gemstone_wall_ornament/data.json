@@ -9,6 +9,12 @@
     "gold",
     "golden",
     "gem",
-    "gemstone"
-  ]
+    "gemstone",
+    "base",
+    "collectible",
+    "dimensional",
+    "jewel",
+    "luxury"
+  ],
+  "caption": "A three-dimensional model of a wall ornament featuring a blue gemstone with a golden base."
 }

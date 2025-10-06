@@ -2,5 +2,19 @@
   "id": "87c2d210-d600-4d0d-9e33-6ee74440ab7f",
   "name": "Stone - dirty",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "block",
+    "boulder",
+    "chunk",
+    "dirty",
+    "earthy",
+    "granite",
+    "ground",
+    "rocky",
+    "rough",
+    "rugged",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A 3d block."
 }

@@ -6,6 +6,15 @@
     "fantasy",
     "door",
     "wood",
-    "wooden"
-  ]
+    "wooden",
+    "building",
+    "entrance",
+    "furniture",
+    "gate",
+    "hinge",
+    "interior",
+    "room",
+    "structure"
+  ],
+  "caption": "A simple, brown wooden door with a visible hinge on the right side."
 }

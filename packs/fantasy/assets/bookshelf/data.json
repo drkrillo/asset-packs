@@ -10,6 +10,17 @@
     "bookshelf",
     "wood",
     "wooden",
-    "nails"
-  ]
+    "nails",
+    "bolts",
+    "bookcase",
+    "cabinet",
+    "frame",
+    "furniture",
+    "shelf",
+    "shelving",
+    "storage",
+    "tiered",
+    "tiers"
+  ],
+  "caption": "A three-tiered wooden bookshelf with metal bolts on its sides."
 }

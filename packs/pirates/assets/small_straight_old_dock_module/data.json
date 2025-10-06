@@ -12,6 +12,21 @@
     "dock",
     "pillar",
     "pillars",
-    "old"
-  ]
+    "old",
+    "boat",
+    "building",
+    "dockyard",
+    "harbor",
+    "marine",
+    "module",
+    "nautical",
+    "ocean",
+    "pier",
+    "plank",
+    "sailing",
+    "ship",
+    "structure",
+    "timber"
+  ],
+  "caption": "A simple, wooden dock module with a few planks missing."
 }

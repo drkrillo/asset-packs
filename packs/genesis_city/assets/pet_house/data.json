@@ -13,6 +13,18 @@
     "animals",
     "yard",
     "backyard",
-    "house"
-  ]
+    "house",
+    "architecture",
+    "building",
+    "dwelling",
+    "exterior",
+    "facade",
+    "home",
+    "residence",
+    "roof",
+    "shelter",
+    "structure",
+    "window"
+  ],
+  "caption": "A blue house with a red door and a small window."
 }

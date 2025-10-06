@@ -2,5 +2,15 @@
   "id": "b0ae27c0-22d5-436e-86c8-59450dcbcb31",
   "name": "Stool - Metal Barrel",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "container",
+    "cylindrical",
+    "drum",
+    "industrial",
+    "lid",
+    "storage",
+    "tank",
+    "vessel"
+  ],
+  "caption": "A metal barrel with a lid on top."
 }

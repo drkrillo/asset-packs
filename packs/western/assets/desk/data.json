@@ -2,5 +2,22 @@
   "id": "3583bbc4-03c1-400d-9ff3-4dc7718925c0",
   "name": "Desk",
   "category": "furniture",
-  "tags": []
+  "tags": [
+    "cabinet",
+    "darkbrown",
+    "desk",
+    "desktop",
+    "dining",
+    "drawer",
+    "furniture",
+    "kitchen",
+    "office",
+    "storage",
+    "surface",
+    "table",
+    "woodenwork",
+    "woodgrain",
+    "workspace"
+  ],
+  "caption": "A simple, dark brown wooden desk with two drawers on either side."
 }

@@ -13,6 +13,17 @@
     "coingecko",
     "decentraland",
     "crypto",
-    "logo"
-  ]
+    "logo",
+    "animal",
+    "artifact",
+    "collectible",
+    "creature",
+    "exotic",
+    "figurine",
+    "mythical",
+    "relic",
+    "reptile",
+    "statue"
+  ],
+  "caption": "A gecko statue with a coin-like appearance."
 }

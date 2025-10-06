@@ -11,6 +11,16 @@
     "wooden",
     "dock",
     "stick",
-    "sticks"
-  ]
+    "sticks",
+    "barrier",
+    "boundary",
+    "branch",
+    "enclosure",
+    "fencepost",
+    "pole",
+    "post",
+    "structure",
+    "twig"
+  ],
+  "caption": "A large brown stick with two smaller brown sticks attached to it, forming a simple fence-like structure."
 }

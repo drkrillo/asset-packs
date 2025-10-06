@@ -11,6 +11,17 @@
     "stones",
     "rock",
     "rocks",
-    "beach"
-  ]
+    "beach",
+    "earthy",
+    "environment",
+    "foliage",
+    "geological",
+    "landscape",
+    "moss",
+    "natural",
+    "outdoor",
+    "terrain",
+    "vegetation"
+  ],
+  "caption": "A rock with moss on it."
 }

@@ -2,5 +2,19 @@
   "id": "da0725a5-bb05-46c5-974c-1dc49207485b",
   "name": "Roof - Grey 3Edges Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "colour",
+    "edge",
+    "exterior",
+    "facade",
+    "flat",
+    "roof",
+    "roofing",
+    "searchable",
+    "structure",
+    "surface"
+  ],
+  "caption": "A small grey 3d roof with three edges."
 }

@@ -8,6 +8,16 @@
     "stone",
     "cave",
     "forest",
-    "ruins"
-  ]
+    "ruins",
+    "formation",
+    "geological",
+    "mineral",
+    "monument",
+    "peak",
+    "pointed",
+    "pointy",
+    "structure",
+    "top"
+  ],
+  "caption": "A gray stalagmite with a pointed top."
 }

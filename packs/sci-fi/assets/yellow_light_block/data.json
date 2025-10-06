@@ -7,6 +7,18 @@
     "power",
     "spark",
     "base",
-    "spaceship"
-  ]
+    "spaceship",
+    "block",
+    "bright",
+    "cheerful",
+    "glow",
+    "glowing",
+    "illumination",
+    "luminous",
+    "optimistic",
+    "radiant",
+    "rectangle",
+    "warm"
+  ],
+  "caption": "A rectangular light block with a yellow light inside."
 }

@@ -13,6 +13,14 @@
     "jewellery",
     "gold",
     "golden",
-    "framed"
-  ]
+    "framed",
+    "crystal",
+    "gem",
+    "jewelry",
+    "luxury",
+    "mineral",
+    "precious",
+    "valuable"
+  ],
+  "caption": "A gemstone."
 }

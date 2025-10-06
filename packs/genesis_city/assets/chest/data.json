@@ -10,6 +10,17 @@
     "chest",
     "trunk",
     "adventure",
-    "treasure"
-  ]
+    "treasure",
+    "antique",
+    "box",
+    "container",
+    "decor",
+    "furniture",
+    "handle",
+    "interior",
+    "lid",
+    "room",
+    "storage"
+  ],
+  "caption": "A brown wooden chest with a handle on top."
 }

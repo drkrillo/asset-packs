@@ -6,6 +6,13 @@
     "genesis",
     "city",
     "town",
-    "ground"
-  ]
+    "ground",
+    "cobblestone",
+    "earth",
+    "path",
+    "pavement",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A close-up view of a textured surface resembling cobblestones."
 }

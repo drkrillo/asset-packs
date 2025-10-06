@@ -7,6 +7,12 @@
     "tile",
     "marble",
     "pattern",
-    "simple"
-  ]
+    "simple",
+    "aesthetic",
+    "earthy",
+    "natural",
+    "shape",
+    "surface"
+  ],
+  "caption": "A simple marble pattern tile."
 }

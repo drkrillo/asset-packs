@@ -5,6 +5,16 @@
   "tags": [
     "scifi",
     "weapon",
-    "laser"
-  ]
+    "laser",
+    "base",
+    "cylindrical",
+    "defense",
+    "fortress",
+    "stronghold",
+    "structure",
+    "tower",
+    "turret",
+    "window"
+  ],
+  "caption": "A large, cylindrical turret base with a red light on top and a small window on the side."
 }

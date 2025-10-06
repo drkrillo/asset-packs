@@ -10,6 +10,22 @@
     "bottle",
     "drink",
     "beverage",
-    "alcohol"
-  ]
+    "alcohol",
+    "ambiance",
+    "desk",
+    "dining",
+    "fixture",
+    "furniture",
+    "glass",
+    "glow",
+    "insert",
+    "interior",
+    "kitchen",
+    "lantern",
+    "room",
+    "shade",
+    "surface",
+    "table"
+  ],
+  "caption": "A wooden lantern with a blue glass insert."
 }

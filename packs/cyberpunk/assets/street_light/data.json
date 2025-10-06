@@ -2,5 +2,18 @@
   "id": "1e866c9b-7298-4277-b57f-9e8c7d65156b",
   "name": "Street Light",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "beacon",
+    "brightness",
+    "evening",
+    "glow",
+    "illumination",
+    "lamp",
+    "luminous",
+    "night",
+    "radiance",
+    "street",
+    "urban"
+  ],
+  "caption": "A blue street light with a single lamp."
 }

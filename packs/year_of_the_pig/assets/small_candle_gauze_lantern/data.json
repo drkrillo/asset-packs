@@ -8,6 +8,18 @@
     "light",
     "gauze",
     "red",
-    "candle"
-  ]
+    "candle",
+    "burning",
+    "combustion",
+    "container",
+    "fire",
+    "flame",
+    "fuel",
+    "glow",
+    "handle",
+    "heat",
+    "smoke",
+    "warmth"
+  ],
+  "caption": "A red lantern with a black handle and a yellow candle inside."
 }

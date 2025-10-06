@@ -2,5 +2,19 @@
   "id": "1fa590fe-27ca-46a3-9597-020f3484d363",
   "name": "Roof - Purple",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "exterior",
+    "facade",
+    "hue",
+    "pitched",
+    "roof",
+    "roofed",
+    "searchable",
+    "shade",
+    "sloped",
+    "structure"
+  ],
+  "caption": "A purple roof."
 }

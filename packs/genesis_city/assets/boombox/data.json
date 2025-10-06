@@ -10,6 +10,14 @@
     "music",
     "noise",
     "radio",
-    "sound"
-  ]
+    "sound",
+    "boom",
+    "boombox",
+    "box",
+    "gadget",
+    "speaker",
+    "stereo",
+    "top"
+  ],
+  "caption": "A purple boombox with a red button on top."
 }

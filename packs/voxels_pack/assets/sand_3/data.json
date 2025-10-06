@@ -2,5 +2,21 @@
   "id": "49e16732-643e-48d9-a8e8-65cac95e6fb0",
   "name": "Sand 3",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "block",
+    "desert",
+    "dune",
+    "dust",
+    "earthy",
+    "grain",
+    "mineral",
+    "natural",
+    "particle",
+    "rocky",
+    "sand",
+    "sandstone",
+    "sandy",
+    "yellowish"
+  ],
+  "caption": "A 3d block with a yellowish texture, resembling a cube made of sand or a similar material."
 }

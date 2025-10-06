@@ -5,6 +5,17 @@
   "tags": [
     "fantasy",
     "bottle",
-    "potion"
-  ]
+    "potion",
+    "container",
+    "cure",
+    "fluid",
+    "glass",
+    "label",
+    "liquid",
+    "medicine",
+    "neck",
+    "remedy",
+    "vial"
+  ],
+  "caption": "A blue potion bottle with a white label on its neck."
 }

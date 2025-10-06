@@ -12,6 +12,19 @@
     "arrow",
     "direction",
     "rustic",
-    "wood"
-  ]
+    "wood",
+    "branch",
+    "foliage",
+    "forest",
+    "leaves",
+    "natural",
+    "nature",
+    "outdoor",
+    "pointing",
+    "right",
+    "roots",
+    "tree",
+    "trunk"
+  ],
+  "caption": "A wooden sign with an arrow pointing to the right."
 }

@@ -7,6 +7,16 @@
     "power",
     "spark",
     "base",
-    "spaceship"
-  ]
+    "spaceship",
+    "battery",
+    "bottle",
+    "container",
+    "cylindrical",
+    "form",
+    "pill",
+    "round",
+    "shape",
+    "vessel"
+  ],
+  "caption": "A yellow and black cylindrical object with a flat top and bottom, resembling a battery or a pill bottle."
 }

@@ -7,6 +7,20 @@
     "mound",
     "forest",
     "grass",
-    "evergreen"
-  ]
+    "evergreen",
+    "environment",
+    "field",
+    "foliage",
+    "ground",
+    "growth",
+    "landscape",
+    "lawn",
+    "meadow",
+    "nature",
+    "outdoor",
+    "plant",
+    "searchable",
+    "terrain"
+  ],
+  "caption": "A large green grass mound."
 }

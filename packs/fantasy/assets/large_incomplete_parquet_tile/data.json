@@ -7,6 +7,14 @@
     "tile",
     "wood",
     "wooden",
-    "parquet"
-  ]
+    "parquet",
+    "floor",
+    "fragment",
+    "furniture",
+    "grain",
+    "incomplete",
+    "interior",
+    "pattern"
+  ],
+  "caption": "A large, incomplete parquet tile with a wooden texture."
 }

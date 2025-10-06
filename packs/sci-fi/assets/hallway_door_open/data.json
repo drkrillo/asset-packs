@@ -5,6 +5,19 @@
   "tags": [
     "scifi",
     "alien",
-    "base"
-  ]
+    "base",
+    "archway",
+    "corridor",
+    "doorframe",
+    "doorway",
+    "entrance",
+    "gap",
+    "opening",
+    "passage",
+    "portal",
+    "room",
+    "space",
+    "threshold"
+  ],
+  "caption": "An open door in a hallway."
 }

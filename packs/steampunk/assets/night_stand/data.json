@@ -2,5 +2,20 @@
   "id": "aac5d038-f510-4594-acb6-10709cd827be",
   "name": "Night Stand",
   "category": "furniture",
-  "tags": []
+  "tags": [
+    "bedroom",
+    "bedside",
+    "cabinet",
+    "desk",
+    "dining",
+    "drawer",
+    "dresser",
+    "furniture",
+    "kitchen",
+    "nightstand",
+    "storage",
+    "surface",
+    "table"
+  ],
+  "caption": "A simple, brown wooden night stand with two drawers."
 }

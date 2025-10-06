@@ -10,6 +10,20 @@
     "wood",
     "wooden",
     "seat",
-    "square"
-  ]
+    "square",
+    "desk",
+    "dining",
+    "flat",
+    "kitchen",
+    "maple",
+    "oak",
+    "pine",
+    "rest",
+    "seating",
+    "sit",
+    "stool",
+    "surface",
+    "table"
+  ],
+  "caption": "A simple, square wooden stool with a flat top."
 }

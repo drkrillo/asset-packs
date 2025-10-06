@@ -11,6 +11,17 @@
     "scroll",
     "leather",
     "strips",
-    "rope"
-  ]
+    "rope",
+    "artifact",
+    "buried",
+    "document",
+    "hidden",
+    "hunt",
+    "map",
+    "parchment",
+    "relic",
+    "seal",
+    "trove"
+  ],
+  "caption": "A scroll with a red seal on it."
 }

@@ -7,6 +7,14 @@
     "ceiling",
     "light",
     "gold",
-    "golden"
-  ]
+    "golden",
+    "architectural",
+    "fixture",
+    "glass",
+    "interior",
+    "lamp",
+    "lighting",
+    "shade"
+  ],
+  "caption": "A golden ceiling lamp with a blue glass shade."
 }

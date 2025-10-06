@@ -8,6 +8,22 @@
     "wooden",
     "sit",
     "stool",
-    "circular"
-  ]
+    "circular",
+    "chair",
+    "comfort",
+    "desk",
+    "dining",
+    "flat",
+    "furniture",
+    "kitchen",
+    "maple",
+    "oak",
+    "office",
+    "pine",
+    "rest",
+    "round",
+    "seat",
+    "seating"
+  ],
+  "caption": "A three-dimensional model of a round wooden stool with a flat top."
 }

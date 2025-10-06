@@ -6,6 +6,16 @@
     "fantasy",
     "wheels",
     "wood",
-    "cart"
-  ]
+    "cart",
+    "container",
+    "fuel",
+    "furniture",
+    "household",
+    "storage",
+    "transportation",
+    "utility",
+    "vehicle",
+    "vessel"
+  ],
+  "caption": "A simple, cartoon-style wooden cart with four wheels."
 }

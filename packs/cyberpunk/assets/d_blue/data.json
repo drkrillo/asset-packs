@@ -2,5 +2,13 @@
   "id": "54c5f14d-df3e-4338-8abe-2725bf582761",
   "name": "D Blue",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "graphics",
+    "instrument",
+    "logo",
+    "musical",
+    "notation",
+    "note"
+  ],
+  "caption": "A blue of a musical note symbol."
 }

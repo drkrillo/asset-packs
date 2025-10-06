@@ -2,5 +2,19 @@
   "id": "a962d57d-ad5d-44f0-8868-f13aa4d59f48",
   "name": "Console Stool",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "base",
+    "dark",
+    "desk",
+    "dining",
+    "furniture",
+    "kitchen",
+    "minimalist",
+    "office",
+    "stool",
+    "surface",
+    "table",
+    "workspace"
+  ],
+  "caption": "A stylized, simplistic of a console table with a dark top and a black base."
 }

@@ -6,6 +6,18 @@
     "fantasy",
     "column",
     "stone",
-    "broken"
-  ]
+    "broken",
+    "crushed",
+    "damage",
+    "debris",
+    "destruction",
+    "fractured",
+    "fragment",
+    "rubble",
+    "ruin",
+    "shard",
+    "shattered",
+    "squared"
+  ],
+  "caption": "A broken stone column."
 }

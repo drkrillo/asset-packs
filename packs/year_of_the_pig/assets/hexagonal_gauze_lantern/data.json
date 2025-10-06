@@ -7,6 +7,16 @@
     "lantern",
     "light",
     "gauze",
-    "red"
-  ]
+    "red",
+    "ambiance",
+    "fixture",
+    "glow",
+    "hanging",
+    "hexagon",
+    "lanterns",
+    "lighting",
+    "pendant",
+    "tassel"
+  ],
+  "caption": "A red lantern with a yellow tassel hanging from it."
 }

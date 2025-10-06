@@ -2,5 +2,14 @@
   "id": "2105009b-6c3b-445f-bfca-42aef2e61624",
   "name": "Solid Blue Pattern",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "appearance",
+    "pattern",
+    "patterned",
+    "shape",
+    "solid",
+    "surface",
+    "visual"
+  ],
+  "caption": "A blue cube with a patterned texture on its surface."
 }

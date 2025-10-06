@@ -2,5 +2,19 @@
   "id": "7d350dba-d74c-42bb-a72b-eb1867dd8bc2",
   "name": "Roof - Glass Corner Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "clear",
+    "corner",
+    "fragment",
+    "glass",
+    "glassy",
+    "glaze",
+    "pane",
+    "panes",
+    "roof",
+    "shard",
+    "transparent",
+    "window"
+  ],
+  "caption": "A small corner piece of a glass roof."
 }

@@ -2,5 +2,15 @@
   "id": "aeaa7334-cc20-49af-b80a-cf386e869ea2",
   "name": "WallCorner - Arrows",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "corner",
+    "direction",
+    "guidance",
+    "indicator",
+    "layout",
+    "marker",
+    "navigation",
+    "pointing"
+  ],
+  "caption": "A corner with arrows pointing in different directions."
 }

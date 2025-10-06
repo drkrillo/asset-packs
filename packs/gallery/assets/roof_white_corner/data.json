@@ -2,5 +2,17 @@
   "id": "697ee0a7-6fbf-40b5-92ed-4ae96724ed78",
   "name": "Roof - White Corner",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "corner",
+    "exterior",
+    "flat",
+    "interior",
+    "roof",
+    "structure",
+    "surface",
+    "top"
+  ],
+  "caption": "A simple white roof with a corner detail."
 }

@@ -6,6 +6,14 @@
     "scifi",
     "tile",
     "ground",
-    "vent"
-  ]
+    "vent",
+    "finish",
+    "floor",
+    "flush",
+    "panel",
+    "pattern",
+    "surface",
+    "visual"
+  ],
+  "caption": "A floor panel with a red and white design."
 }

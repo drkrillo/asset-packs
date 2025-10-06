@@ -2,5 +2,21 @@
   "id": "2b0693c7-83b3-48e4-9336-302e34a2a09f",
   "name": "Sign A",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "advertisement",
+    "billboard",
+    "board",
+    "caution",
+    "display",
+    "indicator",
+    "information",
+    "label",
+    "marker",
+    "notice",
+    "placard",
+    "poster",
+    "signboard",
+    "warning"
+  ],
+  "caption": "A sign."
 }

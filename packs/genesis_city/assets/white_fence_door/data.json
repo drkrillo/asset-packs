@@ -17,6 +17,14 @@
     "garden",
     "backyard",
     "yard",
-    "farm"
-  ]
+    "farm",
+    "architecture",
+    "barrier",
+    "enclosure",
+    "gate",
+    "landscape",
+    "outdoor",
+    "picket"
+  ],
+  "caption": "A simple, white picket fence with a single door."
 }

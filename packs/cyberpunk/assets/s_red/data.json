@@ -2,5 +2,12 @@
   "id": "be8e4e6f-2e44-4376-a45a-a56972ed85e1",
   "name": "S Red",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "font",
+    "graphics",
+    "letter",
+    "logo",
+    "typography"
+  ],
+  "caption": "A red 3d letter \"s\" with a stylized design."
 }

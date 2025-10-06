@@ -10,6 +10,16 @@
     "fair",
     "kiosk",
     "market",
-    "rustic"
-  ]
+    "rustic",
+    "antique",
+    "cabin",
+    "cart",
+    "cottage",
+    "furniture",
+    "nature",
+    "outdoor",
+    "rural",
+    "village"
+  ],
+  "caption": "A small wooden cart."
 }

@@ -2,5 +2,17 @@
   "id": "1e936b44-b45e-44bd-a372-9ed29e38305d",
   "name": "Roof - Grey 4Edges Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "defense",
+    "edges",
+    "fortress",
+    "palace",
+    "roof",
+    "royal",
+    "stronghold",
+    "structure"
+  ],
+  "caption": "A small grey roof with four edges."
 }

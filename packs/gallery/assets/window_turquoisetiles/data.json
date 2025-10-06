@@ -2,5 +2,19 @@
   "id": "9ea99687-b9e2-48b4-802b-2bdad2c68205",
   "name": "Window - TurquoiseTiles",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "frame",
+    "geometric",
+    "glass",
+    "pattern",
+    "structural",
+    "stylized",
+    "tile",
+    "transparent",
+    "window",
+    "windowpane"
+  ],
+  "caption": "A stylized, geometrically patterned window with blue and white tiles."
 }

@@ -6,6 +6,19 @@
     "fantasy",
     "fountain",
     "water",
-    "park"
-  ]
+    "park",
+    "aquatic",
+    "basin",
+    "broken",
+    "centerpiece",
+    "fluid",
+    "fountainhead",
+    "lake",
+    "liquid",
+    "ocean",
+    "pieces",
+    "pool",
+    "river"
+  ],
+  "caption": "A fountain with broken pieces and a blue water surface."
 }

@@ -8,6 +8,19 @@
     "wood",
     "wooden",
     "forest",
-    "tabern"
-  ]
+    "tabern",
+    "desk",
+    "dining",
+    "finish",
+    "furniture",
+    "kitchen",
+    "maple",
+    "natural",
+    "oak",
+    "pine",
+    "round",
+    "seating",
+    "surface"
+  ],
+  "caption": "A wooden round table with a natural wood finish."
 }

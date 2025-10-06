@@ -9,6 +9,19 @@
     "nature",
     "wood",
     "forest",
-    "log"
-  ]
+    "log",
+    "branch",
+    "environment",
+    "foliage",
+    "forestry",
+    "hole",
+    "leaves",
+    "natural",
+    "organic",
+    "outdoor",
+    "roots",
+    "timber",
+    "tree"
+  ],
+  "caption": "A log with a hole in the center."
 }

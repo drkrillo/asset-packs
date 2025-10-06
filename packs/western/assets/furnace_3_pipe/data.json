@@ -2,5 +2,22 @@
   "id": "9dd1e9ad-5843-4f0c-b512-80c9f8a1e88c",
   "name": "Furnace 3 Pipe",
   "category": "furniture",
-  "tags": []
+  "tags": [
+    "burner",
+    "burning",
+    "chimney",
+    "combustion",
+    "cylindrical",
+    "fire",
+    "flame",
+    "furnace",
+    "heat",
+    "heating",
+    "hole",
+    "industrial",
+    "pipe",
+    "smoke",
+    "ventilation"
+  ],
+  "caption": "A black pipe with a cylindrical shape and a hole at the top."
 }

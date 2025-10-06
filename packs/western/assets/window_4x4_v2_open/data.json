@@ -2,5 +2,19 @@
   "id": "a4f62a39-366b-4c84-9b52-863c43e551f6",
   "name": "Window 4x4 V2 Open",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "border",
+    "frame",
+    "glass",
+    "glow",
+    "pane",
+    "rectangle",
+    "sight",
+    "transparent",
+    "view",
+    "visibility",
+    "window",
+    "windowpane"
+  ],
+  "caption": "An open window with a blue light inside."
 }

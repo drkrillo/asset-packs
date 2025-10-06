@@ -2,5 +2,22 @@
   "id": "e9d2ba34-feae-4fb0-adc5-d88edd180898",
   "name": "Roof - Green 4Edges",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "edges",
+    "environment",
+    "flat",
+    "foliage",
+    "four",
+    "grassy",
+    "landscape",
+    "nature",
+    "outdoor",
+    "roof",
+    "terrain",
+    "top",
+    "vegetation"
+  ],
+  "caption": "A simple, four-edged green roof model."
 }

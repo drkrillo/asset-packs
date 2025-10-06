@@ -2,5 +2,18 @@
   "id": "8df3c1ed-b76b-4053-a4cf-18327c13c3cb",
   "name": "Door 5",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "closure",
+    "doorway",
+    "entrance",
+    "gate",
+    "handle",
+    "hinge",
+    "opening",
+    "passage",
+    "swing",
+    "turn",
+    "window"
+  ],
+  "caption": "A wooden door with a window and a handle."
 }

@@ -11,6 +11,21 @@
     "rocks",
     "stone",
     "stones",
-    "forest"
-  ]
+    "forest",
+    "aesthetic",
+    "ambiance",
+    "atmosphere",
+    "block",
+    "boulder",
+    "column",
+    "crystal",
+    "formation",
+    "geode",
+    "geometric",
+    "granite",
+    "limestone",
+    "marble",
+    "mineral"
+  ],
+  "caption": "A large, gray, geometrically shaped 3d object resembling a stone or crystal."
 }

@@ -6,6 +6,17 @@
     "fantasy",
     "chest",
     "wood",
-    "wooden"
-  ]
+    "wooden",
+    "antique",
+    "box",
+    "cabinet",
+    "container",
+    "furniture",
+    "interior",
+    "lid",
+    "relic",
+    "room",
+    "storage"
+  ],
+  "caption": "A wooden chest with a lid."
 }

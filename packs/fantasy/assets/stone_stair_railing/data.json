@@ -6,6 +6,14 @@
     "fantasy",
     "stone",
     "wall",
-    "railing"
-  ]
+    "railing",
+    "architectural",
+    "building",
+    "handrail",
+    "stair",
+    "staircase",
+    "steps",
+    "structure"
+  ],
+  "caption": "A stone stair railing."
 }

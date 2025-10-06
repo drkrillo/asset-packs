@@ -2,5 +2,17 @@
   "id": "af2c7fdf-8b63-42cf-9c7f-752915b59de9",
   "name": "Fence Wood V4 2",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "barrier",
+    "boundary",
+    "enclosure",
+    "picket",
+    "plank",
+    "rail",
+    "slat",
+    "structure",
+    "support",
+    "timber"
+  ],
+  "caption": "A simple wooden fence with two vertical slats and a horizontal rail."
 }

@@ -5,6 +5,14 @@
   "tags": [
     "fantasy",
     "tile",
-    "mosaic"
-  ]
+    "mosaic",
+    "board",
+    "checkerboard",
+    "checkers",
+    "chess",
+    "dark",
+    "grid",
+    "pattern"
+  ],
+  "caption": "A checkered tile with alternating light and dark squares."
 }

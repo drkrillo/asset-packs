@@ -2,5 +2,15 @@
   "id": "0efcf632-80ae-4c0b-94a9-7ebf7fd569b0",
   "name": "Ceiling 2x2M",
   "category": "tiles",
-  "tags": []
+  "tags": [
+    "architecture",
+    "border",
+    "ceiling",
+    "floor",
+    "pattern",
+    "room",
+    "space",
+    "tile"
+  ],
+  "caption": "A red 2x2 meter ceiling tile with a black border."
 }

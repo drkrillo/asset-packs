@@ -11,6 +11,20 @@
     "water",
     "tiered",
     "fountain",
-    "plaza"
-  ]
+    "plaza",
+    "aquatic",
+    "architecture",
+    "basin",
+    "container",
+    "fluid",
+    "lake",
+    "landscape",
+    "liquid",
+    "monument",
+    "ocean",
+    "outdoor",
+    "pool",
+    "river"
+  ],
+  "caption": "A fountain."
 }

@@ -11,6 +11,15 @@
     "path",
     "sidewalk",
     "beach",
-    "tile"
-  ]
+    "tile",
+    "desert",
+    "dune",
+    "flat",
+    "floor",
+    "ground",
+    "smooth",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A single, flat, light-colored tile with a smooth surface, which appears to be a of a sand tile."
 }

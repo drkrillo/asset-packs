@@ -6,6 +6,16 @@
     "structures",
     "archway",
     "wood",
-    "gate"
-  ]
+    "gate",
+    "altar",
+    "entrance",
+    "gateway",
+    "japanese",
+    "lanterns",
+    "ritual",
+    "sacred",
+    "shrine",
+    "torii"
+  ],
+  "caption": "A traditional japanese torii gate with lanterns hanging from it, placed in front of a small red shrine."
 }

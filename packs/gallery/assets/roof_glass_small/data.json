@@ -2,5 +2,20 @@
   "id": "4e520aff-0f9c-4d2a-b63c-b650fc8a4366",
   "name": "Roof - Glass Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "clear",
+    "fragment",
+    "glass",
+    "pane",
+    "panel",
+    "panes",
+    "roof",
+    "section",
+    "skylight",
+    "tile",
+    "top",
+    "translucent",
+    "window"
+  ],
+  "caption": "A small glass roof."
 }

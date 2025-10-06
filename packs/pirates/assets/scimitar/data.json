@@ -11,6 +11,21 @@
     "iron",
     "leather",
     "sword",
-    "weapon"
-  ]
+    "weapon",
+    "armor",
+    "blade",
+    "combat",
+    "curved",
+    "defense",
+    "fighting",
+    "guard",
+    "handle",
+    "knight",
+    "protection",
+    "scimitar",
+    "sharp",
+    "shield",
+    "warrior"
+  ],
+  "caption": "A scimitar with a yellow handle."
 }

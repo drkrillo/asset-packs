@@ -2,5 +2,21 @@
   "id": "907d45d1-951b-41b9-bfb3-1ef0df7f4a07",
   "name": "Pet Tomb 02",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "dark",
+    "dwelling",
+    "fortress",
+    "home",
+    "house",
+    "pet",
+    "residence",
+    "roof",
+    "stronghold",
+    "structure",
+    "tomb",
+    "void"
+  ],
+  "caption": "A small, dark-colored house with a red roof, situated in a black void."
 }

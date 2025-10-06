@@ -6,6 +6,18 @@
     "scifi",
     "port",
     "dock",
-    "spaceship"
-  ]
+    "spaceship",
+    "environment",
+    "flat",
+    "form",
+    "ground",
+    "hexagon",
+    "landscape",
+    "scenery",
+    "shape",
+    "space",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A hexagonal platform."
 }

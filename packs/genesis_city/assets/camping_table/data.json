@@ -9,6 +9,17 @@
     "furniture",
     "table",
     "camping",
-    "outdoor"
-  ]
+    "outdoor",
+    "collapsible",
+    "desk",
+    "dining",
+    "folding",
+    "four",
+    "kitchen",
+    "leg",
+    "picnic",
+    "portable",
+    "surface"
+  ],
+  "caption": "A blue folding camping table with four legs."
 }

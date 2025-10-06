@@ -12,6 +12,18 @@
     "vehicle",
     "wheel",
     "wheels",
-    "brown"
-  ]
+    "brown",
+    "cycle",
+    "cycling",
+    "frame",
+    "gear",
+    "handlebar",
+    "pedal",
+    "seat",
+    "speed",
+    "sport",
+    "transport",
+    "transportation"
+  ],
+  "caption": "A brown bicycle with white wheels."
 }

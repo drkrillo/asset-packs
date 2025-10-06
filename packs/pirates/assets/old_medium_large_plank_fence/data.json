@@ -10,6 +10,15 @@
     "wood",
     "wooden",
     "plank",
-    "old"
-  ]
+    "old",
+    "barrier",
+    "boundary",
+    "enclosure",
+    "fencepost",
+    "nature",
+    "outdoor",
+    "rustic",
+    "timber"
+  ],
+  "caption": "A wooden fence with varying plank sizes."
 }

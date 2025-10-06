@@ -10,6 +10,18 @@
     "sand",
     "wheel",
     "wheels",
-    "construction"
-  ]
+    "construction",
+    "bucket",
+    "cargo",
+    "container",
+    "garden",
+    "load",
+    "outdoor",
+    "terrain",
+    "transport",
+    "vehicle",
+    "wheelbarrow",
+    "yard"
+  ],
+  "caption": "A pink wheelbarrow with yellow sand in it."
 }

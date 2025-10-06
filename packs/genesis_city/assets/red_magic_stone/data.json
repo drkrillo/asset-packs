@@ -12,6 +12,17 @@
     "rocks",
     "stone",
     "stones",
-    "magic"
-  ]
+    "magic",
+    "artifact",
+    "enchanted",
+    "fiery",
+    "gemstone",
+    "glowing",
+    "magical",
+    "mysterious",
+    "mystical",
+    "relic",
+    "swirls"
+  ],
+  "caption": "Red magic stone with glowing red swirls on top."
 }

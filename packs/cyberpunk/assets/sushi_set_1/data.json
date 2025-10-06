@@ -2,5 +2,20 @@
   "id": "af2ee1de-eb6b-418b-92fb-7f13c7bc7ffb",
   "name": "Sushi Set 1",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "cuisine",
+    "dining",
+    "dish",
+    "eat",
+    "food",
+    "japanese",
+    "meal",
+    "plate",
+    "restaurant",
+    "serve",
+    "serving",
+    "sushi",
+    "utensil"
+  ],
+  "caption": "A sushi set with various pieces of sushi."
 }

@@ -6,6 +6,19 @@
     "fantasy",
     "track",
     "cart",
-    "curved"
-  ]
+    "curved",
+    "bend",
+    "curve",
+    "module",
+    "motion",
+    "movement",
+    "path",
+    "rail",
+    "route",
+    "slope",
+    "transportation",
+    "turn",
+    "vehicle"
+  ],
+  "caption": "A curved cart track module."
 }

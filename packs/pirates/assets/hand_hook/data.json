@@ -12,6 +12,16 @@
     "golden",
     "gold",
     "wood",
-    "tool"
-  ]
+    "tool",
+    "blast",
+    "bomb",
+    "destruction",
+    "detonation",
+    "explosive",
+    "grasping",
+    "handheld",
+    "hooking",
+    "utility"
+  ],
+  "caption": "A hand-held hook with an orange bomb attached to it."
 }

@@ -10,6 +10,16 @@
     "paper",
     "scroll",
     "instructions",
-    "recipe"
-  ]
+    "recipe",
+    "chart",
+    "compass",
+    "document",
+    "map",
+    "navigation",
+    "ocean",
+    "parchment",
+    "sea",
+    "voyage"
+  ],
+  "caption": "A scroll with a torn edge, resembling a pirate's map or treasure map."
 }

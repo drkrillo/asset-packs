@@ -8,6 +8,20 @@
     "town",
     "furniture",
     "blue",
-    "table"
-  ]
+    "table",
+    "chair",
+    "desk",
+    "dining",
+    "flat",
+    "kitchen",
+    "leg",
+    "office",
+    "rest",
+    "seat",
+    "shade",
+    "sitting",
+    "stool",
+    "surface"
+  ],
+  "caption": "A simple, flat-topped table with four legs, colored in a shade of blue."
 }

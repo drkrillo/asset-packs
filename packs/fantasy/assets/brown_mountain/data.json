@@ -6,6 +6,18 @@
     "fantasy",
     "mountain",
     "rock",
-    "rocks"
-  ]
+    "rocks",
+    "earth",
+    "elevation",
+    "hill",
+    "land",
+    "landscape",
+    "natural",
+    "outdoor",
+    "peak",
+    "scenery",
+    "terrain",
+    "view"
+  ],
+  "caption": "A brown mountain."
 }

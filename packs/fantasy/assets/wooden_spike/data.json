@@ -7,6 +7,12 @@
     "wood",
     "wooden",
     "spike",
-    "iron"
-  ]
+    "iron",
+    "pointed",
+    "spiked",
+    "spikiness",
+    "spiky",
+    "tall"
+  ],
+  "caption": "A tall, brown, spiked object with a pointed top."
 }

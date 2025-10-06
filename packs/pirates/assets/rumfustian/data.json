@@ -10,6 +10,17 @@
     "bottle",
     "drink",
     "beverage",
-    "alcohol"
-  ]
+    "alcohol",
+    "container",
+    "drum",
+    "fuel",
+    "label",
+    "neck",
+    "petroleum",
+    "ribbon",
+    "storage",
+    "tank",
+    "vessel"
+  ],
+  "caption": "A blue bottle with an orange label and a yellow ribbon around its neck."
 }

@@ -2,5 +2,15 @@
   "id": "d72f1055-6740-4037-ae7f-5e1227240c2e",
   "name": "Small Billboard",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "advertisement",
+    "background",
+    "billboard",
+    "display",
+    "graphic",
+    "poster",
+    "top",
+    "visual"
+  ],
+  "caption": "A small billboard with a blue screen on top."
 }

@@ -2,5 +2,20 @@
   "id": "9065256f-fbc7-485c-a902-470b3988f311",
   "name": "Grave  20",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "artifact",
+    "burial",
+    "cemetery",
+    "grave",
+    "headstone",
+    "marker",
+    "memorial",
+    "monument",
+    "plaque",
+    "relic",
+    "sculpture",
+    "statue",
+    "tombstone"
+  ],
+  "caption": "A simple, rectangular, stone-like structure with a flat top, resembling a small monument or plaque."
 }

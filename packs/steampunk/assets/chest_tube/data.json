@@ -2,5 +2,21 @@
   "id": "d32d17ca-12da-40e2-bd63-f3cb28aded8e",
   "name": "Chest Tube",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "chemical",
+    "container",
+    "drum",
+    "fuel",
+    "hazardous",
+    "oil",
+    "petroleum",
+    "radioactive",
+    "storage",
+    "tank",
+    "toxic",
+    "trunk",
+    "tube",
+    "vessel"
+  ],
+  "caption": "A wooden barrel."
 }

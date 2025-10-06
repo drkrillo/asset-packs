@@ -6,6 +6,22 @@
     "fantasy",
     "swamp",
     "forest",
-    "water"
-  ]
+    "water",
+    "aquatic",
+    "bloom",
+    "botanical",
+    "colorful",
+    "float",
+    "flower",
+    "fluid",
+    "foliage",
+    "garden",
+    "hexagon",
+    "lake",
+    "lily",
+    "liquid",
+    "nature",
+    "ocean"
+  ],
+  "caption": "A green, hexagonal-shaped object with a smooth surface, resembling a lily pad floating on water."
 }

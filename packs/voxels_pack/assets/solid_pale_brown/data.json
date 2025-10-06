@@ -2,5 +2,13 @@
   "id": "1b8c22ec-4eba-4afd-b338-ad2557881ebd",
   "name": "Solid Pale Brown",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "block",
+    "building",
+    "earthy",
+    "furniture",
+    "natural",
+    "pale"
+  ],
+  "caption": "A 3d block with a pale brown texture."
 }

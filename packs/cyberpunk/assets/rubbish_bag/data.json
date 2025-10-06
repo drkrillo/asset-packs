@@ -2,5 +2,18 @@
   "id": "3a6a34c6-050b-4488-a042-fe3a7a36b523",
   "name": "Rubbish Bag",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "bag",
+    "can",
+    "container",
+    "drum",
+    "grip",
+    "handle",
+    "lid",
+    "rubbish",
+    "storage",
+    "vessel",
+    "waste"
+  ],
+  "caption": "A metal container with a handle on top."
 }

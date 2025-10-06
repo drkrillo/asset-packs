@@ -2,5 +2,18 @@
   "id": "098cc4c6-bf63-4f38-a0e4-66f482e6d9d8",
   "name": "Stone - Dark Pebbles",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "boulder",
+    "dark",
+    "earthy",
+    "ground",
+    "mineral",
+    "pebble",
+    "pebbles",
+    "rocky",
+    "rough",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A dark grey stone with pebbles on its surface."
 }

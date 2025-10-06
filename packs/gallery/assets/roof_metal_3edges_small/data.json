@@ -2,5 +2,19 @@
   "id": "2014265a-88c0-4dd6-848c-39c09635d751",
   "name": "Roof - Metal 3Edges Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "cladding",
+    "edge",
+    "panel",
+    "plate",
+    "roof",
+    "roofing",
+    "section",
+    "sheet",
+    "sheeting",
+    "strip",
+    "tile",
+    "trim"
+  ],
+  "caption": "A small metal roof with three edges."
 }

@@ -2,5 +2,13 @@
   "id": "d6efa3e9-8b73-4ca4-ab7c-c04c8d335cf0",
   "name": "Wall - PlainNavy",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "background",
+    "building",
+    "floor",
+    "pattern",
+    "surface"
+  ],
+  "caption": "A plain navy blue wall in a."
 }

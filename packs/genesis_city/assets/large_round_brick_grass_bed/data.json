@@ -10,6 +10,19 @@
     "decoration",
     "grass",
     "brick",
-    "bricks"
-  ]
+    "bricks",
+    "bed",
+    "bedroom",
+    "center",
+    "dimensional",
+    "field",
+    "furniture",
+    "ground",
+    "landscape",
+    "lawn",
+    "mattress",
+    "meadow",
+    "outdoor"
+  ],
+  "caption": "A three-dimensional model of a large round brick with grass in the center."
 }

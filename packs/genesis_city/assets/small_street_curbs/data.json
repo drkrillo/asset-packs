@@ -11,6 +11,17 @@
     "sidewalk",
     "curb",
     "curbs",
-    "city"
-  ]
+    "city",
+    "asphalt",
+    "boundary",
+    "concrete",
+    "curbstone",
+    "edging",
+    "infrastructure",
+    "lane",
+    "pavement",
+    "roadwork",
+    "striping"
+  ],
+  "caption": "A simple, low-poly of a small street curb."
 }

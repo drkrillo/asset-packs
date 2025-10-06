@@ -9,6 +9,17 @@
     "decorations",
     "bone",
     "bones",
-    "calcium"
-  ]
+    "calcium",
+    "anatomy",
+    "body",
+    "form",
+    "fragment",
+    "function",
+    "human",
+    "shape",
+    "skeletal",
+    "structure",
+    "system"
+  ],
+  "caption": "A simple, small bone-shaped."
 }

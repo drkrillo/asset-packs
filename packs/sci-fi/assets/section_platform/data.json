@@ -6,6 +6,15 @@
     "scifi",
     "dock",
     "port",
-    "metal"
-  ]
+    "metal",
+    "base",
+    "border",
+    "flat",
+    "ground",
+    "rectangular",
+    "section",
+    "surface",
+    "top"
+  ],
+  "caption": "A flat platform with a red border on top of a black base."
 }

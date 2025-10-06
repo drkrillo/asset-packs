@@ -5,6 +5,18 @@
   "tags": [
     "scifi",
     "tile",
-    "ground"
-  ]
+    "ground",
+    "floor",
+    "grid",
+    "indicator",
+    "layout",
+    "line",
+    "marker",
+    "panel",
+    "pattern",
+    "placement",
+    "shape",
+    "squared"
+  ],
+  "caption": "A square floor panel with red lines indicating its placement within a larger grid or pattern."
 }

@@ -2,5 +2,18 @@
   "id": "fd255cd6-3edb-40b2-9880-a261b028d8be",
   "name": "Roof - Metal 2Edges Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "curved",
+    "edge",
+    "flat",
+    "metallic",
+    "narrow",
+    "rectangular",
+    "roof",
+    "roofed",
+    "roofing",
+    "sloping",
+    "tiled"
+  ],
+  "caption": "A small metal roof with two edges."
 }

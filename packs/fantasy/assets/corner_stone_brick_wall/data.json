@@ -7,6 +7,18 @@
     "stone",
     "brick",
     "wall",
-    "corner"
-  ]
+    "corner",
+    "architecture",
+    "building",
+    "castle",
+    "defense",
+    "fortress",
+    "palace",
+    "royal",
+    "security",
+    "stronghold",
+    "structure",
+    "tower"
+  ],
+  "caption": "A brick wall with a corner stone."
 }

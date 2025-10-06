@@ -2,5 +2,13 @@
   "id": "58f74f49-ba9e-49fc-a9af-a969cb472b6e",
   "name": "Roof - Black Corner Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "corner",
+    "dark",
+    "edge",
+    "flat",
+    "roof",
+    "top"
+  ],
+  "caption": "A small black roof with a corner detail."
 }

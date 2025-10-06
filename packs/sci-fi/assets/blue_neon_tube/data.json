@@ -7,6 +7,18 @@
     "power",
     "spark",
     "base",
-    "spaceship"
-  ]
+    "spaceship",
+    "circuit",
+    "conduit",
+    "electric",
+    "fluorescent",
+    "glow",
+    "glowing",
+    "illumination",
+    "luminescent",
+    "radiant",
+    "tube",
+    "wire"
+  ],
+  "caption": "A neon tube with a blue color."
 }

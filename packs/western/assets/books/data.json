@@ -2,5 +2,20 @@
   "id": "44bcc403-ae66-42db-ba5d-bd561040f607",
   "name": "Books",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "books",
+    "bookshelf",
+    "collection",
+    "fiction",
+    "library",
+    "literature",
+    "novel",
+    "page",
+    "reading",
+    "spine",
+    "stack",
+    "tome",
+    "volume"
+  ],
+  "caption": "A stack of three books with different colors on their spines."
 }

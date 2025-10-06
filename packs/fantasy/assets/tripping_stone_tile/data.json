@@ -6,6 +6,17 @@
     "fantasy",
     "tile",
     "stone",
-    "path"
-  ]
+    "path",
+    "dark",
+    "earth",
+    "flat",
+    "floor",
+    "granite",
+    "ground",
+    "rectangle",
+    "slate",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A flat, rectangular object with a dark color, which appears to be a tile or stone in a style."
 }

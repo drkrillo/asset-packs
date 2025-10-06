@@ -2,5 +2,19 @@
   "id": "58ce18c8-873c-4b3a-af71-f07e18ea7d71",
   "name": "Shovel",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "agriculture",
+    "blade",
+    "construction",
+    "digging",
+    "earth",
+    "excavation",
+    "farm",
+    "farming",
+    "garden",
+    "handle",
+    "landscaping",
+    "shovel"
+  ],
+  "caption": "A shovel with a wooden handle and a metal blade."
 }

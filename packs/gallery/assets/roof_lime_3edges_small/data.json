@@ -2,5 +2,16 @@
   "id": "d89412af-537f-40e1-abb5-94714da711fb",
   "name": "Roof - Lime 3Edges Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architectural",
+    "building",
+    "edge",
+    "roof",
+    "shingle",
+    "structure",
+    "surface",
+    "tile",
+    "top"
+  ],
+  "caption": "A small, lime green roof with three edges."
 }

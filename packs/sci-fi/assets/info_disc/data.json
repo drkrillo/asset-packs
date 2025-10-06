@@ -6,6 +6,15 @@
     "scifi",
     "spaceship",
     "parts",
-    "computer"
-  ]
+    "computer",
+    "appearance",
+    "disc",
+    "function",
+    "graphics",
+    "info",
+    "information",
+    "scheme",
+    "visual"
+  ],
+  "caption": "An information disc with a blue and yellow color scheme."
 }

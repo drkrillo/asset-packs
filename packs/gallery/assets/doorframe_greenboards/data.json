@@ -2,5 +2,19 @@
   "id": "2c2daf13-4f4f-4a2b-bf4a-fbc70be3be99",
   "name": "Doorframe - GreenBoards",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "board",
+    "corridor",
+    "doorframe",
+    "doorway",
+    "entrance",
+    "frame",
+    "greenboards",
+    "opening",
+    "passage",
+    "rectangle",
+    "room",
+    "space"
+  ],
+  "caption": "A green door frame with a rectangular opening."
 }

@@ -8,6 +8,21 @@
     "log",
     "forest",
     "wood",
-    "wooden"
-  ]
+    "wooden",
+    "arch",
+    "beam",
+    "construction",
+    "crossing",
+    "footbridge",
+    "path",
+    "plank",
+    "railing",
+    "river",
+    "span",
+    "stairs",
+    "structure",
+    "support",
+    "walkway"
+  ],
+  "caption": "A wooden footbridge with a railing."
 }

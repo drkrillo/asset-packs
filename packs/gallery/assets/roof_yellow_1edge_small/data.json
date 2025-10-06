@@ -2,5 +2,17 @@
   "id": "69371827-a82f-4c54-960e-91d4164195c8",
   "name": "Roof - Yellow 1Edge Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "edge",
+    "finish",
+    "flat",
+    "pattern",
+    "roof",
+    "shape",
+    "size",
+    "surface",
+    "top",
+    "type"
+  ],
+  "caption": "A simple, yellow, one-edged roof with a small size."
 }

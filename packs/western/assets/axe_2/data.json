@@ -2,5 +2,22 @@
   "id": "127c10ac-ebfc-48b9-84d3-a6bf49e0b1e9",
   "name": "Axe 2",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "axe",
+    "axehead",
+    "branch",
+    "chopping",
+    "foliage",
+    "forest",
+    "forestcraft",
+    "forestry",
+    "handle",
+    "leaves",
+    "logging",
+    "lumber",
+    "nature",
+    "outdoor",
+    "roots"
+  ],
+  "caption": "A wooden axe with a yellow handle."
 }

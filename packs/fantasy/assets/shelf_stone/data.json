@@ -9,6 +9,20 @@
     "stones",
     "rock",
     "rocks",
-    "forest"
-  ]
+    "forest",
+    "architectural",
+    "building",
+    "countertop",
+    "desk",
+    "dining",
+    "furniture",
+    "kitchen",
+    "mineral",
+    "pedestal",
+    "shelf",
+    "structure",
+    "surface",
+    "table"
+  ],
+  "caption": "A stone shelf."
 }

@@ -2,5 +2,13 @@
   "id": "2f153bcd-6c5f-4cb3-96ed-d0fd4de08a2e",
   "name": "I blue",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "font",
+    "glyph",
+    "graphics",
+    "letter",
+    "logo",
+    "typography"
+  ],
+  "caption": "A blue of a letter 'i'."
 }

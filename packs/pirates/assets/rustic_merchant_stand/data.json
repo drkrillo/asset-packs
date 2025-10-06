@@ -10,6 +10,22 @@
     "wood",
     "wooden",
     "empty",
-    "crate"
-  ]
+    "crate",
+    "antique",
+    "cabin",
+    "commerce",
+    "commodity",
+    "cottage",
+    "desk",
+    "dining",
+    "furniture",
+    "goods",
+    "kitchen",
+    "market",
+    "merchant",
+    "rural",
+    "rustic",
+    "stall"
+  ],
+  "caption": "A three-tiered wooden stand with compartments on top, designed to resemble a rustic merchant's table."
 }

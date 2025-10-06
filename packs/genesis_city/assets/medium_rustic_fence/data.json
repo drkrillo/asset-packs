@@ -15,6 +15,10 @@
     "garden",
     "backyard",
     "yard",
-    "farm"
-  ]
+    "farm",
+    "rail",
+    "railing",
+    "rails"
+  ],
+  "caption": "A simple wooden fence with two horizontal rails."
 }

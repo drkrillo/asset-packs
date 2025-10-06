@@ -3,6 +3,20 @@
   "name": "Blue Crystal",
   "category": "decorations",
   "tags": [
-    "fantasy"
-  ]
+    "fantasy",
+    "azure",
+    "clear",
+    "crystal",
+    "edge",
+    "frosty",
+    "gemstone",
+    "glassy",
+    "icy",
+    "jagged",
+    "mineral",
+    "searchable",
+    "sharp",
+    "transparent"
+  ],
+  "caption": "A large, blue crystal with jagged edges."
 }

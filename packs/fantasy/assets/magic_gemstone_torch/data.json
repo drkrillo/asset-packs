@@ -7,6 +7,14 @@
     "torch",
     "gem",
     "gemstone",
-    "light"
-  ]
+    "light",
+    "artifact",
+    "enchanted",
+    "flame",
+    "glowing",
+    "mystic",
+    "mystical",
+    "relic"
+  ],
+  "caption": "A blue gemstone encased in a black torch-like object."
 }

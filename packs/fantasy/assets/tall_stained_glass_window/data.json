@@ -7,6 +7,15 @@
     "window",
     "stone",
     "stained",
-    "glass"
-  ]
+    "glass",
+    "architecture",
+    "art",
+    "building",
+    "colored",
+    "colorful",
+    "interior",
+    "tall",
+    "translucent"
+  ],
+  "caption": "A stained glass window with a purple and orange design."
 }

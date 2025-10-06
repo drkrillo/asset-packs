@@ -7,6 +7,13 @@
     "alchemy",
     "lab",
     "equipment",
-    "potion"
-  ]
+    "potion",
+    "artifact",
+    "experiment",
+    "frame",
+    "handle",
+    "laboratory",
+    "magical"
+  ],
+  "caption": "An alchemist's equipment, which includes a large spherical object with a handle and a smaller sphere on top, both encased in a yellow metal frame. the equipment is designed to resemble a medieval or fantasy-themed device, possibly used for alchemy or magical experiments."
 }

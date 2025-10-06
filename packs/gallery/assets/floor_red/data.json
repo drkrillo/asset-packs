@@ -2,5 +2,17 @@
   "id": "8f9ae905-00de-4ae1-b2ef-dab27559eb50",
   "name": "Floor - Red",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "background",
+    "floor",
+    "flooring",
+    "interior",
+    "pattern",
+    "patterned",
+    "room",
+    "space",
+    "surface",
+    "tile"
+  ],
+  "caption": "A red floor with a black and white pattern on it."
 }

@@ -2,5 +2,20 @@
   "id": "19d641ec-2064-4787-921c-fcb8d51dae8b",
   "name": "Ground 10 M Square",
   "category": "tiles",
-  "tags": []
+  "tags": [
+    "bakery",
+    "baking",
+    "bread",
+    "cheese",
+    "flat",
+    "food",
+    "form",
+    "loaf",
+    "nutrition",
+    "shape",
+    "slice",
+    "surface",
+    "wheat"
+  ],
+  "caption": "A yellow, square-shaped object with a flat top and bottom, resembling a piece of cheese or a slice of bread."
 }

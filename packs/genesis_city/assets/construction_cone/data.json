@@ -11,6 +11,14 @@
     "cone",
     "city",
     "building",
-    "buildings"
-  ]
+    "buildings",
+    "barrier",
+    "hazard",
+    "marker",
+    "roadblock",
+    "safety",
+    "traffic",
+    "warning"
+  ],
+  "caption": "A red construction cone with a white stripe on top."
 }

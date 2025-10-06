@@ -2,5 +2,22 @@
   "id": "de098a3a-3929-4351-b0e3-690cf31fd85b",
   "name": "Telescope",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "anchor",
+    "antenna",
+    "base",
+    "boom",
+    "camera",
+    "clarity",
+    "dock",
+    "dockyard",
+    "eyepiece",
+    "flagpole",
+    "focus",
+    "holder",
+    "leg",
+    "lens",
+    "magnification"
+  ],
+  "caption": "A black tripod."
 }

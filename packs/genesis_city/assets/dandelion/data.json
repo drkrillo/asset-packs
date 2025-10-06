@@ -15,6 +15,19 @@
     "forest",
     "park",
     "yard",
-    "backyard"
-  ]
+    "backyard",
+    "bloom",
+    "botanical",
+    "carrot",
+    "colorful",
+    "dandelion",
+    "field",
+    "herb",
+    "meadow",
+    "petal",
+    "petals",
+    "plant",
+    "stem"
+  ],
+  "caption": "A dandelion with four carrot-like flowers."
 }

@@ -7,6 +7,17 @@
     "fence",
     "iron",
     "stone",
-    "module"
-  ]
+    "module",
+    "architecture",
+    "barrier",
+    "defense",
+    "fortification",
+    "obstacle",
+    "protection",
+    "security",
+    "spike",
+    "stronghold",
+    "structure"
+  ],
+  "caption": "A long iron and stone fence with spikes on top."
 }

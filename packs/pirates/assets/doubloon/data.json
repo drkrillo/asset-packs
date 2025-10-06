@@ -9,6 +9,18 @@
     "decorations",
     "gold",
     "golden",
-    "coin"
-  ]
+    "coin",
+    "artifact",
+    "collectible",
+    "currency",
+    "doubloon",
+    "emblem",
+    "precious",
+    "relic",
+    "riches",
+    "searchable",
+    "valuable",
+    "wealth"
+  ],
+  "caption": "A golden coin with an emblem on it."
 }

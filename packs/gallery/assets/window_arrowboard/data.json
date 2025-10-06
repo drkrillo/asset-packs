@@ -2,5 +2,19 @@
   "id": "3a3a524e-b9ff-4d76-ad85-21e4ff11f7e4",
   "name": "Window - ArrowBoard ",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "arrowboard",
+    "border",
+    "frame",
+    "gaze",
+    "outline",
+    "profile",
+    "shape",
+    "sight",
+    "silhouette",
+    "view",
+    "vision",
+    "window"
+  ],
+  "caption": "A window with an arrow-shaped design on its frame."
 }

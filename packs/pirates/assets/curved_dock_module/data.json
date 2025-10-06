@@ -11,6 +11,15 @@
     "wooden",
     "dock",
     "pillar",
-    "pillars"
-  ]
+    "pillars",
+    "architecture",
+    "building",
+    "fortress",
+    "module",
+    "palace",
+    "slats",
+    "stronghold",
+    "structure"
+  ],
+  "caption": "A brown wooden dock module with a circular shape and a series of slats on top."
 }

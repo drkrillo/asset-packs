@@ -2,5 +2,16 @@
   "id": "9339013d-71f8-4787-af43-0e389aafaa3a",
   "name": "Wood - pale plank",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "brick",
+    "brickwork",
+    "building",
+    "construction",
+    "fortress",
+    "plank",
+    "rough",
+    "stronghold"
+  ],
+  "caption": "A red brick with a rough texture."
 }

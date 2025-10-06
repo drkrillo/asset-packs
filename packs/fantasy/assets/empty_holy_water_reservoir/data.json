@@ -7,6 +7,20 @@
     "holy",
     "water",
     "empty",
-    "reservoir"
-  ]
+    "reservoir",
+    "aquatic",
+    "band",
+    "base",
+    "container",
+    "fluid",
+    "lake",
+    "liquid",
+    "ocean",
+    "river",
+    "sacred",
+    "storage",
+    "striped",
+    "vessel"
+  ],
+  "caption": "An empty holy water reservoir with a blue and orange striped band around its base."
 }

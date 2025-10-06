@@ -2,5 +2,18 @@
   "id": "002281a0-b834-4b08-8cd0-c6bbeab65f9f",
   "name": "Outdoor Box Lamp",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "ambiance",
+    "beacon",
+    "box",
+    "fixture",
+    "generated",
+    "glow",
+    "illumination",
+    "lamp",
+    "lantern",
+    "outdoor",
+    "torch"
+  ],
+  "caption": "An outdoor lantern with a glowing orange light inside."
 }

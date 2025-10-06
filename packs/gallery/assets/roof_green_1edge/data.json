@@ -2,5 +2,21 @@
   "id": "ddef154c-3a83-4daf-bfff-c46f64ceff47",
   "name": "Roof - Green 1Edge",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architectural",
+    "building",
+    "edge",
+    "edged",
+    "foliage",
+    "landscape",
+    "outdoor",
+    "roof",
+    "roofing",
+    "shape",
+    "space",
+    "structural",
+    "structure",
+    "terrain"
+  ],
+  "caption": "A simple, green, single-edged roof structure."
 }

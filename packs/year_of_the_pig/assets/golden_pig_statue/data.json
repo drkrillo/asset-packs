@@ -7,6 +7,16 @@
     "statue",
     "pig",
     "gold",
-    "golden"
-  ]
+    "golden",
+    "animal",
+    "art",
+    "bronze",
+    "collectible",
+    "luxury",
+    "ornate",
+    "precious",
+    "sculpture",
+    "valuable"
+  ],
+  "caption": "A golden pig statue."
 }

@@ -14,6 +14,18 @@
     "park",
     "garden",
     "backyard",
-    "yard"
-  ]
+    "yard",
+    "branch",
+    "branches",
+    "evergreen",
+    "foliage",
+    "leaves",
+    "outdoor",
+    "pine",
+    "pinecone",
+    "roots",
+    "sapling",
+    "trunk"
+  ],
+  "caption": "A pine tree with a green base and yellow branches."
 }

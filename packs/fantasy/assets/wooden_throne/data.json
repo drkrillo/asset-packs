@@ -8,6 +8,21 @@
     "chair",
     "sit",
     "wood",
-    "wooden"
-  ]
+    "wooden",
+    "comfort",
+    "desk",
+    "dining",
+    "furniture",
+    "kitchen",
+    "maple",
+    "oak",
+    "office",
+    "pine",
+    "rest",
+    "seat",
+    "seating",
+    "sitting",
+    "surface"
+  ],
+  "caption": "A simple, wooden throne chair with a backrest and armrests."
 }

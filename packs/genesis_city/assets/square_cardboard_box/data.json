@@ -10,6 +10,16 @@
     "box",
     "cardboard",
     "mail",
-    "square"
-  ]
+    "square",
+    "card",
+    "container",
+    "drum",
+    "label",
+    "packaging",
+    "shipping",
+    "storage",
+    "tank",
+    "vessel"
+  ],
+  "caption": "A three-dimensional model of a cardboard box with a label on its side."
 }

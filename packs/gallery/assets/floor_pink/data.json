@@ -2,5 +2,18 @@
   "id": "53eadfc5-b9a5-4458-a794-7d9332473971",
   "name": "Floor - Pink",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "border",
+    "edge",
+    "floor",
+    "flooring",
+    "frame",
+    "ground",
+    "pinkish",
+    "room",
+    "space",
+    "surface",
+    "tile"
+  ],
+  "caption": "A pink floor tile with a black border."
 }

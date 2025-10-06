@@ -2,5 +2,14 @@
   "id": "089eb615-45f4-422f-92ea-abab34fecba9",
   "name": "Roof - Beige 2Edges Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "edged",
+    "format",
+    "roof",
+    "structure",
+    "surface"
+  ],
+  "caption": "A simple, small, two-edged beige roof in a format."
 }

@@ -7,6 +7,17 @@
     "archway",
     "arc",
     "threshold",
-    "stone"
-  ]
+    "stone",
+    "arch",
+    "brick",
+    "corridor",
+    "doorway",
+    "entrance",
+    "gateway",
+    "monument",
+    "passage",
+    "stonework",
+    "structure"
+  ],
+  "caption": "An archway made of stone bricks."
 }

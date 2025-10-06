@@ -2,5 +2,22 @@
   "id": "b69f135b-a411-4c2b-92b0-ff23746dcdc7",
   "name": "Light Wall",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "ambiance",
+    "burning",
+    "candle",
+    "candlestick",
+    "combustion",
+    "fire",
+    "flame",
+    "glow",
+    "heat",
+    "holder",
+    "lantern",
+    "lit",
+    "mount",
+    "smoke",
+    "warm"
+  ],
+  "caption": "Two lit candles in a wall-mounted candle holder."
 }

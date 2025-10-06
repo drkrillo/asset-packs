@@ -2,5 +2,17 @@
   "id": "f588367d-f37d-40e2-ac5e-027120869dbe",
   "name": "White Car",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "automobile",
+    "automotive",
+    "coupe",
+    "driving",
+    "roof",
+    "sedan",
+    "speed",
+    "transport",
+    "transportation",
+    "vehicle"
+  ],
+  "caption": "A white car with a blue roof."
 }

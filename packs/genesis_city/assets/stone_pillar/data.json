@@ -12,6 +12,20 @@
     "column",
     "garden",
     "park",
-    "wall"
-  ]
+    "wall",
+    "architecture",
+    "building",
+    "castle",
+    "flat",
+    "fortress",
+    "monument",
+    "palace",
+    "rectangular",
+    "royal",
+    "stronghold",
+    "structure",
+    "top",
+    "tower"
+  ],
+  "caption": "A tall, rectangular stone pillar with a flat top."
 }

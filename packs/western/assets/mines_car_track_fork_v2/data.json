@@ -2,5 +2,20 @@
   "id": "ab6e49be-35cf-48bd-a17a-a69103120085",
   "name": "Mines Car Track Fork v2",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "crossing",
+    "fork",
+    "forked",
+    "junction",
+    "mines",
+    "path",
+    "rail",
+    "railroad",
+    "searchable",
+    "split",
+    "switch",
+    "track",
+    "train"
+  ],
+  "caption": "A railroad track with a fork in the middle."
 }

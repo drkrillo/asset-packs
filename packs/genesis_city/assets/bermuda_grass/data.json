@@ -6,6 +6,21 @@
     "genesis",
     "city",
     "town",
-    "ground"
-  ]
+    "ground",
+    "dot",
+    "environment",
+    "field",
+    "flora",
+    "foliage",
+    "grass",
+    "landscape",
+    "lawn",
+    "meadow",
+    "nature",
+    "outdoor",
+    "pattern",
+    "plant",
+    "polka"
+  ],
+  "caption": "Green grass with a polka dot pattern."
 }

@@ -2,5 +2,19 @@
   "id": "339f46e5-cafd-4cd0-a4ae-7cfe7b8b74f5",
   "name": "Stairs Full Height",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "ascent",
+    "descent",
+    "flight",
+    "height",
+    "incline",
+    "ladder",
+    "landing",
+    "staircase",
+    "stairs",
+    "stairway",
+    "step",
+    "steps"
+  ],
+  "caption": "A full-height staircase with red steps."
 }

@@ -6,6 +6,19 @@
     "fantasy",
     "stone",
     "block",
-    "column"
-  ]
+    "column",
+    "architecture",
+    "building",
+    "castle",
+    "fortress",
+    "granite",
+    "monument",
+    "palace",
+    "royal",
+    "stack",
+    "stronghold",
+    "structure",
+    "tower"
+  ],
+  "caption": "A stack of three stone columns."
 }

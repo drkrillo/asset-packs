@@ -12,6 +12,19 @@
     "river",
     "water",
     "rope",
-    "jungle"
-  ]
+    "jungle",
+    "arch",
+    "cable",
+    "connection",
+    "construction",
+    "crossing",
+    "pathway",
+    "rail",
+    "railing",
+    "span",
+    "structure",
+    "support",
+    "suspension"
+  ],
+  "caption": "A simple wooden rope bridge with railings on either side."
 }

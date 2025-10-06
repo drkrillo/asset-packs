@@ -7,6 +7,16 @@
     "vent",
     "exhaust",
     "air",
-    "square"
-  ]
+    "square",
+    "box",
+    "combustion",
+    "engine",
+    "fuel",
+    "pattern",
+    "pipe",
+    "surface",
+    "system",
+    "vehicle"
+  ],
+  "caption": "An exhaust box with a blue mesh pattern on its surface."
 }

@@ -6,6 +6,16 @@
     "scifi",
     "space",
     "planet",
-    "soil"
-  ]
+    "soil",
+    "dirt",
+    "earthy",
+    "geometric",
+    "ground",
+    "patch",
+    "patchwork",
+    "shape",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A red, geometrically shaped object."
 }

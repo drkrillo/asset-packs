@@ -12,6 +12,19 @@
     "tent",
     "sticks",
     "fabric",
-    "canopy"
-  ]
+    "canopy",
+    "cloth",
+    "desk",
+    "dining",
+    "furniture",
+    "kitchen",
+    "market",
+    "merchant",
+    "stall",
+    "stripe",
+    "surface",
+    "table",
+    "textile"
+  ],
+  "caption": "A blue tent with a red stripe on top, placed on a wooden table."
 }

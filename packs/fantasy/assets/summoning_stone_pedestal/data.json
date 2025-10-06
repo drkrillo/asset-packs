@@ -8,6 +8,14 @@
     "circular",
     "summon",
     "forest",
-    "pedestal"
-  ]
+    "pedestal",
+    "altar",
+    "artifact",
+    "historical",
+    "monument",
+    "relic",
+    "tabletop",
+    "top"
+  ],
+  "caption": "A stone pedestal with a circular top."
 }

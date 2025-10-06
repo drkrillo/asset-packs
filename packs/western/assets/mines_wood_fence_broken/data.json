@@ -2,5 +2,19 @@
   "id": "23c1c99c-9056-4c9b-8319-67624e56162e",
   "name": "Mines Wood Fence Broken",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "beam",
+    "broken",
+    "damaged",
+    "debris",
+    "fragment",
+    "plank",
+    "post",
+    "rubble",
+    "shard",
+    "shattered",
+    "splinter",
+    "timber"
+  ],
+  "caption": "A broken wooden fence in a format."
 }

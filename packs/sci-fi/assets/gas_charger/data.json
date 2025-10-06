@@ -6,6 +6,18 @@
     "scifi",
     "fuel",
     "energy",
-    "boom"
-  ]
+    "boom",
+    "charger",
+    "container",
+    "control",
+    "cylindrical",
+    "futuristic",
+    "gas",
+    "machinery",
+    "panel",
+    "storage",
+    "tank",
+    "vessel"
+  ],
+  "caption": "A futuristic gas charger with two cylindrical tanks connected by a tube and a control panel on top."
 }

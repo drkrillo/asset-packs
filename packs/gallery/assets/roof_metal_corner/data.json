@@ -2,5 +2,19 @@
   "id": "79a3fa3b-9b3b-40d4-90d1-8c9eac4e20ba",
   "name": "Roof - Metal Corner",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "angle",
+    "architecture",
+    "building",
+    "corner",
+    "edge",
+    "fastener",
+    "joint",
+    "metalwork",
+    "roof",
+    "section",
+    "structure",
+    "support"
+  ],
+  "caption": "A metal corner piece for a roof."
 }

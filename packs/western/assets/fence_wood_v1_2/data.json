@@ -2,5 +2,16 @@
   "id": "21189cd8-8c4d-4285-a6c9-a10e74a4f5b4",
   "name": "Fence Wood V1 2",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "barrier",
+    "boundary",
+    "building",
+    "enclosure",
+    "fencepost",
+    "post",
+    "rail",
+    "railing",
+    "structure"
+  ],
+  "caption": "A simple wooden fence with two vertical posts and a horizontal railing."
 }

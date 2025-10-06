@@ -9,6 +9,19 @@
     "decoration",
     "construction",
     "wood",
-    "pallet"
-  ]
+    "pallet",
+    "box",
+    "cargo",
+    "container",
+    "crate",
+    "freight",
+    "load",
+    "palletized",
+    "plank",
+    "shipment",
+    "slat",
+    "storage",
+    "vessel"
+  ],
+  "caption": "A wooden pallet with four slats on top."
 }

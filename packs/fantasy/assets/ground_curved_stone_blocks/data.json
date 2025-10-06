@@ -9,6 +9,22 @@
     "stones",
     "rock",
     "rocks",
-    "forest"
-  ]
+    "forest",
+    "architectural",
+    "block",
+    "building",
+    "castle",
+    "curved",
+    "curvedstone",
+    "fortified",
+    "fortress",
+    "palace",
+    "royal",
+    "stoneblock",
+    "stonework",
+    "stronghold",
+    "structure",
+    "tower"
+  ],
+  "caption": "A curved stone block in a style."
 }

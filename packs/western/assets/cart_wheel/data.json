@@ -2,5 +2,18 @@
   "id": "22d08ed2-0fbd-4d16-8fa8-e75e34adfea3",
   "name": "Cart Wheel",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "bucket",
+    "cargo",
+    "cart",
+    "container",
+    "load",
+    "storage",
+    "tank",
+    "transport",
+    "vehicle",
+    "vessel",
+    "wheelbarrow"
+  ],
+  "caption": "A three-dimensional model of a wooden wheelbarrow with a single large wheel."
 }

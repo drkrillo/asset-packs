@@ -2,5 +2,20 @@
   "id": "f4e973e8-f1cd-4323-bb15-85767a24f03f",
   "name": "Beam Exterior 1",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "beam",
+    "building",
+    "exterior",
+    "flat",
+    "furniture",
+    "handrail",
+    "ladder",
+    "railing",
+    "rung",
+    "step",
+    "structure",
+    "support",
+    "top"
+  ],
+  "caption": "A simple wooden ladder with a flat top."
 }

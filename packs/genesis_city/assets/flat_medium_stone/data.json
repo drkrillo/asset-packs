@@ -11,6 +11,17 @@
     "rocks",
     "stone",
     "stones",
-    "forest"
-  ]
+    "forest",
+    "earth",
+    "flat",
+    "geological",
+    "ground",
+    "medium",
+    "mineral",
+    "plate",
+    "slab",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A flat stone."
 }

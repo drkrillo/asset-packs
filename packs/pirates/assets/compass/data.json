@@ -15,6 +15,18 @@
     "north",
     "south",
     "east",
-    "west"
-  ]
+    "west",
+    "border",
+    "compass",
+    "corner",
+    "direction",
+    "directional",
+    "map",
+    "navigation",
+    "orientation",
+    "pointing",
+    "right",
+    "top"
+  ],
+  "caption": "A compass with a gold border and a red arrow pointing to the top right corner."
 }

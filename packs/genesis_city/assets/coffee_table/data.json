@@ -9,6 +9,14 @@
     "furniture",
     "table",
     "wood",
-    "coffee"
-  ]
+    "coffee",
+    "desk",
+    "dining",
+    "function",
+    "kitchen",
+    "leg",
+    "room",
+    "surface"
+  ],
+  "caption": "A simple, square wooden coffee table with four legs."
 }

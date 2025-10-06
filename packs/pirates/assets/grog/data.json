@@ -10,6 +10,18 @@
     "bottle",
     "drink",
     "beverage",
-    "alcohol"
-  ]
+    "alcohol",
+    "chemical",
+    "container",
+    "cork",
+    "drum",
+    "fuel",
+    "hazardous",
+    "storage",
+    "surface",
+    "tank",
+    "toxic",
+    "vessel"
+  ],
+  "caption": "A blue bottle with a cork stopper, placed on a surface."
 }

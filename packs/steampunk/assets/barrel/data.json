@@ -2,5 +2,18 @@
   "id": "a0df422d-2e38-4afc-82c5-4e7da6efa3a2",
   "name": "Barrel",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "cargo",
+    "container",
+    "drum",
+    "fuel",
+    "industrial",
+    "machinery",
+    "pipe",
+    "storage",
+    "tank",
+    "valve",
+    "vessel"
+  ],
+  "caption": "A large metal barrel with various pipes and valves attached to it."
 }

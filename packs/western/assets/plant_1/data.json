@@ -2,5 +2,22 @@
   "id": "e28de28a-8cc3-49c6-9bd2-ea09ed28d57d",
   "name": "Plant 1",
   "category": "nature",
-  "tags": []
+  "tags": [
+    "bloom",
+    "blossom",
+    "botanical",
+    "colorful",
+    "environment",
+    "flower",
+    "foliage",
+    "garden",
+    "leafy",
+    "nature",
+    "outdoor",
+    "petal",
+    "petals",
+    "plant",
+    "verdant"
+  ],
+  "caption": "A plant with a purple flower in full bloom."
 }

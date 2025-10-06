@@ -2,5 +2,13 @@
   "id": "188b4b6d-0446-4af3-ae68-8dd3316a678d",
   "name": "Chess Tile",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "board",
+    "checkered",
+    "chess",
+    "grid",
+    "pattern",
+    "tile"
+  ],
+  "caption": "A black and white checkered cube with a three-dimensional appearance."
 }

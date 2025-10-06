@@ -11,6 +11,17 @@
     "wooden",
     "dock",
     "stick",
-    "sticks"
-  ]
+    "sticks",
+    "barrier",
+    "boundary",
+    "building",
+    "defense",
+    "enclosure",
+    "fencepost",
+    "fortification",
+    "medium",
+    "plank",
+    "structure"
+  ],
+  "caption": "A simple, medium-sized fence made up of three vertical wooden planks."
 }

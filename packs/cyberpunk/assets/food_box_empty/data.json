@@ -2,5 +2,16 @@
   "id": "8fe483f3-7baf-4909-88db-7076fc32b6a5",
   "name": "Food Box - Empty",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "bin",
+    "box",
+    "container",
+    "crate",
+    "cupboard",
+    "food",
+    "space",
+    "storage",
+    "vessel"
+  ],
+  "caption": "An empty food box with a red line on top."
 }

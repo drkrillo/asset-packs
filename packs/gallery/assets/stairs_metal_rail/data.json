@@ -2,5 +2,20 @@
   "id": "06f897f5-e270-429b-bed1-0adc2644ed15",
   "name": "Stairs Metal Rail",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "balcony",
+    "ladder",
+    "landing",
+    "metalwork",
+    "rail",
+    "railing",
+    "staircase",
+    "stairs",
+    "stairway",
+    "step",
+    "steps",
+    "structure"
+  ],
+  "caption": "A metal staircase with a railing."
 }

@@ -2,5 +2,17 @@
   "id": "02f0a730-d74c-4f9c-8a12-4fcfc87e14aa",
   "name": "Floor - Purple",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "background",
+    "floor",
+    "furniture",
+    "hue",
+    "pattern",
+    "room",
+    "searchable",
+    "shade",
+    "surface",
+    "tone"
+  ],
+  "caption": "A purple floor with a black outline."
 }

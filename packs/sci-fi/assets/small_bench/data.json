@@ -7,6 +7,17 @@
     "lab",
     "table",
     "work",
-    "tools"
-  ]
+    "tools",
+    "bench",
+    "bracket",
+    "comfort",
+    "desk",
+    "dining",
+    "furniture",
+    "kitchen",
+    "seating",
+    "shape",
+    "surface"
+  ],
+  "caption": "A small blue table with orange brackets."
 }

@@ -7,6 +7,14 @@
     "air",
     "vent",
     "straight",
-    "short"
-  ]
+    "short",
+    "appearance",
+    "cylindrical",
+    "form",
+    "function",
+    "shape",
+    "stripe",
+    "structure"
+  ],
+  "caption": "A cylindrical object with a yellow stripe running along its length."
 }

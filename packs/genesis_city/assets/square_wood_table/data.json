@@ -9,6 +9,16 @@
     "furniture",
     "wodd",
     "table",
-    "cafe"
-  ]
+    "cafe",
+    "desk",
+    "dining",
+    "flat",
+    "kitchen",
+    "legs",
+    "office",
+    "surface",
+    "tableware",
+    "workspace"
+  ],
+  "caption": "A simple, brown wooden table with a flat top and four legs."
 }

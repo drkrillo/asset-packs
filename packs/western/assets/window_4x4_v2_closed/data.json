@@ -2,5 +2,19 @@
   "id": "62e73b3c-fc8a-4bf0-8e45-5663dff9b388",
   "name": "Window 4x4 V2 Closed",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "dark",
+    "frame",
+    "glass",
+    "glaze",
+    "opaque",
+    "pane",
+    "panes",
+    "shut",
+    "shutter",
+    "transparent",
+    "window",
+    "windowpane"
+  ],
+  "caption": "A closed window with a dark frame and blue panes."
 }

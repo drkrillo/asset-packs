@@ -2,5 +2,18 @@
   "id": "90dd57b4-8284-4c27-bf85-17ef02f978c6",
   "name": "Traffic Post Blue",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "building",
+    "column",
+    "monument",
+    "pole",
+    "post",
+    "street",
+    "stripe",
+    "structure",
+    "tower",
+    "traffic",
+    "urban"
+  ],
+  "caption": "A tall, black pole with a blue stripe at the top."
 }

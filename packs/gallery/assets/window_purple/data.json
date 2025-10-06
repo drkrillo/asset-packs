@@ -2,5 +2,22 @@
   "id": "5dec0cfb-feb6-44fa-8acb-ac84246455fa",
   "name": "Window - Purple ",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "blinds",
+    "curtain",
+    "frame",
+    "glass",
+    "pane",
+    "searchable",
+    "shade",
+    "sill",
+    "window",
+    "windowcover",
+    "windowframe",
+    "windowglass",
+    "windowpane",
+    "windowpanes",
+    "windowshade"
+  ],
+  "caption": "A purple window with a black frame."
 }

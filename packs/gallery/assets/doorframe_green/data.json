@@ -2,5 +2,11 @@
   "id": "edab5a46-aca5-47b4-917e-1648fa56b7d4",
   "name": "Doorframe - Green",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "doorframe",
+    "doorframegreen",
+    "doorstyle",
+    "frame"
+  ],
+  "caption": "A green door frame in a style."
 }

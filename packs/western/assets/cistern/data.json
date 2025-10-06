@@ -2,5 +2,22 @@
   "id": "5a18447e-7f42-47e8-b0e4-0447dbc07f2a",
   "name": "Cistern",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "aquatic",
+    "cistern",
+    "container",
+    "facility",
+    "fluid",
+    "fountain",
+    "lake",
+    "liquid",
+    "ocean",
+    "reservoir",
+    "river",
+    "storage",
+    "tank",
+    "tower",
+    "vessel"
+  ],
+  "caption": "A water tower with a ladder on its side."
 }

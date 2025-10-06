@@ -9,6 +9,8 @@
     "structures",
     "wood",
     "wooden",
-    "plank"
-  ]
+    "plank",
+    "planks"
+  ],
+  "caption": "Small wooden plank."
 }

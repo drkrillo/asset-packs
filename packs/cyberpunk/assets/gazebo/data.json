@@ -2,5 +2,18 @@
   "id": "bb136e02-6af2-4332-9f14-4757bc26b183",
   "name": "Gazebo",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "building",
+    "canopy",
+    "gaze",
+    "gazebo",
+    "hut",
+    "pavilion",
+    "roof",
+    "shelter",
+    "striped",
+    "structure",
+    "tent"
+  ],
+  "caption": "A black and white striped gazebo."
 }

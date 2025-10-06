@@ -8,6 +8,17 @@
     "ceiling",
     "witch",
     "gem",
-    "gemstone"
-  ]
+    "gemstone",
+    "fixture",
+    "glow",
+    "hang",
+    "illumination",
+    "lantern",
+    "lanternlight",
+    "pendant",
+    "shade",
+    "string",
+    "surface"
+  ],
+  "caption": "A small, wooden lantern with a red light inside, hanging from a string and placed on a surface."
 }

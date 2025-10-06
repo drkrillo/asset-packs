@@ -11,6 +11,22 @@
     "rock",
     "rocks",
     "forest",
-    "path"
-  ]
+    "path",
+    "arch",
+    "architecture",
+    "brick",
+    "bridge",
+    "building",
+    "carving",
+    "castle",
+    "column",
+    "construction",
+    "crossing",
+    "flooring",
+    "fortress",
+    "gate",
+    "heritage",
+    "historical"
+  ],
+  "caption": "An ancient stone path."
 }

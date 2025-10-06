@@ -10,6 +10,22 @@
     "spices",
     "sack",
     "fabric",
-    "leather"
-  ]
+    "leather",
+    "aromatic",
+    "bag",
+    "container",
+    "culinary",
+    "cumin",
+    "flavor",
+    "food",
+    "ingredient",
+    "kitchen",
+    "label",
+    "seasoning",
+    "spice",
+    "spicebag",
+    "spicecontainer",
+    "storage"
+  ],
+  "caption": "A spice bag with a label on it."
 }

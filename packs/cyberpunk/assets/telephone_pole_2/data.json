@@ -2,5 +2,20 @@
   "id": "761edf7d-9389-4abf-b73b-46c4cffc7b27",
   "name": "Telephone Pole 2",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "communication",
+    "electrical",
+    "infrastructure",
+    "installation",
+    "maintenance",
+    "pole",
+    "service",
+    "structure",
+    "telephone",
+    "tower",
+    "transmission",
+    "utility",
+    "wire"
+  ],
+  "caption": "A telephone pole with multiple wires attached to it."
 }

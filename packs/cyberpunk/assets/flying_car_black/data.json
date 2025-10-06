@@ -2,5 +2,17 @@
   "id": "68c80205-b526-4f61-977c-833b8b246e8b",
   "name": "Flying Car - Black",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "aircraft",
+    "auto",
+    "automobile",
+    "coupe",
+    "driving",
+    "lights",
+    "sedan",
+    "speed",
+    "transport",
+    "vehicle"
+  ],
+  "caption": "A black flying car with orange lights on its sides."
 }

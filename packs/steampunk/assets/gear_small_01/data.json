@@ -2,5 +2,16 @@
   "id": "a65920e5-6ad0-41e3-88cd-9ba205f28339",
   "name": "Gear Small 01",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "center",
+    "cog",
+    "gear",
+    "gearwheel",
+    "hole",
+    "industrial",
+    "machinery",
+    "mechanism",
+    "round"
+  ],
+  "caption": "Small red gear with a hole in the center."
 }

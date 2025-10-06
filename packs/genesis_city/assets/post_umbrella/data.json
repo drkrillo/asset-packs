@@ -10,6 +10,17 @@
     "post",
     "umbrella",
     "cafe",
-    "city"
-  ]
+    "city",
+    "canopy",
+    "coat",
+    "dark",
+    "fabric",
+    "hat",
+    "parasol",
+    "raincoat",
+    "shade",
+    "shadow",
+    "shelter"
+  ],
+  "caption": "An umbrella with a black base."
 }

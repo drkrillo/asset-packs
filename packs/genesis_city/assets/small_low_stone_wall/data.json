@@ -13,6 +13,21 @@
     "fence",
     "fences",
     "garden",
-    "park"
-  ]
+    "park",
+    "architecture",
+    "building",
+    "construction",
+    "earthy",
+    "fortress",
+    "landscape",
+    "natural",
+    "outdoor",
+    "poly",
+    "rugged",
+    "structure",
+    "surface",
+    "terrain",
+    "weathered"
+  ],
+  "caption": "A simple, low-poly of a small stone wall."
 }

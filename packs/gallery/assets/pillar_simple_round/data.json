@@ -2,5 +2,18 @@
   "id": "b587438c-9430-475f-98c5-3ce680627921",
   "name": "Pillar - Simple Round",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "base",
+    "building",
+    "column",
+    "cylindrical",
+    "landmark",
+    "monument",
+    "round",
+    "rounded",
+    "structure",
+    "top"
+  ],
+  "caption": "A simple, round pillar with a black base and a white top."
 }

@@ -2,5 +2,21 @@
   "id": "0d3f0d78-df02-4fd3-a458-820410dd0445",
   "name": "Solid Grass",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "earth",
+    "environment",
+    "field",
+    "foliage",
+    "grass",
+    "ground",
+    "landscape",
+    "lawn",
+    "meadow",
+    "natural",
+    "nature",
+    "outdoor",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A green cube with a detailed texture resembling grass."
 }

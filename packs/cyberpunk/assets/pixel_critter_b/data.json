@@ -2,5 +2,19 @@
   "id": "e1a5b086-423e-4198-b4e1-03af3f83c3b0",
   "name": "Pixel Critter B",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "animal",
+    "background",
+    "beast",
+    "character",
+    "creature",
+    "critter",
+    "graphics",
+    "mascot",
+    "pet",
+    "pixel",
+    "pixelated",
+    "sprite"
+  ],
+  "caption": "A pixelated critter character in a black background."
 }

@@ -2,5 +2,19 @@
   "id": "bf7da256-1314-40dc-a5b4-19c8dc5196e4",
   "name": "Coffee Machine",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "appliance",
+    "beverage",
+    "brewer",
+    "coffee",
+    "decor",
+    "desk",
+    "furniture",
+    "machine",
+    "office",
+    "room",
+    "station",
+    "work"
+  ],
+  "caption": "A black and white of a coffee machine."
 }

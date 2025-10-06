@@ -2,5 +2,19 @@
   "id": "d54cb21e-7adf-4769-944e-b4d434d3523a",
   "name": "WallCorner - DiagonalTiles",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "brick",
+    "building",
+    "corner",
+    "defense",
+    "diagonal",
+    "fortress",
+    "palace",
+    "royal",
+    "security",
+    "stronghold",
+    "tile"
+  ],
+  "caption": "A corner with diagonal tiles on a wall."
 }

@@ -8,6 +8,19 @@
     "gold",
     "golden",
     "gem",
-    "gemstone"
-  ]
+    "gemstone",
+    "alchemist",
+    "alchemy",
+    "artifact",
+    "contraption",
+    "experimentation",
+    "flame",
+    "furnace",
+    "laboratory",
+    "machinery",
+    "mystic",
+    "science",
+    "tower"
+  ],
+  "caption": "An alchemist's contraption with a tower-like structure and a blue flame on top."
 }

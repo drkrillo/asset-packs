@@ -7,6 +7,16 @@
     "power",
     "spark",
     "base",
-    "spaceship"
-  ]
+    "spaceship",
+    "glow",
+    "glowin",
+    "glowing",
+    "glowstick",
+    "illumination",
+    "led",
+    "luminescent",
+    "luminous",
+    "radiant"
+  ],
+  "caption": "A cube with a blue light on its side."
 }

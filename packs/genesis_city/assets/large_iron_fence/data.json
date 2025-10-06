@@ -12,6 +12,19 @@
     "metal",
     "iron",
     "park",
-    "garden"
-  ]
+    "garden",
+    "architecture",
+    "barrier",
+    "defense",
+    "enclosure",
+    "fortification",
+    "gate",
+    "generated",
+    "perimeter",
+    "security",
+    "steel",
+    "stronghold",
+    "structure"
+  ],
+  "caption": "A large iron fence with pointed tops."
 }

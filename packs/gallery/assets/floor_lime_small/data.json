@@ -2,5 +2,16 @@
   "id": "cd4921c4-1b5c-47d7-a056-e733cda4ce0f",
   "name": "Floor - Lime Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "floor",
+    "foliage",
+    "geometric",
+    "ground",
+    "pattern",
+    "surface",
+    "terrain",
+    "tile",
+    "vegetation"
+  ],
+  "caption": "A small green floor tile with a simple geometric design."
 }

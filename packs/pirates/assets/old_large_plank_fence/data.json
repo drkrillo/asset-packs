@@ -10,6 +10,16 @@
     "wood",
     "wooden",
     "plank",
-    "old"
-  ]
+    "old",
+    "barrier",
+    "environment",
+    "fencing",
+    "nature",
+    "outdoor",
+    "planks",
+    "rustic",
+    "timber",
+    "weathered"
+  ],
+  "caption": "An old wooden fence with planks."
 }

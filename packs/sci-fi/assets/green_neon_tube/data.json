@@ -7,6 +7,17 @@
     "power",
     "spark",
     "base",
-    "spaceship"
-  ]
+    "spaceship",
+    "emerald",
+    "fluorescent",
+    "glow",
+    "glowstick",
+    "hue",
+    "illumination",
+    "luminescent",
+    "radiant",
+    "shade",
+    "tube"
+  ],
+  "caption": "A neon tube with a green color."
 }

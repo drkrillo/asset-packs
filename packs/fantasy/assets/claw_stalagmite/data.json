@@ -8,6 +8,17 @@
     "stone",
     "cave",
     "forest",
-    "ruins"
-  ]
+    "ruins",
+    "earth",
+    "formation",
+    "geological",
+    "geologicalformation",
+    "landscape",
+    "mineral",
+    "pointy",
+    "stalactite",
+    "structure",
+    "terrain"
+  ],
+  "caption": "A tall, pointed, gray-colored structure resembling a stalagmite or a similar geological formation."
 }

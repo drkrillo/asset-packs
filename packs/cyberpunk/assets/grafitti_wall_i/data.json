@@ -2,5 +2,20 @@
   "id": "ba723bb6-d9cd-4c45-9778-8937e0fb62f0",
   "name": "Grafitti Wall I",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "aircraft",
+    "alien",
+    "beam",
+    "cockpit",
+    "glow",
+    "illumination",
+    "interior",
+    "occupant",
+    "passenger",
+    "ship",
+    "spacecraft",
+    "vessel",
+    "window"
+  ],
+  "caption": "An alien spacecraft with a person inside, shining a light from its window."
 }

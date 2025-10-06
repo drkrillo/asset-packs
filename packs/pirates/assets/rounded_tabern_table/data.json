@@ -10,6 +10,18 @@
     "wood",
     "wooden",
     "table",
-    "round"
-  ]
+    "round",
+    "desk",
+    "dining",
+    "kitchen",
+    "maple",
+    "oak",
+    "pine",
+    "rest",
+    "rustic",
+    "seat",
+    "seating",
+    "surface"
+  ],
+  "caption": "A simple, wooden table with a rustic appearance."
 }

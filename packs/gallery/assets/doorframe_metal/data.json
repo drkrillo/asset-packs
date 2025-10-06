@@ -2,5 +2,13 @@
   "id": "e845d270-f78c-4f57-9ed6-3b644a675399",
   "name": "Doorframe - Metal",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "doorframe",
+    "doorway",
+    "entrance",
+    "frame",
+    "gate",
+    "render"
+  ],
+  "caption": "A simple, white, 3d-rendered metal door frame."
 }

@@ -9,6 +9,20 @@
     "furniture",
     "couch",
     "blue",
-    "comfy"
-  ]
+    "comfy",
+    "chair",
+    "comfort",
+    "cushion",
+    "dining",
+    "fabric",
+    "kitchen",
+    "loveseat",
+    "office",
+    "relaxation",
+    "rest",
+    "resting",
+    "seat",
+    "sitting"
+  ],
+  "caption": "A blue loveseat with two cushions in a."
 }

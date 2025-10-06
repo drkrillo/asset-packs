@@ -7,6 +7,20 @@
     "mushroom",
     "herb",
     "forest",
-    "ingredient"
-  ]
+    "ingredient",
+    "branch",
+    "environment",
+    "foliage",
+    "fungal",
+    "fungi",
+    "leaves",
+    "magical",
+    "mycology",
+    "natural",
+    "nature",
+    "organic",
+    "outdoor",
+    "roots"
+  ],
+  "caption": "A blue mushroom with a tree on top."
 }

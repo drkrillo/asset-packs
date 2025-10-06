@@ -2,5 +2,22 @@
   "id": "3175f432-bcb8-4ce9-a75a-837848c41bf4",
   "name": "Well",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "aquatic",
+    "architecture",
+    "building",
+    "defense",
+    "fluid",
+    "fortress",
+    "lake",
+    "liquid",
+    "ocean",
+    "palace",
+    "river",
+    "royal",
+    "stronghold",
+    "structure",
+    "water"
+  ],
+  "caption": "A traditional-style water well with a wooden structure on top."
 }

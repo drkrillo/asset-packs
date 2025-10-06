@@ -9,6 +9,14 @@
     "decoration",
     "tire",
     "rubber",
-    "construction"
-  ]
+    "construction",
+    "automotive",
+    "driving",
+    "furniture",
+    "hubcap",
+    "speed",
+    "transportation",
+    "vehicle"
+  ],
+  "caption": "A black rubber tire with a silver hubcap."
 }

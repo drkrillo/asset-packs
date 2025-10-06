@@ -2,5 +2,13 @@
   "id": "0b1a90ee-fc49-4ed7-bc47-2cb8e4a6d813",
   "name": "Pebbles - Yellow",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "block",
+    "geometric",
+    "pebbles",
+    "pixel",
+    "pixelated",
+    "shape"
+  ],
+  "caption": "A 3d block with a yellow texture, resembling a pixelated cube."
 }

@@ -11,6 +11,18 @@
     "garbage",
     "can",
     "street",
-    "city"
-  ]
+    "city",
+    "alley",
+    "bin",
+    "cleaning",
+    "container",
+    "disposal",
+    "dumpster",
+    "outdoor",
+    "receptacle",
+    "recycling",
+    "urban",
+    "waste"
+  ],
+  "caption": "An urban trash can."
 }

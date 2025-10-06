@@ -2,5 +2,19 @@
   "id": "94bbf88f-cd93-4531-8bda-d93e8dfffb8f",
   "name": "Floor - Black",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "base",
+    "concrete",
+    "dark",
+    "flat",
+    "floor",
+    "foundation",
+    "geometric",
+    "ground",
+    "pavement",
+    "solid",
+    "surface",
+    "tile"
+  ],
+  "caption": "A black floor with a simple geometric design."
 }

@@ -2,5 +2,17 @@
   "id": "0d0b9fb9-0055-42e5-b39c-ed21e0782b2b",
   "name": "Street Straw",
   "category": "nature",
-  "tags": []
+  "tags": [
+    "beverage",
+    "container",
+    "drinking",
+    "function",
+    "geometric",
+    "pattern",
+    "shape",
+    "straw",
+    "surface",
+    "utility"
+  ],
+  "caption": "A straw-like object with a geometric pattern on its surface."
 }

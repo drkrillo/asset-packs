@@ -2,5 +2,18 @@
   "id": "eea5cbb5-a4d6-4c7b-83e5-29917224961b",
   "name": "Mines Car Track Crossover",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "box",
+    "container",
+    "crate",
+    "drum",
+    "furniture",
+    "interior",
+    "lighter",
+    "storage",
+    "tank",
+    "top",
+    "vessel"
+  ],
+  "caption": "A cross-sectioned wooden crate with a brown top and bottom, and a lighter brown interior."
 }

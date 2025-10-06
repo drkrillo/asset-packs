@@ -2,5 +2,20 @@
   "id": "1a46ab08-93f2-4bc0-b49f-99647a955447",
   "name": "Awning 5M",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "dark",
+    "desk",
+    "dining",
+    "flat",
+    "furniture",
+    "kitchen",
+    "legs",
+    "office",
+    "surface",
+    "table",
+    "top",
+    "woodwork",
+    "workspace"
+  ],
+  "caption": "A simple, flat-topped wooden table with a dark brown top and black legs."
 }

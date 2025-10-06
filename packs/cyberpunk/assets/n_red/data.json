@@ -2,5 +2,16 @@
   "id": "bdf6fabe-68f6-4672-b2ff-072b0368abb5",
   "name": "N Red",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "dimensional",
+    "font",
+    "form",
+    "glyph",
+    "graphic",
+    "letter",
+    "outline",
+    "shape",
+    "typography"
+  ],
+  "caption": "A red letter 'n' in a three-dimensional rendering style."
 }

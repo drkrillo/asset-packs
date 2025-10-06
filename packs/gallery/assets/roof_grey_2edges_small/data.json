@@ -2,5 +2,15 @@
   "id": "2ee77d2d-5eca-447b-9d51-5d52f7b6b270",
   "name": "Roof - Grey 2Edges Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architectural",
+    "building",
+    "edge",
+    "flat",
+    "roof",
+    "roofing",
+    "slanted",
+    "structural"
+  ],
+  "caption": "A simple grey 2-edged roof with a small size."
 }

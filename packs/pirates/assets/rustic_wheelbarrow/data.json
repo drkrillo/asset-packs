@@ -14,6 +14,22 @@
     "steel",
     "tire",
     "felloes",
-    "box"
-  ]
+    "box",
+    "barrow",
+    "bed",
+    "bedroom",
+    "cargo",
+    "container",
+    "flat",
+    "furniture",
+    "gardening",
+    "load",
+    "mattress",
+    "pillow",
+    "rest",
+    "sleep",
+    "storage",
+    "transport"
+  ],
+  "caption": "A simple, wooden wheelbarrow with a flat bed."
 }

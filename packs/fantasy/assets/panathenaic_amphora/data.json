@@ -6,6 +6,17 @@
     "fantasy",
     "vase",
     "liquid",
-    "ceramic"
-  ]
+    "ceramic",
+    "amphora",
+    "artifact",
+    "container",
+    "greek",
+    "handle",
+    "lid",
+    "relic",
+    "storage",
+    "urn",
+    "vessel"
+  ],
+  "caption": "An ancient greek-style vase with handles on either side and a lid at the top."
 }

@@ -8,6 +8,18 @@
     "pirates",
     "decorations",
     "bag",
-    "sand"
-  ]
+    "sand",
+    "desert",
+    "dust",
+    "earth",
+    "grain",
+    "ground",
+    "landscape",
+    "rubble",
+    "sack",
+    "sandbag",
+    "soil",
+    "terrain"
+  ],
+  "caption": "A single brown sandbag."
 }

@@ -6,6 +6,16 @@
     "fantasy",
     "skirting",
     "board",
-    "baseboard"
-  ]
+    "baseboard",
+    "diamond",
+    "furniture",
+    "interior",
+    "luxurious",
+    "molding",
+    "ornate",
+    "patterned",
+    "room",
+    "trim"
+  ],
+  "caption": "A luxurious diamond-patterned skirting board."
 }

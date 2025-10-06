@@ -2,5 +2,20 @@
   "id": "531682f7-8ab9-400e-a690-91b8be211871",
   "name": "Grave 07",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "block",
+    "box",
+    "flat",
+    "form",
+    "polyhedron",
+    "prism",
+    "prismoid",
+    "rectangle",
+    "rectangular",
+    "shape",
+    "solid",
+    "structure",
+    "top"
+  ],
+  "caption": "A simple, flat-topped rectangular prism."
 }

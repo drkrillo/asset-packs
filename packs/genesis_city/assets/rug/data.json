@@ -10,6 +10,16 @@
     "rug",
     "carpet",
     "brown",
-    "old"
-  ]
+    "old",
+    "border",
+    "center",
+    "fabric",
+    "floor",
+    "interior",
+    "pattern",
+    "rectangle",
+    "room",
+    "surface"
+  ],
+  "caption": "A rectangular rug with a red border and a brown center."
 }

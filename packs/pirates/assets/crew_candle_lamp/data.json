@@ -12,6 +12,20 @@
     "crew",
     "ship",
     "flagship",
-    "night"
-  ]
+    "night",
+    "ambiance",
+    "burning",
+    "combustion",
+    "cozy",
+    "desk",
+    "dining",
+    "fire",
+    "flame",
+    "furniture",
+    "glow",
+    "heat",
+    "interior",
+    "kitchen"
+  ],
+  "caption": "A blue lantern with a candle inside."
 }

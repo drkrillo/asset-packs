@@ -2,5 +2,21 @@
   "id": "1ca4d832-7b86-4e7f-9d31-0e3b5b6c6cbb",
   "name": "Tree 3",
   "category": "nature",
-  "tags": []
+  "tags": [
+    "bare",
+    "branch",
+    "deciduous",
+    "evergreen",
+    "foliage",
+    "forest",
+    "leafless",
+    "leaves",
+    "nature",
+    "outdoor",
+    "roots",
+    "stump",
+    "tree",
+    "trunk"
+  ],
+  "caption": "A small tree with no leaves."
 }

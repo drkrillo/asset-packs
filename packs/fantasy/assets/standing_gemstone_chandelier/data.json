@@ -8,6 +8,17 @@
     "gemstone",
     "chandelier",
     "gold",
-    "golden"
-  ]
+    "golden",
+    "centerpiece",
+    "crystal",
+    "display",
+    "fixture",
+    "jewel",
+    "lighting",
+    "luxury",
+    "pedestal",
+    "searchable",
+    "standing"
+  ],
+  "caption": "A golden chandelier with blue gemstones."
 }

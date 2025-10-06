@@ -2,5 +2,18 @@
   "id": "8cc2305f-d645-4437-8db1-6ce64e98b487",
   "name": "Sand",
   "category": "ground",
-  "tags": []
+  "tags": [
+    "abrasive",
+    "beach",
+    "desert",
+    "dune",
+    "dust",
+    "grain",
+    "granular",
+    "sand",
+    "sandstone",
+    "sediment",
+    "yellowish"
+  ],
+  "caption": "A yellowish-white texture that resembles sand."
 }

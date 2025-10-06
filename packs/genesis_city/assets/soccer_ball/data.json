@@ -12,6 +12,15 @@
     "football",
     "soccer",
     "sports",
-    "sport"
-  ]
+    "sport",
+    "field",
+    "goal",
+    "kick",
+    "pass",
+    "play",
+    "round",
+    "score",
+    "stadium"
+  ],
+  "caption": "A soccer ball."
 }

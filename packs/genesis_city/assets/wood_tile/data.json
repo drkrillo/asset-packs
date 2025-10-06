@@ -14,6 +14,17 @@
     "backyard",
     "yard",
     "tile",
-    "deck"
-  ]
+    "deck",
+    "earthy",
+    "flat",
+    "floor",
+    "ground",
+    "natural",
+    "plank",
+    "rustic",
+    "surface",
+    "terrain",
+    "timber"
+  ],
+  "caption": "A single wooden tile with a flat surface."
 }

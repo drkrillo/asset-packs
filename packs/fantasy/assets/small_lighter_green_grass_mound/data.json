@@ -7,6 +7,20 @@
     "mound",
     "forest",
     "grass",
-    "evergreen"
-  ]
+    "evergreen",
+    "environment",
+    "field",
+    "foliage",
+    "ground",
+    "growth",
+    "herb",
+    "landscape",
+    "lawn",
+    "meadow",
+    "nature",
+    "outdoor",
+    "plant",
+    "terrain"
+  ],
+  "caption": "A small mound of grass with a lighter green color."
 }

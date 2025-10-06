@@ -12,6 +12,19 @@
     "actors",
     "light",
     "show",
-    "street"
-  ]
+    "street",
+    "architecture",
+    "awning",
+    "branch",
+    "building",
+    "foliage",
+    "forest",
+    "lights",
+    "nature",
+    "outdoor",
+    "stage",
+    "structure",
+    "trunk"
+  ],
+  "caption": "Small street theater with awning and stage lights."
 }

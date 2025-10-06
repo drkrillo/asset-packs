@@ -2,5 +2,17 @@
   "id": "a7de3c4a-4629-46cc-bea8-7e967a10c7ab",
   "name": "Barrel 4",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "background",
+    "band",
+    "barrels",
+    "container",
+    "drum",
+    "row",
+    "seal",
+    "storage",
+    "tank",
+    "vessel"
+  ],
+  "caption": "Four wooden barrels with metal bands and red seals, arranged in a row against a black background."
 }

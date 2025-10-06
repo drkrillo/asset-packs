@@ -7,6 +7,19 @@
     "power",
     "spark",
     "base",
-    "spaceship"
-  ]
+    "spaceship",
+    "beacon",
+    "bright",
+    "glow",
+    "glowing",
+    "glowstick",
+    "illumination",
+    "led",
+    "luminescence",
+    "luminous",
+    "radiance",
+    "radiant",
+    "shining"
+  ],
+  "caption": "A simple, white, light-emitting cube with a single light source on its side."
 }

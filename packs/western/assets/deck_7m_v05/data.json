@@ -2,5 +2,15 @@
   "id": "bc3e0a38-7246-417c-8c76-6aa81c5c966d",
   "name": "Deck 7M v05",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "architecture",
+    "barrier",
+    "building",
+    "deck",
+    "outdoor",
+    "railing",
+    "structure",
+    "surface"
+  ],
+  "caption": "A wooden deck with a railing."
 }

@@ -11,6 +11,20 @@
     "water",
     "tiered",
     "fountain",
-    "plaza"
-  ]
+    "plaza",
+    "aquatic",
+    "architectural",
+    "basin",
+    "flow",
+    "flowing",
+    "fluid",
+    "fountainhead",
+    "lake",
+    "liquid",
+    "ocean",
+    "pool",
+    "river",
+    "spirit"
+  ],
+  "caption": "A three-tiered fountain with flowing water."
 }

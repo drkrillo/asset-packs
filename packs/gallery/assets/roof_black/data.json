@@ -2,5 +2,21 @@
   "id": "0d67ab09-6591-44dc-bc70-2fd1dbc49d06",
   "name": "Roof - Black",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architectural",
+    "asphalt",
+    "building",
+    "covering",
+    "dark",
+    "exterior",
+    "facade",
+    "finish",
+    "flat",
+    "roof",
+    "roofing",
+    "searchable",
+    "shingled",
+    "structural"
+  ],
+  "caption": "A black roof."
 }

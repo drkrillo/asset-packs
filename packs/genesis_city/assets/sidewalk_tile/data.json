@@ -11,6 +11,14 @@
     "path",
     "sidewalk",
     "city",
-    "tile"
-  ]
+    "tile",
+    "architecture",
+    "concrete",
+    "ground",
+    "pattern",
+    "pavement",
+    "surface",
+    "walkway"
+  ],
+  "caption": "A sidewalk tile."
 }

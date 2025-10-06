@@ -2,5 +2,19 @@
   "id": "a0c2c372-6e30-425b-afd1-ece5c83b4382",
   "name": "Stone with Cow Skull",
   "category": "nature",
-  "tags": []
+  "tags": [
+    "animal",
+    "cow",
+    "earthy",
+    "furniture",
+    "head",
+    "landscape",
+    "nature",
+    "outdoor",
+    "rural",
+    "rustic",
+    "skull",
+    "terrain"
+  ],
+  "caption": "A rock with a cow skull on top."
 }

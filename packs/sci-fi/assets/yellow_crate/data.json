@@ -5,6 +5,15 @@
   "tags": [
     "scifi",
     "box",
-    "storage"
-  ]
+    "storage",
+    "container",
+    "crate",
+    "drum",
+    "switch",
+    "tank",
+    "transport",
+    "vehicle",
+    "vessel"
+  ],
+  "caption": "A yellow crate with a red switch on top."
 }

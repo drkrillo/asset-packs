@@ -10,6 +10,21 @@
     "cobblestones",
     "stone",
     "stones",
-    "path"
-  ]
+    "path",
+    "asphalt",
+    "block",
+    "brick",
+    "concrete",
+    "floor",
+    "grid",
+    "ground",
+    "pattern",
+    "pavement",
+    "slab",
+    "slabs",
+    "surface",
+    "tile",
+    "tone"
+  ],
+  "caption": "A collection of gray tiles or slabs arranged in a grid pattern."
 }

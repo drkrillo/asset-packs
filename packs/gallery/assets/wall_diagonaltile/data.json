@@ -2,5 +2,21 @@
   "id": "e3640340-98f0-4ba2-a03f-d993f031ff65",
   "name": "Wall - DiagonalTile",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architectural",
+    "building",
+    "diagonal",
+    "divider",
+    "filler",
+    "floor",
+    "geometric",
+    "interior",
+    "pattern",
+    "rectangular",
+    "room",
+    "shape",
+    "space",
+    "structural"
+  ],
+  "caption": "A wall with diagonal tiles."
 }

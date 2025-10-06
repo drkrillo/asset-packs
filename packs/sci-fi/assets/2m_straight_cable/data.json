@@ -7,6 +7,16 @@
     "energy",
     "power",
     "electricity",
-    "connectors"
-  ]
+    "connectors",
+    "appearance",
+    "attachment",
+    "cable",
+    "connection",
+    "fixture",
+    "function",
+    "straight",
+    "utility",
+    "wire"
+  ],
+  "caption": "A straight cable with a yellow object attached to it."
 }

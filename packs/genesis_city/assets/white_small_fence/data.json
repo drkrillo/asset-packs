@@ -15,6 +15,16 @@
     "garden",
     "backyard",
     "yard",
-    "farm"
-  ]
+    "farm",
+    "barrier",
+    "boundary",
+    "enclosure",
+    "geometric",
+    "linear",
+    "minimalist",
+    "picket",
+    "rectangular",
+    "structure"
+  ],
+  "caption": "A simple, small, white fence."
 }

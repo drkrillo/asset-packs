@@ -7,6 +7,18 @@
     "power",
     "spark",
     "base",
-    "spaceship"
-  ]
+    "spaceship",
+    "architecture",
+    "building",
+    "monument",
+    "mystic",
+    "ornamentation",
+    "paganism",
+    "pagoda",
+    "shrine",
+    "spiritual",
+    "structure",
+    "tower"
+  ],
+  "caption": "A pagoda with blue lights on top."
 }

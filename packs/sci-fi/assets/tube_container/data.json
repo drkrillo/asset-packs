@@ -6,6 +6,15 @@
     "scifi",
     "storage",
     "spaceship",
-    "lab"
-  ]
+    "lab",
+    "cap",
+    "caps",
+    "colored",
+    "container",
+    "cylindrical",
+    "form",
+    "shape",
+    "tube"
+  ],
+  "caption": "Two 3d models of tubes with different colored caps."
 }

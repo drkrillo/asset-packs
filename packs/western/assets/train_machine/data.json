@@ -2,5 +2,20 @@
   "id": "33759e65-8fb6-41ce-ad95-ee5d4267ddd3",
   "name": "Train Machine",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "carriage",
+    "chimney",
+    "coal",
+    "engine",
+    "locomotive",
+    "machine",
+    "rail",
+    "steam",
+    "train",
+    "transportation",
+    "vehicle",
+    "wagon",
+    "window"
+  ],
+  "caption": "A black train with yellow stripes on its side, featuring two windows and a chimney."
 }

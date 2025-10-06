@@ -7,6 +7,15 @@
     "paper",
     "papyrus",
     "scroll",
-    "rune"
-  ]
+    "rune",
+    "arcane",
+    "artifact",
+    "enchanted",
+    "magical",
+    "mystic",
+    "parchment",
+    "relic",
+    "triangle"
+  ],
+  "caption": "A scroll with a red triangle on it."
 }

@@ -12,6 +12,18 @@
     "gold",
     "bronze",
     "wax",
-    "light"
-  ]
+    "light",
+    "antique",
+    "burning",
+    "candle",
+    "candlestick",
+    "combustion",
+    "fire",
+    "flame",
+    "heat",
+    "holder",
+    "lamp",
+    "smoke"
+  ],
+  "caption": "An old-fashioned candle holder with a single lit candle."
 }

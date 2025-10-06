@@ -13,6 +13,15 @@
     "rocks",
     "sand",
     "sandy",
-    "beach"
-  ]
+    "beach",
+    "earthy",
+    "geological",
+    "ground",
+    "landscape",
+    "mineral",
+    "natural",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A brown rock with a smooth surface."
 }

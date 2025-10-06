@@ -2,5 +2,14 @@
   "id": "fb89334d-8604-4b2d-bcc6-3e7d88b801df",
   "name": "Fence Black - Red",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "barrier",
+    "boundary",
+    "enclosure",
+    "landscape",
+    "pattern",
+    "structure",
+    "wavy"
+  ],
+  "caption": "A black and red fence with a wavy pattern."
 }

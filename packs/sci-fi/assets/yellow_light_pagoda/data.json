@@ -7,6 +7,16 @@
     "power",
     "spark",
     "base",
-    "spaceship"
-  ]
+    "spaceship",
+    "architecture",
+    "building",
+    "monument",
+    "pagoda",
+    "pagodan",
+    "structure",
+    "stylized",
+    "tiered",
+    "tower"
+  ],
+  "caption": "A stylized, three-tiered pagoda."
 }

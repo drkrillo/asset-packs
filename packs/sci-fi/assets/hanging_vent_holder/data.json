@@ -6,6 +6,18 @@
     "scifi",
     "air",
     "vent",
-    "hang"
-  ]
+    "hang",
+    "attachment",
+    "bracket",
+    "cleaning",
+    "filter",
+    "fixture",
+    "hanging",
+    "holder",
+    "industrial",
+    "maintenance",
+    "searchable",
+    "ventilation"
+  ],
+  "caption": "A hanging vent holder."
 }

@@ -2,5 +2,19 @@
   "id": "1fcfb7f5-c974-4b8b-99aa-f99eacf98fb4",
   "name": "Window 2x4 V2 Frame",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "bars",
+    "doorframe",
+    "frame",
+    "glassless",
+    "header",
+    "rectangle",
+    "shape",
+    "sill",
+    "transparent",
+    "window",
+    "windowframe",
+    "windowpane"
+  ],
+  "caption": "A simple window frame with two vertical bars and four horizontal bars."
 }

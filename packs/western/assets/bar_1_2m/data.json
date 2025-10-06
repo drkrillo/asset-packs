@@ -2,5 +2,19 @@
   "id": "409a19ce-4c9d-450f-96f7-48ff2e4d98ff",
   "name": "Bar 1 2M",
   "category": "furniture",
-  "tags": []
+  "tags": [
+    "dark",
+    "desk",
+    "dining",
+    "drawer",
+    "furniture",
+    "kitchen",
+    "maple",
+    "oak",
+    "pine",
+    "seating",
+    "surface",
+    "table"
+  ],
+  "caption": "A simple, dark brown wooden desk with two drawers."
 }

@@ -2,5 +2,18 @@
   "id": "ca691e0a-064d-44ec-95f5-2a0f751190cd",
   "name": "Roof - Metal 2Edges",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "edge",
+    "facade",
+    "flat",
+    "metallic",
+    "metalwork",
+    "roof",
+    "roofed",
+    "roofing",
+    "structure"
+  ],
+  "caption": "A simple, flat-roofed structure with two visible edges, likely representing a metal roof in a 3d modeling context."
 }

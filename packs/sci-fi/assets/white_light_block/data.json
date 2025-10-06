@@ -7,6 +7,20 @@
     "power",
     "spark",
     "base",
-    "spaceship"
-  ]
+    "spaceship",
+    "back",
+    "block",
+    "bottom",
+    "curved",
+    "flat",
+    "front",
+    "glowing",
+    "illumination",
+    "luminous",
+    "radiant",
+    "rectangular",
+    "top",
+    "transparent"
+  ],
+  "caption": "A simple, rectangular, light-colored block with a flat top and bottom, and a slightly curved front and back face."
 }

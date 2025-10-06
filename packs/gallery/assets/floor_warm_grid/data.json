@@ -2,5 +2,15 @@
   "id": "4aa17c2a-f2d0-4ec7-976e-6458a58145f7",
   "name": "Floor - Warm Grid",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "background",
+    "floor",
+    "graphic",
+    "grid",
+    "layout",
+    "pattern",
+    "visual",
+    "warm"
+  ],
+  "caption": "A black and white graphic of a red grid pattern."
 }

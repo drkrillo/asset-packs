@@ -2,5 +2,17 @@
   "id": "5eccc147-a071-46ca-ac8c-999f7fec8daa",
   "name": "Solid Violet Pattern",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "dye",
+    "fabric",
+    "hue",
+    "pattern",
+    "pigment",
+    "shape",
+    "solid",
+    "surface",
+    "tone",
+    "violet"
+  ],
+  "caption": "A purple cube with a patterned texture on its surface."
 }

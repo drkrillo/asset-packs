@@ -2,5 +2,18 @@
   "id": "aa472f61-9c26-4a9b-918f-f65bf02edc91",
   "name": "Tree 2",
   "category": "nature",
-  "tags": []
+  "tags": [
+    "barren",
+    "branch",
+    "foliage",
+    "forest",
+    "leafless",
+    "leaves",
+    "nature",
+    "outdoor",
+    "roots",
+    "tree",
+    "trunk"
+  ],
+  "caption": "A small leafless tree with brown branches and rocks at its base."
 }

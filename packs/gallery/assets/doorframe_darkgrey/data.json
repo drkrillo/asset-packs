@@ -2,5 +2,19 @@
   "id": "c0766135-6325-46cf-906a-540787d4547d",
   "name": "Doorframe - DarkGrey",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "arch",
+    "corridor",
+    "dark",
+    "darkgrey",
+    "doorframe",
+    "doorway",
+    "entrance",
+    "frame",
+    "interior",
+    "passage",
+    "portal",
+    "room"
+  ],
+  "caption": "A dark grey door frame in a style."
 }

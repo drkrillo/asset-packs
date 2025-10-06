@@ -2,5 +2,20 @@
   "id": "5bd22d08-9226-4a94-9f8f-b127860cabdb",
   "name": "Mines Car Track 3M Jiggle",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "freight",
+    "locomotive",
+    "plank",
+    "planks",
+    "railcar",
+    "railroad",
+    "rails",
+    "railway",
+    "roadbed",
+    "station",
+    "timber",
+    "track",
+    "train"
+  ],
+  "caption": "A train track with wooden planks on top."
 }

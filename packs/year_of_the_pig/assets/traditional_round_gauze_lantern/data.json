@@ -7,6 +7,19 @@
     "lantern",
     "light",
     "gauze",
-    "red"
-  ]
+    "red",
+    "burning",
+    "candle",
+    "combustion",
+    "cover",
+    "fire",
+    "flame",
+    "glow",
+    "heat",
+    "lanternlight",
+    "round",
+    "smoke",
+    "wick"
+  ],
+  "caption": "A red lantern with a yellow gauze cover."
 }

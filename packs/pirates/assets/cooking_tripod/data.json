@@ -10,6 +10,17 @@
     "stick",
     "sticks",
     "rope",
-    "hook"
-  ]
+    "hook",
+    "camping",
+    "campinggear",
+    "campingtrip",
+    "gear",
+    "hiking",
+    "key",
+    "outdoor",
+    "portable",
+    "travel",
+    "tripod"
+  ],
+  "caption": "A camping tripod with a key hanging from it."
 }

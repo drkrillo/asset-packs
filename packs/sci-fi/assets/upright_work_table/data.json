@@ -6,6 +6,17 @@
     "scifi",
     "base",
     "tool",
-    "work"
-  ]
+    "work",
+    "accent",
+    "desk",
+    "dining",
+    "furniture",
+    "kitchen",
+    "office",
+    "room",
+    "surface",
+    "table",
+    "workspace"
+  ],
+  "caption": "A stylized, modern-looking blue table with orange accents, placed on a black surface."
 }

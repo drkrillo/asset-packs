@@ -7,6 +7,15 @@
     "tile",
     "cobblestone",
     "stone",
-    "corner"
-  ]
+    "corner",
+    "architecture",
+    "building",
+    "dark",
+    "ground",
+    "pattern",
+    "structure",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A single dark cobblestone tile with a corner design."
 }

@@ -12,6 +12,18 @@
     "treasure",
     "chest",
     "lootbox",
-    "loot"
-  ]
+    "loot",
+    "booty",
+    "box",
+    "chestnut",
+    "compartment",
+    "container",
+    "handle",
+    "lid",
+    "lock",
+    "storage",
+    "treasurechest",
+    "trunk"
+  ],
+  "caption": "A treasure chest with a handle on top."
 }

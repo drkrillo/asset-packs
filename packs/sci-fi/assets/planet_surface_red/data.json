@@ -5,6 +5,17 @@
   "tags": [
     "scifi",
     "tile",
-    "planet"
-  ]
+    "planet",
+    "desert",
+    "earth",
+    "environment",
+    "ground",
+    "landscape",
+    "rocky",
+    "sand",
+    "soil",
+    "surface",
+    "terrain"
+  ],
+  "caption": "An orange resembling a planet surface."
 }

@@ -8,6 +8,19 @@
     "cup",
     "beverage",
     "drink",
-    "drinks"
-  ]
+    "drinks",
+    "award",
+    "champion",
+    "container",
+    "crystal",
+    "glass",
+    "goblet",
+    "prize",
+    "trophy",
+    "vessel",
+    "victor",
+    "victory",
+    "winner"
+  ],
+  "caption": "A tall, slender, white chalice with a small red object inside it."
 }

@@ -2,5 +2,22 @@
   "id": "6820c506-a201-4448-bf5b-2b46ba50868e",
   "name": "Control Panel",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "buttons",
+    "control",
+    "controls",
+    "dials",
+    "display",
+    "humanmachineinteraction",
+    "interface",
+    "interfaces",
+    "knobs",
+    "panel",
+    "panels",
+    "settings",
+    "sliders",
+    "touchscreens",
+    "userinterface"
+  ],
+  "caption": "A control panel with various buttons and sliders."
 }

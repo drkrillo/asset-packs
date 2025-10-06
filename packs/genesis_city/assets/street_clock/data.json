@@ -13,6 +13,20 @@
     "city",
     "hour",
     "hours",
-    "post"
-  ]
+    "post",
+    "clockwork",
+    "dial",
+    "display",
+    "face",
+    "faceplate",
+    "gear",
+    "hourglass",
+    "indicator",
+    "mechanism",
+    "numerals",
+    "sundial",
+    "timepiece",
+    "timer"
+  ],
+  "caption": "A street clock."
 }

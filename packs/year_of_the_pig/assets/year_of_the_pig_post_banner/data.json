@@ -7,6 +7,17 @@
     "post",
     "pig",
     "banner",
-    "flag"
-  ]
+    "flag",
+    "advertisement",
+    "animal",
+    "celebration",
+    "festive",
+    "graphic",
+    "holiday",
+    "mascot",
+    "poster",
+    "seasonal",
+    "year"
+  ],
+  "caption": "A banner."
 }

@@ -2,5 +2,15 @@
   "id": "8f9a8a39-d726-4150-b31f-103d9dd8cab3",
   "name": "Roof - Orange Corner Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "corner",
+    "exterior",
+    "facade",
+    "roof",
+    "roofing",
+    "structure"
+  ],
+  "caption": "A small orange corner roof."
 }

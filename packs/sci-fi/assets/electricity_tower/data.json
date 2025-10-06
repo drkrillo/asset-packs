@@ -7,6 +7,18 @@
     "electric",
     "electricity",
     "power",
-    "laser"
-  ]
+    "laser",
+    "building",
+    "electrical",
+    "grid",
+    "high",
+    "infrastructure",
+    "pole",
+    "structure",
+    "tower",
+    "transmission",
+    "utility",
+    "voltage"
+  ],
+  "caption": "An electricity tower with four poles."
 }

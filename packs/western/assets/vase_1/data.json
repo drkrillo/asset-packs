@@ -2,5 +2,17 @@
   "id": "931493de-9be2-4470-a3e6-299c96b5ea6a",
   "name": "Vase 1",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "centerpiece",
+    "ceramic",
+    "container",
+    "figurine",
+    "handle",
+    "pot",
+    "pottery",
+    "tableware",
+    "vase",
+    "vessel"
+  ],
+  "caption": "A brown vase with a handle on top."
 }

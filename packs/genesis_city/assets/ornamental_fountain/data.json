@@ -10,6 +10,17 @@
     "water",
     "fountain",
     "park",
-    "garden"
-  ]
+    "garden",
+    "aquatic",
+    "architectural",
+    "base",
+    "central",
+    "fluid",
+    "lake",
+    "landscaping",
+    "liquid",
+    "ocean",
+    "outdoor"
+  ],
+  "caption": "An ornamental fountain with a circular base and a central spout."
 }

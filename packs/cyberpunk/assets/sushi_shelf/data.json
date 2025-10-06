@@ -2,5 +2,22 @@
   "id": "7fae1525-9266-4ea3-adeb-8ad194b0241c",
   "name": "Sushi Shelf",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "compartment",
+    "container",
+    "desk",
+    "dining",
+    "dish",
+    "food",
+    "furniture",
+    "kitchen",
+    "roll",
+    "serving",
+    "shelf",
+    "storage",
+    "surface",
+    "sushi",
+    "table"
+  ],
+  "caption": "A sushi shelf with multiple compartments for holding sushi rolls."
 }

@@ -6,6 +6,15 @@
     "scifi",
     "cosmic",
     "hole",
-    "planet"
-  ]
+    "planet",
+    "crater",
+    "earth",
+    "formation",
+    "landscape",
+    "shape",
+    "structure",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A red, geometrically shaped object with a smooth surface, resembling a crater or dome-like structure."
 }

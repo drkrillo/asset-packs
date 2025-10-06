@@ -2,5 +2,18 @@
   "id": "dd0f3d0b-80e3-48a9-bf09-cfdc7378d025",
   "name": "Window - Purple Large",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "furniture",
+    "generated",
+    "glass",
+    "hue",
+    "interior",
+    "rectangular",
+    "room",
+    "shade",
+    "shape",
+    "tint",
+    "window"
+  ],
+  "caption": "A large purple window with a rectangular shape."
 }

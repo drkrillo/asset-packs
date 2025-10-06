@@ -7,6 +7,14 @@
     "fence",
     "iron",
     "stone",
-    "module"
-  ]
+    "module",
+    "barrier",
+    "boundary",
+    "defense",
+    "enclosure",
+    "fortification",
+    "sentinel",
+    "structure"
+  ],
+  "caption": "Small black iron fence with green spirals on top."
 }

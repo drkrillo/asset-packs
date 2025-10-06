@@ -10,6 +10,16 @@
     "bottle",
     "drink",
     "beverage",
-    "alcohol"
-  ]
+    "alcohol",
+    "beer",
+    "container",
+    "drum",
+    "fuel",
+    "glass",
+    "petroleum",
+    "storage",
+    "tank",
+    "vessel"
+  ],
+  "caption": "A pink bottle."
 }

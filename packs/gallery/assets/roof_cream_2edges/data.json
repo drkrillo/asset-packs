@@ -2,5 +2,18 @@
   "id": "c4dc7330-b030-4e3c-bdee-5e05f42163ef",
   "name": "Roof - Cream 2Edges",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "cream",
+    "edge",
+    "facade",
+    "flat",
+    "rendered",
+    "roof",
+    "structure",
+    "surface",
+    "visible"
+  ],
+  "caption": "A simple, flat-roofed structure with two visible edges, rendered in a cream color."
 }

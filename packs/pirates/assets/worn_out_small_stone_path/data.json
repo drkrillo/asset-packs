@@ -10,6 +10,17 @@
     "cobblestones",
     "stone",
     "stones",
-    "path"
-  ]
+    "path",
+    "decay",
+    "erosion",
+    "gravel",
+    "pathing",
+    "pavement",
+    "stonework",
+    "tear",
+    "terrain",
+    "wear",
+    "worn"
+  ],
+  "caption": "A small stone path with multiple stones in various states of wear and tear."
 }

@@ -2,5 +2,15 @@
   "id": "70cf980b-7bbb-48b5-8dba-96131df1deb7",
   "name": "Chest Gear",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "armor",
+    "container",
+    "drum",
+    "gear",
+    "inventory",
+    "storage",
+    "tank",
+    "vessel"
+  ],
+  "caption": "A chest with a gear on top."
 }

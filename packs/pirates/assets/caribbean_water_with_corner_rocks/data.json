@@ -13,6 +13,20 @@
     "stone",
     "stones",
     "beach",
-    "ocean"
-  ]
+    "ocean",
+    "aquatic",
+    "caribbean",
+    "coastline",
+    "corner",
+    "fluid",
+    "island",
+    "lake",
+    "liquid",
+    "marine",
+    "river",
+    "scenery",
+    "sea",
+    "shore"
+  ],
+  "caption": "A body of water with corner rocks in the caribbean style."
 }

@@ -6,6 +6,14 @@
     "fantasy",
     "forest",
     "grass",
-    "weeds"
-  ]
+    "weeds",
+    "checkmark",
+    "emblem",
+    "glyph",
+    "graphic",
+    "logo",
+    "mark",
+    "visual"
+  ],
+  "caption": "A green checkmark symbol."
 }

@@ -2,5 +2,15 @@
   "id": "e2db1a16-fedd-48e5-97b6-56bf90997f00",
   "name": "Stairs Spiral",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "curved",
+    "flight",
+    "path",
+    "staircase",
+    "stairs",
+    "stairway",
+    "steps",
+    "winding"
+  ],
+  "caption": "A spiral staircase with blue steps."
 }

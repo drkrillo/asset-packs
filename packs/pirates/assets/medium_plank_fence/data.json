@@ -9,6 +9,19 @@
     "structures",
     "wood",
     "wooden",
-    "plank"
-  ]
+    "plank",
+    "barrier",
+    "boundary",
+    "enclosure",
+    "fencepost",
+    "landscape",
+    "medium",
+    "nature",
+    "outdoor",
+    "rustic",
+    "scenery",
+    "searchable",
+    "terrain"
+  ],
+  "caption": "A wooden fence with horizontal planks."
 }

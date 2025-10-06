@@ -9,6 +9,15 @@
     "knowledge",
     "bookshelf",
     "wood",
-    "wooden"
-  ]
+    "wooden",
+    "bookcase",
+    "cabinet",
+    "desk",
+    "drawer",
+    "furniture",
+    "shelf",
+    "storage",
+    "tiered"
+  ],
+  "caption": "A three-tiered wooden bookshelf with drawers on each tier."
 }

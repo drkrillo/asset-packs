@@ -15,6 +15,14 @@
     "garden",
     "backyard",
     "yard",
-    "farm"
-  ]
+    "farm",
+    "end",
+    "fencepost",
+    "marker",
+    "module",
+    "monument",
+    "rectangle",
+    "rectangular"
+  ],
+  "caption": "A simple, white, rectangular object with a pointed top, resembling a stylized letter 'i' or a small monument."
 }

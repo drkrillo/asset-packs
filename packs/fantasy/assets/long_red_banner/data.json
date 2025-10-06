@@ -6,6 +6,14 @@
     "fantasy",
     "red",
     "banner",
-    "court"
-  ]
+    "court",
+    "advertisement",
+    "artwork",
+    "display",
+    "graphic",
+    "poster",
+    "promotional",
+    "visual"
+  ],
+  "caption": "A red banner with a white border."
 }

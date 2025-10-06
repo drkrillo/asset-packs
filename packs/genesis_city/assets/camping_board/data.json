@@ -10,6 +10,21 @@
     "sign",
     "yard",
     "camping",
-    "board"
-  ]
+    "board",
+    "accommodation",
+    "bed",
+    "bedroom",
+    "building",
+    "cabin",
+    "environment",
+    "frame",
+    "furniture",
+    "mattress",
+    "nature",
+    "outdoor",
+    "pillow",
+    "rest",
+    "shelter"
+  ],
+  "caption": "A simple, cartoon-style wooden bed frame."
 }

@@ -2,5 +2,22 @@
   "id": "e49ac29c-f70b-4c4c-99c7-3a463eda5932",
   "name": "Roof - Blue Corner",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "branch",
+    "building",
+    "corner",
+    "environment",
+    "foliage",
+    "forest",
+    "landscape",
+    "leaves",
+    "nature",
+    "outdoor",
+    "roof",
+    "roots",
+    "structure",
+    "terrain"
+  ],
+  "caption": "A blue corner roof."
 }

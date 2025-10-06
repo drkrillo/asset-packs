@@ -7,6 +7,17 @@
     "ceiling",
     "light",
     "gold",
-    "golden"
-  ]
+    "golden",
+    "bulb",
+    "fixture",
+    "furniture",
+    "glow",
+    "interior",
+    "lamp",
+    "lampshade",
+    "lighting",
+    "room",
+    "shade"
+  ],
+  "caption": "Golden ceiling lamp with blue light bulb."
 }

@@ -2,5 +2,16 @@
   "id": "20b49001-ca5c-49a1-bf2d-22aa13b34c63",
   "name": "Roof - Metal Corner Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "corner",
+    "edge",
+    "fragment",
+    "roof",
+    "section",
+    "segment",
+    "strip",
+    "tile",
+    "trim"
+  ],
+  "caption": "A small metal corner roof."
 }

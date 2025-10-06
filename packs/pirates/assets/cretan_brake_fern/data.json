@@ -11,6 +11,17 @@
     "beach",
     "foliage",
     "plant",
-    "plants"
-  ]
+    "plants",
+    "brake",
+    "cretan",
+    "environment",
+    "flora",
+    "herb",
+    "leafy",
+    "outdoor",
+    "textureless",
+    "untextured",
+    "vegetation"
+  ],
+  "caption": "A single green plant with a simple, untextured appearance."
 }

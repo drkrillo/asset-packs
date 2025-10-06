@@ -2,5 +2,18 @@
   "id": "25b44553-7b35-4260-81b9-733961f8c248",
   "name": "WallCorner - Metal ",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "angle",
+    "architecture",
+    "building",
+    "corner",
+    "cornerpiece",
+    "fortress",
+    "joint",
+    "section",
+    "segment",
+    "stronghold",
+    "structural"
+  ],
+  "caption": "A corner piece for a metal wall."
 }

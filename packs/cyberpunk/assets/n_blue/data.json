@@ -2,5 +2,16 @@
   "id": "7bffadb3-de78-454e-a642-b92c0b8ee4db",
   "name": "N Blue",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "alphabet",
+    "digit",
+    "font",
+    "glyph",
+    "letter",
+    "logo",
+    "numeral",
+    "script",
+    "typography"
+  ],
+  "caption": "A blue of a letter 'n'."
 }

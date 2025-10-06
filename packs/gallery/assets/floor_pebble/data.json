@@ -2,5 +2,16 @@
   "id": "d88c0589-ae81-4a6a-b377-70503e170856",
   "name": "Floor - Pebble",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "environment",
+    "floor",
+    "flooring",
+    "ground",
+    "landscape",
+    "pattern",
+    "pebble",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A pebble-textured floor with three different patterns."
 }

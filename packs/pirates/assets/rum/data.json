@@ -10,6 +10,19 @@
     "bottle",
     "drink",
     "beverage",
-    "alcohol"
-  ]
+    "alcohol",
+    "aquatic",
+    "cargo",
+    "container",
+    "flask",
+    "fluid",
+    "glass",
+    "lake",
+    "liquid",
+    "ocean",
+    "package",
+    "river",
+    "shipping"
+  ],
+  "caption": "A blue bottle."
 }

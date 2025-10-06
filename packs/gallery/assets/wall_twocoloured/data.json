@@ -2,5 +2,17 @@
   "id": "e766b9fb-b680-47d2-864a-84db729de9f9",
   "name": "Wall - TwoColoured",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "building",
+    "flat",
+    "interior",
+    "rectangle",
+    "rectangular",
+    "room",
+    "space",
+    "surface",
+    "toned",
+    "twocoloured"
+  ],
+  "caption": "A simple, two-toned, rectangular wall with a yellow top and white bottom."
 }

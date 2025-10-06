@@ -2,5 +2,21 @@
   "id": "2fbeed4a-ea1e-48e5-b715-a432110f418a",
   "name": "Sink Counter",
   "category": "furniture",
-  "tags": []
+  "tags": [
+    "appliance",
+    "basin",
+    "bathroom",
+    "counter",
+    "countertop",
+    "faucet",
+    "fixture",
+    "fixtures",
+    "kitchen",
+    "plumbing",
+    "porcelain",
+    "searchable",
+    "sink",
+    "tile"
+  ],
+  "caption": "A white kitchen counter with two blue sinks and a faucet."
 }

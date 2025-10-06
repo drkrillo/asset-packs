@@ -12,6 +12,14 @@
     "crate",
     "box",
     "fabric",
-    "blanket"
-  ]
+    "blanket",
+    "container",
+    "covered",
+    "drum",
+    "storage",
+    "tank",
+    "trunk",
+    "vessel"
+  ],
+  "caption": "A three-dimensional model of a covered wooden crate."
 }

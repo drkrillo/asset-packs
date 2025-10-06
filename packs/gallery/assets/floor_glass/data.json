@@ -2,5 +2,17 @@
   "id": "f4a4956e-f60a-4108-82c7-41b5ebda6549",
   "name": "Floor - Glass",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "effect",
+    "floor",
+    "glass",
+    "glassy",
+    "pattern",
+    "reflective",
+    "shiny",
+    "surface",
+    "transparent",
+    "visual"
+  ],
+  "caption": "A black and white of a glass floor."
 }

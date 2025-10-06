@@ -9,6 +9,18 @@
     "stones",
     "rock",
     "rocks",
-    "forest"
-  ]
+    "forest",
+    "architecture",
+    "block",
+    "buildingblock",
+    "construction",
+    "fortress",
+    "foundation",
+    "granite",
+    "monument",
+    "stoneblock",
+    "stronghold",
+    "structure"
+  ],
+  "caption": "A set of three gray stone blocks."
 }

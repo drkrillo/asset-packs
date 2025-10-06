@@ -10,6 +10,18 @@
     "cobblestones",
     "stone",
     "stones",
-    "path"
-  ]
+    "path",
+    "dirt",
+    "gravel",
+    "ground",
+    "pavement",
+    "searchable",
+    "smal",
+    "stonepath",
+    "surface",
+    "terrain",
+    "trail",
+    "walkway"
+  ],
+  "caption": "A small stone path, which appears to be a."
 }

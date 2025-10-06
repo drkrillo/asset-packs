@@ -12,6 +12,15 @@
     "beverage",
     "alcohol",
     "paper",
-    "message"
-  ]
+    "message",
+    "container",
+    "glass",
+    "marine",
+    "ocean",
+    "sea",
+    "seaworthy",
+    "shipwreck",
+    "vessel"
+  ],
+  "caption": "A green bottle."
 }

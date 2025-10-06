@@ -2,5 +2,14 @@
   "id": "fe26becf-4ba8-4b1a-8d05-48763bec1930",
   "name": "Mines Model Curve Half",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "container",
+    "curve",
+    "curved",
+    "cylindrical",
+    "food",
+    "shape",
+    "vessel"
+  ],
+  "caption": "A half-cylinder with a smooth curve on top, resembling a piece of food or a container."
 }

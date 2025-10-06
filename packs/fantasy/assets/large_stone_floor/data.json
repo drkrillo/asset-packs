@@ -7,6 +7,14 @@
     "stone",
     "floor",
     "path",
-    "tile"
-  ]
+    "tile",
+    "architecture",
+    "building",
+    "flooring",
+    "granite",
+    "interior",
+    "marble",
+    "surface"
+  ],
+  "caption": "A large stone floor texture."
 }

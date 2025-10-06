@@ -2,5 +2,18 @@
   "id": "c61fb8e3-3d7d-4e92-8aa9-5aaba7e3fd7a",
   "name": "Gear Angled 10 Teeth",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "angle",
+    "angular",
+    "cylindrical",
+    "gear",
+    "machinery",
+    "mechanical",
+    "mechanism",
+    "motion",
+    "rotation",
+    "tooth",
+    "toothed"
+  ],
+  "caption": "A gear with an angled design and ten teeth."
 }

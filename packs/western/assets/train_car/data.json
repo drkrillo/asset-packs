@@ -2,5 +2,20 @@
   "id": "eca11096-8d70-4510-869b-2dba3683ddbb",
   "name": "Train Car",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "armor",
+    "auto",
+    "automobile",
+    "carriage",
+    "coupe",
+    "driving",
+    "locomotive",
+    "sedan",
+    "speed",
+    "train",
+    "transport",
+    "vehicle",
+    "wagon"
+  ],
+  "caption": "A train car with a black roof and white lettering on its side."
 }

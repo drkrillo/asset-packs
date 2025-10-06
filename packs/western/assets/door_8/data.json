@@ -2,5 +2,18 @@
   "id": "6e6a73cd-0918-4b47-aa1a-3db319b939a6",
   "name": "Door 8",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "clear",
+    "entrance",
+    "frame",
+    "glass",
+    "glassy",
+    "interior",
+    "opening",
+    "pane",
+    "transparent",
+    "view",
+    "window"
+  ],
+  "caption": "A window with a brown frame and blue interior."
 }

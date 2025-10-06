@@ -2,5 +2,22 @@
   "id": "7ca3fbac-d29a-4127-8e34-8992a16bc99e",
   "name": "Shotgun 2",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "ammo",
+    "ammunition",
+    "bullet",
+    "combat",
+    "firearm",
+    "firearms",
+    "gun",
+    "hunting",
+    "military",
+    "pellets",
+    "rifle",
+    "searchable",
+    "shell",
+    "shooting",
+    "shotgun"
+  ],
+  "caption": "A shotgun with a wooden stock."
 }

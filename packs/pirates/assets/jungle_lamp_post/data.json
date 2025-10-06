@@ -13,6 +13,20 @@
     "lamps",
     "iron",
     "rope",
-    "post"
-  ]
+    "post",
+    "architecture",
+    "branch",
+    "building",
+    "environment",
+    "foliage",
+    "forest",
+    "greenery",
+    "jungle",
+    "lantern",
+    "leaves",
+    "nature",
+    "outdoor",
+    "roots"
+  ],
+  "caption": "A street lamp post with two hanging lanterns."
 }

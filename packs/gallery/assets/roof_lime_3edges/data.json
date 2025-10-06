@@ -2,5 +2,15 @@
   "id": "af5f5902-1579-4ad8-9a3c-1db2aa39fac5",
   "name": "Roof - Lime 3Edges",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architectural",
+    "building",
+    "edge",
+    "exterior",
+    "facade",
+    "roof",
+    "structure",
+    "tile"
+  ],
+  "caption": "A green of a roof with three edges."
 }

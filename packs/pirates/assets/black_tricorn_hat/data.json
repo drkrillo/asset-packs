@@ -12,6 +12,14 @@
     "red",
     "golden",
     "strips",
-    "feather"
-  ]
+    "feather",
+    "clothing",
+    "costume",
+    "fashion",
+    "headgear",
+    "headpiece",
+    "prop",
+    "tricorn"
+  ],
+  "caption": "A black tricorn hat with a red feather on top."
 }

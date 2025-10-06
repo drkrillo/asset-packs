@@ -7,6 +7,18 @@
     "lab",
     "table",
     "work",
-    "tools"
-  ]
+    "tools",
+    "desk",
+    "dining",
+    "furniture",
+    "grid",
+    "kitchen",
+    "octagon",
+    "octagonal",
+    "pattern",
+    "shape",
+    "surface",
+    "tableware"
+  ],
+  "caption": "An octagonal table with a grid pattern on its surface."
 }

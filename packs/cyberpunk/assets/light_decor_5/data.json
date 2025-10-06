@@ -2,5 +2,15 @@
   "id": "49f3ab80-9023-419e-aa87-87f6a49ce517",
   "name": "Light Decor 5",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "alternating",
+    "geometric",
+    "hexagon",
+    "hexagonal",
+    "pattern",
+    "shape",
+    "stripe",
+    "visual"
+  ],
+  "caption": "A hexagonal pattern with alternating white and black stripes."
 }

@@ -2,5 +2,16 @@
   "id": "77aaa1e0-a99a-4b99-a1a9-3e68d3636bf3",
   "name": "Manhole - Blue",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "access",
+    "concrete",
+    "cover",
+    "lid",
+    "maintenance",
+    "manhole",
+    "pavement",
+    "street",
+    "utility"
+  ],
+  "caption": "A blue manhole cover with a circular design on top."
 }

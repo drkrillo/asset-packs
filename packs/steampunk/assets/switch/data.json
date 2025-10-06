@@ -2,5 +2,19 @@
   "id": "db2af51f-01cb-4f9d-833a-cfa2070bd6a8",
   "name": "Switch",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "buttonhole",
+    "flip",
+    "flipper",
+    "flipswitch",
+    "handle",
+    "mechanism",
+    "switch",
+    "switchblade",
+    "switchgear",
+    "switchplate",
+    "togglebar",
+    "togglebox"
+  ],
+  "caption": "A switch."
 }

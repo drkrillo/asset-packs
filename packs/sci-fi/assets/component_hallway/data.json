@@ -5,6 +5,16 @@
   "tags": [
     "scifi",
     "alien",
-    "base"
-  ]
+    "base",
+    "architecture",
+    "building",
+    "corridor",
+    "fixture",
+    "floor",
+    "interior",
+    "room",
+    "space",
+    "structure"
+  ],
+  "caption": "A hallway component with a white floor and a gray wall."
 }

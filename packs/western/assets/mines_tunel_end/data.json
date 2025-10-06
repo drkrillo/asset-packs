@@ -2,5 +2,22 @@
   "id": "aaea3c23-7535-44fe-84cd-136c3e2390ea",
   "name": "Mines Tunel End",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "bakedgood",
+    "bakery",
+    "baking",
+    "bread",
+    "breadslice",
+    "breakfast",
+    "consumable",
+    "edible",
+    "filling",
+    "food",
+    "hotdog",
+    "loaf",
+    "lunch",
+    "meal",
+    "nutrition"
+  ],
+  "caption": "A slice of bread with a filling that appears to be a hot dog or sandwich."
 }

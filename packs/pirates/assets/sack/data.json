@@ -12,6 +12,19 @@
     "sack",
     "coin",
     "coins",
-    "gold"
-  ]
+    "gold",
+    "bag",
+    "bundle",
+    "cloth",
+    "container",
+    "knotted",
+    "neck",
+    "package",
+    "ribbon",
+    "string",
+    "tie",
+    "tied",
+    "twine"
+  ],
+  "caption": "A brown sack with a yellow ribbon tied around its neck."
 }

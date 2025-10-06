@@ -2,5 +2,20 @@
   "id": "b30392a6-02dc-473e-9eb5-a1f67f972bfe",
   "name": "Road Straight Short",
   "category": "tiles",
-  "tags": []
+  "tags": [
+    "asphalt",
+    "concrete",
+    "highway",
+    "lane",
+    "path",
+    "pavement",
+    "roadbed",
+    "roadblock",
+    "roadway",
+    "route",
+    "straight",
+    "strip",
+    "surface"
+  ],
+  "caption": "A straight road with a short length."
 }

@@ -10,6 +10,19 @@
     "wood",
     "seat",
     "simple",
-    "chair"
-  ]
+    "chair",
+    "backrest",
+    "combat",
+    "comfort",
+    "desk",
+    "dining",
+    "kitchen",
+    "oak",
+    "office",
+    "rest",
+    "sit",
+    "sitting",
+    "steel"
+  ],
+  "caption": "A simple, orange chair with a plain backrest."
 }

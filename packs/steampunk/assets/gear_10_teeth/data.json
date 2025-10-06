@@ -2,5 +2,18 @@
   "id": "c414b036-d5ad-4fa7-ae2d-e0aac26e5be1",
   "name": "Gear 10 Teeth",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "cog",
+    "function",
+    "gear",
+    "industrial",
+    "machine",
+    "machinery",
+    "mechanical",
+    "mechanism",
+    "movement",
+    "rotation",
+    "tooth"
+  ],
+  "caption": "A gear with ten teeth."
 }

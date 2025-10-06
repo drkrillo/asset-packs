@@ -2,5 +2,19 @@
   "id": "09c644f1-7a0a-41bb-b10b-9da376bfd1db",
   "name": "Floor - Glass Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "clear",
+    "flat",
+    "floor",
+    "glass",
+    "glassy",
+    "pane",
+    "reflective",
+    "shiny",
+    "surface",
+    "tabletop",
+    "transparent",
+    "window"
+  ],
+  "caption": "A small glass floor."
 }

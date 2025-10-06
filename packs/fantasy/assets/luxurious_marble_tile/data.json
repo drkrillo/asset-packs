@@ -7,6 +7,14 @@
     "tile",
     "marble",
     "pattern",
-    "luxurious"
-  ]
+    "luxurious",
+    "floor",
+    "furniture",
+    "interior",
+    "luxury",
+    "room",
+    "space",
+    "surface"
+  ],
+  "caption": "A luxurious marble tile with a realistic texture and a simple design."
 }

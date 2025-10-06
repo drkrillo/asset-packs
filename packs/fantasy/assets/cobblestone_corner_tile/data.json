@@ -7,6 +7,15 @@
     "tile",
     "cobblestone",
     "stone",
-    "corner"
-  ]
+    "corner",
+    "crack",
+    "dirt",
+    "erosion",
+    "grime",
+    "path",
+    "pavement",
+    "surface",
+    "wear"
+  ],
+  "caption": "A single gray cobblestone tile with cracks in its surface."
 }

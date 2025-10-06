@@ -2,5 +2,15 @@
   "id": "7066767f-2f78-449d-84fc-a2b5f6615892",
   "name": "E Blue",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "appearance",
+    "dimension",
+    "font",
+    "graphic",
+    "letter",
+    "logo",
+    "stylized",
+    "typography"
+  ],
+  "caption": "A stylized blue letter 'e' with a three-dimensional appearance."
 }

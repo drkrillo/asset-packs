@@ -10,6 +10,19 @@
     "green",
     "desert",
     "wilderness",
-    "garden"
-  ]
+    "garden",
+    "botanical",
+    "cacti",
+    "cactus",
+    "environment",
+    "flora",
+    "foliage",
+    "outdoor",
+    "plant",
+    "prickly",
+    "spiny",
+    "succulent",
+    "vegetation"
+  ],
+  "caption": "A green of a cactus."
 }

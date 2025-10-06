@@ -11,6 +11,20 @@
     "wooden",
     "crate",
     "fabric",
-    "blanket"
-  ]
+    "blanket",
+    "commerce",
+    "cover",
+    "goods",
+    "market",
+    "merchant",
+    "rural",
+    "rustic",
+    "shop",
+    "stall",
+    "stand",
+    "trade",
+    "vendor",
+    "village"
+  ],
+  "caption": "A simple, wooden merchant stand with a cover on top."
 }

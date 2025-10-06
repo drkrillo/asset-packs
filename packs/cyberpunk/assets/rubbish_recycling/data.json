@@ -2,5 +2,19 @@
   "id": "779986f4-8a23-4e5c-94a0-08dbd13c7775",
   "name": "Rubbish Recycling",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "bin",
+    "can",
+    "center",
+    "compartment",
+    "container",
+    "disposal",
+    "label",
+    "recycling",
+    "rubbish",
+    "sorting",
+    "trash",
+    "waste"
+  ],
+  "caption": "A recycling bin with three compartments, each labeled with a different recycling symbol."
 }

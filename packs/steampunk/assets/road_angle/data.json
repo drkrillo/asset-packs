@@ -2,5 +2,19 @@
   "id": "16f2ad21-56ab-4d28-bcce-f818cd390fcf",
   "name": "Road Angle",
   "category": "tiles",
-  "tags": []
+  "tags": [
+    "angle",
+    "bend",
+    "curve",
+    "environment",
+    "highway",
+    "incline",
+    "intersection",
+    "landscape",
+    "scenery",
+    "slope",
+    "terrain",
+    "turn"
+  ],
+  "caption": "A road with an angle, which appears to be a part of a larger scene or project."
 }

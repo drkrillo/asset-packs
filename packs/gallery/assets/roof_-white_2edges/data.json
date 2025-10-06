@@ -2,5 +2,18 @@
   "id": "7773e653-143a-428a-b37c-157b409d0def",
   "name": "Roof -White 2Edges",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "edge",
+    "elevation",
+    "facade",
+    "flat",
+    "roof",
+    "roofed",
+    "roofing",
+    "structure",
+    "surface"
+  ],
+  "caption": "A simple white of a roof with two edges."
 }

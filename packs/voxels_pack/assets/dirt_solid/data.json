@@ -2,5 +2,17 @@
   "id": "96a5de99-593a-42df-813e-20a00b2a1b2f",
   "name": "Dirt - solid",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "block",
+    "dirt",
+    "earth",
+    "gravel",
+    "ground",
+    "land",
+    "mud",
+    "soil",
+    "solid",
+    "terrain"
+  ],
+  "caption": "A 3d block with a red texture, resembling a solid cube made of dirt material."
 }

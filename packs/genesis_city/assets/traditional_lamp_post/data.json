@@ -13,6 +13,18 @@
     "lighting",
     "street",
     "city",
-    "park"
-  ]
+    "park",
+    "bulb",
+    "desk",
+    "dining",
+    "fixture",
+    "furniture",
+    "illumination",
+    "kitchen",
+    "outdoor",
+    "shade",
+    "surface",
+    "table"
+  ],
+  "caption": "A traditional lamp post with a yellow light bulb on top."
 }

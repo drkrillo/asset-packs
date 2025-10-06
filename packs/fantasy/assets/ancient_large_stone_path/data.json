@@ -11,6 +11,20 @@
     "rock",
     "rocks",
     "forest",
-    "path"
-  ]
+    "path",
+    "archaeological",
+    "crumbling",
+    "dirt",
+    "gravel",
+    "historic",
+    "pavement",
+    "ruins",
+    "setting",
+    "site",
+    "surface",
+    "trail",
+    "walkway",
+    "weathered"
+  ],
+  "caption": "A large stone path in an ancient setting."
 }

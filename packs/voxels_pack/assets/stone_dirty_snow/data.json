@@ -2,5 +2,17 @@
   "id": "d7aa4c4a-a90a-46d8-ab6f-6aad32273f12",
   "name": "Stone - Dirty Snow",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "base",
+    "block",
+    "dirt",
+    "earth",
+    "foundation",
+    "ground",
+    "snow",
+    "structure",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A 3d block with a dirty snow texture on top and a stone base, resembling a cube-shaped structure commonly found in video games."
 }

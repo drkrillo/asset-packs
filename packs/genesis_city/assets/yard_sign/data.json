@@ -8,6 +8,16 @@
     "town",
     "decoration",
     "sign",
-    "yard"
-  ]
+    "yard",
+    "entrance",
+    "garden",
+    "gate",
+    "nature",
+    "outdoor",
+    "path",
+    "post",
+    "roof",
+    "stand"
+  ],
+  "caption": "A small wooden sign with a red roof, placed on a simple wooden stand."
 }

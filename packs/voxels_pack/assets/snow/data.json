@@ -2,5 +2,20 @@
   "id": "189805e7-fc2e-47a9-b222-0cb94fcd2062",
   "name": "Snow",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "chill",
+    "cold",
+    "crystal",
+    "frost",
+    "frostbite",
+    "frosty",
+    "frozen",
+    "glacier",
+    "ice",
+    "icy",
+    "snow",
+    "snowflake",
+    "winter"
+  ],
+  "caption": "A 3d block with a blue and white ice texture."
 }

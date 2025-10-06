@@ -2,5 +2,14 @@
   "id": "7dc89fda-c062-4bf2-aa97-7d6748c8d2f4",
   "name": "Arcade Machine - Black",
   "category": "furniture",
-  "tags": []
+  "tags": [
+    "arcade",
+    "buttons",
+    "cabinet",
+    "entertainment",
+    "front",
+    "machine",
+    "retro"
+  ],
+  "caption": "A black arcade machine with a screen and buttons on the front."
 }

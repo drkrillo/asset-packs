@@ -6,6 +6,17 @@
     "fantasy",
     "stone",
     "magic",
-    "rune"
-  ]
+    "rune",
+    "artifact",
+    "futuristic",
+    "glowing",
+    "hexagonal",
+    "mysterious",
+    "mystic",
+    "mystical",
+    "radiant",
+    "searchable",
+    "serpent"
+  ],
+  "caption": "A futuristic-looking stone with a glowing blue center and a hexagonal shape on top."
 }

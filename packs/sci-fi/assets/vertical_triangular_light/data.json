@@ -7,6 +7,17 @@
     "power",
     "spark",
     "base",
-    "spaceship"
-  ]
+    "spaceship",
+    "beam",
+    "glow",
+    "glowy",
+    "illumination",
+    "luminous",
+    "radiant",
+    "shining",
+    "spotlight",
+    "triangular",
+    "warm"
+  ],
+  "caption": "A simple, orange-lit, vertical triangular light."
 }

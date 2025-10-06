@@ -2,5 +2,19 @@
   "id": "447ace6f-e647-4f70-aaa8-5dc05559e076",
   "name": "Open Coffin",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "body",
+    "box",
+    "burial",
+    "coffin",
+    "container",
+    "corpse",
+    "dead",
+    "funeral",
+    "grave",
+    "lid",
+    "tomb",
+    "vessel"
+  ],
+  "caption": "An open red coffin with its lid up."
 }

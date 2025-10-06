@@ -2,5 +2,18 @@
   "id": "cd51877d-5ec8-4a5e-935c-2f28825cca0d",
   "name": "Window - TwoColoured ",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "colour",
+    "coloured",
+    "frame",
+    "glass",
+    "hue",
+    "pane",
+    "panel",
+    "shade",
+    "transparent",
+    "twocoloured",
+    "window"
+  ],
+  "caption": "A simple, two-colored window with a black frame and a yellow pane."
 }

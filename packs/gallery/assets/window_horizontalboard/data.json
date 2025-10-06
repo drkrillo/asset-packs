@@ -2,5 +2,19 @@
   "id": "6ea733ff-341a-4466-a206-13e1543ea70c",
   "name": "Window - HorizontalBoard ",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "board",
+    "border",
+    "display",
+    "frame",
+    "glass",
+    "horizontalboard",
+    "layout",
+    "pane",
+    "panel",
+    "rectangle",
+    "surface",
+    "window"
+  ],
+  "caption": "A simple, horizontal board window with a rectangular frame and a single pane."
 }

@@ -6,6 +6,17 @@
     "fantasy",
     "vase",
     "liquid",
-    "ceramic"
-  ]
+    "ceramic",
+    "amphora",
+    "antique",
+    "artifact",
+    "container",
+    "greek",
+    "historical",
+    "pottery",
+    "relic",
+    "storage",
+    "vessel"
+  ],
+  "caption": "An ancient greek-style amphora."
 }

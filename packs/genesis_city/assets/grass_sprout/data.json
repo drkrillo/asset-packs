@@ -13,6 +13,20 @@
     "forest",
     "park",
     "yard",
-    "backyard"
-  ]
+    "backyard",
+    "field",
+    "flora",
+    "foliage",
+    "ground",
+    "growth",
+    "herb",
+    "lawn",
+    "leaf",
+    "meadow",
+    "outdoor",
+    "plant",
+    "sprout",
+    "stem"
+  ],
+  "caption": "A sprouting green plant."
 }

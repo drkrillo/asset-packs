@@ -2,5 +2,18 @@
   "id": "d67b0bd3-e67c-4300-b8eb-c1de93d5d127",
   "name": "Door Marco Wide",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "archway",
+    "corridor",
+    "doorframe",
+    "doorway",
+    "entrance",
+    "gate",
+    "opening",
+    "passage",
+    "passageway",
+    "portal",
+    "threshold"
+  ],
+  "caption": "A wide door with a simple design."
 }

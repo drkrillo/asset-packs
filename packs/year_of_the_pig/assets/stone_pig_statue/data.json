@@ -6,6 +6,21 @@
     "structures",
     "statue",
     "pig",
-    "stone"
-  ]
+    "stone",
+    "animal",
+    "bark",
+    "breed",
+    "canine",
+    "collectible",
+    "dog",
+    "doghouse",
+    "domestic",
+    "figurine",
+    "loyal",
+    "miniaturefigure",
+    "pet",
+    "petstatue",
+    "sculpture"
+  ],
+  "caption": "A small dog statue."
 }

@@ -10,6 +10,15 @@
     "plant",
     "pot",
     "garden",
-    "park"
-  ]
+    "park",
+    "ceramic",
+    "container",
+    "foliage",
+    "globe",
+    "horticulture",
+    "ornamented",
+    "terracotta",
+    "vase"
+  ],
+  "caption": "An ornamental plant pot with a green base and red spheres on top."
 }

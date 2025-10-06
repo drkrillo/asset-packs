@@ -7,6 +7,16 @@
     "energy",
     "power",
     "electricity",
-    "connectors"
-  ]
+    "connectors",
+    "cable",
+    "conduit",
+    "connector",
+    "electrical",
+    "fixture",
+    "hardware",
+    "straight",
+    "utility",
+    "wire"
+  ],
+  "caption": "A straight cable with a yellow connector on one end."
 }

@@ -10,6 +10,19 @@
     "wood",
     "wooden",
     "boat",
-    "water"
-  ]
+    "water",
+    "craft",
+    "furniture",
+    "marine",
+    "nautical",
+    "ocean",
+    "outdoor",
+    "rowing",
+    "sailing",
+    "seat",
+    "ship",
+    "vessel",
+    "watercraft"
+  ],
+  "caption": "A small brown wooden boat with two seats."
 }

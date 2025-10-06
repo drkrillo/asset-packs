@@ -2,5 +2,17 @@
   "id": "3cb8e3d5-db5a-4a85-82c0-9632faec57e8",
   "name": "Pillar - Antique",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "antique",
+    "base",
+    "capital",
+    "column",
+    "cylindrical",
+    "monument",
+    "ornate",
+    "pedestal",
+    "rectangular",
+    "shaft"
+  ],
+  "caption": "A tall, slender, ornate pillar with a square base and a cylindrical shaft, topped by a rectangular capital, all rendered in a muted color palette."
 }

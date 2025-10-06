@@ -9,6 +9,16 @@
     "wall",
     "threshold",
     "open",
-    "door"
-  ]
+    "door",
+    "archway",
+    "corridor",
+    "doorway",
+    "entrance",
+    "floor",
+    "gate",
+    "passage",
+    "step",
+    "thresholding"
+  ],
+  "caption": "A stone brick threshold."
 }

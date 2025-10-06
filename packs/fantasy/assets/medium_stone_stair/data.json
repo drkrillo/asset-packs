@@ -6,6 +6,18 @@
     "fantasy",
     "stair",
     "stone",
-    "step"
-  ]
+    "step",
+    "dark",
+    "flight",
+    "flightway",
+    "landing",
+    "landings",
+    "staircase",
+    "stairs",
+    "stairwell",
+    "steppe",
+    "steps",
+    "stepway"
+  ],
+  "caption": "A black of a staircase with a simple design."
 }

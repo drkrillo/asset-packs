@@ -7,6 +7,20 @@
     "desk",
     "wood",
     "wooden",
-    "golden"
-  ]
+    "golden",
+    "book",
+    "building",
+    "church",
+    "library",
+    "office",
+    "parchment",
+    "pointed",
+    "roof",
+    "script",
+    "scriptorium",
+    "structure",
+    "study",
+    "writing"
+  ],
+  "caption": "A small, brown wooden structure with a pointed roof, resembling a scriptorium or a small church-like building."
 }

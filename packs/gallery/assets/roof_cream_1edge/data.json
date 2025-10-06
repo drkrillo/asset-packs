@@ -2,5 +2,18 @@
   "id": "fc8b681b-224e-4cff-bde4-52d7e74db725",
   "name": "Roof - Cream 1Edge",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "appearance",
+    "architecture",
+    "building",
+    "cream",
+    "edge",
+    "flat",
+    "pattern",
+    "roof",
+    "structure",
+    "surface",
+    "visual"
+  ],
+  "caption": "A simple, flat, cream-colored roof with one visible edge."
 }

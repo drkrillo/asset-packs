@@ -2,5 +2,15 @@
   "id": "ccbc0171-22f2-49a7-927e-2fcc03a4e5bc",
   "name": "Stone Bricks- Cracks",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "block",
+    "brick",
+    "building",
+    "construction",
+    "crack",
+    "damage",
+    "fracture",
+    "stonework"
+  ],
+  "caption": "A block made of stone bricks with visible cracks."
 }

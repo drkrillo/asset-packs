@@ -2,5 +2,19 @@
   "id": "c4403267-ac99-48df-b19b-522eeebe73f9",
   "name": "Doorframe - TwoColoured",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "archway",
+    "building",
+    "corridor",
+    "divider",
+    "doorframe",
+    "doorway",
+    "entrance",
+    "frame",
+    "interior",
+    "room",
+    "tone",
+    "twocoloured"
+  ],
+  "caption": "A simple, two-toned door frame with a yellow top and white bottom."
 }

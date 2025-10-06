@@ -2,5 +2,21 @@
   "id": "06d9804d-51d5-4857-b022-cefbf1b7398f",
   "name": "TNT",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "burning",
+    "chemical",
+    "combustion",
+    "destructive",
+    "explosive",
+    "fire",
+    "flame",
+    "fuel",
+    "hazardous",
+    "heat",
+    "smoke",
+    "tnt",
+    "toxic",
+    "warning"
+  ],
+  "caption": "A red and black 3d cube with the word \"tnt\" in white letters on its side."
 }

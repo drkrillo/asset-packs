@@ -12,6 +12,14 @@
     "metal",
     "city",
     "limit",
-    "limits"
-  ]
+    "limits",
+    "barrier",
+    "enclosure",
+    "gate",
+    "grid",
+    "perimeter",
+    "railing",
+    "steel"
+  ],
+  "caption": "A metal fence."
 }

@@ -2,5 +2,18 @@
   "id": "a51b2b23-e6cf-4ccf-8243-70f745583d2e",
   "name": "Wall - PlainGreen",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "aesthetic",
+    "appearance",
+    "flat",
+    "list",
+    "plaingreen",
+    "rectangle",
+    "rectangular",
+    "surface",
+    "tag",
+    "top",
+    "visual"
+  ],
+  "caption": "A green, rectangular 3d object with a flat surface on top."
 }

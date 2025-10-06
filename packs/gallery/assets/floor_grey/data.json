@@ -2,5 +2,17 @@
   "id": "6f079b74-7a6b-4792-84c8-a487ecd759ce",
   "name": "Floor - Grey",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "colour",
+    "dull",
+    "flat",
+    "floor",
+    "greyish",
+    "ground",
+    "monochrome",
+    "neutral",
+    "surface",
+    "tile"
+  ],
+  "caption": "A simple grey floor with a flat surface."
 }

@@ -8,6 +8,17 @@
     "post",
     "lamp",
     "garden",
-    "traditional"
-  ]
+    "traditional",
+    "architecture",
+    "building",
+    "can",
+    "fixture",
+    "historic",
+    "lantern",
+    "monument",
+    "outdoor",
+    "relic",
+    "structure"
+  ],
+  "caption": "A stone lamp post with a lantern on top."
 }

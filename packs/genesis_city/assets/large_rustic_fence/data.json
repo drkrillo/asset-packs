@@ -15,6 +15,16 @@
     "garden",
     "backyard",
     "yard",
-    "farm"
-  ]
+    "farm",
+    "barrier",
+    "boundary",
+    "enclosure",
+    "fencepost",
+    "gate",
+    "rail",
+    "railing",
+    "searchable",
+    "structure"
+  ],
+  "caption": "A long wooden fence with two horizontal rails."
 }

@@ -2,5 +2,15 @@
   "id": "dee32299-2f09-4d42-b682-3dfd1d4e1e4d",
   "name": "Stones1",
   "category": "ground",
-  "tags": []
+  "tags": [
+    "dark",
+    "floor",
+    "granite",
+    "ground",
+    "pavement",
+    "slate",
+    "surface",
+    "tile"
+  ],
+  "caption": "A close-up view of a textured surface resembling stone tiles with a dark blue color scheme."
 }

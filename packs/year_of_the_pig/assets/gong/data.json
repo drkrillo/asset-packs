@@ -7,6 +7,13 @@
     "gong",
     "wood",
     "sound",
-    "noise"
-  ]
+    "noise",
+    "base",
+    "drum",
+    "instrument",
+    "mallet",
+    "percussion",
+    "stand"
+  ],
+  "caption": "A red wooden gong with two mallets hanging from it, placed on a small red stand with a black base."
 }

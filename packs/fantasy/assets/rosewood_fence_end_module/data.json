@@ -8,6 +8,16 @@
     "wood",
     "wooden",
     "module",
-    "end"
-  ]
+    "end",
+    "barrier",
+    "boundary",
+    "enclosure",
+    "entrance",
+    "gate",
+    "plank",
+    "post",
+    "rectangle",
+    "stop"
+  ],
+  "caption": "A red, rectangular end module for a fence."
 }

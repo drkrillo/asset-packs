@@ -2,5 +2,14 @@
   "id": "5d6116a8-57a2-4ebe-9954-a6416695bd7c",
   "name": "Zombie Hand ",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "corpse",
+    "creature",
+    "flesh",
+    "hand",
+    "monster",
+    "undead",
+    "zombie"
+  ],
+  "caption": "A green, three-dimensional hand with an open mouth, resembling a zombie or monster."
 }

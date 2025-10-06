@@ -6,6 +6,21 @@
     "genesis",
     "city",
     "town",
-    "ground"
-  ]
+    "ground",
+    "animation",
+    "centipede",
+    "crawling",
+    "creature",
+    "environment",
+    "field",
+    "foliage",
+    "grass",
+    "insect",
+    "lawn",
+    "meadow",
+    "movement",
+    "nature",
+    "outdoor"
+  ],
+  "caption": "A green, grassy field with a centipede crawling across it."
 }

@@ -15,6 +15,15 @@
     "garden",
     "backyard",
     "yard",
-    "farm"
-  ]
+    "farm",
+    "architectural",
+    "barrier",
+    "boundary",
+    "building",
+    "gate",
+    "medium",
+    "post",
+    "structure"
+  ],
+  "caption": "A simple, white, medium-sized fence with four vertical posts."
 }

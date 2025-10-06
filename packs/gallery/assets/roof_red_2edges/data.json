@@ -2,5 +2,13 @@
   "id": "01e2c839-a7fb-4108-9a69-d50342906e72",
   "name": "Roof - Red 2Edges",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "edge",
+    "pattern",
+    "roof",
+    "roofed",
+    "shape",
+    "surface"
+  ],
+  "caption": "A red of a simple roof with two edges."
 }

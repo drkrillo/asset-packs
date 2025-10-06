@@ -2,5 +2,16 @@
   "id": "bb90c525-5165-46c8-a9dd-c26243c26b49",
   "name": "Stop Sign",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "control",
+    "halt",
+    "pedestrian",
+    "safety",
+    "signal",
+    "stop",
+    "traffic",
+    "transportation",
+    "warning"
+  ],
+  "caption": "A red stop sign with a white outline."
 }

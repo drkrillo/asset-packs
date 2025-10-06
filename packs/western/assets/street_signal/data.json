@@ -2,5 +2,14 @@
   "id": "f8bfef2e-3c5b-471c-b46b-af50e7529eea",
   "name": "Street Signal",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "directional",
+    "pedestrian",
+    "post",
+    "signal",
+    "street",
+    "streetlight",
+    "traffic"
+  ],
+  "caption": "A wooden sign with an arrow on top."
 }

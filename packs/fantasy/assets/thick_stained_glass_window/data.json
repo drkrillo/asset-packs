@@ -7,6 +7,14 @@
     "window",
     "stone",
     "stained",
-    "glass"
-  ]
+    "glass",
+    "architecture",
+    "art",
+    "cross",
+    "dark",
+    "frame",
+    "interior",
+    "thick"
+  ],
+  "caption": "A stained glass window with a cross design in a dark frame."
 }

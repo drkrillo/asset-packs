@@ -2,5 +2,22 @@
   "id": "520fab41-afbc-43e7-920c-aabf662f0256",
   "name": "Bench 2",
   "category": "furniture",
-  "tags": []
+  "tags": [
+    "bench",
+    "comfort",
+    "desk",
+    "dining",
+    "forest",
+    "furniture",
+    "kitchen",
+    "maple",
+    "nature",
+    "oak",
+    "outdoor",
+    "pine",
+    "seat",
+    "seating",
+    "surface"
+  ],
+  "caption": "A simple wooden bench with a flat top."
 }

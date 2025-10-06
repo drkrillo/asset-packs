@@ -13,6 +13,20 @@
     "rope",
     "ropes",
     "pillar",
-    "pillars"
-  ]
+    "pillars",
+    "arch",
+    "bridge",
+    "construction",
+    "crossing",
+    "handrail",
+    "pathway",
+    "plank",
+    "rail",
+    "river",
+    "rustic",
+    "span",
+    "structure",
+    "suspension"
+  ],
+  "caption": "A simple rope bridge with wooden planks and rope handrails."
 }

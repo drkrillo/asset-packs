@@ -2,5 +2,21 @@
   "id": "6497938f-280d-4956-9f3f-0cde1af7b1e1",
   "name": "Road T",
   "category": "tiles",
-  "tags": []
+  "tags": [
+    "abstract",
+    "asphalt",
+    "environment",
+    "foliage",
+    "ground",
+    "landscape",
+    "leaf",
+    "natural",
+    "outdoor",
+    "pattern",
+    "pavement",
+    "surface",
+    "terrain",
+    "vegetation"
+  ],
+  "caption": "Two different designs for a road texture, with one featuring red and brown leaves and the other showcasing a more abstract pattern."
 }

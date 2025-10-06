@@ -2,5 +2,16 @@
   "id": "a0da39f1-4cd1-477d-938e-b33211844fc5",
   "name": "Traffic Light B",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "control",
+    "intersection",
+    "lamp",
+    "pole",
+    "signal",
+    "stop",
+    "street",
+    "top",
+    "traffic"
+  ],
+  "caption": "A traffic light with three lights on top of a pole."
 }

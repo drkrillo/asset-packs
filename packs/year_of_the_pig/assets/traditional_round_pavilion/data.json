@@ -6,6 +6,14 @@
     "structures",
     "traditional",
     "pavilion",
-    "pergola"
-  ]
+    "pergola",
+    "architecture",
+    "building",
+    "floor",
+    "monument",
+    "roof",
+    "round",
+    "structure"
+  ],
+  "caption": "A colorful, traditional-style round pavilion with a red floor and a blue roof."
 }

@@ -2,5 +2,17 @@
   "id": "22b22059-a866-4675-b2e4-d5c11b2c80aa",
   "name": "Road T Short",
   "category": "tiles",
-  "tags": []
+  "tags": [
+    "asphalt",
+    "driving",
+    "highway",
+    "network",
+    "pavement",
+    "speed",
+    "surface",
+    "transportation",
+    "type",
+    "vehicle"
+  ],
+  "caption": "A short road with a red texture on top."
 }

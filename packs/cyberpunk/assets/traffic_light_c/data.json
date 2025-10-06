@@ -2,5 +2,18 @@
   "id": "34e5558a-7d48-4fac-93e1-8cba73a15a48",
   "name": "Traffic Light C",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "intersection",
+    "lights",
+    "movement",
+    "pole",
+    "signal",
+    "street",
+    "top",
+    "traffic",
+    "transportation",
+    "urban",
+    "vehicle"
+  ],
+  "caption": "A traffic light with three lights on top of a pole."
 }

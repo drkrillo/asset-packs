@@ -13,6 +13,13 @@
     "stones",
     "forest",
     "moss",
-    "mossy"
-  ]
+    "mossy",
+    "cracked",
+    "egg",
+    "growth",
+    "lichen",
+    "pattern",
+    "top"
+  ],
+  "caption": "An egg-shaped object with a cracked top, featuring green and white textures that resemble moss or lichen growth patterns."
 }

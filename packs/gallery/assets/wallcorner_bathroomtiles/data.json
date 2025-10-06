@@ -2,5 +2,17 @@
   "id": "42650a24-c606-457d-a2c7-e155169c4190",
   "name": "WallCorner - BathroomTiles ",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "bathroom",
+    "ceramic",
+    "corner",
+    "fixture",
+    "floor",
+    "pattern",
+    "plumbing",
+    "porcelain",
+    "surface",
+    "tile"
+  ],
+  "caption": "A corner tile for a bathroom wall."
 }

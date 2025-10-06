@@ -9,6 +9,14 @@
     "decorations",
     "jewel",
     "jewels",
-    "gemstone"
-  ]
+    "gemstone",
+    "candy",
+    "container",
+    "rectangle",
+    "rectangular",
+    "shape",
+    "soap",
+    "vessel"
+  ],
+  "caption": "A blue rectangular object with rounded corners, resembling a bar of soap or a piece of candy."
 }

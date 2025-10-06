@@ -8,6 +8,12 @@
     "gold",
     "golden",
     "gem",
-    "gemstone"
-  ]
+    "gemstone",
+    "architecture",
+    "artifact",
+    "mystic",
+    "relic",
+    "wizard"
+  ],
+  "caption": "A wizard-themed gemstone pillar with a blue gem on top and a gold base."
 }

@@ -8,6 +8,13 @@
     "wall",
     "gem",
     "gemstone",
-    "stone"
-  ]
+    "stone",
+    "geometric",
+    "jewel",
+    "luxury",
+    "pattern",
+    "precious",
+    "shape"
+  ],
+  "caption": "A purple gemstone with a black geometric shape surrounding it."
 }

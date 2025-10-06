@@ -12,6 +12,21 @@
     "map",
     "instructions",
     "treasure",
-    "spot"
-  ]
+    "spot",
+    "branch",
+    "cartography",
+    "chart",
+    "compass",
+    "discovery",
+    "exploration",
+    "foliage",
+    "forest",
+    "island",
+    "journey",
+    "keyhole",
+    "landmark",
+    "leaves",
+    "nature"
+  ],
+  "caption": "A treasure map with a compass rose, a keyhole, and a small island with a tree on it."
 }

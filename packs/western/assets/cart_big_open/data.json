@@ -2,5 +2,19 @@
   "id": "04fe7167-3dbf-481c-b05a-affd9f58fe63",
   "name": "Cart Big Open",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "bench",
+    "cargo",
+    "carriage",
+    "cart",
+    "container",
+    "load",
+    "storage",
+    "tank",
+    "transport",
+    "vehicle",
+    "vessel",
+    "wagon"
+  ],
+  "caption": "A large open wagon with two benches on either side."
 }

@@ -2,5 +2,18 @@
   "id": "2b308369-b0c5-47ab-8810-7a07f784d1ca",
   "name": "Window - Lime",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "border",
+    "frame",
+    "glass",
+    "hue",
+    "outline",
+    "pane",
+    "panel",
+    "shade",
+    "tint",
+    "trim",
+    "window"
+  ],
+  "caption": "A green window frame."
 }

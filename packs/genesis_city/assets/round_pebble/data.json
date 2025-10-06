@@ -10,6 +10,18 @@
     "rock",
     "stone",
     "rock",
-    "stones"
-  ]
+    "stones",
+    "ball",
+    "earthy",
+    "granite",
+    "ground",
+    "marble",
+    "mineral",
+    "natural",
+    "pebble",
+    "round",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A round pebble."
 }

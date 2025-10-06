@@ -11,6 +11,15 @@
     "beach",
     "foliage",
     "plant",
-    "plants"
-  ]
+    "plants",
+    "environment",
+    "frond",
+    "jungle",
+    "leafy",
+    "outdoor",
+    "overgrowth",
+    "tropical",
+    "vegetation"
+  ],
+  "caption": "A green fern with multiple fronds."
 }

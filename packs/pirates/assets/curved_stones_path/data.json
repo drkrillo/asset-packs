@@ -10,6 +10,16 @@
     "cobblestones",
     "stone",
     "stones",
-    "path"
-  ]
+    "path",
+    "curved",
+    "landscape",
+    "passage",
+    "pathway",
+    "pavement",
+    "route",
+    "terrain",
+    "walkway",
+    "winding"
+  ],
+  "caption": "A curved stone pathway."
 }

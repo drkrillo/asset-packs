@@ -10,6 +10,15 @@
     "bone",
     "bones",
     "calcium",
-    "carcass"
-  ]
+    "carcass",
+    "beach",
+    "marine",
+    "ocean",
+    "skeleton",
+    "skull",
+    "surfboard",
+    "undead",
+    "waves"
+  ],
+  "caption": "A skeleton with a surfboard for a head."
 }

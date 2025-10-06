@@ -2,5 +2,16 @@
   "id": "f1d62584-5f45-4e04-818d-bed5ad5fdbce",
   "name": "Train Track 8 M Curve",
   "category": "tiles",
-  "tags": []
+  "tags": [
+    "curve",
+    "illumination",
+    "rail",
+    "railroad",
+    "terrain",
+    "track",
+    "train",
+    "transport",
+    "vehicle"
+  ],
+  "caption": "A wooden train track with orange lights on top."
 }

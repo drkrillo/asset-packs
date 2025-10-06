@@ -2,5 +2,19 @@
   "id": "610d419d-bed4-47ec-b0ae-22a6afa90efa",
   "name": "Pistol",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "ammo",
+    "arm",
+    "bullet",
+    "combat",
+    "dot",
+    "dotgun",
+    "firearm",
+    "gun",
+    "pistol",
+    "rifle",
+    "shooting",
+    "weapon"
+  ],
+  "caption": "A wooden rifle with a red dot on the barrel."
 }

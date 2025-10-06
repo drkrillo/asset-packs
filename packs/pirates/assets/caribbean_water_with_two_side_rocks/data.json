@@ -13,6 +13,19 @@
     "stone",
     "stones",
     "beach",
-    "ocean"
-  ]
+    "ocean",
+    "aquatic",
+    "caribbean",
+    "cliffs",
+    "coast",
+    "environment",
+    "fluid",
+    "lake",
+    "landscape",
+    "liquid",
+    "natural",
+    "outdoor",
+    "river"
+  ],
+  "caption": "A body of water with two side rocks."
 }

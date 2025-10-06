@@ -2,5 +2,22 @@
   "id": "c84492d4-55e5-4c17-839f-7f4a84cb8a79",
   "name": "Hot Dog",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "animal",
+    "bark",
+    "bun",
+    "canine",
+    "condiment",
+    "counter",
+    "desk",
+    "dining",
+    "dog",
+    "domestic",
+    "food",
+    "furniture",
+    "grill",
+    "hot",
+    "kitchen"
+  ],
+  "caption": "A hot dog with various toppings on a bun, placed on a small table or counter."
 }

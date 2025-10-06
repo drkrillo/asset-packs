@@ -6,6 +6,17 @@
     "scifi",
     "guard",
     "wall",
-    "split"
-  ]
+    "split",
+    "barrier",
+    "boundary",
+    "curved",
+    "cylindrical",
+    "defense",
+    "end",
+    "obstruction",
+    "pole",
+    "protection",
+    "security"
+  ],
+  "caption": "A yellow curved barrier with four poles at the end."
 }

@@ -12,6 +12,21 @@
     "wooden",
     "leather",
     "strips",
-    "tool"
-  ]
+    "tool",
+    "break",
+    "building",
+    "carpentry",
+    "construction",
+    "craft",
+    "damage",
+    "furniture",
+    "hammer",
+    "handle",
+    "head",
+    "hit",
+    "nail",
+    "smash",
+    "strike"
+  ],
+  "caption": "A hammer with a wooden handle and a metal head."
 }

@@ -2,5 +2,21 @@
   "id": "cce36f8c-1d5e-4c47-93ee-bdc73318e762",
   "name": "Cracked Sand",
   "category": "ground",
-  "tags": []
+  "tags": [
+    "cracked",
+    "desert",
+    "dirt",
+    "earth",
+    "environment",
+    "gravel",
+    "ground",
+    "landscape",
+    "natural",
+    "rugged",
+    "sand",
+    "soil",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A close-up view of a textured surface resembling cracked sand or soil."
 }

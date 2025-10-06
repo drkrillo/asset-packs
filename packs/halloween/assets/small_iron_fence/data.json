@@ -2,5 +2,16 @@
   "id": "ddcbe37f-19f6-4823-8ecb-c44642aa30b6",
   "name": "Small Iron Fence",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "barrier",
+    "boundary",
+    "defense",
+    "enclosure",
+    "fortification",
+    "post",
+    "rail",
+    "structure"
+  ],
+  "caption": "A simple, small iron fence with horizontal rails and vertical posts."
 }

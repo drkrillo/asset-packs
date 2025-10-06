@@ -13,6 +13,19 @@
     "kiosk",
     "fair",
     "city",
-    "park"
-  ]
+    "park",
+    "candy",
+    "cart",
+    "cartoon",
+    "colorful",
+    "dessert",
+    "food",
+    "frozen",
+    "fun",
+    "shop",
+    "sweet",
+    "treat",
+    "vendor"
+  ],
+  "caption": "A colorful ice cream kiosk with two cartoon characters inside."
 }

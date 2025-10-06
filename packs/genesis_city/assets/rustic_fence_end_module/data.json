@@ -15,6 +15,20 @@
     "garden",
     "backyard",
     "yard",
-    "farm"
-  ]
+    "farm",
+    "barrier",
+    "boundary",
+    "countryside",
+    "enclosure",
+    "end",
+    "fencepost",
+    "gate",
+    "landscape",
+    "module",
+    "nature",
+    "outdoor",
+    "post",
+    "rural"
+  ],
+  "caption": "A wooden fence post."
 }

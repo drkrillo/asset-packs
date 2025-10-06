@@ -2,5 +2,16 @@
   "id": "13573ffc-d7ee-4940-bdba-ccad6f0b5e1a",
   "name": "Stone 3",
   "category": "nature",
-  "tags": []
+  "tags": [
+    "earthy",
+    "geological",
+    "ground",
+    "landscape",
+    "mineral",
+    "natural",
+    "rough",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A brown rock with a rough texture."
 }

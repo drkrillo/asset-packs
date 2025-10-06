@@ -2,5 +2,17 @@
   "id": "af0b3efa-4d0c-47ec-86f1-b49868130567",
   "name": "Hello",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "announcement",
+    "display",
+    "greeting",
+    "hello",
+    "lettering",
+    "letters",
+    "message",
+    "signage",
+    "typography",
+    "welcome"
+  ],
+  "caption": "A sign with the word \"hello\" in orange letters."
 }

@@ -7,6 +7,18 @@
     "fence",
     "stone",
     "gold",
-    "module"
-  ]
+    "module",
+    "elegant",
+    "end",
+    "gate",
+    "golden",
+    "high",
+    "luxurious",
+    "premium",
+    "railing",
+    "refined",
+    "sophisticated",
+    "upscale"
+  ],
+  "caption": "A small, luxurious fence module with a golden gate and a golden railing."
 }

@@ -2,5 +2,18 @@
   "id": "808ac3c0-ad3b-4c78-9a7e-898d3d5b5a82",
   "name": "Train Wood Stopper",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "backrest",
+    "bench",
+    "comfort",
+    "furniture",
+    "maple",
+    "nature",
+    "oak",
+    "outdoor",
+    "pine",
+    "seat",
+    "seating"
+  ],
+  "caption": "A simple wooden bench with a backrest."
 }

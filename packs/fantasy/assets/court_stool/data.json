@@ -8,6 +8,20 @@
     "stool",
     "chair",
     "court",
-    "stone"
-  ]
+    "stone",
+    "base",
+    "desk",
+    "dining",
+    "furniture",
+    "kitchen",
+    "maple",
+    "oak",
+    "office",
+    "pine",
+    "rest",
+    "seat",
+    "seating",
+    "sitting"
+  ],
+  "caption": "A stool with a blue top and a black base."
 }

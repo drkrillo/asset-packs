@@ -2,5 +2,15 @@
   "id": "dd1bab8b-61a5-4fe0-8eb2-9febe60d2e67",
   "name": "Brick White Tile",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "flat",
+    "geometric",
+    "pattern",
+    "rectangular",
+    "shape",
+    "shaped",
+    "surface",
+    "tile"
+  ],
+  "caption": "A white cube with a blue texture on its sides."
 }

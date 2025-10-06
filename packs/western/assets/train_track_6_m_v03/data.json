@@ -2,5 +2,20 @@
   "id": "3510776d-497f-4700-8fa0-83cb774db39f",
   "name": "Train Track 6 M V03",
   "category": "tiles",
-  "tags": []
+  "tags": [
+    "cargo",
+    "carriage",
+    "freight",
+    "locomotive",
+    "rail",
+    "railroad",
+    "rails",
+    "railway",
+    "segments",
+    "station",
+    "track",
+    "train",
+    "wagon"
+  ],
+  "caption": "A wooden train track with six segments."
 }

@@ -10,6 +10,17 @@
     "cobblestones",
     "stone",
     "stones",
-    "path"
-  ]
+    "path",
+    "earth",
+    "flat",
+    "geological",
+    "ground",
+    "mineral",
+    "pattern",
+    "slab",
+    "surface",
+    "terrain",
+    "tile"
+  ],
+  "caption": "A small stone slab tile."
 }

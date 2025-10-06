@@ -2,5 +2,15 @@
   "id": "d5899f47-5576-433c-92d5-30a98e874bd1",
   "name": "Roof - Red 1Edge",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "edge",
+    "flat",
+    "roof",
+    "roofing",
+    "shape",
+    "shingle",
+    "slate",
+    "tile"
+  ],
+  "caption": "A simple red 1-edged roof in a 3d modeling context."
 }

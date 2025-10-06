@@ -2,5 +2,19 @@
   "id": "9c2bde7c-8eaa-4dc6-8627-d6f2ea6be88b",
   "name": "Ground Curve 8 M",
   "category": "tiles",
-  "tags": []
+  "tags": [
+    "curve",
+    "document",
+    "edge",
+    "note",
+    "notelet",
+    "paper",
+    "paperboard",
+    "paperclip",
+    "parchment",
+    "scroll",
+    "sheet",
+    "stationery"
+  ],
+  "caption": "A yellow piece of paper with a curved edge."
 }

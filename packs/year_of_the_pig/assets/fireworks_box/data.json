@@ -6,6 +6,12 @@
     "decoration",
     "fireworks",
     "box",
-    "celebration"
-  ]
+    "celebration",
+    "container",
+    "explosive",
+    "festive",
+    "pyrotechnic",
+    "sparkler"
+  ],
+  "caption": "A red box with fireworks inside."
 }

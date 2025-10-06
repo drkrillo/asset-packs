@@ -2,5 +2,20 @@
   "id": "ba666778-cdd9-4409-8c6a-6e4b061b1769",
   "name": "Dirt - Snow",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "block",
+    "cold",
+    "dirt",
+    "earth",
+    "frost",
+    "ground",
+    "ice",
+    "land",
+    "landscape",
+    "snow",
+    "surface",
+    "terrain",
+    "winter"
+  ],
+  "caption": "A 3d block."
 }

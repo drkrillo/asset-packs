@@ -6,6 +6,18 @@
     "scifi",
     "dock",
     "port",
-    "metal"
-  ]
+    "metal",
+    "ascent",
+    "descent",
+    "flight",
+    "incline",
+    "landing",
+    "railing",
+    "slope",
+    "staircase",
+    "stairs",
+    "stairway",
+    "steps"
+  ],
+  "caption": "A set of red and white stairs with a black railing."
 }

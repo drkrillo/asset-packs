@@ -8,6 +8,15 @@
     "weapon",
     "slash",
     "sword",
-    "old"
-  ]
+    "old",
+    "armor",
+    "blade",
+    "combat",
+    "fighting",
+    "royal",
+    "sharp",
+    "steel",
+    "warrior"
+  ],
+  "caption": "An old iron sword with a red handle."
 }

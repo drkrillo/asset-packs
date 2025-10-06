@@ -2,5 +2,14 @@
   "id": "6543316a-b7fd-4bab-9f81-a95034cfcae7",
   "name": "Chest Gear Key",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "container",
+    "gear",
+    "key",
+    "lock",
+    "mechanism",
+    "storage",
+    "weapon"
+  ],
+  "caption": "A key with a gear design on top."
 }

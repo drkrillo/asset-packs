@@ -9,6 +9,15 @@
     "decorations",
     "jewel",
     "jewels",
-    "gemstone"
-  ]
+    "gemstone",
+    "amethyst",
+    "crystal",
+    "faceted",
+    "luxury",
+    "mineral",
+    "ornate",
+    "precious",
+    "sparkling"
+  ],
+  "caption": "A pink gemstone with a faceted surface."
 }

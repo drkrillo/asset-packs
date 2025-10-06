@@ -5,6 +5,17 @@
   "tags": [
     "scifi",
     "parts",
-    "base"
-  ]
+    "base",
+    "architecture",
+    "cockpit",
+    "doorframe",
+    "entrance",
+    "interior",
+    "landing",
+    "room",
+    "ship",
+    "stairs",
+    "stairway"
+  ],
+  "caption": "A small white spaceship with stairs leading up to an open door."
 }

@@ -6,6 +6,18 @@
     "fantasy",
     "table",
     "stone",
-    "rune"
-  ]
+    "rune",
+    "desk",
+    "dining",
+    "flat",
+    "furniture",
+    "kitchen",
+    "leg",
+    "minimalist",
+    "rectangular",
+    "solid",
+    "structure",
+    "surface"
+  ],
+  "caption": "A simple, rectangular table with a flat top and four legs, rendered in a minimalist style with a dark grey color scheme."
 }

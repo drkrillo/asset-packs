@@ -5,6 +5,16 @@
   "tags": [
     "scifi",
     "tile",
-    "ground"
-  ]
+    "ground",
+    "floor",
+    "flooring",
+    "glow",
+    "hexagon",
+    "hexagonal",
+    "illumination",
+    "panel",
+    "pattern",
+    "shape"
+  ],
+  "caption": "A hexagonal floor panel with a blue light on top."
 }

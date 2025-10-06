@@ -5,6 +5,16 @@
   "tags": [
     "scifi",
     "tile",
-    "ground"
-  ]
+    "ground",
+    "appearance",
+    "flat",
+    "floor",
+    "function",
+    "panel",
+    "rectangular",
+    "seam",
+    "surface",
+    "visual"
+  ],
+  "caption": "A flat, rectangular floor panel with a visible seam along its length."
 }

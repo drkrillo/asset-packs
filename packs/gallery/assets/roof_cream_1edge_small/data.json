@@ -2,5 +2,12 @@
   "id": "9f80f099-34d1-463d-ab41-966110fe1b58",
   "name": "Roof - Cream 1Edge Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "cream",
+    "edge",
+    "roof",
+    "shape",
+    "type"
+  ],
+  "caption": "A simple, small, cream-colored roof with one edge."
 }

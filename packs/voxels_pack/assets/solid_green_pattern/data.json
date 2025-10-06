@@ -2,5 +2,16 @@
   "id": "329c5934-32cd-4222-9257-885bac04d12f",
   "name": "Solid Green Pattern",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "aesthetic",
+    "appearance",
+    "block",
+    "function",
+    "pattern",
+    "repeating",
+    "solid",
+    "uniform",
+    "visual"
+  ],
+  "caption": "A 3d block with a green pattern texture."
 }

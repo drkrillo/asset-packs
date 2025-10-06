@@ -2,5 +2,15 @@
   "id": "f1386d8e-5896-45d8-ad3f-1237e8ce1e41",
   "name": "Solid light blue",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "aesthetic",
+    "art",
+    "block",
+    "hue",
+    "pattern",
+    "solid",
+    "surface",
+    "visual"
+  ],
+  "caption": "A 3d block with a light blue color and a patterned texture on its surface."
 }

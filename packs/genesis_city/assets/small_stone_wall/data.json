@@ -12,6 +12,13 @@
     "fence",
     "fences",
     "garden",
-    "park"
-  ]
+    "park",
+    "edge",
+    "flat",
+    "furniture",
+    "plank",
+    "raised",
+    "top"
+  ],
+  "caption": "A simple, flat, light-colored wooden plank with a slightly raised edge on top, resembling a piece of furniture or a decorative item."
 }

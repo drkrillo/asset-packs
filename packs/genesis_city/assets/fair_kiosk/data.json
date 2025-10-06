@@ -9,6 +9,20 @@
     "structures",
     "fair",
     "kiosk",
-    "market"
-  ]
+    "market",
+    "booth",
+    "counter",
+    "desk",
+    "dining",
+    "display",
+    "furniture",
+    "kitchen",
+    "roof",
+    "stall",
+    "stand",
+    "storefront",
+    "surface",
+    "table"
+  ],
+  "caption": "A colorful red kiosk with a wooden roof, featuring a small counter and a sign on top."
 }

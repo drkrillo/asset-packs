@@ -2,5 +2,18 @@
   "id": "5191f9c1-4f5b-49d5-ba9e-3a7b302a3b7a",
   "name": "Roof - Navy 2Edges",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "dark",
+    "dock",
+    "edge",
+    "edges",
+    "exterior",
+    "naval",
+    "roof",
+    "ship",
+    "structure"
+  ],
+  "caption": "A simple, dark blue roof with two edges in a 3d modeling context."
 }

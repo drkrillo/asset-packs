@@ -7,6 +7,21 @@
     "stool",
     "chair",
     "stone",
-    "rune"
-  ]
+    "rune",
+    "auto",
+    "automobile",
+    "battle",
+    "blade",
+    "branch",
+    "chemical",
+    "combat",
+    "comfort",
+    "container",
+    "desk",
+    "dining",
+    "driving",
+    "drum",
+    "fast"
+  ],
+  "caption": "A stool."
 }

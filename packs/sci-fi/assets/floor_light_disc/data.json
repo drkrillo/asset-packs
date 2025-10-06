@@ -7,6 +7,17 @@
     "power",
     "spark",
     "base",
-    "spaceship"
-  ]
+    "spaceship",
+    "beam",
+    "disc",
+    "fixture",
+    "floor",
+    "glow",
+    "hexagon",
+    "hexagonal",
+    "illumination",
+    "radiance",
+    "surface"
+  ],
+  "caption": "A hexagonal light disc on a black surface."
 }

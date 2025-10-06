@@ -2,5 +2,22 @@
   "id": "283c5dbe-0190-44d7-beba-6e3927bf46da",
   "name": "Pipe B",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "appliance",
+    "aquatic",
+    "faucet",
+    "fixture",
+    "fluid",
+    "hardware",
+    "lake",
+    "lighting",
+    "liquid",
+    "ocean",
+    "pipe",
+    "plumbing",
+    "river",
+    "source",
+    "water"
+  ],
+  "caption": "A black faucet with a blue light on top."
 }

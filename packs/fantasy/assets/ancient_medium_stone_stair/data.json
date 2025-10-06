@@ -6,6 +6,18 @@
     "fantasy",
     "stair",
     "stone",
-    "step"
-  ]
+    "step",
+    "architecture",
+    "building",
+    "fortress",
+    "medium",
+    "palace",
+    "royal",
+    "staircase",
+    "stairs",
+    "steps",
+    "stronghold",
+    "structure"
+  ],
+  "caption": "An ancient stone staircase with multiple steps."
 }

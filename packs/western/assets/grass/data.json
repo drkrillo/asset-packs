@@ -2,5 +2,22 @@
   "id": "5a51cce6-b537-4f8a-af12-e17d2ab46ba6",
   "name": "Grass",
   "category": "ground",
-  "tags": []
+  "tags": [
+    "environment",
+    "field",
+    "foliage",
+    "grass",
+    "ground",
+    "lawn",
+    "leafy",
+    "meadow",
+    "moss",
+    "nature",
+    "outdoor",
+    "plant",
+    "surface",
+    "turf",
+    "vegetation"
+  ],
+  "caption": "A close-up view of a green, textured surface resembling grass or moss."
 }

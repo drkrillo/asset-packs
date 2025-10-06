@@ -2,5 +2,17 @@
   "id": "2d8c6889-2029-458b-a40a-b48e3e4ebcd8",
   "name": "Road Cross Short",
   "category": "tiles",
-  "tags": []
+  "tags": [
+    "asphalt",
+    "cross",
+    "crossing",
+    "highway",
+    "path",
+    "pavement",
+    "roadblock",
+    "route",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A short road crossing with red and brown textures."
 }

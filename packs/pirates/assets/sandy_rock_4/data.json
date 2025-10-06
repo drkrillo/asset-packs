@@ -13,6 +13,16 @@
     "rocks",
     "sand",
     "sandy",
-    "beach"
-  ]
+    "beach",
+    "earthy",
+    "geological",
+    "ground",
+    "jagged",
+    "landscape",
+    "natural",
+    "rocky",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A brown rock with jagged edges."
 }

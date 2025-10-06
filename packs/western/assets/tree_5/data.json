@@ -2,5 +2,20 @@
   "id": "7db3ac91-67b4-46e4-b34a-35dbaa393fbd",
   "name": "Tree 5",
   "category": "nature",
-  "tags": []
+  "tags": [
+    "bark",
+    "branch",
+    "foliage",
+    "forest",
+    "leafless",
+    "leaves",
+    "nature",
+    "outdoor",
+    "roots",
+    "stem",
+    "tree",
+    "trunk",
+    "twig"
+  ],
+  "caption": "A small tree branch with no leaves."
 }

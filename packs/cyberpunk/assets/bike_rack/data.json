@@ -2,5 +2,22 @@
   "id": "701386a5-90ca-4202-829b-e9fd85985aeb",
   "name": "Bike Rack",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "bicycle",
+    "bike",
+    "cycle",
+    "cycling",
+    "highway",
+    "holder",
+    "lot",
+    "parking",
+    "pedal",
+    "rack",
+    "shelter",
+    "slots",
+    "sport",
+    "stand",
+    "storage"
+  ],
+  "caption": "A bike rack with multiple slots for bikes to be parked in."
 }

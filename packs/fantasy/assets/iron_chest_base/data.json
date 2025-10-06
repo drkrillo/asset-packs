@@ -5,6 +5,15 @@
   "tags": [
     "fantasy",
     "chest",
-    "iron"
-  ]
+    "iron",
+    "antique",
+    "container",
+    "decor",
+    "furniture",
+    "interior",
+    "relic",
+    "room",
+    "storage"
+  ],
+  "caption": "A simple, rectangular iron chest with a brown interior."
 }

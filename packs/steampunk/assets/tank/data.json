@@ -2,5 +2,18 @@
   "id": "0a6efb95-9f85-4c70-859f-f1158ab7d3e5",
   "name": "Tank",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "container",
+    "fixture",
+    "fuel",
+    "glass",
+    "handle",
+    "jar",
+    "lantern",
+    "shade",
+    "storage",
+    "tank",
+    "vessel"
+  ],
+  "caption": "A lantern with a glass jar and a metal handle."
 }

@@ -7,6 +7,19 @@
     "energy",
     "power",
     "electricity",
-    "connectors"
-  ]
+    "connectors",
+    "cable",
+    "coiled",
+    "connector",
+    "cord",
+    "electrical",
+    "fixture",
+    "hardware",
+    "looped",
+    "office",
+    "utility",
+    "wire",
+    "workspace"
+  ],
+  "caption": "A coiled cable with a yellow connector."
 }

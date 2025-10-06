@@ -9,6 +9,18 @@
     "nature",
     "sand",
     "dune",
-    "beach"
-  ]
+    "beach",
+    "desert",
+    "dust",
+    "landscape",
+    "ocean",
+    "sandstorm",
+    "sandy",
+    "sea",
+    "shore",
+    "terrain",
+    "wave",
+    "wind"
+  ],
+  "caption": "A sand dune."
 }

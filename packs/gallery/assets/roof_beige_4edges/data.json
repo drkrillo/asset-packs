@@ -2,5 +2,20 @@
   "id": "b0739b8c-42e7-4218-b4f5-78356e4c4004",
   "name": "Roof - Beige 4Edges",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "castle",
+    "flat",
+    "fortress",
+    "palace",
+    "roof",
+    "roofed",
+    "royal",
+    "stronghold",
+    "structure",
+    "surface",
+    "tower"
+  ],
+  "caption": "A simple, flat-roofed structure with four edges, rendered in a beige color."
 }

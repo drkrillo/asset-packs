@@ -2,5 +2,22 @@
   "id": "91778d52-52a1-4afc-a325-ee48d6e2a96c",
   "name": "Tree Base & Axe",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "axe",
+    "base",
+    "branch",
+    "foliage",
+    "forest",
+    "furniture",
+    "leaves",
+    "nature",
+    "outdoor",
+    "rest",
+    "roots",
+    "seat",
+    "steel",
+    "tree",
+    "trunk"
+  ],
+  "caption": "A tree base with an axe on top."
 }

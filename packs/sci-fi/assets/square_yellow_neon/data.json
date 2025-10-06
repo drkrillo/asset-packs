@@ -7,6 +7,15 @@
     "power",
     "spark",
     "base",
-    "spaceship"
-  ]
+    "spaceship",
+    "advertisement",
+    "billboard",
+    "border",
+    "dimension",
+    "display",
+    "glow",
+    "illumination",
+    "signage"
+  ],
+  "caption": "A three-dimensional yellow neon sign with a black border."
 }

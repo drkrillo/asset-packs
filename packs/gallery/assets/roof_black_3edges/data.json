@@ -2,5 +2,18 @@
   "id": "dc420bf4-ab93-4a1c-b711-1cfd832724b1",
   "name": "Roof - Black 3Edges",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "bottom",
+    "corners",
+    "dark",
+    "edge",
+    "edges",
+    "flat",
+    "roof",
+    "shape",
+    "sides",
+    "surface",
+    "top"
+  ],
+  "caption": "A simple black roof with three edges in a 3d modeling context."
 }

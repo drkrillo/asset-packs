@@ -7,6 +7,17 @@
     "power",
     "spark",
     "base",
-    "spaceship"
-  ]
+    "spaceship",
+    "beacon",
+    "block",
+    "brightness",
+    "glow",
+    "illumination",
+    "indicator",
+    "rectangle",
+    "signal",
+    "visibility",
+    "warning"
+  ],
+  "caption": "A rectangular block with a blue light on top."
 }

@@ -10,6 +10,20 @@
     "iron",
     "soup",
     "meal",
-    "stew"
-  ]
+    "stew",
+    "bowl",
+    "brew",
+    "bubbling",
+    "cauldron",
+    "caustic",
+    "container",
+    "cooking",
+    "heat",
+    "kitchen",
+    "lid",
+    "pot",
+    "potion",
+    "vessel"
+  ],
+  "caption": "A cauldron with a lid."
 }

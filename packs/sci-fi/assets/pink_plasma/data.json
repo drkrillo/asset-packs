@@ -6,6 +6,17 @@
     "scifi",
     "energy",
     "supply",
-    "power"
-  ]
+    "power",
+    "bottle",
+    "bottlecap",
+    "container",
+    "drum",
+    "lid",
+    "liquid",
+    "plasma",
+    "storage",
+    "tank",
+    "vessel"
+  ],
+  "caption": "A pink bottle with a white lid on top of a black base."
 }

@@ -2,5 +2,21 @@
   "id": "28d2130d-4b81-4288-b7a4-65a5aef5c4de",
   "name": "Wall - Cracked",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "broken",
+    "cracked",
+    "crumbling",
+    "damaged",
+    "debris",
+    "decay",
+    "fissured",
+    "fractured",
+    "rubble",
+    "ruin",
+    "shattered",
+    "splintered",
+    "weathered",
+    "worn"
+  ],
+  "caption": "A cracked wall."
 }

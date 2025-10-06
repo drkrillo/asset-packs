@@ -2,5 +2,18 @@
   "id": "ab2c3222-752d-417d-97a5-89aaafd1a378",
   "name": "Sewer Cover",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "access",
+    "cap",
+    "cover",
+    "drain",
+    "entrance",
+    "glow",
+    "illumination",
+    "lid",
+    "pipe",
+    "sewer",
+    "tunnel"
+  ],
+  "caption": "A sewer cover with a blue light in the center."
 }

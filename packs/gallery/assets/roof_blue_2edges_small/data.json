@@ -2,5 +2,15 @@
   "id": "94ee4cf4-d2a4-48a3-999f-ca48940d3026",
   "name": "Roof - Blue 2Edges Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "edge",
+    "exterior",
+    "facade",
+    "roof",
+    "roofed",
+    "structure"
+  ],
+  "caption": "A simple blue roof with two edges and small size."
 }

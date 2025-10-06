@@ -15,6 +15,16 @@
     "city",
     "building",
     "buildings",
-    "site"
-  ]
+    "site",
+    "facility",
+    "hardware",
+    "industrial",
+    "machinery",
+    "materials",
+    "tools",
+    "workshop",
+    "yard",
+    "zone"
+  ],
+  "caption": "A construction site with various equipment and materials."
 }

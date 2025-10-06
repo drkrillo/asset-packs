@@ -11,6 +11,19 @@
     "chair",
     "garden",
     "backyard",
-    "comfy"
-  ]
+    "comfy",
+    "armrests",
+    "comfort",
+    "couch",
+    "cushioned",
+    "dining",
+    "fabric",
+    "kitchen",
+    "office",
+    "rest",
+    "seating",
+    "segmented",
+    "sitting"
+  ],
+  "caption": "A segmented chair with armrests and a cushioned seat."
 }

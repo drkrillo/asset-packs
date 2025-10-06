@@ -2,5 +2,19 @@
   "id": "cb6e2430-57b7-488d-b1f6-94e15764c254",
   "name": "Diamond",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "diamond",
+    "gemstone",
+    "glossy",
+    "jewel",
+    "luxurious",
+    "precious",
+    "reflective",
+    "shape",
+    "shiny",
+    "sparkling",
+    "surface",
+    "valuable"
+  ],
+  "caption": "A blue diamond-shaped object with a glossy surface."
 }

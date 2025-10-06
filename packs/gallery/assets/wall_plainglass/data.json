@@ -2,5 +2,18 @@
   "id": "e28ea76e-fe21-4544-a001-a65867b11be0",
   "name": "Wall - PlainGlass",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "clear",
+    "frame",
+    "glass",
+    "glassy",
+    "mirror",
+    "pane",
+    "panel",
+    "reflective",
+    "surface",
+    "transparent",
+    "window"
+  ],
+  "caption": "A wall made of transparent glass panels."
 }

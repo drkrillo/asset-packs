@@ -2,5 +2,22 @@
   "id": "272274f1-0840-4c59-964e-0d56e3dae5f7",
   "name": "Helipad",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "access",
+    "aquatic",
+    "entrance",
+    "facility",
+    "fluid",
+    "indoor",
+    "lake",
+    "liquid",
+    "ocean",
+    "pool",
+    "poolside",
+    "public",
+    "recreation",
+    "river",
+    "steps"
+  ],
+  "caption": "An indoor swimming pool with steps leading to the water."
 }

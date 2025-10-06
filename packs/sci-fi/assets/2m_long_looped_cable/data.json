@@ -7,6 +7,20 @@
     "energy",
     "power",
     "electricity",
-    "connectors"
-  ]
+    "connectors",
+    "cable",
+    "cord",
+    "durable",
+    "flexible",
+    "knotted",
+    "line",
+    "long",
+    "looped",
+    "path",
+    "rope",
+    "twisted",
+    "utility",
+    "wire"
+  ],
+  "caption": "A long, looped cable with a yellow line following its path."
 }

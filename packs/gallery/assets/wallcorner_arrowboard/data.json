@@ -2,5 +2,15 @@
   "id": "00171c1a-2321-45f4-8354-22343a05b07f",
   "name": "WallCorner - ArrowBoard",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "appearance",
+    "corner",
+    "function",
+    "graphics",
+    "marker",
+    "shape",
+    "surface",
+    "visual"
+  ],
+  "caption": "A corner with an arrow-shaped design on its surface."
 }

@@ -12,6 +12,21 @@
     "metal",
     "iron",
     "park",
-    "garden"
-  ]
+    "garden",
+    "barrier",
+    "boundary",
+    "castle",
+    "defense",
+    "enclosure",
+    "fortification",
+    "fortress",
+    "gate",
+    "palace",
+    "rail",
+    "railing",
+    "royal",
+    "stronghold",
+    "tower"
+  ],
+  "caption": "A simple, black metal fence with four vertical bars and two horizontal ones."
 }

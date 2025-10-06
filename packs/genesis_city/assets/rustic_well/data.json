@@ -12,6 +12,21 @@
     "well",
     "stone",
     "stones",
-    "wish"
-  ]
+    "wish",
+    "agriculture",
+    "aquatic",
+    "bucket",
+    "container",
+    "countryside",
+    "farm",
+    "fluid",
+    "lake",
+    "liquid",
+    "ocean",
+    "pulley",
+    "river",
+    "rural",
+    "vessel"
+  ],
+  "caption": "A rustic well with a bucket hanging from a pulley system."
 }

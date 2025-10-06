@@ -2,5 +2,19 @@
   "id": "14aa99ba-926f-4641-a1bd-b23c0d0bf833",
   "name": "Grass 2",
   "category": "nature",
-  "tags": []
+  "tags": [
+    "environment",
+    "flora",
+    "foliage",
+    "habitat",
+    "hue",
+    "landscape",
+    "like",
+    "nature",
+    "outdoor",
+    "rocky",
+    "structure",
+    "terrain"
+  ],
+  "caption": "A coral-like structure with orange hues, surrounded by rocks and."
 }

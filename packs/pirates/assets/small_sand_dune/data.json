@@ -9,6 +9,19 @@
     "nature",
     "sand",
     "dune",
-    "beach"
-  ]
+    "beach",
+    "coastal",
+    "desert",
+    "elevation",
+    "hill",
+    "landscape",
+    "ocean",
+    "sandstorm",
+    "sandy",
+    "searchable",
+    "shore",
+    "terrain",
+    "wave"
+  ],
+  "caption": "Small sand dune."
 }

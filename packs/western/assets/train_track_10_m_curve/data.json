@@ -2,5 +2,14 @@
   "id": "ed38e64c-a107-49da-8a9e-66f73cdb5d67",
   "name": "Train Track 10 M Curve",
   "category": "tiles",
-  "tags": []
+  "tags": [
+    "curve",
+    "rail",
+    "railroad",
+    "rails",
+    "railway",
+    "track",
+    "train"
+  ],
+  "caption": "A curved wooden train track with orange lights on top."
 }

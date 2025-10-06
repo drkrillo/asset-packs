@@ -2,5 +2,18 @@
   "id": "2ee338a2-3819-4554-9f63-616b4c03be6e",
   "name": "Pebbles - Golden",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "block",
+    "blocky",
+    "flat",
+    "golden",
+    "pebbles",
+    "pixel",
+    "pixelated",
+    "rectangular",
+    "shaped",
+    "side",
+    "surface"
+  ],
+  "caption": "A pixelated cube with a golden texture on its sides, resembling a block from a video game."
 }

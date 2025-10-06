@@ -10,6 +10,16 @@
     "cobblestones",
     "stone",
     "stones",
-    "path"
-  ]
+    "path",
+    "dirt",
+    "gravel",
+    "out",
+    "pavement",
+    "sidewalk",
+    "trail",
+    "walkway",
+    "way",
+    "worn"
+  ],
+  "caption": "A worn-out stone path."
 }

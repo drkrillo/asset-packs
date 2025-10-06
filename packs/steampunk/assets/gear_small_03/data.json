@@ -2,5 +2,15 @@
   "id": "7f1cfc95-91f1-40ef-a727-024eb7ced026",
   "name": "Gear Small 03",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "center",
+    "cylindrical",
+    "dimension",
+    "gear",
+    "hole",
+    "industrial",
+    "mechanical",
+    "round"
+  ],
+  "caption": "A small, red, three-dimensional gear with a hole in the center."
 }

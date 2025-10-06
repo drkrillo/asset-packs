@@ -2,5 +2,18 @@
   "id": "62f79600-f2ba-4873-ad28-8b190da9e85b",
   "name": "Bottle - Sake",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "beverage",
+    "bottle",
+    "container",
+    "cylindrical",
+    "drink",
+    "flask",
+    "glass",
+    "liquid",
+    "liquor",
+    "sake",
+    "vessel"
+  ],
+  "caption": "A black, cylindrical."
 }

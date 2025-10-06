@@ -11,6 +11,13 @@
     "sack",
     "coin",
     "coins",
-    "gold"
-  ]
+    "gold",
+    "fortune",
+    "hoard",
+    "money",
+    "pile",
+    "riches",
+    "wealth"
+  ],
+  "caption": "A sack filled with coins."
 }

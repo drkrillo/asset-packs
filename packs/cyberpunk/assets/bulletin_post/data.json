@@ -2,5 +2,21 @@
   "id": "17f2bbdb-4eaf-4934-be24-64299fa2df30",
   "name": "Bulletin Post",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "announcement",
+    "board",
+    "bulletin",
+    "colorful",
+    "communication",
+    "display",
+    "message",
+    "notes",
+    "office",
+    "post",
+    "poster",
+    "signage",
+    "sticky",
+    "workspace"
+  ],
+  "caption": "A bulletin board with colorful sticky notes attached to it."
 }

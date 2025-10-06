@@ -10,6 +10,22 @@
     "bottle",
     "drink",
     "beverage",
-    "alcohol"
-  ]
+    "alcohol",
+    "art",
+    "centerpiece",
+    "ceramic",
+    "container",
+    "desk",
+    "dining",
+    "furniture",
+    "handle",
+    "interior",
+    "kitchen",
+    "pottery",
+    "room",
+    "surface",
+    "table",
+    "vase"
+  ],
+  "caption": "A blue vase with a handle on top."
 }

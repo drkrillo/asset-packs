@@ -2,5 +2,19 @@
   "id": "4253760c-b091-4192-8e00-a075c9f2f614",
   "name": "Stone - Dark Snow",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "block",
+    "boulder",
+    "chunk",
+    "cold",
+    "dark",
+    "frosty",
+    "frozen",
+    "granite",
+    "icy",
+    "pebble",
+    "snow",
+    "winter"
+  ],
+  "caption": "A 3d block."
 }

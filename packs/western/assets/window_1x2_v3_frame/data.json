@@ -2,5 +2,18 @@
   "id": "12587b06-3442-4b1a-91de-ec6aa0ba896f",
   "name": "Window 1x2 V3 Frame",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "bottom",
+    "entrance",
+    "flat",
+    "frame",
+    "opening",
+    "parallel",
+    "rectangle",
+    "rectangular",
+    "side",
+    "top",
+    "window"
+  ],
+  "caption": "A simple, rectangular window frame with a flat top and bottom, and two vertical sides that are parallel to each other."
 }

@@ -2,5 +2,16 @@
   "id": "58bc6469-f328-41da-a850-3b0aa48109cb",
   "name": "Roof - Beige 2Edges",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "edge",
+    "facade",
+    "flat",
+    "roof",
+    "roofed",
+    "structure",
+    "visible"
+  ],
+  "caption": "A simple, flat-roofed structure with two visible edges, rendered in a light beige color."
 }

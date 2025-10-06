@@ -2,5 +2,22 @@
   "id": "14e18f7c-c2dd-4084-9804-a6f366ebca06",
   "name": "Roof - Glass 1Edge",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "clear",
+    "edge",
+    "facade",
+    "flat",
+    "glass",
+    "panes",
+    "roof",
+    "structure",
+    "surface",
+    "tile",
+    "top",
+    "transparent",
+    "window"
+  ],
+  "caption": "A glass-topped roof with one visible edge."
 }

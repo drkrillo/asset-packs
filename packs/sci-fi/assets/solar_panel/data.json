@@ -8,6 +8,17 @@
     "parts",
     "power",
     "energy",
-    "sun"
-  ]
+    "sun",
+    "electricity",
+    "generation",
+    "grid",
+    "module",
+    "mount",
+    "panel",
+    "renewable",
+    "solar",
+    "source",
+    "stand"
+  ],
+  "caption": "A solar panel with a grid-like design on top, mounted on a stand."
 }

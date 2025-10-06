@@ -6,6 +6,16 @@
     "fantasy",
     "stair",
     "stone",
-    "step"
-  ]
+    "step",
+    "entrance",
+    "flat",
+    "ground",
+    "narrow",
+    "passage",
+    "path",
+    "steps",
+    "surface",
+    "walkway"
+  ],
+  "caption": "Small stone stair with three steps."
 }

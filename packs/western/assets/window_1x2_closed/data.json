@@ -2,5 +2,19 @@
   "id": "73bbc273-2a3a-4c0b-b236-14ea588ccbca",
   "name": "Window 1x2 Closed",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "clear",
+    "glass",
+    "glasspane",
+    "glassview",
+    "pane",
+    "panes",
+    "shut",
+    "sky",
+    "transparent",
+    "view",
+    "window",
+    "windowpane"
+  ],
+  "caption": "A simple, closed window with a blue sky visible through the glass panes."
 }

@@ -2,5 +2,18 @@
   "id": "fa75a56c-812e-4e7c-b984-14b0db02c361",
   "name": "Pet Tomb 03",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "abode",
+    "architecture",
+    "building",
+    "dwelling",
+    "home",
+    "house",
+    "residence",
+    "roof",
+    "sloped",
+    "structure",
+    "window"
+  ],
+  "caption": "A small, simple house with a sloped roof, a single window, and a door."
 }

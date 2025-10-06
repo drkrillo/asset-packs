@@ -10,6 +10,19 @@
     "decoration",
     "grass",
     "brick",
-    "bricks"
-  ]
+    "bricks",
+    "base",
+    "block",
+    "building",
+    "earth",
+    "foundation",
+    "ground",
+    "landscape",
+    "monument",
+    "round",
+    "soil",
+    "structure",
+    "terrain"
+  ],
+  "caption": "A small, round, brick-like structure."
 }

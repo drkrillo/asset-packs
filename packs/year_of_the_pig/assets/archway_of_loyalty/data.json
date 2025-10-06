@@ -6,6 +6,20 @@
     "structures",
     "archway",
     "wood",
-    "gate"
-  ]
+    "gate",
+    "arch",
+    "banner",
+    "bridge",
+    "construction",
+    "crossing",
+    "entrance",
+    "honor",
+    "japanese",
+    "lantern",
+    "loyalty",
+    "monument",
+    "pathway",
+    "river"
+  ],
+  "caption": "A traditional japanese archway with red lanterns and a black banner."
 }

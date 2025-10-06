@@ -2,5 +2,18 @@
   "id": "d878ae26-79d9-45f5-aa11-578ab1fdb11b",
   "name": "Pipe Cap",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "cap",
+    "closure",
+    "cover",
+    "cylindrical",
+    "fit",
+    "hexagon",
+    "hole",
+    "lid",
+    "pipe",
+    "seal",
+    "shape"
+  ],
+  "caption": "A white, hexagonal-shaped object with a hole in the center, which appears to be a of a pipe cap."
 }

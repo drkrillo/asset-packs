@@ -2,5 +2,22 @@
   "id": "0281518d-87c5-48a3-88bc-ba6aaf2c947b",
   "name": "Grass - long 2",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "blade",
+    "environment",
+    "field",
+    "flora",
+    "foliage",
+    "grass",
+    "ground",
+    "herb",
+    "lawn",
+    "leaf",
+    "long",
+    "meadow",
+    "nature",
+    "outdoor",
+    "pixel"
+  ],
+  "caption": "A colorful, pixelated representation of a long blade of grass."
 }

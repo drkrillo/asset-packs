@@ -2,5 +2,20 @@
   "id": "fa16ec5f-10c2-4452-bb83-096184ea1f5f",
   "name": "Door 3",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "barrier",
+    "castle",
+    "defense",
+    "doorframe",
+    "entrance",
+    "fortress",
+    "gate",
+    "lock",
+    "palace",
+    "royal",
+    "security",
+    "stronghold",
+    "tower"
+  ],
+  "caption": "A wooden door with a lock on the right side."
 }

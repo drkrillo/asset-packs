@@ -5,6 +5,16 @@
   "tags": [
     "scifi",
     "tile",
-    "ground"
-  ]
+    "ground",
+    "floor",
+    "flooring",
+    "geometric",
+    "interior",
+    "panel",
+    "paneling",
+    "pattern",
+    "shape",
+    "surface"
+  ],
+  "caption": "An orange floor panel with a smooth surface and a simple geometric shape."
 }

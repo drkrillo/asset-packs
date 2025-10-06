@@ -8,6 +8,14 @@
     "crystal",
     "gem",
     "gemstone",
-    "stone"
-  ]
+    "stone",
+    "artifact",
+    "enchanted",
+    "mineral",
+    "mysterious",
+    "mystical",
+    "powerful",
+    "relic"
+  ],
+  "caption": "Red magic stone in center of image."
 }

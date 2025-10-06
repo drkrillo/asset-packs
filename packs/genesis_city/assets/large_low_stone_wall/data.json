@@ -15,6 +15,21 @@
     "fence",
     "fences",
     "garden",
-    "park"
-  ]
+    "park",
+    "architecture",
+    "barrier",
+    "building",
+    "castle",
+    "defensive",
+    "flat",
+    "fortress",
+    "palace",
+    "plank",
+    "rectangular",
+    "royal",
+    "stronghold",
+    "structure",
+    "tower"
+  ],
+  "caption": "A long, flat, rectangular wooden plank with a simple design and no visible textures or patterns."
 }

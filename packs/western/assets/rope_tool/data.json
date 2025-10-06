@@ -2,5 +2,18 @@
   "id": "e7a0f328-43c4-4020-b7c3-9d51763193ec",
   "name": "Rope Tool",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "execution",
+    "framework",
+    "gallows",
+    "hanging",
+    "noose",
+    "punishment",
+    "rigging",
+    "rope",
+    "structure",
+    "support",
+    "torture"
+  ],
+  "caption": "A wooden gallows with a noose sign hanging from it."
 }

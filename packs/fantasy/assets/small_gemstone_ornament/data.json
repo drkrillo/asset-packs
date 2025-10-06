@@ -8,6 +8,11 @@
     "wall",
     "gem",
     "gemstone",
-    "stone"
-  ]
+    "stone",
+    "background",
+    "jewel",
+    "jewelry",
+    "pattern"
+  ],
+  "caption": "Small gemstone ornament in a black background."
 }

@@ -9,6 +9,15 @@
     "gemstone",
     "gold",
     "golden",
-    "iron"
-  ]
+    "iron",
+    "candelabra",
+    "candle",
+    "candlestick",
+    "centerpiece",
+    "gilded",
+    "holder",
+    "luxury",
+    "tableware"
+  ],
+  "caption": "A golden candle holder with a large blue crystal on top."
 }

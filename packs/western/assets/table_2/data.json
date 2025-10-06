@@ -2,5 +2,17 @@
   "id": "619c08da-51a4-49db-9ad5-49e5e88b344b",
   "name": "Table 2",
   "category": "furniture",
-  "tags": []
+  "tags": [
+    "desk",
+    "dining",
+    "flat",
+    "functionality",
+    "furniture",
+    "kitchen",
+    "simplicity",
+    "surface",
+    "table",
+    "top"
+  ],
+  "caption": "A simple brown wooden table with a flat top."
 }

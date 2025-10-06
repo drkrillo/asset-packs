@@ -2,5 +2,14 @@
   "id": "45eb9e1a-2eca-4b6f-a5c4-b0278dc7e635",
   "name": "Wall - PlainWhite",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "background",
+    "building",
+    "flat",
+    "hue",
+    "plainwhite",
+    "surface",
+    "tone"
+  ],
+  "caption": "A plain white wall in a format."
 }

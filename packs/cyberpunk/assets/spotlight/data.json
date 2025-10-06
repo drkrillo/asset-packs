@@ -2,5 +2,20 @@
   "id": "3ddda096-a798-432e-ba66-61354bccbcc9",
   "name": "Spotlight",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "beacon",
+    "beam",
+    "brightness",
+    "focus",
+    "glow",
+    "highlight",
+    "illumination",
+    "intensity",
+    "luminosity",
+    "radiance",
+    "shine",
+    "spotlight",
+    "spotlighting"
+  ],
+  "caption": "A thumbnail of a 3d asset depicting a spotlight."
 }

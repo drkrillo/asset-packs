@@ -5,6 +5,16 @@
   "tags": [
     "fantasy",
     "tile",
-    "mosaic"
-  ]
+    "mosaic",
+    "artwork",
+    "board",
+    "checker",
+    "checkerboard",
+    "chess",
+    "gamepiece",
+    "grid",
+    "pattern",
+    "tabletop"
+  ],
+  "caption": "A checkerboard tile with a mosaic design."
 }

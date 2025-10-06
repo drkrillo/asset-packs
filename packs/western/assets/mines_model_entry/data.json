@@ -2,5 +2,16 @@
   "id": "7e9a8b29-1f91-4b38-9ebf-3d973de4f502",
   "name": "Mines Model Entry",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "block",
+    "brick",
+    "hazard",
+    "hole",
+    "mine",
+    "minefield",
+    "obstacle",
+    "simulation",
+    "terrain"
+  ],
+  "caption": "An orange object resembling a small brick or block with a hole in the center, possibly representing a mine or obstacle in a game or simulation context."
 }

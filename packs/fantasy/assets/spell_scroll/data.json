@@ -8,6 +8,16 @@
     "rune",
     "scroll",
     "map",
-    "spell"
-  ]
+    "spell",
+    "artifact",
+    "book",
+    "ink",
+    "magical",
+    "mystical",
+    "parchment",
+    "relic",
+    "script",
+    "tome"
+  ],
+  "caption": "A scroll with a design on it."
 }

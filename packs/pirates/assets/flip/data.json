@@ -10,6 +10,20 @@
     "bottle",
     "drink",
     "beverage",
-    "alcohol"
-  ]
+    "alcohol",
+    "cap",
+    "chemical",
+    "container",
+    "drum",
+    "fuel",
+    "hazardous",
+    "oil",
+    "petroleum",
+    "radioactive",
+    "storage",
+    "tank",
+    "toxic",
+    "vessel"
+  ],
+  "caption": "A blue bottle with a white cap."
 }

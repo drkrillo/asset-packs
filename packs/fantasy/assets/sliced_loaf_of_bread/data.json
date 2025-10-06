@@ -7,6 +7,20 @@
     "meal",
     "bread",
     "table",
-    "banquet"
-  ]
+    "banquet",
+    "baked",
+    "bakery",
+    "baking",
+    "crust",
+    "edible",
+    "food",
+    "graphic",
+    "loaf",
+    "nutrition",
+    "pattern",
+    "slice",
+    "visual",
+    "wheat"
+  ],
+  "caption": "A loaf of bread with visible slices."
 }

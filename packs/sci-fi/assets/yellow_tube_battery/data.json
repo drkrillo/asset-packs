@@ -8,6 +8,15 @@
     "power",
     "supply",
     "electricity",
-    "plasma"
-  ]
+    "plasma",
+    "battery",
+    "bright",
+    "container",
+    "cylindrical",
+    "electric",
+    "storage",
+    "sunshine",
+    "tube"
+  ],
+  "caption": "A cylindrical battery with a yellow exterior and blue accents."
 }

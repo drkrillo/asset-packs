@@ -6,6 +6,20 @@
     "scifi",
     "energy",
     "supply",
-    "power"
-  ]
+    "power",
+    "armor",
+    "barrier",
+    "beam",
+    "defense",
+    "glow",
+    "guard",
+    "knight",
+    "plasma",
+    "protection",
+    "radiation",
+    "shield",
+    "structure",
+    "warrior"
+  ],
+  "caption": "A blue plasma object with a cube-like structure on top."
 }

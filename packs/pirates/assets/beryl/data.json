@@ -9,6 +9,15 @@
     "decorations",
     "jewel",
     "jewels",
-    "gemstone"
-  ]
+    "gemstone",
+    "crystal",
+    "facet",
+    "faceted",
+    "gem",
+    "hexagon",
+    "jewelry",
+    "mineral",
+    "precious"
+  ],
+  "caption": "A yellow gemstone with a hexagonal shape and facets."
 }

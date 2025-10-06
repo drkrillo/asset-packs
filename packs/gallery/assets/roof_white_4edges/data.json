@@ -2,5 +2,16 @@
   "id": "7baaf62a-9809-47b3-b4b6-92fca93045e3",
   "name": "Roof - White 4Edges",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "edge",
+    "flat",
+    "rectangle",
+    "roof",
+    "roofed",
+    "shape",
+    "surface"
+  ],
+  "caption": "A simple white 4-edged roof shape."
 }

@@ -7,6 +7,15 @@
     "court",
     "lamp",
     "gold",
-    "golden"
-  ]
+    "golden",
+    "bulb",
+    "fixture",
+    "interior",
+    "lighting",
+    "luxurious",
+    "ornate",
+    "post",
+    "tall"
+  ],
+  "caption": "A tall lamp post with a golden top and a light bulb on top."
 }

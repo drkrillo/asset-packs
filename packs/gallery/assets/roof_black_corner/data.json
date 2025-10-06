@@ -2,5 +2,21 @@
   "id": "207a06d7-e801-42e8-8e36-2a887a728917",
   "name": "Roof - Black Corner",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "beam",
+    "border",
+    "brick",
+    "ceiling",
+    "corner",
+    "edge",
+    "flat",
+    "roof",
+    "searchable",
+    "shingle",
+    "slate",
+    "surface",
+    "tile",
+    "top"
+  ],
+  "caption": "A black roof with a corner detail."
 }

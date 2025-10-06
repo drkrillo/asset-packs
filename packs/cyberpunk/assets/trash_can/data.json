@@ -2,5 +2,22 @@
   "id": "12c936a6-d859-4751-8404-8c368517551a",
   "name": "Trash Can",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "bin",
+    "can",
+    "cleanup",
+    "container",
+    "disposal",
+    "dumpster",
+    "facility",
+    "garbage",
+    "lid",
+    "receptacle",
+    "recycling",
+    "storage",
+    "trash",
+    "vessel",
+    "waste"
+  ],
+  "caption": "A trash can with a lid."
 }

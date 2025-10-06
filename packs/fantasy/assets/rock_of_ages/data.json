@@ -9,6 +9,18 @@
     "stones",
     "rock",
     "rocks",
-    "forest"
-  ]
+    "forest",
+    "basalt",
+    "boulder",
+    "earthy",
+    "granite",
+    "mineral",
+    "pebble",
+    "rocky",
+    "sediment",
+    "slate",
+    "smooth",
+    "surface"
+  ],
+  "caption": "A gray rock with a smooth surface."
 }

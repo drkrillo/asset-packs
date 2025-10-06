@@ -10,6 +10,19 @@
     "office",
     "business",
     "trip",
-    "travel"
-  ]
+    "travel",
+    "bag",
+    "box",
+    "briefcase",
+    "cargo",
+    "carry",
+    "container",
+    "handle",
+    "luggage",
+    "pack",
+    "suitcase",
+    "transport",
+    "trunk"
+  ],
+  "caption": "A brown briefcase with a handle on top."
 }

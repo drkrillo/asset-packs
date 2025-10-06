@@ -2,5 +2,19 @@
   "id": "d36f333b-c736-4db8-a5e2-6ab47d4364b9",
   "name": "Wall - PlainBlack",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "background",
+    "dark",
+    "darkness",
+    "flat",
+    "gloom",
+    "recess",
+    "shade",
+    "shadow",
+    "silhouette",
+    "solid",
+    "surface",
+    "tone"
+  ],
+  "caption": "A plain black wall in a style."
 }

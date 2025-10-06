@@ -12,6 +12,20 @@
     "river",
     "water",
     "rounded",
-    "round"
-  ]
+    "round",
+    "arch",
+    "architecture",
+    "building",
+    "castle",
+    "construction",
+    "crossing",
+    "defense",
+    "edge",
+    "fortification",
+    "fortress",
+    "hardwood",
+    "palace",
+    "protection"
+  ],
+  "caption": "A wooden bridge with rounded edges."
 }

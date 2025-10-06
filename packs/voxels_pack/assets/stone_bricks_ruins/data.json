@@ -2,5 +2,14 @@
   "id": "bf0e9332-7f1d-4ee0-a3f9-db5391b035da",
   "name": "Stone Bricks - Ruins",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "block",
+    "brick",
+    "building",
+    "patterned",
+    "ruin",
+    "structure"
+  ],
+  "caption": "A yellow block with a patterned texture, resembling a brick or stone structure."
 }

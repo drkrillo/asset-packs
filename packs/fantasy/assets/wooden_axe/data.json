@@ -7,6 +7,19 @@
     "iron",
     "wood",
     "wooden",
-    "sharp"
-  ]
+    "sharp",
+    "agriculture",
+    "axe",
+    "chopping",
+    "cutting",
+    "farming",
+    "forestry",
+    "function",
+    "handle",
+    "logging",
+    "outdoor",
+    "rural",
+    "utility"
+  ],
+  "caption": "An axe with a wooden handle."
 }

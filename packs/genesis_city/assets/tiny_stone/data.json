@@ -11,6 +11,19 @@
     "rocks",
     "stone",
     "stones",
-    "forest"
-  ]
+    "forest",
+    "asteroid",
+    "boulder",
+    "celestial",
+    "cosmic",
+    "debris",
+    "fragment",
+    "generated",
+    "mineral",
+    "mineraloid",
+    "particle",
+    "pebble",
+    "space"
+  ],
+  "caption": "A small stone or rock in space."
 }

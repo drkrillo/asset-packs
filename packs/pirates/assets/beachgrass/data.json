@@ -11,6 +11,19 @@
     "beach",
     "foliage",
     "plant",
-    "plants"
-  ]
+    "plants",
+    "beachgrass",
+    "environment",
+    "field",
+    "grass",
+    "ground",
+    "landscape",
+    "lawn",
+    "meadow",
+    "outdoor",
+    "scenery",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A bunch of green grass."
 }

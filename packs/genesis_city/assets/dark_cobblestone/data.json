@@ -6,6 +6,14 @@
     "genesis",
     "city",
     "town",
-    "ground"
-  ]
+    "ground",
+    "architecture",
+    "cobblestone",
+    "dark",
+    "floor",
+    "pattern",
+    "scheme",
+    "surface"
+  ],
+  "caption": "A cobblestone floor with a dark color scheme."
 }

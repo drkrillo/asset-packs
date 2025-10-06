@@ -2,5 +2,19 @@
   "id": "88c8ac33-d706-46e1-a865-ea62e37b9782",
   "name": "Wall - White Bricks",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "architecture",
+    "brick",
+    "building",
+    "castle",
+    "defense",
+    "fortification",
+    "fortress",
+    "palace",
+    "royal",
+    "stronghold",
+    "structure",
+    "tower"
+  ],
+  "caption": "A white brick wall."
 }

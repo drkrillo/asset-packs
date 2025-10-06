@@ -2,5 +2,21 @@
   "id": "af9aa90e-f9bf-4363-bb8b-447c15ef908e",
   "name": "Roof - Glass",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architectural",
+    "building",
+    "ceiling",
+    "exterior",
+    "facade",
+    "glass",
+    "glassy",
+    "roof",
+    "roofing",
+    "skylight",
+    "structure",
+    "translucent",
+    "transparent",
+    "window"
+  ],
+  "caption": "A glass roof."
 }

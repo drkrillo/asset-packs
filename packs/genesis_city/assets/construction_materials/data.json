@@ -11,6 +11,17 @@
     "debris",
     "materials",
     "material",
-    "wood"
-  ]
+    "wood",
+    "building",
+    "carpentry",
+    "craft",
+    "crafting",
+    "furniture",
+    "lumber",
+    "paneling",
+    "plank",
+    "planks",
+    "timber"
+  ],
+  "caption": "A collection of wooden planks in various orientations."
 }

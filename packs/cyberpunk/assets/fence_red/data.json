@@ -2,5 +2,14 @@
   "id": "2cd19012-2579-4ed1-8e2f-1c988643bf1d",
   "name": "Fence - Red",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "barrier",
+    "boundary",
+    "fencepost",
+    "flat",
+    "line",
+    "obstacle",
+    "straight"
+  ],
+  "caption": "A simple, flat red object resembling a fence or barrier with a straight line across its center."
 }

@@ -2,5 +2,19 @@
   "id": "6c876c44-8018-4a53-8779-0d7a052d2b3b",
   "name": "Game",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "character",
+    "characters",
+    "chinese",
+    "display",
+    "font",
+    "graphics",
+    "interface",
+    "language",
+    "script",
+    "searchable",
+    "texturing",
+    "visual"
+  ],
+  "caption": "A green text with chinese characters."
 }

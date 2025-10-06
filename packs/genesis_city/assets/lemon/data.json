@@ -10,6 +10,16 @@
     "fruit",
     "fruits",
     "market",
-    "edible"
-  ]
+    "edible",
+    "appearance",
+    "citrus",
+    "food",
+    "glossy",
+    "kitchen",
+    "lemon",
+    "shape",
+    "surface",
+    "visual"
+  ],
+  "caption": "A yellow lemon-shaped object with a glossy surface."
 }

@@ -7,6 +7,13 @@
     "vent",
     "round",
     "grey",
-    "air"
-  ]
+    "air",
+    "airflow",
+    "central",
+    "cover",
+    "cylindrical",
+    "hole",
+    "ventilation"
+  ],
+  "caption": "A purple of a vent cover with a circular design and a central hole."
 }

@@ -2,5 +2,20 @@
   "id": "97635e13-2534-422a-a4a2-1465c268ba1d",
   "name": "Fruit 1",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "box",
+    "colorful",
+    "dessert",
+    "edible",
+    "food",
+    "frozen",
+    "fruit",
+    "glossy",
+    "juicy",
+    "produce",
+    "shiny",
+    "sweet",
+    "vibrant"
+  ],
+  "caption": "A red, glossy, 3d-rendered box filled with red, glossy, 3d-rendered fruits."
 }

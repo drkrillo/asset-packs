@@ -6,6 +6,16 @@
     "scifi",
     "guard",
     "wall",
-    "split"
-  ]
+    "split",
+    "arch",
+    "barrier",
+    "blockade",
+    "blockage",
+    "containment",
+    "curve",
+    "obstruction",
+    "rail",
+    "railing"
+  ],
+  "caption": "A yellow metal railing with a curved top, designed to block off areas or sections."
 }

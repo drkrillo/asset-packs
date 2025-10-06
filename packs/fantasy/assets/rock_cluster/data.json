@@ -9,6 +9,18 @@
     "stones",
     "rock",
     "rocks",
-    "forest"
-  ]
+    "forest",
+    "boulder",
+    "cluster",
+    "dark",
+    "debris",
+    "environment",
+    "landscape",
+    "pebble",
+    "rocky",
+    "rubble",
+    "scenery",
+    "terrain"
+  ],
+  "caption": "A cluster of rocks in a dark environment."
 }

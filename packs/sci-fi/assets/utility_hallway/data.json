@@ -5,6 +5,19 @@
   "tags": [
     "scifi",
     "alien",
-    "base"
-  ]
+    "base",
+    "building",
+    "corridor",
+    "desk",
+    "furniture",
+    "interior",
+    "office",
+    "room",
+    "shelf",
+    "space",
+    "storage",
+    "structure",
+    "utility"
+  ],
+  "caption": "A utility hallway with a desk and shelves."
 }

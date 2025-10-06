@@ -10,6 +10,16 @@
     "rope",
     "ship",
     "flagship",
-    "dock"
-  ]
+    "dock",
+    "appearance",
+    "connected",
+    "cord",
+    "fiber",
+    "function",
+    "like",
+    "looped",
+    "nautical",
+    "twine"
+  ],
+  "caption": "A brown rope-like object with a series of interconnected loops."
 }

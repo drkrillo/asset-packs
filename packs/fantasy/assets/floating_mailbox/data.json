@@ -7,6 +7,17 @@
     "wizard",
     "witch",
     "mail",
-    "box"
-  ]
+    "box",
+    "container",
+    "courier",
+    "delivery",
+    "floating",
+    "gemstone",
+    "mailbox",
+    "package",
+    "parcel",
+    "postal",
+    "stationery"
+  ],
+  "caption": "A floating mailbox with a blue gemstone on top."
 }

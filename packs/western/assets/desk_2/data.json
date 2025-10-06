@@ -2,5 +2,19 @@
   "id": "9a25f7ad-ec44-4ed7-bda6-c357c6691389",
   "name": "Desk",
   "category": "furniture",
-  "tags": []
+  "tags": [
+    "desk",
+    "desktop",
+    "dining",
+    "drawer",
+    "furniture",
+    "kitchen",
+    "office",
+    "study",
+    "surface",
+    "table",
+    "workbench",
+    "workspace"
+  ],
+  "caption": "A simple, wooden desk with a single drawer in a style."
 }

@@ -9,6 +9,19 @@
     "decorations",
     "bone",
     "bones",
-    "calcium"
-  ]
+    "calcium",
+    "anatomy",
+    "dense",
+    "fossil",
+    "heavy",
+    "medical",
+    "relic",
+    "rigid",
+    "robust",
+    "skeletal",
+    "structural",
+    "substantial",
+    "weighty"
+  ],
+  "caption": "A large bone."
 }

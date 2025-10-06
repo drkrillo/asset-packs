@@ -8,6 +8,19 @@
     "throne",
     "chair",
     "court",
-    "stone"
-  ]
+    "stone",
+    "backrest",
+    "diamond",
+    "dining",
+    "furniture",
+    "kitchen",
+    "office",
+    "pattern",
+    "rest",
+    "room",
+    "royal",
+    "seat",
+    "sitting"
+  ],
+  "caption": "A blue throne with a diamond pattern on the backrest, placed on a simple gray platform."
 }

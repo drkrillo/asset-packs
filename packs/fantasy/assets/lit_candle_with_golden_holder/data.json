@@ -8,6 +8,20 @@
     "lit",
     "light",
     "gold",
-    "golden"
-  ]
+    "golden",
+    "ambiance",
+    "burning",
+    "candle",
+    "combustion",
+    "cozy",
+    "fire",
+    "flame",
+    "furniture",
+    "heat",
+    "holder",
+    "interior",
+    "smoke",
+    "warm"
+  ],
+  "caption": "A three-dimensional model of a lit candle with a golden holder."
 }

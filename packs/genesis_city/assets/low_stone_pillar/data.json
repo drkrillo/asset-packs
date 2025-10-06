@@ -12,6 +12,16 @@
     "statue",
     "garden",
     "park",
-    "wall"
-  ]
+    "wall",
+    "architecture",
+    "building",
+    "column",
+    "granite",
+    "landmark",
+    "monument",
+    "pedestal",
+    "relic",
+    "structure"
+  ],
+  "caption": "A simple, low-poly of a stone pillar."
 }

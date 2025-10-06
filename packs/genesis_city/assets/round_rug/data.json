@@ -10,6 +10,16 @@
     "rug",
     "carpet",
     "beach",
-    "sun"
-  ]
+    "sun",
+    "floor",
+    "furniture",
+    "ground",
+    "interior",
+    "pattern",
+    "room",
+    "shape",
+    "space",
+    "surface"
+  ],
+  "caption": "A colorful, stylized resembling a rug with a circular shape and a variety of colors on its surface."
 }

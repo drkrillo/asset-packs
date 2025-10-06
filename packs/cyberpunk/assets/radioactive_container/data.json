@@ -2,5 +2,15 @@
   "id": "66170425-9f3d-4d58-940c-bdf073213f62",
   "name": "Radioactive Container",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "container",
+    "cylindrical",
+    "hazardous",
+    "nuclear",
+    "radioactive",
+    "storage",
+    "toxic",
+    "vessel"
+  ],
+  "caption": "A cylindrical container."
 }

@@ -2,5 +2,18 @@
   "id": "6b6579dd-c02f-4b7c-8350-8502d78fda7d",
   "name": "Roof - Purple Corner",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "corner",
+    "hue",
+    "interior",
+    "roof",
+    "roofed",
+    "room",
+    "shade",
+    "space",
+    "structure"
+  ],
+  "caption": "A purple corner roof."
 }

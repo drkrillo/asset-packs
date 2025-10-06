@@ -13,6 +13,18 @@
     "iron",
     "torch",
     "fire",
-    "jungle"
-  ]
+    "jungle",
+    "burning",
+    "combustion",
+    "flame",
+    "fuel",
+    "handle",
+    "heat",
+    "holder",
+    "lantern",
+    "smoke",
+    "stand",
+    "standing"
+  ],
+  "caption": "A standing torch with a wooden handle and a metal head."
 }

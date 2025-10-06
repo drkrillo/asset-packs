@@ -7,6 +7,18 @@
     "column",
     "wood",
     "wooden",
-    "iron"
-  ]
+    "iron",
+    "architectural",
+    "base",
+    "columnar",
+    "monument",
+    "pedestal",
+    "spire",
+    "statue",
+    "structural",
+    "tall",
+    "top",
+    "tower"
+  ],
+  "caption": "A tall wooden column with two smaller columns on top."
 }

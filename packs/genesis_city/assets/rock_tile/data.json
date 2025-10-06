@@ -15,6 +15,16 @@
     "yard",
     "tile",
     "city",
-    "road"
-  ]
+    "road",
+    "floor",
+    "flooring",
+    "ground",
+    "layout",
+    "pattern",
+    "patterned",
+    "scheme",
+    "surface",
+    "tileset"
+  ],
+  "caption": "A tile flooring pattern with a white color scheme."
 }

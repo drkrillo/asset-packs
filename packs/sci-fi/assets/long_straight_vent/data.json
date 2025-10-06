@@ -7,6 +7,14 @@
     "air",
     "vent",
     "straight",
-    "long"
-  ]
+    "long",
+    "duct",
+    "fixture",
+    "function",
+    "pipe",
+    "stripe",
+    "structure",
+    "ventilation"
+  ],
+  "caption": "A long, straight, vent-like object with a yellow stripe running along its length."
 }

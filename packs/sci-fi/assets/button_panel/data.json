@@ -5,6 +5,16 @@
   "tags": [
     "scifi",
     "controls",
-    "trigger"
-  ]
+    "trigger",
+    "activation",
+    "control",
+    "display",
+    "interaction",
+    "interface",
+    "panel",
+    "press",
+    "switch",
+    "user"
+  ],
+  "caption": "A button panel with a red button on top."
 }

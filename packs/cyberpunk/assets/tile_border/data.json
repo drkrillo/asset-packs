@@ -2,5 +2,17 @@
   "id": "16351f2c-d9ca-4522-8db2-3f55b1474596",
   "name": "Tile Border",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "border",
+    "dimensional",
+    "edge",
+    "frame",
+    "line",
+    "pattern",
+    "searchable",
+    "shape",
+    "surface",
+    "tile"
+  ],
+  "caption": "A white, three-dimensional border tile."
 }

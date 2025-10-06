@@ -6,6 +6,16 @@
     "scifi",
     "dock",
     "port",
-    "metal"
-  ]
+    "metal",
+    "column",
+    "container",
+    "docking",
+    "plastic",
+    "slot",
+    "storage",
+    "transport",
+    "vehicle",
+    "vessel"
+  ],
+  "caption": "A white plastic docking column with four slots."
 }

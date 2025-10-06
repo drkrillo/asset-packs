@@ -9,6 +9,18 @@
     "stones",
     "rock",
     "rocks",
-    "forest"
-  ]
+    "forest",
+    "boulder",
+    "dark",
+    "earthy",
+    "granite",
+    "ground",
+    "landscape",
+    "mineral",
+    "pebble",
+    "rocky",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A collection of small, dark rocks."
 }

@@ -2,5 +2,19 @@
   "id": "44083cd0-e386-4bf3-8f8b-c823cacf9cd0",
   "name": "Door 7",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "building",
+    "doorway",
+    "entrance",
+    "frame",
+    "glass",
+    "interior",
+    "pane",
+    "passage",
+    "room",
+    "space",
+    "structure",
+    "window"
+  ],
+  "caption": "A window with a blue interior."
 }

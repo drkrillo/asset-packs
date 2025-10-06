@@ -2,5 +2,16 @@
   "id": "9caa6ebf-b0b6-445c-8a51-17625a33c898",
   "name": "Poster 8",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "artwork",
+    "board",
+    "circuit",
+    "display",
+    "electronics",
+    "graphics",
+    "lines",
+    "pattern",
+    "thumbnail"
+  ],
+  "caption": "A thumbnail of a 3d asset depicting a green circuit board with intricate patterns and lines."
 }

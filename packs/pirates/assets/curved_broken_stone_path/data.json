@@ -10,6 +10,18 @@
     "cobblestones",
     "stone",
     "stones",
-    "path"
-  ]
+    "path",
+    "asphalt",
+    "broken",
+    "cracked",
+    "curve",
+    "curved",
+    "fractured",
+    "fragment",
+    "pavement",
+    "trail",
+    "twisted",
+    "winding"
+  ],
+  "caption": "A broken stone path with curves."
 }

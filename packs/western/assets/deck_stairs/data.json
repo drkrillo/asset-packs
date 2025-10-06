@@ -2,5 +2,21 @@
   "id": "a2c0b460-57ce-4097-8613-255c6aba21a4",
   "name": "Deck Stairs",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "balcony",
+    "comfort",
+    "deck",
+    "furniture",
+    "landing",
+    "outdoor",
+    "pathway",
+    "patio",
+    "porch",
+    "railing",
+    "seating",
+    "stairs",
+    "steps",
+    "walkway"
+  ],
+  "caption": "A wooden deck with stairs."
 }

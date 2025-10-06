@@ -2,5 +2,21 @@
   "id": "53dbffad-e1d8-4e9c-8788-bc3d4ca910b4",
   "name": "Wall - Beach",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "binding",
+    "book",
+    "bookshelf",
+    "cover",
+    "desk",
+    "furniture",
+    "interior",
+    "leather",
+    "library",
+    "office",
+    "pages",
+    "paper",
+    "reading",
+    "study"
+  ],
+  "caption": "A book with a brown cover and white pages."
 }

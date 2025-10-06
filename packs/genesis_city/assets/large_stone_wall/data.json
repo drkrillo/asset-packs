@@ -12,6 +12,22 @@
     "fence",
     "fences",
     "garden",
-    "park"
-  ]
+    "park",
+    "architecture",
+    "barrier",
+    "building",
+    "castle",
+    "flat",
+    "fortification",
+    "fortress",
+    "gap",
+    "hole",
+    "opening",
+    "palace",
+    "rectangular",
+    "royal",
+    "stronghold",
+    "structure"
+  ],
+  "caption": "A long, flat, rectangular stone wall with a series of small holes along its length."
 }

@@ -17,6 +17,21 @@
     "yard",
     "farm",
     "door",
-    "entrance"
-  ]
+    "entrance",
+    "bed",
+    "bedroom",
+    "building",
+    "decor",
+    "dwelling",
+    "frame",
+    "furniture",
+    "gate",
+    "home",
+    "house",
+    "interior",
+    "ladder",
+    "mattress",
+    "pillow"
+  ],
+  "caption": "A wooden bed frame with a ladder on the side."
 }

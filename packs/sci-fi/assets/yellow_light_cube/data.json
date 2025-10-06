@@ -7,6 +7,18 @@
     "power",
     "spark",
     "base",
-    "spaceship"
-  ]
+    "spaceship",
+    "angle",
+    "beam",
+    "face",
+    "glow",
+    "highlight",
+    "illumination",
+    "perspective",
+    "ray",
+    "side",
+    "spotlight",
+    "surface"
+  ],
+  "caption": "A three-dimensional cube with a yellow light on its side."
 }

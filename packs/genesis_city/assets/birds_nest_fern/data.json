@@ -13,6 +13,19 @@
     "forest",
     "park",
     "yard",
-    "backyard"
-  ]
+    "backyard",
+    "botanical",
+    "branch",
+    "environment",
+    "flora",
+    "foliage",
+    "leaf",
+    "leaves",
+    "natural",
+    "outdoor",
+    "plant",
+    "roots",
+    "tree"
+  ],
+  "caption": "A fern with three leaves."
 }

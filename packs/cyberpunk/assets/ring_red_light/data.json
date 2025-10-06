@@ -2,5 +2,19 @@
   "id": "4bd7a0cc-0016-49c2-8075-7ec361af961a",
   "name": "Ring Red Light",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "beacon",
+    "glow",
+    "glowlight",
+    "illumination",
+    "indicator",
+    "luminescence",
+    "orb",
+    "radiance",
+    "ring",
+    "signal",
+    "spotlight",
+    "warning"
+  ],
+  "caption": "A red circular object with a light source in the center."
 }

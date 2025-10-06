@@ -8,6 +8,15 @@
     "crystal",
     "gem",
     "gemstone",
-    "stone"
-  ]
+    "stone",
+    "artifact",
+    "enchanted",
+    "energy",
+    "mysterious",
+    "mystic",
+    "mystical",
+    "power",
+    "relic"
+  ],
+  "caption": "A blue magic stone."
 }

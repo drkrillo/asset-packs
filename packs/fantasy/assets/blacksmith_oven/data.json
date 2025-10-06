@@ -7,6 +7,19 @@
     "oven",
     "blacksmith",
     "bellows",
-    "fire"
-  ]
+    "fire",
+    "burning",
+    "combustion",
+    "cooking",
+    "emblem",
+    "flame",
+    "forge",
+    "furnace",
+    "hearth",
+    "heat",
+    "smithing",
+    "smoke",
+    "steel"
+  ],
+  "caption": "An open-topped oven with a red interior and a yellow emblem on its front."
 }

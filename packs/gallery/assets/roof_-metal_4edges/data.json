@@ -2,5 +2,18 @@
   "id": "d11d3ab8-0281-4bab-bfb8-186aec8f93c4",
   "name": "Roof -Metal 4Edges",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "building",
+    "edges",
+    "edging",
+    "flat",
+    "four",
+    "pitched",
+    "roof",
+    "roofed",
+    "roofing",
+    "sloped",
+    "structure"
+  ],
+  "caption": "A simple, four-edged metal roof model."
 }

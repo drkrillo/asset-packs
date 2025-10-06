@@ -2,5 +2,18 @@
   "id": "5e0f9a3a-21f5-4394-bbdc-a5c0677f1280",
   "name": "Pot",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "brew",
+    "cauldron",
+    "container",
+    "cooking",
+    "handle",
+    "kitchen",
+    "magical",
+    "pot",
+    "potion",
+    "top",
+    "vessel"
+  ],
+  "caption": "A black cauldron with a handle on top."
 }

@@ -12,6 +12,12 @@
     "rocks",
     "stone",
     "stones",
-    "magic"
-  ]
+    "magic",
+    "artifact",
+    "collectible",
+    "mysterious",
+    "mystical",
+    "relic"
+  ],
+  "caption": "A brown stone with a blue magic symbol on top."
 }

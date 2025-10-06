@@ -2,5 +2,18 @@
   "id": "ed5d1431-0172-4730-b81c-856fc44043f7",
   "name": "Wall - CorrugatedMetal",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "corrugatedmetal",
+    "corrugation",
+    "defense",
+    "fortress",
+    "industrial",
+    "metallic",
+    "pattern",
+    "stronghold",
+    "structure"
+  ],
+  "caption": "A corrugated metal wall."
 }

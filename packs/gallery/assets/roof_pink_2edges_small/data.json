@@ -2,5 +2,10 @@
   "id": "a7e93da2-7024-4d11-8fa5-c0ea51c87963",
   "name": "Roof - Pink 2Edges Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "building",
+    "edge",
+    "roof"
+  ],
+  "caption": "A small pink roof with two edges."
 }

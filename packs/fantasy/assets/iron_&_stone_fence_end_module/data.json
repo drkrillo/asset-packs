@@ -8,6 +8,13 @@
     "iron",
     "stone",
     "module",
-    "end"
-  ]
+    "end",
+    "architecture",
+    "barrier",
+    "defense",
+    "fortification",
+    "gate",
+    "structure"
+  ],
+  "caption": "An iron and stone fence end module."
 }

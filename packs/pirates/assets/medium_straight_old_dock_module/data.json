@@ -12,6 +12,17 @@
     "dock",
     "pillar",
     "pillars",
-    "old"
-  ]
+    "old",
+    "architecture",
+    "building",
+    "defense",
+    "fortress",
+    "module",
+    "palace",
+    "royal",
+    "stronghold",
+    "structure",
+    "weathered"
+  ],
+  "caption": "A wooden dock module with a weathered appearance."
 }

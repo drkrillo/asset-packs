@@ -7,6 +7,13 @@
     "tile",
     "marble",
     "pattern",
-    "checkers"
-  ]
+    "checkers",
+    "boardgame",
+    "checkerboard",
+    "chess",
+    "gamepiece",
+    "strategy",
+    "tabletop"
+  ],
+  "caption": "A checkered tile with a marble texture."
 }

@@ -2,5 +2,15 @@
   "id": "4fb780e1-69d3-4d41-a614-ea835b750d96",
   "name": "Floor - Dark Grey Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "colour",
+    "dark",
+    "floor",
+    "flooring",
+    "size",
+    "surface",
+    "tile",
+    "tone"
+  ],
+  "caption": "A simple, dark grey flooring tile with a small size."
 }

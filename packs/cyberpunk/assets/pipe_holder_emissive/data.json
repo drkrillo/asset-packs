@@ -2,5 +2,14 @@
   "id": "85cc2752-3ff0-43f0-9b15-5e98f048edca",
   "name": "Pipe Holder - Emissive",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "emissive",
+    "fixture",
+    "hardware",
+    "holder",
+    "installation",
+    "lighting",
+    "pipe"
+  ],
+  "caption": "A pipe holder with an emissive texture."
 }

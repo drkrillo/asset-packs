@@ -2,5 +2,20 @@
   "id": "72926a7f-46aa-48df-a276-aaa8e7bfb485",
   "name": "Sand",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "beach",
+    "block",
+    "desert",
+    "dune",
+    "erosion",
+    "geology",
+    "golden",
+    "grain",
+    "mineral",
+    "sand",
+    "sandstone",
+    "sediment",
+    "surface"
+  ],
+  "caption": "A 3d block made of sand, with a golden texture on its surface."
 }

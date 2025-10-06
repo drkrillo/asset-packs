@@ -13,6 +13,9 @@
     "fence",
     "fences",
     "garden",
-    "park"
-  ]
+    "park",
+    "ornamented",
+    "stonework"
+  ],
+  "caption": "A small, ornate stone railing."
 }

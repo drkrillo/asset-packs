@@ -6,6 +6,20 @@
     "fantasy",
     "fountain",
     "water",
-    "park"
-  ]
+    "park",
+    "aquatic",
+    "basin",
+    "flow",
+    "fluid",
+    "fountainhead",
+    "hexagon",
+    "lake",
+    "liquid",
+    "ocean",
+    "pool",
+    "river",
+    "spout",
+    "waterfeature"
+  ],
+  "caption": "A blue hexagonal fountain with a yellow base."
 }

@@ -2,5 +2,16 @@
   "id": "714b32a7-6dfe-472b-918e-85cdebf61b35",
   "name": "X Red",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "alert",
+    "cross",
+    "emblem",
+    "emergency",
+    "flag",
+    "mark",
+    "medical",
+    "rescue",
+    "warning"
+  ],
+  "caption": "A red cross symbol."
 }

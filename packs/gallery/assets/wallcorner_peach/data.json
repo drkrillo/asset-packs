@@ -2,5 +2,14 @@
   "id": "be00fbc8-4a30-4bc5-b03d-5fd50de51d5b",
   "name": "WallCorner - Peach ",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "corner",
+    "cornerpiece",
+    "peach",
+    "puzzlecorner",
+    "puzzlepiece",
+    "redcorner",
+    "wallcorner"
+  ],
+  "caption": "A red corner piece of a 3d puzzle."
 }

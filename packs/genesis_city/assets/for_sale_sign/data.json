@@ -13,6 +13,19 @@
     "parcel",
     "realstate",
     "real",
-    "state"
-  ]
+    "state",
+    "advertisement",
+    "available",
+    "business",
+    "commercial",
+    "estate",
+    "lease",
+    "listing",
+    "market",
+    "office",
+    "property",
+    "rent",
+    "storefront"
+  ],
+  "caption": "A real estate sign with the text \"for sale\" on it."
 }

@@ -2,5 +2,17 @@
   "id": "9f69ad55-310d-4182-bd28-89983721f963",
   "name": "Wall - PlainDarkGrey",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "background",
+    "dark",
+    "environment",
+    "plaindarkgrey",
+    "room",
+    "setting",
+    "shade",
+    "space",
+    "surface",
+    "tone"
+  ],
+  "caption": "A plain dark grey wall in a."
 }

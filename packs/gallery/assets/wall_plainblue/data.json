@@ -2,5 +2,15 @@
   "id": "55fc3f63-f34c-4492-9da2-3da9fb477938",
   "name": "Wall - PlainBlue",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "background",
+    "building",
+    "flat",
+    "rectangle",
+    "structure",
+    "surface",
+    "visual"
+  ],
+  "caption": "A simple, plain blue wall in a style."
 }

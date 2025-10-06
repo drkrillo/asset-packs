@@ -7,6 +7,18 @@
     "power",
     "spark",
     "base",
-    "spaceship"
-  ]
+    "spaceship",
+    "beam",
+    "cross",
+    "glow",
+    "glowing",
+    "halo",
+    "illumination",
+    "lantern",
+    "luminous",
+    "radiance",
+    "radiant",
+    "spotlight"
+  ],
+  "caption": "A cross-shaped object with a light source at each end."
 }

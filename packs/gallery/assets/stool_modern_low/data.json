@@ -2,5 +2,21 @@
   "id": "f5844d08-2967-4d9a-99c9-57ad5c5c26c3",
   "name": "Stool Modern Low",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "chair",
+    "desk",
+    "dining",
+    "furniture",
+    "kitchen",
+    "leg",
+    "office",
+    "rest",
+    "seat",
+    "sitting",
+    "stool",
+    "surface",
+    "table",
+    "workspace"
+  ],
+  "caption": "A modern low stool with a black seat and a silver leg."
 }

@@ -9,6 +9,14 @@
     "decoration",
     "paint",
     "bucket",
-    "construction"
-  ]
+    "construction",
+    "art",
+    "container",
+    "handle",
+    "liquid",
+    "storage",
+    "top",
+    "vessel"
+  ],
+  "caption": "A blue paint bucket with a handle on top."
 }

@@ -11,6 +11,16 @@
     "container",
     "flower",
     "flowers",
-    "concrete"
-  ]
+    "concrete",
+    "garden",
+    "hole",
+    "landscape",
+    "outdoor",
+    "planterbox",
+    "planting",
+    "pot",
+    "top",
+    "yard"
+  ],
+  "caption": "A simple, gray, square planter with a hole in the top for planting."
 }

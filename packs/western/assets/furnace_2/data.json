@@ -2,5 +2,21 @@
   "id": "5244e375-c3de-4c48-8a9d-0e2ee6264f65",
   "name": "Furnace 2",
   "category": "furniture",
-  "tags": []
+  "tags": [
+    "burning",
+    "coal",
+    "combustion",
+    "ember",
+    "fire",
+    "flame",
+    "flames",
+    "fuel",
+    "furnace",
+    "heat",
+    "ignition",
+    "smoke",
+    "spark",
+    "steel"
+  ],
+  "caption": "A black 3d-rendered furnace with an orange light on top."
 }

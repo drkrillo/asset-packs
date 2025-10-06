@@ -2,5 +2,22 @@
   "id": "c8da1372-9fe8-49a1-bcb4-0ae4525ff384",
   "name": "Furnace 1",
   "category": "furniture",
-  "tags": []
+  "tags": [
+    "burning",
+    "chimney",
+    "coal",
+    "combustion",
+    "cooking",
+    "fire",
+    "firebox",
+    "fireplace",
+    "flame",
+    "furnace",
+    "heat",
+    "smoke",
+    "source",
+    "stove",
+    "warmth"
+  ],
+  "caption": "A small black stove with an orange firebox and a red door."
 }

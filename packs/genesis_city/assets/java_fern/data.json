@@ -13,6 +13,14 @@
     "forest",
     "park",
     "yard",
-    "backyard"
-  ]
+    "backyard",
+    "abstract",
+    "foliage",
+    "form",
+    "leafy",
+    "plant",
+    "shape",
+    "vegetation"
+  ],
+  "caption": "A green fern with a simple, abstract design."
 }

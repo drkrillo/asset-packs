@@ -2,5 +2,18 @@
   "id": "4bd17014-d98b-4d42-a3fc-8d5bd61b0a21",
   "name": "Window 4x4 V3 Frame",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "border",
+    "bottom",
+    "flat",
+    "four",
+    "frame",
+    "layout",
+    "panes",
+    "rectangular",
+    "structure",
+    "top",
+    "window"
+  ],
+  "caption": "A simple, four-paned window frame with a flat top and bottom."
 }

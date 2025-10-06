@@ -7,6 +7,16 @@
     "book",
     "codex",
     "knowledge",
-    "shelf"
-  ]
+    "shelf",
+    "cover",
+    "golden",
+    "leather",
+    "manuscript",
+    "pages",
+    "parchment",
+    "scroll",
+    "spine",
+    "tome"
+  ],
+  "caption": "An open book with pages visible, featuring a golden cover and a pink symbol on the spine."
 }

@@ -5,6 +5,17 @@
   "tags": [
     "scifi",
     "alien",
-    "base"
-  ]
+    "base",
+    "archway",
+    "corridor",
+    "doorway",
+    "entrance",
+    "exit",
+    "passage",
+    "passageway",
+    "portal",
+    "room",
+    "tunnel"
+  ],
+  "caption": "A simple, white, 3d-rendered short hallway with a single door on the right side."
 }

@@ -5,6 +5,15 @@
   "tags": [
     "scifi",
     "tile",
-    "ground"
-  ]
+    "ground",
+    "flat",
+    "floor",
+    "four",
+    "panel",
+    "rectangular",
+    "slab",
+    "solid",
+    "surface"
+  ],
+  "caption": "Four square floor panels."
 }

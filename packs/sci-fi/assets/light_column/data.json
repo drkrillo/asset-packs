@@ -7,6 +7,15 @@
     "power",
     "spark",
     "base",
-    "spaceship"
-  ]
+    "spaceship",
+    "column",
+    "cylindrical",
+    "form",
+    "illumination",
+    "shape",
+    "structure",
+    "tall",
+    "top"
+  ],
+  "caption": "A tall, orange cylindrical object with a white top."
 }

@@ -2,5 +2,19 @@
   "id": "5c486fa3-abc6-4dba-804a-6536e77a738d",
   "name": "Tree 1",
   "category": "nature",
-  "tags": []
+  "tags": [
+    "branch",
+    "environment",
+    "foliage",
+    "forest",
+    "leafless",
+    "leaves",
+    "nature",
+    "outdoor",
+    "roots",
+    "terrain",
+    "tree",
+    "trunk"
+  ],
+  "caption": "A small, leafless tree with brown branches and orange rocks at its base."
 }

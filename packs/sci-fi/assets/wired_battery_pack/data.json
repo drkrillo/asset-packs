@@ -8,6 +8,16 @@
     "power",
     "supply",
     "electricity",
-    "plasma"
-  ]
+    "plasma",
+    "battery",
+    "charging",
+    "electrical",
+    "fuel",
+    "pack",
+    "portable",
+    "storage",
+    "switch",
+    "wired"
+  ],
+  "caption": "A wired battery pack with a switch on top."
 }

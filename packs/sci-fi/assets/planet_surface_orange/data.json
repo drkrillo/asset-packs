@@ -5,6 +5,18 @@
   "tags": [
     "scifi",
     "tile",
-    "planet"
-  ]
+    "planet",
+    "crust",
+    "earth",
+    "flat",
+    "ground",
+    "hue",
+    "land",
+    "shade",
+    "soil",
+    "surface",
+    "terrain",
+    "tone"
+  ],
+  "caption": "An orange-colored of a flat surface or terrain."
 }

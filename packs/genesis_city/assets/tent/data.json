@@ -9,6 +9,17 @@
     "structures",
     "tent",
     "camping",
-    "forest"
-  ]
+    "forest",
+    "canopy",
+    "canvas",
+    "fabric",
+    "outdoor",
+    "poles",
+    "roof",
+    "shelter",
+    "structure",
+    "support",
+    "triangular"
+  ],
+  "caption": "A blue tent with a triangular top and wooden poles supporting its structure."
 }

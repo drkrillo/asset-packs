@@ -6,6 +6,13 @@
     "fantasy",
     "stone",
     "block",
-    "column"
-  ]
+    "column",
+    "granite",
+    "marble",
+    "monument",
+    "pedestal",
+    "rocky",
+    "statue"
+  ],
+  "caption": "A small stone column, which is a."
 }

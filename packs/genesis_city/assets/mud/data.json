@@ -6,6 +6,17 @@
     "genesis",
     "city",
     "town",
-    "ground"
-  ]
+    "ground",
+    "dirt",
+    "dot",
+    "dots",
+    "earth",
+    "mud",
+    "pattern",
+    "scatter",
+    "speck",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A red, textured surface with small white dots scattered across it."
 }

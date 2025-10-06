@@ -2,5 +2,13 @@
   "id": "9bd1b481-0d29-47e9-9ba1-55d6fe37e678",
   "name": "Roof - Orange 2Edges",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "edge",
+    "form",
+    "pattern",
+    "roof",
+    "shape",
+    "type"
+  ],
+  "caption": "An orange of a simple roof with two edges."
 }

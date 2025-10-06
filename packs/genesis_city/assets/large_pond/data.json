@@ -12,6 +12,21 @@
     "rock",
     "rocks",
     "stone",
-    "stones"
-  ]
+    "stones",
+    "aquatic",
+    "basin",
+    "body",
+    "container",
+    "edge",
+    "environment",
+    "fluid",
+    "lake",
+    "landscape",
+    "liquid",
+    "natural",
+    "ocean",
+    "pool",
+    "river"
+  ],
+  "caption": "A large pond with a rocky edge."
 }

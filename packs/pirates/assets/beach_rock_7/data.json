@@ -11,6 +11,17 @@
     "stones",
     "rock",
     "rocks",
-    "beach"
-  ]
+    "beach",
+    "coastal",
+    "geological",
+    "landform",
+    "ocean",
+    "shore",
+    "smooth",
+    "surface",
+    "terrain",
+    "tide",
+    "wave"
+  ],
+  "caption": "A rock with a smooth surface, possibly representing a beach rock."
 }

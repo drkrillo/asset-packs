@@ -2,5 +2,16 @@
   "id": "611ad6f2-7a64-4437-be88-f373a2698671",
   "name": "Column 1",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "column",
+    "cylindrical",
+    "flat",
+    "monument",
+    "structure",
+    "top",
+    "upright"
+  ],
+  "caption": "A simple, pink, cylindrical pillar or column with a flat top."
 }

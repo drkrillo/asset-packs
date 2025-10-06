@@ -2,5 +2,19 @@
   "id": "8eaa31ad-020e-4fc4-affc-a92d9e26aa4c",
   "name": "Roof - Yellow 3Edges",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "edges",
+    "exterior",
+    "facade",
+    "flat",
+    "roof",
+    "structure",
+    "sun",
+    "surface",
+    "top",
+    "triangular"
+  ],
+  "caption": "A simple, yellow, three-edged roof model."
 }

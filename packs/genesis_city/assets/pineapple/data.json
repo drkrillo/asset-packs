@@ -10,6 +10,13 @@
     "fruit",
     "fruits",
     "market",
-    "edible"
-  ]
+    "edible",
+    "body",
+    "juicy",
+    "pineapple",
+    "sweet",
+    "top",
+    "tropical"
+  ],
+  "caption": "A pineapple with a green top and orange body."
 }

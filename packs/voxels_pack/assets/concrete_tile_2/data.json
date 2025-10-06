@@ -2,5 +2,17 @@
   "id": "26eec0be-ab77-49a6-98f0-a82dd336944f",
   "name": "Concrete tile",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "appearance",
+    "clear",
+    "glass",
+    "like",
+    "reflective",
+    "shiny",
+    "surface",
+    "tile",
+    "translucent",
+    "transparent"
+  ],
+  "caption": "A cube with a transparent texture on its sides, giving it a glass-like appearance."
 }

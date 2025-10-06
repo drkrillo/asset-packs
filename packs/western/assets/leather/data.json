@@ -2,5 +2,18 @@
   "id": "e31ccb50-0122-4a15-84f7-5691a2dcc1a5",
   "name": "Leather",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "belt",
+    "buckle",
+    "clothing",
+    "craftsmanship",
+    "fabric",
+    "leather",
+    "leatherwork",
+    "smooth",
+    "strap",
+    "surface",
+    "upholstery"
+  ],
+  "caption": "A brown leather object with a smooth surface."
 }

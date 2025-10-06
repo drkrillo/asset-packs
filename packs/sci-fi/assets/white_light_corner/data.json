@@ -7,6 +7,19 @@
     "power",
     "spark",
     "base",
-    "spaceship"
-  ]
+    "spaceship",
+    "beam",
+    "corner",
+    "fixture",
+    "glow",
+    "illumination",
+    "interior",
+    "lighting",
+    "luminous",
+    "radiant",
+    "room",
+    "space",
+    "spotlight"
+  ],
+  "caption": "A white light corner."
 }

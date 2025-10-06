@@ -2,5 +2,16 @@
   "id": "530260bb-eccc-49f9-9d72-7f039030af29",
   "name": "Furnace 5 Pipe",
   "category": "furniture",
-  "tags": []
+  "tags": [
+    "combustion",
+    "curved",
+    "cylindrical",
+    "furnace",
+    "heating",
+    "industrial",
+    "pipe",
+    "structure",
+    "tube"
+  ],
+  "caption": "A black cylindrical object with a curved top, resembling a pipe or tube, which could be part of a for a furnace or similar structure."
 }

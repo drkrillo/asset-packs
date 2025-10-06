@@ -9,6 +9,20 @@
     "structures",
     "pilar",
     "statue",
-    "cat"
-  ]
+    "cat",
+    "animal",
+    "art",
+    "box",
+    "container",
+    "domestic",
+    "feline",
+    "figurative",
+    "figurine",
+    "meow",
+    "pet",
+    "pose",
+    "sculpture",
+    "sitting"
+  ],
+  "caption": "A cat statue sitting on top of a box."
 }

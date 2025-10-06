@@ -6,6 +6,22 @@
     "scifi",
     "base",
     "tool",
-    "work"
-  ]
+    "work",
+    "bright",
+    "chair",
+    "cheerful",
+    "desk",
+    "dining",
+    "dinner",
+    "furniture",
+    "kitchen",
+    "leg",
+    "office",
+    "rest",
+    "searchable",
+    "seat",
+    "sitting",
+    "surface"
+  ],
+  "caption": "A yellow table with orange legs."
 }

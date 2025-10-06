@@ -2,5 +2,17 @@
   "id": "d2ab3bb5-be46-4d4a-8ec5-64c83e0d5be8",
   "name": "Roof - Black 4Edges Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architectural",
+    "building",
+    "compact",
+    "corner",
+    "edge",
+    "flat",
+    "roof",
+    "roofed",
+    "structure",
+    "top"
+  ],
+  "caption": "A small black roof with four edges."
 }

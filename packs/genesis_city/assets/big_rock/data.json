@@ -11,6 +11,15 @@
     "rocks",
     "stone",
     "stones",
-    "forest"
-  ]
+    "forest",
+    "boulder",
+    "earthy",
+    "geological",
+    "mineral",
+    "natural",
+    "rocky",
+    "rough",
+    "spherical"
+  ],
+  "caption": "A large, gray, spherical rock with a rough texture."
 }

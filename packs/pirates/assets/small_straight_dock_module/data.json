@@ -11,6 +11,15 @@
     "wooden",
     "dock",
     "pillar",
-    "pillars"
-  ]
+    "pillars",
+    "building",
+    "comfort",
+    "flat",
+    "furniture",
+    "module",
+    "seating",
+    "structure",
+    "top"
+  ],
+  "caption": "A simple, wooden dock module with a flat top."
 }

@@ -11,6 +11,16 @@
     "wooden",
     "crate",
     "box",
-    "open"
-  ]
+    "open",
+    "container",
+    "contents",
+    "interior",
+    "lid",
+    "room",
+    "shelf",
+    "space",
+    "storage",
+    "visible"
+  ],
+  "caption": "An opened wooden crate with its contents visible."
 }

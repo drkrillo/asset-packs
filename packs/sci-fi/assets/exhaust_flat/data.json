@@ -7,6 +7,17 @@
     "vent",
     "exhaust",
     "air",
-    "yellow"
-  ]
+    "yellow",
+    "airflow",
+    "appliance",
+    "blades",
+    "fan",
+    "flat",
+    "industrial",
+    "machinery",
+    "mechanism",
+    "rectangle",
+    "ventilation"
+  ],
+  "caption": "A flat, rectangular exhaust fan with yellow blades."
 }

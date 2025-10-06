@@ -2,5 +2,21 @@
   "id": "d26772f7-6b24-4abf-b612-5b640428fe69",
   "name": "Lamp 02",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "base",
+    "desk",
+    "dining",
+    "fixture",
+    "furniture",
+    "illumination",
+    "interior",
+    "kitchen",
+    "lamp",
+    "lampshade",
+    "lighting",
+    "shade",
+    "surface",
+    "table"
+  ],
+  "caption": "A stylized, three-dimensional lamp with an orange shade and a black base."
 }

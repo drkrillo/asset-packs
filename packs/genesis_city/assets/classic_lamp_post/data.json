@@ -13,6 +13,13 @@
     "lighting",
     "street",
     "city",
-    "park"
-  ]
+    "park",
+    "architecture",
+    "building",
+    "fixture",
+    "furniture",
+    "outdoor",
+    "structure"
+  ],
+  "caption": "A classic-style lamp post with a single light fixture on top."
 }

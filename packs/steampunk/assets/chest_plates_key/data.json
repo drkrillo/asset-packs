@@ -2,5 +2,16 @@
   "id": "1f249994-a5ab-450f-868e-d6625b1ed703",
   "name": "Chest Plates Key",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "armor",
+    "key",
+    "lock",
+    "loot",
+    "plate",
+    "plates",
+    "riches",
+    "security",
+    "vault"
+  ],
+  "caption": "A treasure chest with a key in front of it."
 }

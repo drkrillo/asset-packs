@@ -9,6 +9,16 @@
     "decoration",
     "wood",
     "crate",
-    "box"
-  ]
+    "box",
+    "bottom",
+    "cargo",
+    "container",
+    "flat",
+    "furniture",
+    "packaging",
+    "shipping",
+    "storage",
+    "top"
+  ],
+  "caption": "A simple, brown wooden crate with a flat top and bottom."
 }

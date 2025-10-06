@@ -2,5 +2,19 @@
   "id": "129dcff6-13ea-49e1-a5f2-1eb88ac7933b",
   "name": "Trough",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "container",
+    "desk",
+    "dining",
+    "furniture",
+    "interior",
+    "kitchen",
+    "seat",
+    "storage",
+    "surface",
+    "table",
+    "trough",
+    "vessel"
+  ],
+  "caption": "A simple wooden trough with a blue interior."
 }

@@ -10,6 +10,15 @@
     "rock",
     "stone",
     "rock",
-    "stones"
-  ]
+    "stones",
+    "flat",
+    "form",
+    "pebble",
+    "round",
+    "rounded",
+    "shape",
+    "smooth",
+    "surface"
+  ],
+  "caption": "A simple, flat, pebble-shaped object with a smooth surface."
 }

@@ -2,5 +2,19 @@
   "id": "042358c4-a634-4e64-a1e8-7453b5e44e8e",
   "name": "Iron Entrance Arc",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "arch",
+    "architecture",
+    "archway",
+    "building",
+    "doorway",
+    "entrance",
+    "frame",
+    "gate",
+    "gateway",
+    "ironwork",
+    "portal",
+    "structure"
+  ],
+  "caption": "An iron archway."
 }

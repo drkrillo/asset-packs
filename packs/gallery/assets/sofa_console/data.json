@@ -2,5 +2,13 @@
   "id": "3526f138-1e81-4338-8fd8-a7c6f8dc99cc",
   "name": "Sofa Console",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "controller",
+    "gaming",
+    "input",
+    "interaction",
+    "interface",
+    "user"
+  ],
+  "caption": "A black video game controller with red and green buttons."
 }

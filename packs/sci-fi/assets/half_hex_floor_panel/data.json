@@ -5,6 +5,21 @@
   "tags": [
     "scifi",
     "tile",
-    "ground"
-  ]
+    "ground",
+    "appearance",
+    "bottom",
+    "fit",
+    "flat",
+    "floor",
+    "function",
+    "hexagon",
+    "hexagonal",
+    "larger",
+    "panel",
+    "shape",
+    "structure",
+    "together",
+    "top"
+  ],
+  "caption": "A hexagonal floor panel with a flat top and bottom, designed to fit together in a larger structure."
 }

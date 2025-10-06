@@ -11,6 +11,16 @@
     "wooden",
     "dock",
     "stair",
-    "steps"
-  ]
+    "steps",
+    "deck",
+    "dockage",
+    "handrail",
+    "ladder",
+    "landing",
+    "railing",
+    "staircase",
+    "stairs",
+    "step"
+  ],
+  "caption": "A simple, brown wooden staircase with multiple steps."
 }

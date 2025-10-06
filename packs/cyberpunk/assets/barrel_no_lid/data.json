@@ -2,5 +2,15 @@
   "id": "76280eb2-09bc-4ed4-abba-b1f847dcdf3c",
   "name": "Barrel - No Lid",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "container",
+    "cylindrical",
+    "fuel",
+    "hazardous",
+    "storage",
+    "stripes",
+    "toxic",
+    "vessel"
+  ],
+  "caption": "A cylindrical container with a green substance inside, placed on a black surface with yellow stripes."
 }

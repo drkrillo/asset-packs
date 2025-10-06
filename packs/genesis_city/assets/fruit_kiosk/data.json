@@ -12,6 +12,17 @@
     "market",
     "fruit",
     "fruits",
-    "edible"
-  ]
+    "edible",
+    "arrangement",
+    "basket",
+    "bowl",
+    "colorful",
+    "display",
+    "offering",
+    "selection",
+    "stall",
+    "stand",
+    "vendor"
+  ],
+  "caption": "A colorful fruit stand with various fruits on display."
 }

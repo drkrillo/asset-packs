@@ -2,5 +2,19 @@
   "id": "cf45e1a9-f0de-45f7-a9ac-ddb62d788c09",
   "name": "Roof - Glass 2Edges Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "edged",
+    "flat",
+    "glass",
+    "glassy",
+    "panes",
+    "reflective",
+    "roof",
+    "shiny",
+    "sleek",
+    "surface",
+    "transparent",
+    "window"
+  ],
+  "caption": "A small, two-edged glass roof with a simple design."
 }

@@ -2,5 +2,16 @@
   "id": "10a7af75-02a9-4c04-8aa5-48c637713a8d",
   "name": "Window - BathroomTiles ",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "bathroom",
+    "floor",
+    "interior",
+    "opening",
+    "rectangular",
+    "room",
+    "tile",
+    "window"
+  ],
+  "caption": "A blue bathroom tile wall with a rectangular opening."
 }

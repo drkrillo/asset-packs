@@ -2,5 +2,10 @@
   "id": "79babd7b-e483-40e8-88fe-3ada52406cc8",
   "name": "Mines Tunel 8M",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "interior",
+    "mine",
+    "tunnel"
+  ],
+  "caption": "A brown tunnel with a red interior."
 }

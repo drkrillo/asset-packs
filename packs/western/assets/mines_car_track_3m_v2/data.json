@@ -2,5 +2,19 @@
   "id": "cde78771-9418-43f5-acaf-50dff4b164fa",
   "name": "Mines Car Track 3M V2",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "cargo",
+    "carriage",
+    "coal",
+    "freight",
+    "locomotive",
+    "plank",
+    "rail",
+    "railroad",
+    "railway",
+    "station",
+    "track",
+    "train"
+  ],
+  "caption": "A wooden train track with multiple planks."
 }

@@ -2,5 +2,18 @@
   "id": "680d7753-be91-4e9b-962e-acd1b345e64a",
   "name": "Window - White ",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "border",
+    "form",
+    "frame",
+    "glass",
+    "outline",
+    "pane",
+    "rectangle",
+    "rectangular",
+    "shape",
+    "transparent",
+    "window"
+  ],
+  "caption": "A simple, white, rectangular window with a black outline."
 }

@@ -2,5 +2,21 @@
   "id": "19e1df10-f3cb-4c58-9db9-fd6abf5d63ab",
   "name": "Snow",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "exterior",
+    "fortress",
+    "geometric",
+    "hexagon",
+    "hexagonal",
+    "honeycomb",
+    "interior",
+    "pattern",
+    "shape",
+    "stronghold",
+    "structure",
+    "stylized"
+  ],
+  "caption": "A hexagonal shape with a white interior and black exterior, resembling a stylized honeycomb pattern."
 }

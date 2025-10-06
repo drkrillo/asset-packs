@@ -10,6 +10,21 @@
     "wood",
     "bridge",
     "river",
-    "water"
-  ]
+    "water",
+    "arch",
+    "beam",
+    "branch",
+    "construction",
+    "crossing",
+    "decking",
+    "foliage",
+    "forest",
+    "leaves",
+    "natural",
+    "nature",
+    "oak",
+    "outdoor",
+    "railing"
+  ],
+  "caption": "A wooden bridge with railings."
 }

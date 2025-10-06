@@ -6,6 +6,15 @@
     "fantasy",
     "banner",
     "fabric",
-    "crown"
-  ]
+    "crown",
+    "coat",
+    "crest",
+    "emblem",
+    "flag",
+    "heraldry",
+    "monarch",
+    "regal",
+    "royal"
+  ],
+  "caption": "A blue flag with a red crown on top."
 }

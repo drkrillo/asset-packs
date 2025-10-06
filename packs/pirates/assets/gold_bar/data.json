@@ -9,6 +9,15 @@
     "decorations",
     "gold",
     "golden",
-    "bar"
-  ]
+    "bar",
+    "brick",
+    "like",
+    "metallic",
+    "pattern",
+    "rectangle",
+    "rectangular",
+    "reflective",
+    "shiny"
+  ],
+  "caption": "A simple, rectangular, orange-colored resembling a bar or brick."
 }

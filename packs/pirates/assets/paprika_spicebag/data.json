@@ -10,6 +10,20 @@
     "spices",
     "sack",
     "fabric",
-    "leather"
-  ]
+    "leather",
+    "bag",
+    "container",
+    "cooking",
+    "culinary",
+    "flavor",
+    "food",
+    "ingredient",
+    "kitchen",
+    "paprika",
+    "seasoning",
+    "spice",
+    "spicebag",
+    "utensil"
+  ],
+  "caption": "A spice bag with a red substance inside."
 }

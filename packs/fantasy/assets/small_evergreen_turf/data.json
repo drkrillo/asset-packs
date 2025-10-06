@@ -8,6 +8,19 @@
     "forest",
     "grass",
     "evergreen",
-    "turf"
-  ]
+    "turf",
+    "branch",
+    "branches",
+    "field",
+    "foliage",
+    "ground",
+    "lawn",
+    "leaves",
+    "meadow",
+    "nature",
+    "outdoor",
+    "plant",
+    "roots"
+  ],
+  "caption": "A simple, low-poly of a small evergreen tree with a green texture on its leaves and branches."
 }

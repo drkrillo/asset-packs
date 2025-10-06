@@ -9,6 +9,18 @@
     "stones",
     "rock",
     "rocks",
-    "forest"
-  ]
+    "forest",
+    "block",
+    "building",
+    "dark",
+    "flat",
+    "foundation",
+    "ground",
+    "rectangle",
+    "rectangular",
+    "solid",
+    "structure",
+    "surface"
+  ],
+  "caption": "A black rectangular block with a smooth surface."
 }

@@ -2,5 +2,17 @@
   "id": "09b6cf65-6db0-4660-bc8f-d34f6cb0bdbd",
   "name": "Taxi",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "cab",
+    "driver",
+    "passenger",
+    "ride",
+    "share",
+    "street",
+    "traffic",
+    "transportation",
+    "urban",
+    "vehicle"
+  ],
+  "caption": "A yellow taxi with an open door and a red sign on top."
 }

@@ -2,5 +2,17 @@
   "id": "b1d3b76e-9996-46ab-9618-5b325e3bcfbc",
   "name": "Roof - Beige 1Edge",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architectural",
+    "building",
+    "edge",
+    "flat",
+    "profile",
+    "roof",
+    "roofed",
+    "shape",
+    "surface",
+    "type"
+  ],
+  "caption": "A simple, flat, yellow 3d object resembling a roof with a single edge."
 }

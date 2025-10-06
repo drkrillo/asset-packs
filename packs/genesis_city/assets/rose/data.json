@@ -13,6 +13,19 @@
     "park",
     "backyard",
     "yard",
-    "vegetation"
-  ]
+    "vegetation",
+    "bloom",
+    "blossom",
+    "botanical",
+    "colorful",
+    "foliage",
+    "herb",
+    "leaf",
+    "petal",
+    "plant",
+    "rose",
+    "stem",
+    "vine"
+  ],
+  "caption": "A red flower with green leaves on a stem."
 }

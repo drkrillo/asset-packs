@@ -2,5 +2,15 @@
   "id": "bdfed959-cd8e-48bc-8146-ed2449bf19d7",
   "name": "Gear Big",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "center",
+    "engine",
+    "gear",
+    "industrial",
+    "machinery",
+    "mechanical",
+    "mechanism",
+    "round"
+  ],
+  "caption": "Large red gear with a smaller red gear in the center."
 }

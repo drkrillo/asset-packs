@@ -2,5 +2,20 @@
   "id": "6708e15a-4dcf-40d6-9414-cc6c61241c39",
   "name": "Train Track Switcher",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "change",
+    "direction",
+    "freight",
+    "line",
+    "mechanical",
+    "plank",
+    "rail",
+    "railway",
+    "switch",
+    "switcher",
+    "track",
+    "train",
+    "yard"
+  ],
+  "caption": "A train track switcher, which appears to be a mechanical device used for changing the direction of a railway line. it has a lever and a series of wooden planks arranged in a horizontal row."
 }

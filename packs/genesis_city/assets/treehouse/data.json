@@ -13,6 +13,20 @@
     "forest",
     "playground",
     "backyard",
-    "yard"
-  ]
+    "yard",
+    "branch",
+    "building",
+    "cabin",
+    "dwelling",
+    "foliage",
+    "home",
+    "ladder",
+    "leaves",
+    "nature",
+    "outdoor",
+    "residence",
+    "roof",
+    "roots"
+  ],
+  "caption": "A small wooden treehouse with a ladder leading up to it."
 }

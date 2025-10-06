@@ -6,6 +6,16 @@
     "scifi",
     "parts",
     "computer",
-    "electric"
-  ]
+    "electric",
+    "capsule",
+    "chip",
+    "container",
+    "cylindrical",
+    "medication",
+    "pharmaceutical",
+    "pill",
+    "shape",
+    "stripe"
+  ],
+  "caption": "A blue cylindrical object with a yellow stripe on top, resembling a chip or a pill capsule."
 }

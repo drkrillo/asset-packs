@@ -6,6 +6,18 @@
     "fantasy",
     "stair",
     "stone",
-    "step"
-  ]
+    "step",
+    "architecture",
+    "ascent",
+    "descent",
+    "double",
+    "flooring",
+    "landing",
+    "searchable",
+    "staircase",
+    "stairs",
+    "steps",
+    "twin"
+  ],
+  "caption": "A set of stairs with two stone steps."
 }

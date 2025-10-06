@@ -15,6 +15,16 @@
     "garden",
     "backyard",
     "yard",
-    "farm"
-  ]
+    "farm",
+    "architecture",
+    "barrier",
+    "enclosure",
+    "landscape",
+    "long",
+    "outdoor",
+    "scenery",
+    "slats",
+    "structure"
+  ],
+  "caption": "A long white fence with multiple vertical slats."
 }

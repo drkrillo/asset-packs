@@ -2,5 +2,10 @@
   "id": "dfee69da-8c9d-4538-af25-283601af6455",
   "name": "Door Marco Normal",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "dark",
+    "entrance",
+    "function"
+  ],
+  "caption": "A simple, dark-colored vertical door."
 }

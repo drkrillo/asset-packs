@@ -2,5 +2,20 @@
   "id": "643b8abe-0682-464f-a8be-17a0a755f2c1",
   "name": "WallCorner - HexagonGrid ",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "corner",
+    "fortress",
+    "grid",
+    "hexagon",
+    "layout",
+    "pattern",
+    "shape",
+    "spatial",
+    "stronghold",
+    "structure",
+    "surface"
+  ],
+  "caption": "A corner with a hexagonal grid pattern on its surface."
 }

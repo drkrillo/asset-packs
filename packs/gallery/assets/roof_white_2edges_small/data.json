@@ -2,5 +2,17 @@
   "id": "b7f8abd6-f38d-4987-affb-66c654146678",
   "name": "Roof - White 2Edges Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "edge",
+    "exterior",
+    "facade",
+    "flat",
+    "roof",
+    "roofed",
+    "structure",
+    "surface"
+  ],
+  "caption": "A simple white roof with two edges and small size."
 }

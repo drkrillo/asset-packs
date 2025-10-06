@@ -7,6 +7,18 @@
     "book",
     "codex",
     "knowledge",
-    "shelf"
-  ]
+    "shelf",
+    "bookshelf",
+    "cover",
+    "library",
+    "manuscript",
+    "page",
+    "parchment",
+    "reading",
+    "scroll",
+    "spine",
+    "tome",
+    "volume"
+  ],
+  "caption": "A book with an open cover, featuring a blue symbol on its spine."
 }

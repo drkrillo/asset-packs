@@ -2,5 +2,16 @@
   "id": "d1335dc0-98a6-430b-87db-0591e03455a5",
   "name": "Ring Purple Light",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "center",
+    "glow",
+    "glowing",
+    "illumination",
+    "luminous",
+    "orb",
+    "radiant",
+    "ring",
+    "source"
+  ],
+  "caption": "A purple ring with a light source in its center."
 }

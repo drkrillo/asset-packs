@@ -2,5 +2,12 @@
   "id": "ca81b1ce-13bd-4580-b612-726f91d9c92d",
   "name": "Door 2",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "doorframe",
+    "doorway",
+    "entrance",
+    "gate",
+    "handle"
+  ],
+  "caption": "A wooden door with a single handle on the right side."
 }

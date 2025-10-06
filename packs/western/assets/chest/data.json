@@ -2,5 +2,16 @@
   "id": "58c362a4-6a39-43ba-b19f-111da2c29380",
   "name": "Chest",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "compartment",
+    "container",
+    "dimensional",
+    "furniture",
+    "interior",
+    "latch",
+    "room",
+    "secure",
+    "storage"
+  ],
+  "caption": "A three-dimensional model of a brown wooden chest with two compartments, each secured by a black latch."
 }

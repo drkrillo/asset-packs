@@ -8,6 +8,16 @@
     "wooden",
     "lamp",
     "post",
-    "iron"
-  ]
+    "iron",
+    "architecture",
+    "building",
+    "fixture",
+    "lighting",
+    "outdoor",
+    "pole",
+    "street",
+    "structure",
+    "urban"
+  ],
+  "caption": "A street lamp with a post."
 }

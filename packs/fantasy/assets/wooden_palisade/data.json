@@ -6,6 +6,14 @@
     "fantasy",
     "palisade",
     "wood",
-    "wooden"
-  ]
+    "wooden",
+    "barrier",
+    "boundary",
+    "defense",
+    "enclosure",
+    "fortification",
+    "structure",
+    "timber"
+  ],
+  "caption": "A simple wooden palisade or fence structure."
 }

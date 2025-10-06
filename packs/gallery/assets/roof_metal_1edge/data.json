@@ -2,5 +2,16 @@
   "id": "4dd86918-00fc-4544-85ad-ffdb263560dd",
   "name": "Roof - Metal 1Edge",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "edge",
+    "flat",
+    "lip",
+    "plate",
+    "roof",
+    "roofing",
+    "sheet",
+    "surface",
+    "type"
+  ],
+  "caption": "A simple, flat metal roof with a single edge."
 }

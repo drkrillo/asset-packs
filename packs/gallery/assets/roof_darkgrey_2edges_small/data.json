@@ -2,5 +2,13 @@
   "id": "f4723ed3-4566-4536-a6fe-45e1ebd956a5",
   "name": "Roof - DarkGrey 2Edges Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architectural",
+    "building",
+    "dark",
+    "edge",
+    "roof",
+    "shape"
+  ],
+  "caption": "A simple, dark grey roof with two edges and a small size."
 }

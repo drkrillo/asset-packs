@@ -2,5 +2,22 @@
   "id": "60220d21-6422-48f4-a9ec-c4e49156f28f",
   "name": "Human",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "anatomy",
+    "arm",
+    "body",
+    "face",
+    "figure",
+    "foot",
+    "hand",
+    "head",
+    "human",
+    "humanoid",
+    "leg",
+    "limbs",
+    "man",
+    "person",
+    "torso"
+  ],
+  "caption": "A thumbnail of a 3d asset depicting a human figure."
 }

@@ -2,5 +2,21 @@
   "id": "1ddf5384-5989-4dc3-88b1-825f3084cae0",
   "name": "Window - Black ",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "border",
+    "cover",
+    "curtain",
+    "dark",
+    "edge",
+    "frame",
+    "glass",
+    "opaque",
+    "pane",
+    "panel",
+    "rectangle",
+    "shade",
+    "transparent",
+    "window"
+  ],
+  "caption": "A black, rectangular window with a single pane."
 }

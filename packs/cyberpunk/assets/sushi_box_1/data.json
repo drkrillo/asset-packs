@@ -2,5 +2,20 @@
   "id": "b59f4b8f-9634-4cb8-97ce-1927e1763c3c",
   "name": "Sushi Box 1",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "box",
+    "container",
+    "dot",
+    "eat",
+    "eatable",
+    "edible",
+    "food",
+    "lunch",
+    "meal",
+    "package",
+    "packaging",
+    "searchable",
+    "sushi"
+  ],
+  "caption": "Two red sushi boxes with white dots on them."
 }

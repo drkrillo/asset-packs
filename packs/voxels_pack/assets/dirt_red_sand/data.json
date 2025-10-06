@@ -2,5 +2,18 @@
   "id": "b422c06b-4307-4c80-be9a-e9040d1f32c7",
   "name": "Dirt - Red Sand",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "block",
+    "dirt",
+    "earthy",
+    "gravel",
+    "ground",
+    "mineral",
+    "rocky",
+    "rough",
+    "sand",
+    "sediment",
+    "terrain"
+  ],
+  "caption": "A red cube with a rough texture, resembling a block of dirt or sand."
 }

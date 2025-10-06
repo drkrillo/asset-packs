@@ -6,6 +6,18 @@
     "scifi",
     "space",
     "planet",
-    "soil"
-  ]
+    "soil",
+    "dirt",
+    "effect",
+    "glossy",
+    "liquid",
+    "spill",
+    "splash",
+    "splat",
+    "splatter",
+    "stain",
+    "surface",
+    "visual"
+  ],
+  "caption": "A red splatter-like 3d object with a glossy surface."
 }

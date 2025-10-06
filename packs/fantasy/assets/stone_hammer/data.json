@@ -6,6 +6,18 @@
     "fantasy",
     "hammer",
     "stone",
-    "tool"
-  ]
+    "tool",
+    "building",
+    "combat",
+    "construction",
+    "craft",
+    "furniture",
+    "handle",
+    "head",
+    "metalhead",
+    "nail",
+    "warfare",
+    "work"
+  ],
+  "caption": "A hammer with a wooden handle and a metal head."
 }

@@ -2,5 +2,16 @@
   "id": "0c8688e7-d8d5-4d74-b355-afa549ffba51",
   "name": "Flags 01",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "background",
+    "banner",
+    "emblem",
+    "flagpole",
+    "flags",
+    "graphic",
+    "logo",
+    "pattern",
+    "rectangle"
+  ],
+  "caption": "Three flags in a row against a black background."
 }

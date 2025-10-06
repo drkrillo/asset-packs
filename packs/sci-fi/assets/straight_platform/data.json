@@ -6,6 +6,17 @@
     "scifi",
     "dock",
     "port",
-    "metal"
-  ]
+    "metal",
+    "appearance",
+    "border",
+    "edge",
+    "flat",
+    "function",
+    "rectangle",
+    "rectangular",
+    "shape",
+    "straight",
+    "top"
+  ],
+  "caption": "A flat, rectangular platform with a red border on top."
 }

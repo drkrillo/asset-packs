@@ -2,5 +2,16 @@
   "id": "49c79ced-6f80-4beb-a869-83c5a47a8ded",
   "name": "TNT Box Open",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "box",
+    "cargo",
+    "container",
+    "crate",
+    "drum",
+    "items",
+    "storage",
+    "tank",
+    "vessel"
+  ],
+  "caption": "An open wooden crate with red items inside."
 }

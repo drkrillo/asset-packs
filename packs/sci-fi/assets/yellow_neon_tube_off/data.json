@@ -7,6 +7,18 @@
     "power",
     "spark",
     "base",
-    "spaceship"
-  ]
+    "spaceship",
+    "circuit",
+    "electrical",
+    "fluorescent",
+    "glow",
+    "illumination",
+    "lighting",
+    "searchable",
+    "state",
+    "switch",
+    "tube",
+    "wire"
+  ],
+  "caption": "A neon tube in an off state."
 }

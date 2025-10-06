@@ -8,6 +8,16 @@
     "power",
     "supply",
     "electricity",
-    "plasma"
-  ]
+    "plasma",
+    "base",
+    "cartoonish",
+    "charger",
+    "cord",
+    "opening",
+    "rectangle",
+    "station",
+    "striped",
+    "stylized"
+  ],
+  "caption": "A stylized, cartoonish representation of a horizontal charging station with a red and yellow striped design, featuring a power cord on top and a rectangular base with a circular opening in the center."
 }

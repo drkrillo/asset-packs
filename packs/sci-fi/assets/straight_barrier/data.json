@@ -6,6 +6,10 @@
     "scifi",
     "guard",
     "wall",
-    "split"
-  ]
+    "split",
+    "barrier",
+    "rail",
+    "railing"
+  ],
+  "caption": "A yellow railing with four vertical bars."
 }

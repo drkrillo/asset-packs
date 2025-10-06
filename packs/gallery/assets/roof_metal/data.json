@@ -2,5 +2,22 @@
   "id": "771b5aa0-e9c9-4bde-829f-f8cbca8d185c",
   "name": "Roof - Metal",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "castle",
+    "defense",
+    "flat",
+    "fortress",
+    "palace",
+    "protection",
+    "roof",
+    "roofing",
+    "royal",
+    "stronghold",
+    "structure",
+    "top",
+    "tower"
+  ],
+  "caption": "A simple, flat-topped metal roof structure."
 }

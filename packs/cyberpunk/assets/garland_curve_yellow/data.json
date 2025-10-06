@@ -2,5 +2,17 @@
   "id": "680af140-41c7-40d9-8ce8-7648196c3caf",
   "name": "Garland Curve - Yellow",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "arc",
+    "curve",
+    "dot",
+    "dotline",
+    "garland",
+    "line",
+    "outline",
+    "pattern",
+    "shape",
+    "stroke"
+  ],
+  "caption": "A red line with dots."
 }

@@ -9,6 +9,21 @@
     "decorations",
     "wick",
     "wax",
-    "light"
-  ]
+    "light",
+    "beacon",
+    "bright",
+    "burn",
+    "burning",
+    "candle",
+    "combustion",
+    "fire",
+    "flame",
+    "fuel",
+    "glow",
+    "heat",
+    "lantern",
+    "smoke",
+    "warm"
+  ],
+  "caption": "A tall white candle with a wick on top."
 }

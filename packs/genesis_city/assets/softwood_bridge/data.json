@@ -10,6 +10,20 @@
     "wood",
     "bridge",
     "river",
-    "water"
-  ]
+    "water",
+    "arch",
+    "architecture",
+    "building",
+    "construction",
+    "crossing",
+    "defense",
+    "fortress",
+    "palace",
+    "railing",
+    "royal",
+    "span",
+    "stronghold",
+    "structure"
+  ],
+  "caption": "A simple wooden bridge with a railing."
 }

@@ -2,5 +2,20 @@
   "id": "5233af15-c9d6-4a94-9288-4ec27b5a398c",
   "name": "House 8 M Gray",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "abode",
+    "architecture",
+    "building",
+    "cabin",
+    "cottage",
+    "dwelling",
+    "home",
+    "house",
+    "hut",
+    "residence",
+    "roof",
+    "shelter",
+    "structure"
+  ],
+  "caption": "A small wooden house with a black roof."
 }

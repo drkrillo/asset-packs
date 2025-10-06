@@ -2,5 +2,16 @@
   "id": "d8459fdd-a6eb-4dd7-aa51-b76c9c1e176a",
   "name": "Traffic Post  - Yellow",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "highway",
+    "illumination",
+    "intersection",
+    "post",
+    "signal",
+    "stop",
+    "traffic",
+    "visibility",
+    "warning"
+  ],
+  "caption": "A yellow traffic post with a green light on top."
 }

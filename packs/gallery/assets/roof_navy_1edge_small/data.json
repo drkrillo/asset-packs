@@ -2,5 +2,14 @@
   "id": "1372bdd7-159e-4665-b9a4-6a93b5ca828c",
   "name": "Roof - Navy 1Edge Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architectural",
+    "building",
+    "dark",
+    "edge",
+    "roof",
+    "roofing",
+    "structure"
+  ],
+  "caption": "A simple, dark blue roof with a single edge, designed for use in 3d modeling or animation software."
 }

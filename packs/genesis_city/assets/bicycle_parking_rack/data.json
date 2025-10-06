@@ -11,6 +11,20 @@
     "bike",
     "park",
     "hipster",
-    "Netherlands"
-  ]
+    "Netherlands",
+    "auto",
+    "container",
+    "cycle",
+    "cycling",
+    "driving",
+    "garage",
+    "parking",
+    "pedal",
+    "rack",
+    "sedan",
+    "sport",
+    "storage",
+    "transport"
+  ],
+  "caption": "A bicycle parking rack."
 }

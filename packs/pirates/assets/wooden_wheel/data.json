@@ -13,6 +13,15 @@
     "spokes",
     "steel",
     "tire",
-    "felloes"
-  ]
+    "felloes",
+    "antique",
+    "carriage",
+    "furniture",
+    "horse",
+    "motion",
+    "movement",
+    "rotating",
+    "transportation"
+  ],
+  "caption": "A three-dimensional model of a wooden wheel with spokes."
 }

@@ -12,6 +12,16 @@
     "wood",
     "city",
     "limit",
-    "limits"
-  ]
+    "limits",
+    "barrier",
+    "boundary",
+    "containment",
+    "enclosure",
+    "gate",
+    "outdoor",
+    "portable",
+    "post",
+    "wire"
+  ],
+  "caption": "A portable construction fence."
 }

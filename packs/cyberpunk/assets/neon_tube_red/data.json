@@ -2,5 +2,19 @@
   "id": "baee1f29-4bc0-4733-8a65-60d9e09c4927",
   "name": "Neon Tube - Red",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "electric",
+    "energy",
+    "fluorescent",
+    "glow",
+    "glowing",
+    "illumination",
+    "lighting",
+    "luminescent",
+    "power",
+    "radiance",
+    "radiant",
+    "tube"
+  ],
+  "caption": "A red neon tube."
 }

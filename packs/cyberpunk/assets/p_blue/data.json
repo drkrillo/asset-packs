@@ -2,5 +2,11 @@
   "id": "9b068fc7-f7cb-4ae9-ac54-8a1ff01ae4cb",
   "name": "P Blue",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "appearance",
+    "font",
+    "letter",
+    "stylized"
+  ],
+  "caption": "A stylized letter 'p' in a blue color with a three-dimensional appearance."
 }

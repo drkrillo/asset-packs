@@ -8,6 +8,13 @@
     "communications",
     "comms",
     "radar",
-    "dish"
-  ]
+    "dish",
+    "communication",
+    "receiver",
+    "satellite",
+    "space",
+    "technology",
+    "transmitter"
+  ],
+  "caption": "A satellite dish with a yellow antenna."
 }

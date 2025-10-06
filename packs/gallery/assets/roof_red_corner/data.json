@@ -2,5 +2,14 @@
   "id": "eeada5b5-574a-4738-bbd9-eff9de01d677",
   "name": "Roof - Red Corner",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architectural",
+    "building",
+    "corner",
+    "roof",
+    "shape",
+    "structure",
+    "surface"
+  ],
+  "caption": "A red corner piece of a roof in a 3d modeling context."
 }

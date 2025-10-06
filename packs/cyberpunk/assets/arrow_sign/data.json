@@ -2,5 +2,16 @@
   "id": "2559c4e9-1db4-43b1-9180-fc56cd7be718",
   "name": "Arrow Sign",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "arrowhead",
+    "beam",
+    "direction",
+    "glow",
+    "indicator",
+    "pointer",
+    "pointing",
+    "right",
+    "tip"
+  ],
+  "caption": "A simple white arrow pointing to the right."
 }

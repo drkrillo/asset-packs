@@ -2,5 +2,20 @@
   "id": "7a5144f4-bd92-4d66-9775-2434a8d57608",
   "name": "Boulder Arthur",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "arthur",
+    "boulder",
+    "earth",
+    "environment",
+    "ground",
+    "landscape",
+    "monument",
+    "mountain",
+    "natural",
+    "outdoor",
+    "scenery",
+    "searchable",
+    "terrain"
+  ],
+  "caption": "A rock with a red object on top."
 }

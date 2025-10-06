@@ -7,6 +7,18 @@
     "energy",
     "power",
     "electricity",
-    "connectors"
-  ]
+    "connectors",
+    "appearance",
+    "cable",
+    "connector",
+    "cord",
+    "electrical",
+    "fixture",
+    "hardware",
+    "long",
+    "utility",
+    "visual",
+    "wire"
+  ],
+  "caption": "A long cable with a yellow connector on one end."
 }

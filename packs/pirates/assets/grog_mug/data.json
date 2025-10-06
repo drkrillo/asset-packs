@@ -12,6 +12,20 @@
     "leather",
     "drink",
     "beverage",
-    "alcohol"
-  ]
+    "alcohol",
+    "ale",
+    "beer",
+    "ceramic",
+    "container",
+    "cup",
+    "drinking",
+    "glass",
+    "handle",
+    "household",
+    "mug",
+    "pottery",
+    "tableware",
+    "vessel"
+  ],
+  "caption": "A mug with a handle, resembling a traditional ale or beer mug."
 }

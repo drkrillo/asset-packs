@@ -2,5 +2,20 @@
   "id": "40d8ffd9-4165-4acd-b740-fe19b5e3db83",
   "name": "Grave 18",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "altar",
+    "chapel",
+    "church",
+    "crypt",
+    "mausoleum",
+    "monument",
+    "pedestal",
+    "relic",
+    "shrine",
+    "spire",
+    "statue",
+    "steeple",
+    "tombstone"
+  ],
+  "caption": "A small, ornate, stone-like structure with a dome on top, resembling a miniature church steeple, placed on a pedestal."
 }

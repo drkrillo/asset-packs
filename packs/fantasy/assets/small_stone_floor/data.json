@@ -7,6 +7,14 @@
     "stone",
     "floor",
     "path",
-    "tile"
-  ]
+    "tile",
+    "architecture",
+    "building",
+    "earth",
+    "ground",
+    "pattern",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A small stone floor."
 }

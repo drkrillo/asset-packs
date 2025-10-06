@@ -12,6 +12,18 @@
     "park",
     "backyard",
     "bush",
-    "shrub"
-  ]
+    "shrub",
+    "bushes",
+    "foliage",
+    "greenery",
+    "groundcover",
+    "hedge",
+    "landscape",
+    "outdoor",
+    "plant",
+    "row",
+    "terrain",
+    "vegetation"
+  ],
+  "caption": "A row of shrubs."
 }

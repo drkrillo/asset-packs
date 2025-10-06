@@ -12,6 +12,17 @@
     "garden",
     "forest",
     "mountain",
-    "shrub"
-  ]
+    "shrub",
+    "botanical",
+    "flora",
+    "foliage",
+    "herb",
+    "landscape",
+    "leaf",
+    "leafy",
+    "outdoor",
+    "plant",
+    "vegetation"
+  ],
+  "caption": "A green leafy plant with multiple leaves."
 }

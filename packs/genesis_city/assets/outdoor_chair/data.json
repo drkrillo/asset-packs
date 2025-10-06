@@ -9,6 +9,17 @@
     "furniture",
     "beach",
     "seat",
-    "chair"
-  ]
+    "chair",
+    "comfort",
+    "dining",
+    "folding",
+    "frame",
+    "garden",
+    "kitchen",
+    "office",
+    "outdoor",
+    "rest",
+    "sitting"
+  ],
+  "caption": "A blue folding chair with a metal frame."
 }

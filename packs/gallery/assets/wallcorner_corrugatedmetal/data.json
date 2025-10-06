@@ -2,5 +2,20 @@
   "id": "188bbc91-f1e3-452d-80ca-1bdb8f6ccfcf",
   "name": "WallCorner - CorrugatedMetal ",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "boundary",
+    "corner",
+    "corrugated",
+    "corrugation",
+    "edge",
+    "industrial",
+    "list",
+    "metallic",
+    "pattern",
+    "rugged",
+    "structural",
+    "surface",
+    "tag"
+  ],
+  "caption": "A corrugated metal wall corner."
 }

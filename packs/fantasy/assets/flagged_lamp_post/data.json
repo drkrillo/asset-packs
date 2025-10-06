@@ -10,6 +10,15 @@
     "flag",
     "banner",
     "lamp",
-    "post"
-  ]
+    "post",
+    "architecture",
+    "beacon",
+    "building",
+    "illumination",
+    "pole",
+    "street",
+    "tower",
+    "urban"
+  ],
+  "caption": "A tall street lamp with a blue banner hanging from its top."
 }

@@ -11,6 +11,14 @@
     "rock",
     "rocks",
     "forest",
-    "path"
-  ]
+    "path",
+    "architecture",
+    "brick",
+    "building",
+    "medium",
+    "monument",
+    "pavement",
+    "structure"
+  ],
+  "caption": "A collection of gray stone bricks."
 }

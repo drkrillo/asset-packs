@@ -9,6 +9,19 @@
     "decoration",
     "hat",
     "construction",
-    "orange"
-  ]
+    "orange",
+    "armor",
+    "debris",
+    "defense",
+    "gear",
+    "guard",
+    "hazard",
+    "headgear",
+    "helmet",
+    "job",
+    "knight",
+    "protection",
+    "protective"
+  ],
+  "caption": "An orange hard hat, which is a type of protective headgear commonly worn by construction workers to shield their heads from falling debris or other potential hazards on a job site."
 }

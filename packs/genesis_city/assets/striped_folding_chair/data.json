@@ -14,6 +14,18 @@
     "garden",
     "backyard",
     "chair",
-    "striped"
-  ]
+    "striped",
+    "comfort",
+    "desk",
+    "dining",
+    "folding",
+    "kitchen",
+    "office",
+    "pattern",
+    "rest",
+    "sitting",
+    "surface",
+    "table"
+  ],
+  "caption": "A colorful folding chair with a yellow and blue striped pattern."
 }

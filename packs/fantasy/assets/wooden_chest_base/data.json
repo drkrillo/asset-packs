@@ -6,6 +6,15 @@
     "fantasy",
     "chest",
     "wood",
-    "wooden"
-  ]
+    "wooden",
+    "box",
+    "cabinet",
+    "collectible",
+    "container",
+    "furniture",
+    "lid",
+    "loot",
+    "storage"
+  ],
+  "caption": "A purple of a small chest with a lid."
 }

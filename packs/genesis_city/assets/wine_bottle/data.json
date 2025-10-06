@@ -10,6 +10,18 @@
     "wine",
     "bottle",
     "romantic",
-    "dinner"
-  ]
+    "dinner",
+    "beverage",
+    "container",
+    "cork",
+    "drink",
+    "fermentation",
+    "glass",
+    "liquid",
+    "liquor",
+    "stopper",
+    "vessel",
+    "wineglass"
+  ],
+  "caption": "A bottle of wine with a cork on top."
 }

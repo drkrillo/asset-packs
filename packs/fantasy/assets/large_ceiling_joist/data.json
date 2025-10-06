@@ -8,6 +8,16 @@
     "wood",
     "wooden",
     "joist",
-    "cealing"
-  ]
+    "cealing",
+    "beam",
+    "ceiling",
+    "construction",
+    "frame",
+    "long",
+    "lumber",
+    "structure",
+    "support",
+    "timber"
+  ],
+  "caption": "A long brown wooden beam."
 }

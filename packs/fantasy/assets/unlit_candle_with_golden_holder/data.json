@@ -8,6 +8,16 @@
     "unlit",
     "light",
     "gold",
-    "golden"
-  ]
+    "golden",
+    "candle",
+    "centerpiece",
+    "coins",
+    "dining",
+    "dinnerware",
+    "flame",
+    "holder",
+    "luxury",
+    "tableware"
+  ],
+  "caption": "A white candle with a golden holder and two gold coins on top."
 }

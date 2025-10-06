@@ -13,6 +13,16 @@
     "stones",
     "forest",
     "moss",
-    "mossy"
-  ]
+    "mossy",
+    "earthy",
+    "environment",
+    "foliage",
+    "growth",
+    "landscape",
+    "outdoor",
+    "surface",
+    "terrain",
+    "vegetation"
+  ],
+  "caption": "A rock with moss growing on its surface."
 }

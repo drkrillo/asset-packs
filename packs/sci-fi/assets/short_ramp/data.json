@@ -6,6 +6,19 @@
     "scifi",
     "dock",
     "port",
-    "metal"
-  ]
+    "metal",
+    "access",
+    "flat",
+    "floor",
+    "ground",
+    "incline",
+    "path",
+    "rectangle",
+    "slope",
+    "step",
+    "stripe",
+    "surface",
+    "top"
+  ],
+  "caption": "A simple, flat, rectangular ramp with a red stripe on top."
 }

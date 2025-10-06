@@ -7,6 +7,16 @@
     "column",
     "wood",
     "wooden",
-    "iron"
-  ]
+    "iron",
+    "architecture",
+    "block",
+    "building",
+    "defense",
+    "fortress",
+    "post",
+    "stronghold",
+    "structure",
+    "support"
+  ],
+  "caption": "Small wooden column with two blocks on top."
 }

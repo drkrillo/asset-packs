@@ -11,6 +11,16 @@
     "wooden",
     "wheel",
     "ship",
-    "flagship"
-  ]
+    "flagship",
+    "automobile",
+    "combat",
+    "driving",
+    "rustic",
+    "sedan",
+    "speed",
+    "steering",
+    "transport",
+    "vehicle"
+  ],
+  "caption": "A wooden steering wheel with metal accents."
 }

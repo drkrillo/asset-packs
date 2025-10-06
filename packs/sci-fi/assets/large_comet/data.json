@@ -6,6 +6,20 @@
     "scifi",
     "rock",
     "space",
-    "cosmic"
-  ]
+    "cosmic",
+    "astronomy",
+    "body",
+    "celestial",
+    "comet",
+    "fiery",
+    "generated",
+    "glowing",
+    "meteor",
+    "motion",
+    "orbit",
+    "speed",
+    "trajectory",
+    "velocity"
+  ],
+  "caption": "A comet-like object."
 }

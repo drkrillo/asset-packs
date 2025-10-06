@@ -2,5 +2,17 @@
   "id": "4f7f8fd9-5e9f-4e98-bdff-b93a45e75274",
   "name": "Furnace 6 Pipe",
   "category": "furniture",
-  "tags": []
+  "tags": [
+    "appliance",
+    "combustion",
+    "energy",
+    "flange",
+    "furnace",
+    "generated",
+    "heat",
+    "heating",
+    "industrial",
+    "pipe"
+  ],
+  "caption": "A black pipe with a flange on one end."
 }

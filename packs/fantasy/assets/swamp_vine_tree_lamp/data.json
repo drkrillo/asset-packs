@@ -8,6 +8,17 @@
     "vine",
     "lamp",
     "forest",
-    "swamp"
-  ]
+    "swamp",
+    "branch",
+    "foliage",
+    "leafy",
+    "leaves",
+    "lighting",
+    "nature",
+    "outdoor",
+    "plant",
+    "roots",
+    "trunk"
+  ],
+  "caption": "A tree."
 }

@@ -2,5 +2,19 @@
   "id": "0f74b25a-306b-4aa8-9ea4-ed6e06517a85",
   "name": "Concrete",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "base",
+    "block",
+    "building",
+    "concrete",
+    "dense",
+    "foundation",
+    "ground",
+    "heavy",
+    "rough",
+    "solid",
+    "structure",
+    "surface"
+  ],
+  "caption": "A block made of concrete with a rough texture."
 }

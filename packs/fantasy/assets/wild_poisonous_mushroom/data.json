@@ -7,6 +7,17 @@
     "mushroom",
     "herb",
     "forest",
-    "ingredient"
-  ]
+    "ingredient",
+    "expensive",
+    "gem",
+    "gemstone",
+    "jewel",
+    "luxurious",
+    "mineral",
+    "precious",
+    "shiny",
+    "sparkling",
+    "valuable"
+  ],
+  "caption": "A green gemstone."
 }

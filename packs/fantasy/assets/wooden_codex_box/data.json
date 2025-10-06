@@ -7,6 +7,22 @@
     "chest",
     "wood",
     "wooden",
-    "iron"
-  ]
+    "iron",
+    "artifact",
+    "bookshelf",
+    "border",
+    "bottom",
+    "box",
+    "cabinet",
+    "codex",
+    "compartment",
+    "container",
+    "corners",
+    "cover",
+    "edges",
+    "frame",
+    "furniture",
+    "holder"
+  ],
+  "caption": "A digital illustration of a wooden chest."
 }

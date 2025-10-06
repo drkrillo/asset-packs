@@ -12,6 +12,21 @@
     "dock",
     "stair",
     "steps",
-    "old"
-  ]
+    "old",
+    "boat",
+    "handrail",
+    "landing",
+    "marine",
+    "nautical",
+    "ocean",
+    "pier",
+    "plank",
+    "railing",
+    "sailing",
+    "searchable",
+    "ship",
+    "staircase",
+    "stairs"
+  ],
+  "caption": "An old wooden dock staircase with four steps."
 }

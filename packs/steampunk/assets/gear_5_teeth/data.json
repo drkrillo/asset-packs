@@ -2,5 +2,14 @@
   "id": "caa1008c-05cd-4faf-ac9d-b3484a46aebb",
   "name": "Gear 5 Teeth",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "cog",
+    "gear",
+    "industrial",
+    "machine",
+    "machinery",
+    "mechanism",
+    "tooth"
+  ],
+  "caption": "A red of a gear with five teeth."
 }

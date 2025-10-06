@@ -6,6 +6,19 @@
     "genesis",
     "city",
     "town",
-    "ground"
-  ]
+    "ground",
+    "architecture",
+    "building",
+    "concrete",
+    "defense",
+    "fortress",
+    "foundation",
+    "landscape",
+    "palace",
+    "snow",
+    "stronghold",
+    "structure",
+    "winter"
+  ],
+  "caption": "A snowy landscape with a focus on a concrete structure."
 }

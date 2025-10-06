@@ -2,5 +2,18 @@
   "id": "925b31e8-96a2-49d7-b0cd-914be048ee37",
   "name": "Ladder 2M",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "ascent",
+    "climb",
+    "descent",
+    "flat",
+    "ladder",
+    "rung",
+    "staircase",
+    "step",
+    "structure",
+    "tier",
+    "top"
+  ],
+  "caption": "A simple, two-tiered wooden ladder with a flat top on each tier."
 }

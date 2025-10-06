@@ -10,6 +10,18 @@
     "gold",
     "golden",
     "coin",
-    "coins"
-  ]
+    "coins",
+    "collectible",
+    "currency",
+    "glittering",
+    "hoard",
+    "pieces",
+    "precious",
+    "riches",
+    "searchable",
+    "shiny",
+    "valuable",
+    "wealth"
+  ],
+  "caption": "A collection of gold coins."
 }

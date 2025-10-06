@@ -12,6 +12,16 @@
     "flag",
     "skull",
     "paint",
-    "painted"
-  ]
+    "painted",
+    "banner",
+    "booty",
+    "flagpole",
+    "generated",
+    "nautical",
+    "plunder",
+    "pole",
+    "sail",
+    "ship"
+  ],
+  "caption": "A black flag with a white skull on a wooden pole."
 }

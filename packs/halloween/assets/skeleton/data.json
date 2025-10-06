@@ -2,5 +2,22 @@
   "id": "8f5eddf1-803e-4116-a07d-ec47c900b33e",
   "name": "Skeleton",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "back",
+    "bone",
+    "bony",
+    "cadaver",
+    "corpse",
+    "dead",
+    "human",
+    "lying",
+    "mortal",
+    "pose",
+    "relaxed",
+    "remains",
+    "skeletal",
+    "skeleton",
+    "undead"
+  ],
+  "caption": "A skeleton lying on its back in a relaxed pose."
 }

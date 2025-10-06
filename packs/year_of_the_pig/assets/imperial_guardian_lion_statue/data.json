@@ -8,6 +8,16 @@
     "lion",
     "stone",
     "guardian",
-    "imperial"
-  ]
+    "imperial",
+    "animal",
+    "architecture",
+    "artwork",
+    "furniture",
+    "historic",
+    "interior",
+    "monument",
+    "regal",
+    "sculpture"
+  ],
+  "caption": "A lion statue."
 }

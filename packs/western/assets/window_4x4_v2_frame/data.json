@@ -2,5 +2,22 @@
   "id": "96233a7a-8431-45a8-8a53-423cfcbd3973",
   "name": "Window 4x4 V2 Frame",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "border",
+    "dark",
+    "darkcolor",
+    "darkframe",
+    "flatpanel",
+    "fourpane",
+    "frame",
+    "glassless",
+    "minimalist",
+    "opaque",
+    "panes",
+    "rectangular",
+    "shadowed",
+    "simpleframe",
+    "window"
+  ],
+  "caption": "A simple, four-paned window with a dark frame and no glass or panes."
 }

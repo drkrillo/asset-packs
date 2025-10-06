@@ -2,5 +2,16 @@
   "id": "9ac90001-b77d-45ad-b7e3-5551562da394",
   "name": "WallCorner - Navy",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "corner",
+    "cornerpiece",
+    "dark",
+    "darkblue",
+    "navyblue",
+    "navydark",
+    "rectangle",
+    "rectangular",
+    "rectangulardark"
+  ],
+  "caption": "A dark, rectangular corner piece with a navy blue color."
 }

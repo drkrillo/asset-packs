@@ -2,5 +2,12 @@
   "id": "3596e503-639e-469e-9354-9184c8e2141d",
   "name": "Black Pad",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "background",
+    "dark",
+    "depiction",
+    "surface",
+    "thumbnail"
+  ],
+  "caption": "A thumbnail of a 3d asset depicting a black pad."
 }

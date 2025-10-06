@@ -2,5 +2,22 @@
   "id": "3f4a54e3-35e2-48ac-ba41-10c6e62a6762",
   "name": "Coffee House",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "cafe",
+    "coffee",
+    "desk",
+    "dining",
+    "dwelling",
+    "furniture",
+    "home",
+    "house",
+    "interior",
+    "kitchen",
+    "office",
+    "residence",
+    "roof"
+  ],
+  "caption": "A black cube with a white outline, representing a of a coffee house."
 }

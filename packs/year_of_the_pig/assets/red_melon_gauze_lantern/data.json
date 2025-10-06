@@ -7,6 +7,17 @@
     "lantern",
     "light",
     "gauze",
-    "red"
-  ]
+    "red",
+    "ambiance",
+    "cloth",
+    "cozy",
+    "fabric",
+    "glow",
+    "lanternlight",
+    "melon",
+    "shade",
+    "textile",
+    "warm"
+  ],
+  "caption": "A red lantern with gauze wrapped around it."
 }

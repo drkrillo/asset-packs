@@ -10,6 +10,18 @@
     "wood",
     "wooden",
     "ladder",
-    "steps"
-  ]
+    "steps",
+    "ascent",
+    "descent",
+    "furniture",
+    "handrail",
+    "ladderback",
+    "plank",
+    "rung",
+    "rustic",
+    "seating",
+    "staircase",
+    "step"
+  ],
+  "caption": "A simple, wooden ladder with rungs."
 }

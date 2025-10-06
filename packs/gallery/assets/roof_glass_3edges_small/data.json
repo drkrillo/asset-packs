@@ -2,5 +2,18 @@
   "id": "bd8b419e-7284-44a5-969b-8cb32c4d7065",
   "name": "Roof - Glass 3Edges Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "clear",
+    "edge",
+    "exterior",
+    "frame",
+    "glass",
+    "roof",
+    "structure",
+    "transparent",
+    "window"
+  ],
+  "caption": "A small, three-edged glass roof."
 }

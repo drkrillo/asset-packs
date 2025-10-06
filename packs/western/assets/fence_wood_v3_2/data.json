@@ -2,5 +2,15 @@
   "id": "bf2c6c7e-0d4d-4e04-ab87-61ced60cbf76",
   "name": "Fence Wood V3 2",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "barrier",
+    "boundary",
+    "enclosure",
+    "gate",
+    "plank",
+    "post",
+    "rail",
+    "timber"
+  ],
+  "caption": "A simple wooden fence with four vertical posts and two horizontal rails."
 }

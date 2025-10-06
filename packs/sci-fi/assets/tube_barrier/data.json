@@ -6,6 +6,15 @@
     "scifi",
     "guard",
     "wall",
-    "split"
-  ]
+    "split",
+    "barrier",
+    "containment",
+    "cylindrical",
+    "obstacle",
+    "safety",
+    "shaped",
+    "tube",
+    "warning"
+  ],
+  "caption": "A yellow tube-shaped barrier with black stripes on its sides."
 }

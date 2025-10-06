@@ -2,5 +2,20 @@
   "id": "6050ddf0-75ca-43c1-8f24-cf439ebb4f00",
   "name": "Fliptop Bin",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "bin",
+    "can",
+    "container",
+    "disposal",
+    "dumpster",
+    "flip",
+    "lid",
+    "receptacle",
+    "recycling",
+    "storage",
+    "top",
+    "trash",
+    "waste"
+  ],
+  "caption": "A blue trash can with a flip top lid."
 }

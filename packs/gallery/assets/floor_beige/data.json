@@ -2,5 +2,14 @@
   "id": "d710c28b-f69d-493d-a2b6-77a56e285d03",
   "name": "Floor - Beige",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "border",
+    "flat",
+    "floor",
+    "flooring",
+    "pattern",
+    "surface",
+    "tile"
+  ],
+  "caption": "A simple, flat, yellow floor tile with a black border, resembling a of a single piece of a larger flooring pattern."
 }

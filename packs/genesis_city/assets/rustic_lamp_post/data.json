@@ -13,6 +13,18 @@
     "lighting",
     "farm",
     "tabern",
-    "rustic"
-  ]
+    "rustic",
+    "comfort",
+    "desk",
+    "dining",
+    "fixture",
+    "furniture",
+    "kitchen",
+    "lantern",
+    "outdoor",
+    "seating",
+    "surface",
+    "table"
+  ],
+  "caption": "A rustic wooden lamp post with a hanging lantern."
 }

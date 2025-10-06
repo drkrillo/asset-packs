@@ -2,5 +2,22 @@
   "id": "bee88117-95fb-4d89-bd7e-8d0594740c08",
   "name": "Wood 2",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "board",
+    "branch",
+    "foliage",
+    "forest",
+    "grain",
+    "leaves",
+    "lumber",
+    "natural",
+    "nature",
+    "organic",
+    "outdoor",
+    "plank",
+    "rectangular",
+    "roots",
+    "rustic"
+  ],
+  "caption": "A simple, rectangular wooden plank with a smooth surface."
 }

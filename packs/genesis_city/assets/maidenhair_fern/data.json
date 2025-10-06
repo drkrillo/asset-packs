@@ -13,6 +13,15 @@
     "forest",
     "park",
     "yard",
-    "backyard"
-  ]
+    "backyard",
+    "botanical",
+    "foliage",
+    "herbaceous",
+    "leaf",
+    "leafy",
+    "outdoor",
+    "plant",
+    "vegetation"
+  ],
+  "caption": "A fern leaf."
 }

@@ -2,5 +2,22 @@
   "id": "3d3eaba7-01ba-4eb4-8916-bfeb496364c1",
   "name": "Drink Lids",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "breakage",
+    "container",
+    "debris",
+    "fragment",
+    "generated",
+    "hazardous",
+    "lid",
+    "plastic",
+    "recyclable",
+    "spill",
+    "storage",
+    "toxic",
+    "trash",
+    "vessel",
+    "waste"
+  ],
+  "caption": "A thumbnail of a 3d asset depicting a broken plastic lid."
 }

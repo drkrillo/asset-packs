@@ -6,6 +6,15 @@
     "fantasy",
     "tile",
     "cobblestone",
-    "stone"
-  ]
+    "stone",
+    "dark",
+    "earth",
+    "floor",
+    "ground",
+    "path",
+    "pavement",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A dark cobblestone tile, which is a."
 }

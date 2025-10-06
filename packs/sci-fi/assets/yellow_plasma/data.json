@@ -6,6 +6,20 @@
     "scifi",
     "energy",
     "supply",
-    "power"
-  ]
+    "power",
+    "bottle",
+    "cap",
+    "chemical",
+    "container",
+    "drum",
+    "fuel",
+    "generated",
+    "hazardous",
+    "plasma",
+    "storage",
+    "tank",
+    "toxic",
+    "vessel"
+  ],
+  "caption": "A yellow plasma bottle with a white cap."
 }

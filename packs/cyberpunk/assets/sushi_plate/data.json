@@ -2,5 +2,21 @@
   "id": "7e909b0f-aeba-4b30-bef0-a2827d4f1677",
   "name": "Sushi Plate",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "appetizer",
+    "cuisine",
+    "dining",
+    "dish",
+    "food",
+    "garnish",
+    "japanese",
+    "meal",
+    "plate",
+    "restaurant",
+    "serving",
+    "servingware",
+    "sushi",
+    "tableware"
+  ],
+  "caption": "A sushi plate with various pieces of sushi on top."
 }

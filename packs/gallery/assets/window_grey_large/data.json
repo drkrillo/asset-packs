@@ -2,5 +2,21 @@
   "id": "8747c56a-6f21-4ea1-90f2-f2130bd681b3",
   "name": "Window - Grey Large",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "aperture",
+    "clear",
+    "frame",
+    "glass",
+    "glassy",
+    "pane",
+    "rectangle",
+    "sight",
+    "transparent",
+    "viewable",
+    "vision",
+    "window",
+    "windowed",
+    "windowpane"
+  ],
+  "caption": "A large, rectangular window with a grey frame."
 }

@@ -7,6 +7,20 @@
     "pond",
     "water",
     "stone",
-    "circular"
-  ]
+    "circular",
+    "aquatic",
+    "environment",
+    "fluid",
+    "lake",
+    "landscape",
+    "liquid",
+    "ocean",
+    "outdoor",
+    "pool",
+    "reflection",
+    "river",
+    "scenery",
+    "surface"
+  ],
+  "caption": "A stone pond with a blue water surface."
 }

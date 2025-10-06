@@ -7,6 +7,21 @@
     "vase",
     "liquid",
     "gold",
-    "golden"
-  ]
+    "golden",
+    "antique",
+    "artifact",
+    "chemical",
+    "container",
+    "fuel",
+    "greek",
+    "hazardous",
+    "oil",
+    "oinochoe",
+    "petroleum",
+    "radioactive",
+    "relic",
+    "roman",
+    "toxic"
+  ],
+  "caption": "A yellow oinochoe, which is a type of vase or container used in ancient greek and roman times for holding oil or wine."
 }

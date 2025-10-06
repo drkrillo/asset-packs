@@ -2,5 +2,14 @@
   "id": "8d8d5f8b-2bd3-4da1-942d-d89c182ca020",
   "name": "Bricks - Pale",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "block",
+    "brick",
+    "bricks",
+    "building",
+    "construction",
+    "pale"
+  ],
+  "caption": "A 3d block made of pale yellow bricks with a brown texture on the sides."
 }

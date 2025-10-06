@@ -10,6 +10,19 @@
     "box",
     "cardboard",
     "mail",
-    "rectangular"
-  ]
+    "rectangular",
+    "chemical",
+    "container",
+    "fuel",
+    "hazardous",
+    "label",
+    "oil",
+    "petroleum",
+    "radioactive",
+    "rectangle",
+    "storage",
+    "toxic",
+    "vessel"
+  ],
+  "caption": "A simple, brown cardboard box with a white label on its side."
 }

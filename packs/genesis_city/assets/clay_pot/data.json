@@ -10,6 +10,20 @@
     "pot",
     "clay",
     "flower",
-    "flowers"
-  ]
+    "flowers",
+    "art",
+    "ceramic",
+    "container",
+    "craft",
+    "desk",
+    "dining",
+    "furniture",
+    "handle",
+    "kitchen",
+    "pottery",
+    "surface",
+    "table",
+    "top"
+  ],
+  "caption": "A red clay pot with a handle on top."
 }

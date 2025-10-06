@@ -7,6 +7,17 @@
     "potion",
     "witch",
     "wizard",
-    "magic"
-  ]
+    "magic",
+    "brew",
+    "brewing",
+    "cauldron",
+    "concoction",
+    "container",
+    "elixir",
+    "liquid",
+    "magical",
+    "pot",
+    "vessel"
+  ],
+  "caption": "A cauldron filled with green liquid, topped."
 }

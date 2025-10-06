@@ -12,6 +12,16 @@
     "garden",
     "forest",
     "mountain",
-    "shrub"
-  ]
+    "shrub",
+    "evergreen",
+    "foliage",
+    "geometric",
+    "landscape",
+    "leafy",
+    "plant",
+    "reptile",
+    "shell",
+    "vegetation"
+  ],
+  "caption": "A green of a turtle with a geometric design."
 }

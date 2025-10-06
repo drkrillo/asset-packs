@@ -2,5 +2,18 @@
   "id": "05393e82-0acd-40ea-837a-02752445bbf0",
   "name": "Factory Tube 02",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "chemical",
+    "container",
+    "fuel",
+    "hazardous",
+    "industrial",
+    "machinery",
+    "storage",
+    "stripe",
+    "toxic",
+    "tube",
+    "vessel"
+  ],
+  "caption": "A red and white striped tube."
 }

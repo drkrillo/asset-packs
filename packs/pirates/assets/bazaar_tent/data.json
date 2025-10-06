@@ -12,6 +12,15 @@
     "tent",
     "sticks",
     "fabric",
-    "canopy"
-  ]
+    "canopy",
+    "bazaar",
+    "cardboard",
+    "cloth",
+    "furniture",
+    "striped",
+    "structure",
+    "tablecloth",
+    "tented"
+  ],
+  "caption": "A simple, cardboard-like table with a red and white striped cloth draped over it."
 }

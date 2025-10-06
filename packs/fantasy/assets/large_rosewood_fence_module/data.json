@@ -7,6 +7,17 @@
     "fence",
     "wood",
     "wooden",
-    "module"
-  ]
+    "module",
+    "architectural",
+    "barrier",
+    "bolt",
+    "boundary",
+    "enclosure",
+    "fencepost",
+    "gate",
+    "redwood",
+    "rosewood",
+    "structure"
+  ],
+  "caption": "A red wooden fence module with a green bolt on top."
 }

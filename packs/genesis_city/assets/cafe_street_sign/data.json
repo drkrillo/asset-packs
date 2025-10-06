@@ -10,6 +10,15 @@
     "cafe",
     "street",
     "city",
-    "sign"
-  ]
+    "sign",
+    "art",
+    "background",
+    "chalk",
+    "chalkboard",
+    "easel",
+    "graphic",
+    "line",
+    "shape"
+  ],
+  "caption": "A chalkboard sign with three sections, each containing different colored lines or shapes, placed on an easel against a green background."
 }

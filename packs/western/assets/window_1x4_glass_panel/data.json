@@ -2,5 +2,20 @@
   "id": "dfb00611-e4c2-41a3-b7e0-211cc0c7fc4a",
   "name": "Window 1x4 glass panel",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "acrylic",
+    "clear",
+    "glass",
+    "glasspane",
+    "glasspanel",
+    "glasstop",
+    "pane",
+    "panel",
+    "polymer",
+    "translucent",
+    "transparent",
+    "window",
+    "windowpane"
+  ],
+  "caption": "A window with four glass panels."
 }

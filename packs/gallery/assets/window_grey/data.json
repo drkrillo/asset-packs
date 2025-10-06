@@ -2,5 +2,19 @@
   "id": "80efb2be-83ca-4d7e-9103-bbc598a8826a",
   "name": "Window - Grey ",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "border",
+    "colour",
+    "display",
+    "frame",
+    "glass",
+    "hue",
+    "pane",
+    "shade",
+    "tint",
+    "tone",
+    "window",
+    "windowpane"
+  ],
+  "caption": "A simple, grey of a window."
 }

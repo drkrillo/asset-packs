@@ -7,6 +7,18 @@
     "power",
     "spark",
     "base",
-    "spaceship"
-  ]
+    "spaceship",
+    "brightness",
+    "caution",
+    "corner",
+    "glow",
+    "illumination",
+    "intersection",
+    "safety",
+    "traffic",
+    "vehicle",
+    "visibility",
+    "warning"
+  ],
+  "caption": "A corner with a yellow light."
 }

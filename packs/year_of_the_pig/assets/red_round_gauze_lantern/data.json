@@ -7,6 +7,19 @@
     "lantern",
     "light",
     "gauze",
-    "red"
-  ]
+    "red",
+    "ambiance",
+    "burning",
+    "combustion",
+    "cozy",
+    "fire",
+    "flame",
+    "glow",
+    "heat",
+    "interior",
+    "round",
+    "smoke",
+    "warm"
+  ],
+  "caption": "A red lantern with gauze material."
 }

@@ -2,5 +2,17 @@
   "id": "fb10f866-c42b-416d-8175-b029516c74c9",
   "name": "Pipe Tip",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "connector",
+    "end",
+    "fixture",
+    "hardware",
+    "nozzle",
+    "outlet",
+    "pipe",
+    "spout",
+    "surface",
+    "tip"
+  ],
+  "caption": "A white of a pipe tip with a black texture on its surface."
 }

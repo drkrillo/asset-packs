@@ -2,5 +2,20 @@
   "id": "f124f8a1-929b-4ec0-996a-d41db4c6dee9",
   "name": "Glass Opaque Orange",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "amber",
+    "clear",
+    "colored",
+    "crimson",
+    "glass",
+    "glossy",
+    "opaque",
+    "reflective",
+    "ruby",
+    "shiny",
+    "translucent",
+    "transparent",
+    "vibrant"
+  ],
+  "caption": "An opaque orange glass cube."
 }

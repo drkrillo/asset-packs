@@ -14,6 +14,15 @@
     "park",
     "yard",
     "backyard",
-    "soil"
-  ]
+    "soil",
+    "foliage",
+    "leafy",
+    "nest",
+    "nursery",
+    "outdoor",
+    "plant",
+    "potted",
+    "searchable"
+  ],
+  "caption": "A small potted plant with green leaves and brown soil."
 }

@@ -2,5 +2,19 @@
   "id": "23b3cfe4-c23c-44e1-966a-6a1cf94d2609",
   "name": "Box",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "box",
+    "cardboard",
+    "carton",
+    "container",
+    "crate",
+    "delivery",
+    "label",
+    "packaging",
+    "paper",
+    "shipping",
+    "storage",
+    "top"
+  ],
+  "caption": "A brown cardboard box with a white label on top."
 }

@@ -13,6 +13,17 @@
     "chest",
     "trunk",
     "gold",
-    "golden"
-  ]
+    "golden",
+    "box",
+    "container",
+    "jewels",
+    "lid",
+    "loot",
+    "riches",
+    "storage",
+    "trove",
+    "unlocked",
+    "wealth"
+  ],
+  "caption": "A treasure chest with an open lid."
 }

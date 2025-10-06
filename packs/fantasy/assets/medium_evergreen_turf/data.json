@@ -8,6 +8,20 @@
     "forest",
     "grass",
     "evergreen",
-    "turf"
-  ]
+    "turf",
+    "corner",
+    "environment",
+    "field",
+    "flat",
+    "generated",
+    "ground",
+    "landscape",
+    "lawn",
+    "meadow",
+    "medium",
+    "nature",
+    "outdoor",
+    "rectangle"
+  ],
+  "caption": "A green, flat, rectangular surface with rounded corners."
 }

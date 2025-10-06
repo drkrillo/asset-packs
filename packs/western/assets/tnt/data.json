@@ -2,5 +2,20 @@
   "id": "753a0cb7-d318-4ae6-8dab-782440078695",
   "name": "TNT",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "burning",
+    "combustion",
+    "cylindrical",
+    "detonation",
+    "dynamite",
+    "explosive",
+    "fire",
+    "flame",
+    "fuel",
+    "hazard",
+    "heat",
+    "smoke",
+    "stick"
+  ],
+  "caption": "A red cylindrical object with a hole in the center, resembling a stick of dynamite."
 }

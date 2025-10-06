@@ -10,6 +10,16 @@
     "construction",
     "ladder",
     "step",
-    "metal"
-  ]
+    "metal",
+    "access",
+    "building",
+    "climb",
+    "folding",
+    "hardware",
+    "safety",
+    "stool",
+    "utility",
+    "workspace"
+  ],
+  "caption": "A folding ladder with a step stool on top."
 }

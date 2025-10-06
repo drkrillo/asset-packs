@@ -2,5 +2,16 @@
   "id": "7d98983b-2d58-4066-a889-1eff3cd09772",
   "name": "Floor - Peach Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "border",
+    "floor",
+    "flooring",
+    "interior",
+    "pattern",
+    "peach",
+    "resemblance",
+    "tile",
+    "tileset"
+  ],
+  "caption": "A red floor tile with a black border, resembling a small version of the \"floor_peach\" 3d asset."
 }

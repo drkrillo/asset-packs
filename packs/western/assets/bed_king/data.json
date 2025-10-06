@@ -2,5 +2,22 @@
   "id": "46b54f75-ad9d-4b63-98ac-a733c4088998",
   "name": "Bed King",
   "category": "furniture",
-  "tags": []
+  "tags": [
+    "bed",
+    "bedroom",
+    "comfort",
+    "cozy",
+    "frame",
+    "furniture",
+    "king",
+    "mattress",
+    "occupant",
+    "pillow",
+    "place",
+    "relaxation",
+    "rest",
+    "resting",
+    "sleep"
+  ],
+  "caption": "A simple, single-occupant bed with a wooden frame and a green mattress."
 }

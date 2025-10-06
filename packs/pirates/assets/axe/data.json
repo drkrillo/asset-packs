@@ -11,6 +11,18 @@
     "wood",
     "wooden",
     "weapon",
-    "tool"
-  ]
+    "tool",
+    "axe",
+    "chopping",
+    "combat",
+    "cutting",
+    "forestry",
+    "handle",
+    "head",
+    "logging",
+    "nature",
+    "outdoor",
+    "wilderness"
+  ],
+  "caption": "An axe with a wooden handle and a metal head."
 }

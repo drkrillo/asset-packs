@@ -7,6 +7,17 @@
     "book",
     "codex",
     "knowledge",
-    "shelf"
-  ]
+    "shelf",
+    "binding",
+    "cover",
+    "ink",
+    "leather",
+    "manuscript",
+    "page",
+    "parchment",
+    "spine",
+    "tome",
+    "unreadable"
+  ],
+  "caption": "A book with a brown cover and a spine, which appears to have text on it, but the text is not legible in this image."
 }

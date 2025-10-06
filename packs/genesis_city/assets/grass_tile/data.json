@@ -14,6 +14,20 @@
     "yard",
     "tile",
     "park",
-    "garden"
-  ]
+    "garden",
+    "environment",
+    "field",
+    "foliage",
+    "ground",
+    "landscape",
+    "lawn",
+    "meadow",
+    "nature",
+    "outdoor",
+    "plant",
+    "terrain",
+    "turf",
+    "vegetation"
+  ],
+  "caption": "A green grass tile."
 }

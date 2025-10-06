@@ -7,6 +7,16 @@
     "elixir",
     "potion",
     "magic",
-    "health"
-  ]
+    "health",
+    "bottle",
+    "container",
+    "cork",
+    "drink",
+    "label",
+    "liquid",
+    "medicine",
+    "remedy",
+    "vessel"
+  ],
+  "caption": "An elixir bottle with a blue label and a cork on top."
 }

@@ -7,6 +7,20 @@
     "forest",
     "log",
     "wood",
-    "wooden"
-  ]
+    "wooden",
+    "branch",
+    "crack",
+    "decay",
+    "foliage",
+    "leaves",
+    "natural",
+    "nature",
+    "organic",
+    "outdoor",
+    "roots",
+    "rustic",
+    "timber",
+    "tree"
+  ],
+  "caption": "A log with a crack in it."
 }

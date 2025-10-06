@@ -5,6 +5,18 @@
   "tags": [
     "fantasy",
     "stone",
-    "block"
-  ]
+    "block",
+    "architecture",
+    "building",
+    "castle",
+    "construction",
+    "fortress",
+    "palace",
+    "rectangular",
+    "royal",
+    "stronghold",
+    "structure",
+    "tower"
+  ],
+  "caption": "A simple, rectangular block made of stone material."
 }

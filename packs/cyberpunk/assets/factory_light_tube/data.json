@@ -2,5 +2,21 @@
   "id": "6b3079b4-38f5-481b-ac17-37b2fbb1fc16",
   "name": "Factory Light Tube",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "beam",
+    "brightness",
+    "fixture",
+    "glow",
+    "glowing",
+    "illuminant",
+    "illumination",
+    "lamp",
+    "lighting",
+    "luminous",
+    "radiance",
+    "radiant",
+    "source",
+    "tube"
+  ],
+  "caption": "A factory light tube."
 }

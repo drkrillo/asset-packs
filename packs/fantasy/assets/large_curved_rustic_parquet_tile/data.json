@@ -7,6 +7,15 @@
     "tile",
     "wood",
     "wooden",
-    "parquet"
-  ]
+    "parquet",
+    "curved",
+    "floor",
+    "flooring",
+    "furniture",
+    "interior",
+    "pattern",
+    "rustic",
+    "searchable"
+  ],
+  "caption": "A large, curved, rustic parquet tile with a wooden texture."
 }

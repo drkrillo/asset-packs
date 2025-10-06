@@ -2,5 +2,22 @@
   "id": "2ca513de-36df-40ec-bc19-15ca1487dafa",
   "name": "Safe",
   "category": "furniture",
-  "tags": []
+  "tags": [
+    "armor",
+    "barrier",
+    "box",
+    "cabinet",
+    "container",
+    "defense",
+    "enclosure",
+    "guard",
+    "key",
+    "knight",
+    "lock",
+    "protection",
+    "safe",
+    "secure",
+    "shield"
+  ],
+  "caption": "A black safe with a key lock on top."
 }

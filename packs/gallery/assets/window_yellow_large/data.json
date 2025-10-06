@@ -2,5 +2,14 @@
   "id": "8a081836-0083-489b-8aec-4d96e1522f5b",
   "name": "Window - Yellow Large",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "bright",
+    "frame",
+    "glass",
+    "mirror",
+    "rectangle",
+    "reflective",
+    "window"
+  ],
+  "caption": "A large yellow window frame with a rectangular mirror in the center."
 }

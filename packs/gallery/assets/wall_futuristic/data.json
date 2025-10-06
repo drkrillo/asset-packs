@@ -2,5 +2,9 @@
   "id": "6cafabc9-033e-4b5a-a150-360d8deb0007",
   "name": "Wall - Futuristic",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "futuristic",
+    "pattern"
+  ],
+  "caption": "A futuristic wall with a blue and white pattern."
 }

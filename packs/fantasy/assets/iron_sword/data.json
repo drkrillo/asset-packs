@@ -7,6 +7,17 @@
     "iron",
     "weapon",
     "slash",
-    "sword"
-  ]
+    "sword",
+    "armor",
+    "battle",
+    "blade",
+    "combat",
+    "fighting",
+    "knight",
+    "searchable",
+    "sharp",
+    "steel",
+    "warrior"
+  ],
+  "caption": "An iron sword with a golden handle."
 }

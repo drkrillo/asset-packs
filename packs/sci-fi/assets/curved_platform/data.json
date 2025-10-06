@@ -6,6 +6,20 @@
     "scifi",
     "dock",
     "port",
-    "metal"
-  ]
+    "metal",
+    "arch",
+    "bridge",
+    "construction",
+    "crossing",
+    "curved",
+    "floor",
+    "incline",
+    "river",
+    "slope",
+    "span",
+    "stripe",
+    "structure",
+    "surface"
+  ],
+  "caption": "A curved platform with a red stripe on top."
 }

@@ -10,6 +10,18 @@
     "cobblestones",
     "stone",
     "stones",
-    "path"
-  ]
+    "path",
+    "base",
+    "earth",
+    "floor",
+    "foundation",
+    "granite",
+    "marble",
+    "monument",
+    "pedestal",
+    "slab",
+    "surface",
+    "tile"
+  ],
+  "caption": "A stone slab tile."
 }

@@ -2,5 +2,18 @@
   "id": "ef24abec-4133-49e6-96da-4261cb9b8e66",
   "name": "Roof - Red 4Edges Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architectural",
+    "brick",
+    "building",
+    "edge",
+    "facade",
+    "four",
+    "roof",
+    "roofed",
+    "roofing",
+    "structure",
+    "tile"
+  ],
+  "caption": "A small red 3d roof with four edges."
 }

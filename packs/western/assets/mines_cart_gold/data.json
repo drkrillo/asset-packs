@@ -2,5 +2,16 @@
   "id": "069179c2-b0f2-4458-af72-b00d72d7680f",
   "name": "Mines Cart Gold",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "cart",
+    "container",
+    "mine",
+    "nugget",
+    "ore",
+    "precious",
+    "riches",
+    "storage",
+    "wealth"
+  ],
+  "caption": "A black cart filled with gold nuggets."
 }

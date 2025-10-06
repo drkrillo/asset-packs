@@ -5,6 +5,15 @@
   "tags": [
     "scifi",
     "tile",
-    "ground"
-  ]
+    "ground",
+    "border",
+    "cross",
+    "flat",
+    "floor",
+    "panel",
+    "rectangular",
+    "shape",
+    "surface"
+  ],
+  "caption": "A floor panel with an orange border."
 }

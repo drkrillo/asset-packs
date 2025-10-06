@@ -2,5 +2,20 @@
   "id": "d7d63b68-ca09-43dd-a897-432a0cf60626",
   "name": "Roof - Black 1Edge",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "brick",
+    "building",
+    "concrete",
+    "edge",
+    "exterior",
+    "facade",
+    "roof",
+    "roofing",
+    "shingle",
+    "slate",
+    "structure",
+    "tile"
+  ],
+  "caption": "A simple black 1-edged roof model."
 }

@@ -6,6 +6,17 @@
     "scifi",
     "health",
     "recovery",
-    "base"
-  ]
+    "base",
+    "diagnostic",
+    "futuristic",
+    "imaging",
+    "machine",
+    "medical",
+    "monitoring",
+    "safety",
+    "scanner",
+    "security",
+    "technology"
+  ],
+  "caption": "A futuristic medical scanner device."
 }

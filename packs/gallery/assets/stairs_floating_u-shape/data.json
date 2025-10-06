@@ -2,5 +2,19 @@
   "id": "cb241026-bced-4622-8846-5f529727c84b",
   "name": "Stairs Floating U-Shape",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "ascent",
+    "descent",
+    "elevation",
+    "flight",
+    "floating",
+    "ladder",
+    "landing",
+    "shape",
+    "staircase",
+    "stairs",
+    "stairway",
+    "step"
+  ],
+  "caption": "A floating u-shaped staircase."
 }

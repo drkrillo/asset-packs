@@ -6,6 +6,14 @@
     "fantasy",
     "roof",
     "tower",
-    "hut"
-  ]
+    "hut",
+    "architecture",
+    "building",
+    "dwelling",
+    "pointed",
+    "structure",
+    "thatched",
+    "top"
+  ],
+  "caption": "A small, brown, thatched-roof structure with a pointed top, possibly a hut or a small temple."
 }

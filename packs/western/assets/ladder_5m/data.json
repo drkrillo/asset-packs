@@ -2,5 +2,20 @@
   "id": "18aec30b-f10c-4580-a1de-569bf46a8b39",
   "name": "Ladder 5M",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "access",
+    "climb",
+    "five",
+    "flat",
+    "ladder",
+    "long",
+    "meter",
+    "rail",
+    "rung",
+    "step",
+    "structure",
+    "support",
+    "top"
+  ],
+  "caption": "A simple, five-meter long wooden ladder with a flat top."
 }

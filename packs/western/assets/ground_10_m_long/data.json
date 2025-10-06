@@ -2,5 +2,21 @@
   "id": "845adf39-cf21-44b7-a1a5-4ad4e87cb521",
   "name": "Ground 10 M Long",
   "category": "tiles",
-  "tags": []
+  "tags": [
+    "cardboard",
+    "cardstock",
+    "clipboard",
+    "document",
+    "manuscript",
+    "notebook",
+    "paper",
+    "paperboard",
+    "parchment",
+    "print",
+    "rectangular",
+    "scroll",
+    "sheet",
+    "stationery"
+  ],
+  "caption": "A long, rectangular piece of paper or cardboard with a yellowish hue."
 }

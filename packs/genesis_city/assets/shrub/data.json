@@ -11,6 +11,19 @@
     "park",
     "garden",
     "forest",
-    "mountain"
-  ]
+    "mountain",
+    "branch",
+    "cluster",
+    "foliage",
+    "growth",
+    "leaf",
+    "leafy",
+    "outdoor",
+    "plant",
+    "searchable",
+    "shrub",
+    "shrubbery",
+    "vegetation"
+  ],
+  "caption": "A green shrub with multiple clusters of leaves."
 }

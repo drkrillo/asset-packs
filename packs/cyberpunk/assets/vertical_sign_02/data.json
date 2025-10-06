@@ -2,5 +2,17 @@
   "id": "29195346-ccb0-44d2-954b-10748713a76f",
   "name": "Vertical Sign 02",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "advertisement",
+    "billboard",
+    "board",
+    "label",
+    "marker",
+    "markerboard",
+    "notice",
+    "placard",
+    "poster",
+    "rectangle"
+  ],
+  "caption": "A simple, yellow, rectangular sign."
 }

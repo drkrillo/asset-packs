@@ -12,6 +12,22 @@
     "metal",
     "iron",
     "park",
-    "garden"
-  ]
+    "garden",
+    "architecture",
+    "barrier",
+    "castle",
+    "defense",
+    "enclosure",
+    "end",
+    "fortification",
+    "fortress",
+    "gate",
+    "module",
+    "palace",
+    "royal",
+    "stronghold",
+    "structure",
+    "tower"
+  ],
+  "caption": "An iron fence end module."
 }

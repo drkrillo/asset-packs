@@ -5,6 +5,14 @@
   "tags": [
     "scifi",
     "rock",
-    "planet"
-  ]
+    "planet",
+    "asteroid",
+    "explosive",
+    "faceted",
+    "hazard",
+    "projectile",
+    "shape",
+    "space"
+  ],
+  "caption": "A red, faceted 3d object resembling an asteroid or projectile."
 }

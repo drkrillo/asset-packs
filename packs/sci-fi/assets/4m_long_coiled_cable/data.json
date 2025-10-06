@@ -7,6 +7,19 @@
     "energy",
     "power",
     "electricity",
-    "connectors"
-  ]
+    "connectors",
+    "cable",
+    "coiled",
+    "communication",
+    "connector",
+    "cord",
+    "electrical",
+    "outlet",
+    "plug",
+    "signal",
+    "socket",
+    "transmission",
+    "wire"
+  ],
+  "caption": "A coiled cable with a yellow connector on the end."
 }

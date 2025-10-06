@@ -10,6 +10,21 @@
     "wood",
     "wooden",
     "bucket",
-    "water"
-  ]
+    "water",
+    "can",
+    "chair",
+    "container",
+    "desk",
+    "dining",
+    "drum",
+    "furniture",
+    "handle",
+    "kitchen",
+    "office",
+    "rest",
+    "seat",
+    "sitting",
+    "storage"
+  ],
+  "caption": "A wooden bucket with a handle on top."
 }

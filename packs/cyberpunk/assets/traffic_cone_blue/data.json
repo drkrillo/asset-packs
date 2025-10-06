@@ -2,5 +2,12 @@
   "id": "c1c8ab1a-41ec-474d-a9f5-821325625cbf",
   "name": "Traffic Cone - Blue",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "marker",
+    "safety",
+    "shape",
+    "traffic",
+    "warning"
+  ],
+  "caption": "A blue traffic cone."
 }

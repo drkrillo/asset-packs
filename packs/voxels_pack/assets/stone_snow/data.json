@@ -2,5 +2,17 @@
   "id": "a650b19e-69f6-4498-8bcd-1251af26ff2b",
   "name": "Stone - Snow",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "block",
+    "cold",
+    "frost",
+    "frosty",
+    "frozen",
+    "ice",
+    "icy",
+    "snow",
+    "structure",
+    "winter"
+  ],
+  "caption": "A 3d block-like structure with a white top and a blue bottom, resembling a cube of ice or snow."
 }

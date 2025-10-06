@@ -6,6 +6,21 @@
     "fantasy",
     "forest",
     "grass",
-    "weeds"
-  ]
+    "weeds",
+    "botanical",
+    "environment",
+    "field",
+    "flora",
+    "foliage",
+    "ground",
+    "growth",
+    "lawn",
+    "meadow",
+    "nature",
+    "outdoor",
+    "plant",
+    "prickly",
+    "spike"
+  ],
+  "caption": "A plant with two spikes on top."
 }

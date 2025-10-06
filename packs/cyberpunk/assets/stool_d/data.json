@@ -2,5 +2,21 @@
   "id": "068bd007-1047-4cb5-94b9-718f3ceee14d",
   "name": "Stool D",
   "category": "furniture",
-  "tags": []
+  "tags": [
+    "chair",
+    "desk",
+    "dining",
+    "furniture",
+    "interior",
+    "kitchen",
+    "office",
+    "rest",
+    "seat",
+    "seating",
+    "sitting",
+    "stool",
+    "surface",
+    "table"
+  ],
+  "caption": "A red and black stool with a small table on top."
 }

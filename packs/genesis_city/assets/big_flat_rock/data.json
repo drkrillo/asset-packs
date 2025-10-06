@@ -11,6 +11,16 @@
     "rocks",
     "stone",
     "stones",
-    "forest"
-  ]
+    "forest",
+    "earth",
+    "flat",
+    "form",
+    "ground",
+    "landscape",
+    "shape",
+    "solid",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A large, flat rock with a smooth surface."
 }

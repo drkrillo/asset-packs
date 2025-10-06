@@ -2,5 +2,20 @@
   "id": "29c2d8e0-95f2-4111-bf8a-2309083b120d",
   "name": "Table 3",
   "category": "furniture",
-  "tags": []
+  "tags": [
+    "base",
+    "card",
+    "desk",
+    "dining",
+    "furniture",
+    "kitchen",
+    "leg",
+    "rest",
+    "round",
+    "seat",
+    "surface",
+    "table",
+    "tabletop"
+  ],
+  "caption": "A small, round card table with a green top and red legs."
 }

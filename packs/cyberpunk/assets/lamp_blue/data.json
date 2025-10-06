@@ -2,5 +2,17 @@
   "id": "0b6f92f1-d1c4-4924-a1e3-e9031c414151",
   "name": "Lamp - Blue",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "base",
+    "fixture",
+    "glow",
+    "hue",
+    "illumination",
+    "lamp",
+    "luminous",
+    "radiant",
+    "rectangle",
+    "shape"
+  ],
+  "caption": "A blue of a lamp with a rectangular base."
 }

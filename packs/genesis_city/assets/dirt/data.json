@@ -6,6 +6,20 @@
     "genesis",
     "city",
     "town",
-    "ground"
-  ]
+    "ground",
+    "dirt",
+    "dirtiness",
+    "dusty",
+    "earth",
+    "grain",
+    "gritty",
+    "landscape",
+    "particle",
+    "soil",
+    "speckled",
+    "specks",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A close-up of a textured surface resembling dirt with small dots representing grains or particles."
 }

@@ -2,5 +2,18 @@
   "id": "c77c47ee-88ab-4ede-84e9-4b298c68f776",
   "name": "Fence Wood V1 1",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "barrier",
+    "boundary",
+    "enclosure",
+    "fencepost",
+    "gate",
+    "picket",
+    "plank",
+    "post",
+    "rail",
+    "railing",
+    "timber"
+  ],
+  "caption": "A simple wooden fence in a style."
 }

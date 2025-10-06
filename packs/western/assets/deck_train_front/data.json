@@ -2,5 +2,16 @@
   "id": "f786d966-13ae-4eee-9760-ed09488cdb9e",
   "name": "Deck Train Front",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "deck",
+    "front",
+    "rail",
+    "roof",
+    "station",
+    "structure",
+    "train"
+  ],
+  "caption": "A wooden deck with a green roof, situated in front of a train."
 }

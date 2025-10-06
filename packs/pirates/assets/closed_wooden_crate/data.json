@@ -10,6 +10,15 @@
     "wood",
     "wooden",
     "crate",
-    "box"
-  ]
+    "box",
+    "container",
+    "drum",
+    "fortress",
+    "steel",
+    "storage",
+    "stronghold",
+    "tank",
+    "vessel"
+  ],
+  "caption": "A three-dimensional model of a closed wooden crate."
 }

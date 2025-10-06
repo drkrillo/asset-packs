@@ -2,5 +2,17 @@
   "id": "f8d1c4ef-6997-4ac2-8381-2cd36c294e66",
   "name": "Wall - AncientEgiptian",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "ancientegiptian",
+    "architecture",
+    "egyptian",
+    "fortress",
+    "hieroglyph",
+    "monument",
+    "mummy",
+    "pharaoh",
+    "pyramid",
+    "tomb"
+  ],
+  "caption": "An ancient egyptian wall."
 }

@@ -2,5 +2,16 @@
   "id": "dd7267a4-d217-498a-9c59-f54dd3ff5e32",
   "name": "Explore",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "board",
+    "bulletin",
+    "explore",
+    "indicator",
+    "label",
+    "letter",
+    "marker",
+    "markerboard",
+    "notice"
+  ],
+  "caption": "A green sign with the word \"explore\" in white letters."
 }

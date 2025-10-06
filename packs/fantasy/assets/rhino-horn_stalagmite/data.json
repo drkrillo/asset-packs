@@ -8,6 +8,20 @@
     "stone",
     "cave",
     "forest",
-    "ruins"
-  ]
+    "ruins",
+    "base",
+    "formation",
+    "geological",
+    "horn",
+    "mineral",
+    "narrow",
+    "peak",
+    "pointy",
+    "rhino",
+    "stalactite",
+    "structure",
+    "summit",
+    "tapering"
+  ],
+  "caption": "A tall, pointed structure resembling a stalagmite or a horn, with a smooth surface and a narrow base that tapers to a sharp point at the top."
 }

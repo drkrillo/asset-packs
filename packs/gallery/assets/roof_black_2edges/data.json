@@ -2,5 +2,16 @@
   "id": "b346d714-05ee-4f9a-a6a8-f146047c4501",
   "name": "Roof - Black 2Edges",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architectural",
+    "building",
+    "edge",
+    "exterior",
+    "facade",
+    "roof",
+    "roofing",
+    "structure",
+    "surface"
+  ],
+  "caption": "A simple black roof with two edges in a 3d modeling context."
 }

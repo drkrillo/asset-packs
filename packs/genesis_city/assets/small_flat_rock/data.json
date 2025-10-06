@@ -11,6 +11,19 @@
     "rocks",
     "stone",
     "stones",
-    "forest"
-  ]
+    "forest",
+    "basalt",
+    "boulder",
+    "earthy",
+    "flat",
+    "geological",
+    "granite",
+    "ground",
+    "landscape",
+    "mineral",
+    "pebble",
+    "sedimentary",
+    "terrain"
+  ],
+  "caption": "Small flat rock."
 }

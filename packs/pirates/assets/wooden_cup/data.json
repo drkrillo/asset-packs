@@ -12,6 +12,16 @@
     "cup",
     "drink",
     "beverage",
-    "alcohol"
-  ]
+    "alcohol",
+    "band",
+    "centerpiece",
+    "ceramic",
+    "container",
+    "cylindrical",
+    "pottery",
+    "tableware",
+    "vase",
+    "vessel"
+  ],
+  "caption": "A simple, brown, cylindrical vase with a black band around its middle."
 }

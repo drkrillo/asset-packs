@@ -8,6 +8,20 @@
     "throne",
     "chair",
     "court",
-    "wood"
-  ]
+    "wood",
+    "athletic",
+    "back",
+    "bench",
+    "comfort",
+    "cushion",
+    "dining",
+    "furniture",
+    "high",
+    "kitchen",
+    "office",
+    "rest",
+    "seat",
+    "sitting"
+  ],
+  "caption": "A high-back court chair with a blue seat cushion."
 }

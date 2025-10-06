@@ -7,6 +7,15 @@
     "stone",
     "brick",
     "wall",
-    "corner"
-  ]
+    "corner",
+    "arch",
+    "architectural",
+    "building",
+    "curved",
+    "facade",
+    "pattern",
+    "structure",
+    "top"
+  ],
+  "caption": "A textured brick wall with a curved top."
 }

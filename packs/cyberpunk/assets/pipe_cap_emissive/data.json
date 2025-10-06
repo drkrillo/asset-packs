@@ -2,5 +2,19 @@
   "id": "ef35c01d-f09f-4cd8-980f-de2fdb1e36fc",
   "name": "Pipe Cap - Emissive",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "beam",
+    "cap",
+    "emissive",
+    "glow",
+    "glowing",
+    "highlight",
+    "illumination",
+    "luminescent",
+    "pipe",
+    "radiance",
+    "radiant",
+    "shine"
+  ],
+  "caption": "An emissive pipe cap."
 }

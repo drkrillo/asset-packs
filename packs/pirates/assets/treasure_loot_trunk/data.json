@@ -16,6 +16,16 @@
     "lootbox",
     "loot",
     "skull",
-    "gemstone"
-  ]
+    "gemstone",
+    "container",
+    "crown",
+    "key",
+    "lock",
+    "riches",
+    "storage",
+    "trove",
+    "trunk",
+    "wealth"
+  ],
+  "caption": "A treasure chest with a golden lock and key, featuring a brown wooden texture and a gold-colored interior, topped with a small crown and a purple gemstone."
 }

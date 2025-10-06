@@ -2,5 +2,20 @@
   "id": "5daddffb-273d-44c7-acd2-26d262efb82b",
   "name": "Concrete Wall - Short",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "architecture",
+    "barrier",
+    "block",
+    "brick",
+    "building",
+    "concrete",
+    "defense",
+    "fortification",
+    "fortress",
+    "foundation",
+    "pavement",
+    "stronghold",
+    "structure"
+  ],
+  "caption": "A short concrete wall in a."
 }

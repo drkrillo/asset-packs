@@ -2,5 +2,16 @@
   "id": "7221f2d1-4b0e-4750-ac0b-6bc42b5cce47",
   "name": "TNT Detonator",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "contraption",
+    "detonator",
+    "explosive",
+    "gadget",
+    "handle",
+    "mechanism",
+    "ordnance",
+    "tnt",
+    "weapon"
+  ],
+  "caption": "A red tnt detonator with a black handle."
 }

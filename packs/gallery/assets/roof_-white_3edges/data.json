@@ -2,5 +2,18 @@
   "id": "6361af7d-a14e-4b33-90f7-4922b86b1cb8",
   "name": "Roof -White 3Edges",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "edge",
+    "edgy",
+    "facade",
+    "flat",
+    "roof",
+    "roofed",
+    "roofing",
+    "structure",
+    "surface"
+  ],
+  "caption": "A simple white of a roof with three edges."
 }

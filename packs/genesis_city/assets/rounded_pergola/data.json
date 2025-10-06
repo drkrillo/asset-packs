@@ -8,6 +8,17 @@
     "town",
     "structures",
     "garden",
-    "park"
-  ]
+    "park",
+    "architecture",
+    "building",
+    "dimensional",
+    "nature",
+    "outdoor",
+    "pergola",
+    "round",
+    "rounded",
+    "structure",
+    "top"
+  ],
+  "caption": "A white, three-dimensional pergola with a round top."
 }

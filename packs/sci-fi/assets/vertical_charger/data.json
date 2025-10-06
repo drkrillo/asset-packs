@@ -8,6 +8,14 @@
     "power",
     "supply",
     "electricity",
-    "plasma"
-  ]
+    "plasma",
+    "accents",
+    "appearance",
+    "base",
+    "charger",
+    "dimensional",
+    "function",
+    "stylized"
+  ],
+  "caption": "A stylized, three-dimensional model of a vertical charger with a blue base and orange accents."
 }

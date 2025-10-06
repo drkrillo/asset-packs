@@ -10,6 +10,16 @@
     "wheel",
     "wheels",
     "construction",
-    "empty"
-  ]
+    "empty",
+    "bucket",
+    "container",
+    "furniture",
+    "garden",
+    "outdoor",
+    "storage",
+    "transportation",
+    "vehicle",
+    "wheelbarrow"
+  ],
+  "caption": "A red wheelbarrow with two wheels."
 }

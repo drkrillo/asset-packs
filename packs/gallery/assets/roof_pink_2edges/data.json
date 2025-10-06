@@ -2,5 +2,16 @@
   "id": "fe7246a4-5b44-4d39-a4bf-b246bd94c1ea",
   "name": "Roof - Pink 2Edges",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "edge",
+    "facade",
+    "hue",
+    "interior",
+    "roof",
+    "shade",
+    "structure"
+  ],
+  "caption": "A pink of a simple roof with two edges."
 }

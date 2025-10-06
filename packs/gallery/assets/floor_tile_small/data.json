@@ -2,5 +2,16 @@
   "id": "3118af38-e574-418d-bb38-58ee9886d0c1",
   "name": "Floor - Tile Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "earthy",
+    "floor",
+    "furniture",
+    "ground",
+    "pattern",
+    "room",
+    "surface",
+    "terrain",
+    "tile"
+  ],
+  "caption": "A small brown tile in a style."
 }

@@ -2,5 +2,22 @@
   "id": "c905282b-97eb-4c5e-b02d-7d624d434bac",
   "name": "Stairs Fire Escape",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "burning",
+    "climb",
+    "combustion",
+    "descent",
+    "escape",
+    "exit",
+    "fire",
+    "flame",
+    "heat",
+    "ladder",
+    "rail",
+    "railing",
+    "safety",
+    "smoke",
+    "staircase"
+  ],
+  "caption": "A fire escape staircase with railings."
 }

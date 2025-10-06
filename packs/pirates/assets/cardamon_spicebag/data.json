@@ -10,6 +10,22 @@
     "spices",
     "sack",
     "fabric",
-    "leather"
-  ]
+    "leather",
+    "bag",
+    "chemical",
+    "combat",
+    "container",
+    "fuel",
+    "handle",
+    "hazardous",
+    "oil",
+    "petroleum",
+    "radioactive",
+    "spicebag",
+    "storage",
+    "tank",
+    "toxic",
+    "vessel"
+  ],
+  "caption": "A spice bag with a handle on top."
 }

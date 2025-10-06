@@ -2,5 +2,15 @@
   "id": "5ecc56f0-8b6a-47cb-b81a-c6937ec8ba98",
   "name": "Roof - Lime Corner",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "context",
+    "corner",
+    "facade",
+    "modeling",
+    "roof",
+    "structure"
+  ],
+  "caption": "A green corner piece of a roof in a 3d modeling context."
 }

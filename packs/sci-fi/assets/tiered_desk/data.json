@@ -7,6 +7,20 @@
     "lab",
     "table",
     "work",
-    "tools"
-  ]
+    "tools",
+    "computer",
+    "desk",
+    "dining",
+    "electronic",
+    "ergonomic",
+    "furniture",
+    "kitchen",
+    "mouse",
+    "multi",
+    "office",
+    "station",
+    "stationary",
+    "surface"
+  ],
+  "caption": "A three-tiered desk with a keyboard on the top tier and a mouse on the bottom tier."
 }

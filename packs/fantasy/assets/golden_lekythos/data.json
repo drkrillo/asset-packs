@@ -7,6 +7,16 @@
     "vase",
     "liquid",
     "gold",
-    "golden"
-  ]
+    "golden",
+    "antique",
+    "artifact",
+    "ceremonial",
+    "generated",
+    "greek",
+    "lekythos",
+    "ornate",
+    "relic",
+    "vessel"
+  ],
+  "caption": "A golden lekythos vase."
 }

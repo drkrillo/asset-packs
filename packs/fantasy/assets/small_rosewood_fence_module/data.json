@@ -7,6 +7,15 @@
     "fence",
     "wood",
     "wooden",
-    "module"
-  ]
+    "module",
+    "access",
+    "barrier",
+    "control",
+    "gate",
+    "handle",
+    "hardware",
+    "mechanism",
+    "rosewood"
+  ],
+  "caption": "A red of a small rosewood fence module with a blue handle on top."
 }

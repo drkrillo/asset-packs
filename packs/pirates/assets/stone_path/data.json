@@ -10,6 +10,14 @@
     "cobblestones",
     "stone",
     "stones",
-    "path"
-  ]
+    "path",
+    "architectural",
+    "arrangement",
+    "grayscale",
+    "ground",
+    "pattern",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A stone path with various shades of gray stones arranged in a pattern."
 }

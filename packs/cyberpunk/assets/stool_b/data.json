@@ -2,5 +2,17 @@
   "id": "d82901d7-6176-4624-a31a-7b7637cfaf42",
   "name": "Stool B",
   "category": "furniture",
-  "tags": []
+  "tags": [
+    "border",
+    "desk",
+    "dining",
+    "furniture",
+    "hexagon",
+    "kitchen",
+    "seat",
+    "stool",
+    "surface",
+    "table"
+  ],
+  "caption": "A blue stool with a hexagonal top, placed on a black surface with a white border."
 }

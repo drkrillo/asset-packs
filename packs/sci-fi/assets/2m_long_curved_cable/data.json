@@ -7,6 +7,18 @@
     "energy",
     "power",
     "electricity",
-    "connectors"
-  ]
+    "connectors",
+    "cable",
+    "curved",
+    "electric",
+    "fixture",
+    "function",
+    "infrastructure",
+    "installation",
+    "long",
+    "supply",
+    "utility",
+    "wire"
+  ],
+  "caption": "A long, curved cable with a yellow object attached to it."
 }

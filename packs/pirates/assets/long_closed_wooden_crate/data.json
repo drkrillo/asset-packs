@@ -12,6 +12,14 @@
     "leather",
     "strips",
     "crate",
-    "box"
-  ]
+    "box",
+    "container",
+    "drum",
+    "long",
+    "rope",
+    "storage",
+    "tank",
+    "vessel"
+  ],
+  "caption": "A long wooden crate with a rope tied around it."
 }

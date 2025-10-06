@@ -2,5 +2,18 @@
   "id": "f479bffc-70b7-41e3-bce6-55ac8ea9a472",
   "name": "Floor - Dark Grey",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "asphalt",
+    "concrete",
+    "dark",
+    "floor",
+    "greyish",
+    "ground",
+    "industrial",
+    "pavement",
+    "surface",
+    "tile",
+    "urban"
+  ],
+  "caption": "A dark grey floor."
 }

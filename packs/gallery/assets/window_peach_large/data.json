@@ -2,5 +2,19 @@
   "id": "fbb90efb-dbec-4dc2-bc0e-24290fe007c0",
   "name": "Window - Peach Large",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "colored",
+    "frame",
+    "glass",
+    "opaque",
+    "panes",
+    "peach",
+    "transparent",
+    "window",
+    "windowed",
+    "windowframe",
+    "windowpane",
+    "windowpanes"
+  ],
+  "caption": "A large red window with a black frame."
 }

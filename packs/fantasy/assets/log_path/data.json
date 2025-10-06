@@ -9,6 +9,14 @@
     "path",
     "pathway",
     "wood",
-    "wooden"
-  ]
+    "wooden",
+    "arrangement",
+    "line",
+    "logs",
+    "multiple",
+    "natural",
+    "straight",
+    "terrain"
+  ],
+  "caption": "A wooden log path with multiple logs arranged in a straight line."
 }

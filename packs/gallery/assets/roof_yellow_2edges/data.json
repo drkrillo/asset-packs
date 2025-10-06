@@ -2,5 +2,15 @@
   "id": "7857aa52-e50a-4381-a869-fdaf132cb0ae",
   "name": "Roof - Yellow 2Edges",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "edge",
+    "flat",
+    "form",
+    "like",
+    "roof",
+    "shaped",
+    "top",
+    "type"
+  ],
+  "caption": "A simple yellow resembling a roof with two edges."
 }

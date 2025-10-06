@@ -9,6 +9,18 @@
     "nature",
     "sand",
     "dune",
-    "beach"
-  ]
+    "beach",
+    "desert",
+    "dunes",
+    "earth",
+    "elevation",
+    "ground",
+    "hill",
+    "landscape",
+    "mound",
+    "sandy",
+    "shore",
+    "terrain"
+  ],
+  "caption": "Small dune of sand in a desert landscape."
 }

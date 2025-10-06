@@ -11,6 +11,20 @@
     "crop",
     "vegetation",
     "flowers",
-    "succulent"
-  ]
+    "succulent",
+    "berry",
+    "bloom",
+    "botanical",
+    "colorful",
+    "flower",
+    "foliage",
+    "fruit",
+    "garden",
+    "greenery",
+    "herb",
+    "landscape",
+    "outdoor",
+    "petal"
+  ],
+  "caption": "A succulent plant with three red berries on top."
 }

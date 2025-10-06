@@ -2,5 +2,22 @@
   "id": "223eabed-10e4-42e1-ba1c-0fb6f59b73cd",
   "name": "Chest Tube Key",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "access",
+    "accesspoint",
+    "box",
+    "container",
+    "handle",
+    "key",
+    "keycard",
+    "keychain",
+    "keyholder",
+    "keyring",
+    "lock",
+    "lockbox",
+    "lockpick",
+    "mechanism",
+    "pick"
+  ],
+  "caption": "A key."
 }

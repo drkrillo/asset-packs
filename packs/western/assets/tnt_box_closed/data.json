@@ -2,5 +2,17 @@
   "id": "10f98877-2301-483f-8cf6-0c265b3c47a5",
   "name": "TNT Box Closed",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "ammunition",
+    "box",
+    "cargo",
+    "container",
+    "dangerous",
+    "explosive",
+    "hazardous",
+    "military",
+    "storage",
+    "tnt"
+  ],
+  "caption": "A closed tnt box with a brown texture."
 }

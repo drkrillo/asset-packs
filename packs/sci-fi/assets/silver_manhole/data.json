@@ -6,6 +6,17 @@
     "scifi",
     "spaceship",
     "base",
-    "hole"
-  ]
+    "hole",
+    "cover",
+    "drain",
+    "lid",
+    "manhole",
+    "pipe",
+    "pit",
+    "plate",
+    "round",
+    "sewer",
+    "utility"
+  ],
+  "caption": "A manhole cover."
 }

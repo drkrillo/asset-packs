@@ -10,6 +10,13 @@
     "tool",
     "wood",
     "wooden",
-    "fabric"
-  ]
+    "fabric",
+    "apprentice",
+    "artifact",
+    "ceremonial",
+    "magical",
+    "ribbon",
+    "ritual"
+  ],
+  "caption": "A staff with a red ribbon tied around it."
 }

@@ -2,5 +2,21 @@
   "id": "8cb72f7b-0216-4bef-a9e9-dbef377eca14",
   "name": "Beam Exterior 3",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "access",
+    "beam",
+    "building",
+    "column",
+    "construction",
+    "exterior",
+    "foundation",
+    "frame",
+    "framework",
+    "ladder",
+    "scaffolding",
+    "structure",
+    "support",
+    "trestle"
+  ],
+  "caption": "A simple wooden structure with four vertical supports connected by horizontal beams, resembling a basic scaffolding or trestle design."
 }

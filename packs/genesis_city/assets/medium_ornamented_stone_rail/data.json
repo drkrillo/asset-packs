@@ -13,6 +13,11 @@
     "fence",
     "fences",
     "garden",
-    "park"
-  ]
+    "park",
+    "barrier",
+    "framework",
+    "post",
+    "structure"
+  ],
+  "caption": "A simple, wooden railing with three vertical posts and a horizontal bar connecting them."
 }

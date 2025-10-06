@@ -2,5 +2,22 @@
   "id": "d3f31e1e-70ae-4fac-a87f-fee05467e6dd",
   "name": "Stick",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "branch",
+    "environment",
+    "foliage",
+    "forest",
+    "furniture",
+    "handle",
+    "leaves",
+    "natural",
+    "nature",
+    "organic",
+    "outdoor",
+    "roots",
+    "stick",
+    "tree",
+    "trunk"
+  ],
+  "caption": "A simple, brown wooden stick with a black handle on top."
 }

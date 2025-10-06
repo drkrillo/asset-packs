@@ -9,6 +9,18 @@
     "stones",
     "rock",
     "rocks",
-    "forest"
-  ]
+    "forest",
+    "boulder",
+    "earth",
+    "fragment",
+    "gravel",
+    "ground",
+    "landscape",
+    "mineral",
+    "mineraloid",
+    "pebble",
+    "pebbles",
+    "terrain"
+  ],
+  "caption": "A collection of five pebbles in a dark space."
 }

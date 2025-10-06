@@ -9,6 +9,11 @@
     "furniture",
     "construction",
     "light",
-    "lighting"
-  ]
+    "lighting",
+    "camera",
+    "photography",
+    "studio",
+    "tripod"
+  ],
+  "caption": "A yellow tripod with a camera mounted on top."
 }

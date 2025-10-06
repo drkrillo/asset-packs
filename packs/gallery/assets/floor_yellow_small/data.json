@@ -2,5 +2,14 @@
   "id": "95cf562e-f909-4f51-9611-c55321ecd159",
   "name": "Floor - Yellow Small",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "flat",
+    "floor",
+    "ground",
+    "pattern",
+    "surface",
+    "terrain",
+    "tile"
+  ],
+  "caption": "A small yellow floor tile."
 }

@@ -7,6 +7,20 @@
     "swamp",
     "forest",
     "spines",
-    "cactus"
-  ]
+    "cactus",
+    "cacti",
+    "desert",
+    "fauna",
+    "flora",
+    "foliage",
+    "plant",
+    "prickles",
+    "prickly",
+    "spike",
+    "spiky",
+    "succulent",
+    "thorn",
+    "vegetation"
+  ],
+  "caption": "A red cactus with multiple spikes."
 }

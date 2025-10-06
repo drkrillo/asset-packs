@@ -12,6 +12,15 @@
     "vehicle",
     "wheel",
     "wheels",
-    "blue"
-  ]
+    "blue",
+    "cycle",
+    "cycling",
+    "driving",
+    "pedal",
+    "seat",
+    "speed",
+    "sport",
+    "transportation"
+  ],
+  "caption": "A blue bicycle with white wheels and an orange seat."
 }

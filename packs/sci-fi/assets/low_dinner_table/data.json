@@ -6,6 +6,20 @@
     "scifi",
     "base",
     "tool",
-    "work"
-  ]
+    "work",
+    "comfort",
+    "desk",
+    "dining",
+    "fortress",
+    "furniture",
+    "hexagonal",
+    "kitchen",
+    "palace",
+    "royal",
+    "seating",
+    "stronghold",
+    "surface",
+    "table"
+  ],
+  "caption": "A hexagonal table."
 }

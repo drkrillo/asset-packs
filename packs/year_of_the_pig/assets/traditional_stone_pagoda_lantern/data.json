@@ -7,6 +7,16 @@
     "stone",
     "lantern",
     "traditional",
-    "garden"
-  ]
+    "garden",
+    "architecture",
+    "building",
+    "chinese",
+    "monument",
+    "ornamentation",
+    "pagoda",
+    "pagodan",
+    "roof",
+    "structure"
+  ],
+  "caption": "A small, traditional stone pagoda with a lantern on top."
 }

@@ -7,6 +7,17 @@
     "rope",
     "line",
     "cord",
-    "string"
-  ]
+    "string",
+    "fiber",
+    "grip",
+    "handle",
+    "knot",
+    "knotted",
+    "loop",
+    "textile",
+    "tied",
+    "twine",
+    "utility"
+  ],
+  "caption": "Small rope with a knot on top."
 }

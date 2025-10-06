@@ -6,6 +6,15 @@
     "fantasy",
     "tile",
     "stone",
-    "path"
-  ]
+    "path",
+    "earthy",
+    "floor",
+    "granite",
+    "ground",
+    "natural",
+    "rough",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A stone tile with a rough texture."
 }

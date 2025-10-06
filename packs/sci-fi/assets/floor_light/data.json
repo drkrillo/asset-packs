@@ -7,6 +7,19 @@
     "power",
     "spark",
     "base",
-    "spaceship"
-  ]
+    "spaceship",
+    "beam",
+    "brightness",
+    "fixture",
+    "floor",
+    "glow",
+    "illuminant",
+    "illumination",
+    "luminous",
+    "radiance",
+    "rectangular",
+    "source",
+    "spotlight"
+  ],
+  "caption": "A small, rectangular object."
 }

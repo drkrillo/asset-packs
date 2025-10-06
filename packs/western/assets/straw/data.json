@@ -2,5 +2,22 @@
   "id": "da7680db-96dd-4728-ae31-2ad300b5edb8",
   "name": "Straw",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "drink",
+    "fiber",
+    "field",
+    "grass",
+    "ground",
+    "lawn",
+    "leaf",
+    "meadow",
+    "natural",
+    "nature",
+    "organic",
+    "outdoor",
+    "paper",
+    "plant",
+    "stem"
+  ],
+  "caption": "A straw."
 }

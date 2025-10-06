@@ -8,6 +8,14 @@
     "crystal",
     "gem",
     "gemstone",
-    "stone"
-  ]
+    "stone",
+    "artifact",
+    "border",
+    "hexagon",
+    "mysterious",
+    "mystical",
+    "relic",
+    "shape"
+  ],
+  "caption": "A hexagonal shape with a black center and a white border."
 }

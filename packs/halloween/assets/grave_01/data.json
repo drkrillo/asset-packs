@@ -2,5 +2,19 @@
   "id": "b46a16b0-4acf-4086-b15d-636ac649ddea",
   "name": "Grave 01",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "burial",
+    "cemetery",
+    "cross",
+    "epitaph",
+    "funeral",
+    "grave",
+    "headstone",
+    "marker",
+    "mausoleum",
+    "memorial",
+    "monument",
+    "tombstone"
+  ],
+  "caption": "A simple, white cross on top of a small, rectangular monument or headstone."
 }

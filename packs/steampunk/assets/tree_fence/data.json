@@ -2,5 +2,21 @@
   "id": "6d7cc92e-dc56-452e-bc0e-a5797d762e8f",
   "name": "Tree Fence",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "branch",
+    "foliage",
+    "forest",
+    "gear",
+    "industrial",
+    "leaf",
+    "leaves",
+    "mechanical",
+    "meshed",
+    "nature",
+    "outdoor",
+    "roots",
+    "tree",
+    "trunk"
+  ],
+  "caption": "A tree-shaped fence with gears as its leaves."
 }

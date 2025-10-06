@@ -6,6 +6,16 @@
     "fantasy",
     "red",
     "banner",
-    "court"
-  ]
+    "court",
+    "advertisement",
+    "bannerboard",
+    "display",
+    "emblem",
+    "flag",
+    "graphic",
+    "logo",
+    "notice",
+    "poster"
+  ],
+  "caption": "A small red banner with a white emblem on it."
 }

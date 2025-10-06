@@ -2,5 +2,19 @@
   "id": "dc4f8ff2-1f2a-47cc-937a-d48dda62578a",
   "name": "Window 2x4 V3 B Open",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "frame",
+    "glass",
+    "opening",
+    "pane",
+    "panes",
+    "shutter",
+    "translucent",
+    "transparency",
+    "transparent",
+    "view",
+    "window",
+    "windowpane"
+  ],
+  "caption": "A simple, two-by-four window with an open shutter."
 }

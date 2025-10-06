@@ -11,6 +11,18 @@
     "rocks",
     "stone",
     "stones",
-    "forest"
-  ]
+    "forest",
+    "boulder",
+    "earthy",
+    "geological",
+    "landscape",
+    "medium",
+    "natural",
+    "pebble",
+    "rocky",
+    "rounded",
+    "sedimentary",
+    "terrain"
+  ],
+  "caption": "A rounded medium rock."
 }

@@ -9,6 +9,12 @@
     "statue",
     "mossy",
     "gem",
-    "gemstone"
-  ]
+    "gemstone",
+    "artifact",
+    "moss",
+    "nature",
+    "relic",
+    "sculpture"
+  ],
+  "caption": "A fantasy-themed statue with green moss and a blue gemstone on its chest."
 }

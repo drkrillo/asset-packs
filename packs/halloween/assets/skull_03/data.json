@@ -2,5 +2,19 @@
   "id": "6801a4bb-f98d-48a7-969b-2afc9571830d",
   "name": "Skull 03",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "anatomy",
+    "bone",
+    "corpse",
+    "creature",
+    "eye",
+    "face",
+    "ghoul",
+    "head",
+    "horror",
+    "monster",
+    "skull",
+    "undead"
+  ],
+  "caption": "A skull with green eyes."
 }

@@ -6,6 +6,20 @@
     "scifi",
     "storage",
     "spaceship",
-    "lab"
-  ]
+    "lab",
+    "arrangement",
+    "box",
+    "can",
+    "container",
+    "hexagon",
+    "hexagonal",
+    "lid",
+    "polyhedron",
+    "prism",
+    "shape",
+    "stack",
+    "structure",
+    "top"
+  ],
+  "caption": "A hexagonal container with an open top, placed next to another hexagonal container with a closed top."
 }

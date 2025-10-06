@@ -9,6 +9,18 @@
     "wooden",
     "leather",
     "iron",
-    "eye"
-  ]
+    "eye",
+    "artifact",
+    "box",
+    "container",
+    "gem",
+    "lid",
+    "mysterious",
+    "myth",
+    "ornate",
+    "pandora",
+    "pandoras",
+    "relic"
+  ],
+  "caption": "A pandora's box with an open lid, revealing a blue gem inside."
 }

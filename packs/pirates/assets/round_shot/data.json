@@ -13,6 +13,18 @@
     "rounded",
     "ammunition",
     "shot",
-    "cannon"
-  ]
+    "cannon",
+    "ball",
+    "form",
+    "function",
+    "globe",
+    "motion",
+    "orb",
+    "physics",
+    "projectile",
+    "shape",
+    "spherical",
+    "trajectory"
+  ],
+  "caption": "A spherical object with a geometric texture on its surface."
 }

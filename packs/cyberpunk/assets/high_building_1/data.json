@@ -2,5 +2,21 @@
   "id": "5757f78c-c939-4163-a260-fc9bff715553",
   "name": "High Building 1",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "architecture",
+    "building",
+    "cityscape",
+    "high",
+    "highway",
+    "landmark",
+    "line",
+    "monument",
+    "rise",
+    "skyscraper",
+    "structure",
+    "tower",
+    "transportation",
+    "urban"
+  ],
+  "caption": "A building with a yellow line running through it."
 }

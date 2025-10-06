@@ -11,6 +11,16 @@
     "sidewalk",
     "curb",
     "curbs",
-    "city"
-  ]
+    "city",
+    "background",
+    "block",
+    "brick",
+    "corner",
+    "flat",
+    "pattern",
+    "rectangle",
+    "shape",
+    "surface"
+  ],
+  "caption": "A simple, flat, rectangular block with rounded corners, resembling a piece of wood or a small brick, against a black background."
 }

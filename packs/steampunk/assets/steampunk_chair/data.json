@@ -2,5 +2,19 @@
   "id": "a92e3cfe-6b4f-4485-8605-bc6769ce3e76",
   "name": "Steampunk Chair",
   "category": "furniture",
-  "tags": []
+  "tags": [
+    "chair",
+    "comfort",
+    "dining",
+    "frame",
+    "furniture",
+    "industrial",
+    "kitchen",
+    "office",
+    "rest",
+    "seat",
+    "sitting",
+    "steampunk"
+  ],
+  "caption": "Steampunk-style chair with a red seat and metal frame."
 }

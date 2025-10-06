@@ -9,6 +9,17 @@
     "round",
     "wood",
     "wooden",
-    "iron"
-  ]
+    "iron",
+    "base",
+    "combat",
+    "desk",
+    "dining",
+    "furniture",
+    "kitchen",
+    "rest",
+    "royal",
+    "seat",
+    "surface"
+  ],
+  "caption": "A round wooden table with a brown top and a black base."
 }

@@ -2,5 +2,19 @@
   "id": "0dc9abed-5bcb-45ff-9466-121880c7481e",
   "name": "Roof - Blue 4Edges",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecture",
+    "box",
+    "building",
+    "corner",
+    "edge",
+    "flat",
+    "four",
+    "roof",
+    "roofbox",
+    "shape",
+    "structure",
+    "top"
+  ],
+  "caption": "A blue of a simple geometric structure with four edges, resembling a roof or a flat-topped box."
 }

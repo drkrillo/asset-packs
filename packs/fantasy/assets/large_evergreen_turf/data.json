@@ -8,6 +8,20 @@
     "forest",
     "grass",
     "evergreen",
-    "turf"
-  ]
+    "turf",
+    "artificial",
+    "environment",
+    "field",
+    "grassy",
+    "ground",
+    "landscape",
+    "lawn",
+    "meadow",
+    "nature",
+    "outdoor",
+    "rectangle",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A green, rectangular resembling artificial turf."
 }

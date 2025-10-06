@@ -7,6 +7,16 @@
     "stone",
     "floor",
     "path",
-    "tile"
-  ]
+    "tile",
+    "architectural",
+    "building",
+    "earthy",
+    "ground",
+    "natural",
+    "realistic",
+    "rustic",
+    "surface",
+    "terrain"
+  ],
+  "caption": "A stone floor with a realistic texture."
 }

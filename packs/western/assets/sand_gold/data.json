@@ -2,5 +2,15 @@
   "id": "6cfbdc0c-9f3e-411f-b16d-aa489371da83",
   "name": "Sand Gold",
   "category": "ground",
-  "tags": []
+  "tags": [
+    "array",
+    "close",
+    "dot",
+    "gravel",
+    "pattern",
+    "sand",
+    "surface",
+    "visual"
+  ],
+  "caption": "A close-up view of a textured surface with small dots, resembling a patterned material like sand or gravel."
 }

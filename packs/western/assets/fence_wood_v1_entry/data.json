@@ -2,5 +2,17 @@
   "id": "b9018175-ac71-4c5d-be40-cfae805a2e92",
   "name": "Fence Wood V1 Entry",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "background",
+    "barrier",
+    "climbing",
+    "entry",
+    "gate",
+    "ladder",
+    "ladders",
+    "rung",
+    "searchable",
+    "step"
+  ],
+  "caption": "Two wooden ladders with brown rungs against a black background."
 }

@@ -10,6 +10,20 @@
     "reaper",
     "dead",
     "beyond",
-    "door"
-  ]
+    "door",
+    "arch",
+    "barrier",
+    "doorway",
+    "entrance",
+    "exit",
+    "gate",
+    "gateway",
+    "other",
+    "passage",
+    "passageway",
+    "portal",
+    "side",
+    "threshold"
+  ],
+  "caption": "A sign."
 }

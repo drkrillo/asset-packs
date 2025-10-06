@@ -13,6 +13,15 @@
     "leather",
     "sword",
     "excalibur",
-    "weapon"
-  ]
+    "weapon",
+    "artifact",
+    "blade",
+    "combat",
+    "gemstone",
+    "noble",
+    "relic",
+    "royal",
+    "steel"
+  ],
+  "caption": "A sword with a purple gemstone on top."
 }

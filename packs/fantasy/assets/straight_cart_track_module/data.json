@@ -6,6 +6,17 @@
     "fantasy",
     "track",
     "cart",
-    "straight"
-  ]
+    "straight",
+    "module",
+    "path",
+    "rail",
+    "railroad",
+    "railway",
+    "route",
+    "speed",
+    "train",
+    "transportation",
+    "vehicle"
+  ],
+  "caption": "A straight cart track module."
 }

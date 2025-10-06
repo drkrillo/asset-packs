@@ -2,5 +2,22 @@
   "id": "ce769508-1bb1-4eee-ae00-eccd48b47a80",
   "name": "Bonfire 2",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "blaze",
+    "bonfire",
+    "burning",
+    "combustion",
+    "cozy",
+    "ember",
+    "fire",
+    "fireplace",
+    "firewood",
+    "flame",
+    "flames",
+    "glow",
+    "hearth",
+    "heat",
+    "smoke"
+  ],
+  "caption": "A traditional-style bonfire with flames atop."
 }

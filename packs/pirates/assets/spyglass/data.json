@@ -9,6 +9,20 @@
     "decorations",
     "brass",
     "glass",
-    "retractable"
-  ]
+    "retractable",
+    "frame",
+    "lens",
+    "magnifier",
+    "observation",
+    "optics",
+    "scope",
+    "sight",
+    "spyglass",
+    "surveillance",
+    "telescope",
+    "viewfinder",
+    "vision",
+    "window"
+  ],
+  "caption": "A spyglass with a blue lens."
 }

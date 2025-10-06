@@ -2,5 +2,20 @@
   "id": "362290a7-17a1-4774-a496-b2d68856f1d4",
   "name": "Tube - Blue",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "cylindrical",
+    "fixture",
+    "fluorescent",
+    "futuristic",
+    "glassy",
+    "glow",
+    "lighting",
+    "shape",
+    "tall",
+    "thin",
+    "top",
+    "transparent",
+    "tube"
+  ],
+  "caption": "A tall, thin, blue tube with a green light at the top."
 }

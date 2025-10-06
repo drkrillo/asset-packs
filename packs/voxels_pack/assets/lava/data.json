@@ -2,5 +2,21 @@
   "id": "56aae1c1-03f9-451f-9b04-55a8c84cc77b",
   "name": "Lava",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "burning",
+    "combustion",
+    "fiery",
+    "fire",
+    "flame",
+    "heat",
+    "hot",
+    "igneous",
+    "lava",
+    "lavaflow",
+    "magma",
+    "molten",
+    "smoke",
+    "volcanic"
+  ],
+  "caption": "A cube with a red and black lava texture on its sides."
 }

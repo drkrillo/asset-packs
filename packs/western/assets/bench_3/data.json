@@ -2,5 +2,21 @@
   "id": "7b0c713b-b1e9-4514-ac6d-152d3ef23dc4",
   "name": "Bench 3",
   "category": "furniture",
-  "tags": []
+  "tags": [
+    "bench",
+    "comfort",
+    "desk",
+    "dining",
+    "furniture",
+    "kitchen",
+    "maple",
+    "oak",
+    "pine",
+    "rest",
+    "seat",
+    "seating",
+    "surface",
+    "table"
+  ],
+  "caption": "A simple, flat-topped wooden bench with no visible details or textures."
 }

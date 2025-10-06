@@ -2,5 +2,22 @@
   "id": "3556eafb-86c4-4378-aa41-39b2148ef031",
   "name": "Window - GreyGreen Large",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "dark",
+    "frame",
+    "glass",
+    "greygreen",
+    "interior",
+    "opaque",
+    "pane",
+    "panes",
+    "rectangle",
+    "rectangular",
+    "sight",
+    "transparent",
+    "view",
+    "vision",
+    "window"
+  ],
+  "caption": "A large, rectangular window with a grey-green frame and a dark interior."
 }

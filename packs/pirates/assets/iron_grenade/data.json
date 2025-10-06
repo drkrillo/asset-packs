@@ -10,6 +10,17 @@
     "iron",
     "weapon",
     "wick",
-    "boom"
-  ]
+    "boom",
+    "armor",
+    "combat",
+    "defense",
+    "explosive",
+    "fuse",
+    "grenade",
+    "military",
+    "munition",
+    "ordnance",
+    "projectile"
+  ],
+  "caption": "An iron grenade with a fuse."
 }

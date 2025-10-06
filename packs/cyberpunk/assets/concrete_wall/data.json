@@ -2,5 +2,17 @@
   "id": "53aa3052-ccd7-4a05-be3f-f840acbff99e",
   "name": "Concrete Wall",
   "category": "structures",
-  "tags": []
+  "tags": [
+    "architecture",
+    "barrier",
+    "building",
+    "concrete",
+    "defense",
+    "fortification",
+    "fortress",
+    "palace",
+    "stronghold",
+    "structure"
+  ],
+  "caption": "A gray concrete wall."
 }

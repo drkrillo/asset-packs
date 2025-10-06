@@ -2,5 +2,17 @@
   "id": "f26867b4-2922-456d-a851-b7766ab6a7a9",
   "name": "WallCorner - Grey",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "architecturalelement",
+    "buildingblock",
+    "corner",
+    "cornerpiece",
+    "floor",
+    "floordecor",
+    "greyfloor",
+    "greywall",
+    "structuralcomponent",
+    "walldecor"
+  ],
+  "caption": "A simple gray corner piece for a wall or floor in a 3d modeling context."
 }

@@ -6,6 +6,15 @@
     "fantasy",
     "stone",
     "magic",
-    "rune"
-  ]
+    "rune",
+    "ball",
+    "crystal",
+    "enchanted",
+    "gem",
+    "glowing",
+    "lines",
+    "mystical",
+    "orb"
+  ],
+  "caption": "A glowing, spherical object with blue and black lines on its surface."
 }

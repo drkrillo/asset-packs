@@ -2,5 +2,19 @@
   "id": "17d41c8d-abe2-42b4-a08e-742657130081",
   "name": "Stone Bricks - Moss",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "brick",
+    "earthy",
+    "environment",
+    "foliage",
+    "growth",
+    "landscape",
+    "moss",
+    "natural",
+    "outdoor",
+    "plant",
+    "stonebrick",
+    "terrain"
+  ],
+  "caption": "A block made of stone bricks with moss growing on them."
 }

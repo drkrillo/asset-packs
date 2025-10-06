@@ -6,6 +6,21 @@
     "fantasy",
     "stair",
     "stone",
-    "step"
-  ]
+    "step",
+    "architecture",
+    "artificial",
+    "automation",
+    "building",
+    "castle",
+    "defense",
+    "fortress",
+    "functionality",
+    "guard",
+    "machine",
+    "palace",
+    "protection",
+    "royal",
+    "security"
+  ],
+  "caption": "A small set of stone stairs with a simple design."
 }

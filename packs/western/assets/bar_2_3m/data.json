@@ -2,5 +2,22 @@
   "id": "c1df1416-3b66-4fa7-890b-d292521a853c",
   "name": "Bar 2 3M",
   "category": "furniture",
-  "tags": []
+  "tags": [
+    "bottle",
+    "chemical",
+    "container",
+    "desk",
+    "dining",
+    "fuel",
+    "furniture",
+    "hazardous",
+    "kitchen",
+    "oil",
+    "petroleum",
+    "radioactive",
+    "shelf",
+    "storage",
+    "stronghold"
+  ],
+  "caption": "A three-tiered wooden shelf with various bottles on it."
 }

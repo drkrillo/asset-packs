@@ -6,6 +6,15 @@
     "genesis",
     "city",
     "town",
-    "ground"
-  ]
+    "ground",
+    "architecture",
+    "brick",
+    "brickwall",
+    "building",
+    "earthy",
+    "natural",
+    "rustic",
+    "structure"
+  ],
+  "caption": "A close-up of a wooden brick wall texture."
 }

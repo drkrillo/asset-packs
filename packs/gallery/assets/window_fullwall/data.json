@@ -2,5 +2,20 @@
   "id": "7cd98940-78b6-4b61-af5d-da43f3360022",
   "name": "Window - FullWall ",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "clear",
+    "doorless",
+    "frame",
+    "fullwall",
+    "glass",
+    "glazed",
+    "pane",
+    "rectangular",
+    "searchable",
+    "sill",
+    "transparent",
+    "window",
+    "windowpane"
+  ],
+  "caption": "A full wall window in a style."
 }

@@ -2,5 +2,12 @@
   "id": "6a6f6e4d-ed49-486c-a49f-622c6e5dd094",
   "name": "Roof - DarkGrey 2Edges",
   "category": "decorations",
-  "tags": []
+  "tags": [
+    "dark",
+    "edge",
+    "edges",
+    "flat",
+    "roof"
+  ],
+  "caption": "A dark grey roof with two edges in a format."
 }

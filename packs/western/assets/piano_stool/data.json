@@ -2,5 +2,22 @@
   "id": "122cdf10-4c2f-437d-933a-0322ff126b5d",
   "name": "Piano stool",
   "category": "furniture",
-  "tags": []
+  "tags": [
+    "base",
+    "chair",
+    "desk",
+    "dining",
+    "furniture",
+    "kitchen",
+    "office",
+    "piano",
+    "rest",
+    "seat",
+    "sitting",
+    "stand",
+    "stool",
+    "surface",
+    "table"
+  ],
+  "caption": "A small, square wooden table with a red top and a brown base, placed on a black stand."
 }

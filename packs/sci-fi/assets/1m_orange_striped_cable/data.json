@@ -7,6 +7,16 @@
     "energy",
     "power",
     "electricity",
-    "connectors"
-  ]
+    "connectors",
+    "aesthetic",
+    "appearance",
+    "cable",
+    "function",
+    "pattern",
+    "stripe",
+    "striped",
+    "utility",
+    "visual"
+  ],
+  "caption": "An orange cable with a stripe pattern."
 }
